@@ -35,4 +35,4 @@ Paleta: fundo branco, texto grafite `#0F172A`, secundário `#6B7280`, acento ún
 
 ## Pendências conhecidas
 
-- Número oficial de WhatsApp em `src/data/site.ts` está provisório (marcado com TODO).
+- Nenhuma no momento. Contatos oficiais: WhatsApp +55 16 99125-2073 (em `src/data/site.ts`), sem e-mail público.

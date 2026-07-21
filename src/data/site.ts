@@ -4,8 +4,8 @@ export const site = {
   descricao:
     "Agência de marketing digital para brasileiros que empreendem nos Estados Unidos. Tráfego pago, SEO e criação de sites que trazem clientes de verdade.",
   whatsapp: {
-    // TODO: definir o numero oficial no formato internacional, ex: 13050000000
-    numero: "13050000000",
+    // +55 16 99125-2073 no formato internacional do wa.me
+    numero: "5516991252073",
     mensagemPadrao:
       "Olá! Vim pelo site da Etuos e quero atrair mais clientes para o meu negócio.",
   },
