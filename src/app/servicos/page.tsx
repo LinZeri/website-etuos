@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Serviços de marketing digital",
   description:
     "Tráfego pago, SEO e criação de sites para brasileiros que empreendem nos Estados Unidos. Veja como a Etuos pode ajudar o seu negócio.",
+  alternates: { canonical: "/servicos" },
 };
 
 export default function ServicosPage() {

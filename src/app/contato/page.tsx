@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Contato",
   description:
     "Fale com a Etuos pelo WhatsApp e descubra como atrair mais clientes para o seu negócio nos Estados Unidos.",
+  alternates: { canonical: "/contato" },
 };
 
 export default function ContatoPage() {

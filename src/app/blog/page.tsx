@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Blog: marketing digital para brasileiros nos EUA",
   description:
     "Artigos sobre marketing digital, tráfego pago, SEO e vendas para brasileiros que empreendem nos Estados Unidos.",
+  alternates: { canonical: "/blog" },
 };
 
 export default function BlogPage() {

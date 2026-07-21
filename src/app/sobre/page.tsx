@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Sobre a Etuos",
   description:
     "Conheça a Etuos, agência de marketing digital criada para ajudar brasileiros a crescerem com seus negócios nos Estados Unidos.",
+  alternates: { canonical: "/sobre" },
 };
 
 // Placeholder: conteúdo real na próxima fase.
