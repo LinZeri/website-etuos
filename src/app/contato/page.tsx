@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
-import { site } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Contato",
   description:
-    "Fale com a Etuos pelo WhatsApp ou e-mail e descubra como atrair mais clientes para o seu negócio nos Estados Unidos.",
+    "Fale com a Etuos pelo WhatsApp e descubra como atrair mais clientes para o seu negócio nos Estados Unidos.",
 };
 
 export default function ContatoPage() {
@@ -19,13 +18,6 @@ export default function ContatoPage() {
       <div className="mt-8">
         <WhatsAppButton />
       </div>
-      <p className="mt-8 opacity-80">
-        Prefere e-mail? Escreva para{" "}
-        <a href={`mailto:${site.email}`} className="underline">
-          {site.email}
-        </a>
-        .
-      </p>
     </div>
   );
 }

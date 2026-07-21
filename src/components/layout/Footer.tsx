@@ -6,7 +6,7 @@ import { site } from "@/data/site";
 export function Footer() {
   const ano = new Date().getFullYear();
   return (
-    <footer className="mt-16 border-t border-black/10 text-sm">
+    <footer className="mt-16 border-t border-border text-sm">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-3">
         <div>
           <p className="text-lg font-bold">{site.nome}</p>
@@ -37,7 +37,7 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-black/10">
+      <div className="border-t border-border">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-4 opacity-70">
           <p>
             © {ano} {site.nome}. Todos os direitos reservados.

@@ -6,6 +6,8 @@ type Props = {
   className?: string;
 };
 
+// Regra de marca: o verde ácido (--color-accent) sempre com texto grafite,
+// nunca com texto branco (contraste insuficiente).
 export function WhatsAppButton({ texto, mensagem, className }: Props) {
   return (
     <a
@@ -14,7 +16,7 @@ export function WhatsAppButton({ texto, mensagem, className }: Props) {
       rel="noopener noreferrer"
       className={
         className ??
-        "inline-block rounded-lg bg-green-600 px-6 py-3 font-semibold text-white transition hover:bg-green-700"
+        "inline-block rounded-lg bg-accent px-6 py-3 font-semibold text-foreground transition hover:brightness-95"
       }
     >
       {texto ?? "Falar no WhatsApp"}

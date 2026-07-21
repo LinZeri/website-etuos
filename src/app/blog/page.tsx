@@ -18,7 +18,7 @@ export default function BlogPage() {
       </p>
       <ul className="mt-8 space-y-6">
         {posts.map((post) => (
-          <li key={post.slug} className="rounded-xl border border-black/10 p-6">
+          <li key={post.slug} className="rounded-xl border border-border p-6">
             <Link href={`/blog/${post.slug}`}>
               <h2 className="text-xl font-semibold hover:underline">
                 {post.frontmatter.titulo}

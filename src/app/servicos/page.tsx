@@ -21,7 +21,7 @@ export default function ServicosPage() {
           <Link
             key={servico.slug}
             href={`/servicos/${servico.slug}`}
-            className="rounded-xl border border-black/10 p-6 transition hover:border-black/30"
+            className="rounded-xl border border-border p-6 transition hover:border-foreground/40"
           >
             <h2 className="text-xl font-semibold">{servico.nome}</h2>
             <p className="mt-2 opacity-80">{servico.descricaoCurta}</p>

@@ -29,7 +29,10 @@ Site institucional da Etuos, agência de marketing digital para brasileiros que 
 
 Tom próximo e direto: usa "você", frases curtas, voz ativa, confiante sem arrogância. Nada de juridiquês ou corporativês. A conversão principal do site é o WhatsApp: todo CTA relevante aponta para ele. Detalhes em `docs/diretrizes-comunicacao.md`.
 
+## Identidade visual (resumo)
+
+Paleta: fundo branco, texto grafite `#0F172A`, secundário `#6B7280`, acento único verde ácido `#A3E635` (nunca com texto branco por cima). Fontes: Anton para títulos (caixa alta), Inter para texto. Tokens em `src/app/globals.css`, detalhes e regras em `docs/design.md`. A Etuos não tem e-mail público: todo contato é via WhatsApp.
+
 ## Pendências conhecidas
 
-- Número oficial de WhatsApp e e-mail em `src/data/site.ts` estão com valores provisórios (marcados com TODO).
-- Paleta e tipografia serão registradas em `docs/design.md` quando o material chegar em `_references/`.
+- Número oficial de WhatsApp em `src/data/site.ts` está provisório (marcado com TODO).

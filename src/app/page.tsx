@@ -27,7 +27,7 @@ export default function Home() {
             <Link
               key={servico.slug}
               href={`/servicos/${servico.slug}`}
-              className="rounded-xl border border-black/10 p-6 transition hover:border-black/30"
+              className="rounded-xl border border-border p-6 transition hover:border-foreground/40"
             >
               <h3 className="text-lg font-semibold">{servico.nome}</h3>
               <p className="mt-2 text-sm opacity-80">{servico.descricaoCurta}</p>
@@ -46,7 +46,7 @@ export default function Home() {
             <Link
               key={cidade.slug}
               href={`/cidades/${cidade.slug}`}
-              className="rounded-full border border-black/10 px-4 py-2 text-sm transition hover:border-black/30"
+              className="rounded-full border border-border px-4 py-2 text-sm transition hover:border-foreground/40"
             >
               {cidade.nome}, {cidade.estadoSigla}
             </Link>

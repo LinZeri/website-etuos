@@ -1,5 +1,5 @@
+import Image from "next/image";
 import Link from "next/link";
-import { site } from "@/data/site";
 import { WhatsAppButton } from "./WhatsAppButton";
 
 const links = [
@@ -12,10 +12,16 @@ const links = [
 
 export function Header() {
   return (
-    <header className="border-b border-black/10">
+    <header className="border-b border-border">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4">
-        <Link href="/" className="text-xl font-bold">
-          {site.nome}
+        <Link href="/" aria-label="Etuos, ir para a Home">
+          <Image
+            src="/images/logo-etuos.svg"
+            alt="Etuos"
+            width={122}
+            height={40}
+            priority
+          />
         </Link>
         <nav className="hidden gap-6 md:flex">
           {links.map((link) => (
@@ -24,7 +30,10 @@ export function Header() {
             </Link>
           ))}
         </nav>
-        <WhatsAppButton texto="Fale conosco" className="rounded-lg bg-green-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-green-700" />
+        <WhatsAppButton
+          texto="Fale conosco"
+          className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-foreground transition hover:brightness-95"
+        />
       </div>
     </header>
   );
