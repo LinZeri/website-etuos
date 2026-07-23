@@ -1,14 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { WhatsAppButton } from "./WhatsAppButton";
-
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/sobre", label: "Sobre" },
-  { href: "/servicos", label: "Serviços" },
-  { href: "/blog", label: "Blog" },
-  { href: "/contato", label: "Contato" },
-];
+import { MobileMenu } from "./MobileMenu";
+import { linksNavegacao } from "./nav";
 
 export function Header() {
   return (
@@ -24,16 +18,19 @@ export function Header() {
           />
         </Link>
         <nav className="hidden gap-6 md:flex">
-          {links.map((link) => (
+          {linksNavegacao.map((link) => (
             <Link key={link.href} href={link.href} className="hover:underline">
               {link.label}
             </Link>
           ))}
         </nav>
-        <WhatsAppButton
-          texto="Fale conosco"
-          className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-foreground transition hover:brightness-95"
-        />
+        <div className="flex items-center gap-2">
+          <WhatsAppButton
+            texto="Fale conosco"
+            className="hidden rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-foreground transition hover:brightness-95 md:inline-block"
+          />
+          <MobileMenu />
+        </div>
       </div>
     </header>
   );
