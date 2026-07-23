@@ -12,6 +12,12 @@ Site institucional da Etuos, agência de marketing digital para brasileiros que 
 4. **Site 100% estático (SSG).** Nunca introduzir SSR, API routes, server actions ou qualquer dependência de runtime. Toda rota deve sair pré-renderizada no `next build`.
 5. **Páginas de cidade com conteúdo único.** Nunca duplicar texto trocando só o nome da cidade.
 
+## Git e GitHub (obrigatório)
+
+- **PROIBIDO usar a conta GitHub `LinEosCommits` neste projeto, para qualquer coisa.** Sempre usar **LinZeri**.
+- Antes de qualquer push ou comando `gh`: conferir com `gh auth status` que a conta ativa é LinZeri; se não for, rodar `gh auth switch --user LinZeri`.
+- E-mail de commit deste repo: `127788553+LinZeri@users.noreply.github.com` (já no `git config` local). **Nunca** usar `lin.zeri@eos-e.com` em commits: esse e-mail pertence à conta LinEosCommits no GitHub e faz o commit ser atribuído à conta errada.
+
 ## Stack
 
 - Next.js 16 (App Router) + TypeScript + Tailwind CSS 4
