@@ -4,25 +4,21 @@ export type Depoimento = {
   negocio: string;
 };
 
-// TODO: substituir pelos depoimentos reais quando o cliente enviar.
-// Manter 3 depoimentos, texto de 2 a 3 frases cada.
 export const depoimentos: Depoimento[] = [
   {
     texto:
-      "Depoimento do cliente entra aqui. Duas ou três frases contando o resultado que o negócio alcançou com a Etuos.",
-    nome: "Nome do cliente",
-    negocio: "Segmento do negócio, Cidade",
+      "Ajudou a alavancar meu consultório como nunca tinha ocorrido. Obtive com seus serviços, tanto de criação de sites como gerenciamento do Google Ads, um aumento de mais de 300% no número de pacientes. Responsabilidade e competência! Recomendo a todos os que queiram dar uma virada em seus negócios.",
+    nome: "Rodrigo Souza",
+    negocio: "Clínica de Psicologia",
   },
   {
-    texto:
-      "Depoimento do cliente entra aqui. Duas ou três frases contando o resultado que o negócio alcançou com a Etuos.",
-    nome: "Nome do cliente",
-    negocio: "Segmento do negócio, Cidade",
+    texto: "O trabalho é muito profissional, feito com bastante esforço.",
+    nome: "Eduardo Donadi",
+    negocio: "Instalação de Baterias Residenciais",
   },
   {
-    texto:
-      "Depoimento do cliente entra aqui. Duas ou três frases contando o resultado que o negócio alcançou com a Etuos.",
-    nome: "Nome do cliente",
-    negocio: "Segmento do negócio, Cidade",
+    texto: "Só tenho a agradecer por este tempo que trabalhamos juntos.",
+    nome: "Letícia",
+    negocio: "Loja de Roupas",
   },
 ];
