@@ -12,6 +12,12 @@ export const depoimentos: Depoimento[] = [
     negocio: "Clínica de Psicologia",
   },
   {
+    texto:
+      "Recomendo bastante, pois tenho obtido ótimos resultados. Sou recém formado e, devido ao trabalho do Lin, minha agenda está sempre cheia.",
+    nome: "Pedro Henrique Geraldini",
+    negocio: "Clínica",
+  },
+  {
     texto: "O trabalho é muito profissional, feito com bastante esforço.",
     nome: "Eduardo Donadi",
     negocio: "Instalação de Baterias Residenciais",

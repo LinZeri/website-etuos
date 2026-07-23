@@ -9,7 +9,7 @@ export function Depoimentos() {
         </p>
         <h2 className="mt-3 text-4xl md:text-5xl">Quem confia na Etuos</h2>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
+        <div className="mt-12 grid gap-6 md:grid-cols-2">
           {depoimentos.map((depoimento, indice) => (
             <figure
               key={indice}
