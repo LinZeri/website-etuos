@@ -5,13 +5,19 @@ import { getPosts } from "@/lib/blog";
 import { site } from "@/data/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const estaticas = ["", "/sobre", "/servicos", "/blog", "/contato"].map(
-    (rota) => ({
-      url: `${site.dominio}${rota}`,
-      changeFrequency: "monthly" as const,
-      priority: rota === "" ? 1 : 0.8,
-    }),
-  );
+  const estaticas = [
+    "",
+    "/eua",
+    "/brasil",
+    "/sobre",
+    "/servicos",
+    "/blog",
+    "/contato",
+  ].map((rota) => ({
+    url: `${site.dominio}${rota}`,
+    changeFrequency: "monthly" as const,
+    priority: rota === "" ? 1 : rota === "/eua" || rota === "/brasil" ? 0.9 : 0.8,
+  }));
 
   const rotasServicos = servicos.map((servico) => ({
     url: `${site.dominio}/servicos/${servico.slug}`,

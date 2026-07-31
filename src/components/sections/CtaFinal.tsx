@@ -8,7 +8,7 @@ type Props = {
 };
 
 export function CtaFinal({
-  titulo = "Pronto para crescer nos EUA?",
+  titulo = "Pronto para crescer?",
   descricao = "Chama a gente no WhatsApp. Você recebe um diagnóstico honesto do seu marketing, sem compromisso e sem enrolação.",
   textoBotao = "Falar no WhatsApp",
   mensagem,

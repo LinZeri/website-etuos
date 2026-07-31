@@ -24,7 +24,9 @@ Gerar contatos qualificados no WhatsApp. Todas as páginas levam para esse CTA. 
 
 | Rota | Página | Objetivo | CTA |
 | --- | --- | --- | --- |
-| `/` | Home | Conversão: promessa clara, prova social, serviços, cidades | WhatsApp |
+| `/` | Home | Conversão genérica: promessa clara, prova social, serviços, direcionamento para EUA ou Brasil | WhatsApp |
+| `/eua` | Página EUA | Conversão focada em brasileiros que empreendem nos Estados Unidos (cidades atendidas) | WhatsApp |
+| `/brasil` | Página Brasil | Conversão focada em negócios e profissionais no Brasil | WhatsApp |
 | `/sobre` | Sobre | Confiança: quem somos, por que existimos | WhatsApp |
 | `/servicos` | Hub de serviços | Direcionar para o serviço certo | Links + WhatsApp |
 | `/servicos/trafego-pago` | Tráfego pago | Vender gestão de Google e Meta Ads | WhatsApp |

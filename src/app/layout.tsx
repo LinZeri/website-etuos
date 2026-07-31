@@ -29,7 +29,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(site.dominio),
   title: {
-    default: "Etuos | Marketing digital para brasileiros nos Estados Unidos",
+    default: "Etuos | Marketing digital para negócios no Brasil e nos EUA",
     template: "%s | Etuos",
   },
   description: site.descricao,

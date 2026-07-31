@@ -2,7 +2,7 @@ export const site = {
   nome: "Etuos",
   dominio: "https://etuos.com",
   descricao:
-    "Agência de marketing digital para brasileiros que empreendem nos Estados Unidos. Tráfego pago, SEO e criação de sites que trazem clientes de verdade.",
+    "Agência de marketing digital para negócios e profissionais no Brasil e nos Estados Unidos. Tráfego pago, SEO e criação de sites que trazem clientes de verdade.",
   whatsapp: {
     // +55 16 99125-2073 no formato internacional do wa.me
     numero: "5516991252073",

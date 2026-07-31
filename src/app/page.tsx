@@ -3,7 +3,7 @@ import { Hero } from "@/components/sections/Hero";
 import { ServicosLista } from "@/components/sections/ServicosLista";
 import { Depoimentos } from "@/components/sections/Depoimentos";
 import { ComoFunciona } from "@/components/sections/ComoFunciona";
-import { CidadesGrid } from "@/components/sections/CidadesGrid";
+import { PaisesGrid } from "@/components/sections/PaisesGrid";
 import { CtaFinal } from "@/components/sections/CtaFinal";
 
 export const metadata: Metadata = {
@@ -13,11 +13,16 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Hero
+        eyebrow="Agência para negócios e profissionais"
+        titulo="Marketing digital para quem quer"
+        destaque="crescer no Brasil e nos EUA"
+        mostrarCidades={false}
+      />
       <ServicosLista />
       <Depoimentos />
       <ComoFunciona />
-      <CidadesGrid />
+      <PaisesGrid />
       <CtaFinal />
     </>
   );

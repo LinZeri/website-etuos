@@ -26,7 +26,19 @@ export function Footer() {
         </div>
         <div>
           <p className="font-semibold">Onde atendemos</p>
-          <ul className="mt-2 grid grid-cols-2 gap-1">
+          <ul className="mt-2 space-y-1">
+            <li>
+              <Link href="/brasil" className="hover:underline">
+                Brasil
+              </Link>
+            </li>
+            <li>
+              <Link href="/eua" className="hover:underline">
+                Estados Unidos
+              </Link>
+            </li>
+          </ul>
+          <ul className="mt-3 grid grid-cols-2 gap-1">
             {cidades.map((cidade) => (
               <li key={cidade.slug}>
                 <Link href={`/cidades/${cidade.slug}`} className="hover:underline">
