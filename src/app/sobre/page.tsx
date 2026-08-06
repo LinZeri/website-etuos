@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { CtaFinal } from "@/components/sections/CtaFinal";
-import { site } from "@/data/site";
+import { JsonLd } from "@/components/ui/JsonLd";
+import { metadataDaPagina } from "@/lib/metadata";
+import { pessoaJsonLd, trilhaJsonLd } from "@/lib/schema";
 
-export const metadata: Metadata = {
-  title: "Sobre a Etuos: quem cuida do seu marketing",
-  description:
-    "A Etuos foi fundada por Lin Zeri, publicitário com mais de 10 anos de marketing digital e cases como a expansão de 30 para mais de 300 franquias. Conheça a história.",
-  alternates: { canonical: "/sobre" },
-};
+export const metadata: Metadata = metadataDaPagina({
+  titulo: "Sobre a Etuos: quem cuida do seu marketing",
+  descricao:
+    "A Etuos foi fundada por Lin Zeri, publicitário com mais de 10 anos de marketing digital e cases como a expansão de 30 para mais de 300 franquias.",
+  caminho: "/sobre",
+});
 
 const numeros = [
   { valor: "10+", legenda: "anos de marketing digital" },
@@ -47,26 +49,17 @@ const principios = [
   },
 ];
 
-const personJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Lin Zeri",
-  jobTitle: "Fundador e estrategista de marketing digital",
-  worksFor: {
-    "@type": "Organization",
-    name: site.nome,
-    url: site.dominio,
-  },
-  image: `${site.dominio}/images/lin-zeri.webp`,
-  knowsLanguage: ["pt-BR", "en"],
-};
-
 export default function SobrePage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+      <JsonLd
+        dados={[
+          pessoaJsonLd(),
+          trilhaJsonLd([
+            { nome: "Home", caminho: "/" },
+            { nome: "Sobre", caminho: "/sobre" },
+          ]),
+        ]}
       />
 
       <section className="grid-dark bg-foreground text-white">

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Depoimentos } from "@/components/sections/Depoimentos";
 import { FormularioCampanha } from "@/components/campanha/FormularioCampanha";
-import { Faq } from "@/components/campanha/Faq";
+import { Faq } from "@/components/sections/Faq";
 import {
   CtaCampanha,
   HeroCampanha,

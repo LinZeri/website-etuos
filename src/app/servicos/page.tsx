@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { servicos } from "@/data/servicos";
+import { metadataDaPagina } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Serviços de marketing digital",
-  description:
+export const metadata: Metadata = metadataDaPagina({
+  titulo: "Serviços de marketing digital",
+  descricao:
     "Tráfego pago, SEO e criação de sites para brasileiros que empreendem nos Estados Unidos. Veja como a Etuos pode ajudar o seu negócio.",
-  alternates: { canonical: "/servicos" },
-};
+  caminho: "/servicos",
+});
 
 export default function ServicosPage() {
   return (

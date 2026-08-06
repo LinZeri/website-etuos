@@ -5,10 +5,9 @@ import { Depoimentos } from "@/components/sections/Depoimentos";
 import { ComoFunciona } from "@/components/sections/ComoFunciona";
 import { PaisesGrid } from "@/components/sections/PaisesGrid";
 import { CtaFinal } from "@/components/sections/CtaFinal";
+import { metadataDaPagina } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  alternates: { canonical: "/" },
-};
+export const metadata: Metadata = metadataDaPagina({ caminho: "/" });
 
 export default function Home() {
   return (

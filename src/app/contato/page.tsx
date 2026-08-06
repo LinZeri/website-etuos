@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
+import { metadataDaPagina } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Contato",
-  description:
+export const metadata: Metadata = metadataDaPagina({
+  titulo: "Contato",
+  descricao:
     "Fale com a Etuos pelo WhatsApp e descubra como atrair mais clientes para o seu negócio nos Estados Unidos.",
-  alternates: { canonical: "/contato" },
-};
+  caminho: "/contato",
+});
 
 export default function ContatoPage() {
   return (

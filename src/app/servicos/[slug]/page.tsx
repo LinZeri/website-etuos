@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { CtaFinal } from "@/components/sections/CtaFinal";
+import { Faq } from "@/components/sections/Faq";
+import { JsonLd } from "@/components/ui/JsonLd";
 import { getServico, servicos } from "@/data/servicos";
+import { metadataDaPagina } from "@/lib/metadata";
+import { faqJsonLd, servicoJsonLd, trilhaJsonLd } from "@/lib/schema";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -18,11 +22,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const servico = getServico(slug);
   if (!servico) return {};
-  return {
-    title: servico.titulo,
-    description: servico.descricaoCurta,
-    alternates: { canonical: `/servicos/${servico.slug}` },
-  };
+  return metadataDaPagina({
+    titulo: servico.titulo,
+    descricao: servico.descricaoCurta,
+    caminho: `/servicos/${servico.slug}`,
+  });
 }
 
 export default async function ServicoPage({ params }: Props) {
@@ -32,6 +36,18 @@ export default async function ServicoPage({ params }: Props) {
 
   return (
     <>
+      <JsonLd
+        dados={[
+          servicoJsonLd(servico),
+          trilhaJsonLd([
+            { nome: "Home", caminho: "/" },
+            { nome: "Serviços", caminho: "/servicos" },
+            { nome: servico.nome, caminho: `/servicos/${servico.slug}` },
+          ]),
+          faqJsonLd(servico.faq),
+        ]}
+      />
+
       <section className="grid-dark bg-foreground text-white">
         <div className="mx-auto max-w-6xl px-4 py-20 md:py-28">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
@@ -126,6 +142,11 @@ export default async function ServicoPage({ params }: Props) {
           </p>
         </div>
       </section>
+
+      <Faq
+        titulo={`Perguntas que sempre chegam sobre ${servico.nome}`}
+        perguntas={servico.faq}
+      />
 
       <CtaFinal
         titulo="Vamos começar?"

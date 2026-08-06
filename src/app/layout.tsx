@@ -5,16 +5,9 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { FloatingWhatsApp } from "@/components/layout/FloatingWhatsApp";
 import { GoogleAds } from "@/components/analytics/GoogleAds";
+import { JsonLd } from "@/components/ui/JsonLd";
 import { site } from "@/data/site";
-
-const organizationJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: site.nome,
-  url: site.dominio,
-  logo: `${site.dominio}/images/logo-etuos.svg`,
-  description: site.descricao,
-};
+import { organizacaoJsonLd, websiteJsonLd } from "@/lib/schema";
 
 const anton = Anton({
   variable: "--font-anton",
@@ -38,6 +31,10 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     siteName: site.nome,
+    url: site.dominio,
+  },
+  twitter: {
+    card: "summary_large_image",
   },
 };
 
@@ -52,12 +49,7 @@ export default function RootLayout({
       className={`${anton.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationJsonLd),
-          }}
-        />
+        <JsonLd dados={[organizacaoJsonLd(), websiteJsonLd()]} />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

@@ -8,6 +8,9 @@ export type Servico = {
   entregas: { titulo: string; descricao: string }[];
   processo: { titulo: string; descricao: string }[];
   paraQuem: string;
+  // Perguntas reais de quem chega pelo WhatsApp. Viram seção na página e
+  // FAQPage no JSON-LD, que é o formato que as IAs leem para citar resposta.
+  faq: { pergunta: string; resposta: string }[];
 };
 
 export const servicos: Servico[] = [
@@ -76,6 +79,38 @@ export const servicos: Servico[] = [
     ],
     paraQuem:
       "Para quem precisa de cliente agora. O tráfego pago é o caminho mais rápido para gerar contatos: as campanhas começam a trabalhar no mesmo mês.",
+    faq: [
+      {
+        pergunta: "Quanto preciso investir por mês para valer a pena?",
+        resposta:
+          "Depende do seu setor, do seu ticket e da cidade onde você atua. Anunciar em Miami custa mais caro que anunciar em Danbury, e vender um serviço de 200 dólares exige menos verba que vender um de 5 mil. No diagnóstico a gente calcula o número do seu caso e fala com sinceridade se a conta fecha com o que você tem hoje.",
+      },
+      {
+        pergunta: "Em quanto tempo o anúncio começa a trazer cliente?",
+        resposta:
+          "Campanha bem montada costuma gerar os primeiros contatos já na primeira semana. O ajuste fino leva de 30 a 60 dias, que é o tempo de descobrir quais anúncios, públicos e horários rendem mais no seu caso.",
+      },
+      {
+        pergunta: "A gestão é cobrada junto com a verba de anúncio?",
+        resposta:
+          "Não. A verba vai direto para o Google e para a Meta, na sua conta e no seu cartão, então você vê exatamente quanto foi para a plataforma. A gestão é um valor à parte, combinado antes de começar.",
+      },
+      {
+        pergunta: "Dá para anunciar em inglês, para o público americano?",
+        resposta:
+          "Dá, e em muitos casos é o que mais rende. Montamos campanhas separadas por idioma, com criativo e página de destino próprios, porque o brasileiro e o americano não respondem ao mesmo argumento.",
+      },
+      {
+        pergunta: "Já impulsionei post e não deu em nada. Vai ser diferente?",
+        resposta:
+          "Impulsionar post é entregar o seu dinheiro para o algoritmo escolher quem vê, sem oferta clara e sem destino. Campanha é outra coisa: público definido, criativo pensado para vender, uma página que converte e a medição de cada contato que chega.",
+      },
+      {
+        pergunta: "Preciso ter site para anunciar?",
+        resposta:
+          "Não é obrigatório, dá para levar o anúncio direto para o WhatsApp. Só que com uma landing page o custo por contato costuma cair, porque a pessoa chega sabendo o que você faz e por que confiar em você. Se for o seu caso, a gente monta a página junto com a campanha.",
+      },
+    ],
   },
   {
     slug: "seo",
@@ -137,6 +172,38 @@ export const servicos: Servico[] = [
     ],
     paraQuem:
       "Para quem quer construir uma máquina de clientes que não depende de anúncio. Leva mais tempo que o tráfego pago, mas o resultado fica e se acumula.",
+    faq: [
+      {
+        pergunta: "Em quanto tempo o SEO dá resultado?",
+        resposta:
+          "Os primeiros movimentos costumam aparecer entre 60 e 90 dias, e o resultado forte vem depois do sexto mês. SEO é juro composto: cada mês de trabalho soma ao anterior. Quem promete primeira página em 30 dias está vendendo ilusão.",
+      },
+      {
+        pergunta: "Quanto custa fazer SEO?",
+        resposta:
+          "Não trabalhamos com pacote de prateleira. O valor depende do tamanho do site, da concorrência do seu nicho e da cidade onde você quer aparecer. O diagnóstico é gratuito e é dele que sai o preço, com o escopo do que será feito nos primeiros 90 dias.",
+      },
+      {
+        pergunta: "SEO funciona para negócio pequeno e local?",
+        resposta:
+          "Funciona, e costuma ser onde o retorno aparece mais rápido. Buscas do tipo serviço mais cidade têm menos concorrência e intenção altíssima: quem digita isso está com o problema na mão agora. Um perfil no Google bem cuidado e páginas locais bem escritas resolvem boa parte do jogo.",
+      },
+      {
+        pergunta: "Preciso ter site ou o perfil no Google Maps basta?",
+        resposta:
+          "O perfil resolve a busca de quem já está perto e quer resolver hoje. O site é o que sustenta a autoridade, responde as dúvidas antes do primeiro contato e ranqueia para as buscas que o perfil não alcança. Juntos, rendem muito mais do que qualquer um dos dois sozinho.",
+      },
+      {
+        pergunta: "Dá para aparecer em português e em inglês ao mesmo tempo?",
+        resposta:
+          "Dá, com páginas próprias para cada idioma. O erro comum é traduzir palavra por palavra: o americano e o brasileiro procuram a mesma coisa com termos diferentes. A gente pesquisa os dois vocabulários e escreve para os dois públicos.",
+      },
+      {
+        pergunta: "Vale a pena fazer SEO e tráfego pago ao mesmo tempo?",
+        resposta:
+          "Na maioria dos casos, sim. O anúncio traz cliente agora e paga a conta enquanto o SEO amadurece. Quando o orgânico começa a andar, você reduz a dependência de mídia sem perder volume de contato.",
+      },
+    ],
   },
   {
     slug: "criacao-de-sites",
@@ -198,6 +265,38 @@ export const servicos: Servico[] = [
     ],
     paraQuem:
       "Para quem está começando do zero ou tem um site que não gera nada. É a base de tudo: anúncio e SEO rendem muito mais em um site que converte.",
+    faq: [
+      {
+        pergunta: "Quanto tempo leva para o site ficar pronto?",
+        resposta:
+          "Um site institucional de poucas páginas costuma ficar pronto em duas a quatro semanas. O que mais atrasa não é o desenvolvimento: são as fotos, as informações do seu negócio e a sua aprovação. Com o material em mãos, anda rápido.",
+      },
+      {
+        pergunta: "O site fica em português ou em inglês?",
+        resposta:
+          "No idioma do seu cliente, e pode ser nos dois. Se você atende brasileiro e americano, montamos as duas versões, cada uma com texto próprio, escrito para aquele público. Tradução automática afasta cliente americano e você nem fica sabendo.",
+      },
+      {
+        pergunta: "Quem escreve os textos do site?",
+        resposta:
+          "A gente escreve. Você conta o que faz, para quem e o que costumam te perguntar antes de fechar; a gente transforma isso em texto que conduz a pessoa até o botão do WhatsApp. Você revisa tudo antes de publicar.",
+      },
+      {
+        pergunta: "O site é meu mesmo ou fico preso à agência?",
+        resposta:
+          "O domínio fica no seu nome e o site é seu. Se um dia você quiser levar para outra pessoa cuidar, leva. Preferimos manter cliente por resultado, não por senha.",
+      },
+      {
+        pergunta: "Já vendo pelo Instagram e pelo WhatsApp. Preciso de site?",
+        resposta:
+          "Rede social é território alugado: alcance e regras mudam sem aviso. O site é o único canal que é seu, aparece no Google, trabalha de madrugada e deixa o cliente pesquisar você antes de chamar. E quase todo mundo pesquisa antes de gastar dinheiro com um desconhecido.",
+      },
+      {
+        pergunta: "O site já vem preparado para o Google?",
+        resposta:
+          "Vem. Estrutura, títulos, velocidade e dados estruturados saem prontos desde o primeiro dia, junto com a medição dos cliques no WhatsApp, para você saber de onde vem cada contato em vez de adivinhar.",
+      },
+    ],
   },
 ];
 

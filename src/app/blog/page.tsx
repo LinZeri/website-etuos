@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getPosts } from "@/lib/blog";
+import { metadataDaPagina } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Blog: marketing digital para brasileiros nos EUA",
-  description:
+export const metadata: Metadata = metadataDaPagina({
+  titulo: "Blog: marketing digital para brasileiros nos EUA",
+  descricao:
     "Artigos sobre marketing digital, tráfego pago, SEO e vendas para brasileiros que empreendem nos Estados Unidos.",
-  alternates: { canonical: "/blog" },
-};
+  caminho: "/blog",
+});
 
 export default function BlogPage() {
   const posts = getPosts();

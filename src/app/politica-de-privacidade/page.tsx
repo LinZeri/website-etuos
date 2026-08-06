@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { site } from "@/data/site";
+import { metadataDaPagina } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Política de privacidade",
-  description:
+export const metadata: Metadata = metadataDaPagina({
+  titulo: "Política de privacidade",
+  descricao:
     "Como a Etuos coleta, usa e protege os dados de quem visita o site e preenche os formulários, de acordo com a LGPD.",
-  alternates: { canonical: "/politica-de-privacidade" },
-};
+  caminho: "/politica-de-privacidade",
+});
 
 const secoes = [
   {

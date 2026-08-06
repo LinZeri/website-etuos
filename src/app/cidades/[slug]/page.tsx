@@ -3,8 +3,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { CtaFinal } from "@/components/sections/CtaFinal";
+import { Faq } from "@/components/sections/Faq";
+import { JsonLd } from "@/components/ui/JsonLd";
 import { cidades, getCidade } from "@/data/cidades";
 import { servicos } from "@/data/servicos";
+import { metadataDaPagina } from "@/lib/metadata";
+import { faqJsonLd, trilhaJsonLd } from "@/lib/schema";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -20,11 +24,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const cidade = getCidade(slug);
   if (!cidade) return {};
-  return {
-    title: `Marketing digital para brasileiros em ${cidade.nome}, ${cidade.estadoSigla}`,
-    description: `Agência de marketing digital para brasileiros em ${cidade.nome}, ${cidade.estado}. Tráfego pago, SEO e sites para atrair mais clientes na região.`,
-    alternates: { canonical: `/cidades/${cidade.slug}` },
-  };
+  return metadataDaPagina({
+    titulo: `Marketing digital para brasileiros em ${cidade.nome}, ${cidade.estadoSigla}`,
+    descricao: `Agência de marketing digital para brasileiros em ${cidade.nome}, ${cidade.estado}. Tráfego pago, SEO e sites para atrair mais clientes na região.`,
+    caminho: `/cidades/${cidade.slug}`,
+  });
 }
 
 export default async function CidadePage({ params }: Props) {
@@ -34,6 +38,17 @@ export default async function CidadePage({ params }: Props) {
 
   return (
     <>
+      <JsonLd
+        dados={[
+          trilhaJsonLd([
+            { nome: "Home", caminho: "/" },
+            { nome: "Estados Unidos", caminho: "/eua" },
+            { nome: cidade.nome, caminho: `/cidades/${cidade.slug}` },
+          ]),
+          faqJsonLd(cidade.faq),
+        ]}
+      />
+
       <section className="grid-dark bg-foreground text-white">
         <div className="mx-auto max-w-6xl px-4 py-20 md:py-28">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
@@ -92,43 +107,68 @@ export default async function CidadePage({ params }: Props) {
             Como ajudamos negócios em {cidade.nome}
           </h2>
           <div className="mt-10 grid gap-6 md:grid-cols-3">
-            {servicos.map((servico) => (
-              <Link
-                key={servico.slug}
-                href={`/servicos/${servico.slug}`}
-                className="group rounded-xl border border-border bg-background p-6 transition hover:border-foreground"
-              >
-                <h3 className="text-xl">{servico.nome}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted">
-                  {servico.descricaoCurta}
-                </p>
-                <span className="mt-4 inline-block text-sm font-semibold transition group-hover:translate-x-1">
-                  Saiba mais →
-                </span>
-              </Link>
-            ))}
+            {servicos.map((servico) => {
+              // O texto é escrito para esta cidade. O fallback existe só para o
+              // caso de um serviço novo entrar antes de a copy local ser feita.
+              const local = cidade.servicosLocais.find(
+                (item) => item.slug === servico.slug,
+              );
+              return (
+                <Link
+                  key={servico.slug}
+                  href={`/servicos/${servico.slug}`}
+                  className="group rounded-xl border border-border bg-background p-6 transition hover:border-foreground"
+                >
+                  <h3 className="text-xl">{servico.nome}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-muted">
+                    {local?.texto ?? servico.descricaoCurta}
+                  </p>
+                  <span className="mt-4 inline-block text-sm font-semibold transition group-hover:translate-x-1">
+                    Saiba mais →
+                  </span>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16 md:py-24">
-        <h2 className="max-w-2xl text-3xl md:text-4xl">
-          Atendemos {cidade.nome} e região
-        </h2>
-        <p className="mt-4 max-w-xl text-muted">
-          Trabalhamos com negócios em toda a área de {cidade.nome}, incluindo:
-        </p>
-        <ul className="mt-6 flex flex-wrap gap-3">
-          {cidade.regioes.map((regiao) => (
-            <li
-              key={regiao}
-              className="rounded-full border border-border px-4 py-2 text-sm font-medium"
-            >
-              {regiao}
-            </li>
-          ))}
-        </ul>
+        <div className="grid gap-12 md:grid-cols-2 md:gap-16">
+          <div>
+            <h2 className="text-3xl md:text-4xl">
+              Como o seu cliente procura em {cidade.nome}
+            </h2>
+            <p className="mt-5 max-w-xl leading-relaxed text-foreground/85">
+              {cidade.comoBuscam}
+            </p>
+          </div>
+          <div>
+            <h2 className="text-3xl md:text-4xl">
+              Atendemos {cidade.nome} e região
+            </h2>
+            <p className="mt-5 text-muted">
+              Trabalhamos com negócios em toda a área de {cidade.nome},
+              incluindo:
+            </p>
+            <ul className="mt-6 flex flex-wrap gap-3">
+              {cidade.regioes.map((regiao) => (
+                <li
+                  key={regiao}
+                  className="rounded-full border border-border px-4 py-2 text-sm font-medium"
+                >
+                  {regiao}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </section>
+
+      <Faq
+        titulo={`Perguntas de quem empreende em ${cidade.nome}`}
+        perguntas={cidade.faq}
+      />
 
       <CtaFinal
         titulo={`Pronto para crescer em ${cidade.nome}?`}

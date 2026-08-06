@@ -5,13 +5,14 @@ import { Depoimentos } from "@/components/sections/Depoimentos";
 import { ComoFunciona } from "@/components/sections/ComoFunciona";
 import { CidadesGrid } from "@/components/sections/CidadesGrid";
 import { CtaFinal } from "@/components/sections/CtaFinal";
+import { metadataDaPagina } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Marketing digital para brasileiros nos EUA",
-  description:
+export const metadata: Metadata = metadataDaPagina({
+  titulo: "Marketing digital para brasileiros nos EUA",
+  descricao:
     "Agência de marketing digital para brasileiros que empreendem nos Estados Unidos. Tráfego pago, SEO e criação de sites que trazem clientes de verdade.",
-  alternates: { canonical: "/eua" },
-};
+  caminho: "/eua",
+});
 
 export default function EuaPage() {
   return (
