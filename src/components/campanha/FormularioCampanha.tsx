@@ -109,6 +109,37 @@ export function FormularioCampanha({
     }
   }
 
+  // Sem endpoint configurado, mostrar um formulário que não envia seria pior
+  // que não ter formulário. A landing cai para o WhatsApp, que é a conversão
+  // principal do site de qualquer jeito.
+  if (!endpoint) {
+    return (
+      <div
+        id={id}
+        className="rounded-2xl border border-border bg-background p-6 text-foreground md:p-7"
+      >
+        <h2 className="text-2xl">{titulo}</h2>
+        <p className="mt-3 leading-relaxed text-muted">
+          Chama no WhatsApp, conta em duas linhas como está o seu negócio e o
+          plano de ação sai em até 48 horas.
+        </p>
+        <a
+          href={linkWhatsApp(mensagemWhatsApp)}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => registrarConversao("whatsapp")}
+          className="mt-6 inline-block rounded-lg bg-accent px-7 py-4 text-lg font-semibold text-foreground transition hover:brightness-95"
+        >
+          {textoBotao}
+        </a>
+        <p className="mt-4 text-xs leading-relaxed text-muted">
+          Resposta no mesmo dia, direto com o Lin. Sem robô e sem formulário
+          longo.
+        </p>
+      </div>
+    );
+  }
+
   if (estado === "sucesso") {
     return (
       <div
