@@ -191,13 +191,13 @@ export function FormularioCampanha({
         />
 
         <div className="grid gap-4 sm:grid-cols-2">
-          <label className="grid gap-1.5">
+          <label className="grid min-w-0 gap-1.5">
             <span className="text-sm font-medium">Onde fica o negócio</span>
             <select
               name="pais"
               required
               defaultValue="Brasil"
-              className="rounded-lg border border-border bg-surface px-3 py-2.5 text-foreground outline-none transition focus:border-foreground"
+              className="w-full min-w-0 rounded-lg border border-border bg-surface px-3 py-2.5 text-foreground outline-none transition focus:border-foreground"
             >
               <option value="Brasil">Brasil</option>
               <option value="Estados Unidos">Estados Unidos</option>
@@ -264,14 +264,16 @@ type CampoProps = {
 
 function Campo({ rotulo, nome, tipo = "text", autoComplete, dica }: CampoProps) {
   return (
-    <label className="grid gap-1.5">
+    // min-w-0 é obrigatório: item de grid tem min-width auto por padrão, e a
+    // largura intrínseca do input estoura a coluna (o campo Cidade vazava).
+    <label className="grid min-w-0 gap-1.5">
       <span className="text-sm font-medium">{rotulo}</span>
       <input
         name={nome}
         type={tipo}
         required
         autoComplete={autoComplete}
-        className="rounded-lg border border-border bg-surface px-3 py-2.5 text-foreground outline-none transition placeholder:text-muted focus:border-foreground"
+        className="w-full min-w-0 rounded-lg border border-border bg-surface px-3 py-2.5 text-foreground outline-none transition placeholder:text-muted focus:border-foreground"
       />
       {dica && <span className="text-xs text-muted">{dica}</span>}
     </label>

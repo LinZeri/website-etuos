@@ -1,0 +1,42 @@
+Campaign,Ad Group,Keyword,Match Type,Status
+Brasil | Pesquisa,SEO agencia,agência de seo,Exact,Enabled
+Brasil | Pesquisa,SEO agencia,agencia seo,Exact,Enabled
+Brasil | Pesquisa,SEO agencia,empresa de seo,Exact,Enabled
+Brasil | Pesquisa,SEO agencia,seo agência,Exact,Enabled
+Brasil | Pesquisa,SEO agencia,agência de seo,Phrase,Enabled
+Brasil | Pesquisa,SEO consultoria,consultoria seo,Exact,Enabled
+Brasil | Pesquisa,SEO consultoria,consultor seo,Exact,Enabled
+Brasil | Pesquisa,SEO consultoria,especialista em seo,Exact,Enabled
+Brasil | Pesquisa,SEO consultoria,auditoria de seo,Exact,Enabled
+Brasil | Pesquisa,SEO consultoria,serviços de seo,Exact,Enabled
+Brasil | Pesquisa,SEO consultoria,otimização de sites,Exact,Enabled
+Brasil | Pesquisa,SEO resultado,aparecer no google,Exact,Enabled
+Brasil | Pesquisa,SEO resultado,primeira página do google,Exact,Enabled
+Brasil | Pesquisa,SEO resultado,posicionamento no google,Exact,Enabled
+Brasil | Pesquisa,SEO resultado,como aparecer no google,Phrase,Enabled
+Brasil | Pesquisa,TP agencia,agência de tráfego pago,Exact,Enabled
+Brasil | Pesquisa,TP agencia,gestão de tráfego pago,Exact,Enabled
+Brasil | Pesquisa,TP agencia,agência de google ads,Exact,Enabled
+Brasil | Pesquisa,TP agencia,agência de tráfego pago,Phrase,Enabled
+Brasil | Pesquisa,TP anunciar,anunciar no google,Exact,Enabled
+Brasil | Pesquisa,TP anunciar,anúncio no google,Exact,Enabled
+Brasil | Pesquisa,TP anunciar,google ads para empresas,Exact,Enabled
+Brasil | Pesquisa,Guarda-chuva,agência de marketing digital,Exact,Enabled
+Brasil | Pesquisa,Guarda-chuva,agência de publicidade,Exact,Enabled
+Brasil | Pesquisa,Guarda-chuva,empresa de marketing digital,Exact,Enabled
+Brasil | Pesquisa,Guarda-chuva,marketing digital para empresas,Exact,Enabled
+Brasil | Pesquisa,Volume vigiado,tráfego pago,Phrase,Enabled
+Brasil | Pesquisa,Volume vigiado,gestor de tráfego,Phrase,Enabled
+EUA PT | Pesquisa,SEO pt,agência de seo,Exact,Enabled
+EUA PT | Pesquisa,SEO pt,agencia de seo,Exact,Enabled
+EUA PT | Pesquisa,SEO pt,consultoria seo,Exact,Enabled
+EUA PT | Pesquisa,SEO pt,consultor seo,Exact,Enabled
+EUA PT | Pesquisa,SEO pt,empresa de seo,Exact,Enabled
+EUA PT | Pesquisa,SEO pt,serviços de seo,Exact,Enabled
+EUA PT | Pesquisa,SEO local pt,seo local,Exact,Enabled
+EUA PT | Pesquisa,SEO local pt,google meu negócio,Exact,Enabled
+EUA PT | Pesquisa,Marketing digital pt,agência de marketing digital,Exact,Enabled
+EUA PT | Pesquisa,Marketing digital pt,agencia de marketing digital,Exact,Enabled
+EUA PT | Pesquisa,TP pt,tráfego pago,Exact,Enabled
+EUA PT | Pesquisa,TP pt,agência de tráfego pago,Exact,Enabled
+EUA PT | Pesquisa,TP pt,gestor de tráfego,Exact,Enabled

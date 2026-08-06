@@ -154,9 +154,46 @@ Descrições:
 
 **Snippets estruturados** (cabeçalho Serviços): SEO, Tráfego pago, Criação de sites, SEO local, Google Ads, Meta Ads
 
-## Conversões
+## URLs finais com UTM (obrigatório)
 
-Criar duas ações em Metas > Conversões > Nova ação de conversão > Site, com configuração manual da tag:
+Rodando sem tracking de conversão no Google Ads, as UTMs viram a única forma de saber qual grupo e qual palavra-chave trouxeram cada lead. O formulário grava tudo na planilha.
+
+O `{keyword}` é um parâmetro ValueTrack: o Google troca pelo termo que de fato acionou o anúncio. É isso que faz cada linha da planilha dizer qual palavra pagou por aquele lead.
+
+Cole a URL inteira no campo **URL final** do anúncio de cada grupo.
+
+### Campanha 1: Brasil
+
+| Grupo | URL final |
+| --- | --- |
+| G1 SEO agência | `https://etuos.com/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=seo-agencia&utm_term={keyword}` |
+| G2 SEO consultoria | `https://etuos.com/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=seo-consultoria&utm_term={keyword}` |
+| G3 SEO resultado | `https://etuos.com/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=seo-resultado&utm_term={keyword}` |
+| G4 Tráfego pago agência | `https://etuos.com/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=tp-agencia&utm_term={keyword}` |
+| G5 Anunciar no Google | `https://etuos.com/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=tp-anunciar&utm_term={keyword}` |
+| G6 Agência guarda-chuva | `https://etuos.com/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=tp-guardachuva&utm_term={keyword}` |
+
+### Campanha 2: EUA em português
+
+| Grupo | URL final |
+| --- | --- |
+| G1 SEO pt | `https://etuos.com/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=eua&utm_content=seo-pt&utm_term={keyword}` |
+| G2 SEO local pt | `https://etuos.com/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=eua&utm_content=seo-local-pt&utm_term={keyword}` |
+| G3 Marketing digital pt | `https://etuos.com/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=eua&utm_content=mkt-digital-pt&utm_term={keyword}` |
+| G4 Tráfego pago pt | `https://etuos.com/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=eua&utm_content=tp-pt&utm_term={keyword}` |
+
+Confirme também que a **tag automática** está ligada em Configurações da conta. É ela que anexa o `gclid` ao link, e o formulário grava esse valor. Mesmo sem conversão configurada agora, o `gclid` guardado permite importar conversões offline mais para a frente, quando um lead virar cliente.
+
+## Conversões (opcional nesta rodada)
+
+Nesta campanha de 2 dias o tracking de conversão foi deixado de fora. A perda é pequena: com estratégia de Maximizar cliques e apenas 48 horas, o Google não teria tempo de otimizar por conversão de qualquer forma. A leitura de resultado sai da planilha, via UTMs.
+
+Duas coisas para não fazer nesse cenário:
+
+- **Não aceitar a recomendação do Google para mudar de estratégia de lance.** Ele vai insistir em Maximizar conversões, que sem dados de conversão gasta às cegas
+- **Não estranhar a coluna de conversões zerada.** Ela vai ficar zerada mesmo, e não significa que a campanha não trouxe lead
+
+Quando quiser ligar, criar duas ações em Metas > Conversões > Nova ação de conversão > Site, com configuração manual da tag:
 
 | Nome | Categoria | Onde dispara |
 | --- | --- | --- |
