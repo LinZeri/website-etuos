@@ -4,14 +4,14 @@ export type Pergunta = {
 };
 
 type Props = {
-  titulo?: string;
+  titulo: string;
   perguntas: Pergunta[];
 };
 
 // Accordion nativo com details/summary: sem JavaScript, sem client component
 // e acessível por padrão. Mantém a página leve, o que conta para o Índice de
 // Qualidade do Google Ads e para o Core Web Vitals.
-export function Faq({ titulo = "Perguntas que sempre chegam", perguntas }: Props) {
+export function Faq({ titulo, perguntas }: Props) {
   return (
     <section className="bg-surface">
       <div className="mx-auto max-w-3xl px-4 py-16 md:py-24">

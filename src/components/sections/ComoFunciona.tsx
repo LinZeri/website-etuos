@@ -1,41 +1,29 @@
-const passos = [
-  {
-    titulo: "Diagnóstico no WhatsApp",
-    descricao:
-      "Você conta como está o negócio hoje. A gente analisa seu mercado, seus concorrentes e onde está o dinheiro deixado na mesa.",
-  },
-  {
-    titulo: "Plano sob medida",
-    descricao:
-      "Nada de pacote pronto. Montamos a estratégia certa para o seu nicho, a sua cidade e o seu momento.",
-  },
-  {
-    titulo: "Execução completa",
-    descricao:
-      "Anúncios, SEO, site: a gente coloca tudo em pé e no ar. Você continua cuidando do seu negócio.",
-  },
-  {
-    titulo: "Resultado e escala",
-    descricao:
-      "Você acompanha tudo em relatórios simples, em português. O que funciona recebe mais investimento.",
-  },
-];
+import { dicionario } from "@/i18n/dicionario";
+import type { Idioma } from "@/i18n/idiomas";
 
-export function ComoFunciona() {
+export function ComoFunciona({ idioma }: { idioma: Idioma }) {
+  const t = dicionario(idioma).comoFunciona;
+
   return (
-    <section className="grid-dark bg-foreground text-white">
-      <div className="mx-auto max-w-6xl px-4 py-20 md:py-28">
+    <section className="grid-dark grao relative overflow-clip bg-foreground text-white">
+      <span aria-hidden className="fantasma text-white/[0.06]">
+        {t.fantasma}
+      </span>
+      <div className="relative mx-auto max-w-6xl px-4 py-20 md:py-28">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
-          Como funciona
+          {t.eyebrow}
         </p>
-        <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">
-          Do primeiro oi ao WhatsApp tocando
-        </h2>
+        <h2 className="mt-3 max-w-2xl text-4xl md:text-6xl">{t.titulo}</h2>
 
         <ol className="mt-12 grid gap-10 md:grid-cols-4 md:gap-6">
-          {passos.map((passo, indice) => (
-            <li key={passo.titulo} className="border-t-2 border-accent pt-5">
-              <span className="font-display text-5xl text-accent">
+          {t.passos.map((passo, indice) => (
+            <li
+              key={passo.titulo}
+              className={`revelar border-t-2 border-accent pt-5 ${
+                indice > 0 ? `revelar-${Math.min(indice, 3)}` : ""
+              }`}
+            >
+              <span className="font-display texto-contorno text-6xl text-accent md:text-7xl">
                 {indice + 1}
               </span>
               <h3 className="mt-3 text-xl">{passo.titulo}</h3>

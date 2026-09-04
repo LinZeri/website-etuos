@@ -1,0 +1,31 @@
+{
+  "branch": "main",
+  "remote": "origin",
+  "blogDir": "content/blog/pt",
+  "fileExtension": "mdx",
+  "schemaDir": "content/blog/pt/schemas",
+  "briefDir": "docs/briefs",
+  "imageDir": "public/images/blog",
+  "queueFile": "docs/blog-queue.json",
+  "logFile": "docs/blog-loop-log.md",
+  "strategyFile": "docs/blog-strategy.md",
+  "batchSize": 10,
+  "replenishThresholdMultiplier": 1,
+  "postsPerDay": 2,
+  "scheduleCadence": "daily-09-central",
+  "frontmatter": {
+    "fields": ["titulo", "descricao", "data", "autor", "imagem"]
+  },
+  "ctaPattern": "link para o WhatsApp da Etuos (wa.me/5516991252073) com mensagem contextual no fim do artigo",
+  "hero": {
+    "enabled": true,
+    "format": "webp",
+    "size": [1200, 630]
+  },
+  "preflight": { "enabled": false },
+  "verifyCommand": "npm run build",
+  "factcheck": { "enabled": true },
+  "allowTaxLanguage": true,
+  "deploy": { "mode": "auto-push", "prTarget": null },
+  "escalationChannel": "push-notification"
+}

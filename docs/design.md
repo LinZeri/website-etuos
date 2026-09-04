@@ -44,6 +44,31 @@ Regras de uso do acento:
 - **Acessibilidade:** contraste AA no mínimo, `alt` em toda imagem, navegação por teclado funcional
 - **Consistência:** componentes reutilizáveis em `src/components/ui` e seções em `src/components/sections`; nada de estilo avulso repetido
 
+## Sistema visual das seções
+
+Utilitários em `src/app/globals.css` (Tailwind 4 `@utility`), todos dentro da regra do acento único:
+
+- `texto-contorno`: tipo Anton só com o traço (números de lista, palavra de destaque do herói). Nunca em texto corrido.
+- `marca`: marca-texto verde na metade inferior de uma palavra em grafite.
+- `grao`: grão de filme em SVG inline, só sobre fundo grafite.
+- `fantasma`: palavra decorativa gigante em contorno atrás de uma seção (sempre com `aria-hidden` e a seção com `overflow-clip`).
+- `revelar`, `revelar-2`, `revelar-3`: revelação ao rolar dirigida pelo scroll (`animation-timeline: view()`), sem JavaScript. O HTML nunca fica com opacidade zero; navegadores sem suporte e movimento reduzido mostram tudo parado.
+- `rise`: cascata do herói; `marquee-track` e `marquee-lento`: letreiros.
+
+Componentes que sustentam o visual de agência:
+
+- `ProvaNumeros` + `ContadorNumero`: faixa dos quatro números da casa (fonte única em `dicionario.numeros`), com contador ao entrar na tela. O número final já sai no HTML.
+- `Resultados`: cases com número grande sobre grafite. Só segmento, nunca nome de cliente sem autorização.
+- `Fundador`: foto do Lin em preto e branco (o verde continua a única cor) com CTA; variante `compacto` nas páginas de serviço e cidade.
+- `Comparativo`: tabela nativa "sozinho, agência comum, Etuos" nas páginas de serviço.
+- `TickerServicos`: letreiro decorativo com os nomes dos serviços em contorno.
+- `CabecalhoPagina`: cabeçalho escuro das páginas utilitárias (serviços, blog, contato).
+- `BarraCtaMobile`: barra fixa de CTA no celular; a altura é reservada pela variável `--barra-cta` no CSS, sem CLS. No desktop fica o botão redondo (`FloatingWhatsApp`) e o header é fixo.
+
+Camadas fixas: header `z-40` (desktop), menu mobile `z-40`, barra de CTA e banner de idioma `z-30`, botão flutuante `z-50` (só desktop).
+
+Fotos em `public/images/`: `lin-zeri.webp` (retrato), `lin-zeri-palco.webp` (recorte com transparência, herói da página Sobre), `lin-zeri-evento.webp` (evento com plateia, seção Fundador), `lin-zeri-palestra-grande.webp` (palestra, seção de princípios). Originais em `_references/fotos Lin`.
+
 ## Status
 
-Identidade aplicada na base: paleta em tokens, fontes carregadas, logo no header e favicon no lugar. As páginas ainda são placeholders; o design real das seções (herói, prova social, etc.) será construído na fase de design.
+Identidade aplicada em todas as páginas e nos três idiomas, com o sistema visual acima. Próximos passos possíveis: mapa em SVG das cidades atendidas no hub dos EUA e logos de clientes quando houver autorização.

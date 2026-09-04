@@ -16,8 +16,8 @@ Próximo e direto. A Etuos fala como alguém que entende do assunto e está do l
 
 ## Regras de escrita
 
-1. **PROIBIDO usar travessão "—".** Em qualquer texto do projeto. Use vírgula, dois pontos, parênteses ou reescreva.
-2. Todo texto em português do Brasil.
+1. **PROIBIDO usar travessão "—".** Em qualquer texto do projeto e em qualquer idioma. Use vírgula, dois pontos, parênteses ou reescreva.
+2. Texto em português do Brasil na versão `/pt`. As versões `/en` e `/es` seguem as seções "Inglês" e "Espanhol" abaixo.
 3. Termos em inglês apenas quando consagrados: marketing digital, ads, landing page, lead. Se houver termo claro em português, prefira o português.
 4. Números e moedas no padrão do público: valores em dólar como US$ 1.500 quando o contexto é EUA.
 5. Títulos em caixa normal (só a primeira letra maiúscula), nunca TUDO EM MAIÚSCULA.
@@ -45,7 +45,25 @@ Termos técnicos (SEO, tráfego pago, conversão) podem aparecer, mas sempre exp
 
 **Assim não:** "Buscamos a maximização do retorno sobre o investimento através de estratégias data-driven."
 
+## Inglês (versão `/en`)
+
+- **Leitor:** dono ou dona de pequeno negócio nos Estados Unidos, de qualquer origem, que pesquisa em inglês. Não é a comunidade brasileira: nada de "our community", "Brazilians in the US" ou tradução literal de expressões brasileiras.
+- **Tom:** direto e caloroso, segunda pessoa "you", contrações permitidas ("you'll", "we're"), frases curtas, voz ativa. Mesma honestidade da versão pt: sem promessa milagrosa, sem estatística inventada.
+- **Como nos apresentamos:** "digital marketing agency for businesses in the United States and Brazil". A Etuos é remota e liderada pelo fundador; nunca afirmar escritório local ou sede nos EUA.
+- **Moeda e números:** dólar como `$1,500`. Valores em reais permanecem em reais (`R$100K`), sem conversão inventada.
+- **Termos:** Google Ads, Meta Ads (Instagram and Facebook), Google Business Profile, Google Maps, local SEO, landing page, WhatsApp.
+- **Copy de cidade:** escrita para o mercado local daquela cidade (bairros, sazonalidade, comportamento de busca), não traduzida da versão pt.
+
+## Espanhol (versão `/es`)
+
+- **Leitor:** dono ou dona de negócio hispânico morando nos Estados Unidos, que pesquisa em espanhol e muitas vezes atende clientes nos dois idiomas.
+- **Tom:** espanhol latino-americano neutro, sem regionalismo de um país só. Tratamento **"tú"** sempre (espelha o "você" do pt); nunca "vosotros", nunca "usted".
+- **Como nos apresentamos:** "agencia de marketing digital para negocios en Estados Unidos y Brasil". Atendimento em espanhol é o que o site promete; não prometer equipe local.
+- **Moeda e números:** dólar como `$1,500` no contexto dos EUA. Valores em reais permanecem em reais (`R$ 100 mil`).
+- **Termos:** Google Ads, Meta Ads (Instagram y Facebook), Perfil de Negocio de Google, Google Maps, SEO local, página de destino, WhatsApp.
+- **Copy de cidade:** escrita para a comunidade hispânica daquela cidade (zonas reais de presença hispânica, campanhas e sites bilíngues como ângulo natural), não traduzida da versão pt.
+
 ## Assinatura e marca
 
-- Nome da marca: **Etuos** (sempre com E maiúsculo, nunca ETUOS ou etuos em texto corrido)
-- Como nos apresentamos: "agência de marketing digital para brasileiros nos Estados Unidos"
+- Nome da marca: **Etuos** (sempre com E maiúsculo, nunca ETUOS ou etuos em texto corrido; nunca traduzida)
+- Como nos apresentamos em português: "agência de marketing digital para brasileiros nos Estados Unidos"

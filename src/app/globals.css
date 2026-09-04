@@ -8,6 +8,15 @@
   --accent: #a3e635;
   --surface: #f8fafc;
   --border: #e2e8f0;
+  /* Altura reservada para a barra de CTA fixa do celular (BarraCtaMobile).
+     Definida em CSS, antes da primeira pintura: sem CLS. */
+  --barra-cta: 0px;
+}
+
+@media (width < 48rem) {
+  :root {
+    --barra-cta: calc(4rem + env(safe-area-inset-bottom));
+  }
 }
 
 @theme inline {
@@ -25,6 +34,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+  padding-bottom: var(--barra-cta);
 }
 
 /* Títulos em Anton, sempre em caixa alta com leve tracking */
@@ -40,6 +50,57 @@ h3 {
 ::selection {
   background: var(--accent);
   color: var(--foreground);
+}
+
+/* Tipo em contorno: mantém a cor no traço e esvazia o preenchimento.
+   Só para elementos decorativos ou destaques com fallback de cor. */
+@utility texto-contorno {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1.5px currentColor;
+  paint-order: stroke fill;
+}
+
+/* Marca-texto verde atrás de uma palavra em grafite (nunca texto branco). */
+@utility marca {
+  background-image: linear-gradient(transparent 55%, var(--color-accent) 55%);
+  padding-inline: 0.08em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* Grão de filme sutil, só em seções grafite. Ruído gerado em SVG inline. */
+@utility grao {
+  position: relative;
+  isolation: isolate;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.09;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.6 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    background-size: 160px 160px;
+  }
+}
+
+/* Palavra fantasma atrás de uma seção: decorativa, aria-hidden no JSX. */
+@utility fantasma {
+  position: absolute;
+  left: 50%;
+  bottom: -0.18em;
+  transform: translateX(-50%);
+  font-family: var(--font-anton), Impact, sans-serif;
+  font-size: clamp(6rem, 24vw, 22rem);
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px currentColor;
 }
 
 /* Revelação em cascata no carregamento do herói */
@@ -63,7 +124,26 @@ h3 {
 .rise-3 { animation-delay: 0.25s; }
 .rise-4 { animation-delay: 0.35s; }
 
-/* Faixa de cidades rolando no herói */
+/* Revelação ao rolar, dirigida pelo scroll (sem JavaScript). O HTML nunca
+   fica com opacidade zero: navegadores sem suporte mostram tudo parado, e o
+   Googlebot renderiza com a janela alta, ou seja, já no estado final. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .revelar {
+      animation: rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 30%;
+    }
+    .revelar-2 {
+      animation-range: entry 8% entry 40%;
+    }
+    .revelar-3 {
+      animation-range: entry 16% entry 50%;
+    }
+  }
+}
+
+/* Faixa de cidades e ticker de serviços rolando */
 @keyframes marquee {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
@@ -73,10 +153,16 @@ h3 {
   display: flex;
   width: max-content;
   animation: marquee 30s linear infinite;
+  will-change: transform;
+}
+
+.marquee-lento {
+  animation-duration: 48s;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .rise,
+  .revelar,
   .marquee-track {
     animation: none;
   }

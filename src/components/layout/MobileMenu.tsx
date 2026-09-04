@@ -2,10 +2,18 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import type { Idioma } from "@/i18n/idiomas";
 import { WhatsAppButton } from "./WhatsAppButton";
-import { linksNavegacao } from "./nav";
+import { SeletorIdioma } from "./SeletorIdioma";
+import type { LinkNavegacao } from "./nav";
 
-export function MobileMenu() {
+type Props = {
+  idioma: Idioma;
+  links: LinkNavegacao[];
+  textos: { abrir: string; fechar: string; whatsapp: string; idioma: string };
+};
+
+export function MobileMenu({ idioma, links, textos }: Props) {
   const [aberto, setAberto] = useState(false);
 
   useEffect(() => {
@@ -22,7 +30,7 @@ export function MobileMenu() {
         onClick={() => setAberto(!aberto)}
         aria-expanded={aberto}
         aria-controls="menu-mobile"
-        aria-label={aberto ? "Fechar menu" : "Abrir menu"}
+        aria-label={aberto ? textos.fechar : textos.abrir}
         className="relative z-50 flex h-11 w-11 flex-col items-center justify-center gap-1.5"
       >
         <span
@@ -44,7 +52,7 @@ export function MobileMenu() {
         }`}
       >
         <nav className="flex flex-1 flex-col gap-2">
-          {linksNavegacao.map((link, indice) => (
+          {links.map((link, indice) => (
             <Link
               key={link.href}
               href={link.href}
@@ -56,8 +64,16 @@ export function MobileMenu() {
             </Link>
           ))}
         </nav>
+        <div className="mb-5 flex justify-center">
+          <SeletorIdioma
+            idiomaAtual={idioma}
+            rotulo={textos.idioma}
+            variante="menu"
+          />
+        </div>
         <WhatsAppButton
-          texto="Falar no WhatsApp"
+          idioma={idioma}
+          texto={textos.whatsapp}
           className="block rounded-lg bg-accent px-6 py-4 text-center text-lg font-semibold text-foreground"
         />
       </div>

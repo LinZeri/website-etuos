@@ -1,11 +1,13 @@
 import { ImageResponse } from "next/og";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
+import { dicionario } from "@/i18n/dicionario";
+import type { Idioma } from "@/i18n/idiomas";
 import { TAMANHO_OG } from "@/lib/metadata";
 
 // Imagem de preview usada por WhatsApp, Facebook, LinkedIn e X. Gerada no
-// build (nenhuma rota vira dinâmica) e servida como PNG, porque o WhatsApp não
-// renderiza WebP de forma confiável em todos os aparelhos.
+// build, uma por idioma (nenhuma rota vira dinâmica) e servida como PNG,
+// porque o WhatsApp não renderiza WebP de forma confiável em todos os aparelhos.
 
 async function logoBrancoDataUri(): Promise<string> {
   const svg = await readFile(
@@ -17,8 +19,9 @@ async function logoBrancoDataUri(): Promise<string> {
   return `data:image/svg+xml;base64,${Buffer.from(branco).toString("base64")}`;
 }
 
-export async function criarImagemOg() {
+export async function criarImagemOg(idioma: Idioma) {
   const logo = await logoBrancoDataUri();
+  const t = dicionario(idioma).og;
 
   return new ImageResponse(
     (
@@ -49,7 +52,7 @@ export async function criarImagemOg() {
             letterSpacing: -1,
           }}
         >
-          Marketing digital para negócios no Brasil e nos Estados Unidos
+          {t.titulo}
         </div>
 
         <div
@@ -61,9 +64,7 @@ export async function criarImagemOg() {
             color: "#9CA3AF",
           }}
         >
-          <div style={{ display: "flex" }}>
-            Tráfego pago, SEO e criação de sites
-          </div>
+          <div style={{ display: "flex" }}>{t.subtitulo}</div>
           <div style={{ display: "flex", color: "#A3E635" }}>etuos.com</div>
         </div>
       </div>

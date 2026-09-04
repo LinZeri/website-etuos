@@ -18,25 +18,31 @@ Gerar contatos qualificados no WhatsApp. Todas as páginas levam para esse CTA. 
 - Next.js (App Router) + TypeScript + Tailwind CSS, 100% estático (SSG)
 - Código no GitHub (`LinZeri/website-etuos`), deploy na Vercel
 - Domínio: `etuos.com`
-- Idioma: português do Brasil, sem versão em inglês por enquanto
+- Idiomas: português do Brasil (língua fonte), inglês e espanhol, em subpastas do mesmo domínio (`/pt`, `/en`, `/es`). Não há domínio nem subdomínio por idioma. A raiz `/` só redireciona (cookie do seletor > idioma do navegador > país do IP > inglês).
 
 ## Mapa do site
 
+Toda rota existe nos três idiomas, com slug traduzido (tabela completa em `docs/seo.md`). Abaixo, a rota em português.
+
 | Rota | Página | Objetivo | CTA |
 | --- | --- | --- | --- |
-| `/` | Home | Conversão genérica: promessa clara, prova social, serviços, direcionamento para EUA ou Brasil | WhatsApp |
-| `/eua` | Página EUA | Conversão focada em brasileiros que empreendem nos Estados Unidos (cidades atendidas) | WhatsApp |
-| `/brasil` | Página Brasil | Conversão focada em negócios e profissionais no Brasil | WhatsApp |
-| `/sobre` | Sobre | Confiança: quem somos, por que existimos | WhatsApp |
-| `/servicos` | Hub de serviços | Direcionar para o serviço certo | Links + WhatsApp |
-| `/servicos/trafego-pago` | Tráfego pago | Vender gestão de Google e Meta Ads | WhatsApp |
-| `/servicos/seo` | SEO | Vender posicionamento orgânico e SEO local | WhatsApp |
-| `/servicos/criacao-de-sites` | Criação de sites | Vender sites e landing pages | WhatsApp |
-| `/cidades/[slug]` | 10 páginas de cidade | SEO local + conversão regional | WhatsApp |
-| `/blog` | Lista de artigos | SEO topo de funil | Links para artigos |
-| `/blog/[slug]` | Artigo | SEO + autoridade | WhatsApp no fim do artigo |
-| `/contato` | Contato | Conversão direta | WhatsApp + e-mail |
-| `/politica-de-privacidade` | Legal | Obrigação legal | Nenhum |
+| `/` | Raiz | Só redireciona para `/pt`, `/en` ou `/es` | Nenhum |
+| `/pt` | Home | Conversão genérica: promessa clara, prova social, serviços, direcionamento para EUA ou Brasil | WhatsApp |
+| `/pt/eua` | Página EUA | Conversão focada em brasileiros que empreendem nos Estados Unidos (cidades atendidas) | WhatsApp |
+| `/pt/brasil` | Página Brasil | Conversão focada em negócios e profissionais no Brasil | WhatsApp |
+| `/pt/sobre` | Sobre | Confiança: quem somos, por que existimos | WhatsApp |
+| `/pt/servicos` | Hub de serviços | Direcionar para o serviço certo | Links + WhatsApp |
+| `/pt/servicos/trafego-pago` | Tráfego pago | Vender gestão de Google e Meta Ads | WhatsApp |
+| `/pt/servicos/seo` | SEO | Vender posicionamento orgânico e SEO local | WhatsApp |
+| `/pt/servicos/criacao-de-sites` | Criação de sites | Vender sites e landing pages | WhatsApp |
+| `/pt/cidades/[slug]` | 10 páginas de cidade | SEO local + conversão regional | WhatsApp |
+| `/pt/blog` | Lista de artigos | SEO topo de funil | Links para artigos |
+| `/pt/blog/[slug]` | Artigo | SEO + autoridade | WhatsApp no fim do artigo |
+| `/pt/contato` | Contato | Conversão direta | WhatsApp |
+| `/pt/politica-de-privacidade` | Legal | Obrigação legal | Nenhum |
+| `/pt/lp/seo`, `/pt/lp/trafego-pago` | Landings de campanha (noindex) | Conversão de anúncio pago, com formulário | Formulário + WhatsApp |
+
+Públicos por idioma: `/pt` fala com brasileiros (no Brasil e nos EUA); `/en` com o dono de negócio nos Estados Unidos em geral; `/es` com a comunidade hispânica nos Estados Unidos.
 
 ## Home (prioridade máxima de conversão)
 
@@ -61,17 +67,17 @@ Cada página de serviço deve ter: dor do cliente, como o serviço resolve, o qu
 
 Miami, Orlando, Fort Lauderdale, Pompano Beach (FL); Boston, Framingham (MA); Newark (NJ); Danbury (CT); Atlanta (GA); Houston (TX).
 
-Regra de qualidade: cada página precisa de conteúdo único sobre a comunidade brasileira e o mercado local daquela cidade. Proibido duplicar texto trocando apenas o nome da cidade. Novas cidades podem ser adicionadas em `src/data/cidades.ts`.
+Regra de qualidade: cada página precisa de conteúdo único sobre o mercado local daquela cidade, em cada idioma (pt: comunidade brasileira; en: dono de negócio local; es: comunidade hispânica). Proibido duplicar texto trocando apenas o nome da cidade ou traduzir a versão pt. Novas cidades entram em `src/i18n/mapa-slugs.ts` e em `src/data/cidades/{base,pt,en,es}.ts`.
 
 ## Blog
 
-- Artigos em MDX versionados no repo (`content/blog/*.mdx`)
+- Artigos em MDX versionados no repo (`content/blog/<idioma>/*.mdx`); traduções ligadas pelo campo `grupo`
 - Papel: atrair tráfego orgânico de topo e meio de funil e alimentar as redes
 - Pautas orientadas por SEO (ver `docs/seo.md`)
 
 ## Fora do escopo (por enquanto)
 
-- Versão em inglês / i18n
+- Domínio ou subdomínio separado por idioma (a arquitetura é subpasta no mesmo domínio)
 - CMS ou painel de administração
 - Área logada, e-commerce, pagamentos
 - Formulários com backend (a conversão é via WhatsApp)

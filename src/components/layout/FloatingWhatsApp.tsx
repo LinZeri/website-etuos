@@ -1,13 +1,15 @@
 import { linkWhatsApp } from "@/data/site";
+import { dicionario } from "@/i18n/dicionario";
+import type { Idioma } from "@/i18n/idiomas";
 
-export function FloatingWhatsApp() {
+export function FloatingWhatsApp({ idioma }: { idioma: Idioma }) {
   return (
     <a
-      href={linkWhatsApp()}
+      href={linkWhatsApp(idioma)}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Falar com a Etuos no WhatsApp"
-      className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-accent shadow-lg shadow-foreground/20 transition hover:scale-105"
+      aria-label={dicionario(idioma).whatsapp.flutuante}
+      className="fixed bottom-5 right-5 z-50 hidden h-14 w-14 items-center justify-center rounded-full bg-accent shadow-lg shadow-foreground/20 transition hover:scale-105 md:flex"
     >
       <svg
         viewBox="0 0 24 24"

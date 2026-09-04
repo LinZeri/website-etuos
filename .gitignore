@@ -43,3 +43,12 @@ next-env.d.ts
 
 # referencias internas (logo, identidade, materiais)
 /_references/
+
+# blog-loop (artefatos temporarios da producao automatica de artigos)
+/.blog-loop-staging/
+/docs/.blog-loop.lock
+/docs/.blog-loop-dry-run
+
+# auditorias de SEO geradas localmente
+/etuos.com-audit/
+/dpca.com.br-audit/

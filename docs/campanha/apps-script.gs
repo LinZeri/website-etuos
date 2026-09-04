@@ -11,6 +11,7 @@ var EMAIL_AVISO = '';
 var COLUNAS = [
   'enviadoEm',
   'origem',
+  'idioma',
   'nome',
   'whatsapp',
   'site',
@@ -64,6 +65,7 @@ function avisar(dados) {
     'Site: ' + (dados.site || ''),
     'Onde fica: ' + (dados.cidade || '') + ', ' + (dados.pais || ''),
     'Origem: ' + (dados.origem || ''),
+    'Idioma do site: ' + (dados.idioma || ''),
     'Campanha: ' + (dados.utm_campaign || 'não informada'),
     'gclid: ' + (dados.gclid || 'não informado')
   ].join('\n');
@@ -75,4 +77,28 @@ function responder(objeto) {
   return ContentService
     .createTextOutput(JSON.stringify(objeto))
     .setMimeType(ContentService.MimeType.JSON);
+}
+
+/**
+ * Rode esta função uma vez, direto no editor (seletor de função > Executar),
+ * para duas coisas: disparar o prompt de autorização por um caminho mais
+ * confiável que o fluxo do Deploy, e confirmar que a escrita na planilha
+ * funciona. Se der certo, uma linha de teste aparece na planilha.
+ */
+function testeConfiguracao() {
+  var e = {
+    postData: {
+      contents: JSON.stringify({
+        origem: 'teste-editor',
+        nome: 'Linha de teste (pode apagar)',
+        whatsapp: '000',
+        site: 'etuos.com',
+        pais: 'Brasil',
+        cidade: 'Teste',
+        enviadoEm: new Date().toISOString()
+      })
+    }
+  };
+  var resultado = doPost(e).getContent();
+  Logger.log('Resultado: ' + resultado);
 }

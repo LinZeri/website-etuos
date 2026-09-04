@@ -28,12 +28,12 @@ O Google pode gastar até o dobro do orçamento diário num dia, compensando nos
 
 | Grupo | Landing | Palavras-chave | Volume/mês |
 | --- | --- | --- | --- |
-| G1 SEO agência | `/lp/seo` | `[agência de seo]`, `[agencia seo]`, `[empresa de seo]`, `[seo agência]`, `"agência de seo"` | 1.300 + 390 + 170 |
-| G2 SEO consultoria | `/lp/seo` | `[consultoria seo]`, `[consultor seo]`, `[especialista em seo]`, `[auditoria de seo]`, `[serviços de seo]`, `[otimização de sites]` | 1.000 + 590 + 320 + 140 + 50 |
-| G3 SEO resultado | `/lp/seo` | `[aparecer no google]`, `[primeira página do google]`, `[posicionamento no google]`, `"como aparecer no google"` | 480 + 170 + 110 + 70 |
-| G4 Tráfego pago agência | `/lp/trafego-pago` | `[agência de tráfego pago]`, `[gestão de tráfego pago]`, `[agência de google ads]`, `"agência de tráfego pago"` | 1.900 + 1.000 + 260 |
-| G5 Anunciar no Google | `/lp/trafego-pago` | `[anunciar no google]`, `[anúncio no google]`, `[google ads para empresas]` | 1.600 + 1.300 |
-| G6 Agência guarda-chuva | `/lp/trafego-pago` | `[agência de marketing digital]`, `[agência de publicidade]`, `[empresa de marketing digital]`, `[marketing digital para empresas]` | 8.100 + 4.400 + 170 |
+| G1 SEO agência | `/pt/lp/seo` | `[agência de seo]`, `[agencia seo]`, `[empresa de seo]`, `[seo agência]`, `"agência de seo"` | 1.300 + 390 + 170 |
+| G2 SEO consultoria | `/pt/lp/seo` | `[consultoria seo]`, `[consultor seo]`, `[especialista em seo]`, `[auditoria de seo]`, `[serviços de seo]`, `[otimização de sites]` | 1.000 + 590 + 320 + 140 + 50 |
+| G3 SEO resultado | `/pt/lp/seo` | `[aparecer no google]`, `[primeira página do google]`, `[posicionamento no google]`, `"como aparecer no google"` | 480 + 170 + 110 + 70 |
+| G4 Tráfego pago agência | `/pt/lp/trafego-pago` | `[agência de tráfego pago]`, `[gestão de tráfego pago]`, `[agência de google ads]`, `"agência de tráfego pago"` | 1.900 + 1.000 + 260 |
+| G5 Anunciar no Google | `/pt/lp/trafego-pago` | `[anunciar no google]`, `[anúncio no google]`, `[google ads para empresas]` | 1.600 + 1.300 |
+| G6 Agência guarda-chuva | `/pt/lp/trafego-pago` | `[agência de marketing digital]`, `[agência de publicidade]`, `[empresa de marketing digital]`, `[marketing digital para empresas]` | 8.100 + 4.400 + 170 |
 
 **G7 Volume vigiado (criar pausado):** `"tráfego pago"` (60.500/mês) e `"gestor de tráfego"` (14.800/mês), só em correspondência de frase.
 
@@ -49,10 +49,10 @@ Só ative esse grupo se, depois das primeiras 6 horas, o gasto estiver muito aba
 
 | Grupo | Landing | Palavras-chave | Volume/mês |
 | --- | --- | --- | --- |
-| G1 SEO pt | `/lp/seo` | `[agência de seo]`, `[agencia de seo]`, `[consultoria seo]`, `[consultor seo]`, `[empresa de seo]`, `[serviços de seo]` | 1.000 + 590 + 70 + 50 |
-| G2 SEO local pt | `/lp/seo` | `[seo local]`, `[google meu negócio]` | 1.000 + 720 |
-| G3 Marketing digital pt | `/lp/trafego-pago` | `[agência de marketing digital]`, `[agencia de marketing digital]` | 1.300 |
-| G4 Tráfego pago pt | `/lp/trafego-pago` | `[tráfego pago]`, `[agência de tráfego pago]`, `[gestor de tráfego]` | 320 + 260 + 20 |
+| G1 SEO pt | `/pt/lp/seo` | `[agência de seo]`, `[agencia de seo]`, `[consultoria seo]`, `[consultor seo]`, `[empresa de seo]`, `[serviços de seo]` | 1.000 + 590 + 70 + 50 |
+| G2 SEO local pt | `/pt/lp/seo` | `[seo local]`, `[google meu negócio]` | 1.000 + 720 |
+| G3 Marketing digital pt | `/pt/lp/trafego-pago` | `[agência de marketing digital]`, `[agencia de marketing digital]` | 1.300 |
+| G4 Tráfego pago pt | `/pt/lp/trafego-pago` | `[tráfego pago]`, `[agência de tráfego pago]`, `[gestor de tráfego]` | 320 + 260 + 20 |
 
 **Onde está a oportunidade:** o G3 tem índice de concorrência **4 de 100**. Quase ninguém dá lance em "agência de marketing digital" em português dentro dos EUA. O G1 também está em concorrência baixa. É o público para o qual o site inteiro foi construído e ninguém está disputando.
 
@@ -148,7 +148,7 @@ Descrições:
 
 ## Recursos (extensões)
 
-**Sitelinks:** Quem é a Etuos (`/sobre`), Serviço de SEO (`/servicos/seo`), Tráfego pago (`/lp/trafego-pago`), Onde atendemos (`/eua`)
+**Sitelinks:** Quem é a Etuos (`/pt/sobre`), Serviço de SEO (`/pt/servicos/seo`), Tráfego pago (`/pt/lp/trafego-pago`), Onde atendemos (`/pt/eua`)
 
 **Frases de destaque:** Plano em 48 horas / Sem contrato / Atendimento em português / Mais de 10 anos / Fala direto com o dono / Sem promessa milagrosa
 
@@ -166,21 +166,21 @@ Cole a URL inteira no campo **URL final** do anúncio de cada grupo.
 
 | Grupo | URL final |
 | --- | --- |
-| G1 SEO agência | `https://etuos.com/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=seo-agencia&utm_term={keyword}` |
-| G2 SEO consultoria | `https://etuos.com/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=seo-consultoria&utm_term={keyword}` |
-| G3 SEO resultado | `https://etuos.com/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=seo-resultado&utm_term={keyword}` |
-| G4 Tráfego pago agência | `https://etuos.com/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=tp-agencia&utm_term={keyword}` |
-| G5 Anunciar no Google | `https://etuos.com/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=tp-anunciar&utm_term={keyword}` |
-| G6 Agência guarda-chuva | `https://etuos.com/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=tp-guardachuva&utm_term={keyword}` |
+| G1 SEO agência | `https://etuos.com/pt/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=seo-agencia&utm_term={keyword}` |
+| G2 SEO consultoria | `https://etuos.com/pt/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=seo-consultoria&utm_term={keyword}` |
+| G3 SEO resultado | `https://etuos.com/pt/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=seo-resultado&utm_term={keyword}` |
+| G4 Tráfego pago agência | `https://etuos.com/pt/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=tp-agencia&utm_term={keyword}` |
+| G5 Anunciar no Google | `https://etuos.com/pt/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=tp-anunciar&utm_term={keyword}` |
+| G6 Agência guarda-chuva | `https://etuos.com/pt/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=br&utm_content=tp-guardachuva&utm_term={keyword}` |
 
 ### Campanha 2: EUA em português
 
 | Grupo | URL final |
 | --- | --- |
-| G1 SEO pt | `https://etuos.com/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=eua&utm_content=seo-pt&utm_term={keyword}` |
-| G2 SEO local pt | `https://etuos.com/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=eua&utm_content=seo-local-pt&utm_term={keyword}` |
-| G3 Marketing digital pt | `https://etuos.com/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=eua&utm_content=mkt-digital-pt&utm_term={keyword}` |
-| G4 Tráfego pago pt | `https://etuos.com/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=eua&utm_content=tp-pt&utm_term={keyword}` |
+| G1 SEO pt | `https://etuos.com/pt/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=eua&utm_content=seo-pt&utm_term={keyword}` |
+| G2 SEO local pt | `https://etuos.com/pt/lp/seo?utm_source=google&utm_medium=cpc&utm_campaign=eua&utm_content=seo-local-pt&utm_term={keyword}` |
+| G3 Marketing digital pt | `https://etuos.com/pt/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=eua&utm_content=mkt-digital-pt&utm_term={keyword}` |
+| G4 Tráfego pago pt | `https://etuos.com/pt/lp/trafego-pago?utm_source=google&utm_medium=cpc&utm_campaign=eua&utm_content=tp-pt&utm_term={keyword}` |
 
 Confirme também que a **tag automática** está ligada em Configurações da conta. É ela que anexa o `gclid` ao link, e o formulário grava esse valor. Mesmo sem conversão configurada agora, o `gclid` guardado permite importar conversões offline mais para a frente, quando um lead virar cliente.
 

@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { linkWhatsApp } from "@/data/site";
+import type { Dicionario } from "@/i18n/dicionario";
+import type { Idioma } from "@/i18n/idiomas";
 import { registrarConversao } from "@/lib/conversoes";
 
 const endpoint = process.env.NEXT_PUBLIC_FORM_ENDPOINT ?? "";
@@ -23,20 +25,28 @@ const PARAMETROS = [
 type Estado = "parado" | "enviando" | "sucesso" | "erro";
 
 type Props = {
+  idioma: Idioma;
   origem: "seo" | "trafego-pago";
   titulo: string;
   descricao: string;
   textoBotao: string;
   mensagemWhatsApp: string;
+  // Strings de interface, vindas do dicionário no servidor.
+  textos: Dicionario["formulario"];
+  // Link da política de privacidade no idioma da página.
+  linkPrivacidade: string;
   id?: string;
 };
 
 export function FormularioCampanha({
+  idioma,
   origem,
   titulo,
   descricao,
   textoBotao,
   mensagemWhatsApp,
+  textos,
+  linkPrivacidade,
   id,
 }: Props) {
   const [estado, setEstado] = useState<Estado>("parado");
@@ -81,6 +91,7 @@ export function FormularioCampanha({
 
     const payload = {
       origem,
+      idioma,
       nome: String(dados.get("nome") ?? "").trim(),
       whatsapp: String(dados.get("whatsapp") ?? "").trim(),
       site: String(dados.get("site") ?? "").trim(),
@@ -109,6 +120,8 @@ export function FormularioCampanha({
     }
   }
 
+  const linkZap = linkWhatsApp(idioma, mensagemWhatsApp);
+
   // Sem endpoint configurado, mostrar um formulário que não envia seria pior
   // que não ter formulário. A landing cai para o WhatsApp, que é a conversão
   // principal do site de qualquer jeito.
@@ -120,11 +133,10 @@ export function FormularioCampanha({
       >
         <h2 className="text-2xl">{titulo}</h2>
         <p className="mt-3 leading-relaxed text-muted">
-          Chama no WhatsApp, conta em duas linhas como está o seu negócio e o
-          plano de ação sai em até 48 horas.
+          {textos.semEndpointTexto}
         </p>
         <a
-          href={linkWhatsApp(mensagemWhatsApp)}
+          href={linkZap}
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => registrarConversao("whatsapp")}
@@ -133,8 +145,7 @@ export function FormularioCampanha({
           {textoBotao}
         </a>
         <p className="mt-4 text-xs leading-relaxed text-muted">
-          Resposta no mesmo dia, direto com o Lin. Sem robô e sem formulário
-          longo.
+          {textos.semEndpointRodape}
         </p>
       </div>
     );
@@ -146,20 +157,19 @@ export function FormularioCampanha({
         id={id}
         className="rounded-2xl border border-border bg-background p-7 text-foreground"
       >
-        <p className="font-display text-5xl text-accent">Feito</p>
-        <h2 className="mt-4 text-2xl">Recebemos o seu pedido</h2>
+        <p className="font-display text-5xl text-accent">{textos.feito}</p>
+        <h2 className="mt-4 text-2xl">{textos.recebemosTitulo}</h2>
         <p className="mt-4 leading-relaxed text-muted">
-          Seu plano de ação fica pronto em até 48 horas e chega no WhatsApp que
-          você informou. Se quiser adiantar a conversa, chama a gente agora.
+          {textos.recebemosTexto}
         </p>
         <a
-          href={linkWhatsApp(mensagemWhatsApp)}
+          href={linkZap}
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => registrarConversao("whatsapp")}
           className="mt-6 inline-block rounded-lg bg-accent px-7 py-4 font-semibold text-foreground transition hover:brightness-95"
         >
-          Falar no WhatsApp agora
+          {textos.falarAgora}
         </a>
       </div>
     );
@@ -174,36 +184,42 @@ export function FormularioCampanha({
       <p className="mt-3 text-sm leading-relaxed text-muted">{descricao}</p>
 
       <form onSubmit={enviar} className="mt-6 grid gap-4">
-        <Campo rotulo="Seu nome" nome="nome" autoComplete="name" />
+        <Campo rotulo={textos.nome} nome="nome" autoComplete="name" />
         <Campo
-          rotulo="WhatsApp com DDD"
+          rotulo={textos.whatsapp}
           nome="whatsapp"
           tipo="tel"
           autoComplete="tel"
-          dica="Pode ser número do Brasil ou dos Estados Unidos"
+          dica={textos.whatsappDica}
         />
         <Campo
-          rotulo="Endereço do seu site"
+          rotulo={textos.site}
           nome="site"
           tipo="text"
           autoComplete="url"
-          dica="Se ainda não tem site, escreva não tenho"
+          dica={textos.siteDica}
         />
 
         <div className="grid gap-4 sm:grid-cols-2">
           <label className="grid min-w-0 gap-1.5">
-            <span className="text-sm font-medium">Onde fica o negócio</span>
+            <span className="text-sm font-medium">{textos.ondeFica}</span>
+            {/* Os valores enviados ficam fixos (a planilha filtra por eles);
+                só o rótulo visível muda de idioma. */}
             <select
               name="pais"
               required
-              defaultValue="Brasil"
+              defaultValue={idioma === "pt" ? "Brasil" : "Estados Unidos"}
               className="w-full min-w-0 rounded-lg border border-border bg-surface px-3 py-2.5 text-foreground outline-none transition focus:border-foreground"
             >
-              <option value="Brasil">Brasil</option>
-              <option value="Estados Unidos">Estados Unidos</option>
+              <option value="Brasil">{textos.paisBrasil}</option>
+              <option value="Estados Unidos">{textos.paisEua}</option>
             </select>
           </label>
-          <Campo rotulo="Cidade" nome="cidade" autoComplete="address-level2" />
+          <Campo
+            rotulo={textos.cidade}
+            nome="cidade"
+            autoComplete="address-level2"
+          />
         </div>
 
         {/* Honeypot: escondido de gente, visível para robô. */}
@@ -219,35 +235,31 @@ export function FormularioCampanha({
           disabled={estado === "enviando"}
           className="mt-2 rounded-lg bg-accent px-6 py-4 text-lg font-semibold text-foreground transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-60"
         >
-          {estado === "enviando" ? "Enviando..." : textoBotao}
+          {estado === "enviando" ? textos.enviando : textoBotao}
         </button>
 
         {estado === "erro" && (
           <p className="text-sm leading-relaxed text-foreground">
-            Não conseguimos enviar agora. Tenta de novo ou{" "}
+            {textos.erroAntes}{" "}
             <a
-              href={linkWhatsApp(mensagemWhatsApp)}
+              href={linkZap}
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => registrarConversao("whatsapp")}
               className="font-semibold underline decoration-accent decoration-2 underline-offset-4"
             >
-              chama no WhatsApp
+              {textos.erroLink}
             </a>
-            , que a gente resolve por lá.
+            {textos.erroDepois}
           </p>
         )}
 
         <p className="text-xs leading-relaxed text-muted">
-          Seus dados servem só para montar o plano e falar com você. Sem
-          disparo de spam. Detalhes na{" "}
-          <a
-            href="/politica-de-privacidade"
-            className="underline underline-offset-2"
-          >
-            política de privacidade
+          {textos.privacidadeAntes}{" "}
+          <a href={linkPrivacidade} className="underline underline-offset-2">
+            {textos.privacidadeLink}
           </a>
-          .
+          {textos.privacidadeDepois}
         </p>
       </form>
     </div>
