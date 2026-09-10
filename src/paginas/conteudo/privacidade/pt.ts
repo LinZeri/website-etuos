@@ -2,7 +2,7 @@
 export const privacidadePt = {
   metaTitulo: "Política de privacidade",
   metaDescricao:
-    "Como a Etuos coleta, usa e protege os dados de quem visita o site e preenche os formulários, de acordo com a LGPD.",
+    "Como a Etuos coleta, usa e protege os dados de quem visita o site e preenche os formulários, de acordo com a LGPD. Sem juridiquês.",
   titulo: "Política de privacidade",
   intro:
     "Atualizada em 6 de agosto de 2026. Em bom português, sem juridiquês: o que a gente coleta, para que usa e como você pede para apagar.",

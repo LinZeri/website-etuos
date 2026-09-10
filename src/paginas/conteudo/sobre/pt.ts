@@ -3,7 +3,7 @@
 export const sobrePt = {
   metaTitulo: "Sobre a Etuos: quem cuida do seu marketing",
   metaDescricao:
-    "A Etuos é a agência de Lin Zeri, publicitário com mais de 10 anos de marketing digital, meio milhão de dólares em anúncios gerenciados e cases como 30 para 300 franquias.",
+    "A Etuos é a agência de Lin Zeri: mais de 10 anos de marketing digital, meio milhão de dólares em anúncios geridos e cases como 30 para 300 franquias.",
   eyebrow: "Sobre a Etuos",
   h1Antes: "Quem cuida do seu marketing tem",
   h1Destaque: "nome e rosto",

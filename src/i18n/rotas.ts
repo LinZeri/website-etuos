@@ -43,6 +43,7 @@ export type Pagina =
   | { tipo: "sobre" }
   | { tipo: "servicos" }
   | { tipo: "servico"; id: IdServico }
+  | { tipo: "cidades" }
   | { tipo: "cidade"; id: IdCidade }
   | { tipo: "blog" }
   | { tipo: "post"; slug: string }
@@ -58,6 +59,7 @@ const SIMPLES = [
   "brasil",
   "sobre",
   "servicos",
+  "cidades",
   "blog",
   "contato",
   "privacidade",
@@ -80,6 +82,7 @@ export function caminho(idioma: Idioma, pagina: Pagina): string {
     case "brasil":
     case "sobre":
     case "servicos":
+    case "cidades":
     case "blog":
     case "contato":
     case "privacidade":
@@ -170,6 +173,7 @@ export function paginasEstaticas(): PaginaSemPost[] {
     { tipo: "sobre" },
     { tipo: "servicos" },
     ...idsDe("servico").map((id) => ({ tipo: "servico", id }) as const),
+    { tipo: "cidades" },
     ...idsDe("cidade").map((id) => ({ tipo: "cidade", id }) as const),
     { tipo: "blog" },
     { tipo: "contato" },

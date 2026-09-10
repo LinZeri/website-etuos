@@ -234,7 +234,7 @@ export const pt = {
   eua: {
     metaTitulo: "Marketing digital para brasileiros nos EUA",
     metaDescricao:
-      "Agência de marketing digital para brasileiros que empreendem nos Estados Unidos. Tráfego pago, SEO local e sites que trazem clientes de verdade. Diagnóstico gratuito.",
+      "Agência de marketing digital para brasileiros que empreendem nos Estados Unidos: tráfego pago, SEO local e sites. Diagnóstico gratuito.",
     hero: {
       eyebrow: "Agência para brasileiros nos EUA",
       titulo: "Marketing digital para brasileiros que querem",
@@ -272,7 +272,7 @@ export const pt = {
   brasil: {
     metaTitulo: "Marketing digital para negócios no Brasil",
     metaDescricao:
-      "Agência de marketing digital para negócios e profissionais no Brasil. Tráfego pago, SEO e criação de sites que trazem clientes de verdade. Diagnóstico gratuito no WhatsApp.",
+      "Agência de marketing digital para negócios e profissionais no Brasil: tráfego pago, SEO e sites. Diagnóstico gratuito no WhatsApp.",
     hero: {
       eyebrow: "Agência para negócios no Brasil",
       titulo: "Marketing digital para quem quer",
@@ -341,11 +341,20 @@ export const pt = {
     ctaDescricao:
       "Chama no WhatsApp, conta sobre o seu negócio e a gente te diz com sinceridade se esse serviço é o certo para o seu momento.",
   },
+  cidadesPagina: {
+    metaTitulo: "Cidades atendidas nos Estados Unidos",
+    metaDescricao:
+      "Marketing digital para brasileiros em 10 cidades dos Estados Unidos: Miami, Orlando, Boston, Newark e mais. Veja a sua região e fale com a gente.",
+    eyebrow: "Cidades atendidas",
+    titulo: "As 10 cidades onde a Etuos já trabalha",
+    descricao:
+      "Cada cidade tem uma página própria, com o mercado local, os bairros que atendemos e as perguntas de quem empreende por lá.",
+  },
   cidade: {
     metaTitulo: (nome: string, uf: string) =>
-      `Agência brasileira de marketing em ${nome}, ${uf}`,
+      `Agência para brasileiros em ${nome}, ${uf}`,
     metaDescricao: (nome: string, estado: string) =>
-      `Marketing digital para brasileiros em ${nome}, ${estado}: tráfego pago, SEO local e sites para atrair mais clientes na região. Diagnóstico gratuito no WhatsApp.`,
+      `Marketing digital para brasileiros em ${nome}, ${estado}: tráfego pago, SEO e sites para atrair clientes. Diagnóstico gratuito.`,
     // O nome da cidade entra em destaque logo depois deste trecho.
     h1Antes: "Marketing digital para brasileiros em",
     ctaHero: (nome: string) => `Atrair clientes em ${nome}`,

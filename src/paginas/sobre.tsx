@@ -62,8 +62,8 @@ export function PaginaSobre({ idioma }: { idioma: Idioma }) {
             <Image
               src="/images/lin-zeri-palco.webp"
               alt={c.recorteAlt}
-              width={900}
-              height={1359}
+              width={640}
+              height={966}
               priority
               sizes="(min-width: 768px) 380px, 70vw"
               className="relative mx-auto block w-56 md:w-full"

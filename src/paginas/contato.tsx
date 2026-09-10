@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { CabecalhoPagina } from "@/components/sections/CabecalhoPagina";
+import { JsonLd } from "@/components/ui/JsonLd";
 import { dicionario } from "@/i18n/dicionario";
 import type { Idioma } from "@/i18n/idiomas";
 import { alternativas, caminho } from "@/i18n/rotas";
 import { metadataDaPagina } from "@/lib/metadata";
+import { trilhaJsonLd } from "@/lib/schema";
 
 const pagina = { tipo: "contato" } as const;
 
@@ -25,6 +27,12 @@ export function PaginaContato({ idioma }: { idioma: Idioma }) {
   const t = d.contato;
   return (
     <>
+      <JsonLd
+        dados={trilhaJsonLd([
+          { nome: d.schema.trilhaHome, caminho: caminho(idioma, { tipo: "home" }) },
+          { nome: d.nav.contato, caminho: caminho(idioma, pagina) },
+        ])}
+      />
       <CabecalhoPagina
         eyebrow={t.eyebrow}
         titulo={t.titulo}

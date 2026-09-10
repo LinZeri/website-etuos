@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { Comparativo } from "@/components/sections/Comparativo";
 import { CtaFinal } from "@/components/sections/CtaFinal";
+import { Depoimentos } from "@/components/sections/Depoimentos";
 import { Faq } from "@/components/sections/Faq";
 import { Fundador } from "@/components/sections/Fundador";
+import { Resultados } from "@/components/sections/Resultados";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { getServicoPorId } from "@/data/servicos";
 import { dicionario } from "@/i18n/dicionario";
@@ -150,6 +152,10 @@ export function PaginaServico({ idioma, id }: Props) {
           </p>
         </div>
       </section>
+
+      <Resultados idioma={idioma} />
+
+      <Depoimentos idioma={idioma} variante="compacta" />
 
       <Fundador idioma={idioma} compacto />
 

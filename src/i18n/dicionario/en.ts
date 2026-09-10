@@ -334,6 +334,15 @@ export const en = {
     ctaDescricao:
       "Message us on WhatsApp, tell us about your business, and we'll tell you honestly whether this service is the right move for you right now.",
   },
+  cidadesPagina: {
+    metaTitulo: "Cities we serve in the United States",
+    metaDescricao:
+      "Digital marketing for businesses in 10 US cities: Miami, Orlando, Boston, Newark and more. Find your city and see how we can help.",
+    eyebrow: "Cities we serve",
+    titulo: "The 10 cities where Etuos already works",
+    descricao:
+      "Each city has its own page, with the local market, the neighborhoods we cover and the questions business owners actually ask.",
+  },
   cidade: {
     metaTitulo: (nome: string, uf: string) =>
       `Digital marketing agency in ${nome}, ${uf}`,

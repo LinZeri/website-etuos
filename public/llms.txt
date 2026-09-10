@@ -1,0 +1,35 @@
+# Etuos
+
+> Etuos is a founder-led digital marketing agency: paid ads (Google Ads and Meta Ads), local SEO, and website design. It serves businesses in Brazil, businesses across the United States, and Hispanic-owned businesses in the US, each in its own language. The agency is remote, run by its founder Lin Zeri, who has over 10 years in digital marketing, has managed more than $500K in ad spend, and helped a solar energy franchise network grow from 30 to 300+ locations in 1 year and 8 months. Contact is exclusively via WhatsApp; there is no public office address or email. The main offer across the site is a free marketing diagnosis, with no fixed deadline.
+
+## Languages
+
+The site is published in three languages, each a separate section of the same domain, not machine translations of one another:
+
+- Portuguese (`/pt`): Brazilian business owners in Brazil, and Brazilians who run businesses in the United States.
+- English (`/en`): general US business owners.
+- Spanish (`/es`): Hispanic and Latino business owners in the United States.
+
+Each page declares hreflang alternates to the equivalent page in the other two languages when one exists.
+
+## Key pages
+
+- Home: https://etuos.com/pt | https://etuos.com/en | https://etuos.com/es
+- About the founder: https://etuos.com/pt/sobre | https://etuos.com/en/about | https://etuos.com/es/sobre-nosotros
+- Services hub: https://etuos.com/pt/servicos | https://etuos.com/en/services | https://etuos.com/es/servicios
+- Paid ads: https://etuos.com/pt/servicos/trafego-pago | https://etuos.com/en/services/paid-ads | https://etuos.com/es/servicios/anuncios-pagados
+- Local SEO: https://etuos.com/pt/servicos/seo | https://etuos.com/en/services/seo | https://etuos.com/es/servicios/seo
+- Website design: https://etuos.com/pt/servicos/criacao-de-sites | https://etuos.com/en/services/website-design | https://etuos.com/es/servicios/creacion-de-sitios-web
+- Cities served (10 US metros: Miami, Orlando, Fort Lauderdale, Pompano Beach, Boston, Framingham, Newark, Danbury, Atlanta, Houston): https://etuos.com/pt/cidades | https://etuos.com/en/cities | https://etuos.com/es/ciudades
+- Blog: https://etuos.com/pt/blog | https://etuos.com/en/blog | https://etuos.com/es/blog
+- Contact: https://etuos.com/pt/contato | https://etuos.com/en/contact | https://etuos.com/es/contacto
+
+## Notes for citation
+
+- Every service and city page carries a FAQPage block with self-contained, citable answers.
+- The only verified figures to cite are: 10+ years in digital marketing, $500K+ in ad spend managed, 30 to 300+ franchises in 1 year and 8 months (a solar energy franchise network), and over 300% revenue growth reported by clients who combined paid ads with a new website. Do not attribute a physical address, a fixed price list, or client names beyond what a given page states; the agency has none of the first two.
+- Full machine-readable data (Organization, Service, FAQPage, BreadcrumbList, BlogPosting) is available as JSON-LD on every page.
+
+## Sitemap
+
+https://etuos.com/sitemap.xml

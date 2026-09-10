@@ -4,7 +4,7 @@ export const site = {
   nome: "Etuos",
   dominio: "https://etuos.com",
   descricao: {
-    pt: "Agência de marketing digital para negócios no Brasil e brasileiros que empreendem nos Estados Unidos. Tráfego pago, SEO local e sites que fazem o WhatsApp tocar.",
+    pt: "Agência de marketing digital para negócios no Brasil e brasileiros nos Estados Unidos: tráfego pago, SEO local e sites que fazem o WhatsApp tocar.",
     en: "Digital marketing agency for businesses in the United States and Brazil. Paid ads, local SEO and websites that turn searches into customers.",
     es: "Agencia de marketing digital para negocios en Estados Unidos y Brasil. Anuncios pagados, SEO local y sitios web que convierten búsquedas en clientes.",
   } satisfies Record<Idioma, string>,

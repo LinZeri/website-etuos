@@ -4,6 +4,7 @@ import type { Idioma } from "@/i18n/idiomas";
 import type { Pagina } from "@/i18n/rotas";
 import { metadataBlog, PaginaBlog } from "./blog";
 import { metadataCidade, PaginaCidade } from "./cidade";
+import { metadataCidadesHub, PaginaCidadesHub } from "./cidades";
 import { metadataContato, PaginaContato } from "./contato";
 import { metadataHome, PaginaHome } from "./home";
 import { metadataLp, PaginaLp } from "./lp";
@@ -33,6 +34,8 @@ export function metadataDe(idioma: Idioma, pagina: Pagina): Metadata | undefined
       return metadataServicos(idioma);
     case "servico":
       return metadataServico(idioma, pagina.id);
+    case "cidades":
+      return metadataCidadesHub(idioma);
     case "cidade":
       return metadataCidade(idioma, pagina.id);
     case "blog":
@@ -63,6 +66,8 @@ export function renderizar(idioma: Idioma, pagina: Pagina): ReactNode | undefine
       return <PaginaServicos idioma={idioma} />;
     case "servico":
       return <PaginaServico idioma={idioma} id={pagina.id} />;
+    case "cidades":
+      return <PaginaCidadesHub idioma={idioma} />;
     case "cidade":
       return <PaginaCidade idioma={idioma} id={pagina.id} />;
     case "blog":

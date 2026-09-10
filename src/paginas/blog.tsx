@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CabecalhoPagina } from "@/components/sections/CabecalhoPagina";
 import { CtaFinal } from "@/components/sections/CtaFinal";
+import { JsonLd } from "@/components/ui/JsonLd";
 import { dicionario } from "@/i18n/dicionario";
 import type { Idioma } from "@/i18n/idiomas";
 import { alternativas, caminho } from "@/i18n/rotas";
 import { getPosts } from "@/lib/blog";
 import { metadataDaPagina } from "@/lib/metadata";
+import { trilhaJsonLd } from "@/lib/schema";
 
 const pagina = { tipo: "blog" } as const;
 
@@ -22,10 +24,17 @@ export function metadataBlog(idioma: Idioma): Metadata {
 }
 
 export function PaginaBlog({ idioma }: { idioma: Idioma }) {
-  const t = dicionario(idioma).blog;
+  const d = dicionario(idioma);
+  const t = d.blog;
   const posts = getPosts(idioma);
   return (
     <>
+      <JsonLd
+        dados={trilhaJsonLd([
+          { nome: d.schema.trilhaHome, caminho: caminho(idioma, { tipo: "home" }) },
+          { nome: d.schema.trilhaBlog, caminho: caminho(idioma, pagina) },
+        ])}
+      />
       <CabecalhoPagina
         eyebrow={t.eyebrow}
         titulo={t.titulo}

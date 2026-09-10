@@ -33,7 +33,12 @@ export function Footer({ idioma }: { idioma: Idioma }) {
           </ul>
         </div>
         <div>
-          <p className="font-semibold">{t.ondeAtendemos}</p>
+          <Link
+            href={caminho(idioma, { tipo: "cidades" })}
+            className="font-semibold hover:underline"
+          >
+            {t.ondeAtendemos}
+          </Link>
           <ul className="mt-2 space-y-1">
             <li>
               <Link

@@ -76,7 +76,7 @@ export function pessoaJsonLd(idioma: Idioma) {
     url: url(caminho(idioma, { tipo: "sobre" })),
     worksFor: { "@id": ID_ORGANIZACAO },
     image: `${site.dominio}/images/lin-zeri.webp`,
-    knowsLanguage: ["pt-BR", "en"],
+    knowsLanguage: ["pt-BR", "en", "es"],
   };
 }
 
@@ -136,6 +136,9 @@ export function postJsonLd(
     datePublished: publicadoEm,
     dateModified: publicadoEm,
     inLanguage: HREFLANG[idioma],
+    // Autor "Equipe Etuos" (o padrão) referencia a própria Organization pelo
+    // @id, em vez de criar uma segunda entidade solta no grafo. Um autor com
+    // nome de pessoa vira Person; hoje só existe o caso "Lin Zeri".
     author:
       autor === "Lin Zeri"
         ? {
@@ -143,7 +146,7 @@ export function postJsonLd(
             name: "Lin Zeri",
             url: url(caminho(idioma, { tipo: "sobre" })),
           }
-        : { "@type": "Organization", name: autor, url: site.dominio },
+        : { "@id": ID_ORGANIZACAO },
     publisher: { "@id": ID_ORGANIZACAO },
     mainEntityOfPage: { "@type": "WebPage", "@id": endereco },
     url: endereco,

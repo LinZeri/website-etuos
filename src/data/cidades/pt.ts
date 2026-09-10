@@ -9,7 +9,7 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
     estado: "Flórida",
     descricaoCurta: "Um dos maiores polos de negócios brasileiros nos Estados Unidos, com forte concorrência local e grande potencial de crescimento.",
     introducao: [
-      "Miami é a porta de entrada do brasileiro nos Estados Unidos. É onde estão os investidores, os restaurantes, as clínicas, os corretores e milhares de prestadores de serviço que falam português. Isso é ótimo para a comunidade e é também o seu maior desafio: aqui, quase todo nicho já tem concorrente brasileiro anunciando.",
+      "A Etuos ajuda negócios de brasileiros em Miami a aparecer no Google, atrair clientes e vencer a concorrência, com tráfego pago, SEO local e sites feitos para essa comunidade. Miami é a porta de entrada do brasileiro nos Estados Unidos, com investidores, restaurantes, clínicas e corretores, e por isso quase todo nicho já tem concorrente brasileiro anunciando.",
       "Em um mercado assim, quem aparece primeiro no Google e faz o melhor anúncio leva o cliente. Marketing amador até funciona em cidade pequena. Em Miami, não. É por isso que o investimento certo em tráfego pago e SEO local faz tanta diferença por aqui."
     ],
     nichos: [
@@ -53,7 +53,7 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
     estado: "Flórida",
     descricaoCurta: "Cidade com uma das comunidades brasileiras que mais crescem nos EUA, movida por turismo, serviços e empreendedorismo.",
     introducao: [
-      "Orlando vive uma explosão de brasileiros. Todo ano chegam famílias novas, abrem negócios novos e o mercado se renova. O motor é o turismo: milhões de brasileiros visitam a cidade e movimentam transporte, casas de temporada, ingressos, compras e alimentação.",
+      "A Etuos leva negócios de brasileiros em Orlando ao topo do Google, com tráfego pago e SEO local pensados para dois públicos: o turista que planeja a viagem e o morador que compra no dia a dia. A cidade vive uma explosão de brasileiros, movida pelo turismo que traz milhões de visitantes todo ano.",
       "Isso cria dois públicos diferentes para o seu marketing: o turista brasileiro que planeja a viagem ainda no Brasil e o morador local que precisa de serviços no dia a dia. Cada um exige uma estratégia. A gente monta as duas."
     ],
     nichos: [
@@ -97,7 +97,7 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
     estado: "Flórida",
     descricaoCurta: "Vizinha de Miami e Pompano Beach, concentra milhares de empresas de brasileiros em serviços, construção e beleza.",
     introducao: [
-      "Fort Lauderdale fica no meio do corredor brasileiro de Broward County, entre Miami e Pompano Beach. A região concentra uma das maiores comunidades brasileiras do país, com empresas de construção, beleza, limpeza e serviços espalhadas por toda a cidade.",
+      "A Etuos ajuda negócios de brasileiros em Fort Lauderdale a ganhar visibilidade no Google, com tráfego pago, SEO local e sites voltados à comunidade brasileira. A cidade fica no meio do corredor brasileiro de Broward County, entre Miami e Pompano Beach, com forte presença em construção, beleza, limpeza e serviços.",
       "Aqui o cliente busca no Google e pergunta em grupo de brasileiros antes de fechar qualquer serviço. Estar bem posicionado nas buscas locais e ter presença profissional é o que separa quem vive de indicação de quem tem agenda cheia o ano todo."
     ],
     nichos: [
@@ -141,7 +141,7 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
     estado: "Flórida",
     descricaoCurta: "Conhecida como um dos corações da comunidade brasileira no sul da Flórida, cheia de comércios e prestadores de serviço.",
     introducao: [
-      "Pompano Beach é um pedaço do Brasil na Flórida. Mercados brasileiros, padarias, igrejas, salões e restaurantes formam um ecossistema onde dá para viver falando só português. Para quem empreende, isso significa um público fiel e concentrado, que prefere comprar de brasileiro.",
+      "A Etuos ajuda negócios de brasileiros em Pompano Beach a dominar as buscas em português, com tráfego pago, SEO local e sites que falam direto com essa comunidade. A cidade é um pedaço do Brasil na Flórida, com mercados, padarias, igrejas e salões formando um público fiel que prefere comprar de brasileiro.",
       "A oportunidade está em dominar as buscas dessa comunidade: quem procura um serviço em Pompano quase sempre pesquisa em português e escolhe quem aparece com avaliações boas e presença profissional. É exatamente isso que a gente constrói para você."
     ],
     nichos: [
@@ -185,7 +185,7 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
     estado: "Massachusetts",
     descricaoCurta: "Massachusetts abriga uma das maiores populações de brasileiros dos EUA, e Boston é o centro econômico dessa comunidade.",
     introducao: [
-      "Massachusetts é um dos estados com mais brasileiros nos Estados Unidos, e a região metropolitana de Boston é o coração disso tudo. Cidades como Everett, Malden, Somerville e Allston têm comércio brasileiro forte e uma rede de serviços que atende a comunidade inteira.",
+      "A Etuos ajuda negócios de brasileiros na Grande Boston a aparecer nas buscas certas, com tráfego pago, SEO local e sites em português e inglês. Massachusetts é um dos estados com mais brasileiros dos EUA, e cidades como Everett, Malden, Somerville e Allston formam o coração desse comércio brasileiro.",
       "O mercado de Boston é maduro: cleaning, construção e serviços têm concorrência estabelecida há décadas. Para crescer aqui, não basta ser bom no que faz. É preciso aparecer nas buscas certas, ter avaliações fortes e um site que passe confiança em português e em inglês."
     ],
     nichos: [
@@ -229,7 +229,7 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
     estado: "Massachusetts",
     descricaoCurta: "Uma das cidades com maior proporção de brasileiros nos Estados Unidos, com comércio local fortemente brasileiro.",
     introducao: [
-      "Framingham é referência nacional quando o assunto é comunidade brasileira. O centro da cidade tem tanta loja, restaurante e serviço brasileiro que é chamado por muitos de pequena Governador Valadares. Aqui, o português é língua de negócio.",
+      "A Etuos ajuda negócios de brasileiros em Framingham a transformar reputação local em cliente novo, com tráfego pago, SEO local e presença digital em português. A cidade é referência nacional em comunidade brasileira, com tanto comércio brasileiro no centro que é chamada de pequena Governador Valadares.",
       "Em uma cidade onde quase todo mundo conhece todo mundo, reputação viaja rápido. Ter um perfil no Google impecável, avaliações fortes e presença digital profissional transforma essa rede de confiança em um fluxo constante de clientes novos."
     ],
     nichos: [
@@ -273,7 +273,7 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
     estado: "Nova Jersey",
     descricaoCurta: "O bairro do Ironbound é referência da comunidade brasileira na costa leste, com forte presença de comércios e serviços.",
     introducao: [
-      "O Ironbound, em Newark, é um dos endereços mais famosos da imigração brasileira nos Estados Unidos. A Ferry Street reúne churrascarias, padarias, lojas e serviços brasileiros que atraem gente de toda a região de Nova York e Nova Jersey.",
+      "A Etuos ajuda negócios de brasileiros no Ironbound, em Newark, a se destacar no Google, com tráfego pago, SEO local e sites profissionais em um mercado que ainda depende de fachada e boca a boca. A Ferry Street reúne churrascarias, padarias e lojas que atraem gente de toda Nova York e Nova Jersey.",
       "Competir aqui é competir pela atenção de uma comunidade grande, exigente e acostumada a ter opção. Quem investe em marketing profissional se destaca rápido, porque a maioria dos negócios da região ainda depende só de fachada e boca a boca."
     ],
     nichos: [
@@ -317,7 +317,7 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
     estado: "Connecticut",
     descricaoCurta: "Polo da comunidade brasileira em Connecticut, com grande concentração de pequenos negócios de brasileiros.",
     introducao: [
-      "Danbury é o coração brasileiro de Connecticut. A cidade concentra uma comunidade grande e ativa, com igrejas, comércios e uma rede densa de prestadores de serviço que atendem tanto brasileiros quanto o público americano da região.",
+      "A Etuos ajuda negócios de brasileiros em Danbury a dominar as buscas locais com investimento enxuto, usando tráfego pago, SEO local e sites em português e inglês. A cidade é o coração brasileiro de Connecticut, com uma comunidade grande e ativa que atende tanto brasileiros quanto o público americano da região.",
       "O tamanho da cidade é uma vantagem: com estratégia local bem feita, dá para dominar as buscas do seu nicho em Danbury e nas cidades vizinhas com investimento menor do que nos grandes centros. É crescimento eficiente, sem queimar dinheiro."
     ],
     nichos: [
@@ -361,7 +361,7 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
     estado: "Geórgia",
     descricaoCurta: "Comunidade brasileira em rápido crescimento no sul dos EUA, em uma das economias regionais mais dinâmicas do país.",
     introducao: [
-      "Atlanta virou destino de brasileiros que buscam custo de vida menor e uma economia em plena expansão. A comunidade cresce ano após ano, concentrada principalmente na região norte da metrópole, e o mercado ainda tem espaço em quase todos os nichos.",
+      "A Etuos ajuda negócios de brasileiros em Atlanta a ocupar o topo do Google antes da concorrência, com tráfego pago, SEO local e sites que aproveitam essa janela de mercado. A cidade virou destino de quem busca custo de vida menor, e a comunidade cresce ano após ano na região norte da metrópole.",
       "Essa é a janela de oportunidade: diferente da Flórida ou de Massachusetts, em Atlanta muitos nichos ainda não têm um líder brasileiro claro no Google. Quem se posicionar primeiro colhe clientes por anos. Nosso trabalho é colocar você nessa posição."
     ],
     nichos: [
@@ -405,7 +405,7 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
     estado: "Texas",
     descricaoCurta: "Uma das maiores cidades dos EUA, com comunidade brasileira crescente ligada a energia, serviços e construção.",
     introducao: [
-      "Houston é gigante: uma das maiores cidades dos Estados Unidos, capital mundial da energia e um mercado consumidor enorme. A comunidade brasileira cresce puxada por profissionais do setor de óleo e gás, engenheiros e uma nova onda de empreendedores de serviços.",
+      "A Etuos ajuda negócios de brasileiros em Houston a segmentar por bairro e conquistar cliente sem queimar verba, com tráfego pago, SEO local e sites bilíngues. Houston é gigante: capital mundial da energia, com comunidade brasileira puxada por profissionais de óleo e gás, engenheiros e uma nova onda de empreendedores de serviços.",
       "Em uma cidade dessas dimensões, marketing local bem segmentado é tudo. Anunciar para Houston inteira queima dinheiro; anunciar para o bairro e o público certos enche a agenda. A gente conhece a diferença e monta a estratégia para o seu raio de atuação."
     ],
     nichos: [

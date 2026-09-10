@@ -324,6 +324,15 @@ export const es = {
     ctaDescricao:
       "Escríbenos por WhatsApp, cuéntanos de tu negocio y te decimos con sinceridad si este servicio es el correcto para tu momento.",
   },
+  cidadesPagina: {
+    metaTitulo: "Ciudades donde atendemos en EE. UU.",
+    metaDescricao:
+      "Marketing digital para negocios hispanos en 10 ciudades de EE. UU.: Miami, Orlando, Boston, Newark y más. Encuentra tu ciudad y hablemos.",
+    eyebrow: "Ciudades donde atendemos",
+    titulo: "Las 10 ciudades donde Etuos ya trabaja",
+    descricao:
+      "Cada ciudad tiene su propia página, con el mercado local, las zonas que cubrimos y las preguntas que hacen quienes emprenden ahí.",
+  },
   cidade: {
     metaTitulo: (nome: string, uf: string) =>
       `Agencia de marketing digital en ${nome}, ${uf}`,
@@ -349,7 +358,7 @@ export const es = {
       "Escríbenos por WhatsApp y recibe un diagnóstico gratuito de tu marketing en tu zona, sin compromiso.",
   },
   blog: {
-    metaTitulo: "Blog: marketing digital para negocios hispanos en EE. UU.",
+    metaTitulo: "Blog: marketing digital para negocios hispanos",
     metaDescricao:
       "Artículos prácticos sobre marketing digital, anuncios pagados, SEO local y ventas para negocios hispanos en Estados Unidos y negocios en Brasil.",
     eyebrow: "Blog",

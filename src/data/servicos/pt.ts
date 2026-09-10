@@ -7,9 +7,9 @@ import type { ConteudoServico } from "./index";
 export const servicosPt: Record<IdServico, ConteudoServico> = {
   "trafego-pago": {
     nome: "Tráfego pago",
-    titulo: "Gestão de tráfego pago: Google Ads e Meta Ads que fazem o WhatsApp tocar",
+    titulo: "Gestão de tráfego pago: Google e Meta Ads",
     descricaoCurta:
-      "Campanhas no Google, no Instagram e no Facebook que colocam o seu negócio na frente de quem já está procurando o que você vende, na sua cidade, e levam essa pessoa direto para o seu WhatsApp.",
+      "Campanhas no Google, no Instagram e no Facebook que colocam o seu negócio na frente de quem já procura o que você vende, na sua cidade.",
     heroDescricao:
       "Anúncio bom não é o que aparece mais. É o que aparece para a pessoa certa, na hora certa, e termina em conversa. É isso que a gente monta, mede e ajusta toda semana.",
     dores: [
@@ -136,9 +136,9 @@ export const servicosPt: Record<IdServico, ConteudoServico> = {
   },
   seo: {
     nome: "SEO",
-    titulo: "SEO local: apareça no Google e no Maps sem pagar por clique",
+    titulo: "SEO local: apareça no Google sem pagar por clique",
     descricaoCurta:
-      "Posicionamos o seu site e o seu perfil no Google nas primeiras posições para as buscas da sua cidade, para o cliente encontrar você todo dia, sem verba de anúncio.",
+      "Posicionamos o seu site e o seu perfil no Google nas primeiras posições para as buscas da sua cidade, sem verba de anúncio.",
     heroDescricao:
       "Quando alguém busca o seu serviço no Google, quem aparece primeiro leva o cliente. O nosso trabalho é fazer esse alguém encontrar você, hoje, no mês que vem e no ano que vem, sem pagar por cada clique.",
     dores: [
@@ -260,7 +260,7 @@ export const servicosPt: Record<IdServico, ConteudoServico> = {
   },
   "criacao-de-sites": {
     nome: "Criação de sites",
-    titulo: "Criação de sites e landing pages que transformam visita em cliente",
+    titulo: "Criação de sites que convertem visita em cliente",
     descricaoCurta:
       "Sites rápidos, com texto que vende e feitos para o celular, que levam quem visita direto para o seu WhatsApp. Prontos para o Google desde o primeiro dia.",
     heroDescricao:

@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
+import { JsonLd } from "@/components/ui/JsonLd";
 import { site } from "@/data/site";
+import { dicionario } from "@/i18n/dicionario";
 import type { Idioma } from "@/i18n/idiomas";
 import { alternativas, caminho } from "@/i18n/rotas";
 import { metadataDaPagina } from "@/lib/metadata";
+import { trilhaJsonLd } from "@/lib/schema";
 import { conteudoPrivacidade } from "./conteudo";
 
 const pagina = { tipo: "privacidade" } as const;
@@ -21,9 +24,16 @@ export function metadataPrivacidade(idioma: Idioma): Metadata {
 
 export function PaginaPrivacidade({ idioma }: { idioma: Idioma }) {
   const c = conteudoPrivacidade(idioma);
+  const d = dicionario(idioma);
 
   return (
     <>
+      <JsonLd
+        dados={trilhaJsonLd([
+          { nome: d.schema.trilhaHome, caminho: caminho(idioma, { tipo: "home" }) },
+          { nome: d.footer.privacidade, caminho: caminho(idioma, pagina) },
+        ])}
+      />
       <section className="grid-dark bg-foreground text-white">
         <div className="mx-auto max-w-3xl px-4 py-16 md:py-20">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">

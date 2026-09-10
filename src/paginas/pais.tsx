@@ -14,7 +14,7 @@ import { dicionario } from "@/i18n/dicionario";
 import type { Idioma } from "@/i18n/idiomas";
 import { alternativas, caminho } from "@/i18n/rotas";
 import { metadataDaPagina } from "@/lib/metadata";
-import { faqJsonLd } from "@/lib/schema";
+import { faqJsonLd, trilhaJsonLd } from "@/lib/schema";
 
 type Pais = "eua" | "brasil";
 
@@ -37,7 +37,18 @@ export function PaginaPais({ idioma, tipo }: { idioma: Idioma; tipo: Pais }) {
   const eua = tipo === "eua";
   return (
     <>
-      <JsonLd dados={faqJsonLd(t.faq)} />
+      <JsonLd
+        dados={[
+          faqJsonLd(t.faq),
+          trilhaJsonLd([
+            { nome: d.schema.trilhaHome, caminho: caminho(idioma, { tipo: "home" }) },
+            {
+              nome: eua ? d.schema.trilhaEua : d.nav.brasil,
+              caminho: caminho(idioma, { tipo }),
+            },
+          ]),
+        ]}
+      />
       <Hero
         idioma={idioma}
         eyebrow={t.hero.eyebrow}

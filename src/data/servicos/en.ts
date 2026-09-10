@@ -8,9 +8,9 @@ import type { ConteudoServico } from "./index";
 export const servicosEn: Record<IdServico, ConteudoServico> = {
   "trafego-pago": {
     nome: "Paid ads",
-    titulo: "Paid ads management: Google and Meta Ads that make your phone ring",
+    titulo: "Paid ads management: Google and Meta Ads",
     descricaoCurta:
-      "Campaigns on Google, Instagram and Facebook that put your business in front of people already searching for what you sell, in your city, and send them straight to your WhatsApp.",
+      "Campaigns on Google, Instagram and Facebook that put your business in front of people already searching for what you sell, in your city.",
     heroDescricao:
       "A good ad isn't the one that shows up the most. It's the one that shows up for the right person, at the right moment, and ends in a conversation. That's what we build, measure and adjust every week.",
     dores: [
@@ -137,7 +137,7 @@ export const servicosEn: Record<IdServico, ConteudoServico> = {
   },
   seo: {
     nome: "SEO",
-    titulo: "Local SEO: show up on Google and Maps without paying per click",
+    titulo: "Local SEO: rank on Google without paying per click",
     descricaoCurta:
       "We get your website and your Google Business Profile into the top spots for searches in your city, so customers find you every day, with no ad budget.",
     heroDescricao:
@@ -261,7 +261,7 @@ export const servicosEn: Record<IdServico, ConteudoServico> = {
   },
   "criacao-de-sites": {
     nome: "Website design",
-    titulo: "Website design and landing pages that turn visitors into customers",
+    titulo: "Website design that turns visitors into customers",
     descricaoCurta:
       "Fast, mobile-first websites with copy that sells, built to send every visitor straight to your WhatsApp. Ready for Google from day one.",
     heroDescricao:

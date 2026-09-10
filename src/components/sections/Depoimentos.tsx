@@ -5,14 +5,17 @@ import { HTML_LANG, type Idioma } from "@/i18n/idiomas";
 type Props = {
   idioma: Idioma;
   // "destaque" põe o primeiro depoimento em citação grande, com o número que
-  // ele cita em Anton; os demais viram uma coluna compacta.
-  variante?: "grade" | "destaque";
+  // ele cita em Anton, e os demais viram uma coluna compacta. "compacta" usa
+  // só o cartão de destaque, sem grade: para páginas de serviço e cidade, que
+  // já têm outras seções longas.
+  variante?: "grade" | "destaque" | "compacta";
 };
 
 export function Depoimentos({ idioma, variante = "grade" }: Props) {
   const t = dicionario(idioma).depoimentos;
   const [primeiro, ...outros] = depoimentos;
   const lista = variante === "destaque" ? outros : depoimentos;
+  const mostrarDestaque = variante === "destaque" || variante === "compacta";
 
   return (
     <section className="bg-surface">
@@ -24,10 +27,14 @@ export function Depoimentos({ idioma, variante = "grade" }: Props) {
 
         <div
           className={`mt-12 grid gap-6 ${
-            variante === "destaque" ? "lg:grid-cols-[1.4fr_1fr]" : "md:grid-cols-2"
+            variante === "destaque"
+              ? "lg:grid-cols-[1.4fr_1fr]"
+              : variante === "compacta"
+                ? ""
+                : "md:grid-cols-2"
           }`}
         >
-          {variante === "destaque" && primeiro && (
+          {mostrarDestaque && primeiro && (
             <figure className="revelar flex flex-col justify-between rounded-xl border border-border bg-background p-8 md:p-10">
               <div>
                 {primeiro.destaque && (
@@ -54,10 +61,14 @@ export function Depoimentos({ idioma, variante = "grade" }: Props) {
 
           <div
             className={
-              variante === "destaque" ? "grid gap-4" : "contents"
+              variante === "destaque"
+                ? "grid gap-4"
+                : variante === "compacta"
+                  ? "hidden"
+                  : "contents"
             }
           >
-            {lista.map((depoimento, indice) => (
+            {variante !== "compacta" && lista.map((depoimento, indice) => (
               <figure
                 key={depoimento.nome}
                 className={`revelar flex flex-col justify-between rounded-xl border border-border bg-background p-7 ${

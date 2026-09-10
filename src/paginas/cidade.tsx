@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { CtaFinal } from "@/components/sections/CtaFinal";
+import { Depoimentos } from "@/components/sections/Depoimentos";
 import { Faq } from "@/components/sections/Faq";
 import { Fundador } from "@/components/sections/Fundador";
+import { Resultados } from "@/components/sections/Resultados";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { getCidadePorId } from "@/data/cidades";
 import { getServicos } from "@/data/servicos";
@@ -163,6 +165,10 @@ export function PaginaCidade({ idioma, id }: Props) {
           </div>
         </div>
       </section>
+
+      <Resultados idioma={idioma} />
+
+      <Depoimentos idioma={idioma} variante="compacta" />
 
       <Fundador idioma={idioma} compacto />
 

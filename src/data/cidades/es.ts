@@ -7,7 +7,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
     estado: "Florida",
     descricaoCurta: "El mercado en español más competido del país: aquí cada clic cuesta caro y solo gana quien apunta con precisión.",
     introducao: [
-      "En Miami el español no es un nicho, es el idioma de la calle. Desde Hialeah hasta Doral, desde la Pequeña Habana hasta Kendall, hay miles de negocios hispanos anunciando en Google todos los días. Eso significa que tu cliente ya está buscando en español, pero también que tu competidor ya está pagando por aparecer primero. En pocas ciudades del país la palabra clave en español cuesta tanto como aquí.",
+      "Etuos ayuda a negocios hispanos de Miami a llegar a más clientes con anuncios pagados, SEO local y sitios web pensados para esta ciudad, desde Hialeah y Doral hasta la Pequeña Habana y Kendall. Aquí el español es el idioma de la calle, y eso también encarece cada clic.",
       "Con clics caros, el margen de error es pequeño. Una campaña mal segmentada en Miami quema el presupuesto en un par de semanas y no deja ni un cliente. Por eso aquí el trabajo es de precisión: elegir la zona correcta, el idioma correcto y el mensaje correcto para cada tipo de cliente. Cuando eso está bien hecho, Miami deja de ser un mercado hostil y se convierte en una de las mejores plazas para crecer."
     ],
     nichos: [
@@ -51,7 +51,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
     estado: "Florida",
     descricaoCurta: "Turismo, familias que llegan de Puerto Rico y Venezuela, y suburbios que crecen cada año: Orlando premia al negocio que aparece primero.",
     introducao: [
-      "Orlando vive del turismo, pero el negocio hispano vive de los vecinos. Kissimmee, Buenaventura Lakes y Poinciana se llenaron de familias puertorriqueñas, venezolanas, colombianas y dominicanas que necesitan lo mismo que cualquier familia: reparar el aire acondicionado, arreglar el techo, cortar el césped, encontrar un dentista o celebrar un cumpleaños con comida de su tierra. Son clientes nuevos, que todavía no tienen \"su\" proveedor de confianza, y buscan en Google para elegirlo.",
+      "Etuos ayuda a negocios hispanos de Orlando a aparecer en Google y ganar clientes nuevos, con anuncios pagados, SEO local y sitios web hechos para la comunidad. En Kissimmee, Buenaventura Lakes y Poinciana llegan cada mes familias puertorriqueñas, venezolanas, colombianas y dominicanas que todavía no tienen un proveedor de confianza.",
       "Ese crecimiento tiene dos caras. Por un lado, cada mes llegan clientes que nadie ha conquistado todavía. Por el otro, cada mes abre un competidor nuevo con la misma idea que tú. En Orlando gana quien se instala primero en la mente del vecindario: apareciendo en Google Maps, respondiendo rápido por WhatsApp y con anuncios que hablan el idioma de la casa. Los que esperan a que el boca a boca haga todo el trabajo se quedan atrás."
     ],
     nichos: [
@@ -95,7 +95,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
     estado: "Florida",
     descricaoCurta: "El corredor de servicios para el hogar de Broward: aquí tu radio de atención define cada anuncio y cada página.",
     introducao: [
-      "Fort Lauderdale es el centro de un condado que funciona como una gran ciudad estirada: Plantation, Sunrise, Pembroke Pines, Coral Springs, Hollywood. Miles de familias hispanas viven en esos suburbios y mantienen su casa con contratistas, jardineros, pintores, técnicos de aire acondicionado y empresas de limpieza que también son hispanos. Es un mercado de servicios para el hogar por excelencia, y casi todo se contrata por Google.",
+      "Etuos ayuda a negocios hispanos de servicios para el hogar en Fort Lauderdale y Broward a conseguir más clientes, con anuncios pagados, SEO local y sitios web enfocados en tu zona. Miles de familias hispanas en Plantation, Sunrise, Pembroke Pines, Coral Springs y Hollywood contratan casi todo por Google.",
       "El detalle es que en Broward nadie busca \"Fort Lauderdale\" cuando vive en Pembroke Pines. Busca su ciudad o simplemente \"cerca de mí\". Si tu marketing habla solo de Fort Lauderdale, te pierdes la mayor parte del condado. Y si intentas cubrir todo Broward con un presupuesto pequeño, el dinero se diluye. Definir bien tu radio de atención es la decisión más importante que vas a tomar antes de invertir un dólar."
     ],
     nichos: [
@@ -139,7 +139,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
     estado: "Florida",
     descricaoCurta: "Comercio de barrio y clientes que deciden en Google Maps: en Pompano Beach la batalla se gana a pocas cuadras de tu puerta.",
     introducao: [
-      "Pompano Beach es una ciudad de comercio a pie de calle. Restaurantes, panaderías, talleres mecánicos, salones, tiendas de celulares, oficinas de impuestos y seguros: negocios hispanos que atienden a los vecinos de Pompano, Deerfield Beach, Margate y Coconut Creek. Aquí el cliente no viene de lejos. Vive a diez minutos, pasa por tu calle todos los días y, aun así, muchas veces no sabe que existes.",
+      "Etuos ayuda a negocios de barrio hispanos en Pompano Beach a aparecer en Google Maps y sumar clientes cercanos, con anuncios pagados, SEO local y sitios web simples y rápidos. Restaurantes, talleres, salones y oficinas de impuestos aquí viven de vecinos de Pompano, Deerfield Beach, Margate y Coconut Creek que pasan a diez minutos de tu puerta.",
       "Ese es el punto. En un mercado de barrio, el mapa importa más que cualquier otra cosa. Cuando alguien en Margate escribe \"taller mecánico cerca de mí\", Google le muestra tres negocios en el mapa. Si el tuyo no está entre ellos, la venta se la lleva otro que quizá trabaja peor que tú. El marketing en Pompano Beach empieza por ocupar ese lugar en Google Maps y por convertir a cada cliente satisfecho en una reseña."
     ],
     nichos: [
@@ -183,7 +183,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
     estado: "Massachusetts",
     descricaoCurta: "Un mercado maduro y exigente, donde las reseñas mandan y la temporada cambia lo que la gente busca.",
     introducao: [
-      "Boston es una ciudad de negocios establecidos y de clientes que preguntan antes de comprar. En East Boston, Chelsea, Everett, Revere y Lynn hay una comunidad hispana fuerte, con salvadoreños, dominicanos, colombianos, guatemaltecos y puertorriqueños, y con negocios que llevan años sirviéndola: restaurantes, remesas, contratistas, empresas de limpieza, talleres. Es un mercado que ya funciona, y justamente por eso no perdona al que se queda quieto.",
+      "Etuos ayuda a negocios hispanos de Boston a destacar en Google con anuncios pagados, SEO local y sitios web hechos para un mercado maduro y exigente. En East Boston, Chelsea, Everett, Revere y Lynn hay una comunidad salvadoreña, dominicana, colombiana, guatemalteca y puertorriqueña bien establecida, que decide leyendo reseñas antes de llamar.",
       "Dos cosas distinguen a Boston. La primera es la reseña: aquí el cliente lee lo que otros dicen antes de llamar, en español o en inglés, y una calificación floja cierra la puerta. La segunda es la temporada: la nieve trae trabajo a unos y quita a otros, y la primavera cambia todo de nuevo. Un buen plan de marketing en Boston respira con ese calendario en lugar de repetir lo mismo todo el año."
     ],
     nichos: [
@@ -227,7 +227,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
     estado: "Massachusetts",
     descricaoCurta: "Un suburbio de MetroWest donde el boca a boca sigue vivo, pero se confirma en Google antes de la llamada.",
     introducao: [
-      "Framingham es el corazón de MetroWest, a media hora de Boston y con vida propia. Su centro concentra una comunidad hispana que crece, con familias guatemaltecas, salvadoreñas, colombianas y puertorriqueñas, y negocios que las atienden: restaurantes, tiendas, oficinas de impuestos, contratistas, empresas de limpieza. Es una ciudad donde la gente todavía se conoce y donde una buena recomendación abre puertas. Pero ya nadie llama sin buscar el nombre en Google primero.",
+      "Etuos ayuda a negocios hispanos de Framingham y MetroWest a aparecer bien en Google cuando alguien busca tu nombre, con anuncios pagados, SEO local y sitios web claros. En el centro de Framingham crece una comunidad guatemalteca, salvadoreña, colombiana y puertorriqueña donde la recomendación del vecino todavía abre puertas, pero ya nadie llama sin buscar primero.",
       "Esa mezcla de boca a boca y búsqueda es la clave de Framingham. El vecino te recomienda, el cliente googlea tu nombre, ve tu perfil en Google Maps, lee tres reseñas y decide. Si no encuentra nada, o encuentra un perfil abandonado, la recomendación se pierde. Nuestro trabajo aquí es que cada recomendación termine en un mensaje de WhatsApp, y que la gente de Natick, Marlborough o Milford que no te conoce también te encuentre."
     ],
     nichos: [
@@ -271,7 +271,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
     estado: "Nueva Jersey",
     descricaoCurta: "Ironbound, Elizabeth y el norte de Nueva Jersey: un mercado con comida de destino y clientes que vienen del área de Nueva York.",
     introducao: [
-      "Newark tiene una de las comunidades hispanas más antiguas y diversas de Nueva Jersey: ecuatorianos, dominicanos, puertorriqueños, colombianos, salvadoreños y muchos más, repartidos entre el Ironbound, el norte de Newark y ciudades vecinas como Elizabeth, Union City y Perth Amboy. Sus negocios no solo atienden al barrio. El Ironbound es un destino gastronómico al que la gente viaja desde toda el área metropolitana de Nueva York para comer.",
+      "Etuos ayuda a negocios hispanos del área de Newark, desde el Ironbound hasta Elizabeth y Union City, a conseguir más clientes con anuncios pagados, SEO local y sitios web bilingües. Aquí conviven ecuatorianos, dominicanos, puertorriqueños, colombianos y salvadoreños, y el Ironbound atrae comensales desde toda el área metropolitana de Nueva York.",
       "Eso cambia las reglas. Un restaurante del Ironbound compite por clientes que viven a cuarenta minutos, mientras un contratista de Elizabeth compite por los que viven a diez. Los dos necesitan aparecer en Google, pero con estrategias distintas: uno trabaja la reputación y las búsquedas de \"dónde comer\", el otro trabaja el mapa y el radio de atención. Entender esa diferencia es lo que separa una campaña que vende de una que solo gasta."
     ],
     nichos: [
@@ -315,7 +315,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
     estado: "Connecticut",
     descricaoCurta: "Un mercado mediano de Connecticut donde el SEO local paga rápido y pocos negocios hispanos lo aprovechan.",
     introducao: [
-      "Danbury es una ciudad mediana con una comunidad hispana grande y activa, con familias ecuatorianas, dominicanas, mexicanas y colombianas que llenan el centro, Main Street y sus alrededores. Sus negocios atienden a la ciudad y a los pueblos vecinos: Bethel, Brookfield, New Milford y hasta Norwalk o Waterbury. Restaurantes, paisajismo, construcción, limpieza, talleres y transporte son parte del día a día de la comunidad, y casi todos crecen por recomendación.",
+      "Etuos ayuda a negocios hispanos de Danbury y pueblos vecinos como Bethel, Brookfield y New Milford a ocupar el mapa de Google, con anuncios pagados, SEO local y sitios web sencillos. La comunidad ecuatoriana, dominicana, mexicana y colombiana del centro mueve restaurantes, paisajismo, construcción y talleres que hoy crecen casi solo por recomendación.",
       "Lo interesante de Danbury es lo que todavía no pasa: muy pocos de esos negocios trabajan Google en serio. Eso deja las primeras posiciones del mapa casi libres en muchos rubros. En un mercado así, el SEO local no tarda un año en rendir: un Perfil de Negocio de Google bien hecho y un sitio claro pueden ponerte adelante en semanas. Es el momento de entrar, antes de que la competencia se despierte."
     ],
     nichos: [
@@ -359,7 +359,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
     estado: "Georgia",
     descricaoCurta: "Una metrópoli en pleno crecimiento, con Buford Highway y Gwinnett como corazón hispano y nichos con poca competencia todavía.",
     introducao: [
-      "Atlanta crece a un ritmo que se nota en cada salida de la autopista. El corredor de Buford Highway, entre Doraville y Chamblee, y el condado de Gwinnett, con Norcross y Lawrenceville, concentran una comunidad hispana enorme: mexicanos, guatemaltecos, salvadoreños, colombianos, venezolanos. Los negocios siguen ese crecimiento: construcción, techos, pisos, restaurantes, transporte, talleres, clínicas. Cada mes hay más clientes, y cada mes hay más competidores buscando lo mismo que tú.",
+      "Etuos ayuda a negocios hispanos de Atlanta, de Buford Highway a Gwinnett, a ganar terreno en Google antes que la competencia, con anuncios pagados, SEO local y sitios web pensados para esta metrópoli en crecimiento. Mexicanos, guatemaltecos, salvadoreños, colombianos y venezolanos llenan Doraville, Chamblee, Norcross y Lawrenceville con negocios que crecen cada mes.",
       "La buena noticia es que en Atlanta todavía hay ventanas abiertas. En muchos rubros y suburbios, las primeras posiciones de Google en español están vacías o las ocupa alguien con un perfil descuidado. Esas ventanas no van a durar: la ciudad atrae inversión y las agencias grandes ya miran el mercado hispano. Entrar ahora, con SEO local y campañas bien segmentadas, es asegurarte un lugar antes de que suba el precio."
     ],
     nichos: [
@@ -403,7 +403,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
     estado: "Texas",
     descricaoCurta: "Uno de los mercados hispanos más grandes del país, tan extenso que solo funciona si apuntas suburbio por suburbio.",
     introducao: [
-      "En Houston el español está en todas partes: en Gulfton, en Pasadena, en Aldine, en el East End, en los suburbios de Katy, Spring y Cypress. Mexicanos, salvadoreños, hondureños, guatemaltecos, colombianos y venezolanos forman una de las comunidades hispanas más grandes de Estados Unidos, con negocios en cada rubro imaginable: construcción, camiones, restaurantes, taquerías, talleres, clínicas, seguros, impuestos. El mercado es inmenso. Y ese tamaño es, al mismo tiempo, el problema.",
+      "Etuos ayuda a negocios hispanos de Houston a crecer suburbio por suburbio, con anuncios pagados, SEO local y sitios web hechos para tu zona, desde Gulfton y Pasadena hasta Katy, Spring y Cypress. Aquí vive una de las comunidades hispanas más grandes del país, y esa misma inmensidad es el reto.",
       "Houston se extiende por decenas de millas en cada dirección, y nadie atiende toda la ciudad. Un negocio de Pasadena no vive de clientes de Cypress, y una campaña que apunta a \"Houston\" completo gasta el presupuesto en gente que nunca va a llamar. La forma correcta de crecer aquí es suburbio por suburbio: elegir tus zonas, aparecer con fuerza en cada una y expandir el radio con datos. Así, el mercado más grande del país se vuelve manejable."
     ],
     nichos: [

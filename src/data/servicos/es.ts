@@ -9,9 +9,9 @@ import type { ConteudoServico } from "./index";
 export const servicosEs: Record<IdServico, ConteudoServico> = {
   "trafego-pago": {
     nome: "Anuncios pagados",
-    titulo: "Anuncios pagados: Google Ads y Meta Ads que hacen sonar tu WhatsApp",
+    titulo: "Anuncios pagados: Google y Meta Ads",
     descricaoCurta:
-      "Campañas en Google, Instagram y Facebook que ponen tu negocio frente a quien ya está buscando lo que vendes, en tu ciudad, y llevan a esa persona directo a tu WhatsApp.",
+      "Campañas en Google, Instagram y Facebook que ponen tu negocio frente a quien ya busca lo que vendes, en tu ciudad y en tu idioma.",
     heroDescricao:
       "Un buen anuncio no es el que más aparece. Es el que aparece frente a la persona correcta, en el momento correcto, y termina en una conversación. Eso es lo que armamos, medimos y ajustamos cada semana.",
     dores: [
@@ -138,9 +138,9 @@ export const servicosEs: Record<IdServico, ConteudoServico> = {
   },
   seo: {
     nome: "SEO",
-    titulo: "SEO local: aparece en Google y en Maps sin pagar por clic",
+    titulo: "SEO local: aparece en Google sin pagar por clic",
     descricaoCurta:
-      "Posicionamos tu sitio web y tu Perfil de Negocio de Google en los primeros lugares para las búsquedas de tu ciudad, para que el cliente te encuentre todos los días, sin presupuesto de anuncios.",
+      "Posicionamos tu sitio web y tu Perfil de Negocio de Google en los primeros lugares para las búsquedas de tu ciudad, sin presupuesto de anuncios.",
     heroDescricao:
       "Cuando alguien busca tu servicio en Google, quien aparece primero se lleva al cliente. Nuestro trabajo es hacer que ese alguien te encuentre, hoy, el próximo mes y el próximo año, sin pagar por cada clic.",
     dores: [
@@ -262,7 +262,7 @@ export const servicosEs: Record<IdServico, ConteudoServico> = {
   },
   "criacao-de-sites": {
     nome: "Creación de sitios web",
-    titulo: "Sitios web y landing pages que convierten visitas en clientes",
+    titulo: "Sitios web que convierten visitas en clientes",
     descricaoCurta:
       "Sitios rápidos, con texto que vende y hechos para el celular, que llevan a quien visita directo a tu WhatsApp. Listos para Google desde el primer día.",
     heroDescricao:

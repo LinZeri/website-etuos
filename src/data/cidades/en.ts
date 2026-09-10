@@ -9,7 +9,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
     estado: "Florida",
     descricaoCurta: "A crowded, bilingual market where clicks are expensive and the businesses that target the right neighborhood win the customer.",
     introducao: [
-      "Miami is one of the most competitive local markets in the country. Almost every niche, from med spas in Brickell to remodeling crews in Kendall, already has a dozen businesses paying for the same searches. Customers speak English, Spanish or both, and they switch between them depending on the service. That mix makes generic marketing expensive: you pay for clicks from people who were never going to hire you.",
+      "Etuos builds paid ads, local SEO and websites for businesses in Miami, from med spas in Brickell to remodeling crews in Kendall, so you show up for the searches that turn into paying customers. Miami's market is brutally competitive and bilingual, and generic marketing means paying for clicks from people who were never going to hire you.",
       "The upside is that Miami rewards precision. When your ads only run in the neighborhoods you serve, your Google Business Profile shows real work, and your website answers the questions people ask before booking, you stop competing on price. You compete on being the obvious choice for that ZIP code. That is where a business owner with a modest budget can still beat a bigger competitor."
     ],
     nichos: [
@@ -53,7 +53,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
     estado: "Florida",
     descricaoCurta: "Tourism sets the rhythm here, and fast-growing suburbs like Lake Nona and Winter Garden bring new customers every month.",
     introducao: [
-      "Orlando runs on two calendars. The tourist calendar peaks around school breaks and holidays, filling hotels, vacation homes and restaurants near the theme parks. The resident calendar is steadier and keeps growing, because new subdivisions in Lake Nona, Winter Garden, Clermont and Davenport add families who need a dentist, a pool company, an HVAC tech and a place to eat every week.",
+      "Etuos runs paid ads, local SEO and websites for businesses across Orlando, tuned to whichever calendar drives your customers. Tourism peaks around school breaks and holidays near the parks, while fast-growing suburbs like Lake Nona and Winter Garden add new residents every week who need a dentist, a pool company or a place to eat.",
       "For a local business, that means marketing has to flex. A vacation rental cleaner and a family restaurant in Hunters Creek face different seasons and different customers. The mistake most owners make is running the same ad, with the same budget, all year. We plan around your peaks, keep you visible in the slow months, and target the suburbs where your ideal customers are actually moving in."
     ],
     nichos: [
@@ -97,7 +97,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
     estado: "Florida",
     descricaoCurta: "The heart of Broward County's home-services corridor, where the businesses that define their service radius well spend less and close more.",
     introducao: [
-      "Fort Lauderdale sits in the middle of Broward County, surrounded by suburbs full of single-family homes, pools and boats. That geography makes it a home-services town: roofing, remodeling, pool maintenance, cleaning, landscaping and marine services all thrive here. It also makes it a market where drive time decides profit. A job in Coral Springs and a job in Hollywood are not the same job.",
+      "Etuos runs paid ads, local SEO and websites for home-services businesses around Fort Lauderdale, roofers, pool companies, remodelers, aligned to the exact area you drive to. Broward County is full of single-family homes and boats, but a job in Coral Springs and a job in Hollywood aren't the same job, and drive time decides your profit.",
       "Most owners here already get work by word of mouth and yard signs. The gap is online: their competitors show up on Google Maps for Plantation and Sunrise, and they don't. When your profile, website and ads are aligned to the exact area you serve, you stop paying for leads an hour away and start filling the calendar with the ones close to home."
     ],
     nichos: [
@@ -141,7 +141,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
     estado: "Florida",
     descricaoCurta: "A neighborhood city where most customers decide on Google Maps, and a well-kept profile brings in more walk-ins than any billboard.",
     introducao: [
-      "Pompano Beach is built on neighborhood commerce. Along Atlantic Boulevard, Federal Highway and Dixie Highway you'll find auto shops, restaurants, bakeries, barbershops, marine services and small contractors serving the city and its neighbors: Deerfield Beach, Lighthouse Point, Margate and Coconut Creek. Customers here don't travel far. They pick whatever looks good and is open within a few minutes of home.",
+      "Etuos handles paid ads, local SEO and websites for neighborhood businesses in Pompano Beach, where most customers decide on Google Maps before they ever call. Along Atlantic Boulevard and Federal Highway, customers rarely travel far to find a shop or service, so a complete profile with fresh photos and reviews outperforms any billboard.",
       "That makes Google Maps the front door. When someone searches for a mechanic, a salon or a lunch spot, the map decides who gets the visit. Businesses with a complete profile, fresh photos, correct hours and recent reviews get chosen. The ones with an outdated listing look closed. Fixing that, then adding small, targeted ads, is the most efficient marketing a Pompano business can buy."
     ],
     nichos: [
@@ -185,7 +185,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
     estado: "Massachusetts",
     descricaoCurta: "A mature, expensive market where reviews decide the sale and seasonal services need a plan for both snow and summer.",
     introducao: [
-      "Greater Boston is one of the most established service markets in the country. Cleaning companies, painters, landscapers and contractors have been competing in Somerville, Malden and Everett for decades, and customers have learned to compare. They read reviews carefully, expect a professional website and ask for written estimates. Clicks are expensive because so many businesses are bidding for the same homeowners.",
+      "Etuos runs paid ads, local SEO and websites for businesses across Greater Boston, where cleaning companies, painters and landscapers have competed in Somerville, Malden and Everett for decades. Customers here read reviews carefully, expect a professional website and compare before they call, and clicks are expensive because everyone is bidding for the same homeowners.",
       "The second defining factor is the seasons. Landscaping, snow removal, exterior painting and moving all swing hard between summer and winter. Owners who plan the whole year, building reviews and search rankings in the slow months, arrive at peak season already ahead. That's how you win here: not by shouting louder, but by looking more established than the next name on the list."
     ],
     nichos: [
@@ -229,7 +229,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
     estado: "Massachusetts",
     descricaoCurta: "A MetroWest hub where word of mouth still drives business, and Google is where every recommendation gets checked before the call.",
     introducao: [
-      "Framingham is the commercial center of MetroWest. Route 9 draws shoppers from Natick, Ashland and beyond, downtown keeps a busy mix of restaurants and small shops, and the surrounding towns supply steady demand for home services, auto repair, dental care and fitness. It's big enough to have real competition and small enough that reputation travels fast.",
+      "Etuos runs paid ads, local SEO and websites for businesses around Framingham, the commercial center of MetroWest. Most customers here hear about you first from a neighbor or a local Facebook group, then type your name into Google, so what shows up there, a complete profile, recent reviews, a matching website, decides whether that referral becomes a customer.",
       "That's the key to marketing here. Most customers hear about you first from a neighbor, a coworker or a local Facebook group. Then they type your name into Google. If they find a complete profile, recent reviews and a website that matches the recommendation, the referral becomes a customer. If they find nothing, or something outdated, it quietly dies right there."
     ],
     nichos: [
@@ -273,7 +273,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
     estado: "New Jersey",
     descricaoCurta: "Home to the Ironbound, a dining destination that pulls customers from across northern New Jersey and the New York City area.",
     introducao: [
-      "Newark's Ironbound is one of the best-known restaurant districts in the region. Ferry Street and its side streets bring people in from Harrison, Kearny, Elizabeth and all across the New York City area for Portuguese, Spanish and Latin American food, bakeries and nightlife. That draw spills over to the rest of the neighborhood: event venues, shops, contractors and logistics businesses near the port all benefit from the traffic.",
+      "Etuos runs paid ads, local SEO and websites for businesses in Newark's Ironbound, one of the region's best-known restaurant districts. Ferry Street pulls diners in from Harrison, Kearny, Elizabeth and the New York City area, and because people plan the trip and search before they come, a professional presence online reaches customers a storefront alone never will.",
       "For a business owner, the opportunity is that your customer base is much bigger than the ZIP code. People drive in and plan ahead, which means they search before they come. Yet many businesses in the area still rely on a storefront and reputation alone. A professional presence on Google and a website that gives visitors what they need stands out fast."
     ],
     nichos: [
@@ -317,7 +317,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
     estado: "Connecticut",
     descricaoCurta: "A mid-size Fairfield County market where local SEO pays off faster and a focused budget covers Bethel, Brookfield and beyond.",
     introducao: [
-      "Danbury is the commercial anchor of northern Fairfield County. It has the Danbury Fair mall, a busy downtown, a hospital and a wide ring of residential towns, from Bethel and Brookfield to New Milford and Ridgefield, whose homeowners need landscapers, cleaners, contractors, dentists and restaurants. Compared with the big metro markets, fewer businesses here are competing seriously online.",
+      "Etuos runs paid ads, local SEO and websites for businesses around Danbury, the commercial anchor of northern Fairfield County. Fewer businesses here compete seriously online than in the big metros, so a well-built Google Business Profile and steady reviews can put you at the top of your niche in months, not years, at a lower ad cost too.",
       "That gap is the opportunity. In a market this size, a business that organizes its Google Business Profile, builds proper service pages and collects reviews consistently can reach the top of its niche in months, not years. Ads cost less than in Florida or Boston, and the return on local SEO shows up faster. It is efficient growth without burning cash."
     ],
     nichos: [
@@ -361,7 +361,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
     estado: "Georgia",
     descricaoCurta: "Booming north metro suburbs where new residents arrive monthly and many niches still have no clear local leader on Google.",
     introducao: [
-      "Atlanta's growth is concentrated north of the city. Alpharetta, Roswell, Marietta, Sandy Springs and the Gwinnett corridor around Lawrenceville and Buford keep adding subdivisions, offices and shopping centers. Every new family needs a remodeler, a cleaner, a dentist, a restaurant and a photographer for the next milestone. Demand is growing faster than most local businesses are building their online presence.",
+      "Etuos runs paid ads, local SEO and websites for businesses across metro Atlanta's booming north side, Alpharetta, Roswell, Marietta and the Gwinnett corridor, where new subdivisions add customers every month. In many niches here, no business has claimed the top of Google yet, and whoever builds a complete profile first tends to hold that spot for years.",
       "That creates a window. In a lot of niches across the north metro, no business has locked down the top of Google yet. The owner who builds a complete Google Business Profile, solid service pages and a steady stream of reviews first tends to hold that position for years. Our job is to get you there before the competition notices."
     ],
     nichos: [
@@ -405,7 +405,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
     estado: "Texas",
     descricaoCurta: "A sprawling metro where advertising to the whole city burns money, and suburb-by-suburb targeting fills the calendar.",
     introducao: [
-      "Houston is enormous, in area and in population. The metro stretches from Katy and Cypress in the west to Pearland in the south and The Woodlands and Spring up north, each with its own commercial centers, neighborhoods and customer profiles. Add the heat, the storms and a housing stock that always needs work, and you get constant demand for home services, HVAC, cleaning, food and transportation.",
+      "Etuos runs paid ads, local SEO and websites for businesses across the Houston metro, built suburb by suburb. Houston stretches from Katy and Cypress to Pearland, The Woodlands and Spring, and a campaign aimed at the whole city pays for clicks from people two hours away, while one aimed at your suburb brings customers who can book you now.",
       "In a city this size, marketing that isn't targeted is just noise. A campaign aimed at \"Houston\" pays for clicks from people two hours away. A campaign aimed at Sugar Land, with a page that talks about Sugar Land, brings customers who can actually book you this week. We build your marketing suburb by suburb and let the numbers decide where to grow."
     ],
     nichos: [
