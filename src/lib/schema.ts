@@ -16,6 +16,7 @@ import type { PostFrontmatter } from "@/lib/blog";
 // e as demais entidades têm url e inLanguage por idioma.
 
 export const ID_ORGANIZACAO = `${site.dominio}/#organizacao`;
+export const ID_LIN = `${site.dominio}/#lin-zeri`;
 
 const url = (rota: string) => `${site.dominio}${rota}`;
 
@@ -71,6 +72,7 @@ export function pessoaJsonLd(idioma: Idioma) {
   return {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": ID_LIN,
     name: "Lin Zeri",
     jobTitle: t.schema.cargoLin,
     url: url(caminho(idioma, { tipo: "sobre" })),
@@ -138,11 +140,13 @@ export function postJsonLd(
     inLanguage: HREFLANG[idioma],
     // Autor "Equipe Etuos" (o padrão) referencia a própria Organization pelo
     // @id, em vez de criar uma segunda entidade solta no grafo. Um autor com
-    // nome de pessoa vira Person; hoje só existe o caso "Lin Zeri".
+    // nome de pessoa vira Person; hoje só existe o caso "Lin Zeri", com o mesmo
+    // @id do Person da página Sobre.
     author:
       autor === "Lin Zeri"
         ? {
             "@type": "Person",
+            "@id": ID_LIN,
             name: "Lin Zeri",
             url: url(caminho(idioma, { tipo: "sobre" })),
           }

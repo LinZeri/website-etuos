@@ -22,7 +22,7 @@ export function buscarPost(idioma: Idioma, slug: string): Post | undefined {
 export function metadataPost(post: Post): Metadata {
   return metadataDaPagina({
     idioma: post.idioma,
-    titulo: post.frontmatter.titulo,
+    titulo: post.frontmatter.metaTitulo ?? post.frontmatter.titulo,
     descricao: post.frontmatter.descricao,
     caminho: caminho(post.idioma, { tipo: "post", slug: post.slug }),
     alternativas: alternativasDoPost(post),
@@ -81,7 +81,7 @@ export function PaginaPost({ post }: { post: Post }) {
           </>
         ) : null}
       </p>
-      <div className="mt-8 space-y-4 leading-relaxed [&_h2]:mt-10 [&_h2]:text-3xl [&_h3]:mt-6 [&_h3]:text-xl [&_a]:underline [&_ul]:list-disc [&_ul]:pl-6">
+      <div className="mt-8 space-y-4 leading-relaxed [&_h2]:mt-10 [&_h2]:text-3xl [&_h3]:mt-6 [&_h3]:text-xl [&_a]:underline [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_li]:mt-2">
         <MDXRemote source={post.conteudo} />
       </div>
     </article>

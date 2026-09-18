@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T00:00:00Z",
+  "updated": "2026-09-18T00:00:00Z",
   "description": "Fila de execução do blog-loop da Etuos. Cada item é um artigo produzido de ponta a ponta. Fonte das pautas: docs/blog-strategy.md (pilares e clusters). Regras duras: pt-BR, sem travessão, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem, links internos sempre com o prefixo /pt (o site tem tres idiomas em subpastas).",
   "authors": [
     "lin-zeri"
@@ -26,12 +26,12 @@
       ],
       "cluster": "pilar1.conseguir-clientes-eua",
       "notes": "Página pilar do cluster 1. Cobrir: indicação vs canais pagos, Google, Instagram/Facebook, site, GBP, orçamento realista. Linkar TODOS os spokes do cluster quando existirem. Cápsula de resposta de 40-60 palavras sob cada H2. Exemplos com as 10 cidades atendidas (usar nichos de src/data/cidades/pt.ts).",
-      "publish_date": null,
-      "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "publish_date": "2026-09-18",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
+      "started_at": "2026-09-18T00:00:00Z",
       "last_score": null
     },
     {

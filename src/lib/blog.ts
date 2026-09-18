@@ -6,6 +6,9 @@ import { caminho, type Alternativas } from "@/i18n/rotas";
 
 export type PostFrontmatter = {
   titulo: string;
+  // Title da aba e do Google quando o título do artigo passa de 52
+  // caracteres (60 com o sufixo " | Etuos"). Ausente = usa o titulo.
+  metaTitulo?: string;
   descricao: string;
   data: string; // formato AAAA-MM-DD
   autor?: string;

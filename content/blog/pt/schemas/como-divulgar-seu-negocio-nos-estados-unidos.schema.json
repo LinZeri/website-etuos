@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual é a forma mais barata de divulgar um negócio nos Estados Unidos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Perfil da Empresa no Google. É gratuito, aparece no Google Maps e traz clientes que já estão procurando o seu serviço na sua cidade. Com fotos reais e avaliações frequentes, ele costuma ser o canal com melhor retorno para negócio local."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso divulgar meu negócio nos EUA sem falar inglês fluente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pode. Você pode atender a comunidade brasileira em português e contar com textos e anúncios em inglês escritos por quem domina o idioma para alcançar o cliente americano. O importante é que o site e os anúncios em inglês sejam bem escritos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo leva para a divulgação trazer resultado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anúncios no Google podem gerar contatos já nas primeiras semanas. O perfil no Google e o site (SEO local) levam de alguns meses para ganhar posição, mas depois trazem clientes sem custo por clique. O ideal é usar os dois juntos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de empresa aberta nos EUA para anunciar no Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para anunciar no Google Ads você precisa de uma conta com forma de pagamento válida. Para o Perfil da Empresa e para os Local Services Ads o Google pede verificação do negócio, e os Local Services Ads exigem documentação e seguro conforme a categoria. Confira os requisitos da sua categoria antes de começar."
+          }
+        }
+      ]
+    }
+  ]
+}
