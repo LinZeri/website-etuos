@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { CabecalhoPagina } from "@/components/sections/CabecalhoPagina";
+import { linkWhatsApp, numeroWhatsAppFormatado } from "@/data/site";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { dicionario } from "@/i18n/dicionario";
 import type { Idioma } from "@/i18n/idiomas";
@@ -74,6 +75,15 @@ export function PaginaContato({ idioma }: { idioma: Idioma }) {
             <div className="mt-6">
               <WhatsAppButton idioma={idioma} texto={d.fundador.whatsapp} />
             </div>
+            <p className="mt-4 text-sm text-muted">
+              {t.numeroRotulo}:{" "}
+              <a
+                href={linkWhatsApp(idioma)}
+                className="font-semibold text-foreground underline underline-offset-4"
+              >
+                {numeroWhatsAppFormatado(idioma)}
+              </a>
+            </p>
           </div>
         </div>
       </section>

@@ -14,24 +14,11 @@ import { lastmodDoArquivo } from "@/lib/lastmod";
 // Uma entrada por página e por idioma, cada uma com os alternates (hreflang)
 // das versões que existem. A raiz "/" não entra: ela só redireciona. As
 // landings de campanha (/lp/*) ficam fora de propósito: são noindex para não
-// competirem com as páginas de serviço nas buscas orgânicas.
+// competirem com as páginas de serviço nas buscas orgânicas. Sem changefreq
+// e priority: o Google ignora os dois campos.
 
 const url = (rota: string) => `${site.dominio}${rota}`;
 
-function prioridade(pagina: PaginaSemPost): number {
-  switch (pagina.tipo) {
-    case "home":
-      return 1;
-    case "eua":
-    case "brasil":
-    case "servico":
-      return 0.9;
-    case "privacidade":
-      return 0.3;
-    default:
-      return 0.8;
-  }
-}
 
 // Arquivo cujo último commit representa "quando esta página mudou por
 // último". Aproximação por tipo de página (a maior parte da copy de cada uma
@@ -74,8 +61,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     paginasIndexaveis().map((pagina) => ({
       url: url(caminho(idioma, pagina)),
       lastModified: lastmodDoArquivo(arquivoFonte(idioma, pagina)),
-      changeFrequency: pagina.tipo === "privacidade" ? ("yearly" as const) : ("monthly" as const),
-      priority: prioridade(pagina),
       ...comAlternates(hreflangDe(alternativas(pagina), idioma)),
     })),
   );
@@ -84,8 +69,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     getPosts(idioma).map((post) => ({
       url: url(caminho(idioma, { tipo: "post", slug: post.slug })),
       lastModified: post.frontmatter.data,
-      changeFrequency: "yearly" as const,
-      priority: 0.6,
       ...comAlternates(hreflangDe(alternativasDoPost(post), idioma)),
     })),
   );

@@ -65,7 +65,7 @@ export function PaginaSobre({ idioma }: { idioma: Idioma }) {
               width={640}
               height={966}
               priority
-              sizes="(min-width: 768px) 380px, 70vw"
+              sizes="(min-width: 768px) 380px, 224px"
               className="relative mx-auto block w-56 md:w-full"
             />
           </div>

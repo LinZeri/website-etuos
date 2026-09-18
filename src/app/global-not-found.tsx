@@ -13,12 +13,12 @@ import { caminho } from "@/i18n/rotas";
 const anton = Anton({
   variable: "--font-anton",
   weight: "400",
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
 });
 
 const inter = Inter({
   variable: "--font-inter",
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {

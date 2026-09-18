@@ -27,12 +27,12 @@ import { organizacaoJsonLd, websiteJsonLd } from "@/lib/schema";
 const anton = Anton({
   variable: "--font-anton",
   weight: "400",
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
 });
 
 const inter = Inter({
   variable: "--font-inter",
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
 });
 
 type Props = {

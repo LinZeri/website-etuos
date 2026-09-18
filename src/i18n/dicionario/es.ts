@@ -381,6 +381,7 @@ export const es = {
       "Lin revisa tu sitio web, tu Perfil de Negocio de Google y tu competencia",
       "Recibes una lectura honesta de qué resolver primero",
     ],
+    numeroRotulo: "¿Prefieres guardar el número? WhatsApp",
   },
   formulario: {
     semEndpointTexto:

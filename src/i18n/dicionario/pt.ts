@@ -398,6 +398,7 @@ export const pt = {
       "O Lin analisa seu site, seu perfil no Google e seus concorrentes",
       "Você recebe uma leitura honesta do que resolver primeiro",
     ],
+    numeroRotulo: "Prefere salvar o contato? WhatsApp",
   },
   formulario: {
     semEndpointTexto:

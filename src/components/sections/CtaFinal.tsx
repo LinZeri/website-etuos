@@ -41,7 +41,7 @@ export function CtaFinal({
             className="inline-block rounded-lg bg-foreground px-8 py-4 text-lg font-semibold text-white transition hover:bg-foreground/90"
           />
         </div>
-        <p className="mt-4 text-sm text-foreground/60">{t.rodape}</p>
+        <p className="mt-4 text-sm text-foreground/80">{t.rodape}</p>
       </div>
     </section>
   );

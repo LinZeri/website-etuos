@@ -24,6 +24,18 @@ export const site = {
   },
 } as const;
 
+// Número legível para exibir na página: +55 16 99125-2073 ou +1 (305) 555-0100.
+export function numeroWhatsAppFormatado(idioma: Idioma): string {
+  const n = site.whatsapp.numero[idioma];
+  if (n.startsWith("55")) {
+    return `+55 ${n.slice(2, 4)} ${n.slice(4, -4)}-${n.slice(-4)}`;
+  }
+  if (n.startsWith("1") && n.length === 11) {
+    return `+1 (${n.slice(1, 4)}) ${n.slice(4, 7)}-${n.slice(7)}`;
+  }
+  return `+${n}`;
+}
+
 export function linkWhatsApp(idioma: Idioma, mensagem?: string): string {
   const texto = encodeURIComponent(
     mensagem ?? site.whatsapp.mensagemPadrao[idioma],

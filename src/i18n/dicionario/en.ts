@@ -391,6 +391,7 @@ export const en = {
       "Lin reviews your website, your Google Business Profile and your competitors",
       "You get an honest read on what to fix first",
     ],
+    numeroRotulo: "Rather save the number? WhatsApp",
   },
   formulario: {
     semEndpointTexto:
