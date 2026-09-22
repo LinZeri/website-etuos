@@ -1,4 +1,6 @@
-# Estratégia de blog: Etuos
+# Estratégia de blog: Etuos (português)
+
+> Atualização de 22/09/2026: este documento passa a governar **só o português**. O inglês tem estratégia e fila próprias em `docs/blog-strategy-en.md` e `docs/blog-queue-en.json`, com público, keywords e pautas independentes (sem `grupo` no frontmatter, logo sem hreflang entre os idiomas). Cadência: 1 artigo por dia em cada idioma, produzido pelas rotinas em nuvem do blog-loop. O restante do documento continua válido.
 
 Data: 06/08/2026. Insumos: auditoria SEO completa de 06/08/2026 (etuos.com-audit/), análise competitiva de SERP (findings/sxo.md), volumes de busca via DataForSEO (Google Ads, consultados em 06/08/2026), docs/seo.md e docs/escopo.md.
 

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-18T00:00:00Z",
-  "description": "Fila de execução do blog-loop da Etuos. Cada item é um artigo produzido de ponta a ponta. Fonte das pautas: docs/blog-strategy.md (pilares e clusters). Regras duras: pt-BR, sem travessão, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem, links internos sempre com o prefixo /pt (o site tem tres idiomas em subpastas).",
+  "updated": "2026-09-22T00:00:00Z",
+  "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
   ],

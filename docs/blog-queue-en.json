@@ -1,0 +1,212 @@
+{
+  "updated": "2026-09-22T00:00:00Z",
+  "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
+  "authors": [
+    "lin-zeri"
+  ],
+  "items": [
+    {
+      "id": "en-p1-gbp",
+      "slug": "google-business-profile-optimization-checklist",
+      "title": "Google Business Profile Optimization: The Checklist for Local Service Businesses",
+      "template": "how-to-guide",
+      "target_keyword": "google business profile optimization",
+      "secondary_keywords": [
+        "optimize google business profile",
+        "google business profile checklist",
+        "google my business optimization"
+      ],
+      "word_count": 2200,
+      "internal_links": [
+        "/en/services/seo",
+        "/en/cities/miami",
+        "/en/usa",
+        "/en/about"
+      ],
+      "cluster": "pillar1.local-search",
+      "notes": "Anchor post of the local cluster (6,600 searches/month, competition index 7). Walk the full profile: categories (primary vs secondary), service area vs storefront, services list, photos cadence, products, Q&A, posts, hours including holidays, UTM on the website link. Every claim about how the profile works must cite support.google.com or business.google.com. Include a 40 to 60 word answer capsule under each H2 for AI citation. Mention the multilingual angle once: profiles serving customers who search in Spanish or Portuguese.",
+      "image_context": "a woman who owns a small hair salon standing at her reception counter looking at her phone, storefront window with daylight behind her",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p2-lsa",
+      "slug": "local-services-ads-vs-google-ads",
+      "title": "Local Services Ads vs Google Ads: Which One Actually Works for Your Trade",
+      "template": "comparison",
+      "target_keyword": "google local service ads",
+      "secondary_keywords": [
+        "local services ads vs google ads",
+        "are local services ads worth it",
+        "google guaranteed"
+      ],
+      "word_count": 2400,
+      "internal_links": [
+        "/en/services/paid-ads",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/services/seo",
+        "/en/contact"
+      ],
+      "cluster": "pillar2.paid-ads",
+      "notes": "Highest volume term in the strategy (33,100/month). The honest comparison nobody writes: who is eligible, how pay per lead differs from pay per click, what the Google Guaranteed badge requires, which trades convert better on each, and when to run both. Source everything about eligibility and billing from support.google.com. Use the operator voice: what a lead really costs in these trades. No invented client names.",
+      "image_context": "a licensed plumber loading tools into his work truck in a suburban driveway, early morning light",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p3-cleaning",
+      "slug": "marketing-for-cleaning-companies",
+      "title": "Marketing for Cleaning Companies: How to Fill Your Route Without Underpricing",
+      "template": "how-to-guide",
+      "target_keyword": "marketing for cleaning business",
+      "secondary_keywords": [
+        "how to get more cleaning clients",
+        "cleaning company advertising",
+        "commercial cleaning leads"
+      ],
+      "word_count": 2000,
+      "internal_links": [
+        "/en/services/paid-ads",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/cities/boston",
+        "/en/contact"
+      ],
+      "cluster": "pillar3.industry-playbooks",
+      "notes": "Industry playbook grounded in real experience with cleaning and home services. Cover residential vs commercial buying cycles, recurring contracts as the real goal, route density as the economics that beat discounting, review velocity, and which channel comes first at a small budget. Mention bilingual crews and bilingual customer communication as a competitive advantage in these markets.",
+      "image_context": "two professional cleaners in uniform carrying supplies into a bright suburban house, seen from the porch",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p4-multilingual",
+      "slug": "marketing-to-multilingual-customers-local-business",
+      "title": "Your Customers Do Not All Search in English: Multilingual Marketing for Local Businesses",
+      "template": "thought-leadership",
+      "target_keyword": "marketing to hispanic customers",
+      "secondary_keywords": [
+        "bilingual marketing for small business",
+        "spanish language google ads",
+        "multilingual local marketing"
+      ],
+      "word_count": 2200,
+      "internal_links": [
+        "/en/cities/houston",
+        "/en/cities/newark",
+        "/en/services/paid-ads",
+        "/en/about"
+      ],
+      "cluster": "pillar4.multilingual-market",
+      "notes": "The differentiation pillar. No measurable search volume by design: this is an AI citation and positioning play. Use Census data (census.gov) for language spoken at home in the covered metros, and Pew (pewresearch.org) for media habits. Argue the operational point: translated ad copy is not a Spanish campaign, because the search terms, the objections and the trust signals differ. Etuos runs US accounts in English and Spanish, which is authorized copy from the About page.",
+      "image_context": "a family-owned bakery counter in a busy city neighborhood with the owner handing a paper bag to a customer",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p2-adcost",
+      "slug": "how-much-google-ads-cost-small-business",
+      "title": "How Much Google Ads Really Cost a Small Business in 2026",
+      "template": "data-research",
+      "target_keyword": "how much does google ads cost",
+      "secondary_keywords": [
+        "google ads budget for small business",
+        "average cost per click by industry",
+        "how much should a small business spend on marketing"
+      ],
+      "word_count": 2400,
+      "internal_links": [
+        "/en/services/paid-ads",
+        "/en/blog/local-services-ads-vs-google-ads",
+        "/en/blog/marketing-for-cleaning-companies",
+        "/en/contact"
+      ],
+      "cluster": "pillar2.paid-ads",
+      "notes": "Cost intent post. Structure: what you pay Google vs what you pay an agency vs what a lead costs you. Use real US CPC ranges by industry (the home services and med spa verticals run high). Any external benchmark must be sourced from an allowed domain. Include the budget question (how much of revenue) with a defensible range and the caveat that revenue share is a starting point, not a rule. Never quote an Etuos price.",
+      "image_context": "a small business owner at a kitchen table with a laptop and paper invoices, evening light through the window",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p1-mappack",
+      "slug": "why-my-business-not-showing-google-maps",
+      "title": "Why Your Business Is Not Showing Up on Google Maps (and How to Fix It)",
+      "template": "how-to-guide",
+      "target_keyword": "why is my google business profile not showing up",
+      "secondary_keywords": [
+        "how to rank higher on google maps",
+        "business not showing in map pack",
+        "google maps ranking factors"
+      ],
+      "word_count": 1900,
+      "internal_links": [
+        "/en/services/seo",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/cities/orlando",
+        "/en/contact"
+      ],
+      "cluster": "pillar1.local-search",
+      "notes": "Troubleshooting post, highest intent in the local cluster. Ordered by likelihood: unverified or suspended profile, address and service area mismatch, duplicate listings, wrong primary category, proximity to the searcher, thin review profile, NAP inconsistency. Each cause gets the check and the fix. Cite support.google.com for suspension and verification rules. Explain proximity honestly: you cannot rank everywhere.",
+      "image_context": "a small storefront on a commercial street at dusk with lights on inside, viewed from across the street",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p3-contractors",
+      "slug": "lead-generation-for-contractors",
+      "title": "Lead Generation for Contractors: Where the Good Jobs Actually Come From",
+      "template": "listicle",
+      "target_keyword": "lead generation for contractors",
+      "secondary_keywords": [
+        "marketing for contractors",
+        "how to get construction leads",
+        "contractor advertising"
+      ],
+      "word_count": 2100,
+      "internal_links": [
+        "/en/services/paid-ads",
+        "/en/blog/local-services-ads-vs-google-ads",
+        "/en/cities/framingham",
+        "/en/contact"
+      ],
+      "cluster": "pillar3.industry-playbooks",
+      "notes": "Industry playbook for construction and remodeling. Compare the real channels: Local Services Ads, Google Ads, lead marketplaces (be honest about shared leads), map pack, referrals systematized, and past customer reactivation. Include the qualification problem: more leads at a lower price is worse than fewer leads that match the job size you want. Ties back to the cleaning playbook as a sibling link.",
+      "image_context": "a contractor in a hard hat reviewing plans with a homeowner in a house under renovation, natural light from an open wall",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    }
+  ]
+}
