@@ -59,7 +59,7 @@ Necessário para o `npm run build` e para o `sharp` usado na geração de imagem
 Faça um `WebFetch` em `https://support.google.com/business/answer/3038177`.
 
 - **Funcionou**: o ambiente tem rede liberada. Use `factcheck.enabled = true` na config do Workflow e cite fontes normalmente, sempre de domínios listados em `docs/blog-dominios-confiaveis.md`.
-- **Bloqueado**: passe `factcheck.enabled = false` na config do Workflow e escreva **sem nenhuma estatística externa citada**. Nesse modo, número só entra se for dos números autorizados da Etuos (em `CLAUDE.md`) ou como observação qualitativa, sem link. Registre isso no relatório final.
+- **Bloqueado**: passe `factcheck.enabled = false` na config do Workflow. Nesse modo, só pode ser citada estatística cuja URL exata **e** número já estejam registrados em `docs/blog-fontes-verificadas.md` (confira com `grep -F "<url>" docs/blog-fontes-verificadas.md`). Fonte que não esteja lá não entra: vira observação qualitativa, sem link e sem número. Registre isso no relatório final.
 
 Em qualquer dos dois casos, `WebSearch` funciona e pode ser usado para entender a concorrência e a estrutura do conteúdo.
 
