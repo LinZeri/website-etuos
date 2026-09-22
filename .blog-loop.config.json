@@ -1,31 +1,84 @@
 {
+  "_notes": "Config do blog-loop da Etuos. O bloco raiz e o contrato do portugues; o bloco 'idiomas' traz os overrides por idioma (pt e en). As rotinas em nuvem montam um objeto de config por idioma (raiz + override) e chamam a tool Workflow uma vez para cada. Regras duras vem de CLAUDE.md (injetadas como hardRules). Hero: a imagem e gerada ANTES do Workflow por scripts/gerar-imagem-blog.mjs (Gemini, fotorrealista, sem texto) e entra no item como coverImage, por isso hero.enabled e false aqui.",
+
   "branch": "main",
   "remote": "origin",
+
   "blogDir": "content/blog/pt",
   "fileExtension": "mdx",
   "schemaDir": "content/blog/pt/schemas",
-  "briefDir": "docs/briefs",
+  "briefDir": "docs/briefs/pt",
   "imageDir": "public/images/blog",
+  "publicDir": "public",
   "queueFile": "docs/blog-queue.json",
   "logFile": "docs/blog-loop-log.md",
   "strategyFile": "docs/blog-strategy.md",
-  "batchSize": 10,
-  "replenishThresholdMultiplier": 1,
-  "postsPerDay": 2,
-  "scheduleCadence": "daily-09-central",
+  "lockFile": "docs/.blog-loop.lock",
+  "drySentinel": "docs/.blog-loop-dry-run",
+
+  "_cadencia": "1 post por idioma por dia (pt e en tem filas e estrategias independentes, sem hreflang entre eles). batchSize 1 por idioma; a rotina de replenish mantem 7 pautas pendentes em cada fila.",
+  "batchSize": 1,
+  "postsPerDay": 1,
+  "replenishThresholdMultiplier": 7,
+
+  "reschedule": "off",
+  "scheduleCadence": "daily-cloud-routine",
+
+  "verifyCommand": "npm run build",
+
   "frontmatter": {
+    "_note": "Contrato real de PostFrontmatter em src/lib/blog.ts. 'titulo', 'descricao' e 'data' (AAAA-MM-DD) sao obrigatorios; 'imagem' aponta para o webp em /images/blog. 'grupo' NAO e usado: pt e en sao pautas independentes, sem hreflang entre si.",
     "fields": ["titulo", "descricao", "data", "autor", "imagem"]
   },
-  "ctaPattern": "link para o WhatsApp da Etuos (wa.me/5516991252073) com mensagem contextual no fim do artigo",
+
   "hero": {
-    "enabled": true,
+    "enabled": false,
     "format": "webp",
     "size": [1200, 630]
   },
-  "preflight": { "enabled": false },
-  "verifyCommand": "npm run build",
-  "factcheck": { "enabled": true },
+  "coverStrategy": "ai-gemini-pre-generated",
+
+  "preflight": {
+    "enabled": false,
+    "_note": "Preflight desligado: e o contrato generico de empacotar .md->.html->.pdf, que nao serve para a stack Next.js + MDX + Vercel. A validacao real e o 'npm run build' mais os gates de seo, audit e factcheck."
+  },
+
+  "factcheck": {
+    "enabled": true,
+    "_note": "Gate bloqueante: toda estatistica CITADA e conferida na URL da fonte. Na nuvem isso so funciona com a lista de dominios liberados do ambiente (docs/blog-dominios-confiaveis.md)."
+  },
+
   "allowTaxLanguage": true,
-  "deploy": { "mode": "auto-push", "prTarget": null },
+
+  "idiomas": {
+    "pt": {
+      "blogDir": "content/blog/pt",
+      "schemaDir": "content/blog/pt/schemas",
+      "briefDir": "docs/briefs/pt",
+      "queueFile": "docs/blog-queue.json",
+      "strategyFile": "docs/blog-strategy.md",
+      "inLanguage": "pt-BR",
+      "urlPrefix": "/pt",
+      "ctaPattern": "link para o WhatsApp da Etuos (https://wa.me/5516991252073) com mensagem contextual no fim do artigo, oferecendo o diagnostico gratuito. Links internos sempre com o prefixo /pt.",
+      "audience": "Brasileiro dono de negocio nos Estados Unidos (primario) e empreendedor no Brasil (secundario). Tom pt-BR de docs/diretrizes-comunicacao.md: 'voce', frases curtas, voz ativa."
+    },
+    "en": {
+      "blogDir": "content/blog/en",
+      "schemaDir": "content/blog/en/schemas",
+      "briefDir": "docs/briefs/en",
+      "queueFile": "docs/blog-queue-en.json",
+      "strategyFile": "docs/blog-strategy-en.md",
+      "inLanguage": "en-US",
+      "urlPrefix": "/en",
+      "ctaPattern": "link to the Etuos WhatsApp (https://wa.me/5516991252073) with a contextual message at the end of the article, offering the free diagnostic. Internal links always carry the /en prefix.",
+      "audience": "US small business owner (local services). Native US English written for that reader, never a translation of the Portuguese post. Same voice: 'you', short sentences, active voice."
+    }
+  },
+
+  "deploy": {
+    "mode": "auto-push",
+    "prTarget": null
+  },
+
   "escalationChannel": "push-notification"
 }

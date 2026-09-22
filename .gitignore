@@ -44,9 +44,16 @@ next-env.d.ts
 # referencias internas (logo, identidade, materiais)
 /_references/
 
+# claude code: preferencias locais desta maquina (as skills vendorizadas em
+# .claude/skills, .claude/scripts e .claude/workflows FICAM no git, porque as
+# rotinas em nuvem clonam o repo e nao enxergam o ~/.claude daqui)
+/.claude/settings.local.json
+/.claude/scheduled_tasks.lock
+
 # blog-loop (artefatos temporarios da producao automatica de artigos)
+# Atencao: docs/.blog-loop.lock FICA no git de proposito. Ele e o lock entre
+# ambientes (rotinas em nuvem + sessoes locais), transportado por push.
 /.blog-loop-staging/
-/docs/.blog-loop.lock
 /docs/.blog-loop-dry-run
 
 # auditorias de SEO geradas localmente
