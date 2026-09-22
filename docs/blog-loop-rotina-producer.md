@@ -56,10 +56,12 @@ Necessário para o `npm run build` e para o `sharp` usado na geração de imagem
 
 ## Passo 5: teste de rede (define se o factcheck roda)
 
+Vale sempre a regra de `CLAUDE.md`, seção "Fontes e citações do blog": **nenhum número entra num artigo sem estar registrado em `docs/blog-fontes-verificadas.md`**, conferido com `grep -F "<url>" docs/blog-fontes-verificadas.md`. O teste de rede só decide se você pode **acrescentar** fontes novas à biblioteca hoje.
+
 Faça um `WebFetch` em `https://support.google.com/business/answer/3038177`.
 
-- **Funcionou**: o ambiente tem rede liberada. Use `factcheck.enabled = true` na config do Workflow e cite fontes normalmente, sempre de domínios listados em `docs/blog-dominios-confiaveis.md`.
-- **Bloqueado**: passe `factcheck.enabled = false` na config do Workflow. Nesse modo, só pode ser citada estatística cuja URL exata **e** número já estejam registrados em `docs/blog-fontes-verificadas.md` (confira com `grep -F "<url>" docs/blog-fontes-verificadas.md`). Fonte que não esteja lá não entra: vira observação qualitativa, sem link e sem número. Registre isso no relatório final.
+- **Funcionou**: o ambiente tem rede liberada. Use `factcheck.enabled = true` na config do Workflow. Se o artigo precisar de um dado que ainda não está na biblioteca, siga o fluxo obrigatório (buscar, verificar por WebFetch na URL exata, registrar a entrada nova no cluster certo de `docs/blog-fontes-verificadas.md`, só então citar) e inclua o arquivo no commit do dia. Fonte fora de `docs/blog-dominios-confiaveis.md` não entra.
+- **Bloqueado**: passe `factcheck.enabled = false` na config do Workflow e **não acrescente nenhuma fonte nova** (sem WebFetch não há verificação possível). O artigo usa apenas o que já está registrado na biblioteca. Dado que faltar vira observação qualitativa, sem link e sem número. Registre no relatório final que o dia rodou nesse modo.
 
 Em qualquer dos dois casos, `WebSearch` funciona e pode ser usado para entender a concorrência e a estrutura do conteúdo.
 

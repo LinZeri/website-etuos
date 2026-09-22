@@ -46,6 +46,15 @@ Site institucional da Etuos, agência de marketing digital para brasileiros que 
 - As skills e os scripts do loop são vendorizados em `.claude/` (a nuvem não enxerga o `~/.claude` desta máquina). Depois de atualizar as skills globais, rode `.claude/scripts/sync-blog-skills.ps1` e comite.
 - `docs/.blog-loop.lock` **fica no git de propósito**: é o lock entre ambientes. Nunca ignorá-lo.
 
+## Fontes e citações do blog
+
+Todo número, estatística ou dado factual em artigo do blog precisa estar registrado em `docs/blog-fontes-verificadas.md` antes de ser escrito. Fluxo obrigatório, nesta ordem: buscar (WebSearch) → verificar (WebFetch na URL exata a citar, confirmando que o número aparece literal na página) → registrar (entrada nova no arquivo, com ID sequencial do cluster do pilar) → citar (usar no artigo o campo Markdown exato já registrado). Proibido escrever no blog qualquer estatística que não esteja no arquivo.
+
+- Dado novo que passar na verificação: acrescentar ao cluster do pilar correspondente (SEO, Tráfego Pago, Negócios Locais; criar cluster novo se for pilar novo), seguindo o mesmo formato das entradas existentes.
+- Dado que falhar (403, PDF ilegível, número que não confere, sem metodologia, mais de 2 anos): registrar em "Fontes descartadas" ou "Fontes proibidas" do mesmo arquivo, nunca no post.
+- Hierarquia de fontes (tier 1-3), domínios que se provaram bloqueados e estatísticas "fantasma" (citadas por aí mas não confirmáveis): ver as seções correspondentes em `docs/blog-fontes-verificadas.md`.
+- Domínios liberados para a rotina em nuvem citar: `docs/blog-dominios-confiaveis.md`. Fonte fora dessa lista não entra sem adicionar o domínio lá primeiro (rede da nuvem é fechada por padrão).
+
 ## Desenvolvimento local
 
 - O header `x-vercel-ip-country` só existe na Vercel. No `next dev`, a raiz `/` vai para `/en` a menos que o navegador esteja em pt/es ou o cookie `etuos_idioma` exista. Abra `/pt` direto ou use o seletor uma vez.
