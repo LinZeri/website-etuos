@@ -1,0 +1,170 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena#article",
+      "headline": "Tráfego pago: como funciona, quanto custa e quando vale a pena",
+      "description": "Tráfego pago: veja como funciona o leilão, quanto custa para negócios no Brasil e nos EUA, quais métricas acompanhar e quando realmente vale investir.",
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "inLanguage": "pt-BR",
+      "wordCount": 3200,
+      "keywords": [
+        "trafego pago",
+        "o que é tráfego pago",
+        "como funciona tráfego pago",
+        "vale a pena investir em tráfego pago",
+        "Google Ads",
+        "Meta Ads",
+        "publicidade digital",
+        "marketing digital"
+      ],
+      "articleSection": [
+        "Marketing Digital",
+        "Tráfego Pago"
+      ],
+      "articleBody": "Tráfego pago é você pagar para aparecer na frente do cliente certo, na hora em que ele procura o que você vende. Este guia explica como funciona o leilão, quanto custa no Brasil e nos EUA, quais métricas acompanhar e quando realmente vale investir.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Tráfego Pago" },
+        { "@type": "Thing", "name": "Google Ads" },
+        { "@type": "Thing", "name": "Meta Ads" },
+        { "@type": "Thing", "name": "Marketing Digital" },
+        { "@type": "Thing", "name": "Publicidade Digital" },
+        { "@type": "Thing", "name": "Funil de Anúncio" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena",
+      "url": "https://etuos.com/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena",
+      "name": "Tráfego pago: como funciona, quanto custa e quando vale a pena",
+      "description": "Tráfego pago: veja como funciona o leilão, quanto custa para negócios no Brasil e nos EUA, quais métricas acompanhar e quando realmente vale investir.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena#primaryimage",
+      "url": "https://etuos.com/images/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de pequeno negócio brasileiro em sua loja olhando o painel de anúncios no notebook, luz de fim de tarde"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tráfego pago: como funciona, quanto custa e quando vale a pena",
+          "item": "https://etuos.com/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Tráfego pago e impulsionamento são a mesma coisa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Impulsionamento é uma versão simplificada de anúncio dentro da própria rede social, sem acesso a segmentação avançada nem controle de objetivo de conversão. Tráfego pago gerido profissionalmente usa as ferramentas completas das plataformas: públicos personalizados, testes de criativo e rastreamento de conversão real, o que permite medir com precisão o custo por cliente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de site para fazer tráfego pago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para Google Ads de busca, sim: você precisa de uma página de destino que converta, com informações claras sobre o serviço, localização e botão de contato visível. Para Meta Ads de geração de leads, é possível usar formulário nativo da plataforma. A taxa de qualificação dos leads com formulário nativo tende a ser menor do que com página própria bem construída."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo demora para ver resultado com tráfego pago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Os primeiros cliques chegam no mesmo dia. Resultado consistente e otimizado costuma aparecer entre 60 e 90 dias, que é o tempo para o algoritmo acumular dados suficientes para otimizar sozinho. Reservar verba para esse período inteiro antes de tirar conclusões é a diferença entre uma campanha que aprende e uma interrompida no meio do caminho sem ter chegado ao ponto de retorno."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Consigo fazer tráfego pago sozinho ou preciso de um gestor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As plataformas têm interface acessível para começar. O risco de fazer sozinho sem experiência prévia é queimar verba na curva de aprendizado: palavras-chave erradas, público mal configurado, anúncio sem palavras negativas. Para quem está começando com orçamento limitado, o Google Ads com campanha simples de busca é o caminho menos arriscado para aprender o mecanismo. Com orçamento maior ou prazo curto para resultado, um gestor com experiência no seu nicho e mercado encurta esse tempo de aprendizado."
+          }
+        }
+      ]
+    }
+  ]
+}
