@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/site-em-portugues-ou-ingles-nos-eua#article",
+      "headline": "Site em português, inglês ou os dois? O que faz sentido para o seu negócio",
+      "description": "76% dos consumidores preferem comprar no próprio idioma (CSA Research). Veja quando o site do seu negócio nos EUA deve ser em português, inglês ou bilingue.",
+      "datePublished": "2026-09-16",
+      "dateModified": "2026-09-16",
+      "inLanguage": "pt-BR",
+      "wordCount": 1500,
+      "keywords": [
+        "site em portugues ou ingles para negocio nos eua",
+        "site bilingue nos eua",
+        "site para negocio de brasileiro",
+        "hreflang",
+        "SEO internacional"
+      ],
+      "articleSection": "Conseguir Clientes nos EUA",
+      "articleBody": "Você abriu um negócio nos Estados Unidos, fala português e não sabe se o site deveria ser em inglês, em português ou nos dois idiomas. Essa é uma das dúvidas mais comuns entre brasileiros que empreendem aqui. E a resposta não depende de você: depende de quem compra.",
+      "author": { "@id": "https://etuos.com/pt/sobre#person" },
+      "publisher": { "@id": "https://etuos.com#organization" },
+      "image": { "@id": "https://etuos.com/pt/blog/site-em-portugues-ou-ingles-nos-eua#primaryimage" },
+      "mainEntityOfPage": { "@id": "https://etuos.com/pt/blog/site-em-portugues-ou-ingles-nos-eua#webpage" },
+      "isPartOf": { "@id": "https://etuos.com/pt/blog#blog" },
+      "about": [
+        { "@type": "Thing", "name": "site bilingue para negócio nos EUA" },
+        { "@type": "Thing", "name": "SEO internacional" },
+        { "@type": "Thing", "name": "hreflang" },
+        { "@type": "Thing", "name": "marketing digital para brasileiros nos EUA" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": { "@id": "https://etuos.com#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog",
+      "inLanguage": "pt-BR",
+      "publisher": { "@id": "https://etuos.com#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/site-em-portugues-ou-ingles-nos-eua#webpage",
+      "url": "https://etuos.com/pt/blog/site-em-portugues-ou-ingles-nos-eua",
+      "name": "Site em português, inglês ou os dois? O que faz sentido para o seu negócio",
+      "description": "76% dos consumidores preferem comprar no próprio idioma (CSA Research). Veja quando o site do seu negócio nos EUA deve ser em português, inglês ou bilingue.",
+      "inLanguage": "pt-BR",
+      "isPartOf": { "@id": "https://etuos.com/pt/blog#blog" },
+      "primaryImageOfPage": { "@id": "https://etuos.com/pt/blog/site-em-portugues-ou-ingles-nos-eua#primaryimage" },
+      "breadcrumb": { "@id": "https://etuos.com/pt/blog/site-em-portugues-ou-ingles-nos-eua#breadcrumb" }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/site-em-portugues-ou-ingles-nos-eua#primaryimage",
+      "url": "https://etuos.com/images/blog/site-em-portugues-ou-ingles-nos-eua.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Site em português, inglês ou os dois? O que faz sentido para o seu negócio nos EUA"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/site-em-portugues-ou-ingles-nos-eua#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Site em português, inglês ou os dois?",
+          "item": "https://etuos.com/pt/blog/site-em-portugues-ou-ingles-nos-eua"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/site-em-portugues-ou-ingles-nos-eua#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O Google penaliza site bilingue?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O Google trata cada página como documento independente. O que confunde o algoritmo é misturar idiomas na mesma página ou não usar hreflang para indicar as versões. Subpastas separadas (/pt e /en) com conteúdo próprio em cada idioma é a estrutura recomendada pela documentação oficial do Google."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso começar só em português e adicionar inglês depois?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. É melhor ter um site bem feito em um idioma do que um site pela metade em dois. Quando o negócio estiver pronto para atender o público americano, adicione as páginas em inglês com conteúdo próprio, não tradução literal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de dois domínios, um .com e um .com.br?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Um único domínio .com com subpastas por idioma (/pt e /en) é a estrutura mais simples e eficaz para SEO internacional. O Google entende a estrutura e distribui autoridade para as duas versões."
+          }
+        }
+      ]
+    }
+  ]
+}
