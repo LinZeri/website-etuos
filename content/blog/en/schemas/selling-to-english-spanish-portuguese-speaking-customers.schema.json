@@ -1,0 +1,175 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/selling-to-english-spanish-portuguese-speaking-customers#article",
+      "headline": "Selling to Customers Who Search in English, Spanish and Portuguese in the Same City",
+      "description": "In cities like Houston and Newark, many customers search in Spanish or Portuguese. Learn how to reach all three language audiences without doubling your budget.",
+      "datePublished": "2026-09-15",
+      "dateModified": "2026-09-15",
+      "inLanguage": "en-US",
+      "wordCount": 3000,
+      "keywords": [
+        "multilingual marketing for local business",
+        "bilingual marketing",
+        "marketing to spanish speaking customers",
+        "marketing to hispanic customers"
+      ],
+      "articleSection": [
+        "Multilingual Marketing",
+        "Local Business",
+        "Bilingual Advertising",
+        "Local SEO"
+      ],
+      "articleBody": "A customer types air conditioning repair cerca de mi into Google. Your English-only ad does not show. Your English-only website does not rank. You never know that customer was looking for you. In cities like Houston, Newark, and Miami, a significant share of potential customers search for local services in Spanish or Portuguese every day.",
+      "author": {
+        "@id": "https://etuos.com/en/about#author-lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/selling-to-english-spanish-portuguese-speaking-customers#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/en/blog/selling-to-english-spanish-portuguese-speaking-customers#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Multilingual Marketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Hispanic Market"
+        },
+        {
+          "@type": "Thing",
+          "name": "Bilingual Advertising"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Search Optimization"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#author-lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Specialist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/selling-to-english-spanish-portuguese-speaking-customers#webpage",
+      "url": "https://etuos.com/en/blog/selling-to-english-spanish-portuguese-speaking-customers",
+      "name": "Selling to Customers Who Search in English, Spanish and Portuguese in the Same City",
+      "description": "In cities like Houston and Newark, many customers search in Spanish or Portuguese. Learn how to reach all three language audiences without doubling your budget.",
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/selling-to-english-spanish-portuguese-speaking-customers#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/selling-to-english-spanish-portuguese-speaking-customers#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/selling-to-english-spanish-portuguese-speaking-customers#primaryimage",
+      "url": "https://etuos.com/images/blog/selling-to-english-spanish-portuguese-speaking-customers.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A neighborhood pharmacy counter with a pharmacist helping a customer, bilingual signage visible in the background"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/selling-to-english-spanish-portuguese-speaking-customers#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Selling to Customers Who Search in English, Spanish and Portuguese in the Same City",
+          "item": "https://etuos.com/en/blog/selling-to-english-spanish-portuguese-speaking-customers"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/selling-to-english-spanish-portuguese-speaking-customers#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need a separate website for Spanish-speaking customers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A separate website adds more maintenance overhead than benefit for most local service businesses starting out. A translated service page, a bilingual GBP description, and Spanish ad groups pointing to a language-aware landing page are enough to start. A fully separate site is only justified at high spend volume with dedicated teams managing each language version."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if my city has enough Spanish speakers to make bilingual marketing worth it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with your own inquiry data: how many of your current calls or messages come in Spanish without any effort to attract them? If 10 to 15% of inbound contacts are already in Spanish, a bilingual campaign will likely increase that share. The cost of a test is low. The cost of ignoring it is a permanent share of your market going to whoever showed up in that language first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I hire a Spanish-speaking team member before running Spanish ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, ideally. Running Spanish ads to an English-only phone team wastes the click and damages the first impression. At minimum, have one person who can take an initial call and schedule an appointment in Spanish. Your ad can reference this directly: a Hablamos espanol call extension tells callers before they click that someone will understand them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I just translate my English ads into Spanish?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Translation is a starting point, not a strategy. Spanish queries differ from English queries in structure, vocabulary, and intent. A translated ad running against an English-derived keyword list misses most of the actual Spanish search volume. Start with native Spanish keyword research, then write ad copy that speaks to that audience's specific motivations."
+          }
+        }
+      ]
+    }
+  ]
+}
