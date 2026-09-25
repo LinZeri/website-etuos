@@ -1,0 +1,142 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/como-conseguir-clientes-nos-eua#article",
+      "headline": "Como conseguir clientes nos EUA além da indicação",
+      "description": "Indicação não escala. Veja a ordem certa dos canais para conseguir clientes nos EUA: Perfil no Google, site funcional, anúncios e indicação como sistema.",
+      "datePublished": "2026-09-14",
+      "dateModified": "2026-09-14",
+      "inLanguage": "pt-BR",
+      "wordCount": 1800,
+      "keywords": [
+        "como conseguir clientes nos eua",
+        "conseguir clientes sendo brasileiro nos eua",
+        "atrair clientes nos estados unidos",
+        "Google Business Profile",
+        "marketing digital negócio local"
+      ],
+      "articleSection": "Conseguir Clientes nos EUA",
+      "articleBody": "Indicação é o canal de maior retorno por cliente. Quem chega indicado confia em você, negocia menos e fica mais tempo. Mas ela tem um teto: cresce no ritmo da sua rede de contatos, não no ritmo que o negócio precisa.",
+      "author": { "@id": "https://etuos.com/pt/sobre#person" },
+      "publisher": { "@id": "https://etuos.com#organization" },
+      "image": { "@id": "https://etuos.com/pt/blog/como-conseguir-clientes-nos-eua#primaryimage" },
+      "mainEntityOfPage": { "@id": "https://etuos.com/pt/blog/como-conseguir-clientes-nos-eua#webpage" },
+      "isPartOf": { "@id": "https://etuos.com/pt/blog#blog" },
+      "about": [
+        { "@type": "Thing", "name": "Google Business Profile" },
+        { "@type": "Thing", "name": "Google Ads" },
+        { "@type": "Thing", "name": "marketing digital para negócio local nos EUA" },
+        { "@type": "Thing", "name": "SEO local" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": { "@id": "https://etuos.com#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog",
+      "inLanguage": "pt-BR",
+      "publisher": { "@id": "https://etuos.com#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/como-conseguir-clientes-nos-eua#webpage",
+      "url": "https://etuos.com/pt/blog/como-conseguir-clientes-nos-eua",
+      "name": "Como conseguir clientes nos EUA além da indicação",
+      "description": "Indicação não escala. Veja a ordem certa dos canais para conseguir clientes nos EUA: Perfil no Google, site funcional, anúncios e indicação como sistema.",
+      "inLanguage": "pt-BR",
+      "isPartOf": { "@id": "https://etuos.com/pt/blog#blog" },
+      "primaryImageOfPage": { "@id": "https://etuos.com/pt/blog/como-conseguir-clientes-nos-eua#primaryimage" },
+      "breadcrumb": { "@id": "https://etuos.com/pt/blog/como-conseguir-clientes-nos-eua#breadcrumb" }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/como-conseguir-clientes-nos-eua#primaryimage",
+      "url": "https://etuos.com/images/blog/como-conseguir-clientes-nos-eua.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Como conseguir clientes nos EUA além da indicação"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/como-conseguir-clientes-nos-eua#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Como conseguir clientes nos EUA além da indicação",
+          "item": "https://etuos.com/pt/blog/como-conseguir-clientes-nos-eua"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/como-conseguir-clientes-nos-eua#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto tempo leva para começar a ter clientes pelo Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Ads pode trazer resultado na primeira semana se o perfil e o site já estiverem prontos. Para aparecer no Google Maps de forma orgânica, o prazo varia de 4 a 12 semanas, dependendo do número de avaliações e da concorrência local. O ideal é usar os dois juntos: anúncios para resultado imediato, orgânico para crescer sem custo por clique a longo prazo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de site para conseguir clientes nos EUA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para Google Ads, sim. A plataforma exige uma URL de destino, e a taxa de conversão sem site é muito baixa. O Google Business Profile funciona sem site, mas a taxa de contato melhora quando o cliente tem um endereço confiável para onde ir depois de encontrar o seu perfil. Para anúncios da Meta e para construir presença orgânica no longo prazo, o site também é necessário."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como consigo os primeiros clientes americanos sem ser da comunidade?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Business Profile em inglês com a categoria certa, fotos reais do trabalho e as primeiras avaliações (mesmo de clientes brasileiros que escrevam em inglês) são suficientes para começar a aparecer nas buscas locais. O Google não pergunta de onde você é. Ele pergunta se o perfil está completo e atualizado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Indicação ou anúncio: por onde começar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Business Profile primeiro (gratuito, alta intenção de compra). Indicação organizada como sistema em paralelo, sem custo extra. Google Ads quando o site e o perfil estiverem prontos e houver orçamento para manter pelo menos 30 dias de campanha sem parar. Interromper cedo, antes de ter dados suficientes para ajustar, é o erro mais frequente."
+          }
+        }
+      ]
+    }
+  ]
+}
