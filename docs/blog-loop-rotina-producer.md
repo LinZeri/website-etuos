@@ -102,7 +102,7 @@ Workflow({
     projectDir: "<caminho absoluto do checkout>",
     config: <config do idioma>,
     batchItems: [<item, já com publish_date, author e coverImage>],
-    hardRules: <as "Regras inegociáveis", a seção "Git e GitHub", "Comunicação", "Identidade visual" e "Provas e números autorizados" de CLAUDE.md, mais a decisão de rede do passo 5>,
+    hardRules: <as "Regras inegociáveis", a seção "Git e GitHub", "Comunicação", "Identidade visual" e "Provas e números autorizados" de CLAUDE.md, mais a decisão de rede do passo 5, mais o bloco "Proibições reforçadas" abaixo>,
     ctaFramework: <seção de CTA da estratégia do idioma>,
     skillMdPaths: {
       brief: "<abs>/.claude/skills/blog-brief/SKILL.md",
@@ -119,6 +119,14 @@ Workflow({
 })
 ```
 
+**Proibições reforçadas (sempre no `hardRules`).** Numa execução local, o pipeline aprovou textos com prova inventada, porque o factcheck só confere URLs e o audit não pega isso. Injete este bloco:
+
+- Proibido alegar experiência própria da Etuos além dos números autorizados: nada de "nas contas que gerenciamos", "we see", "our cleaning accounts", casos, anedotas ou resultados de clientes. Escreva conselho em voz neutra ("um erro comum é...", "monte o orçamento a partir de...").
+- Proibido inventar faixas de custo, CPL, CPC, orçamentos, percentuais de alocação, prazos ou benchmarks. Valores em dólar só como aritmética hipotética rotulada como ilustrativa, nunca como dado de mercado.
+- Afirmações sobre elegibilidade, prazos ou nomes de programas do Google (por exemplo, o selo dos Local Services Ads, hoje "Google Verified") só com a página de ajuda aberta e conferida. Na dúvida, escreva "confira a elegibilidade para o seu ofício e cidade".
+- Estatísticas externas só as já registradas em `docs/blog-fontes-verificadas.md`, citadas com o campo Markdown exato e respeitando o "Uso proibido" de cada uma.
+- Nada de comentários HTML (`<!-- -->`) no corpo: o MDX não compila e o build quebra.
+
 Se a tool Workflow não existir ou falhar por infraestrutura, marque o item como failed com motivo `workflow_tool_unavailable`, libere o lock e relate. Não tente reimplementar o pipeline na mão.
 
 ### 6.4 Conferências obrigatórias antes de commitar
@@ -127,6 +135,9 @@ Se a tool Workflow não existir ou falhar por infraestrutura, marque o item como
 2. **Frontmatter**: `titulo`, `descricao`, `data` (hoje), `autor` ("Lin Zeri") e `imagem` (`/images/blog/<slug>.webp`). **Sem o campo `grupo`**: pt e en são pautas independentes e não devem virar hreflang um do outro.
 3. **Links internos**: todos com o prefixo do idioma (`/pt/...` ou `/en/...`). Nenhum link para `/lp/`, que é noindex.
 4. **Números**: nenhuma alegação sobre a Etuos fora dos números autorizados de `CLAUDE.md`. Nenhum preço, nenhuma garantia, nenhum nome de cliente inventado.
+5. **Prova inventada**: `grep -n -i -E "accounts we|we (see|manage|found)|nossas contas|que gerenciamos|our (client|cleaning) " <caminho do post>` deve vir vazio, e todo valor em dólar ou percentual no corpo precisa ter fonte registrada ou ser aritmética rotulada como ilustrativa. Corrija o texto, não o grep.
+6. **Comentários HTML**: `grep -n "<!--" <caminho do post>` deve vir vazio (o MDX não compila com eles).
+7. **Links entre posts**: todo `](/<idioma>/blog/<slug>` precisa apontar para um arquivo existente em `content/blog/<idioma>/`. Só linke posts já publicados ou produzidos no mesmo lote.
 
 ## Passo 7: build
 
