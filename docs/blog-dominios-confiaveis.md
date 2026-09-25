@@ -38,16 +38,16 @@ Sem estes a rotina nem chega a escrever: são clone, dependências, build e gera
 `ibge.gov.br`, `gov.br`, `bcb.gov.br`, `ipea.gov.br`, `sebrae.com.br`, `apexbrasil.com.br`, `fgv.br`
 
 ### Institutos de pesquisa
-`pewresearch.org`, `migrationpolicy.org`, `nielsen.com`, `datareportal.com`, `statista.com`, `emarketer.com`
+`pewresearch.org`, `migrationpolicy.org`, `nielsen.com`, `datareportal.com`, `statista.com`, `emarketer.com`, `csa-research.com`
 
 ### Documentação oficial de plataforma
 `support.google.com`, `developers.google.com`, `business.google.com`, `blog.google`, `thinkwithgoogle.com`, `web.dev`, `schema.org`, `about.fb.com`, `developers.facebook.com`, `business.facebook.com`, `help.instagram.com`, `faq.whatsapp.com`, `business.whatsapp.com`, `business.tiktok.com`, `business.linkedin.com`, `business.yelp.com`, `help.nextdoor.com`
 
 ### Mercado, SEO e marketing (secundárias)
-`semrush.com`, `ahrefs.com`, `moz.com`, `similarweb.com`, `brightlocal.com`, `sparktoro.com`, `backlinko.com`, `searchengineland.com`, `searchenginejournal.com`, `hubspot.com`, `wordstream.com`, `localiq.com`, `sproutsocial.com`, `gs.statcounter.com`
+`semrush.com`, `ahrefs.com`, `moz.com`, `similarweb.com`, `brightlocal.com`, `sparktoro.com`, `backlinko.com`, `searchengineland.com`, `searchenginejournal.com`, `hubspot.com`, `wordstream.com`, `localiq.com`, `sproutsocial.com`, `gs.statcounter.com`, `yext.com`, `whitespark.ca`
 
 ### Consultorias e imprensa de negócios
-`mckinsey.com`, `deloitte.com`, `pwc.com`, `reuters.com`, `cnbc.com`, `forbes.com`, `inc.com`, `entrepreneur.com`, `smallbiztrends.com`, `g1.globo.com`, `valor.globo.com`, `exame.com`, `infomoney.com.br`
+`hbr.org`, `mckinsey.com`, `deloitte.com`, `pwc.com`, `reuters.com`, `cnbc.com`, `forbes.com`, `inc.com`, `entrepreneur.com`, `smallbiztrends.com`, `g1.globo.com`, `valor.globo.com`, `exame.com`, `infomoney.com.br`
 
 ## Lista para o allowlist
 
@@ -117,6 +117,10 @@ wordstream.com
 localiq.com
 sproutsocial.com
 gs.statcounter.com
+yext.com
+whitespark.ca
+csa-research.com
+hbr.org
 mckinsey.com
 deloitte.com
 pwc.com
