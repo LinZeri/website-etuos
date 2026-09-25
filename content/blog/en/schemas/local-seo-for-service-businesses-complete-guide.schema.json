@@ -1,0 +1,199 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/local-seo-for-service-businesses-complete-guide#article",
+      "headline": "Local SEO for Service Businesses: The Complete Guide to Showing Up on Google Maps",
+      "description": "Local SEO for service businesses from start to finish: Google Business Profile setup, on-site signals, reviews, citations, and how to measure calls. In 2026, 68% of searches end without a click.",
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "inLanguage": "en-US",
+      "wordCount": 3200,
+      "keywords": [
+        "local seo for small business",
+        "local seo guide",
+        "how to rank on google maps",
+        "local search for service businesses",
+        "google business profile",
+        "local pack",
+        "map pack",
+        "reviews for local business",
+        "citations NAP consistency",
+        "service area business"
+      ],
+      "articleSection": [
+        "What Is Local SEO and Why Does the Map Pack Matter More Than Organic",
+        "How Google Decides Who Ranks in the Local Pack",
+        "Your Google Business Profile: the Foundation of Local SEO",
+        "On-Site Signals: What Your Website Needs to Reinforce Your Profile",
+        "Reviews: the Trust Signal That Drives Calls",
+        "Citations and NAP Consistency",
+        "Service Area Business vs. Storefront: What Changes in Your Setup",
+        "Measuring What Works: Calls, Direction Requests, and Profile Views",
+        "The Multilingual Angle: Reaching Spanish and Portuguese Speakers",
+        "Frequently Asked Questions About Local SEO for Service Businesses",
+        "The Three Things That Matter Most"
+      ],
+      "articleBody": "When someone in your area searches \"HVAC repair near me\" or \"house cleaning in [your city]\", they see a map with three business listings before they see a single organic result. That small box, called the local pack or map pack, is where your phone rings.",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/local-seo-for-service-businesses-complete-guide#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/local-seo-for-service-businesses-complete-guide"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Local SEO"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Maps Ranking"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Pack"
+        },
+        {
+          "@type": "Thing",
+          "name": "Service Area Business"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/local-seo-for-service-businesses-complete-guide",
+      "url": "https://etuos.com/en/blog/local-seo-for-service-businesses-complete-guide",
+      "name": "Local SEO for Service Businesses: The Complete Guide to Showing Up on Google Maps",
+      "description": "Local SEO for service businesses from start to finish: Google Business Profile setup, on-site signals, reviews, citations, and how to measure calls. In 2026, 68% of searches end without a click.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/local-seo-for-service-businesses-complete-guide#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/local-seo-for-service-businesses-complete-guide#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/local-seo-for-service-businesses-complete-guide#primaryimage",
+      "url": "https://etuos.com/images/blog/local-seo-for-service-businesses-complete-guide.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A plumber in a work shirt checking his business listing on a phone next to his van in a suburban driveway"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/local-seo-for-service-businesses-complete-guide#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Local SEO for Service Businesses: The Complete Guide to Showing Up on Google Maps",
+          "item": "https://etuos.com/en/blog/local-seo-for-service-businesses-complete-guide"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/local-seo-for-service-businesses-complete-guide#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does local SEO take to show results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no fixed timeline. GBP verification takes days. Building review volume takes weeks to months, depending on how consistently you ask. Citation indexing across directories can take 60 to 90 days to propagate. Most service businesses with a complete GBP, consistent review requests, and corrected NAP inconsistencies start to see measurable movement in call volume within two to three months of sustained, consistent effort."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a website to rank on Google Maps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, but you miss significant opportunities without one. A website reinforces relevance and prominence through your NAP in the footer, LocalBusiness schema markup, and service-area landing pages. Businesses without a website can appear in the map pack, but in competitive local markets a complete online presence almost always outperforms a listing with no linked website."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between the local pack and organic results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The local pack shows three businesses with a map, star ratings, and direct call buttons, above the standard organic results. It is a separate ranking system from classic SEO with different inputs. A business can rank in the map pack without appearing on page one in organic results, and vice versa. The local pack is driven by GBP data, reviews, citations, and proximity. Organic results are driven by website authority, content quality, and backlinks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I rank in multiple cities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Define your service area in your GBP to include the cities you actually serve. Build a unique, content-rich landing page for each city on your website. The honest limitation: proximity still matters. A business based in Fort Lauderdale will rank more easily in Fort Lauderdale than in Miami. Ranking in more distant cities requires stronger prominence signals: more reviews, more citations, and more website authority to offset the distance disadvantage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does my Google Business Profile affect my website's organic ranking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The relationship is indirect. GBP signals do not directly boost classic organic rankings. A strong GBP builds brand prominence, which can help branded queries (searches that include your business name) perform better in both organic and local results. A well-managed GBP also drives traffic to your website through the linked URL, which sends positive behavioral signals to Google over time."
+          }
+        }
+      ]
+    }
+  ]
+}
