@@ -1,0 +1,148 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/marketing-for-cleaning-companies#article",
+      "headline": "Marketing for Cleaning Companies: How to Fill Your Route Without Underpricing",
+      "description": "Route density beats discounting. Learn which marketing channels fill your cleaning schedule at every budget, from GBP to LSA, with sourced data on what works.",
+      "datePublished": "2026-09-18",
+      "dateModified": "2026-09-18",
+      "inLanguage": "en-US",
+      "wordCount": 2000,
+      "keywords": [
+        "marketing for cleaning business",
+        "how to get more cleaning clients",
+        "cleaning company advertising",
+        "commercial cleaning leads"
+      ],
+      "articleSection": [
+        "Why Do Recurring Clients Change the Math?",
+        "Should You Start with Google Business Profile?",
+        "Why Are Reviews the Trust Layer?",
+        "How Does Route Density Beat Scattered Growth?",
+        "When Should Paid Ads Enter the Picture?",
+        "How Does Bilingual Communication Give You an Edge?",
+        "Residential vs. Commercial: Two Different Playbooks",
+        "Fill Your Route, Not Your Calendar"
+      ],
+      "articleBody": "There are roughly 2.4 million janitor and building cleaner jobs in the United States. Competition in the cleaning industry is enormous, and the most common response is cutting prices. That fills next week's schedule, but it traps the business in a cycle of chasing the next cheap job.",
+      "author": {
+        "@id": "https://etuos.com/en/about#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/marketing-for-cleaning-companies#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/marketing-for-cleaning-companies"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Cleaning Business Marketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Services Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Route Density"
+        },
+        {
+          "@type": "Thing",
+          "name": "Review Management"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/marketing-for-cleaning-companies",
+      "url": "https://etuos.com/en/blog/marketing-for-cleaning-companies",
+      "name": "Marketing for Cleaning Companies: How to Fill Your Route Without Underpricing",
+      "description": "Route density beats discounting. Learn which marketing channels fill your cleaning schedule at every budget, from GBP to LSA, with sourced data on what works.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/marketing-for-cleaning-companies#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/marketing-for-cleaning-companies#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/marketing-for-cleaning-companies#primaryimage",
+      "url": "https://etuos.com/images/blog/marketing-for-cleaning-companies.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Two professional cleaners in uniform carrying supplies into a bright suburban house, seen from the porch"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/marketing-for-cleaning-companies#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Marketing for Cleaning Companies: How to Fill Your Route Without Underpricing",
+          "item": "https://etuos.com/en/blog/marketing-for-cleaning-companies"
+        }
+      ]
+    }
+  ]
+}
