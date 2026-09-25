@@ -1,0 +1,184 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/how-much-paid-ads-cost-local-business-guide#article",
+      "headline": "Paid Ads for Local Businesses: What They Really Cost and When They Pay Off",
+      "description": "Paid ads cost more than the click. Learn how the Google Ads auction works, how to set a budget from a revenue goal, and when ads are not the right first move for a local service business.",
+      "datePublished": "2026-09-11",
+      "dateModified": "2026-09-11",
+      "inLanguage": "en-US",
+      "wordCount": 3200,
+      "keywords": [
+        "paid advertising for small business",
+        "google ads for small business",
+        "how much to spend on ads",
+        "are paid ads worth it",
+        "local services ads",
+        "cost per lead",
+        "ad budget for local business"
+      ],
+      "articleSection": [
+        "How Paid Advertising Works",
+        "Ad Costs and Cost Per Lead",
+        "Setting a Budget from Revenue Goals",
+        "Google Ads vs Local Services Ads vs Facebook Ads",
+        "Trade-by-Trade Cost Patterns",
+        "When Paid Ads Are Not the Right First Move",
+        "Measuring Whether Ads Are Paying Off"
+      ],
+      "articleBody": "In 2025, US digital advertising hit a record $294.6 billion, growing 13.9% year over year. Most of that money comes from businesses that figured out the math. Yet most local service business owners say paid ads burned their budget and produced nothing. The gap is not the platform. It is the math most owners skip before spending the first dollar.",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/how-much-paid-ads-cost-local-business-guide#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/how-much-paid-ads-cost-local-business-guide"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Paid Advertising"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Services Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Cost Per Lead"
+        },
+        {
+          "@type": "Thing",
+          "name": "Small Business Marketing"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/how-much-paid-ads-cost-local-business-guide",
+      "url": "https://etuos.com/en/blog/how-much-paid-ads-cost-local-business-guide",
+      "name": "Paid Ads for Local Businesses: What They Really Cost and When They Pay Off",
+      "description": "Paid ads cost more than the click. Learn how the Google Ads auction works, how to set a budget from a revenue goal, and when ads are not the right first move for a local service business.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/how-much-paid-ads-cost-local-business-guide#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/how-much-paid-ads-cost-local-business-guide#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/how-much-paid-ads-cost-local-business-guide#primaryimage",
+      "url": "https://etuos.com/images/blog/how-much-paid-ads-cost-local-business-guide.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A restaurant owner reviewing a printed report at a back-office desk with a laptop open, kitchen visible through the doorway"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/how-much-paid-ads-cost-local-business-guide#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Paid Ads for Local Businesses: What They Really Cost and When They Pay Off",
+          "item": "https://etuos.com/en/blog/how-much-paid-ads-cost-local-business-guide"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/how-much-paid-ads-cost-local-business-guide#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much should a small business spend on Google Ads per month?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start from your revenue goal, not a fixed dollar amount. Calculate how many new clients you need this month, divide by your close rate to get the leads you need, and multiply by your target cost per lead to get your budget. There is no right number independent of your job economics. A roofing company and a restaurant targeting the same revenue goal will reach very different budget figures because the average job value and close rate are completely different."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long until Google Ads start working?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Expect 30 to 60 days for a new campaign to exit Google's learning phase. Before that, the algorithm is still figuring out who to show your ads to and at what bid levels. Plan for this in your cash flow: the first month is investment in data, not proof of channel viability. Cutting a new campaign at week two because the numbers are not perfect yet is one of the most common ways local businesses end up concluding that Google Ads do not work, when it is actually a patience problem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I run Google Ads or work on local SEO first?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They serve different timelines. Ads can drive calls this week. Local SEO builds visibility that does not require a daily budget to maintain. For a new business or one with zero Google Maps presence, your Google Business Profile is usually the faster and cheaper path to calls because Google Maps traffic is high-intent and setup costs nothing. Once the profile is optimized and showing in your market, paid ads layer on top to capture the searches that Maps does not cover on its own."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I run paid ads myself without an agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, with $300 to $500 per month in ad spend and a willingness to put in 3 to 5 hours per week on campaign management. The most common self-managed mistakes are: too many keywords in one campaign, broad match on every term without a negative keyword list, no call tracking, and no conversion event set up in Google Ads. An agency earns its management fee when the complexity of running multiple campaigns across multiple keywords and audiences grows beyond what an owner can handle alongside running the actual business."
+          }
+        }
+      ]
+    }
+  ]
+}
