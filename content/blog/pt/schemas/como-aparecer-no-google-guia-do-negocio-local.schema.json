@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/como-aparecer-no-google-guia-do-negocio-local#article",
+      "headline": "Como aparecer no Google: o guia do negócio local",
+      "description": "Guia de SEO local: perfil da empresa no Google, avaliações, NAP consistente e site. Tudo que o negócio local precisa para aparecer no Google Maps.",
+      "datePublished": "2026-09-11",
+      "dateModified": "2026-09-11",
+      "inLanguage": "pt-BR",
+      "wordCount": 3200,
+      "keywords": "como aparecer no google, como aparecer no google maps, seo local, aparecer no google sem pagar, perfil da empresa no google, local pack, nap consistente, avaliações google",
+      "articleSection": "SEO Local",
+      "articleBody": "Em 2026, 68,01% das buscas no Google nos EUA terminam sem nenhum clique. O cliente nem chega a visitar um site: ele encontra o que quer direto no Google Maps, no painel do negócio ou no resumo de IA. Quem não está visível nessas posições simplesmente não existe para esse cliente.",
+      "author": { "@id": "https://etuos.com/pt/sobre#person" },
+      "publisher": { "@id": "https://etuos.com#organization" },
+      "image": { "@id": "https://etuos.com/pt/blog/como-aparecer-no-google-guia-do-negocio-local#primaryimage" },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/como-aparecer-no-google-guia-do-negocio-local"
+      },
+      "isPartOf": { "@id": "https://etuos.com/pt/blog#blog" },
+      "about": [
+        { "@type": "Thing", "name": "SEO Local" },
+        { "@type": "Thing", "name": "Google Business Profile" },
+        { "@type": "Thing", "name": "Local Pack" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": { "@id": "https://etuos.com#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/como-aparecer-no-google-guia-do-negocio-local",
+      "url": "https://etuos.com/pt/blog/como-aparecer-no-google-guia-do-negocio-local",
+      "name": "Como aparecer no Google: o guia do negócio local",
+      "description": "Guia de SEO local: perfil da empresa no Google, avaliações, NAP consistente e site. Tudo que o negócio local precisa para aparecer no Google Maps.",
+      "inLanguage": "pt-BR",
+      "isPartOf": { "@id": "https://etuos.com/pt/blog#blog" },
+      "breadcrumb": { "@id": "https://etuos.com/pt/blog/como-aparecer-no-google-guia-do-negocio-local#breadcrumb" },
+      "primaryImageOfPage": { "@id": "https://etuos.com/pt/blog/como-aparecer-no-google-guia-do-negocio-local#primaryimage" }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/como-aparecer-no-google-guia-do-negocio-local#primaryimage",
+      "url": "https://etuos.com/images/blog/como-aparecer-no-google-guia-do-negocio-local.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dona de uma barbearia num bairro brasileiro nos EUA conferindo o próprio perfil no Google no celular, vitrine ao fundo"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/como-aparecer-no-google-guia-do-negocio-local#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Como aparecer no Google: o guia do negócio local",
+          "item": "https://etuos.com/pt/blog/como-aparecer-no-google-guia-do-negocio-local"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/como-aparecer-no-google-guia-do-negocio-local#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Preciso de site para aparecer no Google Maps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não precisa, mas ter um site ajuda muito. O Perfil da Empresa no Google pode aparecer no mapa sem site, mas o site reforça o fator destaque e captura buscas orgânicas nos resultados abaixo do Local Pack. Sem site, o negócio também perde quando o cliente pesquisa diretamente no Google em vez de no Maps, e a autoridade do perfil cresce mais devagar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo leva para aparecer no Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O perfil pode aparecer em poucos dias após a verificação. Ganhar posição no Local Pack para buscas competitivas leva de 3 a 6 meses de trabalho consistente em avaliações e perfil completo. SEO orgânico leva de 4 a 8 meses para buscas mais disputadas. O tempo real depende da concorrência na cidade e no nicho."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para aparecer no Google sem pagar nada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O Perfil da Empresa no Google é gratuito. SEO orgânico também não tem custo direto, apenas de tempo ou de contratação de agência. Google Ads e Local Services Ads são opcionais e aceleram resultados, mas não substituem o trabalho no perfil. Para a maioria dos negócios locais, o perfil bem otimizado começa a trazer retorno antes de qualquer anúncio pago."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sou prestador de serviço sem endereço fixo. Apareço no mapa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aparece. O Google permite configurar área de atendimento sem mostrar endereço físico. O perfil aparece nas buscas das regiões declaradas. Quem trabalha de casa pode usar essa configuração sem expor o endereço residencial."
+          }
+        }
+      ]
+    }
+  ]
+}
