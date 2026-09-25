@@ -1,0 +1,197 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/google-business-profile-optimization-checklist#article",
+      "headline": "Google Business Profile Optimization: The Checklist for Local Service Businesses",
+      "description": "Google Business Profile optimization drives 32% of local pack rankings. This step-by-step checklist covers categories, photos, reviews, posts and Q&A so your service business gets more calls.",
+      "datePublished": "2026-09-16",
+      "dateModified": "2026-09-16",
+      "inLanguage": "en-US",
+      "wordCount": 2200,
+      "keywords": [
+        "google business profile optimization",
+        "optimize google business profile",
+        "google business profile checklist",
+        "google my business optimization",
+        "GBP optimization",
+        "local pack ranking",
+        "google maps ranking",
+        "local service business",
+        "google reviews",
+        "google posts"
+      ],
+      "articleSection": [
+        "Should You Verify Your Profile Before Anything Else?",
+        "How Do You Choose the Right Primary Category?",
+        "What Does a Complete Profile Look Like?",
+        "Why Should You Add Photos Every Week?",
+        "How Do You Build a Review Engine That Drives Ranking?",
+        "Are You Using Google Posts, Q&A, and Products?",
+        "Can You Reach Customers Who Search in More Than One Language?",
+        "Frequently Asked Questions",
+        "What Should You Fix First?"
+      ],
+      "articleBody": "Your Google Business Profile is the single biggest factor in whether your business shows up on Google Maps. Not your website. Not your backlinks. Your profile. In 2026, Whitespark's annual survey of 47 expert local SEOs found that Google Business Profile signals account for 32% of what determines local pack ranking.",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/google-business-profile-optimization-checklist#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/google-business-profile-optimization-checklist"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local SEO"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Pack Ranking"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Maps"
+        },
+        {
+          "@type": "Thing",
+          "name": "Service Area Business"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/google-business-profile-optimization-checklist",
+      "url": "https://etuos.com/en/blog/google-business-profile-optimization-checklist",
+      "name": "Google Business Profile Optimization: The Checklist for Local Service Businesses",
+      "description": "Google Business Profile optimization drives 32% of local pack rankings. This step-by-step checklist covers categories, photos, reviews, posts and Q&A so your service business gets more calls.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/google-business-profile-optimization-checklist#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/google-business-profile-optimization-checklist#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/google-business-profile-optimization-checklist#primaryimage",
+      "url": "https://etuos.com/images/blog/google-business-profile-optimization-checklist.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A woman who owns a small hair salon standing at her reception counter looking at her phone, storefront window with daylight behind her"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/google-business-profile-optimization-checklist#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Google Business Profile Optimization: The Checklist for Local Service Businesses",
+          "item": "https://etuos.com/en/blog/google-business-profile-optimization-checklist"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/google-business-profile-optimization-checklist#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Google Business Profile free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Claiming, verifying, and optimizing your Google Business Profile costs nothing. Google charges only if you choose to run ads through Google Ads. The profile itself, including Posts, Q&A, reviews, and Insights, is free for every business."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take for changes to show up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most edits appear within 24 to 48 hours. Verification by video takes a few business days; verification by postcard takes five to ten business days. Some changes (like a new primary category) may take up to a week for Google to process and reflect in local rankings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does my Google Business Profile affect my website's organic ranking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indirectly. GBP signals drive local pack rankings, which operate as a separate system from organic search results. A strong profile builds brand prominence online, which can help branded organic queries over time. But the direct impact is on the map pack, not on your website's position in the ten blue links."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get more reviews without being pushy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask in person, right after a completed job, when satisfaction is highest. Send a follow-up text with a direct review link within the hour. The key is timing and ease: one tap, no hunting for your listing. Never offer discounts or gifts in exchange for reviews. Google's policies prohibit it, and customers sense it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I rank in the map pack for cities where I don't have an office?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you are a service-area business. Define your service area in your GBP settings and build a unique landing page for each city on your website. Proximity still matters: ranking in distant cities requires stronger prominence signals (reviews, links, authority) to overcome the distance disadvantage."
+          }
+        }
+      ]
+    }
+  ]
+}
