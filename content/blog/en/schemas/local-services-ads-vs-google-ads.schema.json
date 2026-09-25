@@ -1,0 +1,197 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/local-services-ads-vs-google-ads#article",
+      "headline": "Local Services Ads vs Google Ads: Which One Actually Works for Your Trade",
+      "description": "Local Services Ads charge per valid lead, Google Search Ads charge per click. Learn who qualifies, what a lead really is, what is changing in 2026, and when to run both.",
+      "datePublished": "2026-09-17",
+      "dateModified": "2026-09-17",
+      "inLanguage": "en-US",
+      "wordCount": 2389,
+      "keywords": [
+        "google local service ads",
+        "local services ads vs google ads",
+        "are local services ads worth it",
+        "google verified badge",
+        "google guaranteed",
+        "pay per lead",
+        "google search ads",
+        "local service business",
+        "google ads for contractors",
+        "lead generation"
+      ],
+      "articleSection": [
+        "What Is the Real Difference Between Local Services Ads and Google Ads?",
+        "Are Local Services Ads Changing in 2026?",
+        "What Counts as a Lead, and What Do You Actually Pay For?",
+        "Who Qualifies for Local Services Ads?",
+        "Which Trades Should Start Where?",
+        "When Should You Run Both?",
+        "Do Local Services Ads Replace Your Google Business Profile?",
+        "Frequently Asked Questions",
+        "What Should You Do First?"
+      ],
+      "articleBody": "Local Services Ads and Google Search Ads both put your business in front of someone who is ready to hire. They charge for different things. Local Services Ads charge you for a valid lead. Google Search Ads charge you for a click. That one difference changes how you budget, how you measure, and which trades should start where. Google's help pages describe the pay-per-lead model plainly: \"You still ",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/local-services-ads-vs-google-ads#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/local-services-ads-vs-google-ads"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Local Services Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pay per lead advertising"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/local-services-ads-vs-google-ads",
+      "url": "https://etuos.com/en/blog/local-services-ads-vs-google-ads",
+      "name": "Local Services Ads vs Google Ads: Which One Actually Works for Your Trade",
+      "description": "Local Services Ads charge per valid lead, Google Search Ads charge per click. Learn who qualifies, what a lead really is, what is changing in 2026, and when to run both.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/local-services-ads-vs-google-ads#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/local-services-ads-vs-google-ads#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/local-services-ads-vs-google-ads#primaryimage",
+      "url": "https://etuos.com/images/blog/local-services-ads-vs-google-ads.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Local Services Ads vs Google Ads: Which One Actually Works for Your Trade"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/local-services-ads-vs-google-ads#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Local Services Ads vs Google Ads: Which One Actually Works for Your Trade",
+          "item": "https://etuos.com/en/blog/local-services-ads-vs-google-ads"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/local-services-ads-vs-google-ads#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are Local Services Ads worth it for a small local business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They can be, if you qualify, you answer your phone, and you close the leads you get. The model protects you from paying for clicks that never call. It does not protect you from leads that do not turn into jobs. Measure booked jobs and cost per booked job, not lead count."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I pay for bad leads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google assesses each lead when the customer first reaches out and does not charge for leads it finds invalid or low quality. If you believe a charged lead was low quality, use the Feedback Survey for that lead. Google may also issue credits automatically when its models later judge a lead to be low quality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happened to the Google Guaranteed badge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google's current Local Services help pages call the trust badge the Google Verified badge, and describe it as the sign that a business passed Google's screening. If you see Google Guaranteed on older articles, check the advice against Google's current help pages."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I set a budget for Local Services Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You set an average weekly budget based on the number of leads you want in a typical week. After an account moves into Google Ads, Google divides that historical weekly budget by 7 to set a daily average budget. Start from the number of jobs you can actually take on."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I run Local Services Ads and Google Search Ads at the same time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many local service businesses use both, because they capture different searches. Track each one separately so you can see which produces booked jobs at a cost you can afford."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a website for these ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search Ads send people to a landing page, so yes. For Local Services Ads, your Google Business Profile and your reviews do a lot of the trust work, but a clear website still helps people who look you up before they call. Build the foundation first, then add spend."
+          }
+        }
+      ]
+    }
+  ]
+}
