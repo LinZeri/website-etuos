@@ -1,10 +1,138 @@
 {
-  "updated": "2026-09-22T00:00:00Z",
+  "updated": "2026-09-25T11:46:10.197226+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
   ],
   "items": [
+    {
+      "id": "en-p1-hub",
+      "slug": "local-seo-for-service-businesses-complete-guide",
+      "title": "Local SEO for Service Businesses: The Complete Guide to Showing Up on Google Maps",
+      "template": "pillar-page",
+      "target_keyword": "local seo for small business",
+      "secondary_keywords": [
+        "local seo guide",
+        "how to rank on google maps",
+        "local search for service businesses"
+      ],
+      "word_count": 3200,
+      "internal_links": [
+        "/en/services/seo",
+        "/en/cities/miami",
+        "/en/usa",
+        "/en/about"
+      ],
+      "cluster": "pillar1.local-search",
+      "notes": "Hub of pillar 1. End to end: Google Business Profile, on-site signals, reviews, citations, service area vs storefront, measuring calls. Every claim about how Google works must cite support.google.com or developers.google.com. No promised rankings or timelines. Answer capsule of 40 to 60 words under each H2. Mention the multilingual angle once. Link spokes only if already published.",
+      "image_context": "a plumber in a work shirt checking his business listing on a phone next to his van in a suburban driveway",
+      "publish_date": "2026-09-10",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-09-24T15:17:22.594134+00:00",
+      "last_score": 87,
+      "iteration_id": "local-vscode-90262758",
+      "commit_sha": "681aae84298a9d106384aa96927b03515551f367",
+      "published_date": "2026-09-10"
+    },
+    {
+      "id": "en-p2-hub",
+      "slug": "how-much-paid-ads-cost-local-business-guide",
+      "title": "Paid Ads for Local Businesses: What They Really Cost and When They Pay Off",
+      "template": "pillar-page",
+      "target_keyword": "paid advertising for small business",
+      "secondary_keywords": [
+        "google ads for small business",
+        "how much to spend on ads",
+        "are paid ads worth it"
+      ],
+      "word_count": 3200,
+      "internal_links": [
+        "/en/services/paid-ads",
+        "/en/cities/boston",
+        "/en/usa",
+        "/en/about"
+      ],
+      "cluster": "pillar2.paid-ads",
+      "notes": "Hub of pillar 2. Explain the auction, budget logic, cost per lead thinking and when ads are not the right first move. Use only authorized Etuos numbers ($500K+ managed, 30 to 300+ franchises, 300%+ revenue growth). Do not invent price ranges: cite Google documentation for mechanics and only registered sources for costs. Never link /en/lp/. Answer capsule of 40 to 60 words under each H2.",
+      "image_context": "a restaurant owner reviewing a printed report at a back-office desk with a laptop open, kitchen visible through the doorway",
+      "publish_date": "2026-09-11",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-09-24T15:17:22.750881+00:00",
+      "last_score": 86,
+      "iteration_id": "local-vscode-90262758",
+      "commit_sha": "239b57157466dbe6c5bced253692645160513909",
+      "published_date": "2026-09-11"
+    },
+    {
+      "id": "en-p3-hub",
+      "slug": "marketing-for-local-service-businesses-by-industry",
+      "title": "Marketing for Local Service Businesses: A Playbook by Industry",
+      "template": "pillar-page",
+      "target_keyword": "marketing for local service businesses",
+      "secondary_keywords": [
+        "marketing for home service businesses",
+        "industry marketing playbook",
+        "lead generation for service businesses"
+      ],
+      "word_count": 3200,
+      "internal_links": [
+        "/en/services/seo",
+        "/en/services/paid-ads",
+        "/en/usa",
+        "/en/about"
+      ],
+      "cluster": "pillar3.industry-playbooks",
+      "notes": "Hub of pillar 3. Compare the buying cycle of common trades (cleaning, construction and remodeling, beauty, medical). Rule: an industry only gets detail if there is real experience to cite, with the 13 industries served as the only Etuos claim. Never invent a case or a client name. Answer capsule of 40 to 60 words under each H2.",
+      "image_context": "a small contractor crew at a job site reviewing plans on a tablet, morning light",
+      "publish_date": "2026-09-14",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-09-24T15:17:22.923157+00:00",
+      "last_score": 85,
+      "iteration_id": "local-vscode-90262758",
+      "commit_sha": "ab64a9f48d4561487db31e47bfee5822d5011e24",
+      "published_date": "2026-09-14"
+    },
+    {
+      "id": "en-p4-hub",
+      "slug": "selling-to-english-spanish-portuguese-speaking-customers",
+      "title": "Selling to Customers Who Search in English, Spanish and Portuguese in the Same City",
+      "template": "pillar-page",
+      "target_keyword": "multilingual marketing for local business",
+      "secondary_keywords": [
+        "bilingual marketing",
+        "marketing to spanish speaking customers",
+        "marketing to hispanic customers"
+      ],
+      "word_count": 3000,
+      "internal_links": [
+        "/en/cities/houston",
+        "/en/cities/newark",
+        "/en/services/paid-ads",
+        "/en/about"
+      ],
+      "cluster": "pillar4.multilingual-market",
+      "notes": "Hub of pillar 4, the differentiator. No search volume by design: AI citation and positioning play. Use Census (census.gov) language-spoken-at-home data only if registered in docs/blog-fontes-verificadas.md; otherwise stay qualitative. Etuos runs US accounts in English and Spanish (authorized copy from the About page). Written for the US owner, never the Brazilian entrepreneur framing. Answer capsule of 40 to 60 words under each H2.",
+      "image_context": "a neighborhood pharmacy counter with a pharmacist helping a customer, bilingual signage hinted but no readable text",
+      "publish_date": "2026-09-15",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-09-24T15:17:23.078333+00:00",
+      "last_score": 79,
+      "iteration_id": "local-vscode-90262758",
+      "commit_sha": "91af7f47f7aa85492154001f326e74221b5d47bd",
+      "published_date": "2026-09-15"
+    },
     {
       "id": "en-p1-gbp",
       "slug": "google-business-profile-optimization-checklist",
@@ -26,13 +154,16 @@
       "cluster": "pillar1.local-search",
       "notes": "Anchor post of the local cluster (6,600 searches/month, competition index 7). Walk the full profile: categories (primary vs secondary), service area vs storefront, services list, photos cadence, products, Q&A, posts, hours including holidays, UTM on the website link. Every claim about how the profile works must cite support.google.com or business.google.com. Include a 40 to 60 word answer capsule under each H2 for AI citation. Mention the multilingual angle once: profiles serving customers who search in Spanish or Portuguese.",
       "image_context": "a woman who owns a small hair salon standing at her reception counter looking at her phone, storefront window with daylight behind her",
-      "publish_date": null,
-      "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "publish_date": "2026-09-16",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-09-24T15:17:23.248805+00:00",
+      "last_score": 84,
+      "iteration_id": "local-vscode-90262758",
+      "commit_sha": "9714b9b4d17222703ef3fd1de9558830e791bd6e",
+      "published_date": "2026-09-16"
     },
     {
       "id": "en-p2-lsa",
@@ -55,13 +186,16 @@
       "cluster": "pillar2.paid-ads",
       "notes": "Highest volume term in the strategy (33,100/month). The honest comparison nobody writes: who is eligible, how pay per lead differs from pay per click, what the Google Guaranteed badge requires, which trades convert better on each, and when to run both. Source everything about eligibility and billing from support.google.com. Use the operator voice: what a lead really costs in these trades. No invented client names.",
       "image_context": "a licensed plumber loading tools into his work truck in a suburban driveway, early morning light",
-      "publish_date": null,
-      "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "publish_date": "2026-09-17",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-09-24T15:17:23.402475+00:00",
+      "last_score": 0,
+      "iteration_id": "local-vscode-90262758",
+      "commit_sha": "4352cf7981bfb4a3c23b6687292af638a41f05af",
+      "published_date": "2026-09-17"
     },
     {
       "id": "en-p3-cleaning",
@@ -84,13 +218,16 @@
       "cluster": "pillar3.industry-playbooks",
       "notes": "Industry playbook grounded in real experience with cleaning and home services. Cover residential vs commercial buying cycles, recurring contracts as the real goal, route density as the economics that beat discounting, review velocity, and which channel comes first at a small budget. Mention bilingual crews and bilingual customer communication as a competitive advantage in these markets.",
       "image_context": "two professional cleaners in uniform carrying supplies into a bright suburban house, seen from the porch",
-      "publish_date": null,
-      "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "publish_date": "2026-09-18",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-09-24T15:17:23.577144+00:00",
+      "last_score": 85,
+      "iteration_id": "local-vscode-90262758",
+      "commit_sha": "d679979640e4b396202e39ffeae9dab458eb787d",
+      "published_date": "2026-09-18"
     },
     {
       "id": "en-p4-multilingual",
@@ -208,5 +345,28 @@
       "started_at": null,
       "last_score": null
     }
-  ]
+  ],
+  "author_daily_counts": {
+    "2026-09-10": {
+      "lin-zeri": 1
+    },
+    "2026-09-11": {
+      "lin-zeri": 1
+    },
+    "2026-09-14": {
+      "lin-zeri": 1
+    },
+    "2026-09-15": {
+      "lin-zeri": 1
+    },
+    "2026-09-16": {
+      "lin-zeri": 1
+    },
+    "2026-09-17": {
+      "lin-zeri": 1
+    },
+    "2026-09-18": {
+      "lin-zeri": 1
+    }
+  }
 }

@@ -1,10 +1,161 @@
 {
-  "updated": "2026-09-22T00:00:00Z",
+  "updated": "2026-09-25T11:46:08.711554+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
   ],
   "items": [
+    {
+      "id": "p2-hub",
+      "slug": "trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena",
+      "title": "Tráfego pago: como funciona, quanto custa e quando vale a pena",
+      "template": "pillar-page",
+      "target_keyword": "trafego pago",
+      "secondary_keywords": [
+        "o que é tráfego pago",
+        "como funciona tráfego pago",
+        "vale a pena investir em tráfego pago"
+      ],
+      "word_count": 3200,
+      "internal_links": [
+        "/pt/servicos/trafego-pago",
+        "/pt/blog/como-divulgar-seu-negocio-nos-estados-unidos",
+        "/pt/brasil",
+        "/pt/eua",
+        "/pt/sobre"
+      ],
+      "cluster": "pilar2.trafego-pago",
+      "notes": "Hub do pilar 2. Atende os dois mercados, com blocos separados Brasil e EUA. Explicar leilão, orçamento, funil e métricas em linguagem simples; quando vale e quando não vale. Ângulo único: números autorizados da Etuos (US$ 500 mil+ em anúncios gerenciados, 30 para 300+ franquias). Não inventar faixas de investimento nem promessa de resultado. Linkar os spokes do cluster apenas se já publicados; caso contrário, linkar o serviço. Cápsula de resposta de 40 a 60 palavras sob cada H2.",
+      "image_context": "um dono de pequeno negócio brasileiro em sua loja olhando o painel de anúncios no notebook, luz de fim de tarde",
+      "publish_date": "2026-09-10",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-09-24T15:17:21.786199+00:00",
+      "last_score": 85,
+      "iteration_id": "local-vscode-90262758",
+      "commit_sha": "3ed6b281e0e7a297d13b5ed38353c764a47601c1",
+      "published_date": "2026-09-10"
+    },
+    {
+      "id": "p3-hub",
+      "slug": "como-aparecer-no-google-guia-do-negocio-local",
+      "title": "Como aparecer no Google: o guia do negócio local",
+      "template": "pillar-page",
+      "target_keyword": "como aparecer no google",
+      "secondary_keywords": [
+        "como aparecer no google maps",
+        "seo local",
+        "aparecer no google sem pagar"
+      ],
+      "word_count": 3200,
+      "internal_links": [
+        "/pt/servicos/seo",
+        "/pt/blog/como-divulgar-seu-negocio-nos-estados-unidos",
+        "/pt/cidades/miami",
+        "/pt/eua",
+        "/pt/sobre"
+      ],
+      "cluster": "pilar3.aparecer-no-google",
+      "notes": "Hub do pilar 3. Guia de ponta a ponta: perfil da empresa no Google, site, avaliações, consistência de nome e endereço, conteúdo. Toda afirmação sobre como o Google funciona deve citar support.google.com ou developers.google.com. Exemplos por cidade e nicho apenas com o que existe em src/data/cidades/pt.ts. Sem promessa de posição ou prazo. Cápsula de resposta de 40 a 60 palavras sob cada H2.",
+      "image_context": "dona de uma barbearia num bairro brasileiro nos EUA conferindo o próprio perfil no Google no celular, vitrine ao fundo",
+      "publish_date": "2026-09-11",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-09-24T15:17:21.951355+00:00",
+      "last_score": 85,
+      "iteration_id": "local-vscode-90262758",
+      "commit_sha": "42376b2729f9c3ef5ec8d00cebc3edcd0bb38738",
+      "published_date": "2026-09-11"
+    },
+    {
+      "id": "p1-s1",
+      "slug": "como-conseguir-clientes-nos-eua",
+      "title": "Como conseguir clientes nos EUA além da indicação",
+      "template": "how-to-guide",
+      "target_keyword": "como conseguir clientes nos eua",
+      "secondary_keywords": [
+        "conseguir clientes sendo brasileiro nos eua",
+        "atrair clientes nos estados unidos"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/pt/blog/como-divulgar-seu-negocio-nos-estados-unidos",
+        "/pt/servicos/trafego-pago",
+        "/pt/eua"
+      ],
+      "cluster": "pilar1.conseguir-clientes-eua",
+      "notes": "Dor central do público: dependência de indicação. Estruturar como escada: indicação, comunidade, Google local, anúncios. Citar exemplo de nicho (limpeza em Boston, construção em Miami).",
+      "publish_date": "2026-09-14",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-09-24T15:17:22.112741+00:00",
+      "last_score": 79,
+      "iteration_id": "local-vscode-90262758",
+      "commit_sha": "f982266895b4c8c60fb4672c2711b9e19d921589",
+      "published_date": "2026-09-14"
+    },
+    {
+      "id": "p1-s2",
+      "slug": "anunciar-em-ingles-ou-portugues",
+      "title": "Anunciar em inglês ou português? Como decidir por público e serviço",
+      "template": "comparison",
+      "target_keyword": "anunciar no google em ingles ou portugues",
+      "secondary_keywords": [
+        "anuncios em portugues nos eua",
+        "google ads em ingles"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/como-divulgar-seu-negocio-nos-estados-unidos",
+        "/pt/servicos/trafego-pago"
+      ],
+      "cluster": "pilar1.conseguir-clientes-eua",
+      "notes": "Pergunta sem resposta boa na SERP. Matriz de decisão: quem é o cliente final (brasileiro, latino, americano) x tipo de serviço. Tabela comparativa citável.",
+      "publish_date": "2026-09-15",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-09-24T15:17:22.267375+00:00",
+      "last_score": 79,
+      "iteration_id": "local-vscode-90262758",
+      "commit_sha": "76b765fde676249059662b86b301151aa68a8524",
+      "published_date": "2026-09-15"
+    },
+    {
+      "id": "p1-s3",
+      "slug": "site-em-portugues-ou-ingles-nos-eua",
+      "title": "Site em português, inglês ou os dois? O que faz sentido para o seu negócio",
+      "template": "comparison",
+      "target_keyword": "site em portugues ou ingles para negocio nos eua",
+      "secondary_keywords": [
+        "site bilingue nos eua",
+        "site para negocio de brasileiro"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/como-divulgar-seu-negocio-nos-estados-unidos",
+        "/pt/servicos/criacao-de-sites"
+      ],
+      "cluster": "pilar1.conseguir-clientes-eua",
+      "notes": "Irmão do p1-s2 (linkar). Decisão por público e por SEO (em que língua o cliente busca). CTA para criação de sites.",
+      "publish_date": "2026-09-16",
+      "author": "lin-zeri",
+      "status": "published",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-09-24T15:17:22.437116+00:00",
+      "last_score": 88,
+      "iteration_id": "local-vscode-90262758",
+      "commit_sha": "dc8d0bec5d5e998b08da3aeb34218045d6a755ae",
+      "published_date": "2026-09-16"
+    },
     {
       "id": "p1-hub",
       "slug": "como-divulgar-seu-negocio-nos-estados-unidos",
@@ -32,82 +183,6 @@
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-09-18T00:00:00Z",
-      "last_score": null
-    },
-    {
-      "id": "p1-s1",
-      "slug": "como-conseguir-clientes-nos-eua",
-      "title": "Como conseguir clientes nos EUA além da indicação",
-      "template": "how-to-guide",
-      "target_keyword": "como conseguir clientes nos eua",
-      "secondary_keywords": [
-        "conseguir clientes sendo brasileiro nos eua",
-        "atrair clientes nos estados unidos"
-      ],
-      "word_count": 1800,
-      "internal_links": [
-        "/pt/blog/como-divulgar-seu-negocio-nos-estados-unidos",
-        "/pt/servicos/trafego-pago",
-        "/pt/eua"
-      ],
-      "cluster": "pilar1.conseguir-clientes-eua",
-      "notes": "Dor central do público: dependência de indicação. Estruturar como escada: indicação, comunidade, Google local, anúncios. Citar exemplo de nicho (limpeza em Boston, construção em Miami).",
-      "publish_date": null,
-      "author": null,
-      "status": "pending",
-      "attempts": 0,
-      "last_error": null,
-      "started_at": null,
-      "last_score": null
-    },
-    {
-      "id": "p1-s2",
-      "slug": "anunciar-em-ingles-ou-portugues",
-      "title": "Anunciar em inglês ou português? Como decidir por público e serviço",
-      "template": "comparison",
-      "target_keyword": "anunciar no google em ingles ou portugues",
-      "secondary_keywords": [
-        "anuncios em portugues nos eua",
-        "google ads em ingles"
-      ],
-      "word_count": 1500,
-      "internal_links": [
-        "/pt/blog/como-divulgar-seu-negocio-nos-estados-unidos",
-        "/pt/servicos/trafego-pago"
-      ],
-      "cluster": "pilar1.conseguir-clientes-eua",
-      "notes": "Pergunta sem resposta boa na SERP. Matriz de decisão: quem é o cliente final (brasileiro, latino, americano) x tipo de serviço. Tabela comparativa citável.",
-      "publish_date": null,
-      "author": null,
-      "status": "pending",
-      "attempts": 0,
-      "last_error": null,
-      "started_at": null,
-      "last_score": null
-    },
-    {
-      "id": "p1-s3",
-      "slug": "site-em-portugues-ou-ingles-nos-eua",
-      "title": "Site em português, inglês ou os dois? O que faz sentido para o seu negócio",
-      "template": "comparison",
-      "target_keyword": "site em portugues ou ingles para negocio nos eua",
-      "secondary_keywords": [
-        "site bilingue nos eua",
-        "site para negocio de brasileiro"
-      ],
-      "word_count": 1500,
-      "internal_links": [
-        "/pt/blog/como-divulgar-seu-negocio-nos-estados-unidos",
-        "/pt/servicos/criacao-de-sites"
-      ],
-      "cluster": "pilar1.conseguir-clientes-eua",
-      "notes": "Irmão do p1-s2 (linkar). Decisão por público e por SEO (em que língua o cliente busca). CTA para criação de sites.",
-      "publish_date": null,
-      "author": null,
-      "status": "pending",
-      "attempts": 0,
-      "last_error": null,
-      "started_at": null,
       "last_score": null
     },
     {
@@ -265,5 +340,21 @@
       "last_score": null
     }
   ],
-  "author_daily_counts": {}
+  "author_daily_counts": {
+    "2026-09-10": {
+      "lin-zeri": 1
+    },
+    "2026-09-11": {
+      "lin-zeri": 1
+    },
+    "2026-09-14": {
+      "lin-zeri": 1
+    },
+    "2026-09-15": {
+      "lin-zeri": 1
+    },
+    "2026-09-16": {
+      "lin-zeri": 1
+    }
+  }
 }
