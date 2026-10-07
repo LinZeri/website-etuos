@@ -27,6 +27,7 @@ export function metadataCidade(idioma: Idioma, id: IdCidade): Metadata {
     descricao: t.metaDescricao(cidade.nome, cidade.estado),
     caminho: caminho(idioma, { tipo: "cidade", id }),
     alternativas: alternativas({ tipo: "cidade", id }),
+    imagem: `/images/og/cidade-${id}.jpg`,
   });
 }
 

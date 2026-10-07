@@ -83,5 +83,10 @@ export function metadataDaPagina({
         : {}),
       images: imagem ? [{ url: imagem, ...TAMANHO_OG }] : [imagemPadrao],
     },
+    // Com imagem própria, o card do X usa a mesma arte do og:image. Sem ela, o
+    // twitter-image.tsx do idioma continua valendo (o layout já declara o card).
+    ...(imagem
+      ? { twitter: { card: "summary_large_image" as const, images: [imagem] } }
+      : {}),
   };
 }

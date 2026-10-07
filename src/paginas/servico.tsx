@@ -25,6 +25,7 @@ export function metadataServico(idioma: Idioma, id: IdServico): Metadata {
     descricao: servico.descricaoCurta,
     caminho: caminho(idioma, { tipo: "servico", id }),
     alternativas: alternativas({ tipo: "servico", id }),
+    imagem: `/images/og/servico-${id}.jpg`,
   });
 }
 
