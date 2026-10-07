@@ -132,7 +132,7 @@ Se a tool Workflow não existir ou falhar por infraestrutura, marque o item como
 ### 6.4 Conferências obrigatórias antes de commitar
 
 1. **Travessão**: `grep -n "—" <caminho do post>`. Qualquer ocorrência é erro. Corrija (vírgula, dois pontos, parênteses ou reescrita) e confira de novo.
-2. **Frontmatter**: `titulo`, `descricao`, `data` (hoje), `autor` ("Lin Zeri") e `imagem` (`/images/blog/<slug>.webp`). **Sem o campo `grupo`**: pt e en são pautas independentes e não devem virar hreflang um do outro.
+2. **Frontmatter**: `titulo`, `descricao`, `data` (hoje), `autor` ("Lin Zeri") e `imagem` (`/images/blog/<slug>.webp`). **Sem o campo `grupo`**: pt e en são pautas independentes e não devem virar hreflang um do outro. **Limites de SERP:** se o `titulo` passar de 52 caracteres, declare `metaTitulo` (máx. 52, o sufixo " | Etuos" fecha em 60); `descricao` com no máximo 160 caracteres. O `prebuild` (`npm run validar:blog`) derruba o build se algum post estourar, então confira antes com `npm run validar:blog`.
 3. **Links internos**: todos com o prefixo do idioma (`/pt/...` ou `/en/...`). Nenhum link para `/lp/`, que é noindex.
 4. **Números**: nenhuma alegação sobre a Etuos fora dos números autorizados de `CLAUDE.md`. Nenhum preço, nenhuma garantia, nenhum nome de cliente inventado.
 5. **Prova inventada**: `grep -n -i -E "accounts we|we (see|manage|found)|nossas contas|que gerenciamos|our (client|cleaning) " <caminho do post>` deve vir vazio, e todo valor em dólar ou percentual no corpo precisa ter fonte registrada ou ser aritmética rotulada como ilustrativa. Corrija o texto, não o grep.

@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "validar:blog": "node scripts/validar-blog-meta.mjs",
+    "prebuild": "npm run validar:blog",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

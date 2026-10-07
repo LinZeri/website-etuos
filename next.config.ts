@@ -124,6 +124,15 @@ const redirecionamentosLegados = [
   ["/lp/trafego-pago", "/pt/lp/trafego-pago"],
 ].map(([source, destination]) => ({ source, destination, permanent: true }));
 
+// Posts de boas-vindas removidos do blog (sem palavra-chave, conteúdo curto).
+// Cada URL aponta para o índice do blog do mesmo idioma, para não virar 404
+// em quem já indexou ou linkou.
+const redirecionamentosDePostsRemovidos = [
+  ["/pt/blog/bem-vindo-ao-blog-da-etuos", "/pt/blog"],
+  ["/en/blog/welcome-to-the-etuos-blog", "/en/blog"],
+  ["/es/blog/bienvenido-al-blog-de-etuos", "/es/blog"],
+].map(([source, destination]) => ({ source, destination, permanent: true }));
+
 const nextConfig: NextConfig = {
   experimental: {
     // O root layout mora em app/[idioma]; o 404 de URL sem idioma sai de
@@ -139,7 +148,11 @@ const nextConfig: NextConfig = {
     ];
   },
   async redirects() {
-    return [...redirecionamentosDaRaiz, ...redirecionamentosLegados];
+    return [
+      ...redirecionamentosDaRaiz,
+      ...redirecionamentosLegados,
+      ...redirecionamentosDePostsRemovidos,
+    ];
   },
 };
 
