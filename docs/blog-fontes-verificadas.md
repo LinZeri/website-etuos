@@ -86,6 +86,8 @@ Nota: `support.google.com/google-ads/answer/1722078` (fonte primária do Google)
 Markdown: `([Search Engine Journal, 2026](https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592/), acesso em set. 2026)`
 Uso permitido: artigos sobre decisão de idioma em Google Ads para negócios bilíngues; argumento de que o idioma do criativo e da landing page passou a ser o único mecanismo de targeting de idioma disponível no Google Ads (busca) desde setembro de 2026; Quality Score e inconsistência de idioma entre anúncio e landing page.
 Uso proibido: não afirmar que a Performance Max inteira perdeu o controle de idioma (outros canais além de busca dentro do PMax ainda têm controle manual); não usar a frase em inglês sem atribuição; não citar como dado de setembro de 2025 (a mudança é de setembro de 2026).
+Correção (out. 2026, página do SEJ reaberta): o SEJ informa que o anúncio foi em 13 de agosto de 2026 (não 14) e que a mudança entra em vigor no "late September" de 2026; ele diz que o Google passa a se basear no idioma do criativo e da landing page, "along with its existing understanding of the languages a user knows". A frase "Search ads will automatically match based on the language of your ads" **não** aparece nessa página (veio de cobertura de terceiros); não a usar como citação do SEJ. Citação literal do SEJ confirmada: "Google will rely on the language of the creative and landing page, along with its existing understanding of the languages a user knows." / "Make sure ads and landing pages use the intended languages, particularly in multilingual campaigns and those using AI-generated assets."
+Markdown (pt): `([Search Engine Journal, 2026](https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592/), acesso em out. 2026)`
 
 **T5: Nos Local Services Ads você paga por lead válido, não por clique, e a migração para o Google Ads começou em agosto de 2026.** A página de ajuda do Google Ads descreve que "You still only pay for valid leads (such as phone calls and messages) rather than ad clicks", que os anúncios continuam exclusivamente no Google Search e no Google Maps, e o cronograma em fases: agosto de 2026 para anunciantes selecionados de serviços residenciais e de lojas nos EUA, e 2027 para contas fora dos EUA e demais categorias.
 Citação literal confirmada (WebFetch, set. 2026): "August 2026: The first phase of the migration begins for select home and storefront service advertisers in the United States." / "You still only pay for valid leads (such as phone calls and messages) rather than ad clicks." / "After your account is migrated, you will no longer be able to access your original Local Services Ads dashboard." / "Your historical average weekly budget is automatically divided by 7 to determine your daily average budget."
@@ -94,6 +96,8 @@ URL: https://support.google.com/google-ads/answer/17213585
 Markdown: `([Google, "Local Services Ads transition to Performance Max campaigns with pay-per-lead goals", Google Ads Help](https://support.google.com/google-ads/answer/17213585), accessed Sep. 2026)`
 Uso permitido: artigos sobre Local Services Ads vs Google Ads, orçamento por lead, mudanças de 2026.
 Uso proibido: não afirmar que todas as contas já migraram (o cronograma é em fases); não citar preço médio por lead (a página não traz).
+Reverificada em out. 2026 (as quatro citações acima continuam literais na página; a fase de 2027 diz: "2027: Non-U.S. accounts, and all remaining business categories that were not migrated in 2026 will transition to Google Ads.").
+Markdown (pt): `([Google, "Local Services Ads transition to Performance Max campaigns with pay-per-lead goals", Google Ads Help](https://support.google.com/google-ads/answer/17213585), acesso em out. 2026)`
 
 **T6: O que conta como lead válido nos Local Services Ads e quais contatos não são cobrados.** Contam mensagens, voicemails, ligações atendidas, ligações perdidas com retorno e pedidos de agendamento (EUA e Canadá); leads de mensagem costumam custar menos que os de ligação; contatos fora do horário, pedidos de conselho, pesquisa sem intenção de contratar e serviços fora do anunciado não são creditados; o anunciante pode contestar pelo Feedback Survey.
 Citação literal confirmada (WebFetch, set. 2026): "Message leads are typically priced lower than the corresponding phone lead price" e a lista de tipos de lead (mensagens, voicemails, chamadas atendidas, chamadas perdidas com retorno, pedidos de agendamento).
@@ -102,6 +106,8 @@ URL: https://support.google.com/localservices/answer/7195435
 Markdown: `([Google, "How leads work", Local Services Help](https://support.google.com/localservices/answer/7195435), accessed Sep. 2026)`
 Uso permitido: definição de lead válido, leads não cobrados, contestação.
 Uso proibido: não citar valores de lead (a página não traz preços).
+Correção (out. 2026, página reaberta com pedido de citações literais): "contatos fora do horário", "pedidos de conselho sem intenção de contratar" e "serviços fora do anunciado" **não aparecem** na página; não usar essa lista. O que a página traz sobre cobrança está em T12. Tipos de lead que contam, confirmados em out. 2026: ligação atendida, ligação perdida em horário comercial em que o cliente fica na linha por mais de 20 segundos, mensagem ou e-mail, voicemail e pedido de agendamento (EUA e Canadá).
+Markdown (pt): `([Google, "How leads work", Local Services Help](https://support.google.com/localservices/answer/7195435), acesso em out. 2026)`
 
 **T7: Quem se qualifica para os Local Services Ads: triagem do Google por categoria e região.** Anunciantes diretos passam por triagem que "may include license, insurance, and background checks" (verificação da empresa, do dono e dos profissionais), licenças estaduais aplicáveis e seguro quando aplicável, com tipo e valor mínimo conforme categoria e local.
 Citação literal confirmada (WebFetch, set. 2026): "Local Services businesses that advertise directly with Google undergo screening procedures that vary by category and region but may include license, insurance, and background checks." e "Whenever applicable, each business must be insured."
@@ -110,6 +116,8 @@ URL: https://support.google.com/localservices/answer/6230381
 Markdown: `([Google, "How providers qualify for Local Services Ads", Local Services Help](https://support.google.com/localservices/answer/6230381), accessed Sep. 2026)`
 Uso permitido: elegibilidade, triagem, licenças e seguro.
 Uso proibido: não listar categorias elegíveis por cidade (a página não traz a lista).
+Reverificada em out. 2026 (frase da triagem literal na página).
+Markdown (pt): `([Google, "How providers qualify for Local Services Ads", Local Services Help](https://support.google.com/localservices/answer/6230381), acesso em out. 2026)`
 
 **T8: O selo dos Local Services Ads hoje se chama Google Verified, e a responsividade afeta o ranking.** A página de introdução usa "Google Verified badge" (não menciona "Google Guaranteed") e avisa que "If you regularly fail to answer calls or respond to messages, your ad ranking may be affected."
 Citação literal confirmada (WebFetch, set. 2026): "helps inspire confidence by signaling to consumers that your business has passed Google's proprietary screening process" e "If you regularly fail to answer calls or respond to messages, your ad ranking may be affected."
@@ -117,7 +125,9 @@ Fonte a citar: **Google, "Getting started with Local Services Ads", Local Servic
 URL: https://support.google.com/localservices/answer/6224841
 Markdown: `([Google, "Getting started with Local Services Ads", Local Services Help](https://support.google.com/localservices/answer/6224841), accessed Sep. 2026)`
 Uso permitido: nome atual do selo, importância de atender ligações.
-Uso proibido: não chamar o selo de "Google Guaranteed" como se fosse o nome atual.
+Uso proibido: não chamar o selo de "Google Guaranteed" como se fosse o nome atual; a página não diz que o selo é obrigatório nem que garante posição no ranking.
+Reverificada em out. 2026 (as duas citações continuam literais na página).
+Markdown (pt): `([Google, "Getting started with Local Services Ads", Local Services Help](https://support.google.com/localservices/answer/6224841), acesso em out. 2026)`
 
 **T9: No Google Ads, quem clica no anúncio paga no máximo o lance de CPC máximo definido.** "If someone clicks your ad, that click won't cost you more than the maximum cost-per-click bid (or "max. CPC") that you set."
 Citação literal confirmada (WebFetch, set. 2026): a frase acima.
@@ -126,6 +136,62 @@ URL: https://support.google.com/google-ads/answer/6326
 Markdown: `([Google, "About maximum CPC bidding", Google Ads Help](https://support.google.com/google-ads/answer/6326), accessed Sep. 2026)`
 Uso permitido: explicar cobrança por clique.
 Uso proibido: não usar como preço médio de clique.
+
+**T10: No leilão do Google Ads, o Ad Rank combina seis fatores, e o que você paga de fato costuma ser menos que o lance máximo.** Os fatores listados pela página são: o seu lance, a qualidade dos anúncios e da página de destino, os limiares de Ad Rank, a competitividade do leilão, o contexto da busca da pessoa e o impacto esperado dos recursos de anúncio e de outros formatos.
+Citação literal confirmada (WebFetch, out. 2026): "When you set your bid, you're telling Google Ads the maximum amount you're willing to pay for a click on your ad. How much you actually end up paying is often less." / "The competitiveness of an auction" / "The context of the person's search" / "The expected impact from your ad assets and other ad formats."
+Fonte a citar: **Google, "About Ad Rank", Google Ads Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/google-ads/answer/1722122
+Markdown: `([Google, "About Ad Rank", Google Ads Help](https://support.google.com/google-ads/answer/1722122), acesso em out. 2026)`
+Uso permitido: explicar por que o custo por clique varia e por que o lance máximo é um teto, não o preço pago.
+Uso proibido: não apresentar valores de clique nem fórmula numérica de Ad Rank (a página não traz).
+
+**T11: O Quality Score vai de 1 a 10, tem três componentes e não é insumo do leilão: é uma ferramenta de diagnóstico.** Os componentes são taxa de cliques esperada, relevância do anúncio e experiência na página de destino.
+Citação literal confirmada (WebFetch, out. 2026): "This score is measured on a scale from 1-10 and available at the keyword level." / "Quality Score is calculated based on the combined performance of 3 components: Expected clickthrough rate (CTR), Ad relevance, Landing page experience." / "Quality Score is not an input in the ad auction. It's a diagnostic tool to identify how ads that show for certain keywords affect the user experience."
+Fonte a citar: **Google, "About Quality Score for Search campaigns", Google Ads Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/google-ads/answer/6167118
+Markdown: `([Google, "About Quality Score for Search campaigns", Google Ads Help](https://support.google.com/google-ads/answer/6167118), acesso em out. 2026)`
+Uso permitido: explicar o que é o Quality Score e por que ele serve para diagnosticar anúncio e página de destino.
+Uso proibido: **nunca** listar o Quality Score como fator do leilão nem dizer que nota alta reduz o preço do clique por conta própria; quem entra no leilão é a qualidade dos anúncios e da página de destino dentro do Ad Rank (T10).
+
+**T12: Nos Local Services Ads, o preço do lead pode variar por localização, tipo de serviço, tipo de lead e modo de lance.** Lead de mensagem costuma custar menos que o de ligação, "although that's not always the case", e o preço do lead de mensagem depende da probabilidade estimada de o cliente contratar. Contatos de seguimento do mesmo cliente não são cobrados de novo, e leads inválidos ou de baixa qualidade não são cobrados.
+Citação literal confirmada (WebFetch, out. 2026): "Lead prices may vary depending on your location, the job type, the type of lead, or your bidding mode" / "Message leads are typically priced lower than the corresponding phone lead price, although that's not always the case." / "Once a lead is charged, any follow-up calls or messages with that customer are not charged again, provided there is interaction within 15 days and the contact comes from the same phone number or email address." / "leads determined to be invalid or low quality are not charged." / "If you believe the lead you received is poor quality, you can let us know in the Feedback Survey for that lead... We may also occasionally credit leads you report as poor quality through this survey."
+Fonte a citar: **Google, "How leads work", Local Services Help** (Tier 1, documentação oficial; mesma página de T6).
+URL: https://support.google.com/localservices/answer/7195435
+Markdown: `([Google, "How leads work", Local Services Help](https://support.google.com/localservices/answer/7195435), acesso em out. 2026)`
+Uso permitido: o que varia o preço do lead, o que não é cobrado, como contestar lead ruim.
+Uso proibido: não citar valor de lead (a página não traz); não repetir a lista antiga de T6 sobre "fora do horário, pedido de conselho, fora do escopo", que não aparece na página hoje.
+
+**T13: Nos Local Services Ads, os lances de negócios locais parecidos definem quanto vale o lead, e uma verba semanal maior pode gerar mais leads.**
+Citação literal confirmada (WebFetch, out. 2026): "When similar local businesses bid on the same lead, those bids determine how much the lead is worth." / "The higher your weekly budget, the more leads you could get."
+Fonte a citar: **Google, "How bidding works for Local Services Ads", Local Services Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/localservices/answer/10125017
+Markdown: `([Google, "How bidding works for Local Services Ads", Local Services Help](https://support.google.com/localservices/answer/10125017), acesso em out. 2026)`
+Uso permitido: explicar que o preço do lead nasce da disputa entre negócios locais parecidos.
+Uso proibido: a página não confirma que o preço varia por localização, tipo de serviço ou tipo de lead (isso está em T12); não citar valor de lead.
+
+**T14: O CPC médio no Google Ads é o custo total dos cliques dividido pelo número de cliques, e o Keyword Planner dá estimativas de CPC médio para campanhas na Rede de Pesquisa.**
+Citação literal confirmada (WebFetch, out. 2026): "Average cost-per-click (avg. CPC) is calculated by dividing the total cost of your clicks by the total number of clicks." / "You can use Keyword Planner to get estimated average CPC amounts for your Search Network campaigns."
+Fonte a citar: **Google, "Average cost-per-click (Avg. CPC): Definition", Google Ads Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/google-ads/answer/14074
+Markdown: `([Google, "Average cost-per-click (Avg. CPC): Definition", Google Ads Help](https://support.google.com/google-ads/answer/14074), acesso em out. 2026)`
+Uso permitido: definir CPC médio e apontar o Keyword Planner como origem da estimativa.
+Uso proibido: a página não traz faixas de CPC por setor nem explica a diferença entre CPC médio e CPC máximo; não usar como benchmark.
+
+**T15: A estimativa de lance para o topo da página é o lance que você provavelmente precisa dar para o anúncio aparecer entre os primeiros resultados, e não é garantia.**
+Citação literal confirmada (WebFetch, out. 2026): "The bid you likely need to set for your ad to be shown among the ads at the top of the first page of search results." e a ressalva de que a estimativa não é garantia ("the estimate isn't a guarantee").
+Fonte a citar: **Google, "Top of page bid estimate: Definition", Google Ads Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/google-ads/answer/6292661
+Markdown: `([Google, "Top of page bid estimate: Definition", Google Ads Help](https://support.google.com/google-ads/answer/6292661), acesso em out. 2026)`
+Uso permitido: orientar o leitor a consultar a estimativa do próprio nicho e cidade, com a ressalva de que não é garantia.
+Uso proibido: não citar percentis (20º/80º) nem janela de 30 dias, que não apareceram na página nesta rodada.
+
+**T16: O Keyword Planner ajuda a pesquisar palavras-chave, mostra estimativas de volume de buscas e de custo médio do anúncio, e gera previsões de cliques, conversões ou impressões com base na verba.**
+Citação literal confirmada (WebFetch, out. 2026): "Google Keyword Planner helps you research keywords for your Search campaigns." / "View the average cost for your ad to show on searches for a keyword." / "Your plan forecast shows you how many conversions, clicks, or impressions you're likely to get for your keywords based on your spend." / "You must complete your account setup by entering your billing information to access basic features like 'Get ideas for new keywords'."
+Fonte a citar: **Google, "Use Keyword Planner", Google Ads Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/google-ads/answer/7337243
+Markdown: `([Google, "Use Keyword Planner", Google Ads Help](https://support.google.com/google-ads/answer/7337243), acesso em out. 2026)`
+Uso permitido: indicar o Keyword Planner como o caminho oficial para estimar o custo do nicho antes de investir; lembrar que o acesso às funções básicas exige concluir a configuração da conta com dados de cobrança.
+Uso proibido: não citar valores de custo (a página não traz); não afirmar que a previsão é garantia.
 
 ## Cluster N: Negócios locais e empreendedorismo imigrante nos EUA
 
@@ -253,6 +319,8 @@ Uso proibido: não citar como dado de 2024 (é de 2020, embora ainda amplamente 
 | `https://www.thinkwithgoogle.com` (estudo "76% visitam em 24h / 28% compram / 88% ligam ou visitam em 1 dia") | Dado de origem 2016 (Google/Ipsos), fora da janela de 2 anos exigida |
 | `https://searchengineland.com/google-search-zero-click-study-2024-443869` | 403 Forbidden ao WebFetch (dado já confirmado por fonte independente, SparkToro) |
 | `https://www.wordstream.com/blog/2026-google-ads-benchmarks`, `/blog/2025-google-ads-benchmarks`, `/ppc-benchmarks`, `/google-ads-industry-benchmarks-lookup` | 403 Forbidden ao WebFetch em todas as tentativas |
+| `https://localiq.com/blog/search-advertising-benchmarks/` (reaberta em out. 2026) | Os números aparecem na página (CPC médio US$ 5,42; Home & Home Improvement CPC US$ 8,33 e CPL US$ 90,92), mas a página **não traz metodologia** (tamanho da amostra, país, período, plataformas). Além disso, o resumo de busca automático deu CPL de US$ 76,02 para a mesma categoria e citou "13.474 campanhas", frase não localizada na página. Sem metodologia verificável, não entra como dado (barra de Tier 2 do critério de citação). |
+| `https://www.wordstream.com/blog/2026-google-ads-benchmarks` (reaberta em out. 2026) | 403 Forbidden ao WebFetch, de novo |
 | `https://www.localiq.com/blog/search-advertising-benchmarks/` | Metodologia vaga ("milhares de campanhas de clientes", sem número nem confirmação de escopo geográfico); CPC de restaurante diverge do mesmo estudo reportado por outro veículo (ver Fontes proibidas) |
 | `https://www.searchenginejournal.com/what-is-a-good-ctr-for-google-ads/492785/` | Reporta o mesmo benchmark WordStream com CPC de restaurante divergente do LocalIQ; descartado junto com o par |
 | `https://www.localiq.com/blog/small-business-marketing-trends-report-2026/` | Amostra pequena (~300 donos de negócio) e geografia mista (EUA + Canadá), não atende a "dado nacional dos EUA" |
@@ -286,7 +354,7 @@ Domínios ou estatísticas que se provaram não verificáveis nesta rodada, ou q
 ## Lacunas de cobertura
 
 - **SEO / SEO local**: coberto (9 fontes, S1-S9). S7 (Whitespark 2026 LSRF) fornece o breakdown de fatores de ranking local por especialistas (GBP 32%, reviews 20%). S8 (BrightLocal GBP Insights) quantifica o impacto de fotos em calls/direction requests. S9 (BrightLocal 2026 LCRS) traz o threshold de estrelas exigido por consumidores. Nenhuma é dado oficial (Tier 1) específico de comportamento de busca local nos EUA; o Tier 1 disponível (Pew) é sobre AI Overviews em geral, não sobre "near me"/local. Para dado tier 1 de busca local especificamente: **sem fonte disponível nesta rodada**, tratar como experiência própria sem forçar estatística com o rótulo "SEO local" quando o dado for, na verdade, sobre busca geral.
-- **Tráfego pago**: coberto (3 fontes, T1-T3), mas **sem fonte verificada de CPC médio ou taxa de conversão por setor nos EUA** (os candidatos WordStream/LocalIQ falharam a barra de metodologia e tiveram números inconsistentes entre si). Ao escrever sobre custo de anúncio por clique ou por setor, tratar como experiência própria da Etuos, sem forçar benchmark externo até uma fonte tier 1-3 passar na verificação. Também **sem fonte verificada específica de Meta Ads/Instagram Ads** (CPC, alcance, conversão); mesma orientação.
+- **Tráfego pago**: coberto (16 fontes, T1-T16; T10 a T16 são documentação oficial do Google sobre leilão, Quality Score, preço do lead no LSA, CPC médio e Keyword Planner), mas **sem fonte verificada de CPC médio ou taxa de conversão por setor nos EUA** (os candidatos WordStream/LocalIQ falharam a barra de metodologia e tiveram números inconsistentes entre si). Ao escrever sobre custo de anúncio por clique ou por setor, tratar como experiência própria da Etuos, sem forçar benchmark externo até uma fonte tier 1-3 passar na verificação. Também **sem fonte verificada específica de Meta Ads/Instagram Ads** (CPC, alcance, conversão); mesma orientação.
 - **Negócios locais**: coberto (4 fontes, N1-N4), com bom recorte para Boston e Flórida. **Sem fonte disponível** para: (a) dependência de boca a boca/indicação como canal de aquisição de pequeno negócio (o único candidato encontrado é a estatística zumbi do Nielsen 2012, ver Fontes proibidas); (b) gasto médio de pequena empresa em marketing como % da receita (metodologias divergentes entre fontes, nenhuma confirmada via WebFetch); (c) dado nacional (não só Massachusetts) de empreendedorismo brasileiro especificamente, distinto do agregado "hispânico" do Census (Migration Policy Institute, que teria esse recorte, bloqueou o fetch nesta rodada). Tratar todos os três como experiência própria, sem forçar estatística.
 
 ## Como esta biblioteca cresce

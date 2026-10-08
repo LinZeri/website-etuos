@@ -1,0 +1,202 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-anunciar-no-google-nos-eua#article",
+      "headline": "Quanto custa anunciar no Google nos EUA: como o preço é definido e como calcular o seu",
+      "description": "Veja como o Google define o custo por clique e por lead nos EUA, quanto PMEs americanas investem e como calcular o orçamento do seu negócio.",
+      "datePublished": "2026-10-08",
+      "dateModified": "2026-10-08",
+      "inLanguage": "pt-BR",
+      "wordCount": 3460,
+      "keywords": [
+        "quanto custa anunciar no google nos eua",
+        "custo google ads eua",
+        "quanto custa google ads",
+        "Google Ads",
+        "Local Services Ads",
+        "tráfego pago",
+        "negócios locais nos EUA"
+      ],
+      "articleSection": "Conseguir Clientes nos EUA",
+      "articleBody": "A pergunta \"quanto custa anunciar no Google nos EUA\" não tem uma resposta única: o Google não vende anúncios a preço fixo. Vende espaços em leilão. O valor que você paga depende da concorrência naquele leilão, da qualidade do seu anúncio e da página para onde ele leva, e do modelo de cobrança que você escolhe.",
+      "author": {
+        "@id": "https://etuos.com/pt/autor/lin-zeri#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/quanto-custa-anunciar-no-google-nos-eua#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/pt/blog/quanto-custa-anunciar-no-google-nos-eua#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Services Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "publicidade digital nos EUA"
+        },
+        {
+          "@type": "Thing",
+          "name": "custo por clique"
+        },
+        {
+          "@type": "Thing",
+          "name": "custo por lead"
+        },
+        {
+          "@type": "Thing",
+          "name": "negócios locais nos EUA"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/autor/lin-zeri#person",
+      "name": "Lin Zeri",
+      "url": "https://etuos.com/pt/autor/lin-zeri",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      },
+      "sameAs": [
+        "https://github.com/LinZeri"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog Etuos",
+      "url": "https://etuos.com/pt/blog",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-anunciar-no-google-nos-eua#webpage",
+      "url": "https://etuos.com/pt/blog/quanto-custa-anunciar-no-google-nos-eua",
+      "name": "Quanto custa Google Ads nos EUA: guia prático 2026",
+      "description": "Veja como o Google define o custo por clique e por lead nos EUA, quanto PMEs americanas investem e como calcular o orçamento do seu negócio.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/quanto-custa-anunciar-no-google-nos-eua#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/quanto-custa-anunciar-no-google-nos-eua#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-anunciar-no-google-nos-eua#primaryimage",
+      "url": "https://etuos.com/images/blog/quanto-custa-anunciar-no-google-nos-eua.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Comparação entre Google Ads CPC e Local Services Ads CPL para negócios locais nos EUA"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-anunciar-no-google-nos-eua#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Quanto custa anunciar no Google nos EUA: como o preço é definido e como calcular o seu",
+          "item": "https://etuos.com/pt/blog/quanto-custa-anunciar-no-google-nos-eua"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-anunciar-no-google-nos-eua#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual é o CPC médio do Google Ads nos EUA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um número único que sirva para o seu caso. O CPC médio é o custo total dos cliques dividido pelo número de cliques, então muda com a palavra-chave, a cidade, a concorrência e a qualidade do anúncio. A estimativa para o seu nicho está no Keyword Planner. Desconfie de tabelas de CPC por setor que não mostram a metodologia: sem saber como o número foi medido, você não sabe se ele vale para a sua realidade."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto custa um lead no Local Services Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Google não publica um preço de tabela. O preço do lead pode variar conforme a localização, o tipo de serviço, o tipo de lead e o modo de lance, e os lances de negócios locais parecidos influenciam quanto o lead vale. Leads de mensagem costumam custar menos que os de ligação, mas nem sempre. Leads inválidos ou de baixa qualidade não são cobrados."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Existe orçamento mínimo para anunciar no Google nos EUA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há um valor universal: o orçamento é uma decisão sua, e a referência certa é o CPL máximo que o seu negócio suporta. Verba pequena demais gera poucos cliques e pouco dado para otimizar. No LSA, uma verba semanal maior pode trazer mais leads. Use a previsão do Keyword Planner para ver o que a sua verba tende a entregar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Ads nos EUA é mais caro que no Brasil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O valor do clique sozinho não responde a essa pergunta: moeda, concorrência, ticket e margem mudam de um mercado para o outro. A comparação útil não é CPC Brasil contra CPC EUA, e sim o CPL máximo que o seu negócio suporta em cada mercado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Anuncio em inglês ou português no Google nos EUA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende do público que você quer atingir e do serviço que oferece. Com a mudança anunciada pelo Google em agosto de 2026, a correspondência de idioma em campanhas de busca passa a se basear no idioma do anúncio e da página de destino. Para uma análise completa da decisão, veja o guia sobre idioma de anúncio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo demora para ver resultado no Google Ads nos EUA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe prazo fixo, e ninguém deveria prometer um. O tempo depende do nicho, da concorrência local, da oferta e da página de destino. A regra é: o resultado consistente só aparece depois que a campanha junta dados suficientes para ser otimizada, e decisões tomadas com base em poucos cliques costumam ser prematuras. Em vez de esperar uma data, acompanhe o custo por lead e compare com o CPL máximo que você calculou."
+          }
+        }
+      ]
+    }
+  ]
+}
