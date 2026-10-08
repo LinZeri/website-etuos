@@ -10,3 +10,4 @@
 | 2026-09-25T11:46:07Z | google-business-profile-optimization-checklist | pillar1.local-search | lin-zeri | 84 | 0 | 2026-09-16 | 9714b9b4d17222703ef3fd1de9558830e791bd6e | - | local_vscode,cli_backend |
 | 2026-09-25T11:46:07Z | local-services-ads-vs-google-ads | pillar2.paid-ads | lin-zeri | - | 0 | 2026-09-17 | 4352cf7981bfb4a3c23b6687292af638a41f05af | - | local_vscode,cli_backend,score_not_captured |
 | 2026-09-25T11:46:07Z | marketing-for-cleaning-companies | pillar3.industry-playbooks | lin-zeri | 85 | 0 | 2026-09-18 | d679979640e4b396202e39ffeae9dab458eb787d | - | local_vscode,cli_backend |
+| 2026-10-08T12:05:05Z | quanto-custa-anunciar-no-google-nos-eua | pilar1.conseguir-clientes-eua | lin-zeri | 83 | 1 | 2026-10-08 | a7853945f6df1569c986ca11382ad3a5e14d35db | - | local_vscode,cli_backend,manual_enrichment |

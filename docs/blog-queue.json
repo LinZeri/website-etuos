@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T11:46:08.711554+00:00",
+  "updated": "2026-10-08T12:05:05.373564+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -204,11 +204,13 @@
       "notes": "Artigo de dados: faixas de CPC por nicho de serviço local nos EUA, com fontes verificáveis (WordStream/LocaliQ benchmarks ou similares tier 1-3). Todo número citado precisa de fonte que o factcheck consiga confirmar. Incluir 1 gráfico SVG.",
       "publish_date": null,
       "author": null,
-      "status": "pending",
+      "status": "published",
       "attempts": 0,
       "last_error": null,
       "started_at": null,
-      "last_score": null
+      "last_score": 83,
+      "commit_sha": "a7853945f6df1569c986ca11382ad3a5e14d35db",
+      "published_date": "2026-10-08"
     },
     {
       "id": "p1-s5",
