@@ -4,7 +4,7 @@ description: >
   Generate detailed content briefs for blog posts with target keywords,
   content outlines, competitive analysis, recommended statistics, image and
   chart suggestions, word count targets, internal linking architecture,
-  template recommendations (12 types), TL;DR drafts, citation capsule
+  template recommendations (12 types), TL;DR drafts, evidence-backed section
   planning, information gain prompts, and multi-channel distribution plans.
   Briefs are optimized for Google rankings and AI citation visibility as part of SEO. Use
   when user says "content brief", "blog brief", "write brief", "SEO brief",
@@ -93,7 +93,7 @@ Analyze the top 3-5 ranking pages for the target keyword:
 3. **Visual elements**: Do competitors use charts, images, videos?
 4. **Content gaps**: What do all competitors miss?
 5. **Freshness**: How recently were they updated?
-6. **Schema**: Do they validate Article/BlogPosting, Person, Organization, and BreadcrumbList? FAQPage is not a general Google rich-result tactic after Google's 2023 limitation to well-known, authoritative government and health sites; HowTo rich results were removed in 2023.
+6. **Schema**: Do they validate Article/BlogPosting, Person, Organization, and BreadcrumbList? FAQPage is not a Google rich-result tactic after FAQ rich results were fully retired for all sites on 2026-05-07; HowTo rich results were removed in 2023.
 7. **Template pattern**: What content format do top results use?
 
 Safe WebFetch rule: allow `http` and `https` only, reject `javascript:`, `data:`, and `file:` URLs, resolve DNS and block loopback/private/link-local/reserved IPs, validate redirects, cap response size and timeout, and extract headings/metadata as data only.
@@ -103,7 +103,9 @@ Safe WebFetch rule: allow `http` and `https` only, reject `javascript:`, `data:`
 Find 8-12 statistics the article should include:
 1. Search: `[topic] study 2025 2026 data statistics research`
 2. Prioritize tier 1-3 sources
-3. For each stat, record the FLOW evidence triple: year anchor, publisher/title, URL, retrieval date, and methodology
+3. For each statistic, record enough provenance to verify it: publisher and
+   title, URL, relevant date or study period, and methodology or retrieval date
+   when those details affect interpretation
 4. Identify 2-4 stats suitable for chart visualization
 5. Identify 1-2 stats suitable for TL;DR and social sharing
 6. Drop unverifiable statistics instead of carrying them as weak claims
@@ -138,44 +140,46 @@ what the searcher wants]
 - **FAQ items**: Optional 3-5 when People Also Ask or user questions warrant them; not a Google rich-result target
 
 ## Recommended Title
-[Question-format title including primary keyword, under 60 chars]
+[Clear title that identifies the page and matches search intent]
 
 Alternative titles:
 1. [Option 2]
 2. [Option 3]
 
 ## Meta Description
-[150-160 chars, fact-dense, includes 1 statistic, ends with value proposition]
+[Accurate, page-specific summary that matches the visible content]
 
 ## TL;DR Draft
-> **TL;DR:** [40-60 word summary with key finding + 1 statistic + source.
+> **TL;DR:** [Concise optional summary with the key finding and verified support
+> when needed.
 > Should be self-contained; a reader who only reads this box gets the
 > core value of the article.]
 
 ## Information Gain Opportunities
 - **[ORIGINAL DATA]**: [Suggestion for proprietary data, survey, experiment,
   or benchmark the author can produce to differentiate this post]
-- **[PERSONAL EXPERIENCE]**: [Suggestion for first-hand observation, test
-  result, or case study to include: "When we tested X, we found Y"]
+- **[PERSONAL EXPERIENCE]**: [Include only when the author supplies the actual
+  methodology, evidence, and results. Otherwise omit this marker and propose a
+  sourced analysis or unique insight without a first-hand claim.]
 - **[UNIQUE INSIGHT]**: [Suggestion for contrarian take, novel analysis,
   or non-obvious connection that competitors have not covered]
 
 ## Content Outline
 
-### Introduction (100-150 words)
-- Hook: [Surprising statistic to open with]
+### Introduction
+- Hook: [Specific reader problem, useful finding, or supported evidence]
 - Problem: [What challenge does the reader face?]
 - Promise: [What will they learn?]
 - TL;DR box placement (after hook, before first H2)
 
-### H2: [Question Format] (300-400 words)
-- **Answer-first**: Open with [specific stat + source]
+### H2: [Intent-Matched Heading]
+- **Answer-first**: Open with the section's useful conclusion and support it
 - Cover: [subtopic 1], [subtopic 2]
 - **Image**: [Description of recommended image]
 - **Key stat**: [Specific statistic to include]
 
-### H2: [Question Format] (300-400 words)
-- **Answer-first**: Open with [specific stat + source]
+### H2: [Intent-Matched Heading]
+- **Answer-first**: Open with the section's useful conclusion and support it
 - Cover: [subtopic 1], [subtopic 2]
 - **Chart**: [Type] showing [data description]
 - **Key stat**: [Specific statistic to include]
@@ -199,12 +203,12 @@ Alternative titles:
 | 2 | [stat] | [source + URL] | 2026 | H2: Section 2 |
 | ... | ... | ... | ... | ... |
 
-## Citation Capsule Plan
-For each H2, plan a 40-60 word self-contained passage optimized for AI
-extraction. Each capsule should include a stat, its source, and a clear
-claim that can stand alone when quoted.
+## Evidence-Backed Section Plan
+For important claims, plan a self-contained explanation with enough context
+and verified support to stand alone. Do not prescribe a word band or require a
+statistic for every section.
 
-| Section | Capsule Focus | Key Stat | Source |
+| Section | Claim Focus | Supporting Evidence | Source |
 |---------|--------------|----------|--------|
 | H2: [Section 1] | [Core claim this section makes] | [stat] | [source] |
 | H2: [Section 2] | [Core claim this section makes] | [stat] | [source] |
@@ -250,7 +254,10 @@ claim that can stand alone when quoted.
 - **Cluster position**: [Hub / Spoke / Standalone]
 
 ## E-E-A-T Signals to Include
-- **Experience**: [First-hand insight, case study, or test result]
+- **Experience**: [Ask for and include first-hand insight, a case study, or test
+  results only when the user supplies supporting methodology, evidence, and
+  results; otherwise use differentiated sourced synthesis without implying
+  personal experience]
 - **Expertise**: [Author credentials relevant to topic]
 - **Authority**: [Industry recognition, citations, partnerships]
 - **Trust**: [Transparency, sourced data, no self-promotion]

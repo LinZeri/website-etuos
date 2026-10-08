@@ -149,7 +149,7 @@ Navigation breadcrumb schema showing content hierarchy:
 If no category is available, use "Blog" as the second breadcrumb item with
 `{siteUrl}/blog` as the URL.
 
-### Step 6: Generate FAQPage Entity Schema
+### Step 6: Generate FAQPage Entity Schema (Optional)
 
 Extract Q&A pairs from the blog post's FAQ section:
 
@@ -163,18 +163,22 @@ Extract Q&A pairs from the blog post's FAQ section:
       "name": "What is the question?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The complete answer text (40-60 words with statistic)."
+        "text": "The complete visible answer text."
       }
     }
   ]
 }
 ```
 
-Important note: Google retired FAQ rich results for all sites on 2026-05-07.
-FAQPage is not a Google rich result path. Only emit FAQPage when visible FAQ
-content exists, with at least one valid `Question` and matching visible answer.
-Treat it as entity clarity markup, not a Google rich-result promise. The
-Article/BlogPosting schema remains the priority for blog search eligibility.
+Google retired FAQ rich results for all sites on 2026-05-07. FAQPage is not a
+Google rich-result or generative-AI optimization path, and it earns no SEO or
+AI-readiness credit. Only emit it when a visible FAQ genuinely helps readers,
+with at least one valid `Question` and matching visible answer. Do not pad an
+answer to a target length or add an FAQ solely for markup.
+
+Do not substitute QAPage. Google supports QAPage for a page focused on one
+question where users can submit answers. Editorial FAQs, support FAQs, and blog
+Q&A sections do not meet that model.
 
 ### Step 7: Generate VideoObject (if videos present)
 
@@ -228,12 +232,15 @@ Image requirements:
 
 Check per-surface support before recommending schema types:
 
-| Type | Google rich-result status | Valid entity/context use |
-|------|---------------------------|--------------------------|
-| HowTo | Not a current Google rich-result tactic | Valid schema.org type when the page genuinely contains how-to content |
-| Dataset | Not for generic blog rich results | Valid for dataset pages and Dataset Search eligibility |
-| QAPage | Not the same as FAQPage | Valid when the page contains one question with user-submitted answers |
-| SpecialAnnouncement, PracticeProblem, Sitelinks Search Box | Do not recommend for general blog posts | Use only when current official docs and page content match |
+| Type | Google Search status | Valid entity/context use |
+|------|----------------------|--------------------------|
+| HowTo | No current Google rich-result experience | Valid schema.org type for genuine how-to content |
+| Dataset | Used by Dataset Search, not general Google Search rich results | Valid only for an actual dataset |
+| QAPage | Supported for one question with user-submitted answers | Do not use for editorial FAQ content |
+| Course | Course list remains distinct from the retired Course Info experience | Use only when the current Course list documentation and visible content match |
+| ClaimReview, SpecialAnnouncement, Course Info, Estimated Salary, Learning Video, Vehicle Listing | Former Google Search experiences; support was retired | May remain schema.org-valid, but never recommend them for Google eligibility |
+| PracticeProblem | Removed from Google Search and its documentation | Do not recommend for Google eligibility |
+| Sitelinks Search Box | No dedicated Google Search visual element | Google generates sitelinks algorithmically |
 
 **Validation checks:**
 1. All @id references resolve to entities within the @graph
@@ -245,15 +252,22 @@ Check per-surface support before recommending schema types:
 7. BreadcrumbList positions are sequential starting from 1
 8. If FAQPage is emitted, visible Q&A content exists and includes at least 1 valid `Question`
 
-**AI citation optimization note:** Relevant schema helps entity clarity and
-rich-result eligibility where supported, but structured data is not required for
-Google generative AI search visibility. Prioritize Article/BlogPosting, Person,
-Organization, and BreadcrumbList. Add ImageObject or VideoObject when assets
-exist, and add FAQPage only when visible FAQ content exists.
+**Generative AI note:** Structured data is not required for Google generative
+AI search, and there is no special AI schema. Prioritize accurate,
+visible-content-consistent Article/BlogPosting, Person, Organization, and
+BreadcrumbList entities. Add ImageObject or VideoObject when the assets exist.
+FAQPage remains optional reader-facing markup and adds no Google AI advantage.
 
 ### Step 9: Output
 
 Combine all schemas into a single `<script>` tag using the @graph pattern:
+
+Security requirement: build the JSON-LD with a real JSON encoder, never string
+interpolation. Before embedding in HTML, make the JSON text script-safe by
+escaping closing script sequences and literal less-than characters, for example
+replace `</` with `<\/` and `<` with `\u003c`. User-controlled fields such as
+headline, description, author name, image URL, and breadcrumb labels must only
+enter the block as JSON-encoded values.
 
 ```html
 <script type="application/ld+json">
@@ -285,3 +299,9 @@ Combine all schemas into a single `<script>` tag using the @graph pattern:
 
 Save the generated schema to the blog post file or to a separate schema file
 as the user prefers.
+
+Google can process JSON-LD generated by JavaScript when it is present in the
+rendered DOM. Server-rendered markup is still more portable for non-Google
+crawlers, but source-only JSON-LD is not a Google requirement. For dynamic
+markup, validate the rendered URL, confirm the values match visible content,
+and avoid delayed or failed client requests that leave the rendered DOM empty.

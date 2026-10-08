@@ -62,8 +62,8 @@ of analyzer JSON, not separate scoring rubrics.
 
 #### Content Quality Layer
 - Score each post on the 30-point content quality scale
-- Check paragraph length (target 40-80 words, hard limit 150)
-- Check sentence length (target 15-20 words)
+- Review paragraph and sentence pacing in context; lengths are descriptive,
+  not universal pass/fail thresholds
 - Evaluate heading structure and question-format headings
 - Assess readability using persona and content type: consumer content favors
   easier bands, professional content can be moderate, and technical content may
@@ -104,9 +104,9 @@ of analyzer JSON, not separate scoring rubrics.
 
 #### AI Readiness Layer
 - Score each post for AI citation readiness
-- Check passage-level citability (120-180 word sections)
-- Evaluate Q&A formatting and entity clarity
-- Check for TL;DR boxes and citation capsules
+- Check whether important sections are self-contained and evidence-backed
+- Evaluate purpose fit and entity clarity; question headings and FAQs are optional
+- Check whether summaries and structured formats help the intended reader
 - Check robots.txt, llms.txt, SSR/SSG output, JS-gated content, blocked assets,
   GPTBot, ClaudeBot, PerplexityBot, Googlebot, and Google-Extended policies
 

@@ -2,16 +2,12 @@
 name: blog-rewrite
 description: >
   Rewrite and optimize existing blog posts for Google SEO (May 2026 Core
-  Update, March 2026 core/spam context, June 2026 spam context, E-E-A-T)
-  and AI citation visibility as one SEO discipline. Full rewrite for both
-  Google rankings AND AI citations. For AI-citation-only audit (no Google
-  work), use blog-geo instead. Replaces fabricated statistics with sourced
-  data, applies answer-first formatting, adds Pixabay/Unsplash images,
-  generates built-in SVG charts, validates Article-priority schema, performs AI content
-  detection, adds citation capsules and information gain markers, and
-  updates freshness signals. Works with any blog format (MDX, markdown,
-  HTML). Use when user says "rewrite blog", "optimize blog", "update blog",
-  "improve blog", "fix blog", "refresh blog post", "blog optimization".
+  Update, E-E-A-T) and AI citation visibility as one SEO discipline. For
+  AI-citation-only audit (no Google work), use blog-geo instead. Replaces
+  fabricated statistics with sourced data, applies answer-first formatting,
+  adds images, generates SVG charts, and updates freshness signals. Works
+  with any blog format (MDX, markdown, HTML). Use when user says "rewrite
+  blog", "optimize blog", "update blog", "improve blog", "fix blog".
 user-invokable: true
 argument-hint: "<file-path>"
 license: MIT
@@ -33,7 +29,9 @@ and AI citation platforms. Preserves the author's voice while applying the
 
 ## Cross-reference
 
-For 21 evidence-led optimization prompts (AI-detector test, CTR audit, schema, PAA rewording, technical audit, ChatGPT visibility) directly applicable to rewrite work, see `/blog flow optimize`.
+For 21 evidence-led optimization prompts (quality follow-up, CTR audit, schema,
+PAA rewording, technical audit, ChatGPT visibility) directly applicable to
+rewrite work, see `/blog flow optimize`.
 
 ## Workflow
 
@@ -44,16 +42,15 @@ For 21 evidence-led optimization prompts (AI-detector test, CTR audit, schema, P
    - Count fabricated vs sourced statistics
    - Check answer-first formatting (H2 -> stat in first sentence?)
    - Count images and charts (type diversity?)
-   - Measure paragraph lengths (any > 150 words?)
+   - Review paragraph pacing in context; record length only as a descriptive aid
    - Check heading hierarchy (H1 -> H2 -> H3, no skips?)
    - Check schema presence and validity, prioritizing Article/BlogPosting, Person, Organization, and BreadcrumbList; FAQPage is optional entity markup only
    - Check freshness signals (lastUpdated, dateModified)
    - Assess self-promotion level
    - Evaluate citation tier quality
-3. **AI content detection scan**:
-   - **Burstiness score** - Measure sentence length variance across the post. Low
-     variance (most sentences within 3-5 words of each other) is a strong AI signal.
-     Calculate: standard deviation of sentence word counts. Target SD > 6.
+3. **Advisory editorial style scan**:
+   - **Sentence-length variation** - Report it descriptively when rhythm needs
+     review. It cannot determine authorship and has no pass/fail threshold.
    - **Known AI phrase scan** - Check for these high-frequency AI phrases:
      - "in today's digital landscape", "it's important to note", "dive into"
      - "game-changer", "navigate the landscape", "revolutionize", "seamlessly"
@@ -61,17 +58,15 @@ For 21 evidence-led optimization prompts (AI-detector test, CTR audit, schema, P
      - "delve", "crucial", "elevate", "foster", "landscape" (overused)
      - "multifaceted", "robust", "tapestry", "embark"
      - Full list in `agents/blog-writer.md`
-   - **Vocabulary diversity** - Calculate Type-Token Ratio (TTR): unique words /
-     total words. Low TTR (< 0.40) suggests AI-generated repetitive phrasing.
-     Target TTR > 0.50 for natural prose.
-   - **AI content percentage estimate** - Based on burstiness, phrase density, and
-     TTR, estimate what percentage of the content reads as AI-generated (0-100%).
-     Report as: "AI content estimate: ~X%"
+   - **Vocabulary sample** - Report Type-Token Ratio (TTR) descriptively and
+     interpret it against text length and specialist terminology.
+   - Never estimate AI authorship from TTR, sentence-length variation, punctuation,
+     or phrase density. These are advisory project-style observations only.
    - **Second-order structural reflex scan** (v1.8.0) - The first-order checks above
-     are vocabulary-level. The second-order pass catches what survives them: structural
-     and rhythmic tics LLMs default to after the obvious words are replaced. Run against
+     are vocabulary-level. The second-order pass reviews structural repetition
+     that can survive simple wording edits. Run against
      `skills/blog/references/ai-slop-detection.md`. Flag at minimum:
-     - Question-cadence H2s above 70% of headings
+     - Repetitive question-cadence H2s that do not suit reader intent
      - Three or more "Here..." paragraph openers
      - Three-clause sentence rhythm above 50% in any 200-word window
      - More than 2 hedge words ("may," "often," "typically," "generally") in any 20-word span
@@ -82,10 +77,7 @@ For 21 evidence-led optimization prompts (AI-detector test, CTR audit, schema, P
      - Listicle pre-list intro above 250 words
      - Opening-word repetition: top three first-words above 25% share
      - Paragraph-shape SD below 25 (visual monotony)
-     A draft is only "AI-detection clean" when both passes are clean. The two-namespace
-     terminology (first-order/second-order for slop-detection vs Tier 1/2/3 for source
-     authority) is intentional: see `skills/blog/references/ai-slop-detection.md` for
-     why the labels diverged in v1.8.1.
+     Apply editorial judgment; none of these metrics changes the score or blocks delivery.
 4. **Video embed check**:
    - Count existing YouTube embeds in the post
    - If 0 embeds, flag: "No video embeds. Consider adding relevant high-quality YouTube embeds when they add useful context."
@@ -102,7 +94,7 @@ For 21 evidence-led optimization prompts (AI-detector test, CTR audit, schema, P
 6. **Calculate current score** across 5 categories:
    - Score across 5 categories (Content Quality 30, SEO Optimization 25, E-E-A-T Signals 15, Technical Elements 15, AI Citation Readiness 15)
    - Total: 0-100
-7. **Present audit summary** with specific findings, AI detection results, video status, cannibalization status, and score
+7. **Present audit summary** with specific findings, advisory style diagnostics, video status, cannibalization status, and score
 8. **Enter plan mode** - Present section-by-section optimization plan
 
 Wait for user approval before proceeding.
@@ -144,33 +136,34 @@ Apply changes in this order:
 - Maintain internal links
 
 #### 4b. Fix Frontmatter
-- Add `lastUpdated: "YYYY-MM-DD"` (today's date)
+- Update `lastUpdated` only when the rewrite materially changes facts, methods, or recommendations
 - Keep original `date` unchanged
-- Fix meta description: fact-dense, 150-160 chars, includes 1 statistic
+- Fix the meta description so it accurately and specifically summarizes the
+  visible content
 - Add `coverImage` + `coverImageAlt` + `ogImage` if missing
   - Search Pixabay/Unsplash/Pexels for wide hero image (1200x630)
   - Or generate custom SVG cover via `blog-chart` (text-on-gradient with key stat)
   - Or generate custom AI image via `blog-image` sub-skill when available; record the model ID
 - Verify tags/categories are appropriate
 
-#### 4c. Apply Answer-First Formatting
-Every H2 section MUST open with a 40-60 word paragraph containing:
-- At least one specific statistic with source attribution
-- A direct answer to the heading's implicit question
+#### 4c. Apply Purpose-First Formatting
+State the point of important sections early, then add the verified evidence and
+context each claim needs. Do not force statistics or word bands.
 
 #### 4d. Replace Fabricated Statistics
 - Search for patterns: "X% of...", "X out of Y...", unsourced claims
 - Replace with real data from tier 1-3 sources
-- Always include the full FLOW evidence triple: year anchor in prose, inline citation with publisher + document title/report name, and a source block entry with full URL + retrieval date
+- Give each material claim enough provenance to verify and interpret it. Include
+  publisher or document details, relevant dates, methodology, limitations, and a
+  stable URL when the claim requires them; do not force a fixed citation form.
 
 #### 4e. Improve Headings
-- Convert statement headings to questions where natural (60-70% target)
-- Keep 2-3 statement headings for variety
+- Use question or declarative headings according to reader intent; no ratio target
 - Ensure keyword appears in 2-3 headings naturally
 
 #### 4f. Fix Paragraph Length
-- Split any paragraph > 150 words
-- Target 40-80 words per paragraph
+- Split paragraphs only when doing so improves comprehension
+- Use paragraph length as an optional planning observation, not a fixed target
 - Ensure each paragraph starts with its most important sentence
 
 #### 4g. Add Visual Elements
@@ -188,36 +181,34 @@ If the post lacks YouTube video embeds:
 
 #### 4i. Add/Improve FAQ
 - If the query set warrants it and no FAQ exists, add one (3-5 questions)
-- If FAQ exists, ensure answers are 40-60 words with verified statistics
-- FAQPage is optional entity markup only. Google FAQ rich results have been limited primarily to well-known, authoritative government and health sites since the 2023 guidance, so do not make FAQPage a core Google rich-result gate.
+- If FAQ exists, ensure answers are complete and contain verified support where needed
+- FAQPage is optional entity markup only. Google FAQ rich results were fully retired for all sites on 2026-05-07, so do not make FAQPage a core Google rich-result gate.
 
 #### 4j. Reduce Self-Promotion
 - Max 1 brand mention (author bio context only)
 - Remove "At [Company], we..." patterns
 - Convert promotional sections to educational content
 
-#### 4k. Citation Capsule Injection
-For each H2 section, generate (or improve existing) a citation capsule:
-- 40-60 word self-contained passage per H2
-- Contains: one specific claim + one data point + source attribution
-- Written in a declarative style so an AI system could extract and quote it directly
+#### 4k. Evidence-Backed Explanation
+For important claims, generate or improve a self-contained explanation with
+enough context and verified support to stand on its own. Do not pad every H2.
 - Placed naturally within the section body, not as a separate callout
 
 Example:
 ```markdown
-According to a 2026 Gartner study, 58% of enterprise buyers now consult AI
-assistants before contacting a vendor ([Gartner](https://www.gartner.com), 2026).
-This shift means B2B content must answer specific questions concisely enough
-for AI systems to extract and cite in their responses.
+[Verified source title], a [method or sample description] published on [date],
+found [specific metric] for [audience or market] ([Source name](https://example.com/full-report),
+retrieved YYYY-MM-DD). In practical terms, connect the evidence to one action
+the reader should take before making a claim or changing a workflow.
 ```
 
-Capsules map to the "AI Citation Readiness" category (15 points) in
-`skills/blog/references/quality-scoring.md`.
+Do not pad explanations to a fixed length or add them solely to earn readiness
+points.
 
-#### 4l. Anti-AI-Detection Patterns
-Apply these transformations to reduce AI-detectable writing patterns:
+#### 4l. Project Voice and Repetition Review
+Apply these transformations only where they improve the configured voice:
 - **Eliminate em dashes** - Replace every U+2014 character with a comma, hyphen,
-  colon, or period. Split sentences if needed. Em dashes are an AI writing tell.
+  colon, or period. Split sentences if needed. This is a project style rule.
 - **Replace flagged phrases** - Swap every detected AI phrase (from the scan in
   Phase 1 step 3) with a natural alternative. Examples:
   - "it's important to note" -> "worth noting" or "keep in mind"
@@ -229,14 +220,13 @@ Apply these transformations to reduce AI-detectable writing patterns:
 - **Vary sentence length deliberately** - After rewriting, scan each paragraph.
   Inject short punchy sentences (5-10 words) between longer ones (18-25 words).
   Target: no more than 3 consecutive sentences within 5 words of each other's length.
-- **Inject rhetorical questions** - Add at least one rhetorical question every
-  200-300 words to break up declarative monotony.
+- **Use rhetorical questions sparingly** - Add one only when it clarifies the
+  reader's next decision.
 - **Use contractions naturally** - Replace formal constructions with contractions
   where they sound natural: "it is" -> "it's", "we have" -> "we've",
   "do not" -> "don't", "is not" -> "isn't".
-- **Include hedging language** - Sprinkle first-person hedges that signal real
-  experience: "in our experience", "we've found that", "from what we've seen",
-  "this tends to", "it depends on".
+- **Support first-hand language** - Keep "we tested" or "in our experience" only
+  when methodology, observations, or evidence can substantiate the claim.
 
 #### 4m. Summary Box (Key Takeaways)
 If the post lacks a summary box, add one immediately after the introduction:
@@ -245,15 +235,15 @@ If the post lacks a summary box, add one immediately after the introduction:
 > - [Core finding with statistic and source]
 > - [Second key insight or recommendation]
 > - [Third actionable takeaway]
-> (3-5 bullets, 40-60 words combined. Self-contained - reader gets
+> (Use concise bullets sized to the material. Keep the summary self-contained so the reader gets
 > the core value without reading the full article.)
 ```
 Default label is "Key Takeaways", but this is configurable per persona or
 brand voice (e.g., "The Bottom Line", "Quick Summary", "What You Need to Know").
 
-If an existing TL;DR box is present, convert it to the bullet-point Key
-Takeaways format. Verify it meets the 40-60 word requirement and contains
-at least one statistic with source attribution.
+If an existing TL;DR box is useful, convert it to concise Key Takeaways and
+verify every factual statement is supported. Do not add a statistic merely to
+fit the format.
 
 #### 4n. Information Gain Marker Injection
 Review the post for original value and tag it:
@@ -275,8 +265,8 @@ on the post's style.
 After rewriting, verify all quality gates pass:
 
 #### Core Quality Gates
-1. Every H2 opens with a statistic + source
-2. No paragraph exceeds 150 words
+1. Important claims state their point clearly and include verified support where needed
+2. Paragraph and sentence pacing suits the audience; length alone cannot fail review
 3. Zero fabricated statistics
 4. Heading hierarchy is clean
 5. Article-priority schema present and valid; FAQPage only if useful as optional entity markup
@@ -285,17 +275,17 @@ After rewriting, verify all quality gates pass:
 8. If MDX: build the project to verify no compilation errors
 
 #### New Element Verification
-9. TL;DR box present after introduction (40-60 words, contains statistic)
-10. At least 2-3 information gain markers present
-11. Citation capsules in major H2 sections (40-60 words, self-contained)
+9. Optional summary is useful and contains no unsupported claims
+10. Any information-gain markers identify supported original material
+11. Important reusable claims are self-contained and evidence-backed
 12. Internal linking zones marked or actual links present (5-10 per 2,000 words)
-13. No AI-detectable phrases remain from banned list
+13. Configured project style-list terms reviewed in context
 
-#### Burstiness and Naturalness Check
-14. Sentence length variance: SD > 6 (mix of short and long sentences)
+#### Editorial Style Check
+14. Sentence-length variation reviewed descriptively, with no authorship verdict
 15. Contractions used naturally throughout
-16. Rhetorical questions present (1 per 200-300 words)
-17. AI content estimate reduced from audit baseline
+16. Rhetorical questions used only where useful
+17. No unsupported first-hand claims
 18. Score improved across all 5 categories vs Phase 1 audit
 19. YouTube video embeds present with lazy loading, aria-labels, and noscript fallback
 
@@ -318,11 +308,10 @@ After rewriting, verify all quality gates pass:
   - Technical Elements: [Y]/15
   - AI Citation Readiness: [Y]/15
 
-### AI Detection
-- Before: ~[X]% AI-detected content
-- After: ~[Y]% AI-detected content
-- Phrases replaced: [N]
-- Burstiness improved: [before SD] -> [after SD]
+### Editorial Style Diagnostics
+- Configured style-list terms reviewed: [N]
+- Sentence-length variation: [descriptive observation]
+- These observations do not infer authorship and do not affect the score.
 
 ### Cannibalization
 - [Status: none found / flagged N posts / resolved]
@@ -335,8 +324,8 @@ After rewriting, verify all quality gates pass:
 - FAQ section updated with [N] questions; FAQPage emitted only as optional entity markup if appropriate
 - TL;DR box: [added/updated]
 - Information gain markers: [N] ([types])
-- Citation capsules: [N] across H2 sections
-- AI phrases replaced: [N]
+- Evidence-backed explanations improved: [N]
+- Configured project style-list terms reviewed: [N]
 - lastUpdated set to [date]
 - Self-promotion reduced to [N] mentions
 

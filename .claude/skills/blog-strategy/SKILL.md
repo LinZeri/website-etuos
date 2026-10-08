@@ -175,14 +175,17 @@ Use the current Google update timeline as context, not a one-update tactic, and 
 
 ### Step 5.5: AI Citation Surface Strategy
 
-Plan how to maximize AI citation across platforms as part of SEO. Off-site entity authority and brand presence influence AI citations, so classic on-page SEO alone is insufficient.
+Plan how to measure and improve reader usefulness, source fidelity, and
+technical eligibility across declared surfaces. Off-site activity should serve
+the audiences on those channels. Do not claim it causes citations or maximizes
+AI visibility.
 
 #### On-Site Optimization
 
-Structure every piece of content for AI citability:
-- Every H2 opens with an answer-first paragraph (40-60 words with stat + source)
-- **Citation capsules**: 40-60 word self-contained passages per H2 section
-- **Q&A format**: 60-70% of H2 headings phrased as questions
+Structure content for readers and evidence-backed reuse:
+- Important sections state their point early and include verified support where needed
+- **Reusable evidence**: self-contained explanations sized to the material, not every H2
+- **Heading format**: questions or declarative headings according to reader intent; no ratio target
 - **FAQ sections** only when user questions warrant them; FAQPage is optional entity markup, not a Google rich result
 - **Entity clarity**: consistent terminology throughout (no synonym variation for key concepts)
 - **Structured data**: JSON-LD for Article/BlogPosting, Person, Organization, and BreadcrumbList; add Review/Product/Event only when genuinely applicable. FAQPage is optional entity markup only; do not use HowTo as a rich-result tactic.
@@ -190,16 +193,15 @@ Structure every piece of content for AI citability:
 #### Off-Site Presence
 
 Treat vendor-reported off-site citation percentages and channel multipliers as
-directional hypotheses unless each number has a source card with publisher,
-title, URL, date, methodology, and retrieval date.
+non-causal observations, not strategy targets.
 
-| Channel | AI Citation Impact | Priority Action |
-|---------|-------------------|-----------------|
+| Channel | Audience Role | Possible Action |
+|---------|---------------|-----------------|
 | YouTube | Strong discovery and demonstration surface when relevant | Companion videos for pillar posts |
 | Reddit | Community evidence and authentic discussion surface | Authentic participation in 3-5 relevant communities |
 | Review platforms | Third-party validation for B2B entities | Maintain profiles on G2, Capterra, or category-specific platforms |
-| Wikipedia/Wikidata | Credibility tiebreaker | Build notability, create Wikidata entry |
-| Industry publications | Tier 2-3 citation source | Guest posts, expert commentary |
+| Wikipedia/Wikidata | Optional public reference projects | Participate only when policy and independent notability warrant it |
+| Industry publications | Relevant third-party audiences | Expert commentary or study contributions when useful |
 
 #### Cross-Platform Monitoring
 
@@ -219,46 +221,49 @@ Set quality standards that all blog content must meet:
 | Metric | Target | Measured By |
 |--------|--------|-------------|
 | Blog quality score | 80+ | `/blog analyze` |
-| E-E-A-T compliance | Named author + 8+ tier 1-3 sources | Manual review |
-| AI citation readiness | Answer-first + optional FAQ + citation capsules | `/blog analyze` |
+| Editorial trust | Named author and sufficient claim-level support | Manual review |
+| AI citation readiness | Evidence-backed claims + purpose fit + entity clarity | `/blog analyze` |
 | Visual support | Charts and images where they add information gain | Asset count and editorial review |
-| Internal links | 5+ per post (within cluster) | Link audit |
+| Internal links | Useful paths within the cluster | Link audit |
 | Schema markup | Article/BlogPosting + Person + Organization + BreadcrumbList | Structured data test |
-| Word count | 1,500+ for spokes, 3,000+ for pillars | Word count tool |
+| Completeness | Intent-dependent depth without padding | Editorial review |
 ```
 
 Every post should be scored before publishing. Posts below 80 quality score
 should be revised before going live.
 
-### Step 5.7: AI-Citation SEO Strategy
+### Step 5.7: Multi-Surface Readiness Strategy
 
-Plan passage-level citability across all content, tailored to each AI platform.
+Plan reader usefulness, source fidelity, and technical eligibility for each
+declared surface. Product behavior changes, so do not encode platform
+preferences from vendor samples.
 
-| AI Platform | Favors | Optimization Focus |
-|-------------|--------|-------------------|
-| ChatGPT | Recency, brand authority, conversational clarity | Treat freshness targets as testable hypotheses, maintain clear entity definitions, and monitor observed citations |
-| Perplexity | Citations, source diversity, structured answers | Tier 1-3 sources, numbered lists, data tables |
-| Google AI Overviews | Topical authority, source quality, entity clarity, eligible Article/entity schema | Complete topic clusters, answer-first sections, Article/BlogPosting + Person + Organization + BreadcrumbList |
+| AI Surface | Validation Focus | Editorial Focus |
+|------------|------------------|-----------------|
+| ChatGPT | Current direct checks where authorized | Clear entities and supported claims |
+| Perplexity | Current direct checks and cited-source review | Traceable sources and useful structure |
+| Google AI Overviews and AI Mode | Search eligibility and direct SERP observation | Helpful content and standard SEO/schema hygiene without AI-specific markup |
 
 Strategy by platform:
-- **ChatGPT**: Ensure brand name appears consistently, test freshness cadence against observed citation monitoring, use conversational answer-first formatting
-- **Perplexity**: Maximize external citation count (8+ per post), use structured data tables, cite authoritative sources
-- **AI Overviews**: Complete topic cluster coverage, validate Article/entity schema, use featured-snippet-friendly formatting, and track Search Console gen-AI visibility where available
+- **ChatGPT**: Ensure brand name appears consistently, test maintenance cadence against observed citation monitoring, and use clear conversational structure
+- **Perplexity**: Cite sources where claims need support and use tables only
+  when they improve comprehension
+- **AI Overviews and AI Mode**: Complete topic cluster coverage, keep Article/entity schema valid as standard SEO hygiene, use featured-snippet-friendly formatting, monitor direct SERP appearances, and review Search Console Performance data including the Generative AI performance report where available
 
 Reference: `skills/blog/references/geo-optimization.md` for platform-specific optimization guides.
 
 ### Step 6: Distribution Channel Strategy
 
-AI visibility often benefits from off-site brand presence and third-party
-validation. Plan brand presence:
+Plan channel presence around audience relevance and measurable value. Do not
+promise an AI citation or ranking effect.
 
-| Channel | AI Impact | Strategy |
-|---------|-----------|----------|
+| Channel | Audience Role | Strategy |
+|---------|---------------|----------|
 | YouTube | Demonstration and discovery surface | Companion videos for pillar posts, how-tos, demos |
 | Reddit | Community evidence surface | Authentic participation in 3-5 relevant communities, share insights not links |
 | Review platforms | Third-party validation for B2B entities | Maintain profiles on G2, Capterra, TrustRadius, or category-specific platforms |
-| Wikipedia/Wikidata | Credibility tiebreaker | Build notability through earned media, create Wikidata entry |
-| Industry publications | Tier 2-3 citation source | Guest posts, expert commentary, study contributions |
+| Wikipedia/Wikidata | Optional public reference projects | Participate only when policy and independent notability warrant it |
+| Industry publications | Relevant third-party audiences | Expert commentary and study contributions |
 | Social media | Brand mentions | LinkedIn thought leadership, Twitter/X insights |
 
 Budget allocation should be scenario-based. Early sites usually need more owned content to build coverage; mature sites with strong content libraries may shift more effort to earned media and distribution.
@@ -279,8 +284,8 @@ Reference: `skills/blog/references/distribution-playbook.md` for detailed channe
 
 #### AI Citation Metrics (New)
 - Share of Voice in ChatGPT responses (manual tracking)
-- Google Search Console generative AI visibility or impressions where available
-- AI Overview citations measured separately by direct SERP checks or approved monitoring tools
+- Google Search Console Performance data, including generative AI impressions where the Generative AI performance report is available
+- AI Overview and AI Mode appearances measured separately by direct SERP checks or approved monitoring tools
 - Perplexity mentions (manual tracking)
 - AI referral traffic (GA4: source contains chatgpt, perplexity, claude)
 - Brand mention volume (branded search + web mentions)

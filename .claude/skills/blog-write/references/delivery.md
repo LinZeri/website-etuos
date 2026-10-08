@@ -54,7 +54,7 @@ Writer-specific companion to `skills/blog/references/blog-delivery-contract.md`.
 ### Dual-Optimization Elements
 - Summary box: present
 - Information gain markers: [N]
-- Citation capsules: [N]
+- Evidence-backed sections: [N]
 - Internal linking zones: [N]
 
 ### Structure
@@ -62,11 +62,11 @@ Writer-specific companion to `skills/blog/references/blog-delivery-contract.md`.
 - [N] FAQ items when warranted
 - Word count: ~[N] words
 
-### Naturalness
-- Sentence length variance: [pass/fail]
-- AI phrase scan: [pass/fail]
-- Contractions used: [yes/no]
-- Rhetorical questions: [N]
+### Optional Editorial Style Diagnostics
+- Sentence-length variation: [descriptive observation]
+- Configured style-list terms: [N found]
+- Voice fit: [brief observation]
+- These diagnostics do not infer authorship or affect Google/readiness scoring.
 
 ### Next Steps
 - Resolve [INTERNAL-LINK] placeholders with actual URLs
