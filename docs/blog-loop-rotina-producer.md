@@ -123,6 +123,7 @@ Workflow({
 
 - Proibido alegar experiência própria da Etuos além dos números autorizados: nada de "nas contas que gerenciamos", "we see", "our cleaning accounts", casos, anedotas ou resultados de clientes. Escreva conselho em voz neutra ("um erro comum é...", "monte o orçamento a partir de...").
 - Proibido inventar faixas de custo, CPL, CPC, orçamentos, percentuais de alocação, prazos ou benchmarks. Valores em dólar só como aritmética hipotética rotulada como ilustrativa, nunca como dado de mercado.
+- Proibido colocar prazo, janela de tempo ou limiar numérico sem fonte registrada em `docs/blog-fontes-verificadas.md`: nada de "os primeiros 30 a 60 dias", "60 a 90 dias de aprendizado", "resultado em X semanas", "menos de N cliques por mês", "os primeiros cliques chegam no mesmo dia". Isso vale também para FAQ, TL;DR, checklists, CTA e para o schema JSON-LD. Sem fonte, escreva de forma qualitativa ("no começo", "até a campanha reunir dados suficientes", "não existe prazo fixo") e nunca prometa quando o resultado aparece.
 - Afirmações sobre elegibilidade, prazos ou nomes de programas do Google (por exemplo, o selo dos Local Services Ads, hoje "Google Verified") só com a página de ajuda aberta e conferida. Na dúvida, escreva "confira a elegibilidade para o seu ofício e cidade".
 - Estatísticas externas só as já registradas em `docs/blog-fontes-verificadas.md`, citadas com o campo Markdown exato e respeitando o "Uso proibido" de cada uma.
 - Nada de comentários HTML (`<!-- -->`) no corpo: o MDX não compila e o build quebra.
@@ -136,8 +137,9 @@ Se a tool Workflow não existir ou falhar por infraestrutura, marque o item como
 3. **Links internos**: todos com o prefixo do idioma (`/pt/...` ou `/en/...`). Nenhum link para `/lp/`, que é noindex.
 4. **Números**: nenhuma alegação sobre a Etuos fora dos números autorizados de `CLAUDE.md`. Nenhum preço, nenhuma garantia, nenhum nome de cliente inventado.
 5. **Prova inventada**: `grep -n -i -E "accounts we|we (see|manage|found)|nossas contas|que gerenciamos|our (client|cleaning) " <caminho do post>` deve vir vazio, e todo valor em dólar ou percentual no corpo precisa ter fonte registrada ou ser aritmética rotulada como ilustrativa. Corrija o texto, não o grep.
-6. **Comentários HTML**: `grep -n "<!--" <caminho do post>` deve vir vazio (o MDX não compila com eles).
-7. **Links entre posts**: todo `](/<idioma>/blog/<slug>` precisa apontar para um arquivo existente em `content/blog/<idioma>/`. Só linke posts já publicados ou produzidos no mesmo lote.
+6. **Prazos sem fonte**: `grep -n -i -E "[0-9]+ (a|e|-) ?[0-9]+ (dias|semanas|meses|days|weeks|months)|primeiros [0-9]+ (dias|days)|mesmo dia|same day|within [0-9]+ (days|weeks)|em [0-9]+ (dias|semanas)" <caminho do post> <caminho do schema>` deve vir vazio, salvo quando o prazo vier de fonte registrada (cite-a no texto). Confira também o schema JSON-LD, que repete o texto do FAQ. Corrija o texto, não o grep.
+7. **Comentários HTML**: `grep -n "<!--" <caminho do post>` deve vir vazio (o MDX não compila com eles).
+8. **Links entre posts**: todo `](/<idioma>/blog/<slug>` precisa apontar para um arquivo existente em `content/blog/<idioma>/`. Só linke posts já publicados ou produzidos no mesmo lote.
 
 ## Passo 7: build
 
