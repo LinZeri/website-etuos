@@ -12,6 +12,12 @@
  *   node scripts/gerar-imagem-blog.mjs --slug <slug> --tema "<titulo do artigo>" \
  *     [--contexto "cena desejada"] [--idioma pt|en] [--forcar]
  *
+ * Ilustracao do corpo (identidade visual da Etuos, sem texto e sem logo):
+ *   node scripts/gerar-imagem-blog.mjs --slug <slug> --tema "<titulo>" \
+ *     --estilo ilustracao --arquivo <slug>-<n>-<assunto> --contexto "<cena>"
+ *   Salva em public/images/blog/<arquivo>.webp (1200x675). Sem --estilo, o
+ *   comportamento e o da capa fotorrealista.
+ *
  * Chave: GOOGLE_AI_API_KEY no ambiente (local: .env.local; nuvem: variavel de
  * ambiente do environment da rotina). Saida JSON na ultima linha do stdout.
  */
@@ -31,6 +37,8 @@ const MODELOS = [
 
 const LARGURA = 1200;
 const ALTURA = 630;
+// Ilustracao do corpo em 16:9 exato (1200x675), igual ao width/height do post.tsx.
+const LARGURA_ILUSTRACAO_ALTURA = 675;
 
 function args() {
   const a = process.argv.slice(2);
@@ -61,7 +69,8 @@ function carregarEnvLocal() {
  * Texto gerado por IA sai errado e ainda quebraria a regra de idioma do site,
  * entao a proibicao aparece de varias formas (letras, placas, interface, marca).
  */
-function montarPrompt({ tema, contexto, idioma }) {
+function montarPrompt({ tema, contexto, idioma, estilo }) {
+  if (estilo === "ilustracao") return montarPromptIlustracao({ tema, contexto });
   const cena =
     contexto && contexto !== "true"
       ? contexto
@@ -79,6 +88,27 @@ function montarPrompt({ tema, contexto, idioma }) {
     "Absolutely no text of any kind in the image: no words, letters, numbers, captions, watermarks, logos, brand names, signage, posters, screen interfaces or readable documents.",
     "No illustration, no 3D render, no digital art, no collage, no infographic, no charts, no AI-looking gloss.",
     "Looks like a real photo from a business magazine.",
+  ].join(" ");
+}
+
+/**
+ * Ilustracao do corpo do artigo, na identidade da Etuos (docs/design.md): fundo
+ * branco, grafite, cinzas e UM unico acento, o verde acido. Sem texto, sem
+ * numeros, sem logo (a marca nao aparece nas ilustracoes).
+ */
+function montarPromptIlustracao({ tema, contexto }) {
+  const cena =
+    contexto && contexto !== "true"
+      ? contexto
+      : `a simple visual metaphor for the topic "${tema}"`;
+  return [
+    "Flat editorial illustration, modern agency style, clean vector look with bold geometric shapes, confident thick outlines and generous white space, on a pure white background.",
+    "Strict brand palette only: graphite #0F172A for the main shapes and outlines, mid gray #6B7280 and light gray #E2E8F0 for secondary shapes, and exactly ONE accent color, acid green #A3E635, used sparingly on the single focal element.",
+    "No other colors: no blue, no orange, no red, no purple, no gradients, no shadows, no 3D.",
+    `Subject: ${cena}.`,
+    "Composition: 16:9 horizontal, one clear focal element near the center with breathing room around it.",
+    "Absolutely no text of any kind: no words, letters, numbers, currency symbols, captions, watermarks, logos, brand names, app or browser interfaces, readable screens or documents. Use abstract bars, lines and shapes instead of writing.",
+    "Not a photograph, not a collage, not an infographic with labels.",
   ].join(" ");
 }
 
@@ -137,19 +167,30 @@ async function main() {
     process.exit(3);
   }
 
-  const destino = path.join(process.cwd(), "public", "images", "blog", `${a.slug}.webp`);
-  const publico = `/images/blog/${a.slug}.webp`;
+  const ilustracao = a.estilo === "ilustracao";
+  // Corpo do artigo: --arquivo <nome-sem-extensao> evita sobrescrever a capa.
+  const nome = a.arquivo && a.arquivo !== "true" ? a.arquivo : a.slug;
+  const destino = path.join(process.cwd(), "public", "images", "blog", `${nome}.webp`);
+  const publico = `/images/blog/${nome}.webp`;
   if (fs.existsSync(destino) && !a.forcar) {
     console.log(JSON.stringify({ ok: true, path: publico, reused: true }));
     return;
   }
 
-  const prompt = montarPrompt({ tema: a.tema, contexto: a.contexto, idioma: a.idioma || "pt" });
+  const prompt = montarPrompt({
+    tema: a.tema,
+    contexto: a.contexto,
+    idioma: a.idioma || "pt",
+    estilo: a.estilo,
+  });
   const { bytes, modelo } = await gerar(prompt, chave);
 
   fs.mkdirSync(path.dirname(destino), { recursive: true });
   await sharp(bytes)
-    .resize(LARGURA, ALTURA, { fit: "cover", position: "attention" })
+    .resize(LARGURA, ilustracao ? LARGURA_ILUSTRACAO_ALTURA : ALTURA, {
+      fit: "cover",
+      position: ilustracao ? "centre" : "attention",
+    })
     .webp({ quality: 82 })
     .toFile(destino);
 
