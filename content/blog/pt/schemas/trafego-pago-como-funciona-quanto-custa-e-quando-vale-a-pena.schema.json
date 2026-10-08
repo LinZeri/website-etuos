@@ -145,15 +145,15 @@
           "name": "Preciso de site para fazer tráfego pago?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Para Google Ads de busca, sim: você precisa de uma página de destino que converta, com informações claras sobre o serviço, localização e botão de contato visível. Para Meta Ads de geração de leads, é possível usar formulário nativo da plataforma. A taxa de qualificação dos leads com formulário nativo tende a ser menor do que com página própria bem construída."
+            "text": "Para Google Ads de busca, sim: você precisa de uma página de destino que converta, com informações claras sobre o serviço, localização e botão de contato visível. Para Meta Ads de geração de leads, é possível usar formulário nativo da plataforma. Vale comparar a qualidade dos leads do formulário nativo com a dos leads que chegam pela sua página."
           }
         },
         {
           "@type": "Question",
-          "name": "Quanto tempo demora para ver resultado com tráfego pago?",
+          "name": "Quanto tempo demora para ver resultado?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Os primeiros cliques chegam no mesmo dia. Resultado consistente e otimizado costuma aparecer entre 60 e 90 dias, que é o tempo para o algoritmo acumular dados suficientes para otimizar sozinho. Reservar verba para esse período inteiro antes de tirar conclusões é a diferença entre uma campanha que aprende e uma interrompida no meio do caminho sem ter chegado ao ponto de retorno."
+            "text": "Não existe prazo fixo, e ninguém deveria prometer um. O tempo depende do nicho, da concorrência local, da oferta e da página de destino. O resultado consistente só aparece depois que a campanha junta dados suficientes para ser otimizada, e reservar verba para chegar até lá é a diferença entre uma campanha que aprende e uma interrompida cedo demais."
           }
         },
         {
