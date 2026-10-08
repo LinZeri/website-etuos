@@ -2,7 +2,7 @@
 
 Procedimento executado todo dia pela rotina `etuos-blog-producer`, numa sessão de nuvem isolada, sem memória de execuções anteriores. A rotina em si só aponta para este arquivo, então **alterar este documento altera o comportamento da rotina**, sem mexer na configuração dela.
 
-Objetivo do dia: publicar **1 artigo em português e 1 em inglês**, cada um com capa própria, passando pelos mesmos portões de qualidade, e dar push em `main` (a Vercel publica sozinha).
+Objetivo do dia: publicar **1 artigo em português e 1 em inglês**, cada um com capa própria e **3 a 4 ilustrações no corpo**, passando pelos mesmos portões de qualidade, e dar push em `main` (a Vercel publica sozinha).
 
 Regras inegociáveis do projeto valem integralmente: leia `CLAUDE.md` antes de escrever qualquer coisa. Duas que quebram a entrega se forem ignoradas: **nenhum travessão em lugar nenhum** e **todo commit sai como LinZeri**.
 
@@ -119,6 +119,28 @@ Workflow({
 })
 ```
 
+### 6.3b Ilustrações do corpo
+
+Depois que o pipeline devolver o post aprovado e **antes** das conferências do 6.4, gere de 3 a 4 ilustrações na identidade visual da Etuos (fundo branco, grafite, cinzas e um único verde ácido, sem texto, sem número, sem logo). Escolha 3 a 4 títulos `##` do corpo, espaçados entre si, e **nunca** o FAQ, a conclusão ou o CTA. Para cada um, crie uma cena visual concreta que represente o assunto da seção (objetos e situações, nunca gráficos com números), escrita em inglês:
+
+```bash
+node scripts/gerar-imagem-blog.mjs --slug <slug> --tema "<title do item>" --estilo ilustracao --arquivo <slug>-<n>-<assunto> --contexto "<cena em inglês>" --idioma <pt|en>
+```
+
+`<n>` vai de 1 a 4 e `<assunto>` é uma ou duas palavras em minúsculas, sem acento, ligadas por hífen (ex.: `leilao`, `calculo`). O script grava `public/images/blog/<arquivo>.webp` (1200x675).
+
+**Confira cada imagem com a tool Read antes de usar.** Aprovada só se: fundo branco; apenas grafite, cinzas e verde ácido (nenhuma outra cor); **nenhum** texto, letra, número ou logo, nem em telas, placas ou documentos; objetos reconhecíveis e sem deformação. Se reprovar, gere uma vez de novo com `--forcar` e uma cena mais simples. Se reprovar de novo, apague o arquivo e **não** use essa imagem.
+
+Inserção no `.mdx`, logo abaixo do título `##` escolhido, com linha em branco antes e depois:
+
+```
+![descrição objetiva do que aparece na imagem, no idioma do post](/images/blog/<arquivo>.webp)
+```
+
+O `alt` descreve a cena em uma frase, sem repetir palavra-chave à força e sem começar com "imagem de".
+
+Ilustração **nunca bloqueia** a publicação, ao contrário da capa: se a geração falhar (sem rede, sem chave, erro da API) ou a imagem for reprovada, publique com as que passaram, ou sem nenhuma, e registre no relatório final quantas entraram ("ilustrações: N de 4").
+
 **Proibições reforçadas (sempre no `hardRules`).** Numa execução local, o pipeline aprovou textos com prova inventada, porque o factcheck só confere URLs e o audit não pega isso. Injete este bloco:
 
 - Proibido alegar experiência própria da Etuos além dos números autorizados: nada de "nas contas que gerenciamos", "we see", "our cleaning accounts", casos, anedotas ou resultados de clientes. Escreva conselho em voz neutra ("um erro comum é...", "monte o orçamento a partir de...").
@@ -139,7 +161,8 @@ Se a tool Workflow não existir ou falhar por infraestrutura, marque o item como
 5. **Prova inventada**: `grep -n -i -E "accounts we|we (see|manage|found)|nossas contas|que gerenciamos|our (client|cleaning) " <caminho do post>` deve vir vazio, e todo valor em dólar ou percentual no corpo precisa ter fonte registrada ou ser aritmética rotulada como ilustrativa. Corrija o texto, não o grep.
 6. **Prazos sem fonte**: `grep -n -i -E "[0-9]+ (a|e|-) ?[0-9]+ (dias|semanas|meses|days|weeks|months)|primeiros [0-9]+ (dias|days)|mesmo dia|same day|within [0-9]+ (days|weeks)|em [0-9]+ (dias|semanas)" <caminho do post> <caminho do schema>` deve vir vazio, salvo quando o prazo vier de fonte registrada (cite-a no texto). Confira também o schema JSON-LD, que repete o texto do FAQ. Corrija o texto, não o grep.
 7. **Comentários HTML**: `grep -n "<!--" <caminho do post>` deve vir vazio (o MDX não compila com eles).
-8. **Links entre posts**: todo `](/<idioma>/blog/<slug>` precisa apontar para um arquivo existente em `content/blog/<idioma>/`. Só linke posts já publicados ou produzidos no mesmo lote.
+8. **Ilustrações**: todo `![alt](/images/blog/...)` do post precisa apontar para um arquivo existente em `public/images/blog/`, em WebP, com `alt` preenchido; entre 3 e 4 no corpo, ou menos se alguma foi reprovada (registre no relatório). Nenhuma fora do que foi gerado e conferido no 6.3b.
+9. **Links entre posts**: todo `](/<idioma>/blog/<slug>` precisa apontar para um arquivo existente em `content/blog/<idioma>/`. Só linke posts já publicados ou produzidos no mesmo lote.
 
 ## Passo 7: build
 
@@ -154,7 +177,7 @@ Com todos os arquivos do dia no working tree. Se falhar, tente **uma** correçã
 Para cada artigo aprovado, um commit próprio:
 
 ```bash
-git add content/blog/<idioma>/<slug>.mdx content/blog/<idioma>/schemas/<slug>.schema.json docs/briefs/<idioma>/<slug>-brief.md public/images/blog/<slug>.webp docs/blog-queue*.json
+git add content/blog/<idioma>/<slug>.mdx content/blog/<idioma>/schemas/<slug>.schema.json docs/briefs/<idioma>/<slug>-brief.md public/images/blog/<slug>.webp public/images/blog/<slug>-*.webp docs/blog-queue*.json
 git commit -m "content(blog): publica <slug> (<idioma>, agendado <data>)"
 git push origin main
 ```
@@ -175,4 +198,4 @@ Vale mesmo quando tudo falhou. Um lock preso bloqueia todos os dias seguintes.
 
 ## Relatório final
 
-Três a seis linhas: o que foi publicado em cada idioma (slug e score), o que falhou e por quê, se o factcheck rodou ou caiu para o modo sem citações, e o status geral (`OK`, `PARCIAL`, `NO-OP` ou `ABORT` com o motivo).
+Três a seis linhas: o que foi publicado em cada idioma (slug e score), o que falhou e por quê, quantas ilustrações entraram em cada artigo ("ilustrações: N de 4"), se o factcheck rodou ou caiu para o modo sem citações, e o status geral (`OK`, `PARCIAL`, `NO-OP` ou `ABORT` com o motivo).
