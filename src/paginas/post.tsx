@@ -33,21 +33,16 @@ const componentesMdx = {
     ) : null,
 };
 
-// Rodapé "Sobre o autor" (separador --- + título em negrito): vira um box.
-const RODAPE_AUTOR =
-  /\n-{3,}[ \t]*\n+\*\*(Sobre o autor|About the author|Sobre el autor)\*\*[ \t]*\n+([\s\S]*?)\s*$/;
+// O box do autor é automático (dicionário, em todo post assinado pelo Lin). Se
+// um artigo ainda trouxer um rodapé manual "Sobre o autor" (--- + título em
+// negrito), ele é descartado aqui para o box não aparecer duas vezes.
+const RODAPE_AUTOR_MANUAL =
+  /\n-{3,}[ \t]*\n+\*\*(Sobre o autor|About the author|Sobre el autor)\*\*[ \t]*\n+[\s\S]*?\s*$/;
 
-function separarRodapeAutor(conteudo: string): {
-  corpo: string;
-  autor?: { titulo: string; texto: string };
-} {
+function semRodapeAutorManual(conteudo: string): string {
   const normalizado = conteudo.replace(/\r\n/g, "\n");
-  const m = RODAPE_AUTOR.exec(normalizado);
-  if (!m) return { corpo: conteudo };
-  return {
-    corpo: normalizado.slice(0, m.index),
-    autor: { titulo: m[1], texto: m[2] },
-  };
+  const m = RODAPE_AUTOR_MANUAL.exec(normalizado);
+  return m ? normalizado.slice(0, m.index) : conteudo;
 }
 
 // O post pode não existir (slug digitado errado): quem chama decide o 404.
@@ -71,7 +66,8 @@ export function metadataPost(post: Post): Metadata {
 export function PaginaPost({ post }: { post: Post }) {
   const { idioma, slug } = post;
   const t = dicionario(idioma);
-  const { corpo, autor } = separarRodapeAutor(post.conteudo);
+  const corpo = semRodapeAutorManual(post.conteudo);
+  const mostrarAutor = post.frontmatter.autor === "Lin Zeri";
 
   return (
     <article className="prose mx-auto max-w-3xl px-4 py-16">
@@ -125,7 +121,7 @@ export function PaginaPost({ post }: { post: Post }) {
           components={componentesMdx}
         />
       </div>
-      {autor ? (
+      {mostrarAutor ? (
         <aside className="mt-14 flex flex-col gap-5 rounded-2xl border border-border bg-surface p-6 sm:flex-row sm:items-start sm:p-8">
           <Image
             src="/images/lin-zeri.webp"
@@ -136,11 +132,17 @@ export function PaginaPost({ post }: { post: Post }) {
           />
           <div className="min-w-0">
             <p className="font-display text-sm uppercase tracking-widest">
-              <span className="marca">{autor.titulo}</span>
+              <span className="marca">{t.blog.autorTitulo}</span>
             </p>
-            <div className="mt-3 text-[0.95rem] leading-relaxed text-muted [&_a]:font-semibold [&_a]:text-foreground [&_a]:underline">
-              <MDXRemote source={autor.texto} />
-            </div>
+            <p className="mt-3 text-[0.95rem] leading-relaxed text-muted">
+              <Link
+                href={caminho(idioma, { tipo: "sobre" })}
+                className="font-semibold text-foreground underline"
+              >
+                Lin Zeri
+              </Link>{" "}
+              {t.blog.autorTexto}
+            </p>
           </div>
         </aside>
       ) : null}

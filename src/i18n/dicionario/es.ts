@@ -367,6 +367,9 @@ export const es = {
       "Lo que aprendemos cada día gestionando campañas, SEO y sitios web, escrito para que lo apliques en tu negocio.",
     por: "por",
     ler: "Leer artículo",
+    autorTitulo: "Sobre el autor",
+    autorTexto:
+      "tiene más de 10 años en marketing digital y gestiona campañas de anuncios pagados para negocios locales en Estados Unidos y Brasil. Al frente de Etuos, ha trabajado con clientes de 13 sectores, con resultados de +300% en facturación, y ha gestionado más de $500K en inversión publicitaria a lo largo de su carrera.",
   },
   contato: {
     metaTitulo: "Contacto: diagnóstico gratuito por WhatsApp",

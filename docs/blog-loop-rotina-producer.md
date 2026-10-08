@@ -149,6 +149,7 @@ Ilustração **nunca bloqueia** a publicação, ao contrário da capa: se a gera
 - Afirmações sobre elegibilidade, prazos ou nomes de programas do Google (por exemplo, o selo dos Local Services Ads, hoje "Google Verified") só com a página de ajuda aberta e conferida. Na dúvida, escreva "confira a elegibilidade para o seu ofício e cidade".
 - Estatísticas externas só as já registradas em `docs/blog-fontes-verificadas.md`, citadas com o campo Markdown exato e respeitando o "Uso proibido" de cada uma.
 - Nada de comentários HTML (`<!-- -->`) no corpo: o MDX não compila e o build quebra.
+- Não escreva rodapé de autor ("Sobre o autor", "About the author") no MDX: o box do autor é automático no fim de todo post assinado pelo Lin, nos três idiomas.
 
 Se a tool Workflow não existir ou falhar por infraestrutura, marque o item como failed com motivo `workflow_tool_unavailable`, libere o lock e relate. Não tente reimplementar o pipeline na mão.
 

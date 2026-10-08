@@ -384,6 +384,10 @@ export const pt = {
       "O que a gente aprende gerenciando campanhas, SEO e sites todo dia, escrito para você aplicar no seu negócio.",
     por: "por",
     ler: "Ler artigo",
+    // Box no fim de todo artigo assinado pelo Lin. Só números autorizados.
+    autorTitulo: "Sobre o autor",
+    autorTexto:
+      "tem mais de 10 anos de marketing digital e gerencia campanhas de tráfego pago para negócios locais nos EUA e no Brasil. À frente da Etuos, ajudou clientes em 13 setores com resultados de +300% de faturamento e gerenciou mais de US$ 500 mil em anúncios ao longo da carreira.",
   },
   contato: {
     metaTitulo: "Contato: diagnóstico gratuito no WhatsApp",

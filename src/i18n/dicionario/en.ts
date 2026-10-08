@@ -377,6 +377,9 @@ export const en = {
       "What we learn running campaigns, SEO and websites every day, written so you can apply it to your own business.",
     por: "by",
     ler: "Read article",
+    autorTitulo: "About the author",
+    autorTexto:
+      "has over 10 years in digital marketing and runs paid ad campaigns for local businesses in the United States and Brazil. Leading Etuos, Lin has worked with clients across 13 industries, with results of +300% revenue growth, and has managed over $500K in ad spend over a career.",
   },
   contato: {
     metaTitulo: "Contact: free diagnosis on WhatsApp",

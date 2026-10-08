@@ -170,6 +170,11 @@ h3 {
 
 /* Corpo dos artigos do blog (MDX): tabela, resumo, divisória, código e SVG.
    Só tokens da marca; o verde marca destaque, nunca preenchimento grande. */
+/* URLs e códigos longos (UTM, fontes) quebram linha em vez de estourar o celular. */
+.post-corpo {
+  overflow-wrap: anywhere;
+}
+
 .post-corpo table {
   display: block;
   width: 100%;

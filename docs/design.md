@@ -73,7 +73,7 @@ Renderizado por `src/paginas/post.tsx` (MDX com `remark-gfm`) e estilizado pelo 
 - **Resumo (TL;DR)**: o `>` vira caixa `surface` com barra lateral verde.
 - **Figuras e gráficos SVG**: o `next-mdx-remote` descarta `style={{...}}` do MDX (`blockJS`), então margem, legenda e rolagem horizontal no celular vêm só do CSS. Gráficos usam fundo grafite e **apenas o verde ácido** como cor (nada de azul ou âmbar).
 - **Imagens do corpo** (`![alt](/images/blog/...)`): viram `next/image` 1200x675, cantos arredondados e borda `border`. WebP, `alt` obrigatório.
-- **Box do autor**: o rodapé `---` + `**Sobre o autor**` (ou `About the author`, `Sobre el autor`) é detectado e renderizado como `aside` com o retrato do Lin em preto e branco, sem alterar o texto do MDX.
+- **Box do autor**: automático no fim de todo post com `autor: "Lin Zeri"`, nos três idiomas (texto em `dicionario.blog.autorTitulo` e `autorTexto`, só com números autorizados), com o retrato do Lin em preto e branco. **Não escreva rodapé de autor no MDX**: se existir um `---` + `**Sobre o autor**` manual, ele é descartado na renderização para não duplicar.
 - **Ilustrações** do corpo seguem a identidade: fundo branco, grafite, cinzas e um único verde ácido, sem texto, sem número e sem logo. Gere com `node scripts/gerar-imagem-blog.mjs --slug <slug> --tema "<titulo>" --estilo ilustracao --arquivo <slug>-<n>-<assunto> --contexto "<cena>"` e confira a imagem antes de usar. A capa continua fotorrealista.
 
 Camadas fixas: header `z-40` (desktop), menu mobile `z-40`, barra de CTA e banner de idioma `z-30`, botão flutuante `z-50` (só desktop).
