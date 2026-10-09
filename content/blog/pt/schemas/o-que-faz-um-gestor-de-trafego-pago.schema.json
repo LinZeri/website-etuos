@@ -1,0 +1,201 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/o-que-faz-um-gestor-de-trafego-pago#article",
+      "headline": "O que faz um gestor de tráfego pago (e como escolher o seu)",
+      "description": "Veja o que um gestor de tráfego pago faz, o que ele não resolve sozinho, os sinais de alerta e um checklist para escolher o seu, no Brasil ou nos EUA.",
+      "datePublished": "2026-09-24",
+      "dateModified": "2026-09-24",
+      "inLanguage": "pt-BR",
+      "wordCount": 3003,
+      "keywords": [
+        "gestor de tráfego pago",
+        "o que faz gestor de tráfego",
+        "como escolher gestor de tráfego pago",
+        "tráfego pago",
+        "Google Ads",
+        "Meta Ads"
+      ],
+      "articleSection": "Tráfego Pago",
+      "articleBody": "Gestor de tráfego pago é a pessoa responsável por planejar, rodar e melhorar os seus anúncios pagos, principalmente no Google e na Meta (Facebook e Instagram). Ele não é quem cria o seu produto, não é quem atende o cliente e não é mágico. O trabalho dele é colocar a sua oferta na frente de quem tem chance de comprar, gastar a verba com critério e mostrar, com números, o que está dando retorno.",
+      "author": {
+        "@id": "https://etuos.com/pt/autor/lin-zeri#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/o-que-faz-um-gestor-de-trafego-pago#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/pt/blog/o-que-faz-um-gestor-de-trafego-pago#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "gestor de tráfego pago"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Meta Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "como contratar gestor de tráfego"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/autor/lin-zeri#person",
+      "name": "Lin Zeri",
+      "url": "https://etuos.com/pt/autor/lin-zeri",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      },
+      "sameAs": [
+        "https://github.com/LinZeri"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog Etuos",
+      "url": "https://etuos.com/pt/blog",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/o-que-faz-um-gestor-de-trafego-pago#webpage",
+      "url": "https://etuos.com/pt/blog/o-que-faz-um-gestor-de-trafego-pago",
+      "name": "Gestor de tráfego pago: o que faz e como escolher",
+      "description": "Veja o que um gestor de tráfego pago faz, o que ele não resolve sozinho, os sinais de alerta e um checklist para escolher o seu, no Brasil ou nos EUA.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/o-que-faz-um-gestor-de-trafego-pago#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/o-que-faz-um-gestor-de-trafego-pago#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/o-que-faz-um-gestor-de-trafego-pago#primaryimage",
+      "url": "https://etuos.com/images/blog/o-que-faz-um-gestor-de-trafego-pago.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de negócio conversando com um gestor de tráfego pago sobre os resultados das campanhas"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/o-que-faz-um-gestor-de-trafego-pago#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "O que faz um gestor de tráfego pago (e como escolher o seu)",
+          "item": "https://etuos.com/pt/blog/o-que-faz-um-gestor-de-trafego-pago"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/o-que-faz-um-gestor-de-trafego-pago#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que faz um gestor de tráfego pago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ele planeja, configura, acompanha e otimiza os anúncios pagos do seu negócio, principalmente no Google e na Meta. Define canais e segmentação, escreve ou orienta anúncios, configura a medição de contatos e vendas, ajusta a verba com base nos dados e entrega relatórios com custo por resultado. Ele não substitui a oferta, a página de destino nem o atendimento, que continuam sendo do negócio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como escolher um gestor de tráfego pago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Confira se a conta de anúncios fica no seu nome, se ele mede resultado em contato ou venda e não só em cliques, se faz perguntas sobre o seu negócio antes de propor campanha, se entrega relatórios claros com acesso direto aos dados, se separa a verba de anúncio do valor da gestão e se explica o que não controla. Desconfie de promessa de resultado garantido e de contrato que prende sem transparência."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto custa um gestor de tráfego pago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um preço único, e os modelos variam: valor fixo de gestão, percentual sobre a verba investida ou combinações dos dois. O mais importante é separar o que você paga pela gestão do que investe em anúncios, e entender o que está incluído: criação de anúncios, página, relatórios, reuniões. Compare propostas pelo que será entregue e pelo critério de resultado, e não só pelo valor mensal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de gestor de tráfego ou posso anunciar sozinho?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pode anunciar sozinho se a conta for simples, se você tiver tempo para aprender e aceitar errar no começo. Um gestor faz sentido quando a verba já é relevante para o seu caixa, quando você não tem tempo de acompanhar os números ou quando precisa integrar vários canais. A decisão depende menos do tamanho do negócio e mais do tempo e do conhecimento que você tem para dedicar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gestor de tráfego nos EUA é diferente de gestor no Brasil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O ofício é o mesmo, mas o contexto muda: idioma do anúncio e da página, concorrência local, canais como Local Services Ads e a forma como o público decide e contata o negócio. Quem anuncia nos EUA precisa de um gestor que conheça esse ambiente, de preferência com experiência em atender donos de negócio brasileiros que falam com públicos diferentes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Em quanto tempo o gestor de tráfego traz resultado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe prazo fixo, e ninguém deveria prometer um. O resultado depende da oferta, da página, da concorrência, da verba e do atendimento. Uma campanha nova precisa reunir dados suficientes antes de ser otimizada, e decisões tomadas com poucos cliques costumam ser precipitadas. Em vez de esperar uma data, acompanhe o custo por contato e compare com o que o seu negócio suporta pagar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quando devo trocar de gestor de tráfego?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quando faltarem transparência e explicação: sem acesso à conta, sem relatórios com custo por resultado, sem plano claro para melhorar o que não funciona, ou com promessas que não se sustentam. Antes de trocar, converse e peça um diagnóstico. Às vezes o problema está na oferta, na página ou no atendimento, e trocar de gestor não resolve isso."
+          }
+        }
+      ]
+    }
+  ]
+}
