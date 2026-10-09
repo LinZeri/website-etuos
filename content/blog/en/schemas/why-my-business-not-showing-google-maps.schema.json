@@ -1,0 +1,190 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/why-my-business-not-showing-google-maps#article",
+      "headline": "Why Your Business Is Not Showing Up on Google Maps (and How to Fix It)",
+      "description": "Business not showing on Google Maps? Check these seven causes in order of likelihood: suspension, address, duplicates, category, distance, reviews and NAP.",
+      "datePublished": "2026-09-22",
+      "dateModified": "2026-09-22",
+      "inLanguage": "en-US",
+      "wordCount": 2432,
+      "keywords": [
+        "why is my google business profile not showing up",
+        "how to rank higher on google maps",
+        "business not showing in map pack",
+        "google maps ranking factors",
+        "google business profile suspended",
+        "google maps"
+      ],
+      "articleSection": [
+        "Is Your Profile Suspended or Unverified?",
+        "Does Your Address Break Google's Rules?",
+        "Do You Have Duplicate Listings?",
+        "Is Your Primary Category Wrong?",
+        "Are You Too Far From the Person Searching?",
+        "Is Your Review Profile Too Thin?",
+        "Is Your NAP Inconsistent Across the Web?",
+        "What Order Should You Fix Things In?",
+        "Frequently Asked Questions",
+        "Not Sure Which of the Seven Is Hurting You?"
+      ],
+      "articleBody": "You search for your own service plus your city, scroll through the map, and your business is nowhere. Competitors you know are smaller than you show up in the top three. It feels personal, but it almost never is. A missing listing has a cause, and the cause is usually one of seven things. This guide is a troubleshooting order, not a theory lesson. It starts with the problems most likely to make your profile vanish completely, then moves to the ones that quietly push you down the list. Each cause gets a check you can run in a few minutes and a fix.",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/why-my-business-not-showing-google-maps#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/why-my-business-not-showing-google-maps"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Maps"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local SEO"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Pack Ranking"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/why-my-business-not-showing-google-maps",
+      "url": "https://etuos.com/en/blog/why-my-business-not-showing-google-maps",
+      "name": "Why Your Business Is Not Showing Up on Google Maps (and How to Fix It)",
+      "description": "Business not showing on Google Maps? Check these seven causes in order of likelihood: suspension, address, duplicates, category, distance, reviews and NAP.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/why-my-business-not-showing-google-maps#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/why-my-business-not-showing-google-maps#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/why-my-business-not-showing-google-maps#primaryimage",
+      "url": "https://etuos.com/images/blog/why-my-business-not-showing-google-maps.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A small hair salon storefront on a quiet commercial street at dusk with warm lights on inside"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/why-my-business-not-showing-google-maps#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Why Your Business Is Not Showing Up on Google Maps (and How to Fix It)",
+          "item": "https://etuos.com/en/blog/why-my-business-not-showing-google-maps"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/why-my-business-not-showing-google-maps#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why is my Google Business Profile not showing up when I search my own business name?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most likely causes are a suspended or removed profile, a profile that was never verified, or a duplicate that Google is showing instead. Check your Business Profile dashboard for notices first, then search your phone number and old addresses to look for duplicates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I pay Google to rank higher on Google Maps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google states that there is no way to request or pay for a better local ranking. What you can improve is relevance, which comes from a correct category and complete profile, and prominence, which comes from reviews and a well-known business. Distance is the third factor, and you cannot change it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do I show up when I search from my office but not from across town?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because Google weighs distance from the person searching. Your profile can rank well near your location and drop in neighborhoods farther away. Test from the areas you want to reach, and strengthen reviews and website content so you hold up better when distance is not in your favor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use my home address for my profile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you run a service-area business from home, you can use the address to set up the profile, but Google tells service-area businesses to hide the address from customers. Then list the cities or zip codes you serve. Do not substitute a mailbox store or virtual office address, because those are not eligible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I create a new profile if mine was suspended?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google says not to create a new profile for the same business. Use the appeals tool instead, with evidence that matches your profile's name and address. Appeals can only be submitted once, so prepare it carefully."
+          }
+        }
+      ]
+    }
+  ]
+}
