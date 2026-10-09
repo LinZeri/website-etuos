@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/google-business-profile-para-brasileiros-nos-eua#article",
+      "headline": "Google Business Profile para negócio brasileiro nos EUA: passo a passo",
+      "description": "Como criar o Google Business Profile do seu negócio nos EUA: elegibilidade, endereço ou área de atendimento, telefone, verificação e riscos de suspensão.",
+      "datePublished": "2026-09-22",
+      "dateModified": "2026-09-22",
+      "inLanguage": "pt-BR",
+      "wordCount": 2467,
+      "keywords": "google meu negocio nos eua, google business profile, perfil da empresa no google eua, área de atendimento, verificação do perfil",
+      "articleSection": "SEO Local",
+      "articleBody": "Você presta serviço para a comunidade brasileira, mas o cliente americano também procura no Google antes de ligar. Quando ele digita o tipo de serviço e a cidade, o primeiro lugar onde o seu negócio pode (ou não) aparecer é o mapa.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/google-business-profile-para-brasileiros-nos-eua#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/google-business-profile-para-brasileiros-nos-eua"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "SEO Local"
+        },
+        {
+          "@type": "Thing",
+          "name": "Negócio de área de atendimento"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/google-business-profile-para-brasileiros-nos-eua",
+      "url": "https://etuos.com/pt/blog/google-business-profile-para-brasileiros-nos-eua",
+      "name": "Google Business Profile para negócio brasileiro nos EUA: passo a passo",
+      "description": "Como criar o Google Business Profile do seu negócio nos EUA: elegibilidade, endereço ou área de atendimento, telefone, verificação e riscos de suspensão.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/google-business-profile-para-brasileiros-nos-eua#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/google-business-profile-para-brasileiros-nos-eua#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/google-business-profile-para-brasileiros-nos-eua#primaryimage",
+      "url": "https://etuos.com/images/blog/google-business-profile-para-brasileiros-nos-eua.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dona de uma barbearia num bairro brasileiro nos EUA conferindo o próprio perfil no Google no celular, vitrine ao fundo"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/google-business-profile-para-brasileiros-nos-eua#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Google Business Profile para negócio brasileiro nos EUA: passo a passo",
+          "item": "https://etuos.com/pt/blog/google-business-profile-para-brasileiros-nos-eua"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/google-business-profile-para-brasileiros-nos-eua#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Posso criar o Google Business Profile sem ter endereço comercial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pode, se o seu negócio vai até o cliente. Nesse caso você cria um perfil de área de atendimento e esconde o endereço dos clientes, como recomendam as diretrizes do Google. O que não vale é usar caixa postal, escritório virtual ou endereço de terceiros."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de número de telefone americano?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As diretrizes pedem um número sob o controle direto do negócio e preferem um número local a uma central de atendimento. Para quem atende clientes nos EUA, um número americano da região facilita a ligação do cliente e a consistência com o site."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso colocar o nome da cidade e o serviço no nome do perfil para aparecer melhor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Adicionar informação desnecessária ao nome pode levar à suspensão do perfil. Use o nome real do negócio e coloque cidade e serviço na descrição e nas categorias."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tenho perfil só em português. Isso atrapalha?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Atrapalha se a categoria e a descrição ficarem só em português e você quer o cliente americano. Use a categoria no vocabulário em inglês e escreva a descrição de forma bilíngue e natural."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo leva para o perfil aparecer no mapa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe prazo fixo, e ninguém consegue prometer posição. O perfil precisa ser verificado, e o ranking depende de relevância, distância e reputação, além da concorrência na sua cidade e no seu nicho."
+          }
+        }
+      ]
+    }
+  ]
+}
