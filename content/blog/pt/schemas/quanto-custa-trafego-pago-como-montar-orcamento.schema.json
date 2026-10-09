@@ -1,0 +1,197 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-trafego-pago-como-montar-orcamento#article",
+      "headline": "Quanto custa tráfego pago: como montar o orçamento do seu negócio",
+      "description": "Quanto custa tráfego pago? Separe verba de mídia, custo do gestor e custo do lead e monte o orçamento a partir da conta que o seu negócio suporta.",
+      "datePublished": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "inLanguage": "pt-BR",
+      "wordCount": 2694,
+      "keywords": [
+        "quanto custa tráfego pago",
+        "investimento em tráfego pago",
+        "quanto investir em anúncios",
+        "custo de gestor de tráfego",
+        "tráfego pago",
+        "orçamento de anúncios"
+      ],
+      "articleSection": "Tráfego Pago",
+      "articleBody": "\"Quanto custa tráfego pago?\" é uma pergunta honesta com uma resposta incômoda: depende de três contas diferentes, e a maioria das pessoas mistura as três. Uma coisa é o que você paga ao Google ou à Meta. Outra é o que você paga a quem configura e acompanha a campanha. A terceira, que decide tudo, é quanto custa cada contato que chega e quanto cada cliente fechado deixa de lucro.",
+      "author": {
+        "@id": "https://etuos.com/pt/autor/lin-zeri#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/quanto-custa-trafego-pago-como-montar-orcamento#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/pt/blog/quanto-custa-trafego-pago-como-montar-orcamento#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "tráfego pago"
+        },
+        {
+          "@type": "Thing",
+          "name": "orçamento de anúncios"
+        },
+        {
+          "@type": "Thing",
+          "name": "custo por lead"
+        },
+        {
+          "@type": "Thing",
+          "name": "gestor de tráfego"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/autor/lin-zeri#person",
+      "name": "Lin Zeri",
+      "url": "https://etuos.com/pt/autor/lin-zeri",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      },
+      "sameAs": [
+        "https://github.com/LinZeri"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog Etuos",
+      "url": "https://etuos.com/pt/blog",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-trafego-pago-como-montar-orcamento#webpage",
+      "url": "https://etuos.com/pt/blog/quanto-custa-trafego-pago-como-montar-orcamento",
+      "name": "Quanto custa tráfego pago: como montar o orçamento",
+      "description": "Quanto custa tráfego pago? Separe verba de mídia, custo do gestor e custo do lead e monte o orçamento a partir da conta que o seu negócio suporta.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/quanto-custa-trafego-pago-como-montar-orcamento#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/quanto-custa-trafego-pago-como-montar-orcamento#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-trafego-pago-como-montar-orcamento#primaryimage",
+      "url": "https://etuos.com/images/blog/quanto-custa-trafego-pago-como-montar-orcamento.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Empreendedora fazendo as contas do orçamento de tráfego pago com calculadora e laptop"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-trafego-pago-como-montar-orcamento#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Quanto custa tráfego pago: como montar o orçamento do seu negócio",
+          "item": "https://etuos.com/pt/blog/quanto-custa-trafego-pago-como-montar-orcamento"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-trafego-pago-como-montar-orcamento#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto custa tráfego pago por mês?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um valor único. O orçamento soma verba de mídia (que você define), custo de gestão (que você combina com o profissional) e depende do custo por lead do seu nicho. O ponto de partida correto é calcular o custo por lead máximo que o seu negócio suporta e, a partir dele, definir quantos leads você quer e quanto isso exige de verba."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto um gestor de tráfego cobra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Varia conforme o profissional e o escopo. Os formatos mais comuns são valor fixo, percentual sobre a verba de mídia ou uma combinação dos dois. Compare o que está incluído em cada proposta, exija que a gestão apareça separada da mídia e confirme que a conta da plataforma fica no seu nome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual é o valor mínimo para anunciar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há um mínimo universal. A plataforma permite verbas pequenas, mas verba curta demais gera poucos cliques e pouca informação para otimizar. Use a previsão do Keyword Planner para ver o que a sua verba tende a entregar e compare com o custo por lead máximo que você calculou."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como saber se o meu custo por lead está bom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Compare com o teto do seu negócio: ticket médio × margem × taxa de fechamento. Se o custo por lead real fica abaixo desse valor, o canal se paga. Se fica acima, ajuste página, oferta ou processo de fechamento antes de aumentar a verba. Benchmark de outro setor não responde a essa pergunta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para anunciar sem gestor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dá. As plataformas têm interface acessível, e uma campanha simples de busca é uma boa forma de aprender. O custo é o seu tempo e o risco de gastar verba na curva de aprendizado. Quando o orçamento cresce ou o tempo é curto, um gestor com experiência no seu nicho tende a compensar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo demora para ter retorno?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe prazo fixo, e ninguém deveria prometer um. Depende do nicho, da concorrência, da oferta e da página de destino. O resultado consistente aparece depois que a campanha reúne dados suficientes para ser otimizada, então acompanhe o custo por lead e compare com o seu teto, em vez de esperar uma data."
+          }
+        }
+      ]
+    }
+  ]
+}
