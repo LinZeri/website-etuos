@@ -1,0 +1,178 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/marketing-to-multilingual-customers-local-business#article",
+      "headline": "Your Customers Do Not All Search in English: Multilingual Marketing for Local Businesses",
+      "description": "A translated ad is not a Spanish campaign. See what really changes in search terms, objections and trust signals when you market to multilingual customers.",
+      "datePublished": "2026-10-01",
+      "dateModified": "2026-10-01",
+      "inLanguage": "en-US",
+      "wordCount": 2700,
+      "keywords": [
+        "marketing to hispanic customers",
+        "bilingual marketing for small business",
+        "spanish language google ads",
+        "multilingual local marketing"
+      ],
+      "articleSection": [
+        "Multilingual Marketing",
+        "Local Business",
+        "Spanish Language Advertising"
+      ],
+      "articleBody": "Picture two neighbors on the same street in Houston. One types house cleaning near me into her phone. The other types limpieza de casas cerca de mi. Same need, same zip code, same budget in mind. Only one of them sees your business, and you will never know the second one existed.",
+      "author": {
+        "@id": "https://etuos.com/en/about#author-lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/marketing-to-multilingual-customers-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/en/blog/marketing-to-multilingual-customers-local-business#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Multilingual Marketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Spanish Language Advertising"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Business Marketing"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#author-lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Specialist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/marketing-to-multilingual-customers-local-business#webpage",
+      "url": "https://etuos.com/en/blog/marketing-to-multilingual-customers-local-business",
+      "name": "Your Customers Do Not All Search in English: Multilingual Marketing for Local Businesses",
+      "description": "A translated ad is not a Spanish campaign. See what really changes in search terms, objections and trust signals when you market to multilingual customers.",
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/marketing-to-multilingual-customers-local-business#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/marketing-to-multilingual-customers-local-business#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/marketing-to-multilingual-customers-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/marketing-to-multilingual-customers-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A family-owned bakery owner handing a paper bag to a customer across the counter"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/marketing-to-multilingual-customers-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Your Customers Do Not All Search in English: Multilingual Marketing for Local Businesses",
+          "item": "https://etuos.com/en/blog/marketing-to-multilingual-customers-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/marketing-to-multilingual-customers-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a Spanish ad just my English ad translated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The words people search, the worries they have before calling and the signals they trust are different, so the keyword list, the message and the landing page each need their own work. Translation is a useful last step for polish, not the starting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a separate website for Spanish-speaking customers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually not. For most local service businesses, one site with a well-written Spanish service page for each core service is a better start than a second site. Keep the contact details and business information identical across both languages."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I hire a Spanish speaker before I run Spanish ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ideally yes, or at least have a teammate who can take the first call and book the job. An ad that promises Spanish service and reaches an English-only phone line costs you the click and the customer's first impression."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if my area has enough Spanish or Portuguese speakers to bother?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with your own calls, messages and reviews, then look up your city or county in the Census language tables. If you already get inquiries in another language without trying, a small, separate ad group is a low-risk way to test the demand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will running two languages double my ad spend?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not by itself. You can start with a small separate ad group for the second language and keep the rest of the budget where it is. Because the group reports on its own, you can see what it costs per lead and decide whether to grow it."
+          }
+        }
+      ]
+    }
+  ]
+}
