@@ -289,6 +289,77 @@ Markdown: `([BrightLocal, 2026](https://www.brightlocal.com/research/local-consu
 Uso permitido: artigos sobre SEO local, gestão de avaliações, importância das estrelas para conversão, argumento para responder a todas as avaliações.
 Uso proibido: não citar o dado de 31% como requisito absoluto (é preferência declarada em survey, não comportamento observado); não generalizar fora dos EUA (amostra é de adultos americanos).
 
+**S10: Segundo o Google, o ranking local se baseia principalmente em relevância, distância e destaque, e não existe como pagar por posição melhor.** A página de ajuda do Perfil da Empresa define os três fatores e diz que o destaque também depende de quantos sites apontam para o negócio e de quantas avaliações ele tem.
+Citação literal confirmada (WebFetch, out. 2026): "Local results are mainly based on relevance, distance, and popularity." / "Relevance is how well a Business Profile matches what someone is searching for." / "Distance refers to how far each business is from the customer who’s searching." / "This factor’s also based on info like how many websites link to your business and how many reviews you have." / "More reviews and positive ratings can help your business’s local ranking." / "There's no way to request or pay for a better local ranking on Google."
+Fonte a citar: **Google, "Improve your local ranking on Google", Google Business Profile Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/business/answer/7091
+Markdown (pt): `([Google, "Improve your local ranking on Google", Google Business Profile Help](https://support.google.com/business/answer/7091), acesso em out. 2026)`
+Uso permitido: explicar os fatores de ranking local; dizer que não se paga por posição no ranking local orgânico (vale para o ranking local, não para anúncios).
+Uso proibido: a versão atual da página usa "popularity" (outras versões usam "prominence"); não atribuir ao Google percentuais de peso de cada fator; não afirmar que a página lista SEO, artigos ou diretórios como fatores.
+
+**S11: Google's Business Profile guidelines rule out virtual offices and P.O. boxes, allow one profile per location, and tell service-area businesses to hide their address.** Verificado em 09/10/2026 por WebFetch direto na página oficial.
+Citação literal confirmada: "If your business rents a physical mailing address but doesn’t operate out of that location, also known as a virtual office" ... "that location isn’t eligible for a Business Profile." e "P.O. boxes or mailboxes located at remote locations aren’t acceptable." e "Do not create more than one page for each location of your business, either in a single account or multiple accounts." e "If you’re a service-area business, you should hide your business address from customers." e "Use as few categories as possible to describe your overall core business from the provided list." e "Including unnecessary information in your business name isn’t permitted"
+Fonte a citar: **Google, "Guidelines for representing your business on Google", Business Profile Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/business/answer/3038177
+Markdown: `([Google, "Guidelines for representing your business on Google", Business Profile Help](https://support.google.com/business/answer/3038177), accessed Oct. 2026)`
+Uso permitido: artigos sobre perfil suspenso, endereço, duplicatas, categorias e nome do negócio.
+Uso proibido: não derivar prazos nem números da página; não afirmar que a página lista motivos de suspensão (ela define regras de representação).
+
+**S12: Google says local results are ranked mainly by relevance, distance and prominence, and that you cannot pay for a better local ranking.** Verificado em 09/10/2026 por WebFetch direto.
+Citação literal confirmada: "Relevance is how well a Business Profile matches what someone is searching for." e "Distance refers to how far each business is from the customer who’s searching." e "Prominence means how well-known a business is." e "There's no way to request or pay for a better local ranking on Google."
+Fonte a citar: **Google, "Tips to improve your local ranking on Google", Business Profile Help** (Tier 1).
+URL: https://support.google.com/business/answer/7091
+Markdown: `([Google, "Improve your local ranking on Google", Business Profile Help](https://support.google.com/business/answer/7091), accessed Oct. 2026)`
+Uso permitido: explicar proximidade, relevância e proeminência; dizer que não se compra posição no ranking local.
+Uso proibido: não atribuir pesos percentuais a esses três fatores.
+
+**S13: Google may suspend or disable profiles that break its guidelines; a removed profile is not visible to the public, and the owner can appeal once.** Verificado em 09/10/2026 por WebFetch direto.
+Citação literal confirmada: "We may suspend or disable Business Profiles that don't follow our guidelines." e "The public can't go to the profile." e "Don't create a new profile for the same business." e "Appeals can only be submitted once."
+Fonte a citar: **Google, "Fix suspended or disabled profiles", Business Profile Help** (Tier 1).
+URL: https://support.google.com/business/answer/4569145
+Markdown: `([Google, "Fix suspended or disabled profiles", Business Profile Help](https://support.google.com/business/answer/4569145), accessed Oct. 2026)`
+Uso permitido: seção sobre perfil suspenso, apelação, evidências (registro do negócio, licença, contas de serviços públicos; nome e endereço devem bater com o perfil).
+Uso proibido: não dizer quanto tempo a análise leva; a página não lista motivos específicos de suspensão.
+
+**S14: Google requires verification to edit business info and interact with customers.** Verificado em 09/10/2026 por WebFetch direto.
+Citação literal confirmada: "To edit your business info on Google, such as business name or business hours, and interact with customers" ... "you need to verify your business."
+Fonte a citar: **Google, "Verify your business", Business Profile Help** (Tier 1).
+URL: https://support.google.com/business/answer/7107242
+Markdown: `([Google, "Verify your business", Business Profile Help](https://support.google.com/business/answer/7107242), accessed Oct. 2026)`
+Uso permitido: explicar que sem verificação o dono não edita nem interage.
+Uso proibido: a página não diz se um perfil não verificado fica oculto na busca, não afirmar isso nem prazos de verificação.
+
+**S15: Pela política de conteúdo do Google Maps, avaliação em troca de incentivo, avaliação seletiva e conflito de interesse são proibidos.** A página de conteúdo proibido e restrito lista o que é removido e que a violação pode levar à suspensão ou ao encerramento da conta.
+Citação literal confirmada (WebFetch, out. 2026): "Fake engagement is not allowed and will be removed." / "Offer incentives – such as payment, discounts, free goods and/or services" / "Discourage or prohibit negative reviews, or selectively solicit positive reviews from customers" / "Content that is based on a conflict of interest." / "A conflict of interest may include current or former employment" / "Content that has been posted from multiple accounts by or at the request of one person." / "we may take actions that will range from suspending the account privileges to account termination."
+Fonte a citar: **Google, Ajuda do Perfil da Empresa, "Prohibited & restricted content"** (Tier 1, documentação oficial).
+URL: https://support.google.com/business/answer/7400114
+Markdown: `([Google, Ajuda do Perfil da Empresa](https://support.google.com/business/answer/7400114), acesso em out. 2026)`
+Uso permitido: artigos sobre avaliações no Google, o que não fazer ao pedir avaliação.
+Uso proibido: não prometer qual penalidade específica o Google aplica a cada caso (a página só diz que as ações variam de suspensão de privilégios a encerramento da conta).
+
+**S16: Pelo Google, pedir avaliação com link ou QR code é permitido, incentivo é proibido, e a resposta deve ser profissional, curta e sem oferta.** A página "Ask for Google reviews" orienta o dono do perfil a pedir avaliações com um link ou QR code, avisa que o cliente precisa de uma Conta Google e dá orientações para responder.
+Citação literal confirmada (WebFetch, out. 2026, conteúdo reportado pelo WebFetch): oferecer bens ou serviços gratuitos ou com desconto em troca de avaliações é "fake & misleading content" e "strictly prohibited"; as respostas devem ser profissionais, educadas, curtas e relevantes; evitar usar a resposta para oferecer ofertas ou promoções; em avaliação negativa, nunca expor dados privados do avaliador nem atacar pessoalmente, e, se o caso for complexo, convidar o cliente a entrar em contato por telefone ou e-mail; reconhecer erros, pedir desculpas com sinceridade e responder com prontidão.
+Fonte a citar: **Google, Ajuda do Perfil da Empresa, "Ask for Google reviews"** (Tier 1, documentação oficial).
+URL: https://support.google.com/business/answer/3474122
+Markdown: `([Google, Ajuda do Perfil da Empresa](https://support.google.com/business/answer/3474122), acesso em out. 2026)`
+Uso permitido: artigos sobre como pedir e responder avaliações no Google.
+Uso proibido: não afirmar prazos para a avaliação aparecer; não detalhar passos de criação do link (a página remete a outro artigo).
+
+**S17: Google explains how to get the review link or QR code from the Business Profile, where to share it, and that the QR code is generated on a computer browser.** Verificado em 09/10/2026 por WebFetch direto em support.google.com/business/answer/16816815 (e, na política de conteúdo, em support.google.com/contributionpolicy/answer/7400114).
+Citação literal confirmada: "Go to your Business Profile." / "Select Read Reviews" e "Get more reviews", depois o ícone de compartilhar / "Currently, reviews QR codes can only be generated on a computer browser, not on mobile devices." / sugestões de onde compartilhar: recibos, e-mails de agradecimento, final de um chat, QR code impresso na loja, e "through email, WhatsApp message, or Facebook post." Política (contributionpolicy): "merchants should not require or pressure users to leave ratings or write reviews while on the premises" e "Solicit or encourage the posting of content that does represent a genuine experience" sem incentivo e sem "attempting to influence the rating or the contents of the review."
+Fonte a citar: **Google, "Create a Google link or QR code to request reviews", Business Profile Help** (Tier 1). URL: https://support.google.com/business/answer/16816815
+Markdown: `([Google, "Create a Google link or QR code to request reviews", Business Profile Help](https://support.google.com/business/answer/16816815), accessed Oct. 2026)` e `([Google, "Prohibited & restricted content", Maps User Generated Content Policy Help](https://support.google.com/contributionpolicy/answer/7400114), accessed Oct. 2026)`
+Uso permitido: passos para obter o link, onde compartilhar, aviso de que o QR é gerado em navegador de computador, regras de pedir sem pressão, sem incentivo e sem seleção.
+Uso proibido: não afirmar prazos para a avaliação aparecer; os rótulos de menu podem mudar, orientar a conferir a página atual.
+
+**S18: As diretrizes oficiais do Google para o Perfil da Empresa: endereço real, escritório virtual inelegível, negócio de área de atendimento esconde o endereço, telefone sob controle do negócio.** Página "Guidelines for representing your business on Google" (Google Business Profile Help), lida por WebFetch em out. 2026.
+Citações literais confirmadas: "P.O. boxes or mailboxes located at remote locations aren't acceptable." / "If you’re a service-area business, you should hide your business address from customers." / "Use a local phone number instead of a central call center helpline number whenever possible." / "The phone number must be under the direct control of the business." / o nome do negócio com informação desnecessária "could result in the suspension of your Business Profile." / a área de atendimento "shouldn’t extend farther than about 2 hours of driving time from where your business is based." / locais de escritório virtual: "that location isn't eligible for a Business Profile."
+Fonte a citar: **Google, "Guidelines for representing your business on Google", Google Business Profile Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/business/answer/3038177
+Markdown: `([Google, "Guidelines for representing your business on Google", Ajuda do Perfil da Empresa](https://support.google.com/business/answer/3038177), acesso em out. 2026)`
+Uso permitido: regras de elegibilidade de endereço, área de atendimento, telefone e nome do perfil; riscos de suspensão por violar as diretrizes.
+Uso proibido: não prometer que seguir as regras evita suspensão nem que o perfil aparecerá no Local Pack; não inventar prazo de verificação ou de reativação.
+
 ## Cluster M: Mercado multilíngue (Pilar 4)
 
 **M1: Em 2024, 54% dos latinos americanos consomem notícias principalmente em inglês, 21% principalmente em espanhol e 23% igualmente em ambos os idiomas.** A pesquisa foi conduzida pelo Pew Research Center em 2024 com adultos hispânicos dos EUA e cobre hábitos de consumo de mídia digital por idioma, comportamento bilingue e diferenças entre imigrantes e nascidos nos EUA.
@@ -306,6 +377,14 @@ URL: https://csa-research.com/l/media/Consumers-Prefer-their-Own-Language
 Markdown: `([CSA Research, 2020](https://csa-research.com/l/media/Consumers-Prefer-their-Own-Language), acesso em set. 2026)`
 Uso permitido: artigos sobre decisão de idioma de site, marketing multilíngue, justificativa para site bilingue; argumento de que o idioma do site impacta diretamente a conversão.
 Uso proibido: não citar como dado de 2024 (é de 2020, embora ainda amplamente referenciado); não aplicar especificamente a "brasileiro nos EUA" (o dado é global, 29 países); não usar o 76% como estatística de busca (é de preferência de compra).
+
+**M3: No período 2018-2022, 78,3% dos americanos com 5 anos ou mais falavam só inglês em casa; entre quem falava outro idioma, 61,1% falavam espanhol, e 61,0% dos falantes de espanhol falavam inglês "muito bem".** O comunicado do Census não traz contagem total nem percentual agregado de quem fala outro idioma (só dá para inferir por subtração, e o post deve dizer "cerca de um em cada cinco").
+Citação literal confirmada (WebFetch, out. 2026): "Over three-quarters (78.3%) of the nation age 5 and older spoke only English at home" / "Among those that spoke a language other than English in 2018-2022, Spanish (61.1%)" / "61.0% of Spanish speakers spoke English 'very well.'"
+Fonte a citar: **U.S. Census Bureau, "Most Americans Speak Only English at Home or Speak English 'Very Well'", comunicado sobre o ACS 5-year 2018-2022, 2023** (Tier 1, órgão oficial).
+URL: https://www.census.gov/newsroom/press-releases/2023/language-at-home-acs-5-year.html
+Markdown: `([U.S. Census Bureau, 2023](https://www.census.gov/newsroom/press-releases/2023/language-at-home-acs-5-year.html), accessed Oct. 2026)`
+Uso permitido: dimensionar o idioma falado em casa no país, e o argumento de que falar inglês "muito bem" não elimina a preferência por outro idioma (só como inferência rotulada, nunca como dado de busca).
+Uso proibido: não citar como dado de cidade ou metrô (é nacional); não tratar como dado de busca ou de compra; não citar número total de falantes (a página não traz).
 
 ---
 
