@@ -1,0 +1,129 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/how-much-google-ads-cost-small-business#article",
+      "headline": "How Much Google Ads Really Cost a Small Business in 2026",
+      "description": "Google Ads costs three different things: clicks, management and leads. See what drives each one and how to set a budget that fits your business.",
+      "datePublished": "2026-09-24",
+      "dateModified": "2026-09-24",
+      "inLanguage": "en-US",
+      "wordCount": 3300,
+      "keywords": [
+        "how much does google ads cost",
+        "google ads budget for small business",
+        "average cost per click by industry",
+        "how much should a small business spend on marketing"
+      ],
+      "articleSection": [
+        "What You Pay Google: The Click",
+        "What You Pay for Management",
+        "What You Really Pay: The Lead",
+        "Why Industry Averages Mislead You",
+        "How Much Should You Budget?",
+        "Hidden Costs",
+        "When Google Ads Is Not the Right First Move"
+      ],
+      "articleBody": "There is no single answer to how much Google Ads costs. You are really asking about three costs: what you pay Google for clicks, what you pay someone to run the account, and what each customer inquiry costs you at the end.",
+      "author": { "@id": "https://etuos.com/en/about#lin-zeri" },
+      "publisher": { "@id": "https://etuos.com#organization" },
+      "image": { "@id": "https://etuos.com/en/blog/how-much-google-ads-cost-small-business#primaryimage" },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/how-much-google-ads-cost-small-business"
+      },
+      "isPartOf": { "@id": "https://etuos.com/en/blog#blog" },
+      "about": [
+        { "@type": "Thing", "name": "Google Ads" },
+        { "@type": "Thing", "name": "Cost Per Click" },
+        { "@type": "Thing", "name": "Cost Per Lead" },
+        { "@type": "Thing", "name": "Advertising Budget" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": { "@id": "https://etuos.com#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": { "@type": "ImageObject", "url": "https://etuos.com/images/logo.webp" }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": { "@id": "https://etuos.com#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/how-much-google-ads-cost-small-business",
+      "url": "https://etuos.com/en/blog/how-much-google-ads-cost-small-business",
+      "name": "How Much Google Ads Really Cost a Small Business in 2026",
+      "description": "Google Ads costs three different things: clicks, management and leads. See what drives each one and how to set a budget that fits your business.",
+      "primaryImageOfPage": { "@id": "https://etuos.com/en/blog/how-much-google-ads-cost-small-business#primaryimage" },
+      "breadcrumb": { "@id": "https://etuos.com/en/blog/how-much-google-ads-cost-small-business#breadcrumb" }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/how-much-google-ads-cost-small-business#primaryimage",
+      "url": "https://etuos.com/images/blog/how-much-google-ads-cost-small-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A small business owner at a kitchen table with a laptop and paper invoices in evening light"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/how-much-google-ads-cost-small-business#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://etuos.com/en" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://etuos.com/en/blog" },
+        { "@type": "ListItem", "position": 3, "name": "How Much Google Ads Really Cost a Small Business in 2026", "item": "https://etuos.com/en/blog/how-much-google-ads-cost-small-business" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/how-much-google-ads-cost-small-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does Google Ads cost per month for a small business?",
+          "acceptedAnswer": { "@type": "Answer", "text": "There is no fixed price, because Google Ads is an auction and your costs depend on your trade, your city and how well your ads and landing page match what people search. Set the maximum you are willing to spend, then work backwards from the customers you want, your close rate and an estimated cost per lead. Use Google's Keyword Planner to estimate click costs for your own keywords instead of trusting a generic average." }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I pay Google if nobody clicks my ad?",
+          "acceptedAnswer": { "@type": "Answer", "text": "On standard Search campaigns, you pay when someone clicks, not when your ad is shown. Local Services Ads work differently: you pay for valid leads, such as phone calls and messages, rather than clicks." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the cost per click the same as the cost per customer?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. A click costs what the auction says. A customer costs all the clicks it took to get a call, divided by how many of those calls you close. A page that converts better or a team that answers faster lowers your cost per customer without changing a single bid." }
+        },
+        {
+          "@type": "Question",
+          "name": "What does an agency charge to manage Google Ads?",
+          "acceptedAnswer": { "@type": "Answer", "text": "It varies by agency. Fees can be a flat monthly amount, a percentage of ad spend or a mix, and some charge a setup fee. Ask how the fee is calculated, who owns the ad account, what the reports show and whether there is a contract minimum. The ad spend itself always goes to Google, separate from the management fee." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I just set a low budget and see what happens?",
+          "acceptedAnswer": { "@type": "Answer", "text": "You can, and many people should start smaller than they think. But a budget too low for your market may not collect enough data to tell you anything. Start from the math of what one customer is worth, so a small test still has a chance of giving you a real answer." }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I do Google Ads or local SEO first?",
+          "acceptedAnswer": { "@type": "Answer", "text": "It depends on your starting point. If you have no profile, no reviews and no site that converts, fix that foundation first. If the basics are solid and you need calls soon, ads can fill the gap while organic visibility builds. Many businesses end up using both." }
+        }
+      ]
+    }
+  ]
+}
