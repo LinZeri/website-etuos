@@ -1,0 +1,196 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/lead-generation-for-contractors#article",
+      "headline": "Lead Generation for Contractors: Where the Good Jobs Actually Come From",
+      "description": "Compare the real lead channels for contractors: Maps, Local Services Ads, Google Ads, marketplaces, referrals and past customers. Which bring good jobs?",
+      "datePublished": "2026-09-29",
+      "dateModified": "2026-09-29",
+      "inLanguage": "en-US",
+      "wordCount": 2150,
+      "keywords": [
+        "lead generation for contractors",
+        "marketing for contractors",
+        "how to get construction leads",
+        "contractor advertising"
+      ],
+      "articleSection": [
+        "Why Is Lead Quality a Bigger Problem Than Lead Volume?",
+        "1. Google Maps and Your Business Profile",
+        "2. Local Services Ads",
+        "3. Google Search Ads",
+        "4. Lead Marketplaces",
+        "5. Referrals, Systematized",
+        "6. Reactivating Past Customers",
+        "How Do You Qualify Leads Before They Eat Your Week?",
+        "Which Channel Should You Start With?",
+        "Frequently Asked Questions"
+      ],
+      "articleBody": "Most contractors don't have a lead problem. They have a qualification problem. The phone rings, but it's a $300 repair when the crew wants a $40,000 kitchen, or a price shopper who has already called five other companies. Getting more leads at a lower price is the easy goal to chase, and it's usually the wrong one.",
+      "author": {
+        "@id": "https://etuos.com/en/about#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/lead-generation-for-contractors#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/lead-generation-for-contractors"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Contractor Lead Generation"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Services Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Lead Qualification"
+        },
+        {
+          "@type": "Thing",
+          "name": "Customer Referrals"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/lead-generation-for-contractors",
+      "url": "https://etuos.com/en/blog/lead-generation-for-contractors",
+      "name": "Lead Generation for Contractors: Where the Good Jobs Actually Come From",
+      "description": "Compare the real lead channels for contractors: Maps, Local Services Ads, Google Ads, marketplaces, referrals and past customers. Which bring good jobs?",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/lead-generation-for-contractors#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/lead-generation-for-contractors#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/lead-generation-for-contractors#primaryimage",
+      "url": "https://etuos.com/images/blog/lead-generation-for-contractors.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A contractor in a hard hat reviewing plans with a homeowner in a house under renovation"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/lead-generation-for-contractors#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Lead Generation for Contractors: Where the Good Jobs Actually Come From",
+          "item": "https://etuos.com/en/blog/lead-generation-for-contractors"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/lead-generation-for-contractors#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best lead source for contractors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There isn't one best source. Google Business Profile and reviews are the cheapest to fix, past customers and referrals cost the least to work, and Local Services Ads or search ads add volume. The right mix depends on your trade, your city and the size of job you want."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are Local Services Ads worth it for contractors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They can be, if your category and city qualify and you can answer calls and messages quickly. You pay for valid leads rather than clicks, but prices depend on competition and lead type, and responsiveness affects ranking. Confirm eligibility for your trade and location first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are lead marketplaces a good idea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sometimes. Ask whether the lead is exclusive or shared, how a lead is defined, and what you pay for bad contacts. Shared leads put you in a race with other contractors, so test with a capped budget and judge by jobs won."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get higher-value jobs instead of small repairs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the channel to filter. Pick keywords and categories for the project you want, state what you do and don't take in ads and on your pages, and ask a few qualifying questions on the first call. Track revenue per won job, not only cost per lead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I do this without an agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many owners handle Google Business Profile, reviews, referrals and past-customer outreach on their own. Paid campaigns take more setup and tracking, which is where outside help tends to pay off."
+          }
+        }
+      ]
+    }
+  ]
+}
