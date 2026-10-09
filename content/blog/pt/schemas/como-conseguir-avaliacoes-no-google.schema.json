@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/como-conseguir-avaliacoes-no-google#article",
+      "headline": "Avaliações no Google: como pedir e responder sem violar as regras",
+      "description": "Como conseguir avaliações no Google para o seu negócio: como pedir ao cliente, o que o Google proíbe e como responder avaliações negativas sem se prejudicar.",
+      "datePublished": "2026-10-05",
+      "dateModified": "2026-10-05",
+      "inLanguage": "pt-BR",
+      "wordCount": 1700,
+      "keywords": "como conseguir avaliações no google, pedir avaliação no google, responder avaliações negativas, avaliações google meu negócio",
+      "articleSection": "SEO Local",
+      "articleBody": "Avaliação no Google é a prova social mais visível do seu negócio. Antes de ligar, o cliente olha as estrelas, lê o que os outros escreveram e vê se o dono respondeu. Mas pedir avaliação do jeito errado pode custar mais do que ajudar: o Google tem regras claras, e quem as quebra arrisca ver o perfil suspenso.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/como-conseguir-avaliacoes-no-google#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/como-conseguir-avaliacoes-no-google"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Avaliações no Google"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "SEO Local"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/como-conseguir-avaliacoes-no-google",
+      "url": "https://etuos.com/pt/blog/como-conseguir-avaliacoes-no-google",
+      "name": "Avaliações no Google: como pedir e responder sem violar as regras",
+      "description": "Como conseguir avaliações no Google para o seu negócio: como pedir ao cliente, o que o Google proíbe e como responder avaliações negativas sem se prejudicar.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/como-conseguir-avaliacoes-no-google#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/como-conseguir-avaliacoes-no-google#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/como-conseguir-avaliacoes-no-google#primaryimage",
+      "url": "https://etuos.com/images/blog/como-conseguir-avaliacoes-no-google.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Cliente satisfeito segurando o celular no balcão de um salão de beleza, sorrindo para a dona do negócio"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/como-conseguir-avaliacoes-no-google#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Avaliações no Google: como pedir e responder sem violar as regras",
+          "item": "https://etuos.com/pt/blog/como-conseguir-avaliacoes-no-google"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/como-conseguir-avaliacoes-no-google#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Posso dar desconto para o cliente que deixar avaliação?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O Google proíbe oferecer incentivo, como pagamento, desconto, brinde ou serviço grátis, em troca de avaliação. A prática é tratada como conteúdo enganoso e pode levar à remoção das avaliações e a penalidades na conta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso pedir avaliação só para os clientes satisfeitos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. A política do Google proíbe desencorajar avaliações negativas ou pedir avaliação apenas aos clientes que você sabe que ficaram satisfeitos. Peça a todos, e use as críticas para melhorar o atendimento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funcionários e familiares podem avaliar o meu negócio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não é recomendado. Conteúdo com conflito de interesse, incluindo o de funcionários atuais ou antigos, pode ser removido pelo Google. O mesmo vale para uma pessoa avaliando por várias contas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como respondo uma avaliação negativa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Com calma, de forma curta e profissional: reconheça o problema, peça desculpas se houve erro, não exponha dados do cliente e convide-o a conversar por telefone ou e-mail. Não ofereça promoção na resposta nem compensação para mudar a nota."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O cliente precisa de uma conta Google para avaliar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Segundo o Google, o cliente precisa ter uma Conta Google para deixar a avaliação. Quem não tem pode criar uma com um e-mail que não seja do Gmail."
+          }
+        }
+      ]
+    }
+  ]
+}
