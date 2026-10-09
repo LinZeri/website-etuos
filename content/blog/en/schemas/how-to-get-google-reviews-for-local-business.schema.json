@@ -1,0 +1,201 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/how-to-get-google-reviews-for-local-business#article",
+      "headline": "How to Get More Google Reviews Without Awkward Asking",
+      "description": "Get your Google review link, ask at the right moment, use simple scripts, and avoid the rules that get reviews removed. A guide for local businesses.",
+      "datePublished": "2026-10-05",
+      "dateModified": "2026-10-05",
+      "inLanguage": "en-US",
+      "wordCount": 2599,
+      "keywords": [
+        "how to get google reviews",
+        "ask customers for google reviews",
+        "google review link",
+        "get more reviews local business",
+        "google reviews",
+        "local business"
+      ],
+      "articleSection": [
+        "Why Do Google Reviews Matter for a Local Business?",
+        "How Do You Get Your Google Review Link?",
+        "When Is the Best Moment to Ask?",
+        "What Should You Say When You Ask?",
+        "What Is Not Allowed When Asking for Reviews?",
+        "How Do You Make Asking a Habit?",
+        "How Should You Reply to Reviews?",
+        "Frequently Asked Questions",
+        "What Should You Do Next?"
+      ],
+      "articleBody": "Most happy customers never leave a review. Not because they mind, but because nobody asked, or because leaving one took too many steps. The fix is not a clever trick. It is a short, friendly ask at the right moment, plus a link that opens the review box in one tap. This guide shows you how to get that link, when to ask, what to say, and what Google does not allow. It also covers the common mistake of asking only your happiest customers, which sounds smart and is against Google's rules. Key Take",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/how-to-get-google-reviews-for-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/how-to-get-google-reviews-for-local-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google reviews"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local SEO"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/how-to-get-google-reviews-for-local-business",
+      "url": "https://etuos.com/en/blog/how-to-get-google-reviews-for-local-business",
+      "name": "How to Get More Google Reviews Without Awkward Asking",
+      "description": "Get your Google review link, ask at the right moment, use simple scripts, and avoid the rules that get reviews removed. A guide for local businesses.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/how-to-get-google-reviews-for-local-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/how-to-get-google-reviews-for-local-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/how-to-get-google-reviews-for-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/how-to-get-google-reviews-for-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "How to Get More Google Reviews Without Awkward Asking"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/how-to-get-google-reviews-for-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Get More Google Reviews Without Awkward Asking",
+          "item": "https://etuos.com/en/blog/how-to-get-google-reviews-for-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/how-to-get-google-reviews-for-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I get more Google reviews for my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Share your Google review link or QR code with every customer right after the job, in the channel they already use with you. Keep the ask short, make it one tap, and never offer anything in return. Build it into your receipt or follow-up message so it happens every time, not only when you remember."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do I find my Google review link?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open your Business Profile on a computer, select Read reviews, then Get more reviews, and choose the share icon. You can copy the link or download the QR code. Google says the QR code can currently only be generated on a computer browser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I offer a discount for a Google review?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google treats offering free or discounted goods or services in exchange for reviews as fake engagement, and it is strictly prohibited. A thank-you message is fine. A reward is not."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I only ask happy customers for reviews?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google's policy does not allow merchants to selectively solicit positive reviews from customers or to discourage negative ones. Send the same request to every customer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do customers need a Google account to leave a review?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Customers must be signed into a Google Account to leave a review. They can create an account with a non-Gmail email address."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I reply to every review?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a good habit. In 2026, 80% of consumers say they are more likely to use a business that replies to all of its reviews, according to BrightLocal. Keep replies short and professional, and do not use them to push offers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I ask my employees or family to leave reviews?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google's policy lists content based on a conflict of interest as not allowed, and that can include current or former employment. Ask real customers only."
+          }
+        }
+      ]
+    }
+  ]
+}
