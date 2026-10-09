@@ -9,10 +9,10 @@
       "datePublished": "2026-10-05",
       "dateModified": "2026-10-05",
       "inLanguage": "pt-BR",
-      "wordCount": 1700,
+      "wordCount": 1850,
       "keywords": "como conseguir avaliações no google, pedir avaliação no google, responder avaliações negativas, avaliações google meu negócio",
       "articleSection": "SEO Local",
-      "articleBody": "Avaliação no Google é a prova social mais visível do seu negócio. Antes de ligar, o cliente olha as estrelas, lê o que os outros escreveram e vê se o dono respondeu. Mas pedir avaliação do jeito errado pode custar mais do que ajudar: o Google tem regras claras, e quem as quebra arrisca ver o perfil suspenso.",
+      "articleBody": "Avaliação no Google é a prova social mais visível do seu negócio. Antes de ligar, o cliente olha as estrelas, lê o que os outros escreveram e vê se o dono respondeu. Mas pedir avaliação do jeito errado pode custar mais do que ajudar: o Google tem regras claras, e quem as quebra arrisca ter avaliações removidas e a conta penalizada.",
       "author": {
         "@id": "https://etuos.com/pt/sobre#person"
       },
@@ -141,10 +141,10 @@
         },
         {
           "@type": "Question",
-          "name": "Funcionários e familiares podem avaliar o meu negócio?",
+          "name": "Funcionários podem avaliar o meu negócio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Não é recomendado. Conteúdo com conflito de interesse, incluindo o de funcionários atuais ou antigos, pode ser removido pelo Google. O mesmo vale para uma pessoa avaliando por várias contas."
+            "text": "Não. Conteúdo com conflito de interesse, incluindo o de funcionários atuais ou antigos, pode ser removido pelo Google. O mesmo vale para uma pessoa avaliando por várias contas."
           }
         },
         {

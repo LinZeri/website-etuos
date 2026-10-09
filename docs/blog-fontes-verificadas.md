@@ -360,6 +360,14 @@ Markdown: `([Google, "Guidelines for representing your business on Google", Ajud
 Uso permitido: regras de elegibilidade de endereço, área de atendimento, telefone e nome do perfil; riscos de suspensão por violar as diretrizes.
 Uso proibido: não prometer que seguir as regras evita suspensão nem que o perfil aparecerá no Local Pack; não inventar prazo de verificação ou de reativação.
 
+**S19: Pelo Google, as opções de verificação do Perfil da Empresa variam por negócio e não se deve editar nome, endereço ou categoria enquanto se espera o código; negócio híbrido pode mostrar o endereço da loja e definir área de atendimento; telefone ou URL que redireciona não é permitido; escritório em coworking só entra com sinalização clara.** Verificado em 09/10/2026 por WebFetch direto em support.google.com/business/answer/7107242 e em support.google.com/business/answer/3038177.
+Citação literal confirmada: "The verification options available to you depend on your business type, public info, region, or business hours." / "Verification methods are automatically determined by Google and can’t be changed." / "Do not edit your business name, address, or category on your Business Profile." (na seção de postcard) / "These businesses can show their storefront address and designate a service area on their Business Profile." / "Do not provide phone numbers or URLs that redirect or "refer" users to landing pages" / "Businesses can’t list an office at a co-working space unless that office maintains clear signage".
+Fonte a citar: **Google, "Verify your business", Business Profile Help** (Tier 1) e **Google, "Guidelines for representing your business on Google"** (Tier 1).
+URL: https://support.google.com/business/answer/7107242 e https://support.google.com/business/answer/3038177
+Markdown: `([Google, "Verify your business", Ajuda do Perfil da Empresa](https://support.google.com/business/answer/7107242), acesso em out. 2026)`
+Uso permitido: explicar que as opções de verificação dependem do negócio, que não se escolhe o método, orientar a não mudar dados durante a verificação, descrever o negócio híbrido.
+Uso proibido: não afirmar prazo de verificação (a página cita prazo de código por correio, que não deve ser usado); não afirmar que o endereço de negócio de área de atendimento "fica só com o Google" (a página não diz isso).
+
 ## Cluster M: Mercado multilíngue (Pilar 4)
 
 **M1: Em 2024, 54% dos latinos americanos consomem notícias principalmente em inglês, 21% principalmente em espanhol e 23% igualmente em ambos os idiomas.** A pesquisa foi conduzida pelo Pew Research Center em 2024 com adultos hispânicos dos EUA e cobre hábitos de consumo de mídia digital por idioma, comportamento bilingue e diferenças entre imigrantes e nascidos nos EUA.

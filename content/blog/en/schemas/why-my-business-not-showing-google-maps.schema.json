@@ -30,7 +30,7 @@
         "Frequently Asked Questions",
         "Not Sure Which of the Seven Is Hurting You?"
       ],
-      "articleBody": "You search for your own service plus your city, scroll through the map, and your business is nowhere. Competitors you know are smaller than you show up in the top three. It feels personal, but it almost never is. A missing listing has a cause, and the cause is usually one of seven things. This guide is a troubleshooting order, not a theory lesson. It starts with the problems most likely to make your profile vanish completely, then moves to the ones that quietly push you down the list. Each cause gets a check you can run in a few minutes and a fix.",
+      "articleBody": "You search for your own service plus your city, scroll through the map, and your business is nowhere. Competitors you know are smaller than you show up in the top three. It feels personal, but it almost never is. A missing listing has a cause, and this guide covers the seven most common ones. This guide is a troubleshooting order, not a theory lesson. It starts with the problems most likely to make your profile vanish completely, then moves to the ones that quietly push you down the list. Each cause gets a check you can run in a few minutes and a fix.",
       "author": {
         "@id": "https://etuos.com/en/about#lin-zeri"
       },
@@ -149,7 +149,7 @@
           "name": "Why is my Google Business Profile not showing up when I search my own business name?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The most likely causes are a suspended or removed profile, a profile that was never verified, or a duplicate that Google is showing instead. Check your Business Profile dashboard for notices first, then search your phone number and old addresses to look for duplicates."
+            "text": "Common causes are a suspended or removed profile, a profile that was never verified, or a duplicate that Google is showing instead. Check your Business Profile dashboard for notices first, then search your phone number and old addresses to look for duplicates."
           }
         },
         {
