@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T12:05:05.373564+00:00",
+  "updated": "2026-10-09T15:52:33.373189+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -229,6 +229,182 @@
       ],
       "cluster": "pilar1.conseguir-clientes-eua",
       "notes": "Passo a passo honesto, incluindo regras para service-area business e riscos de suspensão (endereço, telefone americano). Não prometer local pack sem presença física.",
+      "publish_date": "2026-09-22",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "retroativo": true
+    },
+    {
+      "id": "p2-s2",
+      "slug": "o-que-faz-um-gestor-de-trafego-pago",
+      "title": "O que faz um gestor de tráfego pago (e como escolher o seu)",
+      "template": "faq-knowledge",
+      "target_keyword": "gestor de trafego pago",
+      "secondary_keywords": [
+        "o que faz gestor de trafego",
+        "como escolher gestor de trafego pago"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/pt/servicos/trafego-pago",
+        "/pt/brasil",
+        "/pt/sobre"
+      ],
+      "cluster": "pilar2.trafego-pago",
+      "notes": "Keyword com 5.400 buscas/mês no Brasil (DataForSEO 06/08/2026). Serve os dois mercados: blocos específicos Brasil e EUA. H2s em formato de pergunta, checklist de escolha citável, sinais de alerta de gestor ruim.",
+      "publish_date": "2026-09-24",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "retroativo": true
+    },
+    {
+      "id": "p3-s1",
+      "slug": "seo-local-o-que-e-e-como-funciona",
+      "title": "SEO local: o que é e como funciona para negócio de bairro",
+      "template": "faq-knowledge",
+      "target_keyword": "seo local",
+      "secondary_keywords": [
+        "o que é seo local",
+        "como funciona seo local",
+        "seo local para pequenas empresas"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/pt/blog/como-aparecer-no-google-guia-do-negocio-local",
+        "/pt/servicos/seo",
+        "/pt/cidades/miami",
+        "/pt/blog/como-conseguir-clientes-nos-eua"
+      ],
+      "cluster": "pilar3.aparecer-no-google",
+      "notes": "Spoke do pilar 3 (seo local, 480/mes no BR). Explicar mapa, resultados organicos e perfil do Google, e o que muda para quem atende em portugues nos EUA. Sem prazo de resultado. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "dono de uma padaria de bairro olhando o celular no balcão, com a vitrine iluminada ao fundo",
+      "publish_date": "2026-09-29",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "retroativo": true
+    },
+    {
+      "id": "p2-s1",
+      "slug": "quanto-custa-trafego-pago-como-montar-orcamento",
+      "title": "Quanto custa tráfego pago: como montar o orçamento do seu negócio",
+      "template": "data-research",
+      "target_keyword": "quanto custa trafego pago",
+      "secondary_keywords": [
+        "investimento em tráfego pago",
+        "quanto investir em anúncios",
+        "custo de gestor de tráfego"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena",
+        "/pt/servicos/trafego-pago",
+        "/pt/brasil",
+        "/pt/blog/quanto-custa-anunciar-no-google-nos-eua"
+      ],
+      "cluster": "pilar2.trafego-pago",
+      "notes": "Spoke do pilar 2 (210/mes BR). Separar o que se paga ao Google/Meta, o que se paga a quem gere e o que o lead custa. Sem faixas de preco inventadas: so aritmetica ilustrativa rotulada e fontes registradas. Nunca citar preco da Etuos. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "empreendedora brasileira fazendo contas com calculadora e laptop em uma mesa de escritório pequeno",
+      "publish_date": "2026-10-01",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "retroativo": true
+    },
+    {
+      "id": "p3-s3",
+      "slug": "como-conseguir-avaliacoes-no-google",
+      "title": "Avaliações no Google: como pedir e responder sem violar as regras",
+      "template": "how-to-guide",
+      "target_keyword": "como conseguir avaliacoes no google",
+      "secondary_keywords": [
+        "pedir avaliação no google",
+        "responder avaliações negativas",
+        "avaliações google meu negócio"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/como-aparecer-no-google-guia-do-negocio-local",
+        "/pt/servicos/seo",
+        "/pt/cidades/boston",
+        "/pt/blog/como-conseguir-clientes-nos-eua"
+      ],
+      "cluster": "pilar3.aparecer-no-google",
+      "notes": "Spoke do pilar 3. Regras de avaliacao do Google (citar so paginas de ajuda conferidas), como pedir sem incentivo proibido, como responder as negativas. Sem numeros de impacto sem fonte. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "cliente satisfeito segurando o celular no balcão de um salão de beleza, sorrindo para a dona do negócio",
+      "publish_date": "2026-10-05",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "retroativo": true
+    },
+    {
+      "id": "p3-s4",
+      "slug": "seo-em-portugues-nos-eua",
+      "title": "SEO em português nos EUA: o guia que não existia",
+      "template": "how-to-guide",
+      "target_keyword": "seo em portugues nos eua",
+      "secondary_keywords": [
+        "seo para brasileiros nos eua",
+        "aparecer no google em português",
+        "site em português google eua"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/pt/blog/como-aparecer-no-google-guia-do-negocio-local",
+        "/pt/servicos/seo",
+        "/pt/blog/site-em-portugues-ou-ingles-nos-eua",
+        "/pt/cidades/orlando"
+      ],
+      "cluster": "pilar3.aparecer-no-google",
+      "notes": "Spoke do pilar 3, ancora do nicho. Como o Google trata idioma e localizacao (documentacao oficial conferida), quando faz sentido ranquear em portugues, em ingles ou nos dois. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "brasileiro dono de uma loja de conveniência em cidade americana conferindo o próprio site no notebook",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p2-s3",
+      "slug": "google-ads-como-funciona",
+      "title": "Google Ads: como funciona o leilão, o orçamento e o que esperar",
+      "template": "tutorial",
+      "target_keyword": "google ads como funciona",
+      "secondary_keywords": [
+        "leilão do google ads",
+        "como funciona o google ads",
+        "índice de qualidade"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena",
+        "/pt/servicos/trafego-pago",
+        "/pt/blog/anunciar-em-ingles-ou-portugues",
+        "/pt/eua"
+      ],
+      "cluster": "pilar2.trafego-pago",
+      "notes": "Spoke do pilar 2. Explicar leilao, lance, indice de qualidade e orcamento diario usando a documentacao do Google (support.google.com) conferida. Nada de prazo de aprendizado sem fonte. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "mãos de uma pessoa organizando um planejamento de campanha em cartões sobre a mesa, notebook ao lado",
       "publish_date": null,
       "author": null,
       "status": "pending",
@@ -265,9 +441,38 @@
       "last_score": null
     },
     {
+      "id": "p2-s4",
+      "slug": "google-ads-ou-meta-ads-onde-investir-primeiro",
+      "title": "Google Ads ou Meta Ads: onde investir primeiro por tipo de negócio",
+      "template": "comparison",
+      "target_keyword": "google ads ou facebook ads",
+      "secondary_keywords": [
+        "google ads vs meta ads",
+        "onde anunciar primeiro",
+        "anunciar no instagram ou google"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena",
+        "/pt/servicos/trafego-pago",
+        "/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua",
+        "/pt/eua"
+      ],
+      "cluster": "pilar2.trafego-pago",
+      "notes": "Spoke do pilar 2. Comparacao por intencao de busca (Google) versus descoberta (Meta), por tipo de negocio local. Qualitativo, sem benchmarks sem fonte. Linkar o post de Instagram e Facebook apenas se ja estiver publicado. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "dono de restaurante pequeno comparando dois painéis de anúncios no tablet no balcão",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
       "id": "p1-s7",
-      "slug": "primeiros-90-dias-de-marketing-nos-eua",
-      "title": "Abriu a empresa nos EUA? Os primeiros 90 dias de marketing",
+      "slug": "primeiros-passos-de-marketing-nos-eua",
+      "title": "Abriu a empresa nos EUA? Os primeiros passos de marketing",
       "template": "how-to-guide",
       "target_keyword": "abrir empresa nos eua e agora",
       "secondary_keywords": [
@@ -282,6 +487,35 @@
       ],
       "cluster": "pilar1.conseguir-clientes-eua",
       "notes": "Ponte com o público que pesquisa 'abrir empresa nos eua' (170/mês BR). NÃO falar de visto/contabilidade além de 1 parágrafo de contexto; o foco é o plano de marketing pós-abertura em 3 fases de 30 dias.",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p2-s5",
+      "slug": "orcamento-minimo-de-anuncios-para-negocio-local",
+      "title": "Orçamento mínimo de anúncios para negócio local: como decidir quanto investir",
+      "template": "how-to-guide",
+      "target_keyword": "quanto investir em trafego pago",
+      "secondary_keywords": [
+        "orçamento mínimo anúncios",
+        "quanto gastar em anúncios",
+        "investimento mínimo google ads"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena",
+        "/pt/servicos/trafego-pago",
+        "/pt/blog/quanto-custa-anunciar-no-google-nos-eua",
+        "/pt/brasil"
+      ],
+      "cluster": "pilar2.trafego-pago",
+      "notes": "Spoke do pilar 2. Metodo para decidir o orcamento a partir da margem e da capacidade de atendimento; nunca uma faixa 'minima' como dado de mercado. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "dona de uma pequena empresa de limpeza revisando planilha de custos com notebook no escritório",
       "publish_date": null,
       "author": null,
       "status": "pending",
@@ -316,23 +550,26 @@
       "last_score": null
     },
     {
-      "id": "p2-s2",
-      "slug": "o-que-faz-um-gestor-de-trafego-pago",
-      "title": "O que faz um gestor de tráfego pago (e como escolher o seu)",
-      "template": "faq-knowledge",
-      "target_keyword": "gestor de trafego pago",
+      "id": "p2-s6",
+      "slug": "erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios",
+      "title": "Os 7 erros que fazem pequenos negócios queimarem dinheiro em anúncios",
+      "template": "listicle",
+      "target_keyword": "erros trafego pago",
       "secondary_keywords": [
-        "o que faz gestor de trafego",
-        "como escolher gestor de trafego pago"
+        "erros em google ads",
+        "por que meus anúncios não dão resultado",
+        "desperdício em anúncios"
       ],
-      "word_count": 1800,
+      "word_count": 1500,
       "internal_links": [
+        "/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena",
         "/pt/servicos/trafego-pago",
-        "/pt/brasil",
-        "/pt/sobre"
+        "/pt/blog/quanto-custa-anunciar-no-google-nos-eua",
+        "/pt/eua"
       ],
       "cluster": "pilar2.trafego-pago",
-      "notes": "Keyword com 5.400 buscas/mês no Brasil (DataForSEO 06/08/2026). Serve os dois mercados: blocos específicos Brasil e EUA. H2s em formato de pergunta, checklist de escolha citável, sinais de alerta de gestor ruim.",
+      "notes": "Spoke do pilar 2. Lista de erros comuns em voz neutra (sem 'nas contas que gerenciamos'). Nenhum numero sem fonte. Linkar google-ads-como-funciona apenas se ja estiver publicado. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "pessoa frustrada olhando um painel de anúncios no notebook, café frio ao lado, luz de fim de tarde",
       "publish_date": null,
       "author": null,
       "status": "pending",

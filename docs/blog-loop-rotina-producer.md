@@ -4,6 +4,8 @@ Procedimento executado todo dia pela rotina `etuos-blog-producer`, numa sessão 
 
 Objetivo do dia: publicar **1 artigo em português e 1 em inglês**, cada um com capa própria e **3 a 4 ilustrações no corpo**, passando pelos mesmos portões de qualidade, e dar push em `main` (a Vercel publica sozinha).
 
+**Cadência (desde 09/10/2026): 4 artigos por semana por idioma**, todos spokes, publicados em **segunda, terça, quinta e sexta** (fuso America/New_York; use `TZ=America/New_York date +%u`: 1, 2, 4 e 5). Quarta, sábado e domingo a rotina só trabalha se houver **retroativos** pendentes (itens com `"retroativo": true` ou `publish_date` anterior a hoje). Sem retroativo e fora dos dias de publicação, responda `NO-OP: dia sem publicação` e termine sem tocar no lock. Retroativos têm prioridade sobre os itens normais: eles ocupam a frente da fila e são produzidos antes.
+
 Regras inegociáveis do projeto valem integralmente: leia `CLAUDE.md` antes de escrever qualquer coisa. Duas que quebram a entrega se forem ignoradas: **nenhum travessão em lugar nenhum** e **todo commit sai como LinZeri**.
 
 ## Passo 0: identidade do git
@@ -77,7 +79,7 @@ python3 .claude/scripts/blog_loop_helpers.py author-for-date --queue <queueFile>
 python3 .claude/scripts/blog_loop_helpers.py mark-in-progress --queue <queueFile> --slug <slug> --iteration <iteration-id>
 ```
 
-A data de publicação é **hoje**, nunca no futuro (o site esconde posts com data futura) e nunca retroativa. Autor: `Lin Zeri`.
+A data de publicação (`<data>` no `author-for-date`, no frontmatter `data` e no commit) é o `publish_date` do item quando ele já vem preenchido e é **igual ou anterior a hoje** (itens retroativos, que preenchem semanas de setembro e outubro de 2026 sem publicação). Quando o `publish_date` vier vazio, use **hoje**. Nunca use data futura (o site esconde posts com data futura). Autor: `Lin Zeri`. Um retroativo conta como a produção do dia daquele idioma: não produza dois no mesmo dia.
 
 ### 6.2 Gerar a capa
 
@@ -156,7 +158,7 @@ Se a tool Workflow não existir ou falhar por infraestrutura, marque o item como
 ### 6.4 Conferências obrigatórias antes de commitar
 
 1. **Travessão**: `grep -n "—" <caminho do post>`. Qualquer ocorrência é erro. Corrija (vírgula, dois pontos, parênteses ou reescrita) e confira de novo.
-2. **Frontmatter**: `titulo`, `descricao`, `data` (hoje), `autor` ("Lin Zeri") e `imagem` (`/images/blog/<slug>.webp`). **Sem o campo `grupo`**: pt e en são pautas independentes e não devem virar hreflang um do outro. **Limites de SERP:** se o `titulo` passar de 52 caracteres, declare `metaTitulo` (máx. 52, o sufixo " | Etuos" fecha em 60); `descricao` com no máximo 160 caracteres. O `prebuild` (`npm run validar:blog`) derruba o build se algum post estourar, então confira antes com `npm run validar:blog`.
+2. **Frontmatter**: `titulo`, `descricao`, `data` (o `publish_date` do item, ou hoje se vier vazio), `autor` ("Lin Zeri") e `imagem` (`/images/blog/<slug>.webp`). **Sem o campo `grupo`**: pt e en são pautas independentes e não devem virar hreflang um do outro. **Limites de SERP:** se o `titulo` passar de 52 caracteres, declare `metaTitulo` (máx. 52, o sufixo " | Etuos" fecha em 60); `descricao` com no máximo 160 caracteres. O `prebuild` (`npm run validar:blog`) derruba o build se algum post estourar, então confira antes com `npm run validar:blog`.
 3. **Links internos**: todos com o prefixo do idioma (`/pt/...` ou `/en/...`). Nenhum link para `/lp/`, que é noindex.
 4. **Números**: nenhuma alegação sobre a Etuos fora dos números autorizados de `CLAUDE.md`. Nenhum preço, nenhuma garantia, nenhum nome de cliente inventado.
 5. **Prova inventada**: `grep -n -i -E "accounts we|we (see|manage|found)|nossas contas|que gerenciamos|our (client|cleaning) " <caminho do post>` deve vir vazio, e todo valor em dólar ou percentual no corpo precisa ter fonte registrada ou ser aritmética rotulada como ilustrativa. Corrija o texto, não o grep.

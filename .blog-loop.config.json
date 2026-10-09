@@ -16,10 +16,10 @@
   "lockFile": "docs/.blog-loop.lock",
   "drySentinel": "docs/.blog-loop-dry-run",
 
-  "_cadencia": "1 post por idioma por dia (pt e en tem filas e estrategias independentes, sem hreflang entre eles). batchSize 1 por idioma; a rotina de replenish mantem 7 pautas pendentes em cada fila.",
+  "_cadencia": "4 posts por semana por idioma, seg/ter/qui/sex, mais retroativos (pt e en tem filas e estrategias independentes, sem hreflang entre eles). batchSize 1 por idioma; a rotina de replenish mantem 8 pautas pendentes em cada fila.",
   "batchSize": 1,
   "postsPerDay": 1,
-  "replenishThresholdMultiplier": 7,
+  "replenishThresholdMultiplier": 8,
 
   "reschedule": "off",
   "scheduleCadence": "daily-cloud-routine",
@@ -82,3 +82,4 @@
 
   "escalationChannel": "push-notification"
 }
+

@@ -1,0 +1,1907 @@
+{
+ "periodo": [
+  "2026-07-09",
+  "2026-10-07"
+ ],
+ "paginas": [
+  {
+   "keys": [
+    "https://etuos.com/en"
+   ],
+   "clicks": 1,
+   "impressions": 32,
+   "ctr": 0.03125,
+   "position": 3
+  },
+  {
+   "keys": [
+    "https://etuos.com/"
+   ],
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 4.416666666666666
+  },
+  {
+   "keys": [
+    "https://etuos.com/brasil"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 2.666666666666667
+  },
+  {
+   "keys": [
+    "https://etuos.com/cidades/newark"
+   ],
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 24.76923076923077
+  },
+  {
+   "keys": [
+    "https://etuos.com/cidades/pompano-beach"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 3.75
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/blog/welcome-to-the-etuos-blog"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/brazil"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/cities"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 6.666666666666667
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/cities/atlanta"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 54.666666666666664
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/cities/boston"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 38
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/cities/danbury"
+   ],
+   "clicks": 0,
+   "impressions": 22,
+   "ctr": 0,
+   "position": 50.22727272727273
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/cities/fort-lauderdale"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 5.5
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/cities/framingham"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 3.6666666666666665
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/cities/houston"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 3.4285714285714284
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/cities/miami"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/cities/newark"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 45
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/cities/orlando"
+   ],
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 28.8
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/cities/pompano-beach"
+   ],
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 46.92307692307692
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/contact"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/privacy-policy"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 1.5
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/services/seo"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2.5
+  },
+  {
+   "keys": [
+    "https://etuos.com/en/usa"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 3.4285714285714284
+  },
+  {
+   "keys": [
+    "https://etuos.com/es"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/blog"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.333333333333333
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/blog/bienvenido-al-blog-de-etuos"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/brasil"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/ciudades"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2.5
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/ciudades/atlanta"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 9.25
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/ciudades/boston"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.333333333333333
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/ciudades/danbury"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 24.4
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 90,
+   "ctr": 0,
+   "position": 17.233333333333334
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/ciudades/newark"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/estados-unidos"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 48.25
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/servicios"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/servicios/anuncios-pagados"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "https://etuos.com/es/servicios/seo"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 34
+  },
+  {
+   "keys": [
+    "https://etuos.com/pt"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "https://etuos.com/pt/blog"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "https://etuos.com/pt/brasil"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 5.75
+  },
+  {
+   "keys": [
+    "https://etuos.com/pt/cidades"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "keys": [
+    "https://etuos.com/pt/cidades/boston"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "https://etuos.com/pt/cidades/danbury"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "https://etuos.com/pt/cidades/framingham"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 25
+  },
+  {
+   "keys": [
+    "https://etuos.com/pt/cidades/newark"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "keys": [
+    "https://etuos.com/pt/cidades/orlando"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "keys": [
+    "https://etuos.com/pt/servicos"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "https://etuos.com/pt/servicos/criacao-de-sites"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2.5
+  },
+  {
+   "keys": [
+    "https://etuos.com/pt/servicos/seo"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 5.25
+  }
+ ],
+ "queries": [
+  {
+   "keys": [
+    "etuos"
+   ],
+   "clicks": 1,
+   "impressions": 20,
+   "ctr": 0.05,
+   "position": 2.9
+  },
+  {
+   "keys": [
+    "agencia de marketing digital cerca de mi"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 35
+  },
+  {
+   "keys": [
+    "agencia de marketing digital en houston"
+   ],
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 12.090909090909092
+  },
+  {
+   "keys": [
+    "agencia de marketing digital houston"
+   ],
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 20.5
+  },
+  {
+   "keys": [
+    "agencia de marketing digital texas"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 48
+  },
+  {
+   "keys": [
+    "agencia de marketing en houston"
+   ],
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 9.666666666666666
+  },
+  {
+   "keys": [
+    "agencia de publicidad en houston"
+   ],
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 13.076923076923077
+  },
+  {
+   "keys": [
+    "agencia seo texas"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 78
+  },
+  {
+   "keys": [
+    "agencias de marketing cerca de mi"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "keys": [
+    "atomos minds"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 85
+  },
+  {
+   "keys": [
+    "creación de contenido en orlando"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 92
+  },
+  {
+   "keys": [
+    "danbury digital marketing agency"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 41.5
+  },
+  {
+   "keys": [
+    "danbury marketing agency"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 40.5
+  },
+  {
+   "keys": [
+    "digital marketing agency coconut creek"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "digital marketing agency danbury ct"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 55.75
+  },
+  {
+   "keys": [
+    "digital marketing agency deerfield beach fl"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "digital marketing agency in danbury ct"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 60
+  },
+  {
+   "keys": [
+    "digital marketing agency roswell"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "digital marketing danbury"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 54.75
+  },
+  {
+   "keys": [
+    "digital marketing roswell ga"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 78
+  },
+  {
+   "keys": [
+    "google ads para negocios hispanos"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "local seo in danbury"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 37
+  },
+  {
+   "keys": [
+    "local seo pompano beach"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 57
+  },
+  {
+   "keys": [
+    "loja do marcizio"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 41
+  },
+  {
+   "keys": [
+    "luso americano newark"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 40
+  },
+  {
+   "keys": [
+    "luso americano newark nj"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 39
+  },
+  {
+   "keys": [
+    "manejo de redes sociales en houston"
+   ],
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 24.555555555555557
+  },
+  {
+   "keys": [
+    "oficina de marketing en houston"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 16.25
+  },
+  {
+   "keys": [
+    "online marketing pompano beach"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 47
+  },
+  {
+   "keys": [
+    "ooh advertising agency boston"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 95
+  },
+  {
+   "keys": [
+    "páginas web para negocios hispanos"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 100
+  },
+  {
+   "keys": [
+    "seguro de negocios aldine tx"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 54
+  },
+  {
+   "keys": [
+    "seo para negocios hispanos"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 89
+  },
+  {
+   "keys": [
+    "seo pompano beach"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 49
+  },
+  {
+   "keys": [
+    "servicios de seo pasadena"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "keys": [
+    "social media marketing danbury"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 81.5
+  },
+  {
+   "keys": [
+    "total brasil newark"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 25
+  },
+  {
+   "keys": [
+    "total brazil newark"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 48
+  },
+  {
+   "keys": [
+    "total brazil niagara"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 47
+  }
+ ],
+ "query_pagina": [
+  {
+   "keys": [
+    "etuos",
+    "https://etuos.com/en"
+   ],
+   "clicks": 1,
+   "impressions": 15,
+   "ctr": 0.06666666666666667,
+   "position": 2.333333333333333
+  },
+  {
+   "keys": [
+    "agencia de marketing digital cerca de mi",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 35
+  },
+  {
+   "keys": [
+    "agencia de marketing digital en houston",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 12.090909090909092
+  },
+  {
+   "keys": [
+    "agencia de marketing digital houston",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 20.5
+  },
+  {
+   "keys": [
+    "agencia de marketing digital texas",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 48
+  },
+  {
+   "keys": [
+    "agencia de marketing en houston",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 9.666666666666666
+  },
+  {
+   "keys": [
+    "agencia de publicidad en houston",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 13.076923076923077
+  },
+  {
+   "keys": [
+    "agencia seo texas",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 78
+  },
+  {
+   "keys": [
+    "agencias de marketing cerca de mi",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "keys": [
+    "atomos minds",
+    "https://etuos.com/en/cities/orlando"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 85
+  },
+  {
+   "keys": [
+    "creación de contenido en orlando",
+    "https://etuos.com/en/cities/orlando"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 92
+  },
+  {
+   "keys": [
+    "danbury digital marketing agency",
+    "https://etuos.com/en/cities/danbury"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 41.5
+  },
+  {
+   "keys": [
+    "danbury marketing agency",
+    "https://etuos.com/en/cities/danbury"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 40.5
+  },
+  {
+   "keys": [
+    "digital marketing agency coconut creek",
+    "https://etuos.com/en/cities/pompano-beach"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "digital marketing agency danbury ct",
+    "https://etuos.com/en/cities/danbury"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 55.75
+  },
+  {
+   "keys": [
+    "digital marketing agency deerfield beach fl",
+    "https://etuos.com/en/cities/pompano-beach"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "digital marketing agency in danbury ct",
+    "https://etuos.com/en/cities/danbury"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 60
+  },
+  {
+   "keys": [
+    "digital marketing agency roswell",
+    "https://etuos.com/en/cities/atlanta"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "digital marketing danbury",
+    "https://etuos.com/en/cities/danbury"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 54.75
+  },
+  {
+   "keys": [
+    "digital marketing roswell ga",
+    "https://etuos.com/en/cities/atlanta"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 78
+  },
+  {
+   "keys": [
+    "etuos",
+    "https://etuos.com/"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 5.428571428571429
+  },
+  {
+   "keys": [
+    "etuos",
+    "https://etuos.com/en/blog/welcome-to-the-etuos-blog"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "keys": [
+    "etuos",
+    "https://etuos.com/en/cities"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "keys": [
+    "etuos",
+    "https://etuos.com/en/cities/houston"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "keys": [
+    "etuos",
+    "https://etuos.com/en/cities/miami"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "keys": [
+    "etuos",
+    "https://etuos.com/en/cities/orlando"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "etuos",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "keys": [
+    "google ads para negocios hispanos",
+    "https://etuos.com/es/estados-unidos"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "local seo in danbury",
+    "https://etuos.com/en/cities/danbury"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 37
+  },
+  {
+   "keys": [
+    "local seo pompano beach",
+    "https://etuos.com/en/cities/pompano-beach"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 57
+  },
+  {
+   "keys": [
+    "loja do marcizio",
+    "https://etuos.com/pt/cidades/framingham"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 41
+  },
+  {
+   "keys": [
+    "luso americano newark",
+    "https://etuos.com/cidades/newark"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 40
+  },
+  {
+   "keys": [
+    "luso americano newark nj",
+    "https://etuos.com/cidades/newark"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 39
+  },
+  {
+   "keys": [
+    "manejo de redes sociales en houston",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 24.555555555555557
+  },
+  {
+   "keys": [
+    "oficina de marketing en houston",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 16.25
+  },
+  {
+   "keys": [
+    "online marketing pompano beach",
+    "https://etuos.com/en/cities/pompano-beach"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 47
+  },
+  {
+   "keys": [
+    "ooh advertising agency boston",
+    "https://etuos.com/en/cities/boston"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 95
+  },
+  {
+   "keys": [
+    "páginas web para negocios hispanos",
+    "https://etuos.com/es/estados-unidos"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 100
+  },
+  {
+   "keys": [
+    "seguro de negocios aldine tx",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 54
+  },
+  {
+   "keys": [
+    "seo para negocios hispanos",
+    "https://etuos.com/es/servicios/seo"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 89
+  },
+  {
+   "keys": [
+    "seo pompano beach",
+    "https://etuos.com/en/cities/pompano-beach"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 49
+  },
+  {
+   "keys": [
+    "servicios de seo pasadena",
+    "https://etuos.com/es/ciudades/houston"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "keys": [
+    "social media marketing danbury",
+    "https://etuos.com/en/cities/danbury"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 81.5
+  },
+  {
+   "keys": [
+    "total brasil newark",
+    "https://etuos.com/cidades/newark"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 25
+  },
+  {
+   "keys": [
+    "total brazil newark",
+    "https://etuos.com/cidades/newark"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 48
+  },
+  {
+   "keys": [
+    "total brazil niagara",
+    "https://etuos.com/cidades/newark"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 47
+  }
+ ],
+ "paises": [
+  {
+   "keys": [
+    "ukr"
+   ],
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 1
+  },
+  {
+   "keys": [
+    "bhr"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "blr"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "bra"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 3.2857142857142856
+  },
+  {
+   "keys": [
+    "can"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 67.75
+  },
+  {
+   "keys": [
+    "deu"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "fin"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "keys": [
+    "fra"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "keys": [
+    "gbr"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "jpn"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "nld"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "phl"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "keys": [
+    "pol"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "sgp"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "swe"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
+    "tun"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 3.4285714285714284
+  },
+  {
+   "keys": [
+    "usa"
+   ],
+   "clicks": 0,
+   "impressions": 157,
+   "ctr": 0,
+   "position": 28.363057324840764
+  }
+ ],
+ "dias": [
+  {
+   "keys": [
+    "2026-08-13"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-14"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-15"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-16"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "2026-08-17"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "keys": [
+    "2026-08-18"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-19"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-20"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-21"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-22"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-23"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-24"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-25"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-26"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-27"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-28"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-29"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "2026-08-30"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-08-31"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 2.666666666666667
+  },
+  {
+   "keys": [
+    "2026-09-01"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-09-02"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-09-03"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "2026-09-04"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-09-05"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 25.5
+  },
+  {
+   "keys": [
+    "2026-09-06"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "2026-09-07"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 48.166666666666664
+  },
+  {
+   "keys": [
+    "2026-09-08"
+   ],
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 36.86666666666667
+  },
+  {
+   "keys": [
+    "2026-09-09"
+   ],
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 29.76923076923077
+  },
+  {
+   "keys": [
+    "2026-09-10"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 31.857142857142858
+  },
+  {
+   "keys": [
+    "2026-09-11"
+   ],
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 39.11764705882353
+  },
+  {
+   "keys": [
+    "2026-09-12"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 66
+  },
+  {
+   "keys": [
+    "2026-09-13"
+   ],
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 46.888888888888886
+  },
+  {
+   "keys": [
+    "2026-09-14"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 38.285714285714285
+  },
+  {
+   "keys": [
+    "2026-09-15"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 25.142857142857142
+  },
+  {
+   "keys": [
+    "2026-09-16"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 13
+  },
+  {
+   "keys": [
+    "2026-09-17"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-09-18"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 17.5
+  },
+  {
+   "keys": [
+    "2026-09-19"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "2026-09-20"
+   ],
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 13.7
+  },
+  {
+   "keys": [
+    "2026-09-21"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-09-22"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 8.857142857142858
+  },
+  {
+   "keys": [
+    "2026-09-23"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 15.75
+  },
+  {
+   "keys": [
+    "2026-09-24"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 37.333333333333336
+  },
+  {
+   "keys": [
+    "2026-09-25"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 5.166666666666667
+  },
+  {
+   "keys": [
+    "2026-09-26"
+   ],
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": 0
+  },
+  {
+   "keys": [
+    "2026-09-27"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 29
+  },
+  {
+   "keys": [
+    "2026-09-28"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
+    "2026-09-29"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 46
+  },
+  {
+   "keys": [
+    "2026-09-30"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "keys": [
+    "2026-10-01"
+   ],
+   "clicks": 1,
+   "impressions": 8,
+   "ctr": 0.125,
+   "position": 5.125
+  },
+  {
+   "keys": [
+    "2026-10-02"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 9.2
+  },
+  {
+   "keys": [
+    "2026-10-03"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 18.6
+  },
+  {
+   "keys": [
+    "2026-10-04"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 8.625
+  },
+  {
+   "keys": [
+    "2026-10-05"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 15
+  },
+  {
+   "keys": [
+    "2026-10-06"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 12.4
+  }
+ ]
+}

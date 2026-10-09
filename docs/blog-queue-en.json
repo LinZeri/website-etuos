@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T11:46:10.197226+00:00",
+  "updated": "2026-10-09T15:52:33.373189+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -230,33 +230,34 @@
       "published_date": "2026-09-18"
     },
     {
-      "id": "en-p4-multilingual",
-      "slug": "marketing-to-multilingual-customers-local-business",
-      "title": "Your Customers Do Not All Search in English: Multilingual Marketing for Local Businesses",
-      "template": "thought-leadership",
-      "target_keyword": "marketing to hispanic customers",
+      "id": "en-p1-mappack",
+      "slug": "why-my-business-not-showing-google-maps",
+      "title": "Why Your Business Is Not Showing Up on Google Maps (and How to Fix It)",
+      "template": "how-to-guide",
+      "target_keyword": "why is my google business profile not showing up",
       "secondary_keywords": [
-        "bilingual marketing for small business",
-        "spanish language google ads",
-        "multilingual local marketing"
+        "how to rank higher on google maps",
+        "business not showing in map pack",
+        "google maps ranking factors"
       ],
-      "word_count": 2200,
+      "word_count": 1900,
       "internal_links": [
-        "/en/cities/houston",
-        "/en/cities/newark",
-        "/en/services/paid-ads",
-        "/en/about"
+        "/en/services/seo",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/cities/orlando",
+        "/en/contact"
       ],
-      "cluster": "pillar4.multilingual-market",
-      "notes": "The differentiation pillar. No measurable search volume by design: this is an AI citation and positioning play. Use Census data (census.gov) for language spoken at home in the covered metros, and Pew (pewresearch.org) for media habits. Argue the operational point: translated ad copy is not a Spanish campaign, because the search terms, the objections and the trust signals differ. Etuos runs US accounts in English and Spanish, which is authorized copy from the About page.",
-      "image_context": "a family-owned bakery counter in a busy city neighborhood with the owner handing a paper bag to a customer",
-      "publish_date": null,
+      "cluster": "pillar1.local-search",
+      "notes": "Troubleshooting post, highest intent in the local cluster. Ordered by likelihood: unverified or suspended profile, address and service area mismatch, duplicate listings, wrong primary category, proximity to the searcher, thin review profile, NAP inconsistency. Each cause gets the check and the fix. Cite support.google.com for suspension and verification rules. Explain proximity honestly: you cannot rank everywhere.",
+      "image_context": "a small storefront on a commercial street at dusk with lights on inside, viewed from across the street",
+      "publish_date": "2026-09-22",
       "author": null,
       "status": "pending",
       "attempts": 0,
       "last_error": null,
       "started_at": null,
-      "last_score": null
+      "last_score": null,
+      "retroativo": true
     },
     {
       "id": "en-p2-adcost",
@@ -279,42 +280,14 @@
       "cluster": "pillar2.paid-ads",
       "notes": "Cost intent post. Structure: what you pay Google vs what you pay an agency vs what a lead costs you. Use real US CPC ranges by industry (the home services and med spa verticals run high). Any external benchmark must be sourced from an allowed domain. Include the budget question (how much of revenue) with a defensible range and the caveat that revenue share is a starting point, not a rule. Never quote an Etuos price.",
       "image_context": "a small business owner at a kitchen table with a laptop and paper invoices, evening light through the window",
-      "publish_date": null,
+      "publish_date": "2026-09-24",
       "author": null,
       "status": "pending",
       "attempts": 0,
       "last_error": null,
       "started_at": null,
-      "last_score": null
-    },
-    {
-      "id": "en-p1-mappack",
-      "slug": "why-my-business-not-showing-google-maps",
-      "title": "Why Your Business Is Not Showing Up on Google Maps (and How to Fix It)",
-      "template": "how-to-guide",
-      "target_keyword": "why is my google business profile not showing up",
-      "secondary_keywords": [
-        "how to rank higher on google maps",
-        "business not showing in map pack",
-        "google maps ranking factors"
-      ],
-      "word_count": 1900,
-      "internal_links": [
-        "/en/services/seo",
-        "/en/blog/google-business-profile-optimization-checklist",
-        "/en/cities/orlando",
-        "/en/contact"
-      ],
-      "cluster": "pillar1.local-search",
-      "notes": "Troubleshooting post, highest intent in the local cluster. Ordered by likelihood: unverified or suspended profile, address and service area mismatch, duplicate listings, wrong primary category, proximity to the searcher, thin review profile, NAP inconsistency. Each cause gets the check and the fix. Cite support.google.com for suspension and verification rules. Explain proximity honestly: you cannot rank everywhere.",
-      "image_context": "a small storefront on a commercial street at dusk with lights on inside, viewed from across the street",
-      "publish_date": null,
-      "author": null,
-      "status": "pending",
-      "attempts": 0,
-      "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "last_score": null,
+      "retroativo": true
     },
     {
       "id": "en-p3-contractors",
@@ -337,6 +310,271 @@
       "cluster": "pillar3.industry-playbooks",
       "notes": "Industry playbook for construction and remodeling. Compare the real channels: Local Services Ads, Google Ads, lead marketplaces (be honest about shared leads), map pack, referrals systematized, and past customer reactivation. Include the qualification problem: more leads at a lower price is worse than fewer leads that match the job size you want. Ties back to the cleaning playbook as a sibling link.",
       "image_context": "a contractor in a hard hat reviewing plans with a homeowner in a house under renovation, natural light from an open wall",
+      "publish_date": "2026-09-29",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "retroativo": true
+    },
+    {
+      "id": "en-p4-multilingual",
+      "slug": "marketing-to-multilingual-customers-local-business",
+      "title": "Your Customers Do Not All Search in English: Multilingual Marketing for Local Businesses",
+      "template": "thought-leadership",
+      "target_keyword": "marketing to hispanic customers",
+      "secondary_keywords": [
+        "bilingual marketing for small business",
+        "spanish language google ads",
+        "multilingual local marketing"
+      ],
+      "word_count": 2200,
+      "internal_links": [
+        "/en/cities/houston",
+        "/en/cities/newark",
+        "/en/services/paid-ads",
+        "/en/about"
+      ],
+      "cluster": "pillar4.multilingual-market",
+      "notes": "The differentiation pillar. No measurable search volume by design: this is an AI citation and positioning play. Use Census data (census.gov) for language spoken at home in the covered metros, and Pew (pewresearch.org) for media habits. Argue the operational point: translated ad copy is not a Spanish campaign, because the search terms, the objections and the trust signals differ. Etuos runs US accounts in English and Spanish, which is authorized copy from the About page.",
+      "image_context": "a family-owned bakery counter in a busy city neighborhood with the owner handing a paper bag to a customer",
+      "publish_date": "2026-10-01",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "retroativo": true
+    },
+    {
+      "id": "en-p1-reviews",
+      "slug": "how-to-get-google-reviews-for-local-business",
+      "title": "How to Get More Google Reviews Without Awkward Asking",
+      "template": "how-to-guide",
+      "target_keyword": "how to get google reviews",
+      "secondary_keywords": [
+        "ask customers for google reviews",
+        "google review link",
+        "get more reviews local business"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/en/services/seo",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/blog/local-seo-for-service-businesses-complete-guide",
+        "/en/contact"
+      ],
+      "cluster": "pillar1.local-search",
+      "notes": "Reviews sub-cluster (880/month). Cite Google review policies from support.google.com only after opening the page. Cover timing, the share link, scripts for the ask, and what is not allowed (gating, incentives). Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a cleaning crew leader showing a customer a phone at the front door of a suburban home, friendly moment",
+      "publish_date": "2026-10-05",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "retroativo": true
+    },
+    {
+      "id": "en-p2-facebook",
+      "slug": "facebook-ads-for-local-business",
+      "title": "Facebook and Instagram Ads for a Local Business: What to Run First",
+      "template": "how-to-guide",
+      "target_keyword": "facebook ads for local business",
+      "secondary_keywords": [
+        "instagram ads for local business",
+        "meta ads small business",
+        "local awareness ads"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/en/services/paid-ads",
+        "/en/blog/local-services-ads-vs-google-ads",
+        "/en/blog/how-much-paid-ads-cost-local-business-guide",
+        "/en/contact"
+      ],
+      "cluster": "pillar2.paid-ads",
+      "notes": "Paid cluster (260/month, competition 10). Explain demand creation (Meta) versus demand capture (Google), which local offers work as a first campaign, and what to measure. Cite Meta Business Help only after opening the page. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a salon owner photographing a finished hairstyle for social media in a bright studio",
+      "publish_date": "2026-10-06",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null,
+      "retroativo": true
+    },
+    {
+      "id": "en-p1-negreviews",
+      "slug": "how-to-respond-to-negative-google-reviews",
+      "title": "How to Respond to Negative Google Reviews (and When to Flag Them)",
+      "template": "how-to-guide",
+      "target_keyword": "how to respond to negative google reviews",
+      "secondary_keywords": [
+        "reply to bad google review",
+        "remove fake google review",
+        "google review response examples"
+      ],
+      "word_count": 1600,
+      "internal_links": [
+        "/en/services/seo",
+        "/en/blog/how-to-get-google-reviews-for-local-business",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/contact"
+      ],
+      "cluster": "pillar1.local-search",
+      "notes": "Reviews sub-cluster (390/month, competition 13). Reply framework with examples, what qualifies for removal under Google policy (cite support.google.com after opening it). Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a restaurant owner at the register reading a message on a tablet with a thoughtful expression",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p3-hvac",
+      "slug": "hvac-marketing",
+      "title": "HVAC Marketing: How to Win Calls Before the Season Starts",
+      "template": "how-to-guide",
+      "target_keyword": "hvac marketing",
+      "secondary_keywords": [
+        "hvac advertising",
+        "hvac leads",
+        "hvac google ads"
+      ],
+      "word_count": 2000,
+      "internal_links": [
+        "/en/services/paid-ads",
+        "/en/blog/local-services-ads-vs-google-ads",
+        "/en/blog/marketing-for-local-service-businesses-by-industry",
+        "/en/contact"
+      ],
+      "cluster": "pillar3.industry-playbooks",
+      "notes": "Industry playbook (480/month). Emergency versus planned replacement intent, seasonality, maintenance plans as recurring revenue, map pack. Qualitative only unless a source is registered. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "an HVAC technician servicing an outdoor condenser unit at a suburban home, clear sky",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p5-websitecost",
+      "slug": "small-business-website-design-cost",
+      "title": "How Much Should a Small Business Website Cost? What You Are Actually Paying For",
+      "template": "data-research",
+      "target_keyword": "small business website design cost",
+      "secondary_keywords": [
+        "how much does a website cost",
+        "website cost for small business",
+        "web design pricing"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/en/services/website-design",
+        "/en/blog/local-seo-for-service-businesses-complete-guide",
+        "/en/services/paid-ads",
+        "/en/contact"
+      ],
+      "cluster": "pillar5.website",
+      "notes": "Cost intent (90/month, competition 72). Explain cost drivers, not prices. Never quote Etuos prices. Any benchmark must be sourced from an allowed domain. Link /en/blog/landing-page-vs-website only if it is already published. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a small business owner and a web designer reviewing a site layout on a monitor in a small office",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p4-spanishads",
+      "slug": "spanish-language-google-ads-for-local-business",
+      "title": "Spanish Language Google Ads: Why Translated Copy Is Not a Campaign",
+      "template": "how-to-guide",
+      "target_keyword": "spanish language google ads",
+      "secondary_keywords": [
+        "spanish google ads for local business",
+        "bilingual ads small business",
+        "advertise to spanish speakers"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/en/services/paid-ads",
+        "/en/blog/selling-to-english-spanish-portuguese-speaking-customers",
+        "/en/cities/houston",
+        "/en/contact"
+      ],
+      "cluster": "pillar4.multilingual-market",
+      "notes": "Differentiation pillar. Language targeting versus search terms, separate campaigns versus one, ad copy written natively. Use Google Ads help pages only after opening them. Etuos runs accounts in English and Spanish (authorized About copy). Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a Houston auto repair shop owner speaking with a customer at the service desk, shop bay behind them",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p3-roofing",
+      "slug": "roofing-marketing",
+      "title": "Roofing Marketing: Storm Leads, Referrals and the Long Sales Cycle",
+      "template": "how-to-guide",
+      "target_keyword": "roofing marketing",
+      "secondary_keywords": [
+        "roofing leads",
+        "roofing advertising",
+        "roofing google ads"
+      ],
+      "word_count": 2000,
+      "internal_links": [
+        "/en/services/paid-ads",
+        "/en/blog/lead-generation-for-contractors",
+        "/en/blog/local-services-ads-vs-google-ads",
+        "/en/contact"
+      ],
+      "cluster": "pillar3.industry-playbooks",
+      "notes": "Industry playbook (590/month). High ticket, long cycle, storm demand spikes, insurance claims angle, reviews and photos as proof. No invented figures. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a roofer on a pitched roof inspecting shingles with a homeowner watching from the yard",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p5-landing",
+      "slug": "landing-page-vs-website",
+      "title": "Landing Page vs Website: Which One Does Your Local Business Need?",
+      "template": "comparison",
+      "target_keyword": "landing page vs website",
+      "secondary_keywords": [
+        "landing page or website",
+        "do i need a landing page",
+        "local business landing page"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/en/services/website-design",
+        "/en/services/paid-ads",
+        "/en/blog/local-seo-for-service-businesses-complete-guide",
+        "/en/contact"
+      ],
+      "cluster": "pillar5.website",
+      "notes": "Website cluster (390/month, competition 46). Intent-based comparison: ads traffic versus brand and search presence. Link only to published posts. Never link /en/lp/ pages. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a laptop on a desk showing two different page layouts side by side, a coffee mug and a notebook nearby",
       "publish_date": null,
       "author": null,
       "status": "pending",

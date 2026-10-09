@@ -170,38 +170,44 @@ Checagem direta de ChatGPT/Perplexity/AI Overviews não foi executada nesta roda
 
 ## Velocidade de conteúdo
 
-Premissa (ajustar se a capacidade real for outra): produção assistida por IA com revisão e aprovação do Lin.
+Atualizado em 09/10/2026. Produção pelo blog-loop (rotinas em nuvem), com os mesmos portões de qualidade e fontes verificadas.
 
-- **Novos posts: 1 por semana** (mínimo aceitável: 2 por mês; abaixo disso a estratégia não fecha em 90 dias).
-- Atualizações de frescor: a partir do mês 4, 2 posts revisados por mês.
-- Visuais: 1 gráfico SVG próprio por post data-research; foto ou ilustração WebP nos demais.
+- **Novos posts: 4 por semana**, todos spokes, publicados em segunda, terça, quinta e sexta (fuso de Nova York). Piso absoluto: 2 por semana; semana abaixo disso vira retroativo na fila.
+- **Retroativos**: 5 posts em pt para fechar as semanas sem publicação (22/09, 29/09 e 05/10), com `publish_date` na própria semana: 22/09, 24/09, 29/09, 01/10 e 05/10. Ficam na frente da fila e saem à razão de 1 por dia útil (a rotina trabalha em qualquer dia da semana enquanto houver retroativo).
+- **Fila**: 8 pautas pendentes (duas semanas), repostas pela rotina replenish, priorizando os pilares 2 e 3, que tinham só o hub.
+- Pilares, cases e atualizações de posts antigos entram como itens avulsos, no máximo 1 por mês.
+- Atualizações de frescor: a partir de 01/12/2026, 2 posts revisados por mês, escolhidos pelo GSC.
+- Visuais: capa + 3 a 4 ilustrações por post (runbook do producer); 1 gráfico SVG próprio por post data-research.
 
 ## Roadmap de 90 dias
 
-### Mês 1: Fundação (Pilar 1)
-- [ ] Corrigir o post "bem-vindo" (autor Lin Zeri, links para serviços) ou despublicar.
-- [ ] Publicar o pilar "Como divulgar seu negócio nos Estados Unidos" + spokes 1, 2 e 4.
-- [ ] Implementar schema BlogPosting + Person + BreadcrumbList no template de post (pré-requisito, Fase 2 da auditoria).
-- [ ] Criar perfis LinkedIn e Clutch; adicionar sameAs.
-- [ ] Coletar baseline de citação por IA (tabela acima) e registrar em docs/ai-citation-log.md.
+Reescrito em 09/10/2026. Situação de partida: 7 posts publicados (hubs dos pilares 1 a 3 e 4 spokes do pilar 1), 5 pendentes no início do dia, baseline de IA zerado (`docs/ai-citation-log.md`) e GSC com 193 impressões em 90 dias, nenhuma delas em página do blog (`docs/gsc/`). As semanas de 21/09 e 28/09 ficaram sem posts e a de 05/10 teve 1.
 
-### Mês 2: Expansão (Pilares 2 e 3)
-- [ ] Publicar pilar "Tráfego pago" + spokes 1 e 2 (aproveitam volume BR: 210 e 5.400/mês).
-- [ ] Publicar spoke "SEO em português nos EUA" (Pilar 3).
-- [ ] Primeiro case study rotulado com cidade (Pilar 4), linkado da página da cidade.
+### Outubro de 2026: recuperar o ritmo e cobrir os pilares 2 e 3
+- [x] Baseline de citação por IA coletado em 09/10 (zero menções no ChatGPT e no Google AI Overviews).
+- [x] Exportação do GSC automatizada (`scripts/gsc-export.py`).
+- [ ] Publicar os 5 retroativos (22/09, 24/09, 29/09, 01/10, 05/10) e depois 4 spokes por semana.
+- [ ] Spokes dos pilares 2 e 3: seo local, avaliações, quanto custa tráfego pago, gestor de tráfego, SEO em português nos EUA.
+- [ ] Criar perfis LinkedIn e Clutch; adicionar sameAs (dependência do Lin).
+- [ ] 1ª exportação quinzenal do GSC em 23/10.
+
+### Novembro de 2026: completar clusters e medir
+- [ ] Fechar os clusters dos pilares 2 e 3 (6 a 8 spokes cada) e os spokes restantes do pilar 1.
+- [ ] 1º case study rotulado com cidade (Pilar 4), linkado da página da cidade; depende de dados e autorização do cliente.
+- [ ] Reler o GSC: queries com posição de 8 a 30 viram pautas de reforço; páginas do blog sem impressão após 6 semanas entram na lista de revisão.
+- [ ] 2ª coleta de baseline de IA (início de novembro) e primeira comparação.
 - [ ] Entrar em 3 a 5 grupos de comunidade; primeira participação genuína.
-- [ ] Gravar o primeiro vídeo companheiro do pilar 1.
 
-### Mês 3: Autoridade e otimização
-- [ ] Publicar pilar "Como aparecer no Google" + spoke "SEO local".
-- [ ] Publicar "Radiografia do empreendedor brasileiro nos EUA" (âncora de links; divulgar para podcasts e parceiros).
-- [ ] Rodar /blog analyze em todos os posts; revisar os que ficarem abaixo de 80.
+### Dezembro de 2026: autoridade e otimização
+- [ ] "Radiografia do empreendedor brasileiro nos EUA" (âncora de links) e o artigo de autoridade do Lin sobre as franquias.
+- [ ] Rodar /blog analyze em todos os posts; revisar os abaixo de 80; começar as 2 atualizações de frescor por mês.
 - [ ] Primeira rodada de parcerias editoriais (2 guest posts ou entrevistas).
-- [ ] Reauditar citações de IA e keywords (comparar com baseline); ajustar pautas do mês 4 pelos dados do GSC.
+- [ ] 3ª coleta de baseline de IA e revisão geral da estratégia com os dados de GSC de 90 dias.
 
 ## Medição
 
 - **SEO clássico**: keywords no top 100/10/3 (DataForSEO ou GSC, mensal; meta 90 dias: primeiras 50 keywords indexadas, ecoando a meta da auditoria), tráfego orgânico (GA4), backlinks reais (meta: 10+ em 6 meses).
+- **Ciclo do GSC (ativo desde 09/10/2026)**: a cada 2 semanas rodar `python scripts/gsc-export.py 90` (service account somente leitura, propriedade `sc-domain:etuos.com`), que grava `docs/gsc/gsc-<data>.json` com páginas, queries, query x página, países e série diária. Comitar o arquivo; a rotina replenish lê o mais recente. Decisões: (1) query com posição 8 a 30 vira spoke de reforço; (2) página do blog com 0 impressão após 6 semanas indexada entra na lista de revisão; (3) página com impressão e CTR abaixo de 1% ganha título e descrição novos.
 - **Citação por IA**: log mensal manual das 10 a 20 queries por plataforma em docs/ai-citation-log.md; tráfego de referral de IA no GA4 (source contém chatgpt, perplexity, claude); impressões de IA no GSC quando disponível.
 - **Qualidade**: score médio /blog analyze 80+; 100% dos posts com schema e autor.
 - **Negócio**: conversas de WhatsApp iniciadas a partir de posts (UTM interna nos CTAs do blog).

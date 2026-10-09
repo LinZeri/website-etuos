@@ -105,8 +105,43 @@ One conversion, every post: **WhatsApp, free diagnosis, no deadline**.
 
 - Baseline: zero English keywords ranking as of 22/09/2026.
 - 90 day target: the local cluster (pillar 1) ranking in the top 20 for `google business profile optimization` variants and `how to rank higher on google maps`, plus first AI citations for the multilingual angle.
-- Review every 60 days with DataForSEO plus Search Console once access is connected.
+- Review every 60 days with DataForSEO plus Search Console (connected on 10/09/2026, see "Search Console cycle" above).
+
+## Content velocity (updated 09/10/2026)
+
+- **4 new posts per week**, all spokes, published Monday, Tuesday, Thursday and Friday (New York time). Hard floor: 2 per week; a week below that becomes a backfill item.
+- **Backfill**: 6 English posts to close the weeks with no publishing (09/21, 09/28, 10/05), dated inside their own week: 09/22, 09/24, 09/29, 10/01, 10/05 and 10/06. They sit at the front of the queue and ship at one per day, on any day of the week, until cleared.
+- **Queue**: 8 pending items (two weeks), refilled by the replenish routine. Standalone items (a new pillar, a refresh of an old post) are capped at one per month.
+- Every post ships with a cover image plus 3 to 4 body illustrations (producer runbook).
+- From 12/01/2026: two refreshes of older posts per month, chosen from Search Console data.
+
+## 90-day roadmap (10/2026 to 12/2026)
+
+Starting point: 7 posts published (four pillar hubs, plus the GBP checklist, the LSA comparison and the cleaning playbook), zero AI mentions in ChatGPT and Google AI Overviews, and no English blog page with impressions in Search Console yet.
+
+### October: recover the pace and finish the local and paid clusters
+- [x] AI citation baseline collected 10/09 (`docs/ai-citation-log.md`).
+- [x] Search Console export automated (`scripts/gsc-export.py`).
+- [ ] Ship the 6 backfill posts, then 4 spokes per week.
+- [ ] Pillar 1 spokes: map pack troubleshooting, reviews (ask and respond). Pillar 2 spokes: Google Ads cost, Facebook and Instagram ads.
+- [ ] First biweekly Search Console export on 10/23.
+
+### November: industry playbooks and the multilingual angle
+- [ ] Industry playbooks: contractors, HVAC, roofing; then med spa and restaurants.
+- [ ] Pillar 4: the multilingual post and Spanish language Google Ads.
+- [ ] Pillar 5: website cost and landing page vs website.
+- [ ] Read Search Console: queries at position 8 to 30 become reinforcement spokes; blog pages with zero impressions after six weeks go on the refresh list.
+- [ ] Second AI citation check (early November), compared with the baseline.
+
+### December: authority and refresh
+- [ ] Census backed city reads for Miami, Houston, Newark and Framingham (only with sources registered first).
+- [ ] Run `/blog analyze` on every post, rework anything below 80, start the two monthly refreshes.
+- [ ] Third AI citation check and a strategy review on 90 days of Search Console data.
+
+## Search Console cycle (active since 09/10/2026)
+
+Every two weeks run `python scripts/gsc-export.py 90` (read only service account, property `sc-domain:etuos.com`). It writes `docs/gsc/gsc-<date>.json` with pages, queries, query by page, countries and the daily series. Commit the file; the replenish routine reads the latest one when choosing topics.
 
 ## Queue replenishment
 
-The cloud routine keeps 7 pending items in `docs/blog-queue-en.json`, drawing from the pillars above in this order of priority: pillar 1, pillar 2, pillar 3, pillar 4, pillar 5. Publishing order alternates pillars so the blog does not look like a single topic site. When every planned topic in a pillar is published or queued, mark the pillar closed here instead of inventing topics outside the strategy.
+The cloud routine keeps 8 pending items in `docs/blog-queue-en.json`, drawing from the pillars above in this order of priority: pillar 1, pillar 2, pillar 3, pillar 4, pillar 5. Publishing order alternates pillars so the blog does not look like a single topic site. When every planned topic in a pillar is published or queued, mark the pillar closed here instead of inventing topics outside the strategy.

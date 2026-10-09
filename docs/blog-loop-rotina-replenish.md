@@ -2,7 +2,7 @@
 
 Procedimento executado todo dia pela rotina `etuos-blog-replenish`, numa sessão de nuvem isolada, cerca de duas horas antes da rotina producer. A rotina só aponta para este arquivo, então editar aqui muda o comportamento dela.
 
-Objetivo: manter **7 pautas pendentes em cada fila** (português e inglês), geradas a partir da estratégia de cada idioma. Esta rotina não escreve artigo nenhum, só metadados de pauta.
+Objetivo: manter **8 pautas pendentes em cada fila** (português e inglês, duas semanas de produção a 4 artigos por semana por idioma), geradas a partir da estratégia de cada idioma. Esta rotina não escreve artigo nenhum, só metadados de pauta. Itens retroativos (`"retroativo": true`) contam como pendentes e ficam sempre na frente da fila; nunca os reordene nem mude o `publish_date` deles.
 
 ## Passo 0: identidade do git
 
@@ -26,10 +26,10 @@ Falhou o load-config: `ABORT: infra ausente`. Branch diferente de `main`: `ABORT
 Para cada idioma, com o `queueFile` de `CONFIG.idiomas.<idioma>`:
 
 ```bash
-python3 .claude/scripts/blog_loop_helpers.py replenish-check --queue <queueFile> --batch-size 1 --multiplier 7
+python3 .claude/scripts/blog_loop_helpers.py replenish-check --queue <queueFile> --batch-size 1 --multiplier 8
 ```
 
-Retorna `{pending, target, need_replenish, count_to_add}`. Se `need_replenish` for false nos dois idiomas, responda `NO-OP: as duas filas estão acima do alvo de 7 pendentes` e termine, sem lock e sem commit.
+Retorna `{pending, target, need_replenish, count_to_add}`. Se `need_replenish` for false nos dois idiomas, responda `NO-OP: as duas filas estão acima do alvo de 8 pendentes` e termine, sem lock e sem commit.
 
 ## Passo 3: lock entre ambientes
 
@@ -47,7 +47,10 @@ Para cada idioma que precisa de reposição, leia:
 
 - a estratégia daquele idioma (`docs/blog-strategy.md` para pt, `docs/blog-strategy-en.md` para en): pilares, clusters, prioridades e regras editoriais;
 - `CLAUDE.md`: regras inegociáveis, números autorizados, tom;
-- os artigos já publicados (`ls content/blog/<idioma>/*.mdx`) e todos os itens já existentes na fila daquele idioma, em qualquer status.
+- os artigos já publicados (`ls content/blog/<idioma>/*.mdx`) e todos os itens já existentes na fila daquele idioma, em qualquer status;
+- o export mais recente do Search Console, `docs/gsc/gsc-<data>.json` (gerado localmente por `scripts/gsc-export.py`, quinzenal). Se existir, priorize pautas que aproximem queries com impressões e posição entre 8 e 30 de um spoke novo, e pautas de páginas do blog que já recebem impressão e ainda não têm cluster completo. Se o arquivo tiver mais de 30 dias ou não existir, siga só a estratégia e anote no relatório.
+
+Composição: 4 spokes por semana por idioma. Alterne os pilares entre os spokes e deixe pilar novo, case e atualização de post antigo como itens avulsos, no máximo um por mês por idioma.
 
 Gere exatamente `count_to_add` itens novos, sem repetir tema ou keyword já publicada ou já enfileirada (canibalização é falha, não descuido). Alterne pilares, para o blog não virar um site de assunto único.
 
