@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T15:52:33.373189+00:00",
+  "updated": "2026-10-09T20:11:28.981007+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -252,12 +252,15 @@
       "image_context": "a small storefront on a commercial street at dusk with lights on inside, viewed from across the street",
       "publish_date": "2026-09-22",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null,
-      "retroativo": true
+      "started_at": "2026-10-09T20:05:42.513120+00:00",
+      "last_score": 85,
+      "retroativo": true,
+      "iteration_id": "local-session",
+      "commit_sha": "0aef092",
+      "published_date": "2026-09-22"
     },
     {
       "id": "en-p2-adcost",
@@ -282,12 +285,15 @@
       "image_context": "a small business owner at a kitchen table with a laptop and paper invoices, evening light through the window",
       "publish_date": "2026-09-24",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null,
-      "retroativo": true
+      "started_at": "2026-10-09T20:05:42.597033+00:00",
+      "last_score": 85,
+      "retroativo": true,
+      "iteration_id": "local-session",
+      "commit_sha": "f17b667",
+      "published_date": "2026-09-24"
     },
     {
       "id": "en-p3-contractors",
@@ -312,12 +318,15 @@
       "image_context": "a contractor in a hard hat reviewing plans with a homeowner in a house under renovation, natural light from an open wall",
       "publish_date": "2026-09-29",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null,
-      "retroativo": true
+      "started_at": "2026-10-09T20:05:42.677642+00:00",
+      "last_score": 85,
+      "retroativo": true,
+      "iteration_id": "local-session",
+      "commit_sha": "db4c92a",
+      "published_date": "2026-09-29"
     },
     {
       "id": "en-p4-multilingual",
@@ -342,12 +351,15 @@
       "image_context": "a family-owned bakery counter in a busy city neighborhood with the owner handing a paper bag to a customer",
       "publish_date": "2026-10-01",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null,
-      "retroativo": true
+      "started_at": "2026-10-09T20:05:42.760244+00:00",
+      "last_score": 85,
+      "retroativo": true,
+      "iteration_id": "local-session",
+      "commit_sha": "cb4c91f",
+      "published_date": "2026-10-01"
     },
     {
       "id": "en-p1-reviews",
@@ -372,12 +384,15 @@
       "image_context": "a cleaning crew leader showing a customer a phone at the front door of a suburban home, friendly moment",
       "publish_date": "2026-10-05",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null,
-      "retroativo": true
+      "started_at": "2026-10-09T20:05:42.844911+00:00",
+      "last_score": 85,
+      "retroativo": true,
+      "iteration_id": "local-session",
+      "commit_sha": "ab8eaba",
+      "published_date": "2026-10-05"
     },
     {
       "id": "en-p2-facebook",

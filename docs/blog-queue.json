@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T15:52:33.373189+00:00",
+  "updated": "2026-10-09T20:11:28.354514+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -231,12 +231,15 @@
       "notes": "Passo a passo honesto, incluindo regras para service-area business e riscos de suspensão (endereço, telefone americano). Não prometer local pack sem presença física.",
       "publish_date": "2026-09-22",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null,
-      "retroativo": true
+      "started_at": "2026-10-09T20:05:42.114372+00:00",
+      "last_score": 85,
+      "retroativo": true,
+      "iteration_id": "local-session",
+      "commit_sha": "60a00b2",
+      "published_date": "2026-09-22"
     },
     {
       "id": "p2-s2",
@@ -258,12 +261,15 @@
       "notes": "Keyword com 5.400 buscas/mês no Brasil (DataForSEO 06/08/2026). Serve os dois mercados: blocos específicos Brasil e EUA. H2s em formato de pergunta, checklist de escolha citável, sinais de alerta de gestor ruim.",
       "publish_date": "2026-09-24",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null,
-      "retroativo": true
+      "started_at": "2026-10-09T20:05:42.194202+00:00",
+      "last_score": 85,
+      "retroativo": true,
+      "iteration_id": "local-session",
+      "commit_sha": "373598b",
+      "published_date": "2026-09-24"
     },
     {
       "id": "p3-s1",
@@ -288,12 +294,15 @@
       "image_context": "dono de uma padaria de bairro olhando o celular no balcão, com a vitrine iluminada ao fundo",
       "publish_date": "2026-09-29",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null,
-      "retroativo": true
+      "started_at": "2026-10-09T20:05:42.272948+00:00",
+      "last_score": 85,
+      "retroativo": true,
+      "iteration_id": "local-session",
+      "commit_sha": "a36dac3",
+      "published_date": "2026-09-29"
     },
     {
       "id": "p2-s1",
@@ -318,12 +327,15 @@
       "image_context": "empreendedora brasileira fazendo contas com calculadora e laptop em uma mesa de escritório pequeno",
       "publish_date": "2026-10-01",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null,
-      "retroativo": true
+      "started_at": "2026-10-09T20:05:42.354076+00:00",
+      "last_score": 85,
+      "retroativo": true,
+      "iteration_id": "local-session",
+      "commit_sha": "e7e0b03",
+      "published_date": "2026-10-01"
     },
     {
       "id": "p3-s3",
@@ -348,12 +360,15 @@
       "image_context": "cliente satisfeito segurando o celular no balcão de um salão de beleza, sorrindo para a dona do negócio",
       "publish_date": "2026-10-05",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null,
-      "retroativo": true
+      "started_at": "2026-10-09T20:05:42.439754+00:00",
+      "last_score": 85,
+      "retroativo": true,
+      "iteration_id": "local-session",
+      "commit_sha": "2e1e04c",
+      "published_date": "2026-10-05"
     },
     {
       "id": "p3-s4",
