@@ -12,7 +12,7 @@
       "wordCount": 3200,
       "keywords": "como aparecer no google, como aparecer no google maps, seo local, aparecer no google sem pagar, perfil da empresa no google, local pack, nap consistente, avaliações google",
       "articleSection": "SEO Local",
-      "articleBody": "Em 2026, 68,01% das buscas no Google nos EUA terminam sem nenhum clique. O cliente nem chega a visitar um site: ele encontra o que quer direto no Google Maps, no painel do negócio ou no resumo de IA. Quem não está visível nessas posições simplesmente não existe para esse cliente.",
+      "articleBody": "Em 2026, 68,01% das buscas no Google nos EUA terminam sem nenhum clique. Com tantas buscas resolvidas na própria página do Google, aparecer no mapa e no perfil do negócio pesa cada vez mais na decisão de quem busca um serviço perto de casa.",
       "author": { "@id": "https://etuos.com/pt/sobre#person" },
       "publisher": { "@id": "https://etuos.com#organization" },
       "image": { "@id": "https://etuos.com/pt/blog/como-aparecer-no-google-guia-do-negocio-local#primaryimage" },
@@ -103,7 +103,7 @@
           "name": "Preciso de site para aparecer no Google Maps?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Não precisa, mas ter um site ajuda muito. O Perfil da Empresa no Google pode aparecer no mapa sem site, mas o site reforça o fator destaque e captura buscas orgânicas nos resultados abaixo do Local Pack. Sem site, o negócio também perde quando o cliente pesquisa diretamente no Google em vez de no Maps, e a autoridade do perfil cresce mais devagar."
+            "text": "Não precisa, mas ter um site ajuda muito. O Perfil da Empresa no Google pode aparecer no mapa sem site, mas o site reforça o fator destaque e captura buscas orgânicas nos resultados abaixo do Local Pack. Sem site, o negócio também perde quando o cliente pesquisa diretamente no Google em vez de no Maps, e o perfil conta com menos apoio no fator destaque."
           }
         },
         {
@@ -119,7 +119,7 @@
           "name": "Dá para aparecer no Google sem pagar nada?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sim. O Perfil da Empresa no Google é gratuito. SEO orgânico também não tem custo direto, apenas de tempo ou de contratação de agência. Google Ads e Local Services Ads são opcionais e aceleram resultados, mas não substituem o trabalho no perfil. Para a maioria dos negócios locais, o perfil bem otimizado começa a trazer retorno antes de qualquer anúncio pago."
+            "text": "Sim. O Perfil da Empresa no Google é gratuito. SEO orgânico também não tem custo direto, apenas de tempo ou de contratação de agência. Google Ads e Local Services Ads são opcionais e aceleram resultados, mas não substituem o trabalho no perfil. Para a maioria dos negócios locais, o perfil bem otimizado é o ponto de partida, antes de pensar em anúncio pago."
           }
         },
         {
@@ -127,7 +127,7 @@
           "name": "Sou prestador de serviço sem endereço fixo. Apareço no mapa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Aparece. O Google permite configurar área de atendimento sem mostrar endereço físico. O perfil aparece nas buscas das regiões declaradas. Quem trabalha de casa pode usar essa configuração sem expor o endereço residencial."
+            "text": "Pode aparecer. O Google permite configurar área de atendimento sem mostrar endereço físico. O perfil aparece nas buscas das regiões declaradas. Quem trabalha de casa pode usar essa configuração sem expor o endereço residencial. A documentação oficial explica como definir a área de atendimento em support.google.com."
           }
         }
       ]

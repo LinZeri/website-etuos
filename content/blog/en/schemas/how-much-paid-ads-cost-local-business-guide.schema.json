@@ -28,7 +28,7 @@
         "When Paid Ads Are Not the Right First Move",
         "Measuring Whether Ads Are Paying Off"
       ],
-      "articleBody": "In 2025, US digital advertising hit a record $294.6 billion, growing 13.9% year over year. Most of that money comes from businesses that figured out the math. Yet most local service business owners say paid ads burned their budget and produced nothing. The gap is not the platform. It is the math most owners skip before spending the first dollar.",
+      "articleBody": "In 2025, US digital advertising hit a record $294.6 billion, growing 13.9% year over year. Plenty of local business owners still walk away from paid ads convinced they burned their budget. The gap is rarely the platform. It is the math many owners skip before spending the first dollar.",
       "author": {
         "@id": "https://etuos.com/en/about#lin-zeri"
       },
@@ -159,7 +159,7 @@
           "name": "How long until Google Ads start working?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Expect a new campaign to need time before the numbers settle. In the early stretch, the algorithm is still figuring out who to show your ads to and at what bid levels. Plan for this in your cash flow: the first stretch of spend is investment in data, not proof of channel viability. Cutting a new campaign early because the numbers are not perfect yet is one of the most common ways local businesses end up concluding that Google Ads do not work, when it is actually a patience problem."
+            "text": "Expect a new campaign to need time before the numbers settle, and there is no reliable date to promise. In the early stretch, the campaign is still gathering data. Plan for this in your cash flow: the first stretch of spend is investment in data, not proof of channel viability. Cutting a new campaign early because the numbers are not perfect yet is one of the most common ways local businesses end up concluding that Google Ads do not work, when it is actually a patience problem."
           }
         },
         {
@@ -167,7 +167,7 @@
           "name": "Should I run Google Ads or work on local SEO first?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "They serve different timelines. Ads can drive calls this week. Local SEO builds visibility that does not require a daily budget to maintain. For a new business or one with zero Google Maps presence, your Google Business Profile is usually the faster and cheaper path to calls because Google Maps traffic is high-intent and setup costs nothing. Once the profile is optimized and showing in your market, paid ads layer on top to capture the searches that Maps does not cover on its own."
+            "text": "They serve different timelines. Ads can drive calls this week. Local SEO builds visibility that does not require a daily budget to maintain. For a new business or one with zero Google Maps presence, your Google Business Profile is often the cheaper place to start because claiming it costs nothing. Once the profile is optimized and showing in your market, paid ads layer on top to capture the searches that Maps does not cover on its own."
           }
         },
         {
@@ -175,7 +175,7 @@
           "name": "Can I run paid ads myself without an agency?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, with $300 to $500 per month in ad spend and a willingness to put in 3 to 5 hours per week on campaign management. The most common self-managed mistakes are: too many keywords in one campaign, broad match on every term without a negative keyword list, no call tracking, and no conversion event set up in Google Ads. An agency earns its management fee when the complexity of running multiple campaigns across multiple keywords and audiences grows beyond what an owner can handle alongside running the actual business."
+            "text": "Yes, if you are willing to put in the weekly time to manage the campaign and to review the numbers. The most common self-managed mistakes are: too many keywords in one campaign, broad match on every term without a negative keyword list, no call tracking, and no conversion event set up in Google Ads. An agency earns its management fee when the complexity of running multiple campaigns across multiple keywords and audiences grows beyond what an owner can handle alongside running the actual business."
           }
         }
       ]

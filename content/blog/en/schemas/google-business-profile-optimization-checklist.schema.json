@@ -5,7 +5,7 @@
       "@type": "BlogPosting",
       "@id": "https://etuos.com/en/blog/google-business-profile-optimization-checklist#article",
       "headline": "Google Business Profile Optimization: The Checklist for Local Service Businesses",
-      "description": "Google Business Profile optimization drives 32% of local pack rankings. This step-by-step checklist covers categories, photos, reviews, posts and Q&A so your service business gets more calls.",
+      "description": "Google Business Profile signals account for 32% of local pack ranking, per Whitespark's expert survey. This checklist covers verification, categories, photos, reviews and posts so your service business gets more calls.",
       "datePublished": "2026-09-16",
       "dateModified": "2026-09-16",
       "inLanguage": "en-US",
@@ -28,12 +28,12 @@
         "What Does a Complete Profile Look Like?",
         "Why Should You Add Photos Every Week?",
         "How Do You Build a Review Engine That Drives Ranking?",
-        "Are You Using Google Posts, Q&A, and Products?",
+        "Are You Using Google Posts and Services?",
         "Can You Reach Customers Who Search in More Than One Language?",
         "Frequently Asked Questions",
         "What Should You Fix First?"
       ],
-      "articleBody": "Your Google Business Profile is the single biggest factor in whether your business shows up on Google Maps. Not your website. Not your backlinks. Your profile. In 2026, Whitespark's annual survey of 47 expert local SEOs found that Google Business Profile signals account for 32% of what determines local pack ranking.",
+      "articleBody": "Your Google Business Profile is one of the biggest factors in whether your business shows up on Google Maps. It carries more weight than most owners expect, and often more than your website does. In 2026, Whitespark's annual survey of 47 expert local SEOs found that Google Business Profile signals account for 32% of what determines local pack ranking.",
       "author": {
         "@id": "https://etuos.com/en/about#lin-zeri"
       },
@@ -107,7 +107,7 @@
       "@id": "https://etuos.com/en/blog/google-business-profile-optimization-checklist",
       "url": "https://etuos.com/en/blog/google-business-profile-optimization-checklist",
       "name": "Google Business Profile Optimization: The Checklist for Local Service Businesses",
-      "description": "Google Business Profile optimization drives 32% of local pack rankings. This step-by-step checklist covers categories, photos, reviews, posts and Q&A so your service business gets more calls.",
+      "description": "Google Business Profile signals account for 32% of local pack ranking, per Whitespark's expert survey. This checklist covers verification, categories, photos, reviews and posts so your service business gets more calls.",
       "primaryImageOfPage": {
         "@id": "https://etuos.com/en/blog/google-business-profile-optimization-checklist#primaryimage"
       },
@@ -156,7 +156,7 @@
           "name": "Is Google Business Profile free?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Claiming, verifying, and optimizing your Google Business Profile costs nothing. Google charges only if you choose to run ads through Google Ads. The profile itself, including Posts, Q&A, reviews, and Insights, is free for every business."
+            "text": "Yes. Claiming, verifying, and optimizing your Google Business Profile costs nothing. Google charges only if you choose to run ads through Google Ads. The profile itself, including Posts and reviews, is free for every business."
           }
         },
         {
@@ -164,7 +164,7 @@
           "name": "How long does it take for changes to show up?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Most edits appear within 24 to 48 hours. Verification by video takes a few business days; verification by postcard takes five to ten business days. Some changes (like a new primary category) may take up to a week for Google to process and reflect in local rankings."
+            "text": "There is no fixed timeline you can count on. Verification options and review times depend on your business, and some changes take longer than others to show up in local results. Check your profile after each edit."
           }
         },
         {
@@ -180,7 +180,7 @@
           "name": "How do I get more reviews without being pushy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ask in person, right after a completed job, when satisfaction is highest. Send a follow-up text with a direct review link within the hour. The key is timing and ease: one tap, no hunting for your listing. Never offer discounts or gifts in exchange for reviews. Google's policies prohibit it, and customers sense it."
+            "text": "Ask right after a completed job, when satisfaction is highest. Send a text with a direct review link, without pressure. The key is timing and ease: one tap, no hunting for your listing. Never offer discounts or gifts in exchange for reviews. Google's policies prohibit it."
           }
         },
         {

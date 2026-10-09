@@ -7,9 +7,9 @@
       "headline": "Selling to Customers Who Search in English, Spanish and Portuguese in the Same City",
       "description": "In cities like Houston and Newark, many customers search in Spanish or Portuguese. Learn how to reach all three language audiences without doubling your budget.",
       "datePublished": "2026-09-15",
-      "dateModified": "2026-09-15",
+      "dateModified": "2026-10-09",
       "inLanguage": "en-US",
-      "wordCount": 3000,
+      "wordCount": 3099,
       "keywords": [
         "multilingual marketing for local business",
         "bilingual marketing",
@@ -22,7 +22,7 @@
         "Bilingual Advertising",
         "Local SEO"
       ],
-      "articleBody": "A customer types air conditioning repair cerca de mi into Google. Your English-only ad does not show. Your English-only website does not rank. You never know that customer was looking for you. In cities like Houston, Newark, and Miami, a significant share of potential customers search for local services in Spanish or Portuguese every day.",
+      "articleBody": "A customer types air conditioning repair cerca de mi into Google. Your English-only ad does not show. Your English-only website does not rank. You never know that customer was looking for you. In cities like Houston, Newark, and Miami, many potential customers search for local services in Spanish or Portuguese.",
       "author": {
         "@id": "https://etuos.com/en/about#author-lin-zeri"
       },
@@ -142,7 +142,7 @@
           "name": "Do I need a separate website for Spanish-speaking customers?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. A separate website adds more maintenance overhead than benefit for most local service businesses starting out. A translated service page, a bilingual GBP description, and Spanish ad groups pointing to a language-aware landing page are enough to start. A fully separate site is only justified at high spend volume with dedicated teams managing each language version."
+            "text": "No. A separate website isn't required and adds more maintenance overhead than benefit for most local service businesses starting out. A translated service page, a bilingual GBP description, and Spanish ad groups pointing to a language-aware landing page are enough to start. A fully separate site is only justified at high spend volume with dedicated teams managing each language version."
           }
         },
         {
@@ -150,7 +150,7 @@
           "name": "How do I know if my city has enough Spanish speakers to make bilingual marketing worth it?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Start with your own inquiry data: how many of your current calls or messages come in Spanish without any effort to attract them? If 10 to 15% of inbound contacts are already in Spanish, a bilingual campaign will likely increase that share. The cost of a test is low. The cost of ignoring it is a permanent share of your market going to whoever showed up in that language first."
+            "text": "Start with your own inquiry data: how many of your current calls or messages come in Spanish without any effort to attract them? If a meaningful share of inbound contacts already comes in Spanish, a bilingual campaign can grow that share. A small test is a low-risk way to find out. Ignoring it can leave that share of the market to whoever shows up in that language first."
           }
         },
         {
@@ -158,7 +158,7 @@
           "name": "Should I hire a Spanish-speaking team member before running Spanish ads?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, ideally. Running Spanish ads to an English-only phone team wastes the click and damages the first impression. At minimum, have one person who can take an initial call and schedule an appointment in Spanish. Your ad can reference this directly: a Hablamos espanol call extension tells callers before they click that someone will understand them."
+            "text": "Yes, ideally. Running Spanish ads to an English-only phone team wastes the click and damages the first impression. At minimum, have one person who can take an initial call and schedule an appointment in Spanish. Your ad can reference this directly: \"Hablamos español\" in a call extension tells callers before they click that someone will understand them."
           }
         },
         {
@@ -166,7 +166,7 @@
           "name": "Can I just translate my English ads into Spanish?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Translation is a starting point, not a strategy. Spanish queries differ from English queries in structure, vocabulary, and intent. A translated ad running against an English-derived keyword list misses most of the actual Spanish search volume. Start with native Spanish keyword research, then write ad copy that speaks to that audience's specific motivations."
+            "text": "Translation is a starting point, not a strategy. Spanish queries differ from English queries in structure, vocabulary, and intent. A translated ad running against an English-derived keyword list can miss much of the actual Spanish search volume, because the searches your Spanish-speaking audience types are often different from translated English queries. Start with native Spanish keyword research, then write ad copy that speaks to that audience's specific motivations."
           }
         }
       ]

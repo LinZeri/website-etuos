@@ -109,7 +109,7 @@
           "name": "Quanto tempo leva para começar a ter clientes pelo Google?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Google Ads pode trazer resultado na primeira semana se o perfil e o site já estiverem prontos. Para aparecer no Google Maps de forma orgânica, o prazo varia de 4 a 12 semanas, dependendo do número de avaliações e da concorrência local. O ideal é usar os dois juntos: anúncios para resultado imediato, orgânico para crescer sem custo por clique a longo prazo."
+            "text": "O Google Ads costuma ser o canal mais rápido, desde que o perfil e o site já estejam prontos. Para aparecer no Google Maps de forma orgânica, o tempo varia conforme o número de avaliações e a concorrência local, e ninguém consegue prometer um prazo. O ideal é usar os dois juntos: anúncios para ganhar velocidade, orgânico para crescer sem custo por clique a longo prazo."
           }
         },
         {
@@ -117,7 +117,7 @@
           "name": "Preciso de site para conseguir clientes nos EUA?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Para Google Ads, sim. A plataforma exige uma URL de destino, e a taxa de conversão sem site é muito baixa. O Google Business Profile funciona sem site, mas a taxa de contato melhora quando o cliente tem um endereço confiável para onde ir depois de encontrar o seu perfil. Para anúncios da Meta e para construir presença orgânica no longo prazo, o site também é necessário."
+            "text": "Para Google Ads, o mais indicado é ter um. Os anúncios precisam levar o cliente para algum lugar, e uma página clara com WhatsApp e telefone converte melhor do que mandar o clique para o vazio. O Google Business Profile funciona sem site, mas o site dá ao cliente um endereço confiável para visitar depois de encontrar o seu perfil. Para construir presença orgânica no longo prazo, o site também é necessário."
           }
         },
         {
@@ -133,7 +133,7 @@
           "name": "Indicação ou anúncio: por onde começar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Google Business Profile primeiro (gratuito, alta intenção de compra). Indicação organizada como sistema em paralelo, sem custo extra. Google Ads quando o site e o perfil estiverem prontos e houver orçamento para manter pelo menos 30 dias de campanha sem parar. Interromper cedo, antes de ter dados suficientes para ajustar, é o erro mais frequente."
+            "text": "Google Business Profile primeiro (gratuito, alta intenção de compra). Indicação organizada como sistema em paralelo, sem custo extra. Google Ads quando o site e o perfil estiverem prontos e houver orçamento para manter a campanha rodando sem parar. Interromper cedo, antes de ter dados suficientes para ajustar, é um erro frequente."
           }
         }
       ]

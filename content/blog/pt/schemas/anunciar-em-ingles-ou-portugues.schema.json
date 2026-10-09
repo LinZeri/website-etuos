@@ -5,7 +5,7 @@
       "@type": "BlogPosting",
       "@id": "https://etuos.com/pt/blog/anunciar-em-ingles-ou-portugues#article",
       "headline": "Anunciar em inglês ou português? Como decidir por público e serviço",
-      "description": "Inglês ou português no Google Ads? Em set. 2026, o Google removeu a segmentação por idioma: o anúncio e a landing page definem para quem você aparece. Use a matriz de decisão por tipo de serviço.",
+      "description": "Inglês ou português no Google Ads? Em set. 2026, o Google passou a retirar a segmentação por idioma: o anúncio e a landing page definem para quem você aparece. Use a matriz de decisão por tipo de serviço.",
       "datePublished": "2026-09-15",
       "dateModified": "2026-09-15",
       "inLanguage": "pt-BR",
@@ -18,7 +18,7 @@
         "tráfego pago negócio brasileiro EUA"
       ],
       "articleSection": "Conseguir Clientes nos EUA",
-      "articleBody": "Em setembro de 2026, o Google Ads removeu a configuração de idioma das campanhas de busca. Antes, você escolhia o idioma diretamente na configuração da campanha. Agora, o sistema usa o idioma do anúncio, o idioma da landing page e as preferências do usuário como sinais automáticos de correspondência.",
+      "articleBody": "Em setembro de 2026, o Google Ads passou a retirar a configuração de idioma das campanhas de busca. Antes, você escolhia o idioma diretamente na configuração da campanha. Agora, o sistema usa o idioma do anúncio e da landing page, junto com o que já sabe sobre os idiomas do usuário, como sinais de correspondência.",
       "author": { "@id": "https://etuos.com/pt/sobre#person" },
       "publisher": { "@id": "https://etuos.com#organization" },
       "image": { "@id": "https://etuos.com/pt/blog/anunciar-em-ingles-ou-portugues#primaryimage" },
@@ -63,7 +63,7 @@
       "@id": "https://etuos.com/pt/blog/anunciar-em-ingles-ou-portugues#webpage",
       "url": "https://etuos.com/pt/blog/anunciar-em-ingles-ou-portugues",
       "name": "Anunciar em inglês ou português? Como decidir por público e serviço",
-      "description": "Inglês ou português no Google Ads? Em set. 2026, o Google removeu a segmentação por idioma: o anúncio e a landing page definem para quem você aparece. Use a matriz de decisão por tipo de serviço.",
+      "description": "Inglês ou português no Google Ads? Em set. 2026, o Google passou a retirar a segmentação por idioma: o anúncio e a landing page definem para quem você aparece. Use a matriz de decisão por tipo de serviço.",
       "inLanguage": "pt-BR",
       "isPartOf": { "@id": "https://etuos.com/pt/blog#blog" },
       "primaryImageOfPage": { "@id": "https://etuos.com/pt/blog/anunciar-em-ingles-ou-portugues#primaryimage" },
@@ -110,7 +110,7 @@
           "name": "Posso ter campanha em inglês e outra em português ao mesmo tempo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sim, é o modelo recomendado para quem atende os dois públicos. Campanhas separadas, orçamentos separados, landing pages no idioma certo para cada uma. O Google não mistura as duas quando estão estruturadas corretamente."
+            "text": "Sim, é o modelo recomendado para quem atende os dois públicos. Campanhas separadas, orçamentos separados, landing pages no idioma certo para cada uma. Cada campanha usa o idioma do próprio anúncio e da própria landing page."
           }
         },
         {
@@ -118,7 +118,7 @@
           "name": "O Google vai traduzir meu anúncio automaticamente?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Não. Desde setembro de 2026, o sistema faz a correspondência de idioma usando os sinais do criativo e da landing page, mas não traduz o texto do anúncio. Se o anúncio está em inglês com erro de gramática, o Google não corrige."
+            "text": "Não. A partir de setembro de 2026, o sistema usa o idioma do criativo e da landing page como sinal de correspondência. O texto do anúncio continua sendo responsabilidade sua: escreva no idioma de quem você quer alcançar."
           }
         },
         {
@@ -126,7 +126,7 @@
           "name": "Anunciar em português nos EUA é mais barato?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Geralmente sim em nichos de serviço imigrante, porque a concorrência no leilão costuma ser menor do que em inglês para a mesma categoria de serviço. Mas isso é observação de gestão de campanhas da Etuos, sem benchmark externo publicado para confirmar o número com precisão."
+            "text": "Não dá para afirmar. Não existe benchmark publicado comparando o custo de anunciar em português e em inglês nos EUA. O público em português é menor, e o que isso muda no custo depende do serviço e da cidade, então o caminho é testar com orçamento pequeno."
           }
         }
       ]

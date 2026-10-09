@@ -109,7 +109,7 @@
           "name": "O Google penaliza site bilingue?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Não. O Google trata cada página como documento independente. O que confunde o algoritmo é misturar idiomas na mesma página ou não usar hreflang para indicar as versões. Subpastas separadas (/pt e /en) com conteúdo próprio em cada idioma é a estrutura recomendada pela documentação oficial do Google."
+            "text": "Não. O Google orienta usar URLs diferentes para cada versão de idioma e o hreflang para indicar as variações do conteúdo, como descreve a documentação oficial do Google. Subpastas (/pt e /en) com conteúdo próprio em cada idioma seguem essa lógica. Misturar idiomas na mesma página dificulta o trabalho tanto do Google quanto do cliente."
           }
         },
         {
@@ -125,7 +125,7 @@
           "name": "Preciso de dois domínios, um .com e um .com.br?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Não. Um único domínio .com com subpastas por idioma (/pt e /en) é a estrutura mais simples e eficaz para SEO internacional. O Google entende a estrutura e distribui autoridade para as duas versões."
+            "text": "Não é obrigatório. Um único domínio .com com subpastas por idioma (/pt e /en) é a estrutura mais simples de manter, e o hreflang indica ao Google quais são as versões equivalentes."
           }
         }
       ]

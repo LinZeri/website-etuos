@@ -9,7 +9,7 @@
           "name": "Qual é a forma mais barata de divulgar um negócio nos Estados Unidos?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O Perfil da Empresa no Google. É gratuito, aparece no Google Maps e traz clientes que já estão procurando o seu serviço na sua cidade. Com fotos reais e avaliações frequentes, ele costuma ser o canal com melhor retorno para negócio local."
+            "text": "O Perfil da Empresa no Google. É gratuito, aparece no Google Maps e traz clientes que já estão procurando o seu serviço na sua cidade. Com fotos reais e avaliações frequentes, ele é um dos pontos de partida mais acessíveis para negócio local."
           }
         },
         {
@@ -25,7 +25,7 @@
           "name": "Quanto tempo leva para a divulgação trazer resultado?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Anúncios no Google podem gerar contatos já nas primeiras semanas. O perfil no Google e o site (SEO local) levam de alguns meses para ganhar posição, mas depois trazem clientes sem custo por clique. O ideal é usar os dois juntos."
+            "text": "Anúncios no Google começam a mostrar o seu negócio assim que a campanha é aprovada e ativada, mas o resultado em contatos depende da configuração e da página. O perfil no Google e o site (SEO local) levam mais tempo para ganhar posição, e esse prazo varia conforme a cidade e a concorrência, mas depois trazem clientes sem custo por clique. O ideal é usar os dois juntos."
           }
         },
         {
@@ -33,7 +33,7 @@
           "name": "Preciso de empresa aberta nos EUA para anunciar no Google?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Para anunciar no Google Ads você precisa de uma conta com forma de pagamento válida. Para o Perfil da Empresa e para os Local Services Ads o Google pede verificação do negócio, e os Local Services Ads exigem documentação e seguro conforme a categoria. Confira os requisitos da sua categoria antes de começar."
+            "text": "Para anunciar no Google Ads você precisa de uma conta com forma de pagamento válida. Para gerenciar o Perfil da Empresa é preciso verificar o negócio, e nos Local Services Ads a triagem do Google pode incluir licença, seguro e verificação de antecedentes, conforme a categoria e a região. Confira os requisitos da sua categoria antes de começar."
           }
         }
       ]

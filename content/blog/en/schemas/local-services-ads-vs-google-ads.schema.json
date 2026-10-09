@@ -156,7 +156,7 @@
           "name": "Do I pay for bad leads?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Google assesses each lead when the customer first reaches out and does not charge for leads it finds invalid or low quality. If you believe a charged lead was low quality, use the Feedback Survey for that lead. Google may also issue credits automatically when its models later judge a lead to be low quality."
+            "text": "Google assesses each lead when the customer first reaches out and does not charge for leads it finds invalid or low quality. If you believe a charged lead was low quality, use the Feedback Survey for that lead. Google may also issue credits automatically if a lead is later determined to be low quality."
           }
         },
         {
@@ -172,7 +172,7 @@
           "name": "How do I set a budget for Local Services Ads?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You set an average weekly budget based on the number of leads you want in a typical week. After an account moves into Google Ads, Google divides that historical weekly budget by 7 to set a daily average budget. Start from the number of jobs you can actually take on."
+            "text": "Before migration, your budget is an average weekly figure. After an account moves into Google Ads, Google automatically divides your historical average weekly budget by 7 to determine your daily average budget. Start from the number of jobs you can actually take on."
           }
         },
         {
