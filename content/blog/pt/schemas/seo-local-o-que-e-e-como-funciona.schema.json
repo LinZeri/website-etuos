@@ -1,0 +1,193 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/seo-local-o-que-e-e-como-funciona#article",
+      "headline": "SEO local: o que é e como funciona para negócio de bairro",
+      "description": "Entenda o que é SEO local, como o Google decide quem aparece no mapa e o que muda para quem atende em português nos EUA. Sem jargão.",
+      "datePublished": "2026-09-29",
+      "dateModified": "2026-09-29",
+      "inLanguage": "pt-BR",
+      "wordCount": 2380,
+      "keywords": [
+        "seo local",
+        "o que é seo local",
+        "como funciona seo local",
+        "seo local para pequenas empresas"
+      ],
+      "articleSection": "SEO Local",
+      "articleBody": "Quando alguém digita \"padaria perto de mim\" no celular, o Google não mostra uma lista de sites. Ele mostra um mapa com três negócios no topo. Quem está ali recebe a ligação, o pedido de rota e a visita. Quem não está, nem entra na conversa. SEO local é o trabalho de fazer o seu negócio aparecer nessas buscas, para as pessoas certas, na cidade certa. Este texto explica o que é, como o Google decide quem aparece primeiro e o que muda quando o seu cliente fala português nos Estados Unidos.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/seo-local-o-que-e-e-como-funciona#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/pt/blog/seo-local-o-que-e-e-como-funciona#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "SEO Local"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Pack"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/seo-local-o-que-e-e-como-funciona#webpage",
+      "url": "https://etuos.com/pt/blog/seo-local-o-que-e-e-como-funciona",
+      "name": "SEO local: o que é e como funciona para negócio de bairro",
+      "description": "Entenda o que é SEO local, como o Google decide quem aparece no mapa e o que muda para quem atende em português nos EUA. Sem jargão.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/seo-local-o-que-e-e-como-funciona#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/seo-local-o-que-e-e-como-funciona#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/seo-local-o-que-e-e-como-funciona#primaryimage",
+      "url": "https://etuos.com/images/blog/seo-local-o-que-e-e-como-funciona.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "SEO local: o que é e como funciona para negócio de bairro"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/seo-local-o-que-e-e-como-funciona#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "SEO local: o que é e como funciona para negócio de bairro",
+          "item": "https://etuos.com/pt/blog/seo-local-o-que-e-e-como-funciona"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/seo-local-o-que-e-e-como-funciona#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é SEO local?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "É o conjunto de ações que faz o Google mostrar o seu negócio quando alguém procura o seu tipo de serviço perto de onde está. Envolve o Perfil da Empresa no Google, as avaliações, a consistência dos seus dados online e o seu site."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como funciona o SEO local?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Google escolhe quem mostrar com base principalmente em relevância, distância e destaque. Você melhora a relevância com um perfil completo e na categoria certa, controla a distância declarando bem o endereço ou a área de atendimento, e constrói o destaque com avaliações e menções de outros sites."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEO local funciona para pequenas empresas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, e é onde costuma fazer mais diferença. O ranking local considera a proximidade, então um negócio pequeno do bairro pode aparecer à frente de uma rede grande para quem está perto. O que decide é um perfil completo, avaliações e dados consistentes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso pagar para aparecer no mapa do Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O Perfil da Empresa é gratuito, e o Google afirma que não existe como pedir ou pagar por um ranking local melhor. Anúncios são uma opção separada e aparecem identificados como anúncio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de um site para fazer SEO local?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não é obrigatório para aparecer no mapa, mas ajuda. O site reforça o destaque, captura a busca orgânica abaixo do mapa e dá ao cliente um lugar para entender melhor o seu serviço."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Em quanto tempo o SEO local dá resultado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe prazo fixo. Depende da concorrência na sua cidade, do seu setor e do estado atual do seu perfil. Quem promete data exata está prometendo o que não controla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a diferença entre SEO local e SEO normal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O SEO normal busca posição para qualquer pessoa que faça aquela busca. O SEO local considera onde a pessoa está e mostra negócios próximos, principalmente no mapa. Os dois se complementam, mas o perfil da empresa é exclusivo do SEO local."
+          }
+        }
+      ]
+    }
+  ]
+}
