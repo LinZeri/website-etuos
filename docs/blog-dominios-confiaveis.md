@@ -49,6 +49,22 @@ Sem estes a rotina nem chega a escrever: são clone, dependências, build e gera
 ### Consultorias e imprensa de negócios
 `hbr.org`, `mckinsey.com`, `deloitte.com`, `pwc.com`, `reuters.com`, `cnbc.com`, `forbes.com`, `inc.com`, `entrepreneur.com`, `smallbiztrends.com`, `g1.globo.com`, `valor.globo.com`, `exame.com`, `infomoney.com.br`
 
+### Pontes secundárias (só para reproduzir dado de fonte nomeada)
+
+Estes domínios não são fonte primária. Entram no registro `docs/blog-fontes-verificadas.md` só quando a fonte primária bloqueia o WebFetch (403 ou CAPTCHA) e a página reproduz o número com a frase legível, conferida em duas chamadas. A citação nomeia o publisher original e diz "via" o domínio da ponte. Nunca citar a ponte como se fosse a origem do dado.
+
+| Domínio | Reproduz | Observação |
+|---|---|---|
+| `searchlabdigital.com` | BrightLocal, Local Consumer Review Survey 2025 | agência de SEO local |
+| `pinmeto.com` | BrightLocal, Local Consumer Review Survey 2026 | fornecedora de software de presença local, citar com essa ressalva |
+| `sbecouncil.org` | SBA Office of Advocacy (`advocacy.sba.gov` dá 403) | entidade de defesa de pequenos negócios |
+| `wgbh.org` | Boston Foundation / Instituto Diáspora Brasil (PDF ilegível) | imprensa pública de Boston |
+| `diariodepernambuco.com.br` | Itamaraty, Comunidades Brasileiras no Exterior (`gov.br` dá CAPTCHA) | imprensa |
+
+### Domínios que bloqueiam o WebFetch (verificado em out. 2026)
+
+`brightlocal.com/research/*`, `whitespark.ca`, `advocacy.sba.gov`, `migrationpolicy.org`, `wordstream.com` e a página do Itamaraty em `gov.br` não abrem por WebFetch. Estar na lista abaixo significa só que o domínio é aceito como fonte, não que o dado dele possa ser verificado. **Número que só existe nessas páginas e que nenhuma ponte legível reproduz não entra em artigo** (foi o caso do Whitespark Local Search Ranking Factors 2026 e do estudo de fotos da BrightLocal de 2018, hoje em "Fontes descartadas").
+
 ## Lista para o allowlist
 
 Cole no campo de domínios permitidos do environment das rotinas. Um por linha:

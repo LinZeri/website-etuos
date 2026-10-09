@@ -26,7 +26,7 @@
         "Reading Your Industry's Buying Speed",
         "Building a Channel Mix That Matches Your Trade"
       ],
-      "articleBody": "In 2025, US digital advertising revenue hit a record $294.6 billion, up 13.9% year over year. Every trade is competing in a market where digital is the default, not the exception. Yet the biggest mistake most local service business owners make is not overspending. It is spending on the wrong channel for the wrong buying moment.",
+      "articleBody": "In 2025, US digital advertising revenue hit a record $294.6 billion, up 13.9% year over year, according to the IAB/PwC report. Every trade is competing in a market where digital is the default, not the exception. Yet the biggest mistake most local service business owners make is not overspending. It is spending on the wrong channel for the wrong buying moment.",
       "author": {
         "@id": "https://etuos.com/en/about#person"
       },
@@ -185,7 +185,7 @@
           "name": "What marketing channel works best for a med spa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A combination of Instagram for discovery and Google Business Profile with Search Ads for conversion. Aesthetic clients discover services visually, often through social media before they ever search on Google. In 2026, Yext found that 47% of US adults used AI tools for local search in the previous month, which means some prospects will first meet your business through an AI answer. High-intent Google Search Ads for terms like 'med spa near me' or 'Botox [city]' close the deal once the prospect is ready to book."
+            "text": "A combination of Instagram for discovery and Google Business Profile with Search Ads for conversion. Aesthetic clients discover services visually, often through social media before they ever search on Google. In 2026, Yext found that 47% of US adults used an AI tool to find a local business in the past month, which means some prospects will first meet your business through an AI answer. High-intent Google Search Ads for terms like 'med spa near me' or 'Botox [city]' close the deal once the prospect is ready to book."
           }
         }
       ]
