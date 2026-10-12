@@ -1,0 +1,192 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/spanish-language-google-ads-for-local-business#article",
+      "headline": "Spanish Language Google Ads: Why Translated Copy Is Not a Campaign",
+      "description": "Google now reads the language of your ad and landing page. Learn how to set up Spanish language Google Ads that work for a local business, step by step.",
+      "datePublished": "2026-10-09",
+      "dateModified": "2026-10-09",
+      "inLanguage": "en-US",
+      "wordCount": 2517,
+      "keywords": [
+        "spanish language google ads",
+        "spanish google ads for local business",
+        "bilingual ads small business",
+        "advertise to spanish speakers",
+        "google ads",
+        "local business"
+      ],
+      "articleSection": [
+        "What Changed in Google Ads Language Targeting?",
+        "Why Does a Translated Ad Not Work as a Spanish Campaign?",
+        "Should You Run Separate Spanish Campaigns or One Campaign?",
+        "How Do You Write Spanish Ad Copy That Sounds Native?",
+        "What Does the Landing Page Need?",
+        "How Do You Know If the Campaign Is Working?",
+        "Frequently Asked Questions",
+        "What Should You Do Next?"
+      ],
+      "articleBody": "A customer in Houston types \"taller de frenos cerca de mí\" into Google. Your shop does brakes, and it is two miles away. But your ads are written in English, so you never enter the conversation. Or worse, you do, with a Spanish headline that was pushed through a translation tool and sounds like a legal notice. Both cases cost you money. This guide explains how Spanish language Google Ads work for a local business, what just changed in how Google reads language, and how to build a campaign that a Spanish-speaking customer actually trusts. Key Takeaways - A Spanish campaign starts with Spanish searches, not with your English ad. Build the keyword list, the ad copy and the landing page in Spanish, together. - Google is changing how it handles language in Search campaigns: it will rely on the ",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/spanish-language-google-ads-for-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/spanish-language-google-ads-for-local-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Spanish-language advertising"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local business marketing"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/spanish-language-google-ads-for-local-business",
+      "url": "https://etuos.com/en/blog/spanish-language-google-ads-for-local-business",
+      "name": "Spanish Language Google Ads: Why Translated Copy Is Not a Campaign",
+      "description": "Google now reads the language of your ad and landing page. Learn how to set up Spanish language Google Ads that work for a local business, step by step.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/spanish-language-google-ads-for-local-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/spanish-language-google-ads-for-local-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/spanish-language-google-ads-for-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/spanish-language-google-ads-for-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Spanish Language Google Ads: Why Translated Copy Is Not a Campaign"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/spanish-language-google-ads-for-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Spanish Language Google Ads: Why Translated Copy Is Not a Campaign",
+          "item": "https://etuos.com/en/blog/spanish-language-google-ads-for-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/spanish-language-google-ads-for-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does Google Ads still let me choose Spanish as a campaign language?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not for Search campaigns after late September 2026. According to Search Engine Journal, the campaign-level language setting is removed for Search, and Google relies on the language of the creative and landing page. In Performance Max, the change applies to Search, and the campaign-level language setting is still used elsewhere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it enough to translate my English ads into Spanish?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Translated copy keeps the English structure and misses the words people actually search. Write Spanish ads from Spanish searches, build a separate keyword list, and have a native speaker from your community review the text."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I run Spanish ads in a separate campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most local businesses, yes. A separate campaign keeps keywords, negative keywords, budget and results apart, so you can see what Spanish is doing without it blending into English numbers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What language should my landing page be in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The same language as the ad. Google now relies on the language of the creative and landing page, and the customer expects the page to continue the conversation the ad started."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need someone who speaks Spanish before I start?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, at least for the first conversation. A Spanish ad that leads to an English-only phone line wastes the click. Decide who answers calls, texts and WhatsApp messages in Spanish before you spend on ads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much will Spanish language Google Ads cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on your service, your city and the competition, and there is no fixed number that applies to every business. Use Keyword Planner to see estimates for your own market, and remember that Google says a bid estimate is not a guarantee."
+          }
+        }
+      ]
+    }
+  ]
+}
