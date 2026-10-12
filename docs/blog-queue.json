@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T20:11:28.354514+00:00",
+  "updated": "2026-10-12T12:35:43.111988+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -393,11 +393,14 @@
       "image_context": "brasileiro dono de uma loja de conveniência em cidade americana conferindo o próprio site no notebook",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-09T23:17:39.520252+00:00",
+      "last_score": 86,
+      "iteration_id": "local-session-b2",
+      "commit_sha": "ab4b146",
+      "published_date": "2026-09-25"
     },
     {
       "id": "p2-s3",
@@ -422,11 +425,14 @@
       "image_context": "mãos de uma pessoa organizando um planejamento de campanha em cartões sobre a mesa, notebook ao lado",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-09T23:17:39.590971+00:00",
+      "last_score": 89,
+      "iteration_id": "local-session-b2",
+      "commit_sha": "58ac276",
+      "published_date": "2026-09-28"
     },
     {
       "id": "p1-s6",
@@ -449,11 +455,14 @@
       "notes": "Os 3 nichos mais fortes do público. Por nicho: canal que mais converte, erro comum, exemplo de cidade (usar nichos reais de src/data/cidades/pt.ts). Linkar páginas de cidade citadas.",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-09T23:17:39.658380+00:00",
+      "last_score": 87,
+      "iteration_id": "local-session-b2",
+      "commit_sha": "70bdbf7",
+      "published_date": "2026-10-02"
     },
     {
       "id": "p2-s4",
@@ -478,11 +487,14 @@
       "image_context": "dono de restaurante pequeno comparando dois painéis de anúncios no tablet no balcão",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-09T23:17:39.731837+00:00",
+      "last_score": 87,
+      "iteration_id": "local-session-b2",
+      "commit_sha": "c87a992",
+      "published_date": "2026-10-06"
     },
     {
       "id": "p1-s7",
@@ -504,11 +516,14 @@
       "notes": "Ponte com o público que pesquisa 'abrir empresa nos eua' (170/mês BR). NÃO falar de visto/contabilidade além de 1 parágrafo de contexto; o foco é o plano de marketing pós-abertura em 3 fases de 30 dias.",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-09T23:17:39.804163+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b2",
+      "commit_sha": "42636c2",
+      "published_date": "2026-10-09"
     },
     {
       "id": "p2-s5",

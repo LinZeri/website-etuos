@@ -21,3 +21,13 @@
 | 2026-10-09T17:11:28 | lead-generation-for-contractors | pillar3.industry-playbooks | Lin Zeri | 85 | 0 | 2026-09-29 | db4c92a | 5 | local_session,score_estimado,sem_workflow_tool |
 | 2026-10-09T17:11:28 | marketing-to-multilingual-customers-local-business | pillar4.multilingual-market | Lin Zeri | 85 | 0 | 2026-10-01 | cb4c91f | 5 | local_session,score_estimado,sem_workflow_tool |
 | 2026-10-09T17:11:28 | how-to-get-google-reviews-for-local-business | pillar1.local-search | Lin Zeri | 85 | 0 | 2026-10-05 | ab8eaba | 5 | local_session,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:35:42 | seo-em-portugues-nos-eua | pilar3.aparecer-no-google | Lin Zeri | 86 | 0 | 2026-09-25 | ab4b146 | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:35:42 | google-ads-como-funciona | pilar2.trafego-pago | Lin Zeri | 89 | 0 | 2026-09-28 | 58ac276 | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:35:42 | marketing-para-limpeza-construcao-e-beleza-nos-eua | pilar1.conseguir-clientes-eua | Lin Zeri | 87 | 0 | 2026-10-02 | 70bdbf7 | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:35:42 | google-ads-ou-meta-ads-onde-investir-primeiro | pilar2.trafego-pago | Lin Zeri | 87 | 0 | 2026-10-06 | c87a992 | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:35:43 | primeiros-passos-de-marketing-nos-eua | pilar1.conseguir-clientes-eua | Lin Zeri | 88 | 0 | 2026-10-09 | 42636c2 | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:35:43 | how-to-respond-to-negative-google-reviews | pillar1.local-search | Lin Zeri | 88 | 0 | 2026-09-28 | 07ec02d | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:35:43 | hvac-marketing | pillar3.industry-playbooks | Lin Zeri | 90 | 0 | 2026-10-02 | 6ac68c4 | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:35:43 | facebook-ads-for-local-business | pillar2.paid-ads | Lin Zeri | 87 | 0 | 2026-10-06 | 19ca65e | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:35:44 | small-business-website-design-cost | pillar5.website | Lin Zeri | 86 | 0 | 2026-10-08 | 97cd2c6 | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:35:44 | spanish-language-google-ads-for-local-business | pillar4.multilingual-market | Lin Zeri | 88 | 0 | 2026-10-09 | 7e6390f | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |

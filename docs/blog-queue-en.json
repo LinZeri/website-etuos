@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T20:11:28.981007+00:00",
+  "updated": "2026-10-12T12:35:44.488247+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -417,12 +417,15 @@
       "image_context": "a salon owner photographing a finished hairstyle for social media in a bright studio",
       "publish_date": "2026-10-06",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null,
-      "retroativo": true
+      "started_at": "2026-10-09T23:17:39.860906+00:00",
+      "last_score": 87,
+      "retroativo": true,
+      "iteration_id": "local-session-b2",
+      "commit_sha": "19ca65e",
+      "published_date": "2026-10-06"
     },
     {
       "id": "en-p1-negreviews",
@@ -447,11 +450,14 @@
       "image_context": "a restaurant owner at the register reading a message on a tablet with a thoughtful expression",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-09T23:17:39.930388+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b2",
+      "commit_sha": "07ec02d",
+      "published_date": "2026-09-28"
     },
     {
       "id": "en-p3-hvac",
@@ -476,11 +482,14 @@
       "image_context": "an HVAC technician servicing an outdoor condenser unit at a suburban home, clear sky",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-09T23:17:39.997681+00:00",
+      "last_score": 90,
+      "iteration_id": "local-session-b2",
+      "commit_sha": "6ac68c4",
+      "published_date": "2026-10-02"
     },
     {
       "id": "en-p5-websitecost",
@@ -505,11 +514,14 @@
       "image_context": "a small business owner and a web designer reviewing a site layout on a monitor in a small office",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-09T23:17:40.063887+00:00",
+      "last_score": 86,
+      "iteration_id": "local-session-b2",
+      "commit_sha": "97cd2c6",
+      "published_date": "2026-10-08"
     },
     {
       "id": "en-p4-spanishads",
@@ -534,11 +546,14 @@
       "image_context": "a Houston auto repair shop owner speaking with a customer at the service desk, shop bay behind them",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-09T23:17:40.132948+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b2",
+      "commit_sha": "7e6390f",
+      "published_date": "2026-10-09"
     },
     {
       "id": "en-p3-roofing",
