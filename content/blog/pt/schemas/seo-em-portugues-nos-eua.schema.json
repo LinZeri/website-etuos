@@ -1,0 +1,181 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/seo-em-portugues-nos-eua#article",
+      "headline": "SEO em português nos EUA: o guia que não existia",
+      "description": "Como o Google decide o idioma da sua página e quando ranquear em português, em inglês ou nos dois. Guia prático para brasileiro com negócio nos EUA.",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "inLanguage": "pt-BR",
+      "wordCount": 1900,
+      "keywords": [
+        "seo em portugues nos eua",
+        "seo para brasileiros nos eua",
+        "aparecer no google em português",
+        "site em português google eua"
+      ],
+      "articleSection": "Aparecer no Google",
+      "articleBody": "Você tem um negócio nos Estados Unidos, boa parte dos seus clientes fala português e você quer aparecer no Google quando eles buscam no próprio idioma. Só que quase todo guia de SEO que você acha foi escrito para quem vende em inglês, e quase nenhum explica o que muda quando o cliente busca em português dentro dos EUA.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/seo-em-portugues-nos-eua#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/pt/blog/seo-em-portugues-nos-eua#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "SEO em português"
+        },
+        {
+          "@type": "Thing",
+          "name": "SEO para negócio local nos EUA"
+        },
+        {
+          "@type": "Thing",
+          "name": "hreflang"
+        },
+        {
+          "@type": "Thing",
+          "name": "marketing digital para brasileiros nos EUA"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/seo-em-portugues-nos-eua#webpage",
+      "url": "https://etuos.com/pt/blog/seo-em-portugues-nos-eua",
+      "name": "SEO em português nos EUA: o guia que não existia",
+      "description": "Como o Google decide o idioma da sua página e quando ranquear em português, em inglês ou nos dois. Guia prático para brasileiro com negócio nos EUA.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/seo-em-portugues-nos-eua#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/seo-em-portugues-nos-eua#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/seo-em-portugues-nos-eua#primaryimage",
+      "url": "https://etuos.com/images/blog/seo-em-portugues-nos-eua.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "SEO em português nos EUA: o guia que não existia (SEO em português nos EUA)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/seo-em-portugues-nos-eua#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "SEO em português nos EUA",
+          "item": "https://etuos.com/pt/blog/seo-em-portugues-nos-eua"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/seo-em-portugues-nos-eua#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dá para ranquear em português nos EUA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dá, quando existe uma página escrita em português que responde à busca. O Google usa o texto visível da página para decidir o idioma, então o que conta é o conteúdo em português, e não apenas a URL ou uma marcação no código."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de um domínio .com.br para aparecer para brasileiros?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Um único domínio com subpastas por idioma, como /pt e /en, é a estrutura mais simples de manter. O hreflang indica ao Google quais páginas são versões equivalentes uma da outra."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso usar tradução automática para criar a versão em português?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pode usar como rascunho, mas revise tudo. O texto que o Google lê é o que vale, e uma tradução literal costuma ignorar as palavras que o cliente realmente usa na busca."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que acontece se eu misturar português e inglês na mesma página?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Você dificulta a leitura do Google e a do cliente. O Google sugere usar um único idioma no conteúdo e na navegação de cada página, e separar as versões em URLs diferentes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O hreflang melhora meu ranking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A documentação do Google descreve o hreflang como uma forma de apontar a versão mais adequada por idioma ou região, e não como um fator de ranking. Para funcionar, as páginas precisam apontar uma para a outra."
+          }
+        }
+      ]
+    }
+  ]
+}
