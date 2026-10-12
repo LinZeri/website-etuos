@@ -1,0 +1,191 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/landing-page-vs-website#article",
+      "headline": "Landing Page vs Website: Which One Does Your Local Business Need?",
+      "description": "A landing page has one job, a website has many. See how they differ, when a local business needs each one, and how to choose based on where visitors come from.",
+      "datePublished": "2026-09-23",
+      "dateModified": "2026-09-23",
+      "inLanguage": "en-US",
+      "wordCount": 1940,
+      "keywords": [
+        "landing page vs website",
+        "landing page or website",
+        "do i need a landing page",
+        "local business landing page"
+      ],
+      "articleSection": [
+        "What Is the Difference Between a Landing Page and a Website?",
+        "When Does a Local Business Need a Landing Page?",
+        "When Does a Local Business Need a Website?",
+        "How Do You Choose Based on Where Visitors Come From?",
+        "How Do You Decide? A Simple Checklist",
+        "What Mistakes Should You Avoid?",
+        "Frequently Asked Questions",
+        "What Should You Do Next?",
+        "Sources"
+      ],
+      "articleBody": "If you run a local business, you have probably heard two pieces of advice that seem to clash. One person says all you need is a simple landing page. Another says you need a real website. Both can be right, because they answer different questions. This guide explains the difference in plain terms and gives you a short way to decide. It does not quote conversion rates or prices, because the honest answer depends on your business, your traffic and your offer. Key Takeaways A landing page is one pag",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/landing-page-vs-website#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/landing-page-vs-website"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Landing pages"
+        },
+        {
+          "@type": "Thing",
+          "name": "Business websites"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/landing-page-vs-website",
+      "url": "https://etuos.com/en/blog/landing-page-vs-website",
+      "name": "Landing Page vs Website: Which One Does Your Local Business Need?",
+      "description": "A landing page has one job, a website has many. See how they differ, when a local business needs each one, and how to choose based on where visitors come from.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/landing-page-vs-website#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/landing-page-vs-website#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/landing-page-vs-website#primaryimage",
+      "url": "https://etuos.com/images/blog/landing-page-vs-website.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Landing Page vs Website: Which One Does Your Local Business Need?"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/landing-page-vs-website#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Landing Page vs Website: Which One Does Your Local Business Need?",
+          "item": "https://etuos.com/en/blog/landing-page-vs-website"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/landing-page-vs-website#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between a landing page and a website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A landing page is a single page built to get one action, such as a call or a quote request. A website is a set of connected pages that explains your business, lists your services and serves visitors who want to look around."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a landing page if I already have a website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always. If you run paid ads for a specific service or offer, a landing page that matches the ad usually serves visitors better than a general page. If you do not run ads, your service pages may already do that job."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a landing page replace my website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most local businesses, no. A landing page covers one offer. People who search your name or compare you with others look for services, areas, reviews and contact details, and that takes a website."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the landing page affect my Google Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google says landing page experience is one of the three components of Quality Score, along with expected clickthrough rate and ad relevance. Google also says Quality Score is not an input in the ad auction and is a diagnostic tool, so use it to spot problems with the page behind your ad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I send my ads to my home page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually a page that matches the ad works better. The home page is built for many visitors and many goals, while an ad makes one specific promise that the page should keep."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many pages should a local business website have?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no fixed number. Include a home page, a page for each main service, your service areas, proof from real customers and a clear way to contact you. Add pages only when you can keep them accurate and useful."
+          }
+        }
+      ]
+    }
+  ]
+}
