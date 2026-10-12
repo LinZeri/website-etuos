@@ -1,0 +1,187 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/facebook-ads-for-local-business#article",
+      "headline": "Facebook and Instagram Ads for a Local Business: What to Run First",
+      "description": "Facebook and Instagram ads create demand instead of capturing it. See which offers make a good first campaign for a local business and what to measure.",
+      "datePublished": "2026-10-06",
+      "dateModified": "2026-10-06",
+      "inLanguage": "en-US",
+      "wordCount": 2360,
+      "keywords": [
+        "facebook ads for local business",
+        "instagram ads for local business",
+        "meta ads small business",
+        "local awareness ads"
+      ],
+      "articleSection": [
+        "Demand Creation vs. Demand Capture",
+        "Which Local Offers Work as a First Campaign",
+        "What the Ad Itself Needs",
+        "What to Measure",
+        "When Facebook and Instagram Ads Are Not the First Move"
+      ],
+      "articleBody": "Most local business owners who try Facebook and Instagram ads start the same way: they boost a post, watch the likes come in, and wonder why the phone is quiet. Likes are not customers. The problem is rarely the platform. It is that the first campaign was never given a job.",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/facebook-ads-for-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/facebook-ads-for-local-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Facebook Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Instagram Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Meta Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Business Marketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Paid Advertising"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/facebook-ads-for-local-business",
+      "url": "https://etuos.com/en/blog/facebook-ads-for-local-business",
+      "name": "Facebook and Instagram Ads for a Local Business: What to Run First",
+      "description": "Facebook and Instagram ads create demand instead of capturing it. See which offers make a good first campaign for a local business and what to measure.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/facebook-ads-for-local-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/facebook-ads-for-local-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/facebook-ads-for-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/facebook-ads-for-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A salon owner photographing a finished hairstyle for social media in a bright studio"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/facebook-ads-for-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Facebook and Instagram Ads for a Local Business: What to Run First",
+          "item": "https://etuos.com/en/blog/facebook-ads-for-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/facebook-ads-for-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is it worth running Facebook ads for a local business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can be, when the service is visual, seasonal, or something people want rather than urgently need, and when you have a clear offer and a way to follow up quickly. It is a weaker first choice for emergencies, where customers are already searching on Google. The honest test is small: run one offer in one area and measure leads and booked jobs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I boost posts or run real ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Boosting a post is convenient, but it tends to reward the same thing a post does: engagement. For a local business trying to book work, build the campaign around the action you want, such as messages or leads, and choose the objective in Ads Manager that matches it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should my first Facebook ad offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Something small, clear, and local: a first-visit special, a free estimate, a seasonal promotion, or an honest booking opening. Pick one offer and one action. Avoid selling your largest service to a cold audience in a single ad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if my ads are working?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Count leads and booked jobs, then divide your spend by each. Ask every new customer how they found you. Likes, reach, and clicks are useful for diagnosing a problem, but they do not tell you whether the campaign made money."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need both Facebook and Google ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not on day one. Start with the channel that matches how your customers buy. Over time, many local businesses use search to catch urgent demand and Meta to stay visible and fill slower periods."
+          }
+        }
+      ]
+    }
+  ]
+}
