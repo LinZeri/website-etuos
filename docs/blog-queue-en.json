@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T12:35:44.488247+00:00",
+  "updated": "2026-10-12T12:46:17.968758+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -605,6 +605,181 @@
       "cluster": "pillar5.website",
       "notes": "Website cluster (390/month, competition 46). Intent-based comparison: ads traffic versus brand and search presence. Link only to published posts. Never link /en/lp/ pages. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
       "image_context": "a laptop on a desk showing two different page layouts side by side, a coffee mug and a notebook nearby",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p1-service-area",
+      "slug": "service-area-business-google-business-profile",
+      "title": "How to Set Up a Google Business Profile for a Service Area Business",
+      "template": "how-to-guide",
+      "target_keyword": "service area business google business profile",
+      "secondary_keywords": [
+        "google business profile hide address",
+        "service area google business profile",
+        "set service area google maps"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/en/services/seo",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/blog/why-my-business-not-showing-google-maps",
+        "/en/contact"
+      ],
+      "cluster": "pillar1.local-search",
+      "notes": "Troubleshooting-style setup guide for owners who work at the customer's address (cleaners, plumbers, landscapers). Sources that cover it: S11, S18, S19, S20 (hide address, up to 20 service areas, hybrid businesses, no virtual offices or P.O. boxes), S14 (verification), S13 (suspensions). No source on how many service areas rank better or on ranking effects of the radius: do not claim any. Link only to published posts. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a plumber's van parked in a suburban driveway, the technician checking a phone with a map open, morning light",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p2-quality-score",
+      "slug": "google-ads-quality-score-local-business",
+      "title": "Google Ads Quality Score Explained for Local Businesses",
+      "template": "how-to-guide",
+      "target_keyword": "google ads quality score",
+      "secondary_keywords": [
+        "what is quality score google ads",
+        "improve quality score",
+        "ad rank google ads"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/en/services/paid-ads",
+        "/en/blog/how-much-google-ads-cost-small-business",
+        "/en/blog/local-services-ads-vs-google-ads",
+        "/en/contact"
+      ],
+      "cluster": "pillar2.paid-ads",
+      "notes": "Explains how Quality Score and Ad Rank decide what a local advertiser pays, in owner language. Sources: T10 (six Ad Rank factors, you usually pay less than the max bid), T11 (score 1 to 10, three components, diagnostic only and not an auction input), T9 (max CPC), T14, T15. No source for CPC by industry, benchmark Quality Scores or what score is good: do not state any. Do not promise that raising the score lowers cost by a fixed amount. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a small business owner at a kitchen table reviewing a Google Ads dashboard on a laptop with a notepad beside it",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p4-bilingual-site",
+      "slug": "bilingual-website-for-small-business",
+      "title": "Should a Local Business Have a Bilingual Website? What to Know Before You Build One",
+      "template": "thought-leadership",
+      "target_keyword": "bilingual website for small business",
+      "secondary_keywords": [
+        "spanish version of website",
+        "multilingual website local business",
+        "hreflang for small business"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/en/services/website-design",
+        "/en/blog/selling-to-english-spanish-portuguese-speaking-customers",
+        "/en/blog/spanish-language-google-ads-for-local-business",
+        "/en/contact"
+      ],
+      "cluster": "pillar4.multilingual-market",
+      "notes": "Decision guide for a US owner whose customers speak English and Spanish: when a second language version pays off and how it must be built so Google understands it. Sources: S25 (page language comes from visible content), S26 (reciprocal hreflang), M1 (Pew: how Latinos consume media by language), M2 (CSA Research on preference for own language), M3 (Census home language data; say about one in five, never a precise total). No source on conversion lift, translation cost or timeline: do not claim any. Not a translation of any pt post. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a Latina and a non-Hispanic business owner reviewing a website on a laptop in a bright shop, bilingual signage softly blurred behind them",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p1-ai-search",
+      "slug": "show-up-in-ai-search-local-business",
+      "title": "How Local Businesses Show Up in AI Search Results (ChatGPT, Google AI Overviews)",
+      "template": "how-to-guide",
+      "target_keyword": "local seo for ai search",
+      "secondary_keywords": [
+        "ai search local business",
+        "get recommended by chatgpt local business",
+        "google ai overviews local"
+      ],
+      "word_count": 1900,
+      "internal_links": [
+        "/en/services/seo",
+        "/en/blog/local-seo-for-service-businesses-complete-guide",
+        "/en/blog/how-to-get-google-reviews-for-local-business",
+        "/en/contact"
+      ],
+      "cluster": "pillar1.local-search",
+      "notes": "AI citation play: what a service business can control (profile accuracy, reviews, consistent info) now that many searches end without a click. Sources: S1 (68% of US Google searches with no click), S2 and S3 (AI Overviews cut clicks), S4 (47% used AI for local search), S6 (93%+ verify before acting), S5 and S9 (review behavior), S10 (local ranking factors). No source on how AI tools pick businesses or on any ranking guarantee: describe verification behavior, not hidden mechanics. Never promise AI mentions. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a person asking a phone assistant for a nearby electrician while standing in a kitchen, a leaking sink visible behind them",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p3-restaurant",
+      "slug": "restaurant-marketing-ideas",
+      "title": "Restaurant Marketing Ideas That Bring Local Customers Through the Door",
+      "template": "listicle",
+      "target_keyword": "restaurant marketing ideas",
+      "secondary_keywords": [
+        "restaurant marketing",
+        "how to market a restaurant locally",
+        "restaurant google business profile"
+      ],
+      "word_count": 1900,
+      "internal_links": [
+        "/en/services/seo",
+        "/en/services/paid-ads",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/blog/how-to-get-google-reviews-for-local-business",
+        "/en/blog/marketing-for-local-service-businesses-by-industry"
+      ],
+      "cluster": "pillar3.industry-playbooks",
+      "notes": "Industry playbook for independent restaurants: profile, reviews, photos, local ads, language of the neighborhood. Sources: S5 and S9 (review behavior), S10 (local ranking), S16 and S23 (asking for and answering reviews), N4 (immigrants own 37.0% of accommodation and food businesses), S4. No restaurant-specific source on ad costs, ROI, delivery apps or seasonality: stay qualitative. Never invent a client or case. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a busy neighborhood restaurant at lunch, a server delivering plates to a table by a window, warm natural light",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p5-no-calls",
+      "slug": "website-not-getting-calls",
+      "title": "Why Your Business Website Is Not Getting Calls (and What to Fix First)",
+      "template": "how-to-guide",
+      "target_keyword": "website not generating leads",
+      "secondary_keywords": [
+        "why is my website not getting calls",
+        "website not getting leads",
+        "service page that converts"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/en/services/website-design",
+        "/en/blog/landing-page-vs-website",
+        "/en/blog/small-business-website-design-cost",
+        "/en/contact"
+      ],
+      "cluster": "pillar5.website",
+      "notes": "Diagnostic checklist: traffic problem versus conversion problem, clear offer, phone and form above the fold, trust signals, service pages by service and city. Sources: S1 (many searches end without a click), S5 and S9 (consumers check reviews before choosing), S10 (local ranking), T11 (landing page experience as a Quality Score component). No source on conversion rates, load-time effects or benchmarks: do not state any. Link landing-page-vs-website only if it is published by the time of writing; otherwise drop that link. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a contractor looking at a laptop showing a website while his phone sits silent on the desk, shop interior blurred behind",
       "publish_date": null,
       "author": null,
       "status": "pending",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T12:35:43.111988+00:00",
+  "updated": "2026-10-12T12:46:31.784760+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -600,6 +600,164 @@
       "cluster": "pilar2.trafego-pago",
       "notes": "Spoke do pilar 2. Lista de erros comuns em voz neutra (sem 'nas contas que gerenciamos'). Nenhum numero sem fonte. Linkar google-ads-como-funciona apenas se ja estiver publicado. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
       "image_context": "pessoa frustrada olhando um painel de anúncios no notebook, café frio ao lado, luz de fim de tarde",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p3-s7",
+      "slug": "avaliacao-falsa-no-google-como-denunciar",
+      "title": "Avaliação injusta ou falsa no Google: o que dá para denunciar e o que não dá",
+      "template": "how-to-guide",
+      "target_keyword": "como denunciar avaliacao falsa no google",
+      "secondary_keywords": [
+        "avaliacao falsa google meu negocio",
+        "remover avaliacao negativa do google",
+        "denunciar avaliacao no google"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/pt/blog/como-conseguir-avaliacoes-no-google",
+        "/pt/blog/como-aparecer-no-google-guia-do-negocio-local",
+        "/pt/blog/seo-local-o-que-e-e-como-funciona",
+        "/pt/servicos/seo",
+        "/pt/eua"
+      ],
+      "cluster": "pilar3.aparecer-no-google",
+      "notes": "Spoke do pilar 3, complemento do spoke de avaliacoes (que cobre pedir e responder): aqui o foco e denunciar, o que a politica do Google considera violacao e o que e apenas critica dura, e como o dono do perfil se comporta nesse caso. Nao repetir o passo a passo de pedir avaliacao nem de responder: linkar o artigo irmao. Fontes do registro: S22 (denunciar so quando viola a politica, Google nao entra em conflito entre negocio e cliente), S23 (responder exige perfil verificado), S24 (experiencia negativa respeitosa e permitida), S15 (incentivo, avaliacao seletiva e conflito de interesse proibidos), S9 (comportamento do consumidor ao ler avaliacoes, rotular como survey). NAO ha fonte para: prazo de analise da denuncia, taxa de remocao, impacto de uma avaliacao negativa nas vendas ou no ranking. Nao prometer remocao nem dar prazo. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "dono de um pequeno negocio de servico lendo uma avaliacao negativa no celular, expressao pensativa, balcao de atendimento ao fundo, luz natural da manha",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p2-s7",
+      "slug": "local-services-ads-google-como-funciona",
+      "title": "Local Services Ads do Google: como funciona o anúncio que cobra por lead",
+      "template": "tutorial",
+      "target_keyword": "local services ads",
+      "secondary_keywords": [
+        "anuncios de servicos locais google",
+        "google verified local services ads",
+        "google guaranteed anuncios"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/pt/servicos/trafego-pago",
+        "/pt/blog/google-ads-como-funciona",
+        "/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro",
+        "/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena",
+        "/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua",
+        "/pt/eua"
+      ],
+      "cluster": "pilar2.trafego-pago",
+      "notes": "Spoke do pilar 2. Explica o formato Local Services Ads (LSA) para negocio de servico local nos EUA: cobranca por lead valido e nao por clique, triagem e selo, o que conta como lead. Fontes do registro: T5 (paga por lead valido, migracao para o Google Ads a partir de ago. 2026), T6 (o que conta como lead valido), T7 (triagem: licenca, seguro, antecedentes), T8 (selo hoje se chama Google Verified, nao usar Google Guaranteed como nome atual; responsividade afeta ranking), T12 (preco do lead varia, sem citar valor), T13 (lances de negocios parecidos definem o valor do lead). Linkar google-ads-como-funciona para a diferenca em relacao a busca. NAO ha fonte para: valor do lead por setor ou cidade, taxa de conversao, quais categorias estao disponiveis em cada cidade, tempo de aprovacao. Nao citar preco de lead. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "eletricista ou encanador brasileiro atendendo uma ligacao de cliente ao lado da van de trabalho, dia ensolarado, ferramentas ao fundo",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p3-s8",
+      "slug": "como-aparecer-no-chatgpt-e-na-ia-negocio-local",
+      "title": "Como seu negócio local pode aparecer nas respostas de IA (ChatGPT, Google e outras)",
+      "template": "how-to-guide",
+      "target_keyword": "como aparecer no chatgpt negocio local",
+      "secondary_keywords": [
+        "buscas com ia negocio local",
+        "ai overviews negocio local",
+        "geo para pequenas empresas",
+        "ser citado pelo chatgpt"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/pt/blog/como-aparecer-no-google-guia-do-negocio-local",
+        "/pt/blog/seo-local-o-que-e-e-como-funciona",
+        "/pt/blog/google-business-profile-para-brasileiros-nos-eua",
+        "/pt/blog/como-conseguir-avaliacoes-no-google",
+        "/pt/servicos/seo",
+        "/pt/eua"
+      ],
+      "cluster": "pilar3.aparecer-no-google",
+      "notes": "Spoke do pilar 3 (alto potencial de citacao por IA). Tom pratico: o que o dono de negocio local controla (perfil do Google completo, avaliacoes, site claro, informacao consistente). Nao citar numeros do docs/ai-citation-log.md. Fontes do registro: S1 (68,01% das buscas nos EUA sem clique, rotular como total de buscas e nao busca local), S2 e S3 (AI Overview reduz o clique em resultado tradicional, citar com o recorte exato de cada uma), S4 (47% dos adultos americanos usaram IA para busca local, Yext, rotular como pesquisa de fornecedor de software), S6 (93% ou mais verificam antes de agir, mesma ressalva), S10 (relevancia, distancia e destaque no ranking local), S5 e S9 (avaliacoes). NAO ha fonte para: como as IAs escolhem negocios, fatores de citacao, qualquer garantia de aparecer, prazo para aparecer, percentual de peso por fator. Escrever de forma qualitativa e nunca prometer citacao. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "pessoa em casa conversando com um assistente de IA no celular para achar um servico local, sofa, luz quente de fim de tarde",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p1-s9",
+      "slug": "anunciar-em-espanhol-nos-eua-negocio-brasileiro",
+      "title": "Vale anunciar em espanhol nos EUA? O que o dono de negócio brasileiro precisa saber",
+      "template": "comparison",
+      "target_keyword": "anunciar em espanhol nos eua",
+      "secondary_keywords": [
+        "marketing para hispanicos nos eua",
+        "publico hispanico nos eua",
+        "google ads em espanhol",
+        "site em espanhol nos eua"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/pt/blog/anunciar-em-ingles-ou-portugues",
+        "/pt/blog/site-em-portugues-ou-ingles-nos-eua",
+        "/pt/blog/como-conseguir-clientes-nos-eua",
+        "/pt/blog/como-divulgar-seu-negocio-nos-estados-unidos",
+        "/pt/servicos/trafego-pago",
+        "/pt/eua",
+        "/pt/cidades/miami"
+      ],
+      "cluster": "pilar1.conseguir-clientes-eua",
+      "notes": "Spoke do pilar 1, terceira lingua da conversa que os artigos 'anunciar em ingles ou portugues' e 'site em portugues ou ingles' deixaram de fora. Nao repetir a comparacao pt x en; foco em quando o espanhol faz sentido (nichos e cidades com forte presenca hispanica, como Florida e Texas) e como decidir. Fontes do registro: M1 (Pew 2024: 54% dos latinos consomem noticia principalmente em ingles, 21% em espanhol, 23% nos dois), M2 (preferencia por conteudo no proprio idioma, dado de 2020, rotular o ano), M3 (idiomas falados em casa, 2018-2022), N2 (empresas de proprietarios hispanicos em 2021), T4 (idioma do Google Ads a partir de set. 2026 baseado no criativo e na landing page), S25 e S26 (idioma da pagina e hreflang). NAO ha fonte para: tamanho do mercado hispanico em dolares, CPC em espanhol, conversao por idioma, quais nichos performam melhor em espanhol. Nao afirmar que espanhol converte mais ou menos. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "vitrine de loja de bairro com placa em espanhol e portugues e um cliente conversando com a dona, rua movimentada de uma cidade da Florida, luz do dia",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p2-s8",
+      "slug": "planejador-de-palavras-chave-google-ads-como-usar",
+      "title": "Planejador de palavras-chave do Google: como usar para planejar seus anúncios",
+      "template": "tutorial",
+      "target_keyword": "planejador de palavras-chave google",
+      "secondary_keywords": [
+        "keyword planner como usar",
+        "pesquisa de palavras-chave google ads",
+        "estimativa de cpc google ads",
+        "volume de busca google ads"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/pt/blog/google-ads-como-funciona",
+        "/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local",
+        "/pt/blog/quanto-custa-trafego-pago-como-montar-orcamento",
+        "/pt/servicos/trafego-pago",
+        "/pt/servicos/seo",
+        "/pt/brasil"
+      ],
+      "cluster": "pilar2.trafego-pago",
+      "notes": "Spoke do pilar 2, tutorial pratico de ferramenta (serve tambem o publico do Brasil). Nao repetir leilao e Quality Score, que ja estao em google-ads-como-funciona: linkar. Fontes do registro: T16 (o Keyword Planner pesquisa palavras-chave, mostra estimativas de volume e custo medio e gera previsoes com base na verba), T14 (CPC medio e custo total dividido pelos cliques), T15 (estimativa de lance para o topo nao e garantia), T9 (clique nunca custa mais que o CPC maximo definido), T10 (Ad Rank). NAO ha fonte para: CPC medio por setor ou cidade, volume de busca de qualquer termo especifico, taxa de conversao. Nao inventar exemplos numericos de volume ou CPC. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "profissional olhando uma planilha de palavras-chave em dois monitores num escritorio pequeno, caderno de anotacoes ao lado, luz natural",
       "publish_date": null,
       "author": null,
       "status": "pending",
