@@ -1,0 +1,194 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/how-to-respond-to-negative-google-reviews#article",
+      "headline": "How to Respond to Negative Google Reviews (and When to Flag Them)",
+      "description": "A simple reply framework with copy-ready examples for negative Google reviews, plus what Google will actually remove and how to report a review.",
+      "datePublished": "2026-09-28",
+      "dateModified": "2026-09-28",
+      "inLanguage": "en-US",
+      "wordCount": 2384,
+      "keywords": [
+        "how to respond to negative google reviews",
+        "reply to bad google review",
+        "remove fake google review",
+        "google review response examples",
+        "google reviews",
+        "local business"
+      ],
+      "articleSection": [
+        "Why Should You Reply to Negative Reviews at All?",
+        "What Is a Good Four-Step Reply Framework?",
+        "What Should You Never Put in a Reply?",
+        "Which Reply Examples Can You Adapt?",
+        "Is the Review Just Negative, or Does It Break the Rules?",
+        "How Do You Flag a Review on Google?",
+        "What Should You Do While You Wait?",
+        "How Do You Make Replying a Habit?",
+        "Frequently Asked Questions",
+        "What Should You Do Next?"
+      ],
+      "articleBody": "A one-star review feels personal, especially when you built the business yourself. The urge is to defend yourself right away. That is usually the wrong move. Your reply is not written for the angry reviewer. It is written for the next person who is deciding whether to call you. This guide gives you a four-step reply framework, examples you can adapt, and a clear way to tell the difference between a review you dislike and a review Google will actually remove. Key Takeaways - Reply to negative reviews calmly, briefly and without private details. Write for future customers, not for the reviewer. ",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/how-to-respond-to-negative-google-reviews#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/how-to-respond-to-negative-google-reviews"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google reviews"
+        },
+        {
+          "@type": "Thing",
+          "name": "Reputation management"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local SEO"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/how-to-respond-to-negative-google-reviews",
+      "url": "https://etuos.com/en/blog/how-to-respond-to-negative-google-reviews",
+      "name": "How to Respond to Negative Google Reviews (and When to Flag Them)",
+      "description": "A simple reply framework with copy-ready examples for negative Google reviews, plus what Google will actually remove and how to report a review.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/how-to-respond-to-negative-google-reviews#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/how-to-respond-to-negative-google-reviews#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/how-to-respond-to-negative-google-reviews#primaryimage",
+      "url": "https://etuos.com/images/blog/how-to-respond-to-negative-google-reviews.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "How to Respond to Negative Google Reviews (and When to Flag Them)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/how-to-respond-to-negative-google-reviews#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Respond to Negative Google Reviews (and When to Flag Them)",
+          "item": "https://etuos.com/en/blog/how-to-respond-to-negative-google-reviews"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/how-to-respond-to-negative-google-reviews#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I respond to a negative Google review?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Thank the customer by name, own what is true, offer one concrete next step, and invite them to continue the conversation offline. Keep the reply short and professional, and never include private details about the customer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get a bad Google review removed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if it breaks Google's content policy, for example fake engagement, a conflict of interest, off-topic content, harassment or personal information. Google does not remove a review because it is negative or because you disagree with it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I report a Google review?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open your Business Profile, select Read reviews, select the report icon next to the review, choose a reason and select Send report. Menu labels can change, so check Google's help page for the current steps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if Google does not remove the review I reported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If Google finds no policy violation, you can submit a one-time appeal. If the review does not violate the policy, it will remain live. Either way, reply publicly in a calm and professional way."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I reply to every negative review?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a good habit. In 2026, 80% of consumers say they are more likely to use a business that replies to all of its reviews, according to BrightLocal, 2026, via PinMeTo. Keep each reply short and do not use it to push offers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I offer a refund or discount in exchange for a changed review?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google treats incentives tied to reviews as fake engagement, and that includes rewarding someone to change or remove a review. Resolve the problem on its own merits and let the customer decide what to do with the review."
+          }
+        }
+      ]
+    }
+  ]
+}
