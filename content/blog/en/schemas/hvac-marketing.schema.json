@@ -1,0 +1,199 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/hvac-marketing#article",
+      "headline": "HVAC Marketing: How to Win Calls Before the Season Starts",
+      "description": "A practical HVAC marketing plan: separate emergency and replacement buyers, build your map presence early, use Google Ads and LSA, and sell maintenance plans.",
+      "datePublished": "2026-10-02",
+      "dateModified": "2026-10-02",
+      "inLanguage": "en-US",
+      "wordCount": 2866,
+      "keywords": [
+        "hvac marketing",
+        "hvac advertising",
+        "hvac leads",
+        "hvac google ads"
+      ],
+      "articleSection": [
+        "Why Is HVAC Marketing Different From Other Local Services?",
+        "Emergency Calls vs. Planned Replacements: Who Are You Talking To?",
+        "Why Should You Prepare Before the Season, Not During It?",
+        "How Do You Show Up in the Map Results?",
+        "Should You Use Local Services Ads or Google Search Ads?",
+        "How Do Maintenance Plans Smooth Out the Seasons?",
+        "What About Your Website and Your Phone?",
+        "What Is a Simple HVAC Marketing Plan?",
+        "Be Ready When the Phone Rings"
+      ],
+      "articleBody": "An HVAC company does not have one kind of customer. It has at least two, and they search, decide and buy in completely different ways.",
+      "author": {
+        "@id": "https://etuos.com/en/about#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/hvac-marketing#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/hvac-marketing"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "HVAC Marketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Services Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Maintenance Plans"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/hvac-marketing",
+      "url": "https://etuos.com/en/blog/hvac-marketing",
+      "name": "HVAC Marketing: How to Win Calls Before the Season Starts",
+      "description": "A practical HVAC marketing plan: separate emergency and replacement buyers, build your map presence early, use Google Ads and LSA, and sell maintenance plans.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/hvac-marketing#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/hvac-marketing#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/hvac-marketing#primaryimage",
+      "url": "https://etuos.com/images/blog/hvac-marketing.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "An HVAC technician servicing an outdoor condenser unit at a suburban home"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/hvac-marketing#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "HVAC Marketing: How to Win Calls Before the Season Starts",
+          "item": "https://etuos.com/en/blog/hvac-marketing"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/hvac-marketing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best marketing for an HVAC company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single best channel. A complete Google Business Profile with steady reviews, a website that makes calling easy, and paid search for urgent and replacement searches work together. Start with the profile and the phones, then add ads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get more HVAC leads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Be visible where people search at the moment of need: the map results, Local Services Ads if you qualify, and Google Search Ads. Then make sure every call gets answered. A lead you miss is a lead a competitor gets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are Local Services Ads worth it for HVAC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They can be, because you pay for valid leads such as calls and messages rather than clicks. Eligibility and screening vary by category and region, and lead pricing varies by location, job type and other factors. Check your own market before you commit a budget."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I start advertising for the busy season?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Before it. There is no fixed lead time, but anything that depends on Google gathering data or customers building trust, such as reviews, profile updates and campaign setup, should be in place before demand rises."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get more maintenance plan customers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Offer the plan at the end of every service visit, give it a clear name and a simple page, and contact plan customers before each season. A plan is easiest to sell right after a repair, when the value of a working system is fresh."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I pay Google to rank higher in the map results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google says there is no way to request or pay for a better local ranking. You can improve your profile, earn reviews and keep your information accurate, but you cannot buy the position."
+          }
+        }
+      ]
+    }
+  ]
+}
