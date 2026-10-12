@@ -1,0 +1,168 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local#article",
+      "headline": "Orçamento mínimo de anúncios para negócio local: como decidir quanto investir",
+      "description": "Não existe orçamento mínimo universal. Veja os três limites que definem o seu: o que o caixa aguenta, o que o atendimento dá conta e o que o teste exige.",
+      "datePublished": "2026-09-17",
+      "dateModified": "2026-09-17",
+      "inLanguage": "pt-BR",
+      "wordCount": 1827,
+      "keywords": [
+        "orçamento mínimo de anúncios",
+        "quanto investir em tráfego pago",
+        "quanto gastar em anúncios",
+        "investimento mínimo google ads",
+        "negócio local"
+      ],
+      "articleSection": "Tráfego Pago",
+      "articleBody": "\"Qual o orçamento mínimo para anunciar?\" é uma das perguntas mais comuns de quem tem um negócio local e pensa em investir em Google Ads. A resposta honesta decepciona: não existe um número mínimo que sirva para todo mundo. Quem entrega um valor pronto sem saber o seu serviço, a sua cidade e a sua margem está adivinhando.",
+      "author": {
+        "@id": "https://etuos.com/pt/autor/lin-zeri#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "orçamento de anúncios"
+        },
+        {
+          "@type": "Thing",
+          "name": "tráfego pago"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "negócio local"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/autor/lin-zeri#person",
+      "name": "Lin Zeri",
+      "url": "https://etuos.com/pt/autor/lin-zeri",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      },
+      "sameAs": [
+        "https://github.com/LinZeri"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog Etuos",
+      "url": "https://etuos.com/pt/blog",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local#webpage",
+      "url": "https://etuos.com/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local",
+      "name": "Orçamento mínimo de anúncios para negócio local",
+      "description": "Não existe orçamento mínimo universal. Veja os três limites que definem o seu: o que o caixa aguenta, o que o atendimento dá conta e o que o teste exige.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local#primaryimage",
+      "url": "https://etuos.com/images/blog/orcamento-minimo-de-anuncios-para-negocio-local.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dona de uma pequena empresa de limpeza anotando as contas do orçamento de anúncios numa mesa de madeira"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Orçamento mínimo de anúncios para negócio local: como decidir quanto investir",
+          "item": "https://etuos.com/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual é o orçamento mínimo para anunciar no Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um mínimo universal. O valor depende do custo por clique do seu nicho e da sua cidade, da taxa de conversão da página e da taxa de fechamento do seu atendimento. A conta de trás para a frente (clientes desejados, leads, cliques, custo por clique) dá o mínimo do seu caso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que é melhor para começar, Google Ads ou Local Services Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende do ofício, da cidade e da elegibilidade. Os Local Services Ads cobram por lead válido e passam por uma triagem do Google que varia por categoria e região, e pode incluir licença, seguro e verificação de antecedentes. Confira a elegibilidade para o seu ofício e a sua cidade."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quando devo aumentar a verba?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quando o custo por lead está abaixo do teto que o seu negócio suporta e o atendimento tem espaço para receber mais contatos. Aumentar a verba com o custo por lead acima do teto, ou sem capacidade de atender, só amplia o prejuízo."
+          }
+        }
+      ]
+    }
+  ]
+}
