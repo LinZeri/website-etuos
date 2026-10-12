@@ -1,0 +1,177 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/google-ads-quality-score-local-business#article",
+      "headline": "Google Ads Quality Score Explained for Local Businesses",
+      "description": "Quality Score is a 1 to 10 diagnostic, not a price lever. Learn what it measures, what it does not, and how a local business can use it to fix weak ads.",
+      "datePublished": "2026-09-30",
+      "dateModified": "2026-09-30",
+      "inLanguage": "en-US",
+      "wordCount": 2341,
+      "keywords": [
+        "google ads quality score",
+        "what is quality score google ads",
+        "improve quality score",
+        "ad rank google ads"
+      ],
+      "articleSection": [
+        "What Quality Score Is, and What It Is Not",
+        "The Three Components Behind the Number",
+        "What Actually Decides Your Price and Position",
+        "How to Read Quality Score Without Fooling Yourself",
+        "Fixing What the Score Points To",
+        "Common Mistakes With Quality Score",
+        "Where Local Businesses Should Put Their Attention"
+      ],
+      "articleBody": "Quality Score is a 1 to 10 diagnostic shown at the keyword level, built from expected click-through rate, ad relevance and landing page experience. Google says it is not an input in the ad auction, so use it to find weak ads and pages, not as a price lever.",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/google-ads-quality-score-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/google-ads-quality-score-local-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Quality Score"
+        },
+        {
+          "@type": "Thing",
+          "name": "Ad Rank"
+        },
+        {
+          "@type": "Thing",
+          "name": "Landing Page Experience"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/google-ads-quality-score-local-business",
+      "url": "https://etuos.com/en/blog/google-ads-quality-score-local-business",
+      "name": "Google Ads Quality Score Explained for Local Businesses",
+      "description": "Quality Score is a 1 to 10 diagnostic, not a price lever. Learn what it measures, what it does not, and how a local business can use it to fix weak ads.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/google-ads-quality-score-local-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/google-ads-quality-score-local-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/google-ads-quality-score-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/google-ads-quality-score-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A small business owner at a kitchen table reviewing a Google Ads dashboard on a laptop with a notepad beside it"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/google-ads-quality-score-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Google Ads Quality Score Explained for Local Businesses",
+          "item": "https://etuos.com/en/blog/google-ads-quality-score-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/google-ads-quality-score-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a good Quality Score for a local business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single \"good\" number that applies to every trade and keyword. Quality Score is a 1 to 10 diagnostic at the keyword level, and what matters is whether the weak components point at something you can fix. Focus on whether the ad matches the search and the page delivers, then judge the keyword by the calls and customers it brings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a higher Quality Score lower my cost per click?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not on its own. Google says Quality Score is not an input in the ad auction. What enters Ad Rank includes your bid and the quality of your ads and landing page, along with factors such as the competitiveness of the auction. Better ads and pages help you compete, but the number is a diagnostic, not a discount."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the three parts of Quality Score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Expected click-through rate, ad relevance and landing page experience. Each one reflects whether your ad is likely to earn a click, whether it matches the search, and whether the page delivers what the ad promised."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I pause keywords with a low Quality Score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not automatically. First look at which component is weak and whether the keyword brings real calls at a cost that works for your business. Fix the ad or page if you can, and pause a keyword only when it stays unprofitable after you have addressed the cause."
+          }
+        }
+      ]
+    }
+  ]
+}
