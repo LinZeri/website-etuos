@@ -1,0 +1,177 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/bilingual-website-for-small-business#article",
+      "headline": "Should a Local Business Have a Bilingual Website? What to Know Before You Build One",
+      "description": "A decision guide for local business owners: when a Spanish version of your website makes sense, and how to build it so Google understands each language.",
+      "datePublished": "2026-10-07",
+      "dateModified": "2026-10-07",
+      "inLanguage": "en-US",
+      "wordCount": 2379,
+      "keywords": [
+        "bilingual website for small business",
+        "spanish version of website",
+        "multilingual website local business",
+        "hreflang for small business",
+        "bilingual website",
+        "local business"
+      ],
+      "articleSection": [
+        "Who Actually Needs a Bilingual Website?",
+        "What Does the Data Say About Language and Buying?",
+        "When Does a Second Language Version Make Sense?",
+        "How Should a Bilingual Site Be Built So Google Understands It?",
+        "Should the Spanish Version Be a Translation?",
+        "What Should You Decide Before You Build?",
+        "What Mistakes Do Bilingual Sites Make?",
+        "Frequently Asked Questions",
+        "What Should You Do Next?"
+      ],
+      "articleBody": "If some of your customers speak Spanish at home, sooner or later someone suggests a Spanish version of your website. It sounds simple: add a language button, translate the pages, done. In practice, a second language is a small publishing project. It needs real content, a clear structure, and someone who keeps it current. This guide helps you decide whether a bilingual website fits your business, and what to settle before you build one. It does not promise that a second language will raise your s",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/bilingual-website-for-small-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/bilingual-website-for-small-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Bilingual websites"
+        },
+        {
+          "@type": "Thing",
+          "name": "Hreflang"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local SEO"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/bilingual-website-for-small-business",
+      "url": "https://etuos.com/en/blog/bilingual-website-for-small-business",
+      "name": "Should a Local Business Have a Bilingual Website? What to Know Before You Build One",
+      "description": "A decision guide for local business owners: when a Spanish version of your website makes sense, and how to build it so Google understands each language.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/bilingual-website-for-small-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/bilingual-website-for-small-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/bilingual-website-for-small-business#primaryimage",
+      "url": "https://etuos.com/images/blog/bilingual-website-for-small-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Should a Local Business Have a Bilingual Website? What to Know Before You Build One"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/bilingual-website-for-small-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Should a Local Business Have a Bilingual Website? What to Know Before You Build One",
+          "item": "https://etuos.com/en/blog/bilingual-website-for-small-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/bilingual-website-for-small-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Should a local business have a bilingual website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on your customers and on your ability to serve them. If a real share of your customers is more comfortable in Spanish, and you can answer them and keep that version accurate, a bilingual site can make sense. If you cannot do both, fix that first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will a Spanish version of my website increase my sales?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We cannot promise that, and no source we trust measures it for local service businesses. Public data shows that many people prefer information in their own language, but those are stated preferences, not results from businesses that added a language."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Google know which language a page is in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google says it uses the visible content of the page to determine its language, and that it does not use code-level language information such as lang attributes, or the URL. Write each page fully in one language."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is hreflang and do I need it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hreflang is markup that tells Google a page also exists in another language. Google says each language version must list itself as well as all other language versions, and that if two pages do not both point to each other, the tags will be ignored. It labels the versions. It does not boost your ranking."
+          }
+        }
+      ]
+    }
+  ]
+}
