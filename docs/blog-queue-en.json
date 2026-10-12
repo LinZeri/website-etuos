@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T12:46:17.968758+00:00",
+  "updated": "2026-10-12T12:53:18.080891+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -578,11 +578,14 @@
       "image_context": "a roofer on a pitched roof inspecting shingles with a homeowner watching from the yard",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-12T12:47:33.003688+00:00",
+      "last_score": 86,
+      "iteration_id": "local-session-b3",
+      "commit_sha": "478be2b",
+      "published_date": "2026-09-21"
     },
     {
       "id": "en-p5-landing",
@@ -607,11 +610,14 @@
       "image_context": "a laptop on a desk showing two different page layouts side by side, a coffee mug and a notebook nearby",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-12T12:47:33.117310+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b3",
+      "commit_sha": "b26f17f",
+      "published_date": "2026-09-23"
     },
     {
       "id": "en-p1-service-area",
@@ -636,11 +642,14 @@
       "image_context": "a plumber's van parked in a suburban driveway, the technician checking a phone with a map open, morning light",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-12T12:47:33.253007+00:00",
+      "last_score": 87,
+      "iteration_id": "local-session-b3",
+      "commit_sha": "9e86019",
+      "published_date": "2026-09-25"
     },
     {
       "id": "en-p2-quality-score",
@@ -665,11 +674,14 @@
       "image_context": "a small business owner at a kitchen table reviewing a Google Ads dashboard on a laptop with a notepad beside it",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-12T12:47:33.376017+00:00",
+      "last_score": 89,
+      "iteration_id": "local-session-b3",
+      "commit_sha": "0245985",
+      "published_date": "2026-09-30"
     },
     {
       "id": "en-p4-bilingual-site",
@@ -694,11 +706,14 @@
       "image_context": "a Latina and a non-Hispanic business owner reviewing a website on a laptop in a bright shop, bilingual signage softly blurred behind them",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-12T12:47:33.489742+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b3",
+      "commit_sha": "2b7d71a",
+      "published_date": "2026-10-07"
     },
     {
       "id": "en-p1-ai-search",

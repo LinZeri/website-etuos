@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T12:46:31.784760+00:00",
+  "updated": "2026-10-12T12:53:16.265761+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -548,11 +548,14 @@
       "image_context": "dona de uma pequena empresa de limpeza revisando planilha de custos com notebook no escritório",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-12T12:47:32.443523+00:00",
+      "last_score": 86,
+      "iteration_id": "local-session-b3",
+      "commit_sha": "c4674e8",
+      "published_date": "2026-09-17"
     },
     {
       "id": "p1-s8",
@@ -573,11 +576,14 @@
       "notes": "Orgânico vs pago, grupos de comunidade brasileira como canal, segmentação de Meta Ads por idioma/interesse. Exemplos práticos por nicho.",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-12T12:47:32.552386+00:00",
+      "last_score": 85,
+      "iteration_id": "local-session-b3",
+      "commit_sha": "78ebcf9",
+      "published_date": "2026-09-21"
     },
     {
       "id": "p2-s6",
@@ -602,11 +608,14 @@
       "image_context": "pessoa frustrada olhando um painel de anúncios no notebook, café frio ao lado, luz de fim de tarde",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-12T12:47:32.672645+00:00",
+      "last_score": 86,
+      "iteration_id": "local-session-b3",
+      "commit_sha": "a1c9e88",
+      "published_date": "2026-09-23"
     },
     {
       "id": "p3-s7",
@@ -632,11 +641,14 @@
       "image_context": "dono de um pequeno negocio de servico lendo uma avaliacao negativa no celular, expressao pensativa, balcao de atendimento ao fundo, luz natural da manha",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-12T12:47:32.788646+00:00",
+      "last_score": 91,
+      "iteration_id": "local-session-b3",
+      "commit_sha": "bd15e6f",
+      "published_date": "2026-09-30"
     },
     {
       "id": "p2-s7",
@@ -663,11 +675,14 @@
       "image_context": "eletricista ou encanador brasileiro atendendo uma ligacao de cliente ao lado da van de trabalho, dia ensolarado, ferramentas ao fundo",
       "publish_date": null,
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-12T12:47:32.902926+00:00",
+      "last_score": 90,
+      "iteration_id": "local-session-b3",
+      "commit_sha": "cb5c1a6",
+      "published_date": "2026-10-07"
     },
     {
       "id": "p3-s8",

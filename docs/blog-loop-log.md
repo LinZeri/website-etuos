@@ -31,3 +31,13 @@
 | 2026-10-12T09:35:43 | facebook-ads-for-local-business | pillar2.paid-ads | Lin Zeri | 87 | 0 | 2026-10-06 | 19ca65e | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |
 | 2026-10-12T09:35:44 | small-business-website-design-cost | pillar5.website | Lin Zeri | 86 | 0 | 2026-10-08 | 97cd2c6 | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |
 | 2026-10-12T09:35:44 | spanish-language-google-ads-for-local-business | pillar4.multilingual-market | Lin Zeri | 88 | 0 | 2026-10-09 | 7e6390f | 10 | local_session,lote_2,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:53:14 | orcamento-minimo-de-anuncios-para-negocio-local | pilar2.trafego-pago | Lin Zeri | 86 | 0 | 2026-09-17 | c4674e8 | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:53:15 | instagram-e-facebook-para-negocios-brasileiros-nos-eua | pilar1.conseguir-clientes-eua | Lin Zeri | 85 | 0 | 2026-09-21 | 78ebcf9 | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:53:15 | erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios | pilar2.trafego-pago | Lin Zeri | 86 | 0 | 2026-09-23 | a1c9e88 | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:53:15 | avaliacao-falsa-no-google-como-denunciar | pilar3.aparecer-no-google | Lin Zeri | 91 | 0 | 2026-09-30 | bd15e6f | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:53:16 | local-services-ads-google-como-funciona | pilar2.trafego-pago | Lin Zeri | 90 | 0 | 2026-10-07 | cb5c1a6 | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:53:16 | roofing-marketing | pillar3.industry-playbooks | Lin Zeri | 86 | 0 | 2026-09-21 | 478be2b | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:53:17 | landing-page-vs-website | pillar5.website | Lin Zeri | 88 | 0 | 2026-09-23 | b26f17f | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:53:17 | service-area-business-google-business-profile | pillar1.local-search | Lin Zeri | 87 | 0 | 2026-09-25 | 9e86019 | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:53:17 | google-ads-quality-score-local-business | pillar2.paid-ads | Lin Zeri | 89 | 0 | 2026-09-30 | 0245985 | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
+| 2026-10-12T09:53:18 | bilingual-website-for-small-business | pillar4.multilingual-market | Lin Zeri | 88 | 0 | 2026-10-07 | 2b7d71a | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
