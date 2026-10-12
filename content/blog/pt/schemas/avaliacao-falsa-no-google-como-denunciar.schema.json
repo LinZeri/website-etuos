@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/avaliacao-falsa-no-google-como-denunciar#article",
+      "headline": "Avaliação injusta ou falsa no Google: o que dá para denunciar e o que não dá",
+      "description": "Recebeu uma avaliação injusta no Google? Veja o que o Google aceita denunciar, como enviar a denúncia, como apelar e como responder sem piorar a situação.",
+      "datePublished": "2026-09-30",
+      "dateModified": "2026-09-30",
+      "inLanguage": "pt-BR",
+      "wordCount": 2206,
+      "keywords": "como denunciar avaliação falsa no google, avaliação falsa google meu negócio, remover avaliação negativa do google, denunciar avaliação no google",
+      "articleSection": "SEO Local",
+      "articleBody": "Você abre o perfil do seu negócio e lá está: uma avaliação de uma estrela, injusta ou até falsa. A reação natural é querer apagar na hora. Só que o Google não remove avaliação por ela ser dura ou por você discordar dela. Ele remove avaliação que viola a política de conteúdo, e essa diferença decide se a denúncia tem chance ou se vira perda de tempo. Este guia explica o que o Google considera violação, como denunciar pelo Perfil da Empresa, o que fazer se a denúncia não for aceita e como responder à avaliação enquanto isso. Nenhum passo aqui garante a remoção: a decisão é sempre do Google.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/avaliacao-falsa-no-google-como-denunciar#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/avaliacao-falsa-no-google-como-denunciar"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Avaliações no Google"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Denúncia de avaliações"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/avaliacao-falsa-no-google-como-denunciar",
+      "url": "https://etuos.com/pt/blog/avaliacao-falsa-no-google-como-denunciar",
+      "name": "Avaliação injusta ou falsa no Google: o que dá para denunciar e o que não dá",
+      "description": "Recebeu uma avaliação injusta no Google? Veja o que o Google aceita denunciar, como enviar a denúncia, como apelar e como responder sem piorar a situação.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/avaliacao-falsa-no-google-como-denunciar#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/avaliacao-falsa-no-google-como-denunciar#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/avaliacao-falsa-no-google-como-denunciar#primaryimage",
+      "url": "https://etuos.com/images/blog/avaliacao-falsa-no-google-como-denunciar.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de um pequeno negócio lendo uma avaliação negativa no celular, com expressão pensativa"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/avaliacao-falsa-no-google-como-denunciar#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Avaliação injusta ou falsa no Google: o que dá para denunciar e o que não dá",
+          "item": "https://etuos.com/pt/blog/avaliacao-falsa-no-google-como-denunciar"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/avaliacao-falsa-no-google-como-denunciar#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O Google remove qualquer avaliação falsa que eu denunciar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O Google remove avaliações que violam a política de conteúdo, e a decisão é dele. Denunciar não garante a remoção, e o Google avisa que não se deve denunciar uma avaliação só porque você discorda dela ou não gostou dela."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso denunciar uma avaliação só porque ela é injusta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não é o critério. O Google não entra em conflito entre negócios e clientes, e permite conteúdo que descreve experiências negativas de forma respeitosa. Se a avaliação não viola a política, a melhor saída costuma ser responder com educação."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantas vezes posso apelar se o Google recusar a denúncia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Uma. A página de ajuda do Google fala em uma apelação única (\"one-time appeal\"). Por isso, vale reservá-la para os casos em que você vê uma violação clara da política."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo o Google leva para analisar a denúncia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Este artigo não traz prazo, porque não existe um prazo que se possa prometer. Você pode acompanhar o andamento na ferramenta de avaliações indicada pelo Google."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso oferecer desconto para o cliente apagar a avaliação negativa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. A política do Google proíbe oferecer incentivos, como pagamento, descontos, brindes ou serviços grátis, em troca de avaliações. O caminho é responder em público e, se for o caso, resolver o problema por telefone ou e-mail, sem condicionar a nota."
+          }
+        }
+      ]
+    }
+  ]
+}
