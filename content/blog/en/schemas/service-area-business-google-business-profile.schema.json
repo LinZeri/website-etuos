@@ -1,0 +1,201 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/service-area-business-google-business-profile#article",
+      "headline": "How to Set Up a Google Business Profile for a Service Area Business",
+      "description": "Work at your customers' homes? Learn how to hide your address, set service areas, avoid ineligible addresses and keep your Google Business Profile safe.",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "inLanguage": "en-US",
+      "wordCount": 2200,
+      "keywords": [
+        "service area business google business profile",
+        "google business profile hide address",
+        "service area google business profile",
+        "set service area google maps",
+        "google business profile",
+        "local business"
+      ],
+      "articleSection": [
+        "Are You a Service Area Business or a Storefront?",
+        "How Do You Hide Your Address on Google?",
+        "How Do You Set Your Service Areas?",
+        "What Address Can You Use?",
+        "How Does Verification Work?",
+        "What Mistakes Put a Service Area Profile at Risk?",
+        "What Should You Do After the Profile Is Live?",
+        "Frequently Asked Questions",
+        "What Should You Do Next?"
+      ],
+      "articleBody": "If you clean homes, fix pipes or mow lawns, your customers never visit your office. You go to them. That creates a problem the moment you set up a Google Business Profile: the form asks for an address, and the address you have is your house, your garage or a P.O. box. This guide walks you through the setup the way Google describes it. You will decide whether you are a service area business, hide your address if you should, choose your service areas, and avoid the setup mistakes that put a profile at risk. Key",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/service-area-business-google-business-profile#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/service-area-business-google-business-profile"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Service area business"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local SEO"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/service-area-business-google-business-profile",
+      "url": "https://etuos.com/en/blog/service-area-business-google-business-profile",
+      "name": "How to Set Up a Google Business Profile for a Service Area Business",
+      "description": "Work at your customers' homes? Learn how to hide your address, set service areas, avoid ineligible addresses and keep your Google Business Profile safe.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/service-area-business-google-business-profile#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/service-area-business-google-business-profile#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/service-area-business-google-business-profile#primaryimage",
+      "url": "https://etuos.com/images/blog/service-area-business-google-business-profile.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "How to Set Up a Google Business Profile for a Service Area Business"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/service-area-business-google-business-profile#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Set Up a Google Business Profile for a Service Area Business",
+          "item": "https://etuos.com/en/blog/service-area-business-google-business-profile"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/service-area-business-google-business-profile#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Should a service area business hide its address on Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Google says that if you are a service area business, you should hide your business address from customers. If you do not serve customers at your business address, Google says to remove it from your Business Profile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many service areas can I add to my Google Business Profile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google says you can set up to 20 service areas, based on the cities, postal codes or other areas you serve. Choose the places where you actually take jobs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far can my service area extend?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google says a service area shouldn't extend farther than about 2 hours of driving time from where your business is based. Google's pages do not say that a bigger area makes you appear more often."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use a P.O. box or virtual office as my business address?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google says P.O. boxes or mailboxes located at remote locations aren't acceptable, and that a rented mailing address where you do not operate isn't eligible for a Business Profile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a hybrid business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google defines it as a business that serves customers at its business address but also directly visits or delivers to them. These businesses can show their storefront address and designate a service area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to verify my service area business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Google says you need to verify your business to edit your business info and interact with customers. The verification method is determined by Google and can't be changed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I create a separate profile for each city I serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google says not to create more than one page for each location of your business. A service area business should have one profile for its base, with a designated service area."
+          }
+        }
+      ]
+    }
+  ]
+}
