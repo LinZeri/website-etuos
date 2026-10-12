@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios#article",
+      "headline": "Os 7 erros que fazem pequenos negócios queimarem dinheiro em anúncios",
+      "description": "Os 7 erros mais comuns que fazem pequenos negócios gastar em anúncios sem retorno, do lance no chute à página fraca, e como corrigir cada um.",
+      "datePublished": "2026-09-23",
+      "dateModified": "2026-09-23",
+      "inLanguage": "pt-BR",
+      "wordCount": 2054,
+      "keywords": "erros trafego pago, erros em google ads, por que meus anúncios não dão resultado, desperdício em anúncios",
+      "articleSection": "Tráfego Pago",
+      "articleBody": "Quando o anúncio não traz cliente, a primeira reação é culpar a plataforma. Muitas vezes, o problema está em decisões tomadas antes e depois do clique, e quase todas têm conserto. Este guia reúne sete erros comuns de quem anuncia com pouca verba, explica por que cada um custa dinheiro e mostra o que fazer no lugar. Serve para quem anuncia sozinho e para quem contratou alguém e quer saber o que cobrar.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Erros em anúncios"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Tráfego pago"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios",
+      "url": "https://etuos.com/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios",
+      "name": "Os 7 erros que fazem pequenos negócios queimarem dinheiro em anúncios",
+      "description": "Os 7 erros mais comuns que fazem pequenos negócios gastar em anúncios sem retorno, do lance no chute à página fraca, e como corrigir cada um.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios#primaryimage",
+      "url": "https://etuos.com/images/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Pessoa frustrada olhando um painel de anúncios no notebook, com uma xícara de café frio ao lado"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Os 7 erros que fazem pequenos negócios queimarem dinheiro em anúncios",
+          "item": "https://etuos.com/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Por que meus anúncios geram cliques, mas não geram clientes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Em geral, o problema está depois do clique: página que não repete a promessa do anúncio, contato difícil de achar, idioma diferente entre anúncio e página ou demora para responder. Revise a página de destino e o atendimento antes de mexer no lance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O lance máximo é o que eu vou pagar por clique?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O lance de CPC máximo é um teto: o clique não custa mais do que ele, e o valor cobrado de fato costuma ser menor, porque o leilão considera também a qualidade do anúncio e da página, a competitividade e o contexto da busca."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quality Score alto garante um clique mais barato?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Segundo o Google, o Quality Score não entra no leilão: é uma ferramenta de diagnóstico para entender como os anúncios de uma palavra-chave afetam a experiência de quem busca. Use a nota como pista do que revisar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para estimar o custo do clique antes de investir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, de forma aproximada. O Keyword Planner mostra o custo médio do anúncio para uma palavra-chave, e há a estimativa de lance para o topo da página, que não é garantia. Use as duas para o seu ofício e a sua cidade antes de definir a verba."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo leva para saber se a campanha está funcionando?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe prazo fixo. Depende da concorrência, do volume de buscas e da verba. Mude uma coisa por vez e espere dados suficientes antes de concluir."
+          }
+        }
+      ]
+    }
+  ]
+}
