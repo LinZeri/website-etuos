@@ -1,0 +1,198 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/small-business-website-design-cost#article",
+      "headline": "How Much Should a Small Business Website Cost? What You Are Actually Paying For",
+      "description": "What drives small business website design cost, what you pay for after launch, how to budget with simple math, and how to compare quotes without getting burned.",
+      "datePublished": "2026-10-08",
+      "dateModified": "2026-10-08",
+      "inLanguage": "en-US",
+      "wordCount": 2465,
+      "keywords": [
+        "small business website design cost",
+        "how much does a website cost",
+        "website cost for small business",
+        "web design pricing"
+      ],
+      "articleSection": [
+        "Why Is There No Single Price for a Small Business Website?",
+        "What Actually Drives the Cost of a Website?",
+        "What Do You Keep Paying for After Launch?",
+        "How Do You Decide What a Website Is Worth to You?",
+        "How Do You Compare Quotes Without Getting Burned?",
+        "Does a Website Need to Work With Ads and Google Profiles?",
+        "Frequently Asked Questions",
+        "What Should You Do Next?"
+      ],
+      "articleBody": "Ask five web designers what a small business website costs and you will get five very different answers. That is not a trick. It is the honest result of a simple fact: \"a website\" can mean a one-page business card or a custom booking platform, and the price follows the scope. This guide does not hand you a price table. We do not have a verified, nationwide source for one, and a made-up range would only give you a number to anchor on that has nothing to do with your business. Instead, you will se",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/small-business-website-design-cost#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/small-business-website-design-cost"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Website design"
+        },
+        {
+          "@type": "Thing",
+          "name": "Website cost"
+        },
+        {
+          "@type": "Thing",
+          "name": "Small business marketing"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/small-business-website-design-cost",
+      "url": "https://etuos.com/en/blog/small-business-website-design-cost",
+      "name": "How Much Should a Small Business Website Cost? What You Are Actually Paying For",
+      "description": "What drives small business website design cost, what you pay for after launch, how to budget with simple math, and how to compare quotes without getting burned.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/small-business-website-design-cost#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/small-business-website-design-cost#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/small-business-website-design-cost#primaryimage",
+      "url": "https://etuos.com/images/blog/small-business-website-design-cost.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "How Much Should a Small Business Website Cost? What You Are Actually Paying For"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/small-business-website-design-cost#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How Much Should a Small Business Website Cost? What You Are Actually Paying For",
+          "item": "https://etuos.com/en/blog/small-business-website-design-cost"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/small-business-website-design-cost#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does a small business website cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single price. Cost depends on the number of pages, custom design versus a template, who writes the content, the features you need, the number of languages and who builds it. Compare quotes by what they include and by what you will pay after launch, not by the headline number alone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are website quotes so different from each other?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because the scope behind each quote is usually different. One may include writing, photos and search setup, another may not. Ask each builder to list exactly what is included before comparing prices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What ongoing costs should I expect after launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plan for your domain renewal, hosting, maintenance and security updates, small content changes and any paid tools or plugins. Ask each builder which of these are included and which are billed separately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I build my website myself or hire someone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on your time, your skills and how much the site matters to winning customers. A website builder costs less in cash and more in your own hours. Hiring a professional costs more in cash and saves you time and design risk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I own my website and domain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You should. Register the domain in your own name and keep control of your hosting account, content and design files. Ask any builder to confirm this in writing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if a website is worth the money?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start from what a customer is worth to you. Divide the total cost by your profit per job to see how many extra jobs the site needs to bring in to pay for itself, then judge whether that is realistic for your market."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does my website need to be in more than one language?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If part of your customer base searches and buys in Spanish or Portuguese, a version written for that audience can help. Each language needs its own pages, so it adds to the cost. Decide based on who your customers actually are."
+          }
+        }
+      ]
+    }
+  ]
+}
