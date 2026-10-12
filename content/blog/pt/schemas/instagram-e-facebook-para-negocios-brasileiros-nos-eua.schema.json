@@ -1,0 +1,177 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua#article",
+      "headline": "Instagram e Facebook para negócios brasileiros nos EUA: o que funciona",
+      "description": "Como usar Instagram e Facebook no seu negócio nos EUA: o que postar, quando pagar anúncio, como usar grupos da comunidade brasileira e exemplos por nicho.",
+      "datePublished": "2026-09-21",
+      "dateModified": "2026-09-21",
+      "inLanguage": "pt-BR",
+      "wordCount": 1955,
+      "keywords": "instagram para negocio nos eua, facebook ads para brasileiros nos eua, redes sociais para negocio local",
+      "articleSection": "Conseguir Clientes nos EUA",
+      "articleBody": "Instagram e Facebook funcionam bem para negócios brasileiros nos EUA quando fazem o trabalho certo: mostrar serviço feito, criar confiança e manter o contato com a comunidade. Funcionam mal quando viram a única porta de entrada. O cliente que está com pressa procura no Google, e o cliente que ainda não sabe que precisa de você é quem as redes sociais alcançam. Este guia separa o que é orgânico do que é pago, mostra como usar os grupos de brasileiros sem virar spam, explica como pensar a segmentação dos anúncios e dá exemplos por nicho. Não há números de alcance, custo por clique ou taxa de conversão aqui, de propósito: eles mudam com o setor, a cidade e a época, e dado sem fonte confiável engana mais do que ajuda.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Instagram"
+        },
+        {
+          "@type": "Thing",
+          "name": "Facebook"
+        },
+        {
+          "@type": "Thing",
+          "name": "Marketing para negócios locais"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua",
+      "url": "https://etuos.com/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua",
+      "name": "Instagram e Facebook para negócios brasileiros nos EUA: o que funciona",
+      "description": "Como usar Instagram e Facebook no seu negócio nos EUA: o que postar, quando pagar anúncio, como usar grupos da comunidade brasileira e exemplos por nicho.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua#primaryimage",
+      "url": "https://etuos.com/images/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dona de salão de beleza brasileiro fotografando o trabalho de uma cliente com o celular"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Instagram e Facebook para negócios brasileiros nos EUA: o que funciona",
+          "item": "https://etuos.com/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Instagram ou Facebook: qual é melhor para negócio brasileiro nos EUA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de onde o seu cliente está. Para beleza, comida e serviços visuais, o Instagram costuma ser a vitrine natural. O Facebook ainda é forte para grupos de comunidade e para quem busca indicação. Comece pela rede em que o seu cliente já conversa e cuide bem de uma antes de abrir a segunda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso pagar anúncio para ter cliente pelo Instagram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não necessariamente, mas o orgânico sozinho tende a render devagar para quem ainda tem poucos seguidores no Instagram. O mais seguro é ter o orgânico como vitrine e testar um anúncio simples quando já houver material bom e alguém para atender as mensagens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso divulgar meu serviço em grupos de brasileiros no Facebook?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende das regras de cada grupo, então leia antes de postar. Em geral, nos grupos de brasileiros, funciona melhor quem participa, responde dúvidas e divulga com contexto, em vez de repetir propaganda em vários grupos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de site se já tenho Instagram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O Instagram é emprestado: a plataforma decide quem vê o seu perfil, e o cliente que procura no Google quase nunca chega ao seu perfil. O site e o perfil no Google são seus e capturam quem já quer contratar. As redes ajudam a ser lembrado, mas não substituem o site."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto devo investir em anúncios nas redes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe valor único para anúncios no Instagram e no Facebook. Depende da sua margem, da sua capacidade de atendimento, da cidade e da concorrência. O que importa é saber quanto custa cada cliente conquistado, e não só cada clique."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Em quanto tempo aparece resultado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe prazo fixo para resultado com Instagram e Facebook, e ninguém deveria prometer um. O resultado depende da sua oferta, da qualidade do material, da resposta às mensagens e da concorrência."
+          }
+        }
+      ]
+    }
+  ]
+}
