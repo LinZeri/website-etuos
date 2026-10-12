@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro#article",
+      "headline": "Google Ads ou Meta Ads: onde investir primeiro por tipo de negócio",
+      "description": "Google Ads ou Meta Ads? Veja a diferença entre quem busca e quem descobre, e qual canal tende a fazer mais sentido primeiro para o seu tipo de negócio local.",
+      "datePublished": "2026-10-06",
+      "dateModified": "2026-10-06",
+      "inLanguage": "pt-BR",
+      "wordCount": 1927,
+      "keywords": "google ads ou facebook ads, google ads vs meta ads, onde anunciar primeiro, anunciar no instagram ou google",
+      "articleSection": "Tráfego Pago",
+      "articleBody": "Quem vai anunciar pela primeira vez quase sempre trava na mesma pergunta: Google Ads ou Meta Ads? A resposta curta é que os dois fazem trabalhos diferentes. O Google encontra quem já está procurando o que você vende. O Meta, dono do Facebook e do Instagram, mostra o seu negócio para quem ainda não estava procurando. Qual vem primeiro depende de como o seu cliente decide comprar. Este guia compara os dois canais pela intenção do cliente, sugere um ponto de partida para cada tipo de negócio local e mostra como testar sem queimar verba. Não há tabela de preços aqui de propósito: custo de clique muda com o setor, a cidade e a concorrência, e número sem fonte engana mais do que ajuda.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Meta Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Tráfego Pago"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro",
+      "url": "https://etuos.com/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro",
+      "name": "Google Ads ou Meta Ads: onde investir primeiro por tipo de negócio",
+      "description": "Google Ads ou Meta Ads? Veja a diferença entre quem busca e quem descobre, e qual canal tende a fazer mais sentido primeiro para o seu tipo de negócio local.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro#primaryimage",
+      "url": "https://etuos.com/images/blog/google-ads-ou-meta-ads-onde-investir-primeiro.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de restaurante pequeno comparando dois painéis de anúncios no tablet, no balcão"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Google Ads ou Meta Ads: onde investir primeiro por tipo de negócio",
+          "item": "https://etuos.com/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual é melhor para começar, Google Ads ou Meta Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de como o seu cliente decide. Se ele procura o serviço no Google quando tem o problema, o Google Ads costuma ser o primeiro passo. Se ele se encanta pelo visual e descobre o negócio por indicação e redes sociais, o Meta Ads pode fazer mais sentido. O mais seguro é começar por um canal e abrir o segundo quando o primeiro estiver estável."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso anunciar nos dois ao mesmo tempo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pode, mas com pouco orçamento a verba se divide e nenhum dos dois junta dados suficientes. Para quem está começando, vale testar um canal por vez e só depois combinar os dois."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Anunciar no Instagram é a mesma coisa que anunciar no Meta Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Os anúncios do Instagram e do Facebook são comprados pelo mesmo sistema, o Meta Ads. Você escolhe onde o anúncio aparece e para quem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto custa anunciar no Google ou no Meta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe valor único. O custo depende do setor, da cidade, da concorrência e da qualidade do anúncio e da página. No Google, o Keyword Planner mostra estimativas de custo por palavra-chave, mas elas não são garantia. O que importa é quanto custa cada cliente conquistado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Em quanto tempo aparece resultado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe prazo fixo, e ninguém deveria prometer um. O resultado depende da oferta, da página de destino, da concorrência e de a campanha reunir dados suficientes para ser ajustada."
+          }
+        }
+      ]
+    }
+  ]
+}
