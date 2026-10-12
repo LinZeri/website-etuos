@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua#article",
+      "headline": "Marketing para limpeza, construção e beleza: o que muda por nicho nos EUA",
+      "description": "Limpeza, construção e beleza pedem marketing diferente nos EUA. Veja canal, erro comum e exemplo de cidade para cada nicho, com regras oficiais do Google.",
+      "datePublished": "2026-10-02",
+      "dateModified": "2026-10-02",
+      "inLanguage": "pt-BR",
+      "wordCount": 2300,
+      "keywords": "marketing para empresa de limpeza nos eua, divulgar empresa de construcao nos eua, marketing salao de beleza eua",
+      "articleSection": "Conseguir clientes nos EUA",
+      "articleBody": "Limpeza, construção e beleza estão entre os negócios que mais aparecem na comunidade brasileira nos Estados Unidos. Quem tem um deles costuma ouvir o mesmo conselho genérico: \"faça anúncio, abra um Instagram, peça avaliação\". O problema é que os três nichos vendem de jeitos muito diferentes, e o que funciona para um atrapalha o outro.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Marketing para empresa de limpeza"
+        },
+        {
+          "@type": "Thing",
+          "name": "Marketing para construção e remodeling"
+        },
+        {
+          "@type": "Thing",
+          "name": "Marketing para salão de beleza"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua",
+      "url": "https://etuos.com/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua",
+      "name": "Marketing para limpeza, construção e beleza: o que muda por nicho nos EUA",
+      "description": "Limpeza, construção e beleza pedem marketing diferente nos EUA. Veja canal, erro comum e exemplo de cidade para cada nicho, com regras oficiais do Google.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua#primaryimage",
+      "url": "https://etuos.com/images/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Três donos de pequenos negócios, de limpeza, construção e beleza, conversando em uma calçada nos Estados Unidos"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Marketing para limpeza, construção e beleza: o que muda por nicho nos EUA",
+          "item": "https://etuos.com/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual o melhor canal de marketing para empresa de limpeza nos EUA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um canal único. Para a maioria, o ponto de partida é o perfil no Google com área de atendimento correta e avaliações reais, porque o cliente confere o negócio antes de deixar alguém entrar em casa. Anúncio entra depois, com raio que respeite a rota da equipe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como divulgar uma empresa de construção nos EUA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Combine perfil no Google com fotos de obras reais, site com portfólio e pedido de orçamento simples e, quando fizer sentido, anúncio de busca para quem já procura o serviço. Mostrar licença e seguro, quando se aplicam ao seu ofício e estado, ajuda a passar confiança."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Salão de beleza precisa de site ou só do Instagram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Instagram mostra o trabalho, mas quem busca no Google não o encontra por ali. Um perfil no Google bem cuidado e, se possível, um site simples com serviços, horário e forma de agendar completam o Instagram."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso mostrar meu endereço no Google se atendo na casa do cliente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Se você não atende clientes no seu endereço, o Google orienta a esconder o endereço do perfil e a definir a área de atendimento. Confira sempre a regra atual na página oficial de diretrizes do Google."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Local Services Ads valem a pena para o meu nicho?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende da elegibilidade do seu ofício e da sua cidade, que varia por categoria e região, e da triagem do Google, que pode incluir licença, seguro e verificação de antecedentes. Confira a elegibilidade antes de planejar."
+          }
+        }
+      ]
+    }
+  ]
+}
