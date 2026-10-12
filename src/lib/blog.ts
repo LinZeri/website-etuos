@@ -64,9 +64,9 @@ function hoje(): string {
 }
 
 export function getPosts(idioma: Idioma): Post[] {
-  // Posts com data futura ficam fora da listagem e do sitemap até a data
-  // chegar (publicação agendada; o build seguinte os revela). A rota do post
-  // em si continua sendo gerada, então o link direto já funciona.
+  // Posts com data futura ficam fora da listagem, do sitemap e das rotas
+  // geradas até a data chegar (publicação agendada; o build seguinte os
+  // revela).
   const limite = hoje();
   return getSlugs(idioma)
     .map((slug) => getPost(idioma, slug))
@@ -75,11 +75,13 @@ export function getPosts(idioma: Idioma): Post[] {
     .sort((a, b) => (a.frontmatter.data < b.frontmatter.data ? 1 : -1));
 }
 
-// Todos os posts de todos os idiomas, inclusive os agendados, para o
-// generateStaticParams da rota catch-all.
+// Posts de todos os idiomas que já podem ser publicados, para o
+// generateStaticParams da rota catch-all. Post com data futura fica de fora:
+// como a rota usa dynamicParams = false, a URL dele devolve 404 até o build
+// seguinte à data (publicação agendada de verdade, sem vazar por link direto).
 export function todosOsPostsParaRotas(): { idioma: Idioma; slug: string }[] {
   return IDIOMAS.flatMap((idioma) =>
-    getSlugs(idioma).map((slug) => ({ idioma, slug })),
+    getPosts(idioma).map((post) => ({ idioma, slug: post.slug })),
   );
 }
 
