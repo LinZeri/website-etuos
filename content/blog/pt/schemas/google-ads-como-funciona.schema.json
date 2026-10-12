@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/google-ads-como-funciona#article",
+      "headline": "Google Ads: como funciona o leilão, o orçamento e o que esperar",
+      "description": "Entenda como o Google Ads funciona: o leilão, o lance máximo, o Índice de Qualidade e o orçamento, e o que esperar do começo sem promessa de prazo.",
+      "datePublished": "2026-09-28",
+      "dateModified": "2026-09-28",
+      "inLanguage": "pt-BR",
+      "wordCount": 2000,
+      "keywords": "google ads como funciona, leilão do google ads, como funciona o google ads, índice de qualidade",
+      "articleSection": "Tráfego Pago",
+      "articleBody": "Quem abre o Google Ads pela primeira vez costuma ter a mesma sensação: são muitos campos, muitos termos em inglês e uma pergunta que ninguém responde direito, que é quanto vai custar e quando o telefone toca. A boa notícia é que o mecanismo por trás de tudo é simples de entender. Quando você sabe como o leilão decide quem aparece, o orçamento deixa de ser um chute e as campanhas deixam de parecer caixa-preta.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/google-ads-como-funciona#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/google-ads-como-funciona"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Tráfego pago"
+        },
+        {
+          "@type": "Thing",
+          "name": "Leilão de anúncios"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/google-ads-como-funciona",
+      "url": "https://etuos.com/pt/blog/google-ads-como-funciona",
+      "name": "Google Ads: como funciona o leilão, o orçamento e o que esperar",
+      "description": "Entenda como o Google Ads funciona: o leilão, o lance máximo, o Índice de Qualidade e o orçamento, e o que esperar do começo sem promessa de prazo.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/google-ads-como-funciona#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/google-ads-como-funciona#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/google-ads-como-funciona#primaryimage",
+      "url": "https://etuos.com/images/blog/google-ads-como-funciona.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Mãos de uma pessoa organizando cartões coloridos sobre uma mesa de madeira, com um notebook ao lado, em um planejamento de campanha"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/google-ads-como-funciona#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Google Ads: como funciona o leilão, o orçamento e o que esperar",
+          "item": "https://etuos.com/pt/blog/google-ads-como-funciona"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/google-ads-como-funciona#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O Google Ads cobra para o anúncio aparecer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No modelo de anúncios de busca, o que você paga é o clique. Quando alguém clica, o custo não passa do lance máximo por clique que você definiu, e o valor cobrado costuma ser menor que esse teto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quem dá o maior lance sempre aparece primeiro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O leilão combina o lance com a qualidade dos anúncios e da página de destino, entre outros fatores, como a competitividade do leilão e o contexto da busca. Por isso um anúncio bem feito pode disputar com quem dá um lance maior."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Índice de Qualidade entra no leilão?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Segundo o Google, o Índice de Qualidade não é um insumo do leilão. É uma ferramenta de diagnóstico, de 1 a 10, calculada a partir da taxa de cliques esperada, da relevância do anúncio e da experiência na página de destino."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto preciso investir para começar no Google Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um valor certo para todos. Comece pela conta do negócio: quanto vale um cliente novo e quanto você pode pagar para conquistá-lo. Use o Planejador de Palavras-chave para estimar o custo do seu nicho e lembre que a estimativa não é garantia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo leva para o Google Ads dar resultado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe prazo fixo, e ninguém deveria prometer um. Depende da concorrência, da oferta, da página de destino e da configuração da campanha. O resultado mais consistente aparece depois que a campanha reúne dados suficientes para ser ajustada."
+          }
+        }
+      ]
+    }
+  ]
+}
