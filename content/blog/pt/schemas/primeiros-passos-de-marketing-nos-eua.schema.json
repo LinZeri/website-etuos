@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/primeiros-passos-de-marketing-nos-eua#article",
+      "headline": "Abriu a empresa nos EUA? Os primeiros passos de marketing",
+      "description": "Acabou de abrir sua empresa nos EUA? Veja o plano de marketing em três fases: perfil no Google, site simples e anúncios, na ordem certa para o negócio local.",
+      "datePublished": "2026-10-09",
+      "dateModified": "2026-10-09",
+      "inLanguage": "pt-BR",
+      "wordCount": 1900,
+      "keywords": "abrir empresa nos eua e agora, marketing depois de abrir empresa nos eua, começar negócio nos eua",
+      "articleSection": "Conseguir clientes nos EUA",
+      "articleBody": "Você abriu a empresa nos Estados Unidos, a papelada principal está encaminhada, a conta do negócio está no banco e agora vem a pergunta que ninguém responde direito: como o primeiro cliente vai achar você? A resposta curta é que o marketing de quem acabou de abrir não começa com anúncio. Começa por uma fundação pequena e bem feita, e só depois cresce.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/primeiros-passos-de-marketing-nos-eua#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/primeiros-passos-de-marketing-nos-eua"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Marketing para pequenos negócios"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Empreendedorismo brasileiro nos EUA"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/primeiros-passos-de-marketing-nos-eua",
+      "url": "https://etuos.com/pt/blog/primeiros-passos-de-marketing-nos-eua",
+      "name": "Abriu a empresa nos EUA? Os primeiros passos de marketing",
+      "description": "Acabou de abrir sua empresa nos EUA? Veja o plano de marketing em três fases: perfil no Google, site simples e anúncios, na ordem certa para o negócio local.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/primeiros-passos-de-marketing-nos-eua#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/primeiros-passos-de-marketing-nos-eua#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/primeiros-passos-de-marketing-nos-eua#primaryimage",
+      "url": "https://etuos.com/images/blog/primeiros-passos-de-marketing-nos-eua.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dona de um pequeno negócio sorrindo dentro da loja recém-aberta, com um caderno na mão, pendurando a placa na porta"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/primeiros-passos-de-marketing-nos-eua#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Abriu a empresa nos EUA? Os primeiros passos de marketing",
+          "item": "https://etuos.com/pt/blog/primeiros-passos-de-marketing-nos-eua"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/primeiros-passos-de-marketing-nos-eua#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Por onde começar o marketing de uma empresa recém-aberta nos EUA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pelo perfil gratuito no Google, com nome, endereço e telefone corretos e verificado. Depois vêm um site simples com contato fácil, as avaliações dos primeiros clientes e, só então, os anúncios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de site para começar a divulgar meu negócio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O ideal é ter, porque é onde o cliente tira dúvidas e decide. Ele não precisa ser grande: precisa dizer o que você faz, onde atende e como falar com você, e funcionar bem no celular."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso usar um escritório virtual ou caixa postal como endereço no perfil do Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. As diretrizes do Google não aceitam escritório virtual nem caixa postal como endereço de perfil. Se você atende na casa do cliente, esconda o endereço e informe as áreas atendidas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto devo investir em anúncios no começo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe valor único. Use o Keyword Planner do Google para estimar o custo do seu serviço na sua cidade e comece com uma verba que o caixa do negócio sustente, ajustando conforme os contatos que ela traz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O idioma do marketing deve ser português ou inglês?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de quem você quer atrair. Para a comunidade brasileira, o português tende a funcionar bem. Para o cliente americano, o inglês é indispensável. Muitos negócios precisam dos dois idiomas, cada um para o seu público."
+          }
+        }
+      ]
+    }
+  ]
+}
