@@ -84,6 +84,7 @@ Fonte a citar: **Search Engine Journal, "Google Ads Is Retiring Language Targeti
 URL: https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592/
 Markdown (pt): `([Search Engine Journal, 2026](https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592/), acesso em out. 2026)`
 Uso permitido: artigos sobre a decisão de idioma em Google Ads para negócios bilíngues; o idioma do anúncio e da página de destino passa a ser o sinal que o Google usa na Busca a partir do fim de setembro de 2026.
+Citação adicional (reaberta em out. 2026, três chamadas, atribuída ao Google pela autora Brooke Osmundson): "Accounts that separate English, Spanish or other languages into individual campaigns can continue using those structures" (o texto abre truncado) e "Google says existing campaigns don't need to be restructured, including accounts that separate campaigns by language." Não usar "the way things are behaving now aren't changing" (só 2 de 3 chamadas) nem "There is no reason to combine those campaigns..." (opinião da autora, 1 chamada).
 Uso proibido: não atribuir ao SEJ a frase "Search ads will automatically match based on the language of your ads" (não está na página); não citar Display, YouTube ou Gmail (a página não os nomeia); não tratar 13 de agosto como a data do anúncio do Google (é a data do artigo); não dizer que o idioma é o único mecanismo disponível nem ligar a mudança ao Quality Score; não afirmar que o Performance Max inteiro perdeu o controle de idioma; não citar como dado de 2025.
 
 **T5: Nos Local Services Ads você paga por lead válido, não por clique, e a migração para o Google Ads começou em agosto de 2026.** A página de ajuda do Google Ads descreve que "You still only pay for valid leads (such as phone calls and messages) rather than ad clicks", que os anúncios continuam exclusivamente no Google Search e no Google Maps, e o cronograma em fases: agosto de 2026 para anunciantes selecionados de serviços residenciais e de lojas nos EUA, e 2027 para contas fora dos EUA e demais categorias.
@@ -347,6 +348,46 @@ URL: https://support.google.com/business/answer/3039617
 Markdown: `([Google, "Edit your Business Profile", Ajuda do Perfil da Empresa](https://support.google.com/business/answer/3039617), acesso em out. 2026)`
 Uso permitido: regras da descrição do perfil.
 Uso proibido: não afirmar que a descrição influencia o ranking (a página não diz isso).
+
+**S22: Pelo Google, o dono do perfil pode denunciar avaliação que viole a política de conteúdo; não se denuncia só por discordar; o Google não entra em conflito entre negócio e cliente; se a denúncia não for aceita, cabe uma apelação única.** Verificado em out. 2026 por WebFetch (duas chamadas).
+Citação literal confirmada: "Do not report a review just because you disagree with it or dislike it." / "Google doesn’t get involved in conflict between businesses and customers." / "Select **Read reviews**." / "Select **Send report**." / "If you disagree with the decision, you can submit a one-time appeal." / "If a flagged review doesn't qualify for removal, submit a one-time appeal." (a frase "Appeals can only be submitted once" NÃO está nesta página; ela é de S13, perfis suspensos.)
+Fonte a citar: **Google, "Report inappropriate reviews on your Business Profile", Business Profile Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/business/answer/4596773
+Markdown: `([Google, "Report inappropriate reviews on your Business Profile", Business Profile Help](https://support.google.com/business/answer/4596773), accessed Oct. 2026)`
+Uso permitido: como denunciar uma avaliação e quando não vale denunciar; a apelação de denúncia é única ("one-time appeal").
+Uso proibido: não afirmar prazo de análise nem que a denúncia garante a remoção; não prometer que o Google remove avaliação negativa só porque é injusta.
+
+**S23: Pelo Google, só dá para responder avaliações depois de verificar o negócio, o autor da avaliação é notificado da resposta, e o dono pode sinalizar avaliação que viole a política.** Verificado em out. 2026 por WebFetch (duas chamadas).
+Citação literal confirmada: "Before you can reply to reviews, you must verify your business." / "The person who wrote the review is notified when you reply." / "If you believe that a review violates Google’s content policies, you can flag it."
+Fonte a citar: **Google, "Manage customer reviews", Business Profile Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/business/answer/3474050
+Markdown: `([Google, "Manage customer reviews", Business Profile Help](https://support.google.com/business/answer/3474050), accessed Oct. 2026)`
+Uso permitido: responder avaliações (precisa de perfil verificado, o autor é avisado) e sinalizar avaliação que viole a política.
+Uso proibido: **não citar** o prazo de revisão da resposta ("up to 10 minutes", "up to 30 days"): confirmado em uma só chamada e não vale como regra do artigo.
+
+**S24: Pela política de conteúdo do Google Maps, a experiência negativa descrita com respeito é permitida; desabafo e comentário geral, assédio e conteúdo fora do tema não são.** Verificado em out. 2026 por WebFetch (duas chamadas nas duas primeiras frases, uma nas demais).
+Citação literal confirmada: "We do allow content that describes negative experiences in a respectful manner." / "We don’t allow content which contains general, political, or social commentary or personal rants." / "Only post content that is based on your experience or questions about experiences at a specific location." / "We don’t allow users to post content to harass other people or businesses, or encourage others to participate in harassment."
+Fonte a citar: **Google, "Prohibited & restricted content", Maps User Generated Content Policy Help** (Tier 1, documentação oficial; complementa S15 e S17, que citam a mesma política).
+URL: https://support.google.com/contributionpolicy/answer/7400114
+Markdown: `([Google, "Prohibited & restricted content", Maps User Generated Content Policy Help](https://support.google.com/contributionpolicy/answer/7400114), accessed Oct. 2026)`
+Uso permitido: explicar que avaliação negativa honesta não viola a política e o que viola (desabafo genérico, assédio, fora do tema).
+Uso proibido: não prometer que o Google remove avaliação injusta; as palavras "bullying" e "intimidation" só aparecem no título da seção, não use como frase da política.
+
+**S25: Pelo Google, o idioma de uma página é definido pelo conteúdo visível, não por atributo `lang` nem pela URL; cada página deve ter um idioma principal.** Verificado em out. 2026 por WebFetch (duas chamadas).
+Citação literal confirmada: "Google uses the visible content of your page to determine its language." / "We don't use any code-level language information such as `lang` attributes, or the URL."
+Fonte a citar: **Google Search Central, "Managing multi-regional and multilingual sites"** (Tier 1, documentação oficial).
+URL: https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites
+Markdown: `([Google Search Central, "Managing multi-regional and multilingual sites"](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites), acesso em out. 2026)`
+Uso permitido: explicar que o Google lê o idioma pelo texto visível da página e que cada idioma merece sua própria página, com conteúdo no idioma.
+Uso proibido: não afirmar que uma estrutura de URL rende mais posição; a página só descreve como o Google entende o idioma.
+
+**S26: Pelo Google, cada versão de idioma deve apontar para todas as outras (hreflang recíproco); se duas páginas não apontam uma para a outra, as marcações são ignoradas.** Verificado em out. 2026 por WebFetch (duas chamadas).
+Citação literal confirmada: "Each language version must list itself as well as all other language versions." / "If two pages don't both point to each other, the tags will be ignored."
+Fonte a citar: **Google Search Central, "Tell Google about localized versions of your page"** (Tier 1, documentação oficial).
+URL: https://developers.google.com/search/docs/specialty/international/localized-versions
+Markdown: `([Google Search Central, "Tell Google about localized versions of your page"](https://developers.google.com/search/docs/specialty/international/localized-versions), acesso em out. 2026)`
+Uso permitido: explicar hreflang recíproco e o que acontece quando falta o retorno.
+Uso proibido: não afirmar que o hreflang melhora o ranking; ele só indica ao Google a versão certa por idioma.
 
 ## Cluster M: Mercado multilíngue (Pilar 4)
 
