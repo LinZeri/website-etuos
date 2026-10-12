@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/local-services-ads-google-como-funciona#article",
+      "headline": "Local Services Ads do Google: como funciona o anúncio que cobra por lead",
+      "description": "Entenda os Local Services Ads: você paga por lead válido, não por clique. Veja o que conta como lead, como funciona a triagem e o selo Google Verified.",
+      "datePublished": "2026-10-07",
+      "dateModified": "2026-10-07",
+      "inLanguage": "pt-BR",
+      "wordCount": 2100,
+      "keywords": "local services ads, anúncios de serviços locais google, google verified local services ads, google guaranteed anúncios",
+      "articleSection": "Tráfego Pago",
+      "articleBody": "Quem tem um negócio de serviço local nos Estados Unidos, como elétrica, encanamento, limpeza ou reforma, já deve ter visto, no topo da busca do Google, anúncios com o nome do profissional, a nota e um botão para ligar. Esses são os Local Services Ads, ou LSA.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/local-services-ads-google-como-funciona#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/local-services-ads-google-como-funciona"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Local Services Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Tráfego pago"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/local-services-ads-google-como-funciona",
+      "url": "https://etuos.com/pt/blog/local-services-ads-google-como-funciona",
+      "name": "Local Services Ads do Google: como funciona o anúncio que cobra por lead",
+      "description": "Entenda os Local Services Ads: você paga por lead válido, não por clique. Veja o que conta como lead, como funciona a triagem e o selo Google Verified.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/local-services-ads-google-como-funciona#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/local-services-ads-google-como-funciona#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/local-services-ads-google-como-funciona#primaryimage",
+      "url": "https://etuos.com/images/blog/local-services-ads-google-como-funciona.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Eletricista brasileiro atendendo uma ligação ao lado da van de trabalho"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/local-services-ads-google-como-funciona#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Local Services Ads do Google: como funciona o anúncio que cobra por lead",
+          "item": "https://etuos.com/pt/blog/local-services-ads-google-como-funciona"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/local-services-ads-google-como-funciona#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O Local Services Ads cobra por clique?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Segundo o Google, no Local Services Ads você paga por leads válidos, como ligações e mensagens, e não por cliques no anúncio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que o Google considera um lead válido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pode ser uma ligação atendida, uma ligação perdida em horário comercial em que o cliente fica na linha por mais de 20 segundos, uma mensagem de texto ou e-mail, uma mensagem de voz ou, nos EUA e no Canadá, um pedido de agendamento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto custa cada lead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um valor único. Segundo o Google, o preço pode variar conforme o local, o tipo de serviço, o tipo de lead e o modo de lance, e os lances de negócios locais parecidos determinam quanto o lead vale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que o Google verifica antes de eu anunciar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Google faz uma triagem que varia por categoria e região e pode incluir licença, seguro e verificação de antecedentes. Confira a elegibilidade para o seu ofício e a sua cidade."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O selo ainda se chama Google Guaranteed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Esse é o nome antigo. Hoje a página do Google usa o nome Google Verified."
+          }
+        }
+      ]
+    }
+  ]
+}
