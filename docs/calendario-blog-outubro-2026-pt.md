@@ -1,0 +1,50 @@
+# Calendário do blog em português: outubro de 2026
+
+Planejado em 13/10/2026. Cadência: 4 artigos por semana, em segunda, terça, quinta e sexta. Produção por sessão local, em lotes. Fonte da fila: `docs/blog-queue.json` (itens pendentes já ordenados por `publish_date`). Registro de fontes consultado: `docs/blog-fontes-verificadas.md` (S1 a S6, S9 a S26, T1 a T16, N1 a N7, M1 a M3).
+
+Legenda de prontidão: **A** = sustentado pelo registro atual. **B** = precisa de fonte(s) nova(s) verificada(s) antes de escrever. **C** = precisa de informação ou autorização do Lin, ou é arriscado.
+
+## Calendário
+
+| Data | Dia | Slug | Título | Pilar | Keyword | Pront. | Fontes (IDs) ou URLs a registrar | Observações |
+|---|---|---|---|---|---|---|---|---|
+| 12/10 | seg | `como-aparecer-no-chatgpt-e-na-ia-negocio-local` | Como seu negócio local pode aparecer nas respostas de IA (ChatGPT, Google e outras) | 3 | como aparecer no chatgpt negocio local | A | S1, S2, S3, S4, S5, S6, S9, S10 | Data já passou. Retomado após falha de imagem na nuvem (estado do item limpo). Sem fonte para como a IA escolhe negócios: texto qualitativo. |
+| 13/10 | ter | `planejador-de-palavras-chave-google-ads-como-usar` | Planejador de palavras-chave do Google: como usar para planejar seus anúncios | 2 | planejador de palavras-chave google | A | T9, T10, T14, T15, T16 | Hoje. Não repetir leilão e Quality Score (linkar google-ads-como-funciona). Sem exemplo numérico de volume ou CPC. |
+| 15/10 | qui | `anunciar-em-espanhol-nos-eua-negocio-brasileiro` | Vale anunciar em espanhol nos EUA? O que o dono de negócio brasileiro precisa saber | 1 | anunciar em espanhol nos eua | A | M1, M2, M3, N2, T4, S25, S26 | Canibalização média com `anunciar-em-ingles-ou-portugues` (ver riscos). |
+| 16/10 | sex | `como-medir-resultado-de-trafego-pago` | Como medir o resultado dos seus anúncios sem se perder em métricas | 2 | como medir resultado de tráfego pago | A | T5, T6, T9, T10, T11, T14 | Sem benchmark de CPL ou conversão por setor. Nota do item corrigida (antes mandava tratar como "experiência própria da Etuos"). Linka o Planejador (13/10). |
+| 19/10 | seg | `preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google` | Preciso de um site se já tenho Instagram e perfil no Google? | 1 | preciso de um site para meu negócio | A | S10, S14, S5, S9, T11, S25 | NOVO. Qualitativo. Canibalização média com `site-em-portugues-ou-ingles-nos-eua` (ver riscos). Abre o caminho para p3-s6. |
+| 20/10 | ter | `seo-local-por-cidade-miami-boston-orlando` | Como aparecer no Google em Miami, Boston e Orlando: o que muda de cidade para cidade | 3 | como aparecer no google em miami | A (ressalva) | N3, N6, S10, S5, S9 + `src/data/cidades/pt.ts` | Risco de texto genérico: ler os dados das cidades antes. Reduzir a duas cidades se faltar diferença real. |
+| 22/10 | qui | `como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local` | Como anunciar só para a sua região no Google Ads: cidade, raio e o que evitar | 2 | segmentação por localização google ads | B | Registrar: https://support.google.com/google-ads/answer/1722043 (página abre e traz "Presence or Interest" e raio mínimo de 1 km). Apoio: T4, T9, T10, T14 | NOVO. Uma fonte nova, simples. Sem raio ideal nem CPC por cidade. |
+| 23/10 | sex | `whatsapp-business-para-negocio-local-como-usar` | WhatsApp Business para negócio local: como organizar o atendimento e não perder cliente | 1 | whatsapp business como usar | B | Registrar: https://faq.whatsapp.com/1791149784551042 (respostas rápidas), https://faq.whatsapp.com/501866148528310 (saudação), https://business.whatsapp.com/whatsapp-vs-whatsapp-business, mais uma página de etiquetas e catálogo (a achar). Apoio: S19, S17, T6 | NOVO. Registro não tem nada sobre WhatsApp. Só o app, sem API, preço ou IA. |
+| 26/10 | seg | `site-nao-aparece-no-google-requisitos-tecnicos` | Site não aparece no Google? Os 10 requisitos técnicos em linguagem simples | 3 | site não aparece no google | B | Registrar (a confirmar por WebFetch): developers.google.com/search/docs/fundamentals/get-on-google, .../crawling-indexing/sitemaps/overview, .../crawling-indexing/robots/intro, página de canonical, .../appearance/title-link, support.google.com/webmasters/answer/9012289. Apoio: S10, S25 | Registro não tem nada sobre indexação. Sem prazo de indexação nem benchmark de velocidade. Linka o item de 19/10. |
+| 27/10 | ter | `como-ver-os-anuncios-dos-concorrentes-no-google` | Como ver os anúncios dos seus concorrentes no Google antes de investir | 2 | como ver anúncios dos concorrentes no google | B | Registrar: https://support.google.com/adspolicy/answer/13733850 (Central de Transparência de Anúncios; confirmar página canônica). Apoio: T10, T15, T16 | NOVO. Meta Ad Library fica fora sem fonte em domínio liberado. Linka Planejador (13/10) e medição (16/10). |
+| 29/10 | qui | `google-search-console-para-negocio-local` | Google Search Console para negócio local: o que olhar e o que ignorar | 3 | google search console como usar | B | Registrar (a confirmar): support.google.com/webmasters/answer/9128668, /7576553, /9012289, /7440203, /7451001. Sem fonte hoje no registro | Depende de p3-s6 (26/10): linkar. Sem prazo de relatório nem benchmark de CTR. |
+| 30/10 | sex | `de-30-a-300-franquias-o-que-aprendi-na-expansao` | De 30 a 300 franquias em 1 ano e 8 meses: o que aprendi gerindo a expansão | 4 | marketing para rede de franquias | C | Só números autorizados do site (`dicionario.numeros`). Sem fonte externa | Depende de material e autorização do Lin (ver decisões). Último dia por isso. |
+
+Alternância de pilares: 3, 2, 1, 2, 1, 3, 2, 1, 3, 2, 3, 4. Nenhum pilar em dois dias seguidos. Totais: pilar 1 com 3, pilar 2 com 4, pilar 3 com 4, pilar 4 com 1.
+
+Ordem por dependência: p2-s8 (13/10) antes de p2-s9 (16/10) e p2-s11 (27/10); p1-s11 (19/10) antes de p3-s6 (26/10); p3-s6 antes de p3-s10 (29/10). Os itens B ficam de 22/10 em diante, dando 9 dias úteis para registrar as fontes.
+
+## Os 4 itens novos
+
+| ID | Slug | Prontidão | Por que não canibaliza |
+|---|---|---|---|
+| p1-s10 | `whatsapp-business-para-negocio-local-como-usar` | B | Nenhum post publicado trata do app WhatsApp Business, só citam o WhatsApp como canal. |
+| p1-s11 | `preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google` | A | Responde SE precisa de site; `site-em-portugues-ou-ingles-nos-eua` decide o idioma e p3-s6 trata o técnico. |
+| p2-s10 | `como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local` | B | Nenhum post cobre segmentação por local; `google-ads-como-funciona` cobre leilão e `erros-que-fazem...` só cita o raio de passagem. |
+| p2-s11 | `como-ver-os-anuncios-dos-concorrentes-no-google` | B | Tema de pesquisa de concorrente não existe no blog; só há menções soltas de "concorrente". |
+
+Checagem de keyword feita contra os 22 posts publicados e os 8 pendentes: nenhuma keyword nova repete alvo de item existente.
+
+## Riscos e decisões que dependem do dono
+
+1. **Item de 30/10 (franquias), prontidão C.** A sessão não pode inventar experiência em primeira pessoa. O Lin precisa dar: (a) material bruto dos aprendizados (campanha por unidade, verba por região, padronização de criativo, medição entre unidades, o que quebrou), em tópicos ou áudio; (b) confirmação de que o caso pode ser contado sem nomear a rede; (c) aprovação da voz. Se não vier até 28/10, trocar por um item A de reserva (sugestão: um spoke de reforço derivado de dado novo, ou adiantar um B já resolvido).
+2. **Itens B (cinco, de 22/10 a 29/10).** As fontes precisam ser verificadas por WebFetch e registradas em `docs/blog-fontes-verificadas.md` antes de cada item. A fonte do Google Ads (1722043) já abriu no planejamento; as de WhatsApp e da Central de Transparência foram achadas por busca e precisam de WebFetch literal; as de indexação e Search Console são candidatas não testadas. Se uma não passar, o item vira qualitativo ou troca de data. Prazo sugerido: registrar até 21/10.
+3. **Meta Ad Library e Meta Ads em geral.** `facebook.com/business/help` não está em `docs/blog-dominios-confiaveis.md`. Decisão do dono: autorizar o domínio se quiser um spoke "Meta Ads como funciona" (lacuna real do pilar 2, o registro também não tem fonte de Meta Ads). Fora do calendário de outubro.
+4. **Canibalização de `anunciar-em-espanhol-nos-eua-negocio-brasileiro` (15/10) com `anunciar-em-ingles-ou-portugues`.** Solução: ângulo exclusivo do espanhol (quando o público hispânico entra, FL e TX, campanha e página por idioma), uma linha de link para a regra geral. Se na escrita ficar repetitivo, fundir como seção atualizada no post existente e trocar o tema.
+5. **Canibalização de `preciso-de-site-...` (19/10) com `site-em-portugues-ou-ingles-nos-eua` e `site-nao-aparece-...`.** Solução: pergunta única "se precisa de site", sem idioma e sem requisito técnico. Se o texto não sustentar 1.500 palavras sem repetir, trocar o tema por reserva.
+6. **`seo-local-por-cidade-...` (20/10) vs páginas de cidade e hub.** Risco de virar texto trocando o nome da cidade (regra 5 do projeto vale em espírito). Se os dados das cidades não renderem diferença real, reduzir a duas cidades.
+7. **Cotas e tetos dos clusters.** Os pilares 1, 2 e 3 já estavam no teto de 6 a 8 spokes (nota de cobertura de 13/10). Os 4 itens novos o ultrapassam de propósito para fechar o mês. Decisão do dono: manter, ou trocar parte por cases (pilar 4) quando houver autorização de cliente.
+8. **Medição.** O GSC de 07/10 não tem nenhuma query em português; não dá para priorizar reforço por dado. A próxima exportação está prevista para 23/10 e pode reordenar novembro, mas não deve mexer em outubro.
+9. **Item de 12/10 (p3-s8).** Tinha `attempts: 1`, `last_error: image_generation_failed` e `iteration_id` de nuvem; esses campos foram zerados porque a falha foi de infraestrutura. Conferir se o GEMINI/`GOOGLE_AI_API_KEY` local funciona antes da sessão de produção.
+10. **Imagem de capa e ilustrações** de cada item novo usam `image_context` próprio já definido na fila (foto realista, sem texto).
