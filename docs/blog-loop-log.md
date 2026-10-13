@@ -41,3 +41,4 @@
 | 2026-10-12T09:53:17 | service-area-business-google-business-profile | pillar1.local-search | Lin Zeri | 87 | 0 | 2026-09-25 | 9e86019 | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
 | 2026-10-12T09:53:17 | google-ads-quality-score-local-business | pillar2.paid-ads | Lin Zeri | 89 | 0 | 2026-09-30 | 0245985 | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
 | 2026-10-12T09:53:18 | bilingual-website-for-small-business | pillar4.multilingual-market | Lin Zeri | 88 | 0 | 2026-10-07 | 2b7d71a | 10 | local_session,lote_3,score_estimado,sem_workflow_tool |
+| 2026-10-13T11:21:38Z | replenish: +5 pt, +5 en (filas em 8 pendentes) | pilar3.aparecer-no-google,pilar2.trafego-pago,pilar4.comunidade-dados-proprios,pillar1.local-search,pillar2.paid-ads,pillar3.industry-playbooks,pillar4.multilingual-market | - | - | 0 | - | - | - | cloud_replenish,cloud-replenish-e91404d4,gsc_2026-10-07,sem_artigo_escrito |

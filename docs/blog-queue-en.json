@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T12:53:18.080891+00:00",
+  "updated": "2026-10-13T11:20:50.768428+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -795,6 +795,166 @@
       "cluster": "pillar5.website",
       "notes": "Diagnostic checklist: traffic problem versus conversion problem, clear offer, phone and form above the fold, trust signals, service pages by service and city. Sources: S1 (many searches end without a click), S5 and S9 (consumers check reviews before choosing), S10 (local ranking), T11 (landing page experience as a Quality Score component). No source on conversion rates, load-time effects or benchmarks: do not state any. Link landing-page-vs-website only if it is published by the time of writing; otherwise drop that link. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
       "image_context": "a contractor looking at a laptop showing a website while his phone sits silent on the desk, shop interior blurred behind",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p1-maps-rank",
+      "slug": "how-to-rank-higher-on-google-maps",
+      "title": "How to Rank Higher on Google Maps: What Actually Moves the Map Pack",
+      "template": "how-to-guide",
+      "target_keyword": "how to rank higher on google maps",
+      "secondary_keywords": [
+        "google maps ranking factors",
+        "map pack seo",
+        "rank in the local pack",
+        "google maps seo for service business"
+      ],
+      "word_count": 2000,
+      "internal_links": [
+        "/en/blog/local-seo-for-service-businesses-complete-guide",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/blog/why-my-business-not-showing-google-maps",
+        "/en/blog/how-to-get-google-reviews-for-local-business",
+        "/en/services/seo",
+        "/en/cities/miami"
+      ],
+      "cluster": "pillar1.local-search",
+      "notes": "Open planned spoke of pillar 1 (260 searches a month, competition index 12, SERP is documentation and forum threads). Keep the post about ranking, not diagnosis: why-my-business-not-showing-google-maps owns the troubleshooting path and google-business-profile-optimization-checklist owns the setup, so link both in one line instead of rewriting them. Cover: what relevance, distance and prominence mean in practice, primary category choice, service and area coverage, review velocity and responses, consistency of name, address and phone, and what the owner cannot change (the searcher's location). Registered sources: S10 (Google states local ranking rests on relevance, distance and prominence and that ranking cannot be bought), S18 and S21 (profile guidelines, 750 character description limit), S19 and S14 (verification), S5 and S9 (review behavior and the 4.5 star threshold), S4 and S6 (AI tools used for local search). Library gaps: no verified source for per factor ranking weights and none for the impact of photos, so write both qualitatively. PROHIBITED: promising a position, promising a timeframe, any statistic not registered in docs/blog-fontes-verificadas.md. No em dash.",
+      "image_context": "service business owner holding a phone showing a map of nearby results, standing next to a work van on a suburban street, morning light",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p2-budget-share",
+      "slug": "how-much-should-small-business-spend-on-marketing",
+      "title": "How Much Should a Small Business Spend on Marketing?",
+      "template": "how-to-guide",
+      "target_keyword": "how much should a small business spend on marketing",
+      "secondary_keywords": [
+        "small business marketing budget",
+        "how much to spend on google ads",
+        "marketing budget for local business",
+        "ad budget by revenue"
+      ],
+      "word_count": 1900,
+      "internal_links": [
+        "/en/blog/how-much-paid-ads-cost-local-business-guide",
+        "/en/blog/how-much-google-ads-cost-small-business",
+        "/en/blog/local-services-ads-vs-google-ads",
+        "/en/blog/google-ads-quality-score-local-business",
+        "/en/services/paid-ads",
+        "/en/usa"
+      ],
+      "cluster": "pillar2.paid-ads",
+      "notes": "Open planned spoke of pillar 2 (90 searches a month, competition index 4, very weak SERP). Answer with a method the owner can run on their own numbers instead of a borrowed percentage: pick the one conversion that matters, work back from what a customer is worth and a realistic closing rate, size the test budget so the campaign can gather data, then decide what to cut. Registered sources: T2 (average US small business advertising budget around 78 thousand dollars, Intuit), T1 (US digital ad revenue by channel), T9, T10 and T14 (max CPC, Ad Rank, how average CPC is calculated), T5, T6, T12 and T13 (Local Services Ads charge per valid lead, and how the weekly budget works), T3 (the one dollar to eight dollars figure is Google's own methodology and must be labeled as such). KNOWN LIBRARY GAP (b): there is no verified source for marketing spend as a percentage of revenue, so do not publish a percentage unless a new source passes the search, verify, register flow first; otherwise frame the answer as a method, not a benchmark. PROHIBITED: Etuos prices, guarantees, a promised result in a fixed timeframe, industry cost per lead benchmarks (no verified source). No em dash.",
+      "image_context": "small business owner at a kitchen table with a laptop and a printed invoice, working out numbers with a pen, early morning light",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p3-landscaping",
+      "slug": "landscaping-marketing",
+      "title": "Landscaping Marketing: How to Fill the Calendar Before the Season Starts",
+      "template": "how-to-guide",
+      "target_keyword": "landscaping marketing",
+      "secondary_keywords": [
+        "how to get landscaping clients",
+        "lawn care marketing",
+        "landscaping leads",
+        "marketing for lawn care business"
+      ],
+      "word_count": 1900,
+      "internal_links": [
+        "/en/blog/marketing-for-local-service-businesses-by-industry",
+        "/en/blog/lead-generation-for-contractors",
+        "/en/blog/local-services-ads-vs-google-ads",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/services/paid-ads",
+        "/en/cities/boston"
+      ],
+      "cluster": "pillar3.industry-playbooks",
+      "notes": "Industry playbook for an industry Etuos actually serves: landscaping and snow removal appear in the Boston and Danbury city data (src/data/cidades/en.ts), which is the only material for local context. The differentiating angle is the calendar: reviews, profile and rankings are built in the slow months so the business arrives at peak season already ahead, and budget follows the season instead of running flat all year. Also cover service area setup, separate campaigns per service and per town, and what a seasonal business should do with its site. Registered sources: S10 (local ranking factors), S5 and S9 (review behavior and the star threshold), T5 and T6 (Local Services Ads valid leads, relevant for the trades), T9 and T10 (auction basics). Library gap: no verified CPC or conversion benchmark by industry, so all cost talk stays qualitative or cites only the registered Google documentation. PROHIBITED: client names, invented cases, prices, a promised result in a fixed timeframe. No em dash.",
+      "image_context": "landscaping crew loading a mower onto a trailer outside a suburban home in early spring, clear morning light",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p4-immigrant-choice",
+      "slug": "how-immigrant-communities-choose-a-local-business",
+      "title": "How Immigrant Communities Choose a Local Business (and Why Your Ads Miss Them)",
+      "template": "thought-leadership",
+      "target_keyword": "how immigrant customers choose a local business",
+      "secondary_keywords": [
+        "marketing to immigrant communities",
+        "reaching bilingual customers",
+        "hispanic customers local business",
+        "word of mouth in immigrant communities"
+      ],
+      "word_count": 1900,
+      "internal_links": [
+        "/en/blog/selling-to-english-spanish-portuguese-speaking-customers",
+        "/en/blog/marketing-to-multilingual-customers-local-business",
+        "/en/blog/spanish-language-google-ads-for-local-business",
+        "/en/blog/how-to-get-google-reviews-for-local-business",
+        "/en/services/seo",
+        "/en/cities/houston"
+      ],
+      "cluster": "pillar4.multilingual-market",
+      "notes": "Pillar 4 spoke, the differentiation and AI citation play: low or no measurable search volume by design, exactly the pattern the strategy describes. Search Console read of 10/07/2026 supports the angle: Spanish language Houston queries ('agencia de marketing en houston', 'agencia de publicidad en houston', 'agencia de marketing digital en houston') already carry impressions at average positions between 9 and 25 on the Spanish city page, which shows the demand is real where English keyword tools report nothing. Cover how the decision actually happens: who gets asked first, what a review in the customer's own language signals, why the phone call matters more than the form, and what an English only campaign never sees. Registered sources: M1 (language of news consumption among US Latinos), M2 (preference for buying with information in one's own language), M3 (share speaking a language other than English at home), N2 and N4 (Hispanic and immigrant business ownership), N6 (size of the Brazilian community), S5 and S9 (review behavior). Do NOT use the 'Brazilian entrepreneur in the US' framing, which belongs to /pt: the reader here is the US owner trying to win these customers. Do not repeat the campaign mechanics already in spanish-language-google-ads-for-local-business: link it. PROHIBITED: client names, prices, timeframes, any statistic not registered. No em dash.",
+      "image_context": "customer and shop owner talking across the counter of a neighborhood store, warm daylight, both relaxed, no signage text",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p3-medspa",
+      "slug": "med-spa-marketing",
+      "title": "Med Spa Marketing: How to Book High Ticket Treatments Without Discounting",
+      "template": "how-to-guide",
+      "target_keyword": "med spa marketing",
+      "secondary_keywords": [
+        "medical spa marketing ideas",
+        "how to get med spa clients",
+        "aesthetics clinic marketing",
+        "med spa google ads"
+      ],
+      "word_count": 1900,
+      "internal_links": [
+        "/en/blog/marketing-for-local-service-businesses-by-industry",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/blog/facebook-ads-for-local-business",
+        "/en/blog/how-to-respond-to-negative-google-reviews",
+        "/en/services/paid-ads",
+        "/en/cities/miami"
+      ],
+      "cluster": "pillar3.industry-playbooks",
+      "notes": "Industry playbook for an industry in the city data (med spas and aesthetics in Miami and Atlanta, src/data/cidades/en.ts). High ticket with a long consideration cycle, so the metric is consultations booked, not clicks, and the post is about trust: profile and photos of the space, review handling, a consultation page that answers the fear instead of selling the discount. Policy matters here and must be respected in the copy: Google and Meta restrict health and personal care advertising and reject claims about outcomes, so NO before and after promises, no medical claims, no treatment result language, no price. Registered sources: S5 and S9 (review behavior and the 4.5 star threshold), S10 (local ranking), S18 and S21 (profile guidelines), T9, T10 and T11 (auction and Quality Score as a diagnostic). Library gap: no verified cost per lead or conversion benchmark for this industry, so keep cost talk qualitative. PROHIBITED: client names, invented cases, prices, guarantees, timeframes. No em dash.",
+      "image_context": "front desk of a small aesthetics clinic with a receptionist greeting a client, clean bright interior, no text on walls or signage",
       "publish_date": null,
       "author": null,
       "status": "pending",

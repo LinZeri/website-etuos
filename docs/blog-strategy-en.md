@@ -145,3 +145,15 @@ Every two weeks run `python scripts/gsc-export.py 90` (read only service account
 ## Queue replenishment
 
 The cloud routine keeps 8 pending items in `docs/blog-queue-en.json`, drawing from the pillars above in this order of priority: pillar 1, pillar 2, pillar 3, pillar 4, pillar 5. Publishing order alternates pillars so the blog does not look like a single topic site. When every planned topic in a pillar is published or queued, mark the pillar closed here instead of inventing topics outside the strategy.
+
+## Pillar coverage note (replenish routine, 10/13/2026)
+
+Status of the planned topics in this document, recorded so the next round does not re-derive it:
+
+- **Pillar 1 (local search): closed.** Every planned spoke is now published or queued: GBP checklist, profile not showing up, service area setup, getting reviews, responding to bad reviews, AI search, and map pack ranking (queued 10/13).
+- **Pillar 2 (paid ads): closed.** Cost breakdown, Local Services Ads versus Google Ads, Facebook and Instagram, quality score, and the marketing budget question (queued 10/13). The remaining planned spoke, "what a lead should cost in each industry", stays out: the library has no verified cost per lead benchmark by industry and the replenish routine cannot queue a topic that depends on price data.
+- **Pillar 3 (industry playbooks): open.** Published or queued: cleaning, contractors, HVAC, roofing, restaurants, landscaping and med spa (the last two queued 10/13). Still available, and only with real experience to cite: medical and mental health practices, real estate. "Marketing for contractors" is deliberately skipped as a near duplicate of the published lead generation post.
+- **Pillar 4 (multilingual market): open.** Published or queued: the hub, multilingual customers, Spanish language Google Ads, bilingual website, and how immigrant communities choose a provider (queued 10/13). Still available: the city level reads for Miami, Houston, Newark and Framingham, which the roadmap holds for December and which need Census sources registered first. "Running ads in two languages without doubling the budget" is skipped: the published Spanish ads post already answers the separate campaigns question.
+- **Pillar 5 (website and conversion): open.** Published or queued: website cost, landing page versus website, and the site with no calls. Still available: what makes a service page convert.
+
+Search Console read of 10/07/2026: no English blog page has impressions yet (the oldest posts went live 09/10), so no reinforcement spoke could be derived from query data this round. The only queries in the position 8 to 30 band are Spanish language agency searches in Houston hitting the Spanish city page, which is out of the blog loop for now and was used instead as supporting evidence for the pillar 4 item queued today.

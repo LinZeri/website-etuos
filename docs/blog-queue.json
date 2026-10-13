@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T12:53:16.265761+00:00",
+  "updated": "2026-10-13T11:20:50.768428+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -773,6 +773,165 @@
       "cluster": "pilar2.trafego-pago",
       "notes": "Spoke do pilar 2, tutorial pratico de ferramenta (serve tambem o publico do Brasil). Nao repetir leilao e Quality Score, que ja estao em google-ads-como-funciona: linkar. Fontes do registro: T16 (o Keyword Planner pesquisa palavras-chave, mostra estimativas de volume e custo medio e gera previsoes com base na verba), T14 (CPC medio e custo total dividido pelos cliques), T15 (estimativa de lance para o topo nao e garantia), T9 (clique nunca custa mais que o CPC maximo definido), T10 (Ad Rank). NAO ha fonte para: CPC medio por setor ou cidade, volume de busca de qualquer termo especifico, taxa de conversao. Nao inventar exemplos numericos de volume ou CPC. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
       "image_context": "profissional olhando uma planilha de palavras-chave em dois monitores num escritorio pequeno, caderno de anotacoes ao lado, luz natural",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p3-s6",
+      "slug": "site-nao-aparece-no-google-requisitos-tecnicos",
+      "title": "Site não aparece no Google? Os 10 requisitos técnicos em linguagem simples",
+      "template": "listicle",
+      "target_keyword": "site não aparece no google",
+      "secondary_keywords": [
+        "por que meu site não aparece no google",
+        "como indexar site no google",
+        "site não indexado",
+        "requisitos técnicos de seo para site pequeno"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/pt/blog/como-aparecer-no-google-guia-do-negocio-local",
+        "/pt/blog/seo-local-o-que-e-e-como-funciona",
+        "/pt/blog/seo-em-portugues-nos-eua",
+        "/pt/servicos/seo",
+        "/pt/servicos/criacao-de-sites",
+        "/pt/eua"
+      ],
+      "cluster": "pilar3.aparecer-no-google",
+      "notes": "Spoke do pilar 3 (item 6 da tabela da estratégia), foco no site e não no Perfil da Empresa. Cobrir, em linguagem de dono de negócio: indexação e rastreamento, robots.txt e sitemap, canonical, página por serviço com conteúdo próprio, título e descrição, velocidade e mobile, HTTPS, NAP consistente, Search Console conectado, e o erro de site feito em plataforma que bloqueia o Google. NÃO repetir fatores de ranking local nem otimização de perfil (já estão no hub e em seo-local-o-que-e-e-como-funciona): citar em uma linha e linkar. NÃO repetir a estrutura de site em dois idiomas, que está em seo-em-portugues-nos-eua: linkar. Fontes: a biblioteca NÃO tem nenhuma entrada sobre indexação, rastreamento ou velocidade; o que existe de perto é S10 (relevância, distância e destaque no ranking local) e S25 (o Google define o idioma pelo conteúdo visível). Todo dado novo passa pelo fluxo buscar, verificar, registrar em docs/blog-fontes-verificadas.md antes de entrar no texto. PROIBIDO prazo de indexação ('o Google indexa em X dias'), benchmark de velocidade e promessa de posição; sem fonte registrada, escrever de forma qualitativa. Sem travessão.",
+      "image_context": "dono de pequeno negócio sentado no balcão da própria loja olhando o celular com o site aberto, expressão de dúvida, luz natural da vitrine",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p3-s9",
+      "slug": "seo-local-por-cidade-miami-boston-orlando",
+      "title": "Como aparecer no Google em Miami, Boston e Orlando: o que muda de cidade para cidade",
+      "template": "how-to-guide",
+      "target_keyword": "como aparecer no google em miami",
+      "secondary_keywords": [
+        "seo local em miami",
+        "seo local em boston",
+        "negócio brasileiro em orlando",
+        "aparecer no google por bairro"
+      ],
+      "word_count": 2000,
+      "internal_links": [
+        "/pt/blog/como-aparecer-no-google-guia-do-negocio-local",
+        "/pt/blog/seo-local-o-que-e-e-como-funciona",
+        "/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua",
+        "/pt/cidades/miami",
+        "/pt/cidades/boston",
+        "/pt/cidades/orlando",
+        "/pt/servicos/seo"
+      ],
+      "cluster": "pilar3.aparecer-no-google",
+      "notes": "Spoke do ângulo único da estratégia do pilar 3: o cruzamento cidade mais nicho mais idioma, que ninguém responde hoje. Matéria-prima dos exemplos: bairros e nichos já cadastrados em src/data/cidades/pt.ts (não inventar bairro, nicho nem dado de mercado). Estrutura sugerida: o que muda no raio de atendimento, na categoria do perfil, na concorrência e no idioma da busca em cada uma das três cidades, e como isso muda a decisão do dono. NÃO repetir a lista de fatores de ranking (hub) nem o argumento bilíngue (seo-em-portugues-nos-eua): linkar os dois. Fontes registradas úteis: N3 (24.488 empresas de brasileiros em Massachusetts), N6 (2.085.000 brasileiros nos EUA, ano-base 2023), S10 (relevância, distância e destaque), S5 e S9 (comportamento de avaliações). PROIBIDO: número de brasileiros por cidade, estimativa de concorrência por cidade ou qualquer estatística local sem fonte registrada; promessa de posição; nome de cliente. Sem travessão.",
+      "image_context": "fachada de uma pequena empresa de serviços numa rua movimentada de bairro americano, dono abrindo a porta no começo do dia, luz da manhã",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p3-s10",
+      "slug": "google-search-console-para-negocio-local",
+      "title": "Google Search Console para negócio local: o que olhar e o que ignorar",
+      "template": "tutorial",
+      "target_keyword": "google search console como usar",
+      "secondary_keywords": [
+        "search console para pequeno negócio",
+        "como saber se meu site está no google",
+        "relatório de desempenho do search console",
+        "inspeção de url"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/pt/blog/como-aparecer-no-google-guia-do-negocio-local",
+        "/pt/blog/seo-local-o-que-e-e-como-funciona",
+        "/pt/blog/seo-em-portugues-nos-eua",
+        "/pt/servicos/seo",
+        "/pt/brasil"
+      ],
+      "cluster": "pilar3.aparecer-no-google",
+      "notes": "Spoke de ferramenta, mesmo padrão do item do Planejador de palavras-chave no pilar 2: tutorial prático que serve o público dos EUA e o do Brasil. Cobrir: conectar e verificar a propriedade, relatório de desempenho (cliques, impressões, posição média e o que cada um significa de verdade), inspeção de URL, relatório de páginas e os motivos mais comuns de uma página ficar fora, envio de sitemap, e a lista do que o dono de negócio deve ignorar para não tomar decisão errada. Fontes: a biblioteca NÃO tem nenhuma entrada sobre o Search Console; qualquer afirmação sobre o funcionamento da ferramenta precisa de fonte nova (documentação oficial do Google) verificada e registrada antes de ser escrita. PROIBIDO: prazo de indexação ou de atualização de relatório, benchmark de CTR ou de posição média, promessa de resultado. Sem travessão.",
+      "image_context": "pessoa num escritório pequeno conferindo um painel de desempenho no notebook, caderno com anotações ao lado, luz de fim de tarde",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p2-s9",
+      "slug": "como-medir-resultado-de-trafego-pago",
+      "title": "Como medir o resultado dos seus anúncios sem se perder em métricas",
+      "template": "how-to-guide",
+      "target_keyword": "como medir resultado de tráfego pago",
+      "secondary_keywords": [
+        "custo por lead",
+        "conversão no google ads",
+        "o que é roas",
+        "métricas de anúncio para negócio local"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena",
+        "/pt/blog/google-ads-como-funciona",
+        "/pt/blog/orcamento-minimo-de-anuncios-para-negocio-local",
+        "/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios",
+        "/pt/servicos/trafego-pago",
+        "/pt/brasil"
+      ],
+      "cluster": "pilar2.trafego-pago",
+      "notes": "Spoke de medição, a lacuna real do cluster: nenhum dos artigos publicados do pilar 2 ensina a ler resultado. Cobrir: escolher a conversão que importa (ligação, WhatsApp, formulário), por que clique e impressão não são resultado, custo por lead, taxa de fechamento informada pelo próprio dono, ROAS quando existe ticket conhecido, e o mínimo de configuração para medir. Fontes registradas: T14 (CPC médio é o custo total dos cliques dividido pelos cliques), T9 (nunca se paga mais que o CPC máximo), T10 (Ad Rank), T11 (Quality Score é diagnóstico, não insumo do leilão), T5 e T6 (lead válido nos Local Services Ads). Lacuna conhecida da biblioteca: NÃO existe fonte verificada de CPC médio, custo por lead ou taxa de conversão por setor; tratar como experiência própria da Etuos, sem benchmark externo e sem número inventado. PROIBIDO: faixa de preço da Etuos, garantia, prazo para o resultado aparecer. Sem travessão.",
+      "image_context": "dona de pequeno negócio conferindo o celular com um painel de anúncios enquanto atende o balcão, ambiente real de comércio de bairro",
+      "publish_date": null,
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p4-tl1",
+      "slug": "de-30-a-300-franquias-o-que-aprendi-na-expansao",
+      "title": "De 30 a 300 franquias em 1 ano e 8 meses: o que aprendi gerindo a expansão",
+      "template": "thought-leadership",
+      "target_keyword": "marketing para rede de franquias",
+      "secondary_keywords": [
+        "expansão de franquias",
+        "gestão de tráfego para franquias",
+        "escalar anúncios para várias unidades",
+        "marketing para rede de energia solar"
+      ],
+      "word_count": 2000,
+      "internal_links": [
+        "/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena",
+        "/pt/blog/o-que-faz-um-gestor-de-trafego-pago",
+        "/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios",
+        "/pt/servicos/trafego-pago",
+        "/pt/sobre"
+      ],
+      "cluster": "pilar4.comunidade-dados-proprios",
+      "notes": "Item avulso do mês (cota de 1 por mês por idioma), pilar 4, autoridade pessoal do Lin Zeri em primeira pessoa. SÓ os números autorizados do site (fonte única dicionario.numeros): 10+ anos de marketing digital, mais de US$ 500 mil em anúncios gerenciados, 30 para 300+ franquias em 1 ano e 8 meses (rede de energia solar), +300% de faturamento, 13 setores atendidos. PROIBIDO: nome da rede ou de qualquer cliente, faixa de investimento, garantia, prazo de resultado, métrica nova que não esteja no dicionário. O valor do artigo é o aprendizado transferível para o dono de negócio pequeno: estrutura de campanha por unidade, verba por região, padronização de criativo, medição comparável entre unidades e o que quebra quando a rede cresce rápido. Nenhuma estatística externa é necessária; se alguma entrar, precisa estar registrada em docs/blog-fontes-verificadas.md antes. Sem travessão.",
+      "image_context": "equipe pequena reunida em volta de uma mesa com mapa de regiões impresso e notebooks abertos, escritório simples, luz natural",
       "publish_date": null,
       "author": null,
       "status": "pending",

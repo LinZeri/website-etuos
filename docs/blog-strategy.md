@@ -227,3 +227,14 @@ Regras de conversão para todo artigo do blog (consumidas pelo blog-loop):
 2. `/blog brief` para o pilar "Como divulgar seu negócio nos Estados Unidos".
 3. `/blog write` para produzir o primeiro artigo.
 4. Coletar o baseline de citação por IA (tabela do posicionamento competitivo).
+
+## Nota de cobertura dos pilares (rotina replenish, 13/10/2026)
+
+Registro da rotina `etuos-blog-replenish` sobre o estoque de pautas desta estratégia, para a próxima rodada não perder tempo:
+
+- **Pilar 1 (conseguir clientes nos EUA): fechado.** Os 8 spokes da tabela estão publicados e há 1 spoke extra na fila (anunciar em espanhol), totalizando 9. Acima do teto de 6 a 8 do modelo hub-and-spoke.
+- **Pilar 2 (tráfego pago): fechado na tabela.** Os 6 spokes planejados estão publicados, mais 2 extras (Local Services Ads e Planejador de palavras-chave) e o spoke de medição enfileirado nesta rodada, que fecha a lacuna de "como ler resultado". Total de 9.
+- **Pilar 3 (aparecer no Google): no teto.** Com os 3 spokes desta rodada, o cluster fica com 8 spokes. Dois itens da tabela seguem fora de propósito: "Quanto tempo demora o SEO" depende de prazo (proibido pelo CLAUDE.md sem fonte registrada, e não há fonte) e "Google Meu Negócio: guia completo de otimização" canibalizaria o hub e o post de Google Business Profile para brasileiros nos EUA.
+- **Pilar 4 (comunidade e dados próprios): aberto, mas limitado.** O item de autoridade das franquias entrou nesta rodada como o avulso do mês. Os cases dependem de autorização e de dados de cliente (a rotina não pode enfileirar pauta com nome de cliente) e a "Radiografia do empreendedor brasileiro nos EUA" segue reservada para dezembro, conforme o roadmap.
+
+Consequência prática: a partir da próxima reposição em português, o estoque de spokes planejados acabou. Sem decisão humana (liberar um case com autorização, antecipar a Radiografia, abrir um pilar novo ou liberar fonte de prazo de SEO), a rotina só conseguirá repor com spokes de reforço derivados do Search Console, que hoje não aponta nenhuma query em português na faixa de posição 8 a 30.
