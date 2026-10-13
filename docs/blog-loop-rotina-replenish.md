@@ -1,5 +1,7 @@
 # Runbook da rotina replenish (nuvem)
 
+> **DESATIVADO em 13/10/2026.** A rotina `etuos-blog-replenish` foi pausada: o planejamento é feito em sessão, em calendários mensais (`docs/calendario-blog-outubro-2026-pt.md` e `-en.md`) e nas filas com `publish_date`. O formato do item e os "Cuidados por idioma" do Passo 4 continuam úteis como referência para criar pautas.
+
 Procedimento executado todo dia pela rotina `etuos-blog-replenish`, numa sessão de nuvem isolada, cerca de duas horas antes da rotina producer. A rotina só aponta para este arquivo, então editar aqui muda o comportamento dela.
 
 Objetivo: manter **8 pautas pendentes em cada fila** (português e inglês, duas semanas de produção a 4 artigos por semana por idioma), geradas a partir da estratégia de cada idioma. Esta rotina não escreve artigo nenhum, só metadados de pauta. Itens retroativos (`"retroativo": true`) contam como pendentes e ficam sempre na frente da fila; nunca os reordene nem mude o `publish_date` deles.

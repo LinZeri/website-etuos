@@ -39,13 +39,13 @@ Site institucional da Etuos, agência de marketing digital para brasileiros que 
 
 ## Blog automatizado (blog-loop)
 
-- O blog publica **1 artigo por dia em pt e 1 em en**, por duas rotinas em nuvem que clonam este repo e dão push em `main` (a Vercel publica). Espanhol fica fora do loop por enquanto.
+- **A produção do blog é por sessão local (desde 13/10/2026), não por rotina em nuvem.** As rotinas `etuos-blog-producer` e `etuos-blog-replenish` estão desativadas; não reative sem decisão do dono. O procedimento é `docs/blog-loop-sessao-local.md` (lotes com subagentes, audit e factcheck no mesmo passo, só o orquestrador edita o registro de fontes e dá push). O planejamento mensal fica em `docs/calendario-blog-outubro-2026-pt.md` e `docs/calendario-blog-outubro-2026-en.md` (um por mês), com `publish_date` em cada item das filas. Cadência: 4 artigos por semana por idioma, em segunda, terça, quinta e sexta, com datas passadas ou futuras; post com data futura só aparece na data (a rota não é gerada antes, e depende de deploy na data ou depois). Espanhol fica fora do loop por enquanto.
 - **pt e en são pautas independentes**, com fila e estratégia próprias e sem `grupo` no frontmatter (logo, sem hreflang entre elas). A versão en nasce da estratégia en, para o dono de negócio americano; nunca é tradução da pt.
 - Fontes de verdade: `.blog-loop.config.json` (bloco `idiomas` com os caminhos de cada língua), `docs/blog-strategy.md` e `docs/blog-queue.json` (pt), `docs/blog-strategy-en.md` e `docs/blog-queue-en.json` (en), `docs/blog-dominios-confiaveis.md` (rede liberada na nuvem e critério de citação).
-- **Imagens do blog:** `node scripts/gerar-imagem-blog.mjs --slug <slug> --tema "<titulo>"` gera a capa com o Gemini e salva em `public/images/blog/<slug>.webp`. Sempre fotorrealista, sem nenhum texto na imagem. Precisa de `GOOGLE_AI_API_KEY` (local: `.env.local`). O MCP nanobanana só existe nesta máquina, então o script é o caminho oficial, que roda igual aqui e na nuvem.
-- **Ilustrações no corpo do artigo** (a rotina producer gera 3 a 4 por artigo, conferidas uma a uma; ver "6.3b" do runbook; na identidade da marca, sem texto e sem logo): `node scripts/gerar-imagem-blog.mjs --slug <slug> --tema "<titulo>" --estilo ilustracao --arquivo <slug>-<n>-<assunto> --contexto "<cena>"`. Detalhes e estilos do corpo do post em `docs/design.md` ("Corpo dos artigos do blog"). Tabelas Markdown funcionam (GFM); `style={{...}}` no MDX é descartado, use só CSS.
+- **Imagens do blog:** `node scripts/gerar-imagem-blog.mjs --slug <slug> --tema "<titulo>"` gera a capa com o Gemini e salva em `public/images/blog/<slug>.webp`. Sempre fotorrealista, sem nenhum texto na imagem. Precisa de `GOOGLE_AI_API_KEY` (local: `.env.local`). O MCP nanobanana só existe nesta máquina, então o script é o caminho oficial.
+- **Ilustrações no corpo do artigo** (cada artigo leva 3 a 4, conferidas uma a uma; ver "6.3b" de `docs/blog-loop-rotina-producer.md`; na identidade da marca, sem texto e sem logo): `node scripts/gerar-imagem-blog.mjs --slug <slug> --tema "<titulo>" --estilo ilustracao --arquivo <slug>-<n>-<assunto> --contexto "<cena>"`. Detalhes e estilos do corpo do post em `docs/design.md` ("Corpo dos artigos do blog"). Tabelas Markdown funcionam (GFM); `style={{...}}` no MDX é descartado, use só CSS.
 - As skills e os scripts do loop são vendorizados em `.claude/` (a nuvem não enxerga o `~/.claude` desta máquina). Depois de atualizar as skills globais, rode `.claude/scripts/sync-blog-skills.ps1` e comite.
-- `docs/.blog-loop.lock` **fica no git de propósito**: é o lock entre ambientes. Nunca ignorá-lo.
+- `docs/.blog-loop.lock` **fica no git de propósito**: é o lock entre sessões. Nunca ignorá-lo. Toda sessão de produção adquire o lock no início e libera no fim.
 
 ## Fontes e citações do blog
 
@@ -55,7 +55,7 @@ Todo número, estatística ou dado factual em artigo do blog precisa estar regis
 - Dado novo que passar na verificação: acrescentar ao cluster do pilar correspondente (SEO, Tráfego Pago, Negócios Locais; criar cluster novo se for pilar novo), seguindo o mesmo formato das entradas existentes.
 - Dado que falhar (403, PDF ilegível, número que não confere, sem metodologia, mais de 2 anos): registrar em "Fontes descartadas" ou "Fontes proibidas" do mesmo arquivo, nunca no post.
 - Hierarquia de fontes (tier 1-3), domínios que se provaram bloqueados e estatísticas "fantasma" (citadas por aí mas não confirmáveis): ver as seções correspondentes em `docs/blog-fontes-verificadas.md`.
-- Domínios liberados para a rotina em nuvem citar: `docs/blog-dominios-confiaveis.md`. Fonte fora dessa lista não entra sem adicionar o domínio lá primeiro (rede da nuvem é fechada por padrão).
+- Domínios aceitos como fonte: `docs/blog-dominios-confiaveis.md`. Fonte fora dessa lista não entra sem adicionar o domínio lá primeiro. Dado que só existe em página que o WebFetch não abre (403, CAPTCHA, paywall) e que nenhuma ponte legível reproduz **não entra em artigo**; o registro é reverificado por WebFetch com duas chamadas de pergunta diferente por número.
 
 ## Desenvolvimento local
 

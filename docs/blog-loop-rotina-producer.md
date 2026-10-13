@@ -1,5 +1,7 @@
 # Runbook da rotina producer (nuvem)
 
+> **DESATIVADO em 13/10/2026.** A rotina `etuos-blog-producer` foi pausada: a produção do blog é por sessão local (ver `docs/blog-loop-sessao-local.md`). Este arquivo permanece porque as regras de conteúdo (6.2, 6.3b, "Proibições reforçadas" e 6.4) continuam valendo e são referenciadas pelo procedimento por sessão. Os passos de lock, nuvem e rede abaixo são históricos.
+
 Procedimento executado todo dia pela rotina `etuos-blog-producer`, numa sessão de nuvem isolada, sem memória de execuções anteriores. A rotina em si só aponta para este arquivo, então **alterar este documento altera o comportamento da rotina**, sem mexer na configuração dela.
 
 Objetivo do dia: publicar **1 artigo em português e 1 em inglês**, cada um com capa própria e **3 a 4 ilustrações no corpo**, passando pelos mesmos portões de qualidade, e dar push em `main` (a Vercel publica sozinha).
