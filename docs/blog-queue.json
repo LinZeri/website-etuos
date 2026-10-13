@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T11:20:50.768428+00:00",
+  "updated": "2026-10-13T13:23:16.607927+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -711,10 +711,11 @@
       "publish_date": null,
       "author": null,
       "status": "pending",
-      "attempts": 0,
-      "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "attempts": 1,
+      "last_error": "image_generation_failed",
+      "started_at": "2026-10-13T13:22:24.530658+00:00",
+      "last_score": null,
+      "iteration_id": "cloud-producer-bc263128"
     },
     {
       "id": "p1-s9",
