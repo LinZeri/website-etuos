@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T13:23:16.607927+00:00",
+  "updated": "2026-10-14T11:21:05.014444+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -710,11 +710,14 @@
       "image_context": "pessoa em casa conversando com um assistente de IA no celular para achar um servico local, sofa, luz quente de fim de tarde",
       "publish_date": "2026-10-12",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-13T21:29:54.894537+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "f482332",
+      "published_date": "2026-10-12"
     },
     {
       "id": "p2-s8",
@@ -742,11 +745,14 @@
       "image_context": "profissional olhando uma planilha de palavras-chave em dois monitores num escritorio pequeno, caderno de anotacoes ao lado, luz natural",
       "publish_date": "2026-10-13",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-13T21:29:54.971931+00:00",
+      "last_score": 91,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "84dfda1",
+      "published_date": "2026-10-13"
     },
     {
       "id": "p1-s9",
@@ -775,11 +781,14 @@
       "image_context": "vitrine de loja de bairro com placa em espanhol e portugues e um cliente conversando com a dona, rua movimentada de uma cidade da Florida, luz do dia",
       "publish_date": "2026-10-15",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-13T21:29:55.045582+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "debb023",
+      "published_date": "2026-10-15"
     },
     {
       "id": "p2-s9",
@@ -808,11 +817,14 @@
       "image_context": "dona de pequeno negócio conferindo o celular com um painel de anúncios enquanto atende o balcão, ambiente real de comércio de bairro",
       "publish_date": "2026-10-16",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-13T21:29:55.121570+00:00",
+      "last_score": 87,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "503ba9a",
+      "published_date": "2026-10-16"
     },
     {
       "id": "p1-s11",
@@ -840,11 +852,14 @@
       "image_context": "dona de um salão de beleza conferindo o próprio Instagram e o perfil do Google no celular, notebook fechado ao lado, luz de fim de tarde",
       "publish_date": "2026-10-19",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-13T21:29:55.195927+00:00",
+      "last_score": 86,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "20a8efd",
+      "published_date": "2026-10-19"
     },
     {
       "id": "p3-s9",
@@ -873,11 +888,14 @@
       "image_context": "fachada de uma pequena empresa de serviços numa rua movimentada de bairro americano, dono abrindo a porta no começo do dia, luz da manhã",
       "publish_date": "2026-10-20",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-13T21:29:55.264998+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "d84deb6",
+      "published_date": "2026-10-20"
     },
     {
       "id": "p2-s10",
@@ -906,11 +924,14 @@
       "image_context": "dono de uma pequena empresa de serviços olhando um mapa da cidade com a área de atendimento marcada num tablet, van de trabalho ao fundo, luz natural",
       "publish_date": "2026-10-22",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-14T11:06:57.378050+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b4w2",
+      "commit_sha": "677eba0",
+      "published_date": "2026-10-22"
     },
     {
       "id": "p1-s10",
@@ -938,11 +959,14 @@
       "image_context": "dono de um pequeno negócio de serviços respondendo um cliente no WhatsApp pelo celular, balcão de atendimento e agenda ao fundo, luz natural",
       "publish_date": "2026-10-23",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-14T11:06:57.452100+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b4w2",
+      "commit_sha": "2209b44",
+      "published_date": "2026-10-23"
     },
     {
       "id": "p3-s6",
@@ -971,11 +995,14 @@
       "image_context": "dono de pequeno negócio sentado no balcão da própria loja olhando o celular com o site aberto, expressão de dúvida, luz natural da vitrine",
       "publish_date": "2026-10-26",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-14T11:06:57.532358+00:00",
+      "last_score": 86,
+      "iteration_id": "local-session-b4w2",
+      "commit_sha": "fb5f6a4",
+      "published_date": "2026-10-26"
     },
     {
       "id": "p2-s11",
@@ -1003,11 +1030,14 @@
       "image_context": "dono de um pequeno negócio comparando anúncios de concorrentes numa tela de notebook, caderno de anotações ao lado, escritório simples, luz natural",
       "publish_date": "2026-10-27",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-14T11:06:57.611587+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b4w2",
+      "commit_sha": "afe5146",
+      "published_date": "2026-10-27"
     },
     {
       "id": "p3-s10",
@@ -1035,11 +1065,14 @@
       "image_context": "pessoa num escritório pequeno conferindo um painel de desempenho no notebook, caderno com anotações ao lado, luz de fim de tarde",
       "publish_date": "2026-10-29",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-14T11:06:57.696216+00:00",
+      "last_score": 86,
+      "iteration_id": "local-session-b4w2",
+      "commit_sha": "03fc634",
+      "published_date": "2026-10-29"
     },
     {
       "id": "p4-tl1",

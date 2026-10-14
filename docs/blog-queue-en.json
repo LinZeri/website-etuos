@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T20:38:17.178560+00:00",
+  "updated": "2026-10-14T11:21:06.403882+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -738,12 +738,14 @@
       "image_context": "a person asking a phone assistant for a nearby electrician while standing in a kitchen, a leaking sink visible behind them",
       "publish_date": "2026-10-12",
       "author": null,
-      "status": "pending",
-      "attempts": 1,
-      "last_error": "image_generation_failed",
-      "started_at": "2026-10-13T13:22:37.310683+00:00",
-      "last_score": null,
-      "iteration_id": "cloud-producer-bc263128"
+      "status": "published",
+      "attempts": 2,
+      "last_error": null,
+      "started_at": "2026-10-13T21:29:55.328160+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "f622e8b",
+      "published_date": "2026-10-12"
     },
     {
       "id": "en-p3-restaurant",
@@ -769,11 +771,14 @@
       "image_context": "a busy neighborhood restaurant at lunch, a server delivering plates to a table by a window, warm natural light",
       "publish_date": "2026-10-13",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-13T21:29:55.405490+00:00",
+      "last_score": 89,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "a33c35a",
+      "published_date": "2026-10-13"
     },
     {
       "id": "en-p5-no-calls",
@@ -798,11 +803,14 @@
       "image_context": "a contractor looking at a laptop showing a website while his phone sits silent on the desk, shop interior blurred behind",
       "publish_date": "2026-10-15",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-13T21:29:55.479116+00:00",
+      "last_score": 87,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "1849032",
+      "published_date": "2026-10-15"
     },
     {
       "id": "en-p2-budget-share",
@@ -830,11 +838,14 @@
       "image_context": "owner of a small auto repair shop at the front desk with a notebook and a calculator, tidy shop floor blurred behind, morning light",
       "publish_date": "2026-10-16",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-13T21:29:55.551683+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "2cc4d27",
+      "published_date": "2026-10-16"
     },
     {
       "id": "en-p4-immigrant-choice",
@@ -862,11 +873,14 @@
       "image_context": "customer and shop owner talking across the counter of a neighborhood store, warm daylight, both relaxed, no signage text",
       "publish_date": "2026-10-19",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-13T21:29:55.621616+00:00",
+      "last_score": 85,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "921f55a",
+      "published_date": "2026-10-19"
     },
     {
       "id": "en-p1-maps-rank",
@@ -894,11 +908,14 @@
       "image_context": "a florist standing outside her shop holding a phone with a map open, neighboring storefronts on the street, morning light",
       "publish_date": "2026-10-20",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-13T21:29:55.696682+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "368a5b6",
+      "published_date": "2026-10-20"
     },
     {
       "id": "en-p3-landscaping",
@@ -958,11 +975,14 @@
       "image_context": "an electrician sitting in his work van answering a call on his phone, a notepad on the dashboard, suburban street through the windshield",
       "publish_date": "2026-10-23",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-13T21:29:55.771910+00:00",
+      "last_score": 89,
+      "iteration_id": "local-session-b4",
+      "commit_sha": "0e27be1",
+      "published_date": "2026-10-23"
     },
     {
       "id": "en-p4-reviews-spanish",
@@ -990,11 +1010,14 @@
       "image_context": "a barbershop owner at his counter reading a message on his phone while a customer waits, warm daylight, no readable signage",
       "publish_date": "2026-10-26",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-14T11:06:57.761136+00:00",
+      "last_score": 88,
+      "iteration_id": "local-session-b4w2",
+      "commit_sha": "f0e5ffe",
+      "published_date": "2026-10-26"
     },
     {
       "id": "en-p2-negative-keywords",
@@ -1022,11 +1045,14 @@
       "image_context": "a pest control company owner at a desk marking a printed list of search phrases with a highlighter, laptop open beside the paper",
       "publish_date": "2026-10-27",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-14T11:06:57.840155+00:00",
+      "last_score": 90,
+      "iteration_id": "local-session-b4w2",
+      "commit_sha": "2bfbba1",
+      "published_date": "2026-10-27"
     },
     {
       "id": "en-p5-service-area-pages",
@@ -1054,11 +1080,14 @@
       "image_context": "a painting contractor at a workshop table with a laptop and a hand drawn map of neighboring towns, paint cans on a shelf behind, daylight",
       "publish_date": "2026-10-29",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-14T11:06:57.926846+00:00",
+      "last_score": 87,
+      "iteration_id": "local-session-b4w2",
+      "commit_sha": "2c5b61b",
+      "published_date": "2026-10-29"
     },
     {
       "id": "en-p3-medspa",
