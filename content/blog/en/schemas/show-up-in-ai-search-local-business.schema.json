@@ -1,0 +1,187 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/show-up-in-ai-search-local-business#article",
+      "headline": "How Local Businesses Show Up in AI Search Results (ChatGPT, Google AI Overviews)",
+      "description": "More people ask AI for local help. See what a local business can control, from profile accuracy to reviews, and what no one can promise.",
+      "datePublished": "2026-10-12",
+      "dateModified": "2026-10-12",
+      "inLanguage": "en-US",
+      "wordCount": 2080,
+      "keywords": [
+        "local seo for ai search",
+        "ai search local business",
+        "get recommended by chatgpt local business",
+        "google ai overviews local"
+      ],
+      "articleSection": [
+        "What Changes When Searches Stop Ending in a Click?",
+        "Are People Really Using AI to Find Local Businesses?",
+        "What Can a Local Business Actually Control?",
+        "Why Do Reviews Matter Even More Now?",
+        "How Do You Check What AI Tools Say About Your Business?",
+        "What Should You Avoid?",
+        "Where Should You Start?",
+        "Frequently Asked Questions",
+        "Want Someone to Check How You Look to Customers and AI Tools?"
+      ],
+      "articleBody": "Someone with a leaking sink does not always scroll through ten blue links anymore. They ask their phone for a nearby electrician or plumber, read a short answer, and call. If your business is not in that answer, you never find out you lost the job. This guide is for owners of local and service businesses who keep hearing \"you need to show up in ChatGPT.\" It separates what is documented from what is guesswork. Nobody outside the AI companies can tell you exactly how these tools pick a business, and anyone who promises a mention is selling something. What you can do is get the things right that every tool, and every customer, checks before acting.",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/show-up-in-ai-search-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/show-up-in-ai-search-local-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Local SEO"
+        },
+        {
+          "@type": "Thing",
+          "name": "AI Search"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google AI Overviews"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/show-up-in-ai-search-local-business",
+      "url": "https://etuos.com/en/blog/show-up-in-ai-search-local-business",
+      "name": "How Local Businesses Show Up in AI Search Results (ChatGPT, Google AI Overviews)",
+      "description": "More people ask AI for local help. See what a local business can control, from profile accuracy to reviews, and what no one can promise.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/show-up-in-ai-search-local-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/show-up-in-ai-search-local-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/show-up-in-ai-search-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/show-up-in-ai-search-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A woman in an apron asking her phone for a nearby plumber in a restaurant kitchen with a sink running"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/show-up-in-ai-search-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How Local Businesses Show Up in AI Search Results (ChatGPT, Google AI Overviews)",
+          "item": "https://etuos.com/en/blog/show-up-in-ai-search-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/show-up-in-ai-search-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I pay to appear in ChatGPT or Google AI Overviews?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no documented way to buy an organic mention in an AI answer, and Google says there is no way to request or pay for a better local ranking. Be wary of anyone who sells a guaranteed mention. Focus on accurate information, a clear website and real reviews."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do AI tools decide which local business to recommend?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The companies do not publish a full formula, so no one can give you an exact answer. What is documented is that Google's local results are mainly based on relevance, distance and popularity, and that customers verify recommendations before acting. Work on the things you can see and control."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do reviews affect whether I show up in AI answers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google names reviews as part of how prominent a business is, and customers read reviews when they verify a recommendation. Whether any specific AI tool uses them is not documented, so treat reviews as a way to win the customer who checks, and as an input Google itself names for local ranking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is traditional local SEO still worth it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The same profile accuracy, reviews and clear website content are what Google uses for local results and what customers check after an AI recommendation. AI search raises the stakes without replacing the basics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I tell if AI tools mention my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask ChatGPT, Google and another assistant the questions your customers would ask, in your city, and note whether you appear and whether the details are right. Results vary by tool and by wording, so repeat the test now and then instead of relying on one try."
+          }
+        }
+      ]
+    }
+  ]
+}
