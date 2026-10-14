@@ -1,0 +1,168 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/como-medir-resultado-de-trafego-pago#article",
+      "headline": "Como medir o resultado dos seus anúncios sem se perder em métricas",
+      "description": "Cliques e impressões não pagam as contas. Veja como medir o resultado dos anúncios com poucas métricas: conversão, custo por lead, taxa de fechamento e ROAS.",
+      "datePublished": "2026-10-16",
+      "dateModified": "2026-10-16",
+      "inLanguage": "pt-BR",
+      "wordCount": 2328,
+      "keywords": [
+        "como medir resultado de tráfego pago",
+        "custo por lead",
+        "conversão no google ads",
+        "o que é roas",
+        "métricas de anúncio para negócio local"
+      ],
+      "articleSection": "Tráfego Pago",
+      "articleBody": "Quem abre o painel de anúncios pela primeira vez encontra dezenas de números: impressões, cliques, CTR, CPC, conversões, pontuações. Dá a impressão de que medir resultado exige virar analista. Não exige. Para um negócio local, a maior parte desses números serve para diagnosticar, e só três ou quatro respondem à pergunta que importa: o dinheiro que entrou no anúncio voltou em clientes?",
+      "author": {
+        "@id": "https://etuos.com/pt/autor/lin-zeri#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/como-medir-resultado-de-trafego-pago#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/pt/blog/como-medir-resultado-de-trafego-pago#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "métricas de anúncios"
+        },
+        {
+          "@type": "Thing",
+          "name": "tráfego pago"
+        },
+        {
+          "@type": "Thing",
+          "name": "custo por lead"
+        },
+        {
+          "@type": "Thing",
+          "name": "ROAS"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/autor/lin-zeri#person",
+      "name": "Lin Zeri",
+      "url": "https://etuos.com/pt/autor/lin-zeri",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      },
+      "sameAs": [
+        "https://github.com/LinZeri"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog Etuos",
+      "url": "https://etuos.com/pt/blog",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/como-medir-resultado-de-trafego-pago#webpage",
+      "url": "https://etuos.com/pt/blog/como-medir-resultado-de-trafego-pago",
+      "name": "Como medir o resultado de tráfego pago",
+      "description": "Cliques e impressões não pagam as contas. Veja como medir o resultado dos anúncios com poucas métricas: conversão, custo por lead, taxa de fechamento e ROAS.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/como-medir-resultado-de-trafego-pago#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/como-medir-resultado-de-trafego-pago#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/como-medir-resultado-de-trafego-pago#primaryimage",
+      "url": "https://etuos.com/images/blog/como-medir-resultado-de-trafego-pago.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dona de um pequeno comércio conferindo o celular no balcão enquanto atende uma cliente"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/como-medir-resultado-de-trafego-pago#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Como medir o resultado dos seus anúncios sem se perder em métricas",
+          "item": "https://etuos.com/pt/blog/como-medir-resultado-de-trafego-pago"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/como-medir-resultado-de-trafego-pago#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual é a principal métrica para medir resultado de tráfego pago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para um negócio local, o custo por cliente é a leitura mais próxima do resultado, porque junta o custo por lead com a sua taxa de fechamento. Quando você ainda não tem clientes suficientes para calcular, comece pelo custo por lead e pela qualidade dos contatos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual é um bom custo por lead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um valor bom para todo mundo. O custo por lead aceitável depende da sua margem, do valor de cada venda e da sua taxa de fechamento. A conta correta parte do que um cliente vale para o seu negócio e volta até o custo por lead máximo que você suporta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que é ROAS e quando devo usar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ROAS é a receita das vendas atribuídas aos anúncios dividida pelo gasto com anúncios. Funciona bem quando você conhece o valor de cada venda. Para serviços com orçamento variável, o custo por cliente costuma ser mais útil, e em qualquer caso lembre que receita não é lucro."
+          }
+        }
+      ]
+    }
+  ]
+}
