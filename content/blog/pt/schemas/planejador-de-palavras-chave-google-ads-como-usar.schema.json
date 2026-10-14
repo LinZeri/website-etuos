@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/planejador-de-palavras-chave-google-ads-como-usar#article",
+      "headline": "Planejador de palavras-chave do Google: como usar para planejar seus anúncios",
+      "description": "Aprenda a usar o Planejador de Palavras-chave do Google Ads: achar buscas, ler volume e custo estimado e montar um plano de anúncios sem cair em armadilhas.",
+      "datePublished": "2026-10-13",
+      "dateModified": "2026-10-13",
+      "inLanguage": "pt-BR",
+      "wordCount": 2182,
+      "keywords": "planejador de palavras-chave google, keyword planner como usar, pesquisa de palavras-chave google ads, estimativa de cpc",
+      "articleSection": "Tráfego Pago",
+      "articleBody": "Antes de gastar um centavo em anúncio, vale responder três perguntas: o que as pessoas digitam quando procuram o meu serviço, quanto custa aparecer nessas buscas e quanto de verba eu preciso para testar. O Planejador de Palavras-chave (Keyword Planner), uma ferramenta do próprio Google Ads, existe para ajudar com as três. O problema é que ele mostra números com cara de resposta definitiva, e quem não sabe lê-los acaba montando a campanha em cima de um palpite.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/planejador-de-palavras-chave-google-ads-como-usar#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/planejador-de-palavras-chave-google-ads-como-usar"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Planejador de Palavras-chave"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pesquisa de palavras-chave"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/planejador-de-palavras-chave-google-ads-como-usar",
+      "url": "https://etuos.com/pt/blog/planejador-de-palavras-chave-google-ads-como-usar",
+      "name": "Planejador de palavras-chave do Google: como usar para planejar seus anúncios",
+      "description": "Aprenda a usar o Planejador de Palavras-chave do Google Ads: achar buscas, ler volume e custo estimado e montar um plano de anúncios sem cair em armadilhas.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/planejador-de-palavras-chave-google-ads-como-usar#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/planejador-de-palavras-chave-google-ads-como-usar#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/planejador-de-palavras-chave-google-ads-como-usar#primaryimage",
+      "url": "https://etuos.com/images/blog/planejador-de-palavras-chave-google-ads-como-usar.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Profissional anotando palavras-chave em um caderno numa mesa de escritório, ao lado de um laptop fechado e uma xícara"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/planejador-de-palavras-chave-google-ads-como-usar#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Planejador de palavras-chave do Google: como usar para planejar seus anúncios",
+          "item": "https://etuos.com/pt/blog/planejador-de-palavras-chave-google-ads-como-usar"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/planejador-de-palavras-chave-google-ads-como-usar#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é o Planejador de Palavras-chave do Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "É uma ferramenta do Google Ads que ajuda a pesquisar palavras-chave para campanhas na Rede de Pesquisa, mostra estimativas de volume de buscas e de custo médio do anúncio e gera previsões de cliques, conversões ou impressões com base na verba."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso pagar para usar o Planejador de Palavras-chave?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Google informa que é preciso concluir a configuração da conta, com os dados de cobrança, para acessar as funções básicas, como a de ideias de novas palavras-chave. Confira as condições atuais na página de ajuda do Google antes de começar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Os números do Planejador são garantidos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Volume, custo médio e previsões são estimativas. A própria definição da estimativa de lance para o topo da página, no Google Ads, diz que ela não é garantia. Use os números para comparar opções e dimensionar o teste."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como escolher boas palavras-chave para um negócio local?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Priorize termos com intenção de contratar, que combinam o serviço com o lugar onde você atende, e descarte buscas de curiosidade ou de quem quer fazer sozinho. Uma lista curta e específica costuma ser melhor para começar do que uma lista longa e genérica."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que é CPC médio no Google Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "É o custo total dos cliques dividido pelo número de cliques. O Planejador de Palavras-chave pode mostrar estimativas de CPC médio para campanhas na Rede de Pesquisa, mas o valor que você paga de fato depende do leilão e nunca passa do lance máximo que você definiu."
+          }
+        }
+      ]
+    }
+  ]
+}
