@@ -1,0 +1,176 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/como-aparecer-no-chatgpt-e-na-ia-negocio-local#article",
+      "headline": "Como seu negócio local pode aparecer nas respostas de IA (ChatGPT, Google e outras)",
+      "description": "Ninguém garante que o ChatGPT vai citar o seu negócio. Veja o que você controla para ser encontrado e conferido: perfil, avaliações e informação consistente.",
+      "datePublished": "2026-10-12",
+      "dateModified": "2026-10-12",
+      "inLanguage": "pt-BR",
+      "wordCount": 1968,
+      "keywords": [
+        "como aparecer no chatgpt negócio local",
+        "buscas com IA negócio local",
+        "AI Overviews negócio local",
+        "GEO para pequenas empresas",
+        "ser citado pelo ChatGPT"
+      ],
+      "articleSection": "SEO Local",
+      "articleBody": "Cada vez mais gente pergunta a um assistente de IA onde contratar um serviço, em vez de abrir o Google e olhar uma lista de links. Para quem tem um negócio local, isso gera uma dúvida natural: como fazer o ChatGPT, o Google e as outras ferramentas recomendarem o meu?",
+      "author": {
+        "@id": "https://etuos.com/pt/autor/lin-zeri#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/como-aparecer-no-chatgpt-e-na-ia-negocio-local#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/pt/blog/como-aparecer-no-chatgpt-e-na-ia-negocio-local#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "busca com inteligência artificial"
+        },
+        {
+          "@type": "Thing",
+          "name": "SEO local"
+        },
+        {
+          "@type": "Thing",
+          "name": "Perfil da Empresa no Google"
+        },
+        {
+          "@type": "Thing",
+          "name": "negócio local"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/autor/lin-zeri#person",
+      "name": "Lin Zeri",
+      "url": "https://etuos.com/pt/autor/lin-zeri",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      },
+      "sameAs": [
+        "https://github.com/LinZeri"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog Etuos",
+      "url": "https://etuos.com/pt/blog",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/como-aparecer-no-chatgpt-e-na-ia-negocio-local#webpage",
+      "url": "https://etuos.com/pt/blog/como-aparecer-no-chatgpt-e-na-ia-negocio-local",
+      "name": "Como aparecer no ChatGPT e na IA: negócio local",
+      "description": "Ninguém garante que o ChatGPT vai citar o seu negócio. Veja o que você controla para ser encontrado e conferido: perfil, avaliações e informação consistente.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/como-aparecer-no-chatgpt-e-na-ia-negocio-local#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/como-aparecer-no-chatgpt-e-na-ia-negocio-local#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/como-aparecer-no-chatgpt-e-na-ia-negocio-local#primaryimage",
+      "url": "https://etuos.com/images/blog/como-aparecer-no-chatgpt-e-na-ia-negocio-local.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Mulher conversando com um assistente de IA no celular, sentada no sofá de casa, para encontrar um serviço local"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/como-aparecer-no-chatgpt-e-na-ia-negocio-local#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Como seu negócio local pode aparecer nas respostas de IA (ChatGPT, Google e outras)",
+          "item": "https://etuos.com/pt/blog/como-aparecer-no-chatgpt-e-na-ia-negocio-local"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/como-aparecer-no-chatgpt-e-na-ia-negocio-local#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "É possível garantir que o ChatGPT cite o meu negócio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. As plataformas não publicam como escolhem os negócios que citam, então ninguém consegue garantir uma citação. O que você pode fazer é deixar o negócio fácil de encontrar e de conferir: perfil do Google completo, avaliações reais, site claro e informações iguais em todo lugar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de um site para aparecer nas respostas de IA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe uma regra publicada que diga isso. Mas um site claro dá ao cliente, e a qualquer ferramenta que consulte a internet, um lugar confiável para entender o que você faz, onde atende e como falar com você. Ele complementa o perfil do Google, não o substitui."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que muda do SEO local tradicional para aparecer em IA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há como afirmar uma lista de diferenças, porque os critérios das IAs não são públicos. A base se parece: perfil completo, avaliações, site claro e informações consistentes. O Google informa que o ranking local se apoia em relevância, distância e destaque."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Avaliações influenciam as respostas de IA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há fonte que confirme o peso das avaliações nas respostas de IA. O que se sabe é que o consumidor lê avaliações e dá mais chance a negócios que respondem a elas, e que o Google considera as avaliações no destaque do ranking local."
+          }
+        }
+      ]
+    }
+  ]
+}
