@@ -190,6 +190,30 @@ Markdown: `([Google, "Use Keyword Planner", Google Ads Help](https://support.goo
 Uso permitido: indicar o Keyword Planner como o caminho oficial para estimar o custo do nicho antes de investir; lembrar que o acesso às funções básicas exige concluir a configuração da conta com dados de cobrança.
 Uso proibido: não citar valores de custo (a página não traz); não afirmar que a previsão é garantia.
 
+**T17: No Google Ads, a segmentação por raio exige raio mínimo de 1 km; "Presence or Interest" é o nome da segmentação geográfica ampla.** Verificado em out. 2026 por WebFetch (a frase do raio nas duas chamadas; a de "Presence or Interest" nas duas, em trechos).
+Citação literal confirmada: "Radius targeting requires setting a radius of at least 1 km around any given location." / "Broad geo targeting ("Presence or Interest") can help you reach people who not only exist in your targeted locations" (a frase continua; usar só o trecho)
+Fonte a citar: **Google, "Target ads to geographic locations", Google Ads Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/google-ads/answer/1722043
+Markdown: `([Google, "Target ads to geographic locations", Google Ads Help](https://support.google.com/google-ads/answer/1722043), acesso em out. 2026)`
+Uso permitido: dizer que existe raio mínimo de 1 km e que "Presence or Interest" é a segmentação ampla.
+Uso proibido: definir "Presence" com palavras que não estão na página; citar o limite de 1000 locais, a frase de cidade/CEP "depending on the country" ou "ads might only show intermittently" (confirmadas em uma só chamada); prometer resultado.
+
+**T18: Palavras-chave negativas excluem termos de busca das campanhas; há correspondência ampla (padrão), de frase e exata; podem ser adicionadas em campanhas e em grupos de anúncios.** Verificado em out. 2026 por WebFetch (duas chamadas nas frases listadas).
+Citação literal confirmada: "Negative keywords let you exclude search terms from your campaigns" (a frase continua; usar só o trecho) / "This type is the default for your negative keywords." / "For negative broad match keywords, your ad won't show if the search contains all your negative keyword terms," + "even if the terms are in a different order." / "For negative phrase match keywords, your ad won't show if the search contains the exact keyword terms in the same order." / "Add negative keywords to ad groups, campaigns, and negative keyword lists" (título de seção, página 7102995)
+Fonte a citar: **Google, "About negative keywords", Google Ads Help** (Tier 1) e **Google, "Add negative keywords to campaigns", Google Ads Help** (Tier 1).
+URL: https://support.google.com/google-ads/answer/2453972 e https://support.google.com/google-ads/answer/7102995
+Markdown: `([Google, "About negative keywords", Google Ads Help](https://support.google.com/google-ads/answer/2453972), acesso em out. 2026)`
+Uso permitido: explicar para que servem as negativas e as três correspondências.
+Uso proibido: dizer que a negativa ampla cobre sinônimos ou plurais; citar os símbolos de cada correspondência (a página não os traz); a página 2472708 é o relatório de termos de pesquisa, não a de negativas.
+
+**T19: O Google mantém um repositório pesquisável de anunciantes e dos anúncios que veicularam (Central de Transparência de Anúncios); dá para buscar pelo nome do anunciante ou do site e filtrar por data e local segmentado.** Verificado em out. 2026 por WebFetch (duas chamadas coincidiram nas duas frases). A única versão da página que o WebFetch abre é a da Áustria ("Ads transparency - Austria"): o servidor ignora o parâmetro de país.
+Citação literal confirmada: "Google provides a searchable repository of advertisers and the ads they’ve served on Google platforms like Search, Display, Gmail, and YouTube." (o fim da frase foi confirmado em parte por resumo) / "You can search for an advertiser via the Ads Transparency Center using the advertiser or website name" + "and filter your search results by details like date and targeted location."
+Fonte a citar: **Google, "Ads transparency", Advertising Policies Help** (Tier 1, documentação oficial; variante de país Áustria, conteúdo geral idêntico nas versões acessíveis).
+URL: https://support.google.com/adspolicy/answer/13733850
+Markdown: `([Google, "Ads transparency", Advertising Policies Help](https://support.google.com/adspolicy/answer/13733850), accessed Oct. 2026)`
+Uso permitido: dizer que existe um repositório pesquisável de anunciantes e anúncios, e que se busca pelo nome do anunciante ou do site.
+Uso proibido: apresentar a página como "versão dos EUA" ou global; citar os selos "verified" ou "unverified" (só em paráfrase); usar "serving region" no lugar de "targeted location"; afirmar quais campos o repositório mostra além do que a frase diz; a Biblioteca de Anúncios da Meta não tem fonte registrada.
+
 ## Cluster N: Negócios locais e empreendedorismo imigrante nos EUA
 
 **N1: 77,9% das empresas americanas abertas no ano encerrado em março de 2024 sobreviveram até março de 2025.** Do total de 988.310 estabelecimentos privados abertos no período, 769.449 continuavam ativos um ano depois, taxa de sobrevivência de 77,9%.
@@ -389,6 +413,134 @@ Markdown: `([Google Search Central, "Tell Google about localized versions of you
 Uso permitido: explicar hreflang recíproco e o que acontece quando falta o retorno.
 Uso proibido: não afirmar que o hreflang melhora o ranking; ele só indica ao Google a versão certa por idioma.
 
+**S27: Pelo Google, não há garantia de que uma página seja rastreada, indexada ou exibida; a Pesquisa funciona em etapas e nem toda página passa por todas.** Verificado em out. 2026 por WebFetch (duas chamadas).
+Citação literal confirmada: "Google Search works in three stages, and not all pages make it through each stage:" / "Google doesn't guarantee that it will crawl, index, or serve your page…" (a frase continua; usar só o trecho) / "However, Googlebot doesn't crawl all the pages it discovered."
+Fonte a citar: **Google Search Central, "In-depth guide to how Google Search works"** (Tier 1, documentação oficial).
+URL: https://developers.google.com/search/docs/fundamentals/how-search-works
+Markdown: `([Google Search Central, "In-depth guide to how Google Search works"](https://developers.google.com/search/docs/fundamentals/how-search-works), acesso em out. 2026)`
+Uso permitido: explicar que ter um site publicado não equivale a aparecer no Google.
+Uso proibido: prometer prazo ou resultado de indexação; listar as três etapas de memória (só as que a página nomeia).
+
+**S28: Pelo Google, o sitemap ajuda o Google a conhecer as páginas, mas não garante rastreamento nem indexação.** Verificado em out. 2026 por WebFetch (duas chamadas).
+Citação literal confirmada: "A sitemap is a file where you provide information about the pages, videos, and other files on your site…" / "…but it doesn't guarantee that all the items in your sitemap will be crawled and indexed."
+Fonte a citar: **Google Search Central, "Learn about sitemaps"** (Tier 1, documentação oficial).
+URL: https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
+Markdown: `([Google Search Central, "Learn about sitemaps"](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview), acesso em out. 2026)`
+Uso permitido: o que é um sitemap e por que ele não é garantia.
+Uso proibido: dizer que o sitemap "faz o Google indexar"; prazo de rastreio.
+
+**S29: Pelo Google, o robots.txt diz ao rastreador quais URLs ele pode acessar; não é mecanismo para tirar uma página do Google.** Verificado em out. 2026 por WebFetch (duas chamadas).
+Citação literal confirmada: "A robots.txt file tells search engine crawlers which URLs the crawler can access on your site." / "it is not a mechanism for keeping a web page out of Google." / "To keep a web page out of Google, block indexing with noindex or password-protect the page."
+Fonte a citar: **Google Search Central, "Introduction to robots.txt"** (Tier 1, documentação oficial).
+URL: https://developers.google.com/search/docs/crawling-indexing/robots/intro
+Markdown: `([Google Search Central, "Introduction to robots.txt"](https://developers.google.com/search/docs/crawling-indexing/robots/intro), acesso em out. 2026)`
+Uso permitido: alertar que um robots.txt mal configurado pode bloquear o rastreio de páginas importantes.
+Uso proibido: apresentar o robots.txt como forma de remover página do Google.
+
+**S30: Pelo Google, o noindex só funciona se a página não estiver bloqueada pelo robots.txt; noindex dentro do robots.txt não é suportado.** Verificado em out. 2026 por WebFetch (a regra do robots.txt apareceu nas duas chamadas).
+Citação literal confirmada: "For the noindex rule to be effective, the page or resource must not be blocked by a robots.txt file" (usar só este trecho) / "Specifying the noindex rule in the robots.txt file is not supported by Google."
+Fonte a citar: **Google Search Central, "Block Search indexing with noindex"** (Tier 1, documentação oficial).
+URL: https://developers.google.com/search/docs/crawling-indexing/block-indexing
+Markdown: `([Google Search Central, "Block Search indexing with noindex"](https://developers.google.com/search/docs/crawling-indexing/block-indexing), acesso em out. 2026)`
+Uso permitido: avisar para conferir se alguma página importante ficou com noindex.
+Uso proibido: prazo para a página sair do índice.
+
+**S31: Pelo Google, o rel="canonical" é um sinal forte, não uma ordem, de qual URL deve ser a canônica.** Verificado em out. 2026 por WebFetch (duas chamadas).
+Citação literal confirmada: "A strong signal that the specified URL should become canonical." (sobre rel="canonical")
+Fonte a citar: **Google Search Central, "How to specify a canonical URL with rel="canonical" and other methods"** (Tier 1, documentação oficial).
+URL: https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls
+Markdown: `([Google Search Central, "How to specify a canonical URL"](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls), acesso em out. 2026)`
+Uso permitido: explicar que páginas duplicadas competem e que o canonical é um sinal.
+Uso proibido: dizer que o canonical "garante" qual URL aparece; citar uma definição literal de "URL canônica" (a página não traz).
+
+**S32: Pelo Google, a versão mobile do conteúdo é a usada para indexar e ranquear.** Verificado em out. 2026 por WebFetch (duas chamadas).
+Citação literal confirmada: "Google uses the mobile version of a site's content, crawled with the smartphone agent, for indexing and ranking." / "This is called mobile-first indexing." / "Only the content shown on the mobile site is used for indexing."
+Fonte a citar: **Google Search Central, "Mobile site and mobile-first indexing best practices"** (Tier 1, documentação oficial).
+URL: https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing
+Markdown: `([Google Search Central, "Mobile site and mobile-first indexing best practices"](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing), acesso em out. 2026)`
+Uso permitido: argumentar que o site precisa funcionar bem no celular.
+Uso proibido: prometer ganho de posição.
+
+**S33: Pelo Google, o operador site: lista URLs indexadas, mas a lista não é exaustiva; a ferramenta de inspeção de URL serve para checar uma URL.** Verificado em out. 2026 por WebFetch (duas chamadas coincidiram nas três frases).
+Citação literal confirmada: "Returns a list of indexed and serving URLs." / "The list of URLs returned is not always exhaustive." / "use the URL Inspection tool to make sure the URL can be indexed" (a frase continua; usar só o trecho)
+Fonte a citar: **Google Search Central, "site: search operator"** (Tier 1, documentação oficial).
+URL: https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site
+Markdown: `([Google Search Central, "site: search operator"](https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site), acesso em out. 2026)`
+Uso permitido: ensinar o dono do negócio a fazer a checagem básica.
+Uso proibido: concluir "não está no Google" só porque o site: não listou a URL.
+
+**S34: Pelo Google, "doorway abuse" é spam: sites ou páginas criados para ranquear buscas específicas e parecidas; páginas por região ou cidade que levam o usuário a uma única página são exemplo.** Verificado em out. 2026 por WebFetch (duas chamadas).
+Citação literal confirmada: "Doorway abuse is when sites or pages are created to rank for specific, similar search queries." / "They lead users to intermediate pages that aren't as useful as the final destination." / "Having multiple domain names or pages targeted at specific regions or cities that funnel users to one page"
+Fonte a citar: **Google Search Central, "Spam Policies for Google Web Search"** (Tier 1, documentação oficial).
+URL: https://developers.google.com/search/docs/essentials/spam-policies
+Markdown: `([Google Search Central, "Spam Policies for Google Web Search"](https://developers.google.com/search/docs/essentials/spam-policies), acesso em out. 2026)`
+Uso permitido: explicar por que páginas de cidade que só trocam o nome da cidade são risco.
+Uso proibido: afirmar que toda página de cidade é doorway; citar outros exemplos da página (não confirmados em duas chamadas).
+
+**S35: O Google orienta a perguntar se o conteúdo traz informação original e valor substancial em relação a outras páginas dos resultados.** Verificado em out. 2026 por WebFetch (as duas perguntas apareceram nas duas chamadas).
+Citação literal confirmada: "Does the content provide original information, reporting, research, or analysis?" / "Does the content provide substantial value when compared to other pages in search results?"
+Fonte a citar: **Google Search Central, "Creating helpful, reliable, people-first content"** (Tier 1, documentação oficial).
+URL: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+Markdown: `([Google Search Central, "Creating helpful, reliable, people-first content"](https://developers.google.com/search/docs/fundamentals/creating-helpful-content), acesso em out. 2026)`
+Uso permitido: justificar que cada página de cidade ou serviço precisa de conteúdo próprio e útil.
+Uso proibido: citar a frase "People-first content means..." como literal (confirmada em uma só chamada).
+
+**S36: Search Console é um serviço do Google para entender e melhorar como o Google vê o site; não é obrigatório estar nele para aparecer na Pesquisa.** Verificado em out. 2026 por WebFetch (duas chamadas nas duas primeiras frases).
+Citação literal confirmada: "Search Console helps you understand and improve how Google sees your site." / "You don't have to sign up for Search Console to be included in Google Search results" (o final foi truncado; usar só o trecho)
+Fonte a citar: **Google, "About Search Console", Search Console Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/webmasters/answer/9128668
+Markdown: `([Google, "About Search Console", Search Console Help](https://support.google.com/webmasters/answer/9128668), acesso em out. 2026)`
+Uso permitido: definição qualitativa do Search Console.
+Uso proibido: afirmar que é preciso estar no Search Console para aparecer no Google.
+
+**S37: Definições oficiais do relatório de desempenho do Search Console: cliques, impressões, CTR e posição média.** Verificado em out. 2026 por WebFetch (as quatro definições bateram nas duas chamadas).
+Citação literal confirmada: Cliques: "The number of times a user clicked your site from Google Search results." / Impressões: "How many times your site appeared in Search results." / CTR: "The click count divided by the impression count." / Posição: "The average position of the topmost result from your site."
+Fonte a citar: **Google, "Performance report (Search results): Overview and basic setup", Search Console Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/webmasters/answer/7576553
+Markdown: `([Google, "Performance report (Search results)", Search Console Help](https://support.google.com/webmasters/answer/7576553), acesso em out. 2026)`
+Uso permitido: explicar cada métrica com as definições acima.
+Uso proibido: dizer que a posição média é a posição de uma página específica (a página diz que é a do resultado mais alto do site); prometer resultado.
+
+**S38: A ferramenta de inspeção de URL mostra a versão indexada de uma página; pedir indexação não garante que a página apareça.** Verificado em out. 2026 por WebFetch (duas chamadas nas três últimas frases).
+Citação literal confirmada: "The results shown are from most recently indexed version of a page, not the live version on the web." / "Submitting a request does not guarantee that the page will appear in the Google Index." / "This is a live test: the tool fetches and examines the URL in real time."
+Fonte a citar: **Google, "URL Inspection tool", Search Console Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/webmasters/answer/9012289
+Markdown: `([Google, "URL Inspection tool", Search Console Help](https://support.google.com/webmasters/answer/9012289), acesso em out. 2026)`
+Uso permitido: o que a inspeção de URL mostra e que pedir indexação não é garantia.
+Uso proibido: prometer indexação ou prazo; citar o limite diário de inspeções ou o "few hours out of date".
+
+**S39: O relatório Page indexing mostra quantas URLs foram rastreadas e indexadas; "não indexada" não é necessariamente ruim; estar indexada não garante aparecer.** Verificado em out. 2026 por WebFetch (a primeira frase nas duas chamadas; as demais em texto íntegro na segunda chamada).
+Citação literal confirmada: "The Page indexing report shows how many URLs on your site have been crawled and indexed by Google." / "Remember that Not indexed is not necessarily bad." / "Most sites have at least a few unindexed pages, but all of your important pages should be indexed." / "Just because a page is indexed doesn't guarantee that it will show up in your search results."
+Fonte a citar: **Google, "Page indexing report", Search Console Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/webmasters/answer/7440203
+Markdown: `([Google, "Page indexing report", Search Console Help](https://support.google.com/webmasters/answer/7440203), acesso em out. 2026)`
+Uso permitido: ler o relatório sem pânico com páginas "não indexadas".
+Uso proibido: dizer que toda página precisa estar indexada (a página diz as importantes); prometer que indexada significa aparecer.
+
+**S40: Um sitemap é um arquivo que diz ao Google quais páginas conhecer.** Verificado em out. 2026 por WebFetch (primeira frase; as demais frases da página não ficaram confirmadas).
+Citação literal confirmada: "A sitemap is a file on your site that tells Google which pages on your site we should know about."
+Fonte a citar: **Google, "Sitemaps report", Search Console Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/webmasters/answer/7451001
+Markdown: `([Google, "Sitemaps report", Search Console Help](https://support.google.com/webmasters/answer/7451001), acesso em out. 2026)`
+Uso permitido: definição do sitemap no contexto do Search Console.
+Uso proibido: prazo de rastreio ("as soon as you submit"); permissões do enviador; garantia de indexação.
+
+**S41: Verificar a propriedade do site no Search Console é provar ao Google que você é dono do site; o dono verificado tem o nível mais alto de permissões.** Verificado em out. 2026 por WebFetch (as três frases em chamadas diferentes).
+Citação literal confirmada: "Ownership verification means proving to Search Console that you own a specific website." / "A verified owner has the highest degree of permissions in Search Console." / "More complex, but is the only way to verify a Domain property." (sobre a verificação por DNS)
+Fonte a citar: **Google, "Verify your site ownership", Search Console Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/webmasters/answer/9008080
+Markdown: `([Google, "Verify your site ownership", Search Console Help](https://support.google.com/webmasters/answer/9008080), acesso em out. 2026)`
+Uso permitido: explicar o que é verificar o site e por que o DNS serve para propriedade de Domínio.
+Uso proibido: prazos.
+
+**S42: O leitor de avaliações no Google Maps escolhe o idioma de leitura nas configurações da conta Google.** Verificado em out. 2026 por WebFetch (a frase de idioma nas duas chamadas).
+Citação literal confirmada: "On your Google Account, go to your languages settings."
+Fonte a citar: **Google, "Add, edit, or delete Google Maps reviews & ratings", Google Maps Help** (Tier 1, documentação oficial).
+URL: https://support.google.com/maps/answer/6230175
+Markdown: `([Google, "Add, edit, or delete Google Maps reviews & ratings", Google Maps Help](https://support.google.com/maps/answer/6230175), acesso em out. 2026)`
+Uso permitido: dizer que o idioma de leitura é configuração do leitor.
+Uso proibido: afirmar que o Google traduz avaliações automaticamente, mostra o original ou que se deve responder no idioma do cliente (nada disso foi encontrado em fonte oficial: escrever de forma qualitativa, sem atribuir ao Google).
+
 ## Cluster M: Mercado multilíngue (Pilar 4)
 
 **M1: Em 2024, 54% dos latinos americanos consomem notícias principalmente em inglês, 21% principalmente em espanhol e 23% igualmente em ambos os idiomas.** A pesquisa foi conduzida pelo Pew Research Center em 2024 com adultos hispânicos dos EUA e cobre hábitos de consumo de mídia digital por idioma, comportamento bilingue e diferenças entre imigrantes e nascidos nos EUA.
@@ -414,6 +566,24 @@ URL: https://www.census.gov/newsroom/press-releases/2023/language-at-home-acs-5-
 Markdown: `([U.S. Census Bureau, 2023](https://www.census.gov/newsroom/press-releases/2023/language-at-home-acs-5-year.html), accessed Oct. 2026)`
 Uso permitido: dimensionar o idioma falado em casa no país, e o argumento de que falar inglês "muito bem" não elimina a preferência por outro idioma (só como inferência rotulada, nunca como dado de busca).
 Uso proibido: não citar como dado de cidade ou metrô (é nacional); não tratar como dado de busca ou de compra; não citar número total de falantes (a página não traz).
+
+## Cluster W: WhatsApp Business
+
+**W1: O app WhatsApp Business é destinado a um número de telefone.** Verificado em out. 2026 por WebFetch (duas chamadas, em português). `business.whatsapp.com` redireciona para `whatsappbusiness.com`.
+Citação literal confirmada: "O app WhatsApp Business é destinado a um número de telefone." / "Para mensagens pessoais, o app WhatsApp Business tem recursos de que você não precisa."
+Fonte a citar: **WhatsApp, "A diferença entre o WhatsApp e o WhatsApp para Empresas"** (Tier 1, página oficial da plataforma).
+URL: https://whatsappbusiness.com/pt-br/resources/resource-library/whatsapp-vs-whatsapp-business/ (origem: https://business.whatsapp.com/whatsapp-vs-whatsapp-business)
+Markdown: `([WhatsApp, "A diferença entre o WhatsApp e o WhatsApp para Empresas"](https://whatsappbusiness.com/pt-br/resources/resource-library/whatsapp-vs-whatsapp-business/), acesso em out. 2026)`
+Uso permitido: dizer que o app WhatsApp Business é pensado para um número de telefone, e que serve ao negócio pequeno.
+Uso proibido: inferir limites de dispositivos ou de usuários, números de contatos, preços.
+
+**W2: O app WhatsApp Business oferece catálogo, perfil comercial e mensagens automatizadas de saudação e de ausência.** Verificado em out. 2026 por WebFetch (as cinco frases em chamadas de pergunta diferente, em português).
+Citação literal confirmada: "Apresente seus produtos e serviços com o catálogo do WhatsApp Business." / "Crie sua presença comercial no WhatsApp com um perfil do WhatsApp Business." / "Um perfil comercial completo faz até mesmo a menor e mais nova empresa parecer mais consolidada aos olhos dos novos clientes." / "Valorize sua imagem e aumente a confiança dos clientes com um perfil comercial completo."
+Fonte a citar: **WhatsApp, "Por que pequenas empresas devem usar o app WhatsApp Business"** (Tier 1, página oficial da plataforma).
+URL: https://whatsappbusiness.com/pt-br/resources/resource-library/small-business-use-whatsapp-business-app/
+Markdown: `([WhatsApp, "Por que pequenas empresas devem usar o app WhatsApp Business"](https://whatsappbusiness.com/pt-br/resources/resource-library/small-business-use-whatsapp-business-app/), acesso em out. 2026)`
+Uso permitido: descrever esses recursos de forma qualitativa (catálogo, perfil comercial, saudação e ausência automáticas).
+Uso proibido: prazos, preços e promessa de resultado; citar as frases de mensagens automatizadas e de catálogo como completas (o fim veio truncado); detalhar etiquetas, respostas rápidas e exigências do app (as páginas do `faq.whatsapp.com` não abriram o corpo no WebFetch: escrever de forma qualitativa e sem aspas).
 
 ---
 

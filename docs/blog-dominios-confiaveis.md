@@ -60,6 +60,7 @@ Estes domínios não são fonte primária. Entram no registro `docs/blog-fontes-
 | `sbecouncil.org` | SBA Office of Advocacy (`advocacy.sba.gov` dá 403) | entidade de defesa de pequenos negócios |
 | `wgbh.org` | Boston Foundation / Instituto Diáspora Brasil (PDF ilegível) | imprensa pública de Boston |
 | `diariodepernambuco.com.br` | Itamaraty, Comunidades Brasileiras no Exterior (`gov.br` dá CAPTCHA) | imprensa |
+| `whatsappbusiness.com` | páginas de `business.whatsapp.com`, que redireciona (301) para este domínio | site oficial do WhatsApp para empresas, é a própria plataforma; as páginas de `faq.whatsapp.com` não abrem o corpo por WebFetch (só o título), então só vale a frase confirmada em `whatsappbusiness.com` |
 
 ### Domínios que bloqueiam o WebFetch (verificado em out. 2026)
 
