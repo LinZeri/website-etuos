@@ -1,0 +1,192 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/website-not-getting-calls#article",
+      "headline": "Why Your Business Website Is Not Getting Calls (and What to Fix First)",
+      "description": "Website not getting calls? First tell a traffic problem from a conversion problem, then fix your first screen, phone button, proof and service pages in order.",
+      "datePublished": "2026-10-15",
+      "dateModified": "2026-10-15",
+      "inLanguage": "en-US",
+      "wordCount": 2149,
+      "keywords": [
+        "website not generating leads",
+        "why is my website not getting calls",
+        "website not getting leads",
+        "service page that converts"
+      ],
+      "articleSection": [
+        "Is It a Traffic Problem or a Conversion Problem?",
+        "Does Your First Screen Say What You Do and Where?",
+        "Can a Visitor Call You in One Tap?",
+        "Do Visitors See Proof That You Are Real?",
+        "Is There a Page for Each Service?",
+        "Is the Page Behind Your Ads the Problem?",
+        "What Should You Fix First?",
+        "Frequently Asked Questions",
+        "What Should You Do Next?",
+        "Sources"
+      ],
+      "articleBody": "You paid for a website, it looks fine to you, and the phone stays quiet. That is frustrating, and it usually leads to the wrong fix: a new design, a new color, a new agency. Most of the time the problem is narrower than that, and you can find it with a short checklist. This guide gives you the order to check things in. It starts by separating two problems that look identical from the outside, then walks through the page elements that decide whether a visitor picks up the phone. It does not quote",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/website-not-getting-calls#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/website-not-getting-calls"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Business websites"
+        },
+        {
+          "@type": "Thing",
+          "name": "Conversion diagnosis"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local business marketing"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/website-not-getting-calls",
+      "url": "https://etuos.com/en/blog/website-not-getting-calls",
+      "name": "Why Your Business Website Is Not Getting Calls (and What to Fix First)",
+      "description": "Website not getting calls? First tell a traffic problem from a conversion problem, then fix your first screen, phone button, proof and service pages in order.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/website-not-getting-calls#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/website-not-getting-calls#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/website-not-getting-calls#primaryimage",
+      "url": "https://etuos.com/images/blog/website-not-getting-calls.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Why Your Business Website Is Not Getting Calls (and What to Fix First)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/website-not-getting-calls#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Why Your Business Website Is Not Getting Calls (and What to Fix First)",
+          "item": "https://etuos.com/en/blog/website-not-getting-calls"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/website-not-getting-calls#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why is my website not getting calls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually for one of two reasons: too few of the right people visit, or visitors arrive and leave without acting. Check your visits first. If people do come, look at the first screen, the call button, the proof on the page and whether each service has its own page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if my problem is traffic or conversion?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Compare how many people visit with how many call or send a form. Very few visits points to a traffic problem. Plenty of visits with few calls points to a conversion problem. Your Google Business Profile calls matter too, because they can arrive without a site visit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should be on my website's first screen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The service you offer, the city or area you cover, one clear next step such as a call button, and a sign of trust such as a review. Skip vague slogans that could describe any business."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a new website to get more calls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always. Many sites improve with a clearer first screen, an easier call button, real proof and one page per service. A rebuild makes sense when the site makes those changes hard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do reviews really affect whether people call?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Surveys say people read them before choosing. BrightLocal's 2025 survey found that 74% of consumers check at least 2 review sites before making a purchase decision. These are stated habits, but they are a good reason to show reviews on your own site."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will ads fix a website that does not get calls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ads can bring visitors, but they cannot make a weak page convincing. If the page behind the ad is unclear or hard to use on a phone, you pay for clicks that leave."
+          }
+        }
+      ]
+    }
+  ]
+}
