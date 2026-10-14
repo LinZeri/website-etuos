@@ -1,0 +1,194 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/service-area-pages-for-local-business-website#article",
+      "headline": "Do You Need a Separate Web Page for Every City You Serve?",
+      "description": "Do you need a page for every city you serve? Learn when a city page earns its place, when it is a near duplicate, and how to build one that helps.",
+      "datePublished": "2026-10-29",
+      "dateModified": "2026-10-29",
+      "inLanguage": "en-US",
+      "wordCount": 2236,
+      "keywords": [
+        "service area pages",
+        "location pages for service area business",
+        "city pages for local seo",
+        "doorway pages local seo",
+        "do i need a page for each city"
+      ],
+      "articleSection": [
+        "Do You Need a Separate Page for Every City You Serve?",
+        "What Does Google Say About City Pages?",
+        "When Does a City Page Earn Its Place?",
+        "When Should You Skip the City Page?",
+        "How Do You Build a City Page That Is Not a Template Swap?",
+        "What About Your Google Business Profile Service Areas?",
+        "Which Pages Should You Build First?",
+        "Frequently Asked Questions",
+        "What Should You Do Next?",
+        "Sources"
+      ],
+      "articleBody": "You serve six towns, and your website talks about one. So someone tells you to build a page for every city, and a quick search shows agencies selling exactly that. Before you add six pages, it helps to know what those pages are for, when they work, and when they become a problem. This guide gives you a way to decide. It does not name a perfect number of pages, because no honest number exists. It does not promise a ranking, because no page can. The one idea to keep: a city page earns its place only when it has something useful to say that the other pages do",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/service-area-pages-for-local-business-website#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/service-area-pages-for-local-business-website"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Service area pages"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local SEO"
+        },
+        {
+          "@type": "Thing",
+          "name": "Business websites"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/service-area-pages-for-local-business-website",
+      "url": "https://etuos.com/en/blog/service-area-pages-for-local-business-website",
+      "name": "Do You Need a Separate Web Page for Every City You Serve?",
+      "description": "Do you need a page for every city you serve? Learn when a city page earns its place, when it is a near duplicate, and how to build one that helps.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/service-area-pages-for-local-business-website#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/service-area-pages-for-local-business-website#breadcrumb"
+      },
+      "caption": "Do You Need a Separate Web Page for Every City You Serve?"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/service-area-pages-for-local-business-website#primaryimage",
+      "url": "https://etuos.com/images/blog/service-area-pages-for-local-business-website.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Do You Need a Separate Web Page for Every City You Serve?"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/service-area-pages-for-local-business-website#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Do You Need a Separate Web Page for Every City You Serve?",
+          "item": "https://etuos.com/en/blog/service-area-pages-for-local-business-website"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/service-area-pages-for-local-business-website#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need a separate page for every city I serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A page per city is a choice, not a requirement. Build one when you have real, different things to say about that place, such as local work, proof, people and questions. Otherwise one page that names the areas you cover can serve visitors well."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are city pages considered doorway pages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not by default. Google describes doorway abuse as pages created to rank for specific, similar search queries that lead users to intermediate pages that are not as useful as the final destination. One of its examples is pages targeted at specific regions or cities that funnel users to one page. A city page with its own useful content is a different thing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I copy one city page and change the city name?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You should not. A page that differs only by the city name adds little for the reader. Google asks whether content provides substantial value compared with other pages in search results, and a swapped template rarely does."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many city pages should I build?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no verified number. Build as many as you can keep accurate and useful, one at a time. If a new page would repeat an existing one, do not publish it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will a city page help me rank in a town far from my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Do not count on it. Google says distance is one of the main factors in local results, and a web page does not change where your business is based. A page can help a visitor from that town decide to call you, but it does not guarantee a position."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are my Google Business Profile service areas the same as city pages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Service areas live in your profile, where Google allows up to 20. City pages live on your website. Keep them consistent, but set up each one on its own."
+          }
+        }
+      ]
+    }
+  ]
+}
