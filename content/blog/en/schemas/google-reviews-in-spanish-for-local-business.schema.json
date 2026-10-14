@@ -1,0 +1,179 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/google-reviews-in-spanish-for-local-business#article",
+      "headline": "Google Reviews in Spanish: How to Ask for Them, Answer Them and Read Them",
+      "description": "How to ask Spanish speaking customers for Google reviews, reply to them, stay inside Google's rules and read a review you did not write in English.",
+      "datePublished": "2026-10-26",
+      "dateModified": "2026-10-26",
+      "inLanguage": "en-US",
+      "wordCount": 2190,
+      "keywords": [
+        "google reviews in spanish",
+        "respond to google reviews in spanish",
+        "ask spanish speaking customers for reviews",
+        "bilingual google business profile",
+        "reviews in other languages google maps"
+      ],
+      "articleSection": [
+        "Reviews",
+        "Multilingual Marketing",
+        "Local Business"
+      ],
+      "articleBody": "A customer you served last week sits down at her kitchen table and opens her phone. She liked the work. She wants to say so. But when the review box opens, she stops. Should she write it in English, which takes effort, or in Spanish, which comes naturally?",
+      "author": {
+        "@id": "https://etuos.com/en/about#author-lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/google-reviews-in-spanish-for-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/en/blog/google-reviews-in-spanish-for-local-business#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Reviews"
+        },
+        {
+          "@type": "Thing",
+          "name": "Spanish Speaking Customers"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Business Marketing"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#author-lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Specialist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/google-reviews-in-spanish-for-local-business#webpage",
+      "url": "https://etuos.com/en/blog/google-reviews-in-spanish-for-local-business",
+      "name": "Google Reviews in Spanish: How to Ask for Them, Answer Them and Read Them",
+      "description": "How to ask Spanish speaking customers for Google reviews, reply to them, stay inside Google's rules and read a review you did not write in English.",
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/google-reviews-in-spanish-for-local-business#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/google-reviews-in-spanish-for-local-business#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/google-reviews-in-spanish-for-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/google-reviews-in-spanish-for-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A barbershop owner at his counter reading a message on his phone while a customer waits"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/google-reviews-in-spanish-for-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Google Reviews in Spanish: How to Ask for Them, Answer Them and Read Them",
+          "item": "https://etuos.com/en/blog/google-reviews-in-spanish-for-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/google-reviews-in-spanish-for-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I ask customers to leave Google reviews in Spanish?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Tell customers they can write in the language they prefer and send the request in that language. Use the review link or QR code from your Business Profile, and ask every customer the same way. Do not offer anything in return, because Google prohibits incentives."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I have to reply to a Spanish review in Spanish?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No rule we can point to requires it. As good practice, reply in the language the customer used when you can do it well. If you cannot, a short, warm reply in English is better than an error-filled one in Spanish."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I offer a discount for a review in Spanish?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google's content policy prohibits offering incentives such as payment, discounts, free goods or services in exchange for reviews, and the language of the review makes no difference."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I read a review written in Spanish?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google's help page says the language you read reviews in is set in your Google Account. Beyond that, use a translation tool you trust and ask a Spanish speaker to check anything unclear, especially tone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I remove a Spanish review I do not like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if it breaks Google's content policy. Google says not to report a review just because you disagree with it, and that it does not get involved in conflicts between businesses and customers. If the report is not accepted, there is a one-time appeal."
+          }
+        }
+      ]
+    }
+  ]
+}
