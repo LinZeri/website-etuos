@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/como-ver-os-anuncios-dos-concorrentes-no-google#article",
+      "headline": "Como ver os anúncios dos seus concorrentes no Google antes de investir",
+      "description": "Veja como pesquisar os anúncios dos concorrentes no Google com a Central de Transparência de Anúncios e o que observar na oferta deles, sem copiar nada.",
+      "datePublished": "2026-10-27",
+      "dateModified": "2026-10-27",
+      "inLanguage": "pt-BR",
+      "wordCount": 1847,
+      "keywords": "como ver anúncios dos concorrentes no google, google ads transparency center, pesquisar concorrentes locais, anúncios dos concorrentes",
+      "articleSection": "Tráfego Pago",
+      "articleBody": "Quem vai começar a anunciar costuma fazer a mesma pergunta: o que os outros do meu ramo estão dizendo nos anúncios deles? A pergunta é boa. Olhar o mercado antes de gastar verba ajuda a decidir o que oferecer, em que idioma falar e para onde mandar o clique. O erro é transformar essa pesquisa em cópia, ou em palpite sobre quanto o concorrente ganha ou gasta, coisa que ninguém enxerga de fora.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/como-ver-os-anuncios-dos-concorrentes-no-google#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/como-ver-os-anuncios-dos-concorrentes-no-google"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Central de Transparência de Anúncios"
+        },
+        {
+          "@type": "Thing",
+          "name": "Análise de concorrentes"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/como-ver-os-anuncios-dos-concorrentes-no-google",
+      "url": "https://etuos.com/pt/blog/como-ver-os-anuncios-dos-concorrentes-no-google",
+      "name": "Como ver os anúncios dos seus concorrentes no Google antes de investir",
+      "description": "Veja como pesquisar os anúncios dos concorrentes no Google com a Central de Transparência de Anúncios e o que observar na oferta deles, sem copiar nada.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/como-ver-os-anuncios-dos-concorrentes-no-google#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/como-ver-os-anuncios-dos-concorrentes-no-google#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/como-ver-os-anuncios-dos-concorrentes-no-google#primaryimage",
+      "url": "https://etuos.com/images/blog/como-ver-os-anuncios-dos-concorrentes-no-google.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de pequeno negócio comparando anúncios no notebook, com um caderno de anotações ao lado"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/como-ver-os-anuncios-dos-concorrentes-no-google#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Como ver os anúncios dos seus concorrentes no Google antes de investir",
+          "item": "https://etuos.com/pt/blog/como-ver-os-anuncios-dos-concorrentes-no-google"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/como-ver-os-anuncios-dos-concorrentes-no-google#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Como ver os anúncios dos concorrentes no Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use a Central de Transparência de Anúncios (Ads Transparency Center) do Google. Segundo o Google, ela é um repositório pesquisável de anunciantes e dos anúncios que veicularam, e a busca pode ser feita pelo nome do anunciante ou do site. Complete com uma busca comum pelo serviço e pela cidade."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso ter conta no Google Ads para usar essa ferramenta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A página de ajuda do Google que serviu de base a este artigo não detalha requisitos de acesso, então confira na própria Central de Transparência de Anúncios como ela funciona hoje. O que a página afirma é que se trata de um repositório pesquisável de anunciantes e de anúncios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para saber quanto o concorrente gasta em anúncios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Ver o anúncio não revela verba nem desempenho. Para estimar custo do seu nicho, use o Planejador de Palavras-chave, lembrando que os números são estimativas e não garantia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso copiar o anúncio de um concorrente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não deve. Aprenda com a oferta e a mensagem, mas escreva com as suas próprias palavras e prometa só o que o seu negócio entrega. Copiar deixa o seu anúncio igual ao dos outros, e o cliente fica sem motivo para escolher você."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "E os anúncios em redes sociais?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cada plataforma tem a sua própria ferramenta de consulta, com regras próprias. Procure a de cada rede e confira como ela funciona antes de tirar conclusões."
+          }
+        }
+      ]
+    }
+  ]
+}
