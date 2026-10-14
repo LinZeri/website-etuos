@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local#article",
+      "headline": "Como anunciar só para a sua região no Google Ads: cidade, raio e o que evitar",
+      "description": "Aprenda a segmentar o Google Ads por cidade ou raio, entender o 'Presence or Interest' e evitar pagar por cliques de quem está fora da sua área.",
+      "datePublished": "2026-10-22",
+      "dateModified": "2026-10-22",
+      "inLanguage": "pt-BR",
+      "wordCount": 2063,
+      "keywords": "segmentação por localização google ads, anunciar para uma cidade no google ads, raio google ads, google ads por região",
+      "articleSection": "Tráfego Pago",
+      "articleBody": "Quem atende só um bairro, uma cidade ou um condado tem um problema que o dono de e-commerce não tem: cada clique de quem mora fora da sua área é dinheiro jogado fora. Você não vai ao Texas fazer uma limpeza em Massachusetts, então não faz sentido pagar para o anúncio aparecer lá. O Google Ads tem controles de localização justamente para isso, mas eles têm pegadinhas, e a principal é achar que \"segmentei a cidade\" significa \"só quem está na cidade vê o meu anúncio\".",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Segmentação por localização"
+        },
+        {
+          "@type": "Thing",
+          "name": "Anúncios locais"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local",
+      "url": "https://etuos.com/pt/blog/como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local",
+      "name": "Como anunciar só para a sua região no Google Ads: cidade, raio e o que evitar",
+      "description": "Aprenda a segmentar o Google Ads por cidade ou raio, entender o 'Presence or Interest' e evitar pagar por cliques de quem está fora da sua área.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local#primaryimage",
+      "url": "https://etuos.com/images/blog/como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Profissional de serviços em pé ao lado de uma van branca, olhando um tablet numa rua de bairro americano"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Como anunciar só para a sua região no Google Ads: cidade, raio e o que evitar",
+          "item": "https://etuos.com/pt/blog/como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dá para anunciar no Google Ads só para a minha cidade?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dá para configurar a campanha para uma área, como uma cidade, ou para um raio em volta de um endereço. O Google chama a segmentação geográfica ampla de \"Presence or Interest\" e diz que ela pode alcançar pessoas que não apenas estão nos locais segmentados, então confira qual opção está ativa na sua campanha."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual é o menor raio que posso usar no Google Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Google informa que a segmentação por raio exige um raio de pelo menos 1 km em volta de qualquer local. Não dá para definir um círculo menor do que isso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual é o raio ideal para um negócio local?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um raio ideal que valha para todos os negócios. Parta da sua área real de atendimento, até onde você aceita ir para atender o cliente, e ajuste conforme os contatos chegam."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Segmentar uma área menor deixa o clique mais barato?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há como prometer isso. O preço do clique vem do leilão, e um clique nunca custa mais do que o CPC máximo que você definiu. O que a área menor evita é pagar por cliques de quem está fora da sua região."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso me preocupar com idioma além da localização?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. A partir do fim de setembro de 2026, segundo o Search Engine Journal, o Google passa a se basear no idioma do anúncio e da página de destino nas campanhas de Busca. Anúncio e página precisam estar no idioma do público que você quer atrair."
+          }
+        }
+      ]
+    }
+  ]
+}
