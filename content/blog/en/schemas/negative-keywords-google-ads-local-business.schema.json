@@ -1,0 +1,178 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/negative-keywords-google-ads-local-business#article",
+      "headline": "Negative Keywords in Google Ads: How to Stop Paying for Clicks That Never Call You",
+      "description": "What negative keywords are, how to find them in your search terms report, which searches local service businesses block, and how the match types work.",
+      "datePublished": "2026-10-27",
+      "dateModified": "2026-10-27",
+      "inLanguage": "en-US",
+      "wordCount": 2062,
+      "keywords": [
+        "negative keywords google ads",
+        "what are negative keywords",
+        "google ads search terms report",
+        "how to add negative keywords",
+        "wasted ad spend google ads",
+        "google ads local business"
+      ],
+      "articleSection": [
+        "What Is a Negative Keyword?",
+        "Why Do Irrelevant Searches Cost You Money?",
+        "How Do You Find Which Searches to Block?",
+        "Which Searches Does a Local Service Business Usually Block?",
+        "What Do the Three Match Types Do?",
+        "Where Do You Add Negative Keywords?",
+        "How Do You Avoid Blocking Good Customers?",
+        "What Is a Simple Review Routine?",
+        "Frequently Asked Questions",
+        "What Should You Do Next?"
+      ],
+      "articleBody": "Google bills you when someone clicks your ad. It does not ask whether that person wanted to hire you, apply for a job, fix the problem themselves or buy a part. If your ad shows for a search that has nothing to do with your business, you can still pay for the click. Negative keywords are the tool that closes that gap. This guide explains what they are, how to find the searches worth blocking, which types of searches local service businesses usually block, how the three match types work, and a si",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/negative-keywords-google-ads-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/negative-keywords-google-ads-local-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Negative keywords"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Search terms report"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/negative-keywords-google-ads-local-business",
+      "url": "https://etuos.com/en/blog/negative-keywords-google-ads-local-business",
+      "name": "Negative Keywords in Google Ads: How to Stop Paying for Clicks That Never Call You",
+      "description": "What negative keywords are, how to find them in your search terms report, which searches local service businesses block, and how the match types work.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/negative-keywords-google-ads-local-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/negative-keywords-google-ads-local-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/negative-keywords-google-ads-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/negative-keywords-google-ads-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Negative Keywords in Google Ads: How to Stop Paying for Clicks That Never Call You"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/negative-keywords-google-ads-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Negative Keywords in Google Ads: How to Stop Paying for Clicks That Never Call You",
+          "item": "https://etuos.com/en/blog/negative-keywords-google-ads-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/negative-keywords-google-ads-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a negative keyword in Google Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a word or phrase that keeps your ad from showing for searches that contain it. Google describes negative keywords as a way to exclude search terms from your campaigns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I find negative keywords for my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open the search terms report in your Google Ads account and read the real searches that triggered your ads. Any search that is about a job, a service you do not offer or a place you do not serve points to a word worth blocking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between broad, phrase and exact match for negative keywords?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Broad blocks a search that contains all your negative terms in any order. Phrase blocks a search that contains the terms in the same order, even with other words around them. Exact blocks a search that contains the terms in the same order without extra words, so it is the narrowest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will negative keywords lower my cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They stop your ads from showing for searches you have decided are not worth a click, but no source gives a number for how much that changes your spend. Treat them as a way to keep the budget for relevant searches, not as a savings promise."
+          }
+        }
+      ]
+    }
+  ]
+}
