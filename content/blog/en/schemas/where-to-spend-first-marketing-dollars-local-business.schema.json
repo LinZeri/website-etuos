@@ -1,0 +1,176 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/where-to-spend-first-marketing-dollars-local-business#article",
+      "headline": "Where Should a Local Business Put Its First Marketing Dollars? A Practical Order of Operations",
+      "description": "Not sure where your first marketing dollar should go? Here is an order of operations for a local service business: what comes first, what waits, and why.",
+      "datePublished": "2026-10-16",
+      "dateModified": "2026-10-16",
+      "inLanguage": "en-US",
+      "wordCount": 2244,
+      "keywords": [
+        "how to allocate a marketing budget for a small business",
+        "where to spend marketing budget small business",
+        "marketing budget for local business",
+        "first marketing channel for small business"
+      ],
+      "articleSection": [
+        "Why Order Matters More Than Amount",
+        "Step 1: Spend Time Before You Spend Money",
+        "Step 2: Capture the Demand That Already Exists",
+        "Step 3: Fix the Leak Before You Add Water",
+        "Step 4: Create Demand, Once the Rest Can Hold It",
+        "How to Know When to Move Down the List"
+      ],
+      "articleBody": "Where the first marketing dollar goes matters more than how much you spend. The order for a local service business: verify the profile and build a review habit, capture existing demand with Local Services Ads or Google Ads, fix the page and the phone, then create demand.",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/where-to-spend-first-marketing-dollars-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/where-to-spend-first-marketing-dollars-local-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Marketing Budget"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Business Marketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Services Ads"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/where-to-spend-first-marketing-dollars-local-business",
+      "url": "https://etuos.com/en/blog/where-to-spend-first-marketing-dollars-local-business",
+      "name": "Where Should a Local Business Put Its First Marketing Dollars? A Practical Order of Operations",
+      "description": "Not sure where your first marketing dollar should go? Here is an order of operations for a local service business: what comes first, what waits, and why.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/where-to-spend-first-marketing-dollars-local-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/where-to-spend-first-marketing-dollars-local-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/where-to-spend-first-marketing-dollars-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/where-to-spend-first-marketing-dollars-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A small auto repair shop owner at the front desk with a notebook and a calculator"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/where-to-spend-first-marketing-dollars-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Where Should a Local Business Put Its First Marketing Dollars? A Practical Order of Operations",
+          "item": "https://etuos.com/en/blog/where-to-spend-first-marketing-dollars-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/where-to-spend-first-marketing-dollars-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where should a new local business spend its first marketing dollars?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with what makes every other channel work: a verified Google Business Profile, accurate details and a habit of asking for and answering reviews. Those cost mostly time. Once you can answer every contact that arrives, add paid search, such as Local Services Ads or Google Ads, to reach people who are already searching."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should a local service business start with Google Ads or Facebook ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search usually comes first, because the person searching already wants to hire someone. Social ads create awareness and work best once your profile, reviews and follow-up are ready to catch the attention they bring."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a percentage of revenue I should spend on marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no number we can verify, so we will not give one. The Intuit survey estimates an average small business advertising budget of about $78,000, but it spans businesses from zero to over 100 employees and is not a target. Work out your own budget from what a customer is worth to you and how many contacts you can actually handle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I pay Google to rank higher in the map results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google says \"There's no way to request or pay for a better local ranking on Google.\" Local rankings rest mainly on relevance, distance and popularity, which is why the profile and reviews are worth your time. Paid ads are a separate placement."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Brief: where-to-spend-first-marketing-dollars-local-business (en)
+
+- Keyword: how to allocate a marketing budget for a small business. Secondary: where to spend marketing budget small business, marketing budget for local business, first marketing channel for small business.
+- Template: how-to-guide. Audience: US local service business owner. Publish date 2026-10-16. Target 1,800 words, cap 2,340.
+- Angle (re-angled to avoid cannibalization): order of operations, where the first dollar goes and what waits. Not the backwards-math worksheet, which lives in how-much-google-ads-cost-small-business (linked in one line).
+- Structure: 1) foundations that cost mostly time (verified profile, review habit); 2) capture existing demand (LSA, Google Ads); 3) fix the page and the phone before more traffic; 4) create demand (social), qualitative only; when to move down the list; FAQ; takeaways; WhatsApp CTA.
+- Sources by ID: S14 (verify), S10 (local ranking, cannot pay for it), S16 (review incentives prohibited), S23 (reply needs verification), S9 (BrightLocal 2026 via PinMeTo, vendor caveat), T5, T12 (LSA pay per valid lead, lead price varies, invalid not charged), T13 (weekly budget, bids set lead value), T9, T10 (max CPC, often pays less), T8 (answering calls affects ranking), T2 (Intuit average, labeled, never a target).
+- Do not claim: any percentage of revenue, any range, any rule of thumb, any channel split, social ad costs, timeframes, Etuos prices or guarantees, Etuos experience. Dollar values only as labeled illustrative arithmetic (illustration uses counts, not dollars).
+- Internal links (all dated on or before 10/16): how-much-google-ads-cost-small-business, how-much-paid-ads-cost-local-business-guide, local-services-ads-vs-google-ads, google-business-profile-optimization-checklist, how-to-get-google-reviews-for-local-business, facebook-ads-for-local-business, website-not-getting-calls (10/15, same batch), /en/services/paid-ads.
+- CTA: WhatsApp, free diagnosis, no deadline.
