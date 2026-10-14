@@ -1,0 +1,170 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/anunciar-em-espanhol-nos-eua-negocio-brasileiro#article",
+      "headline": "Vale anunciar em espanhol nos EUA? O que o dono de negócio brasileiro precisa saber",
+      "description": "Anunciar em espanhol nos EUA vale para o seu negócio? Veja quando o público hispânico entra na conta, como separar campanha e página por idioma e como testar.",
+      "datePublished": "2026-10-15",
+      "dateModified": "2026-10-15",
+      "inLanguage": "pt-BR",
+      "wordCount": 2100,
+      "keywords": [
+        "anunciar em espanhol nos EUA",
+        "marketing para hispânicos nos EUA",
+        "público hispânico nos EUA",
+        "Google Ads em espanhol",
+        "site em espanhol nos EUA"
+      ],
+      "articleSection": "Conseguir Clientes nos EUA",
+      "articleBody": "Quem empreende nos Estados Unidos costuma ouvir a mesma sugestão de vizinhos, fornecedores e amigos: \"você devia anunciar em espanhol também, tem muito latino aqui\". A frase tem um fundo de verdade, mas não é uma resposta. Espanhol pode ser um excelente terceiro idioma para o seu negócio ou um gasto sem retorno, e a diferença está em quem compra o seu serviço.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/anunciar-em-espanhol-nos-eua-negocio-brasileiro#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/pt/blog/anunciar-em-espanhol-nos-eua-negocio-brasileiro#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "anúncios em espanhol"
+        },
+        {
+          "@type": "Thing",
+          "name": "público hispânico nos EUA"
+        },
+        {
+          "@type": "Thing",
+          "name": "campanhas por idioma"
+        },
+        {
+          "@type": "Thing",
+          "name": "tráfego pago para negócio brasileiro nos EUA"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/anunciar-em-espanhol-nos-eua-negocio-brasileiro#webpage",
+      "url": "https://etuos.com/pt/blog/anunciar-em-espanhol-nos-eua-negocio-brasileiro",
+      "name": "Vale anunciar em espanhol nos EUA? O que o dono de negócio brasileiro precisa saber",
+      "description": "Anunciar em espanhol nos EUA vale para o seu negócio? Veja quando o público hispânico entra na conta, como separar campanha e página por idioma e como testar.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/anunciar-em-espanhol-nos-eua-negocio-brasileiro#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/anunciar-em-espanhol-nos-eua-negocio-brasileiro#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/anunciar-em-espanhol-nos-eua-negocio-brasileiro#primaryimage",
+      "url": "https://etuos.com/images/blog/anunciar-em-espanhol-nos-eua-negocio-brasileiro.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dona de uma loja de bairro conversando com uma cliente no balcão"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/anunciar-em-espanhol-nos-eua-negocio-brasileiro#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Vale anunciar em espanhol nos EUA? O que o dono de negócio brasileiro precisa saber",
+          "item": "https://etuos.com/pt/blog/anunciar-em-espanhol-nos-eua-negocio-brasileiro"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/anunciar-em-espanhol-nos-eua-negocio-brasileiro#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vale anunciar em espanhol se o meu negócio é para brasileiros?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Em geral o primeiro idioma é o português, porque é o do público que já compra de você. O espanhol entra se a sua clientela também inclui hispânicos e se você consegue atender nesse idioma. Comece com um teste pequeno em vez de abrir uma frente grande."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Anunciar em espanhol converte mais do que em inglês?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não dá para afirmar. Não existe benchmark público que compare conversão ou custo por clique entre espanhol e inglês nos EUA, e o resultado depende do serviço e da cidade. A forma de saber é testar uma campanha separada e medir o seu próprio resultado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso usar o mesmo anúncio traduzido e apontar para a página em inglês?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não é o recomendado. Desde setembro de 2026, o Google Ads se baseia no idioma do criativo e da página de destino na Busca. Anúncio em espanhol deve levar a uma página em espanhol, escrita para quem fala o idioma, e não a uma tradução automática ou a uma página em outro idioma."
+          }
+        }
+      ]
+    }
+  ]
+}
