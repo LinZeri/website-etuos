@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/google-search-console-para-negocio-local#article",
+      "headline": "Google Search Console para negócio local: o que olhar e o que ignorar",
+      "description": "Aprenda a conectar o Google Search Console, ler cliques, impressões e posição média, inspecionar uma URL e enviar o sitemap, sem tomar decisão errada.",
+      "datePublished": "2026-10-29",
+      "dateModified": "2026-10-29",
+      "inLanguage": "pt-BR",
+      "wordCount": 2181,
+      "keywords": "google search console como usar, search console para pequeno negócio, como saber se meu site está no google, inspeção de url",
+      "articleSection": "SEO",
+      "articleBody": "Quem tem site costuma fazer a mesma pergunta: \"meu negócio aparece no Google?\". A resposta está num serviço gratuito do próprio Google, o Search Console. O problema é que ele abre com gráficos, siglas e avisos em vermelho, e quem não sabe lê-los tira conclusões erradas: acha que perdeu cliente porque um número oscilou, ou se assusta com uma página \"não indexada\" que nunca precisou estar lá.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/google-search-console-para-negocio-local#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/google-search-console-para-negocio-local"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Search Console"
+        },
+        {
+          "@type": "Thing",
+          "name": "SEO local"
+        },
+        {
+          "@type": "Thing",
+          "name": "Indexação de páginas"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/google-search-console-para-negocio-local",
+      "url": "https://etuos.com/pt/blog/google-search-console-para-negocio-local",
+      "name": "Google Search Console para negócio local: o que olhar e o que ignorar",
+      "description": "Aprenda a conectar o Google Search Console, ler cliques, impressões e posição média, inspecionar uma URL e enviar o sitemap, sem tomar decisão errada.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/google-search-console-para-negocio-local#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/google-search-console-para-negocio-local#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/google-search-console-para-negocio-local#primaryimage",
+      "url": "https://etuos.com/images/blog/google-search-console-para-negocio-local.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Mulher em um escritório pequeno olhando o notebook, com um caderno de anotações aberto na mesa"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/google-search-console-para-negocio-local#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Google Search Console para negócio local: o que olhar e o que ignorar",
+          "item": "https://etuos.com/pt/blog/google-search-console-para-negocio-local"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/google-search-console-para-negocio-local#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Preciso do Google Search Console para aparecer no Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O Google informa que não é preciso se cadastrar no Search Console para o site ser incluído nos resultados da Pesquisa. A ferramenta serve para entender como o Google enxerga o site, não para colocá-lo na busca."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que significam cliques, impressões, CTR e posição média?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cliques são as vezes em que um usuário clicou no seu site a partir dos resultados do Google. Impressões são as vezes em que o site apareceu nos resultados. CTR é a contagem de cliques dividida pela de impressões. Posição média é a posição média do resultado mais alto do seu site."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Uma página \"não indexada\" é um problema?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não necessariamente. O Google diz que \"não indexada\" não é necessariamente ruim e que a maioria dos sites tem algumas páginas assim, mas as suas páginas importantes devem estar indexadas. Confira só as páginas que geram cliente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pedir indexação garante que a página aparece no Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. A própria ferramenta de inspeção de URL diz que enviar um pedido não garante que a página vai aparecer no índice do Google. Corrija primeiro o motivo do problema."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O sitemap faz o Google indexar minhas páginas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O sitemap diz ao Google quais páginas conhecer, mas não garante que todas serão rastreadas e indexadas. Enviá-lo é uma boa prática, não uma garantia de resultado."
+          }
+        }
+      ]
+    }
+  ]
+}

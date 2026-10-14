@@ -1,0 +1,157 @@
+---
+titulo: "Google Search Console para negócio local: o que olhar e o que ignorar"
+metaTitulo: "Google Search Console para negócio local: o básico"
+descricao: "Aprenda a conectar o Google Search Console, ler cliques, impressões e posição média, inspecionar uma URL e enviar o sitemap, sem tomar decisão errada."
+data: "2026-10-29"
+autor: "Lin Zeri"
+imagem: "/images/blog/google-search-console-para-negocio-local.webp"
+---
+
+Quem tem site costuma fazer a mesma pergunta: "meu negócio aparece no Google?". A resposta está num serviço gratuito do próprio Google, o Search Console. O problema é que ele abre com gráficos, siglas e avisos em vermelho, e quem não sabe lê-los tira conclusões erradas: acha que perdeu cliente porque um número oscilou, ou se assusta com uma página "não indexada" que nunca precisou estar lá.
+
+Este guia mostra o que conectar, o que ler e o que ignorar num negócio local, nos Estados Unidos ou no Brasil.
+
+> **TL;DR:** O Search Console ajuda a entender como o Google enxerga o seu site. Você verifica que o site é seu, olha o relatório de desempenho (cliques, impressões, CTR e posição média), usa a inspeção de URL para checar uma página e envia o sitemap. Ele mostra o que aconteceu, não promete resultado, e não é preciso estar nele para aparecer no Google. Foque nas buscas e páginas que importam para o seu serviço e a sua cidade, e ignore oscilações pequenas e números isolados.
+
+## O que é o Search Console (e o que ele não é)
+
+Segundo o Google, o Search Console ajuda você a entender e melhorar como o Google enxerga o seu site. O mesmo texto avisa que não é preciso se cadastrar nele para o site ser incluído nos resultados da Pesquisa ([Google, "About Search Console", Search Console Help](https://support.google.com/webmasters/answer/9128668), acesso em out. 2026).
+
+Duas consequências práticas:
+
+- **Ele não é um pedágio.** Seu site pode aparecer no Google sem Search Console. A ferramenta serve para enxergar o que está acontecendo.
+- **Ele não é um botão de ranking.** Entrar nele não coloca o site no topo; o valor está nas informações para decidir melhor.
+
+Também não confunda com o Google Business Profile: o perfil cuida do negócio no Maps, e o Search Console cuida do seu **site**. Veja o [guia para aparecer no Google](/pt/blog/como-aparecer-no-google-guia-do-negocio-local).
+
+## Passo 1: verifique que o site é seu
+
+Para ver os dados, o Google precisa saber que você é o dono. O Google define a verificação de propriedade como provar ao Search Console que você é dono de um site específico, e diz que o dono verificado tem o nível mais alto de permissões ([Google, "Verify your site ownership", Search Console Help](https://support.google.com/webmasters/answer/9008080), acesso em out. 2026).
+
+![Uma chave verde sobre uma mesa branca ao lado de uma pequena casa de madeira em miniatura](/images/blog/google-search-console-para-negocio-local-1-propriedade.webp)
+
+Na prática:
+
+1. Entre no Search Console com uma conta Google do negócio, não a de um funcionário ou de uma agência que pode sair.
+2. Adicione o seu site como propriedade, cobrindo o domínio inteiro ou um endereço específico.
+3. Siga o método de verificação que a ferramenta oferecer.
+
+A verificação por registro de DNS, feita no provedor onde o domínio está registrado, é mais trabalhosa, e o Google diz que é o único jeito de verificar uma propriedade de Domínio. Se outra pessoa cuida do seu domínio, faça essa etapa junto com ela. Os nomes dos menus mudam, então confira os rótulos na tela.
+
+## Passo 2: leia o relatório de desempenho
+
+É onde a maioria passa mais tempo e onde mais se erra. O relatório mostra quatro números, e o Google define cada um ([Google, "Performance report (Search results)", Search Console Help](https://support.google.com/webmasters/answer/7576553), acesso em out. 2026):
+
+- **Cliques:** o número de vezes que um usuário clicou no seu site a partir dos resultados da Pesquisa do Google.
+- **Impressões:** quantas vezes o seu site apareceu nos resultados da Pesquisa.
+- **CTR:** a contagem de cliques dividida pela contagem de impressões.
+- **Posição média:** a posição média do resultado mais alto do seu site.
+
+![Fachada de uma loja vista da rua, com vários bonecos de papel passando na calçada e um deles, em verde, entrando pela porta aberta](/images/blog/google-search-console-para-negocio-local-2-desempenho.webp)
+
+### O que cada número quer dizer de verdade
+
+**Impressões** não são pessoas interessadas. Uma impressão só diz que o seu site apareceu nos resultados; não diz que a pessoa o viu com atenção nem que se interessou. Muita impressão com pouco clique pode indicar uma busca que não combina com a sua oferta, ou um título pouco convidativo.
+
+**Cliques** mostram quem veio pela busca, mas clique não é cliente.
+
+**CTR** é só uma divisão. Este artigo não traz faixa de CTR "boa" ou "ruim", porque ela varia com o tipo de busca e a posição. Compare o site com o próprio histórico, não com um número de internet.
+
+**Posição média** é a mais mal interpretada. Uma média mistura muitas buscas diferentes e pode piorar justamente porque o site passou a aparecer em mais buscas, inclusive mais distantes, sem que você tenha caído nas que importam. Nunca a tome como "o lugar em que o meu site está no Google".
+
+### Como usar o relatório num negócio local
+
+O relatório permite agrupar os dados por consulta, que o Google descreve como a busca que o usuário digitou, e por página. Para um negócio local, o exercício útil é este:
+
+1. **Olhe as consultas que combinam o seu serviço com a sua cidade.** Aparecem as buscas que você esperava? Aparecem outras que podem virar uma página nova?
+2. **Procure descompasso de idioma.** Se você atende brasileiros nos EUA, veja se o site aparece nas buscas em português, em inglês ou nos dois, e se isso bate com o público que você quer. A decisão por trás disso está em [site em português ou inglês nos EUA](/pt/blog/site-em-portugues-ou-ingles-nos-eua).
+3. **Veja quais páginas recebem as visitas.** Se a mais vista não é a do serviço que dá lucro, o problema é de estrutura, não de sorte.
+4. **Olhe um período longo, e não um único dia.** A tendência conta mais do que um dia isolado.
+
+## Passo 3: use a inspeção de URL para checar uma página
+
+Quando uma página importante não aparece, a inspeção de URL é a ferramenta certa. O Google explica que os resultados mostrados são da versão indexada mais recente da página, e não da versão atual no ar ([Google, "URL Inspection tool", Search Console Help](https://support.google.com/webmasters/answer/9012289), acesso em out. 2026). Se você mudou a página ontem, o que a ferramenta mostra por padrão pode ser a versão antiga.
+
+![Uma lupa com aro verde sobre uma folha de papel retirada de uma pilha de folhas](/images/blog/google-search-console-para-negocio-local-3-inspecao.webp)
+
+A mesma página descreve o teste ao vivo: a ferramenta busca e examina a URL em tempo real, útil para conferir se a página atual pode ser indexada depois de você corrigir algo. Há também a opção de pedir ao Google que rastreie a página, com uma regra de ouro dita pelo próprio Google: enviar o pedido não garante que a página vai aparecer no índice. Então:
+
+- Corrija o motivo do problema antes de pedir. Pedir de novo não conserta a causa.
+- Use o operador `site:` no Google só como conferência extra. O Google avisa que a lista de URLs que ele retorna nem sempre é exaustiva, então concluir "não estou no Google" só por ele é um erro ([Google Search Central, "site: search operator"](https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site), acesso em out. 2026).
+
+## Passo 4: entenda o relatório de indexação de páginas
+
+Esse relatório mostra quantas URLs do seu site foram rastreadas e indexadas pelo Google ([Google, "Page indexing report", Search Console Help](https://support.google.com/webmasters/answer/7440203), acesso em out. 2026). É o que mais assusta, porque lista páginas "não indexadas" com motivos técnicos.
+
+Respire. O Google lembra que "não indexada" não é necessariamente ruim, e que a maioria dos sites tem algumas páginas assim, mas as suas páginas **importantes** devem estar indexadas. E a mesma página lembra que estar indexada não garante aparecer nos resultados.
+
+A pergunta certa, então, é: "alguma página que gera cliente está fora?". Liste suas páginas de serviço, de contato e de cidade e confira só essas. Quando uma delas está fora, os suspeitos costumam ser bloqueios do próprio site:
+
+- **Regra de `noindex`.** Para funcionar, a página não pode estar bloqueada pelo robots.txt, e a regra dentro do robots.txt não é suportada ([Google Search Central, "Block Search indexing with noindex"](https://developers.google.com/search/docs/crawling-indexing/block-indexing), acesso em out. 2026).
+- **Bloqueio no robots.txt.** O arquivo diz ao rastreador quais URLs ele pode acessar ([Google Search Central, "Introduction to robots.txt"](https://developers.google.com/search/docs/crawling-indexing/robots/intro), acesso em out. 2026).
+- **Páginas muito parecidas.** O `rel="canonical"` é um sinal forte, não uma ordem ([Google Search Central, "How to specify a canonical URL"](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls), acesso em out. 2026).
+
+O checklist técnico completo está no guia sobre [por que o site não aparece no Google](/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos).
+
+## Passo 5: envie o sitemap
+
+O Google descreve o sitemap como um arquivo no seu site que diz ao Google quais páginas ele deve conhecer ([Google, "Sitemaps report", Search Console Help](https://support.google.com/webmasters/answer/7451001), acesso em out. 2026). O relatório de sitemaps é onde você informa o endereço desse arquivo.
+
+![Um mapa de papel dobrado sobre uma mesa branca, com um trajeto pontilhado e um alfinete verde](/images/blog/google-search-console-para-negocio-local-4-sitemap.webp)
+
+Muitos criadores de site já geram o sitemap sozinhos, num endereço que costuma seguir o padrão `seusite.com/sitemap.xml`. Confirme o endereço com quem fez o seu site. Depois do envio, o relatório mostra o histórico e os problemas que o Google encontrou ao ler o arquivo.
+
+Mantenha a expectativa no lugar: o sitemap ajuda o Google a conhecer as páginas, mas não garante que todas serão rastreadas e indexadas ([Google Search Central, "Learn about sitemaps"](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview), acesso em out. 2026). E, em geral, o Google não garante que uma página seja rastreada, indexada ou exibida ([Google Search Central, "In-depth guide to how Google Search works"](https://developers.google.com/search/docs/fundamentals/how-search-works), acesso em out. 2026). Enviar o sitemap é higiene, não atalho.
+
+## O que olhar e o que ignorar
+
+Esta é a parte que evita decisão errada:
+
+| Olhe com atenção | Ignore ou relativize |
+|---|---|
+| Consultas que misturam o seu serviço com a sua cidade | Uma posição média isolada, sem ver por consulta |
+| Quais páginas recebem cliques e se dão lucro | Oscilação pequena de cliques entre períodos |
+| Páginas importantes (serviço, contato, cidade) fora do índice | A lista inteira de "não indexadas", sem ver quais são |
+| Mudança grande e sustentada num período longo | Um único dia bom ou ruim |
+| Avisos de problema no sitemap ou na verificação | Impressões altas tomadas como sinal de clientes |
+| Descompasso entre o idioma da busca e o da página | Comparar o seu CTR com um número de internet |
+
+Duas regras de bolso: nunca decida por um número só (cruze cliques, impressões e página), e nunca espere prazo da ferramenta. O Search Console mostra o que já aconteceu; ele não diz quando uma mudança vai surtir efeito.
+
+## E se eu atendo no Brasil?
+
+A leitura é a mesma. O que muda é o vocabulário das buscas e a concorrência local. Veja como a Etuos atende [empreendedores no Brasil](/pt/brasil).
+
+## Quando faz sentido pedir ajuda
+
+Ler o Search Console é viável. O que pesa é transformar o que ele mostra em ação: reescrever página, corrigir bloqueio, criar a página que falta. Para isso, conheça o serviço de [SEO](/pt/servicos/seo) e leia sobre [SEO local](/pt/blog/seo-local-o-que-e-e-como-funciona) e [SEO em português nos EUA](/pt/blog/seo-em-portugues-nos-eua).
+
+## Perguntas frequentes
+
+### Preciso do Google Search Console para aparecer no Google?
+
+Não. O Google informa que não é preciso se cadastrar no Search Console para o site ser incluído nos resultados da Pesquisa. A ferramenta serve para entender como o Google enxerga o site, não para colocá-lo na busca.
+
+### O que significam cliques, impressões, CTR e posição média?
+
+Cliques são as vezes em que um usuário clicou no seu site a partir dos resultados do Google. Impressões são as vezes em que o site apareceu nos resultados. CTR é a contagem de cliques dividida pela de impressões. Posição média é a posição média do resultado mais alto do seu site.
+
+### Uma página "não indexada" é um problema?
+
+Não necessariamente. O Google diz que "não indexada" não é necessariamente ruim e que a maioria dos sites tem algumas páginas assim, mas as suas páginas importantes devem estar indexadas. Confira só as páginas que geram cliente.
+
+### Pedir indexação garante que a página aparece no Google?
+
+Não. A própria ferramenta de inspeção de URL diz que enviar um pedido não garante que a página vai aparecer no índice do Google. Corrija primeiro o motivo do problema.
+
+### O sitemap faz o Google indexar minhas páginas?
+
+Não. O sitemap diz ao Google quais páginas conhecer, mas não garante que todas serão rastreadas e indexadas. Enviá-lo é uma boa prática, não uma garantia de resultado.
+
+## Por onde começar
+
+Verifique o site com uma conta do seu negócio, olhe o desempenho por consulta e por página, confira só as páginas importantes no relatório de indexação e envie o sitemap. Depois, ignore o ruído: oscilações pequenas e números isolados.
+
+Se quiser ajuda para transformar o que o Search Console mostra em um plano, a Etuos faz um diagnóstico gratuito. Lin Zeri tem mais de 10 anos de marketing digital e já gerenciou mais de US$ 500 mil em anúncios. Saiba mais sobre [quem está por trás da Etuos](/pt/sobre).
+
+[Quero meu diagnóstico gratuito no WhatsApp](https://wa.me/5516991252073?text=Ol%C3%A1!%20Li%20o%20artigo%20sobre%20o%20Google%20Search%20Console%20e%20quero%20ajuda%20com%20o%20SEO%20do%20meu%20neg%C3%B3cio.)
