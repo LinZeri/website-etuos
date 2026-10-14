@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos#article",
+      "headline": "Site não aparece no Google? Os 10 requisitos técnicos em linguagem simples",
+      "description": "Seu site não aparece no Google? Veja 10 requisitos técnicos explicados sem jargão, como checar cada um e o que corrigir primeiro no seu negócio.",
+      "datePublished": "2026-10-26",
+      "dateModified": "2026-10-26",
+      "inLanguage": "pt-BR",
+      "wordCount": 2188,
+      "keywords": "site não aparece no google, por que meu site não aparece no google, site não indexado, requisitos técnicos de seo",
+      "articleSection": "Aparecer no Google",
+      "articleBody": "Um site publicado não é um site que aparece no Google. Na maioria dos casos, o problema cabe em uma destas causas: o Google foi impedido de entrar, a página pediu para ficar de fora, ou a página existe mas não explica o que você faz. Todas dá para checar sem ser técnico.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "SEO técnico para site pequeno"
+        },
+        {
+          "@type": "Thing",
+          "name": "Indexação no Google"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Search Console"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos",
+      "url": "https://etuos.com/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos",
+      "name": "Site não aparece no Google? Os 10 requisitos técnicos em linguagem simples",
+      "description": "Seu site não aparece no Google? Veja 10 requisitos técnicos explicados sem jargão, como checar cada um e o que corrigir primeiro no seu negócio.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos#primaryimage",
+      "url": "https://etuos.com/images/blog/site-nao-aparece-no-google-requisitos-tecnicos.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de pequeno negócio olhando o site no celular com expressão de dúvida"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Site não aparece no Google? Os 10 requisitos técnicos em linguagem simples",
+          "item": "https://etuos.com/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Por que o meu site não aparece no Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Há várias causas possíveis: bloqueio no robots.txt, páginas marcadas com noindex, plataforma que restringe o acesso, site ruim no celular ou páginas sem conteúdo próprio. O Google também não garante rastrear, indexar nem exibir uma página, mesmo quando tudo está certo, então use o checklist para eliminar o que está sob o seu controle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como saber se o meu site está indexado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Digite `site:seudominio.com` na busca. A lista nem sempre é completa, então, para uma página específica, use a ferramenta de inspeção de URL do Search Console, que mostra a versão indexada dessa página."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pedir indexação no Search Console resolve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ajuda a avisar o Google, mas não garante. O próprio Google diz que enviar o pedido não garante que a página apareça no índice. Corrija antes a causa, como bloqueio ou noindex, e só então peça."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O sitemap faz o Google indexar o meu site?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O sitemap ajuda o Google a conhecer as suas páginas, mas não garante que todas serão rastreadas e indexadas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de um site novo ou só de ajustes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende do que o checklist mostrar. Muitos problemas, como um bloqueio esquecido ou uma página de serviço faltando, se resolvem no site atual. Se a plataforma limita o que você precisa corrigir, aí vale pensar em refazer."
+          }
+        }
+      ]
+    }
+  ]
+}

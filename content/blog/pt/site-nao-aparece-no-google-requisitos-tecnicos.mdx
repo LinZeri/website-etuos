@@ -1,0 +1,154 @@
+---
+titulo: "Site não aparece no Google? Os 10 requisitos técnicos em linguagem simples"
+metaTitulo: "Site não aparece no Google? 10 requisitos técnicos"
+descricao: "Seu site não aparece no Google? Veja 10 requisitos técnicos explicados sem jargão, como checar cada um e o que corrigir primeiro no seu negócio."
+data: "2026-10-26"
+autor: "Lin Zeri"
+imagem: "/images/blog/site-nao-aparece-no-google-requisitos-tecnicos.webp"
+---
+
+Um site publicado não é um site que aparece no Google. Na maioria dos casos, o problema cabe em uma destas causas: o Google foi impedido de entrar, a página pediu para ficar de fora, ou a página existe mas não explica o que você faz. Todas dá para checar sem ser técnico.
+
+Este artigo é um checklist de 10 itens e trata do **site**. O Perfil da Empresa e o ranking local têm artigos próprios, citados no fim.
+
+> **TL;DR:** O Google não garante rastrear, indexar nem exibir nenhuma página, mesmo quando tudo está certo. Mas há erros comuns que fecham a porta: bloqueio no robots.txt, página marcada com noindex, plataforma de site que bloqueia o Google, site que não funciona bem no celular e páginas sem conteúdo próprio. Comece conferindo se o Google conhece o seu site, passe pelos 10 itens e use o Search Console para ver o que o Google enxerga. Ninguém consegue prometer prazo nem posição.
+
+## Primeiro: o Google conhece o seu site?
+
+![Uma lupa sobre um cartão em formato de casa que representa o site, ao lado de uma lista de páginas com um visto verde](/images/blog/site-nao-aparece-no-google-requisitos-tecnicos-1-lupa-site.webp)
+
+Antes de mexer em qualquer coisa, entenda uma regra do jogo. Segundo o Google, a Pesquisa funciona em etapas, e nem toda página passa por todas ([Google Search Central, "In-depth guide to how Google Search works"](https://developers.google.com/search/docs/fundamentals/how-search-works), acesso em out. 2026). O mesmo guia diz que o Google não garante que vai rastrear, indexar ou exibir a sua página. "Rastrear" é o Google visitar a página, e "indexar" é guardá-la para poder mostrá-la numa busca.
+
+Por isso, "meu site não aparece" pode significar que o Google não visitou, visitou e não guardou, ou guardou e não mostra para a busca que você testou.
+
+**Como checar:**
+
+1. Digite `site:seudominio.com` na busca do Google (troque pelo endereço do seu site). O operador lista URLs indexadas, mas o Google avisa que a lista nem sempre é exaustiva ([Google Search Central, "site: search operator"](https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site), acesso em out. 2026). Se nada aparecer, isso é um sinal para investigar, e não uma sentença.
+2. Para uma página específica, use a ferramenta de inspeção de URL do Search Console. Ela mostra a versão mais recente indexada da página, e não a versão atual na internet. Pedir indexação ali não garante que a página apareça no Google ([Google, "URL Inspection tool", Search Console Help](https://support.google.com/webmasters/answer/9012289), acesso em out. 2026).
+
+Se o site está indexado e mesmo assim não aparece para a busca que você esperava, o assunto muda: entram relevância, concorrência e o lado local. Esse caso é do [guia de como aparecer no Google](/pt/blog/como-aparecer-no-google-guia-do-negocio-local).
+
+## Os 10 requisitos, um por um
+
+### 1. O Google pode entrar no seu site (robots.txt)
+
+![Uma porta trancada com um cadeado e um robô esperando do lado de fora, ao lado de uma porta verde aberta com um tapete convidativo](/images/blog/site-nao-aparece-no-google-requisitos-tecnicos-2-porta-bloqueada.webp)
+
+O robots.txt é um arquivo que diz aos rastreadores quais endereços eles podem acessar no seu site ([Google Search Central, "Introduction to robots.txt"](https://developers.google.com/search/docs/crawling-indexing/robots/intro), acesso em out. 2026). Se ele estiver configurado para bloquear tudo, o Google nem visita as páginas.
+
+**Como checar:** abra `seudominio.com/robots.txt` no navegador. Se vir uma instrução que bloqueia o site inteiro, peça a quem fez o site para corrigir. Um detalhe útil: o próprio Google diz que o robots.txt não é um mecanismo para tirar uma página do Google, então não use esse arquivo para esse fim.
+
+### 2. Nenhuma página importante está com "noindex"
+
+O noindex é uma marcação que pede ao Google para não guardar uma página. Serve para páginas que você não quer na busca, como uma tela de agradecimento. O erro é deixá-la nas páginas que importam: a inicial, os serviços, o contato.
+
+Há uma armadilha. Para o noindex funcionar, a página não pode estar bloqueada pelo robots.txt, e o Google não aceita a regra noindex escrita dentro do robots.txt ([Google Search Central, "Block Search indexing with noindex"](https://developers.google.com/search/docs/crawling-indexing/block-indexing), acesso em out. 2026). Ou seja, quem mistura as duas coisas pode acabar sem saber o que o site está dizendo ao Google.
+
+**Como checar:** use a inspeção de URL do Search Console nas páginas que importam e veja o que ela informa sobre a indexação delas. Se você usa WordPress, Wix ou similar, procure nas configurações de SEO ou de visibilidade uma opção do tipo "pedir aos mecanismos de busca para não indexar este site" e confirme que está desligada.
+
+### 3. A plataforma do seu site não bloqueia o Google
+
+Algumas plataformas de site têm uma opção que restringe os buscadores, ou deixam o conteúdo atrás de login. O sintoma é o mesmo do item 1: o site abre para você e fica invisível para o Google.
+
+**Como checar:** abra o site numa janela anônima, sem estar logado, e veja se o texto das páginas aparece. Depois, pergunte a quem fez o site (ou ao suporte da plataforma) se há alguma opção que restrinja os buscadores. Se o site foi feito num plano gratuito ou de demonstração, essa é a primeira pergunta.
+
+### 4. O Google sabe que suas páginas existem (sitemap)
+
+O sitemap é um arquivo em que você informa as páginas do site. Ele ajuda o Google a conhecê-las, mas não garante que tudo seja rastreado e indexado ([Google Search Central, "Learn about sitemaps"](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview), acesso em out. 2026).
+**Como checar:** tente abrir `seudominio.com/sitemap.xml`. Se existir uma lista de endereços do seu site, ótimo. Se der erro, pergunte a quem faz a manutenção se há outro endereço para ele.
+### 5. Cada conteúdo tem um endereço "oficial" (canonical)
+
+Às vezes a mesma página abre por mais de um endereço: com e sem "www", com a barra no fim, com códigos de campanha. O canonical é a marcação que indica qual é o endereço preferido. Segundo o Google, o `rel="canonical"` é um sinal forte, e não uma ordem, de qual URL deve ser a canônica ([Google Search Central, "How to specify a canonical URL"](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls), acesso em out. 2026).
+
+Em linguagem simples: se as suas páginas se repetem em vários endereços, elas competem entre si.
+
+**Como checar:** é o item mais técnico da lista. Peça a quem fez o site para confirmar que cada página aponta para o próprio endereço.
+
+### 6. O site funciona bem no celular
+
+![Um celular e um monitor mostrando o mesmo layout organizado, com um botão verde](/images/blog/site-nao-aparece-no-google-requisitos-tecnicos-3-celular.webp)
+
+Segundo o Google, a versão mobile do conteúdo é a usada para indexar e ranquear, e apenas o conteúdo mostrado no site mobile é usado para indexação ([Google Search Central, "Mobile site and mobile-first indexing best practices"](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing), acesso em out. 2026). Se no celular o seu site esconde textos, serviços ou o botão de contato, é isso que o Google considera.
+
+**Como checar:** abra o site no seu celular e responda: o texto dos serviços está lá? O botão de WhatsApp aparece? Dá para ler sem dar zoom? Se alguma resposta for não, esse é um item de prioridade.
+### 7. Cada serviço tem uma página com conteúdo próprio
+
+Um site de uma página só, ou com páginas que repetem o mesmo texto, dá pouco ao Google para mostrar. O Google orienta a perguntar se o conteúdo traz informação original e valor substancial em relação a outras páginas dos resultados ([Google Search Central, "Creating helpful, reliable, people-first content"](https://developers.google.com/search/docs/fundamentals/creating-helpful-content), acesso em out. 2026).
+
+Na prática: uma página para cada serviço principal, escrita para o cliente, com o que você faz, para quem, onde atende e como pedir um orçamento. Não copie o mesmo texto trocando só o nome da cidade ou do serviço. O Google define como "doorway abuse" (spam) criar sites ou páginas para ranquear buscas específicas e parecidas, que levam o usuário a páginas menos úteis que o destino final ([Google Search Central, "Spam Policies for Google Web Search"](https://developers.google.com/search/docs/essentials/spam-policies), acesso em out. 2026).
+
+**Como checar:** liste os seus serviços e veja se cada um tem uma página própria, com texto diferente das outras.
+
+### 8. Título e descrição dizem o que a página é
+
+O título da página é a linha azul que aparece na busca, e a descrição é o resumo logo abaixo. Se todas as páginas se chamam "Início" ou levam só o nome da empresa, o Google e o cliente não entendem o que há em cada uma.
+
+Um bom título diz o serviço e o lugar, em palavras que o cliente usaria, como "Limpeza residencial em Orlando".
+
+**Como checar:** busque o nome da sua empresa e veja como as suas páginas aparecem. Se o título parecer genérico ou cortado de forma estranha, ajuste no painel do seu site.
+
+### 9. O site é seguro (HTTPS)
+
+Um site com HTTPS mostra o cadeado no navegador. Sem ele, o navegador pode avisar que a conexão não é segura, e o cliente desconfia antes de ler uma linha. É o básico de qualquer site que pede nome e telefone num formulário.
+
+**Como checar:** o endereço do seu site começa com `https://`? O navegador mostra algum aviso ao abrir? Se mostrar, é um problema de configuração a ser resolvido por quem hospeda o site.
+
+### 10. Seus dados de contato são iguais em todo lugar
+
+Nome, endereço e telefone do negócio devem ser os mesmos no site, no Perfil da Empresa e nas redes. Quando um diz "Rua" e outro "St.", ou o telefone muda, o cliente fica com menos certeza de quem você é. O ranking local tem outros fatores (relevância, distância e destaque), e eles estão no [guia de SEO local](/pt/blog/seo-local-o-que-e-e-como-funciona). Aqui basta manter os dados coerentes.
+
+**Como checar:** compare o rodapé do site com o seu perfil no Google. Se algum dado difere, corrija o que estiver desatualizado.
+
+## E o Search Console, onde entra?
+
+![Um painel com uma lupa sobre uma árvore de páginas, com uma página marcada com um visto verde](/images/blog/site-nao-aparece-no-google-requisitos-tecnicos-4-painel.webp)
+
+O Search Console é a ferramenta do Google que mostra o que ele enxerga do seu site. Ele não faz o site aparecer, mas é onde você descobre por que uma página ficou de fora.
+
+O relatório de indexação (Page indexing) mostra quantas URLs foram rastreadas e indexadas. Ele traz um lembrete que acalma: "não indexada" não é necessariamente ruim. A maioria dos sites tem ao menos algumas páginas não indexadas, mas as páginas importantes devem estar indexadas. O mesmo relatório avisa que uma página indexada não tem garantia de aparecer nos resultados ([Google, "Page indexing report", Search Console Help](https://support.google.com/webmasters/answer/7440203), acesso em out. 2026).
+
+Use os motivos listados no relatório como roteiro para os itens 1 a 5. Se uma página importante aparece como bloqueada ou com noindex, você já sabe por onde começar.
+
+## O que fazer primeiro
+
+Uma ordem prática, do mais simples ao mais técnico:
+
+1. Faça a checagem `site:` e a inspeção de URL na página inicial.
+2. Confira o robots.txt e o noindex (itens 1 e 2).
+3. Abra o site no celular e veja se tudo o que importa está lá (item 6).
+4. Veja se cada serviço tem página própria (item 7).
+5. Só então ajuste sitemap, canonical e o restante.
+
+Ter tudo certo não obriga o Google a mostrar o site. Se ele já apareceu antes, procure o que mudou: uma troca de plataforma ou um plugin novo são suspeitos comuns.
+
+Quem ainda está decidindo se precisa de um site pode ler [preciso de site se já tenho Instagram e perfil no Google](/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google). Se o seu dilema é o idioma do site, veja [SEO em português nos EUA](/pt/blog/seo-em-portugues-nos-eua).
+
+## Perguntas frequentes
+
+### Por que o meu site não aparece no Google?
+
+Há várias causas possíveis: bloqueio no robots.txt, páginas marcadas com noindex, plataforma que restringe o acesso, site ruim no celular ou páginas sem conteúdo próprio. O Google também não garante rastrear, indexar nem exibir uma página, mesmo quando tudo está certo, então use o checklist para eliminar o que está sob o seu controle.
+
+### Como saber se o meu site está indexado?
+
+Digite `site:seudominio.com` na busca. A lista nem sempre é completa, então, para uma página específica, use a ferramenta de inspeção de URL do Search Console, que mostra a versão indexada dessa página.
+
+### Pedir indexação no Search Console resolve?
+
+Ajuda a avisar o Google, mas não garante. O próprio Google diz que enviar o pedido não garante que a página apareça no índice. Corrija antes a causa, como bloqueio ou noindex, e só então peça.
+
+### O sitemap faz o Google indexar o meu site?
+
+Não. O sitemap ajuda o Google a conhecer as suas páginas, mas não garante que todas serão rastreadas e indexadas.
+
+### Preciso de um site novo ou só de ajustes?
+
+Depende do que o checklist mostrar. Muitos problemas, como um bloqueio esquecido ou uma página de serviço faltando, se resolvem no site atual. Se a plataforma limita o que você precisa corrigir, aí vale pensar em refazer.
+
+## Por onde começar
+
+Comece pela checagem `site:`, olhe o robots.txt e o noindex e abra o site no celular. Não exige conhecimento técnico. O que sobrar entra num trabalho de SEO feito com calma: veja como é o serviço de [SEO da Etuos](/pt/servicos/seo) e, se o problema for o próprio site, a [criação de sites](/pt/servicos/criacao-de-sites). A página [Etuos nos EUA](/pt/eua) mostra como é o trabalho com brasileiros que empreendem aqui.
+
+A Etuos faz um diagnóstico gratuito da sua presença no Google, sem compromisso. Lin Zeri tem mais de 10 anos de marketing digital e já gerenciou mais de US$ 500 mil em anúncios.
+
+[Quero um diagnóstico gratuito do meu site no Google](https://wa.me/5516991252073?text=Ol%C3%A1!%20Li%20o%20artigo%20sobre%20site%20que%20n%C3%A3o%20aparece%20no%20Google%20e%20quero%20um%20diagn%C3%B3stico%20gratuito.)
