@@ -1,0 +1,179 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/what-to-do-with-leads-from-google-ads#article",
+      "headline": "Your Ads Are Ringing the Phone: How to Handle New Leads So the Spend Is Not Wasted",
+      "description": "The ad got the phone to ring. Now what? How to answer, follow up, handle missed calls and flag poor leads so your Google Ads spend does not go to waste.",
+      "datePublished": "2026-10-23",
+      "dateModified": "2026-10-23",
+      "inLanguage": "en-US",
+      "wordCount": 2152,
+      "keywords": [
+        "lead follow up for service businesses",
+        "missed calls from google ads",
+        "how to answer local services ads leads",
+        "dispute bad leads local services ads",
+        "small business lead follow up",
+        "local services ads",
+        "google ads leads"
+      ],
+      "articleSection": [
+        "Why Does What Happens After the Ring Matter So Much?",
+        "Who Should Answer the Phone?",
+        "What Counts as a Valid Lead?",
+        "What Should You Do When You Miss a Call?",
+        "How Are Follow-Up Contacts Billed?",
+        "How Do You Handle a Poor-Quality Lead?",
+        "How Do Budget and Bids Connect to Your Capacity?",
+        "How Do You Know If the Leads Are Working?",
+        "Frequently Asked Questions",
+        "What Should You Do This Week?"
+      ],
+      "articleBody": "Most advice about Google Ads stops at the moment the phone rings. That is where the money is either earned or lost. You paid to get a stranger to reach out. What happens in the next few minutes of your day decides whether that spend becomes a job or just a number on a bill. This guide covers the part after the ad. It explains who should answer, what Google counts as a valid lead, what happens when you miss a call, how follow-up contacts are billed, and how to flag a poor lead. Most of the",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/what-to-do-with-leads-from-google-ads#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/what-to-do-with-leads-from-google-ads"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Local Services Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Lead follow up"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/what-to-do-with-leads-from-google-ads",
+      "url": "https://etuos.com/en/blog/what-to-do-with-leads-from-google-ads",
+      "name": "Your Ads Are Ringing the Phone: How to Handle New Leads So the Spend Is Not Wasted",
+      "description": "The ad got the phone to ring. Now what? How to answer, follow up, handle missed calls and flag poor leads so your Google Ads spend does not go to waste.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/what-to-do-with-leads-from-google-ads#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/what-to-do-with-leads-from-google-ads#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/what-to-do-with-leads-from-google-ads#primaryimage",
+      "url": "https://etuos.com/images/blog/what-to-do-with-leads-from-google-ads.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Your Ads Are Ringing the Phone: How to Handle New Leads So the Spend Is Not Wasted"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/what-to-do-with-leads-from-google-ads#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Your Ads Are Ringing the Phone: How to Handle New Leads So the Spend Is Not Wasted",
+          "item": "https://etuos.com/en/blog/what-to-do-with-leads-from-google-ads"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/what-to-do-with-leads-from-google-ads#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I pay for missed calls from Local Services Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can count. Google says a missed call during your business hours counts as a lead when the customer stays on the line for more than 20 seconds. That is why a clear voicemail greeting and a prompt callback matter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does not answering calls hurt my Local Services Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can. Google says that if you regularly fail to answer calls or respond to messages, your ad ranking may be affected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Am I charged again if the same customer calls back?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not within the window Google describes. Follow-up calls or messages with that customer are not charged again, provided there is interaction within 15 days and the contact comes from the same phone number or email address."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I report a bad lead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the Feedback Survey for that lead. Google says leads determined to be invalid or low quality are not charged, and it may occasionally credit leads you report as poor quality through the survey. It does not promise to credit every one."
+          }
+        }
+      ]
+    }
+  ]
+}
