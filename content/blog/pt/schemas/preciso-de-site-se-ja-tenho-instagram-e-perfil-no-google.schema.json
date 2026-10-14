@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google#article",
+      "headline": "Preciso de um site se já tenho Instagram e perfil no Google?",
+      "description": "Instagram e perfil no Google resolvem muita coisa, mas não tudo. Veja quando só eles bastam e quando um site passa a fazer diferença no seu negócio nos EUA.",
+      "datePublished": "2026-10-19",
+      "dateModified": "2026-10-19",
+      "inLanguage": "pt-BR",
+      "wordCount": 1700,
+      "keywords": "preciso de um site para meu negócio, site ou instagram para negócio, perfil do google substitui site",
+      "articleSection": "Conseguir Clientes nos EUA",
+      "articleBody": "Para começar, o Instagram e o perfil no Google podem bastar. Para crescer, em geral não bastam. O site passa a fazer diferença quando você quer anunciar, quando o cliente precisa de mais provas para confiar e quando você não quer depender das regras de uma plataforma que não é sua. Este artigo responde só a uma pergunta: o seu negócio precisa de um site? Não entra em custo, e a escolha do idioma tem artigo próprio.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Site para negócio local"
+        },
+        {
+          "@type": "Thing",
+          "name": "Perfil da Empresa no Google"
+        },
+        {
+          "@type": "Thing",
+          "name": "Instagram"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google",
+      "url": "https://etuos.com/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google",
+      "name": "Preciso de um site se já tenho Instagram e perfil no Google?",
+      "description": "Instagram e perfil no Google resolvem muita coisa, mas não tudo. Veja quando só eles bastam e quando um site passa a fazer diferença no seu negócio nos EUA.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google#primaryimage",
+      "url": "https://etuos.com/images/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dona de salão de beleza conferindo o Instagram e o perfil do Google no celular"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Preciso de um site se já tenho Instagram e perfil no Google?",
+          "item": "https://etuos.com/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O perfil do Google substitui um site?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não substitui, mas resolve a parte da busca local. O perfil tem campos fixos e só o dono verificado edita e interage com clientes. Para anúncio, explicações longas e controle total do conteúdo, o site faz um trabalho que o perfil não faz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para ter negócio só com Instagram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dá, e muita gente começa assim. O risco é depender de uma plataforma que decide quem vê o seu perfil e pode mudar as regras. Quando o negócio cresce ou você quer anunciar, ter também o perfil no Google e um site reduz essa dependência."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Um site faz meu negócio aparecer melhor no Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há promessa. O Google diz que o ranking local se baseia em relevância, distância e destaque, e que o destaque também depende de quantos sites apontam para o negócio e de quantas avaliações ele tem. Um site pode ajudar nesse conjunto, mas ninguém consegue garantir posição."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de site para anunciar no Google ou no Instagram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não é obrigatório, pois o anúncio pode levar ao WhatsApp. Mas a experiência na página de destino é um dos componentes do Quality Score do Google Ads, e uma página própria dá ao anúncio um destino pensado para o serviço."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quando devo começar a pensar em site?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quando surgir uma destas situações: você vai anunciar, o cliente costuma comparar antes de contratar, ou você sente que depende demais de um único canal. Sem nenhuma delas, arrume primeiro o perfil no Google e as avaliações."
+          }
+        }
+      ]
+    }
+  ]
+}
