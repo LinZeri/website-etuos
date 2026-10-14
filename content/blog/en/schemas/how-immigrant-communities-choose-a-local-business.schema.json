@@ -1,0 +1,178 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/how-immigrant-communities-choose-a-local-business#article",
+      "headline": "How Immigrant Communities Choose a Local Business (and Why Your Ads Miss Them)",
+      "description": "Immigrant customers often pick a business through people they trust, reviews in their language and a real phone call. See what English-only ads never reach.",
+      "datePublished": "2026-10-19",
+      "dateModified": "2026-10-19",
+      "inLanguage": "en-US",
+      "wordCount": 2200,
+      "keywords": [
+        "how immigrant customers choose a local business",
+        "marketing to immigrant communities",
+        "reaching bilingual customers",
+        "word of mouth in immigrant communities"
+      ],
+      "articleSection": [
+        "Multilingual Marketing",
+        "Local Business",
+        "Customer Trust"
+      ],
+      "articleBody": "A woman moves to a new town and her water heater dies. She does not open a laptop and compare ten companies. She sends a message to a cousin, a coworker, a neighbor from church. Someone answers with a name and a phone number. She calls.",
+      "author": {
+        "@id": "https://etuos.com/en/about#author-lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/how-immigrant-communities-choose-a-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://etuos.com/en/blog/how-immigrant-communities-choose-a-local-business#webpage"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Immigrant Customers"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Business Marketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Online Reviews"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#author-lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Specialist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/how-immigrant-communities-choose-a-local-business#webpage",
+      "url": "https://etuos.com/en/blog/how-immigrant-communities-choose-a-local-business",
+      "name": "How Immigrant Communities Choose a Local Business (and Why Your Ads Miss Them)",
+      "description": "Immigrant customers often pick a business through people they trust, reviews in their language and a real phone call. See what English-only ads never reach.",
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/how-immigrant-communities-choose-a-local-business#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/how-immigrant-communities-choose-a-local-business#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/how-immigrant-communities-choose-a-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/marketing-to-multilingual-customers-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A customer and a shop owner talking across the counter of a neighborhood store"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/how-immigrant-communities-choose-a-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How Immigrant Communities Choose a Local Business (and Why Your Ads Miss Them)",
+          "item": "https://etuos.com/en/blog/how-immigrant-communities-choose-a-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/how-immigrant-communities-choose-a-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do immigrant customers choose a local business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single answer, and no public study describes every community. A useful working model is a chain of trust: a recommendation from someone they know, a check of reviews and the profile, and a call or message that shows whether the business can understand them. Test that chain against your own customers by asking how they found you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do immigrant customers search for local businesses on Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some do, but for a customer who was given a name, search is often a step to verify it. For that reason, your Google Business Profile, your reviews and the language on your page matter even when the first contact came from a person."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I get reviews in Spanish or other languages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if your customers speak them. Tell happy customers they can write in the language they prefer, and reply in the language of each review. Never offer a discount or a gift in exchange for a review, because Google prohibits it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a contact form enough for a customer who is not fluent in English?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is rarely the best option on its own. A phone number that someone answers, and a WhatsApp option you actually check, give the customer a way to explain and ask questions, which is where trust forms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to translate my whole website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not as a first step. Start by checking who answers the phone and what your reviews and Google profile say. Then publish one well-written service page for the language you want to reach, instead of machine translating everything."
+          }
+        }
+      ]
+    }
+  ]
+}
