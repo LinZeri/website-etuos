@@ -1,0 +1,27 @@
+name: Deploy diario (publicacao agendada do blog)
+
+# O site e estatico: um post com data futura so entra no ar num deploy feito na
+# data ou depois dela. Este workflow dispara um deploy na Vercel todo dia logo
+# depois da meia-noite de Sao Paulo (03:10 UTC), que e o fuso usado pelo filtro
+# de datas em src/lib/blog.ts. O segredo VERCEL_DEPLOY_HOOK guarda a URL do
+# Deploy Hook criado no projeto da Vercel (Settings, Git, Deploy Hooks).
+
+on:
+  schedule:
+    - cron: "10 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Disparar o Deploy Hook da Vercel
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$VERCEL_DEPLOY_HOOK" ]; then
+            echo "Segredo VERCEL_DEPLOY_HOOK nao configurado; nada a fazer."
+            exit 1
+          fi
+          curl --fail --silent --show-error -X POST "$VERCEL_DEPLOY_HOOK"
+          echo "Deploy solicitado."
