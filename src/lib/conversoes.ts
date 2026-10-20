@@ -13,6 +13,9 @@ declare global {
 
 export const googleAdsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID ?? "";
 
+// ID de métricas do GA4 (público por natureza, aparece no HTML de qualquer site).
+export const ga4Id = process.env.NEXT_PUBLIC_GA4_ID ?? "G-4R42SC6B5N";
+
 const rotulos = {
   formulario: process.env.NEXT_PUBLIC_GOOGLE_ADS_LABEL_FORM ?? "",
   whatsapp: process.env.NEXT_PUBLIC_GOOGLE_ADS_LABEL_WHATSAPP ?? "",

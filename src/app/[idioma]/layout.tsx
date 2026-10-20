@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Anton, Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import "../globals.css";
-import { GoogleAds } from "@/components/analytics/GoogleAds";
+import { Analytics } from "@/components/analytics/Analytics";
 import { BannerIdioma } from "@/components/layout/BannerIdioma";
 import { BarraCtaMobile } from "@/components/layout/BarraCtaMobile";
 import { FloatingWhatsApp } from "@/components/layout/FloatingWhatsApp";
@@ -90,7 +90,7 @@ export default async function RootLayout({ children, params }: Props) {
         <FloatingWhatsApp idioma={idioma} />
         <BarraCtaMobile idioma={idioma} />
         <BannerIdioma idiomaAtual={idioma} textos={textosBanner} />
-        <GoogleAds />
+        <Analytics />
       </body>
     </html>
   );

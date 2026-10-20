@@ -34,14 +34,14 @@ export const privacidadePt = {
       titulo: "Com quem compartilhamos",
       paragrafos: [
         "Os dados dos formulários ficam guardados no Google Workspace (Google Sheets e Google Apps Script), em conta controlada pela Etuos.",
-        "O site é hospedado na Vercel e utiliza a tag do Google Ads para medir conversões. Esses fornecedores tratam dados como operadores, seguindo as nossas instruções e as próprias políticas de privacidade deles.",
+        "O site é hospedado na Vercel e utiliza o Google Analytics e a tag do Google Ads para medir visitas e conversões. Esses fornecedores tratam dados como operadores, seguindo as nossas instruções e as próprias políticas de privacidade deles.",
         "Podemos compartilhar dados quando houver obrigação legal ou ordem de autoridade competente.",
       ],
     },
     {
       titulo: "Cookies e medição",
       paragrafos: [
-        "Este site usa a tag do Google Ads, que grava cookies para reconhecer quando um clique em anúncio virou um contato. Essa medição é agregada e não serve para identificar você individualmente do nosso lado.",
+        "Este site usa o Google Analytics e a tag do Google Ads, que gravam cookies para medir as visitas e reconhecer quando um clique (em anúncio ou no botão de WhatsApp) virou um contato. Essa medição é agregada e não serve para identificar você individualmente do nosso lado.",
         "O site também grava um cookie próprio, chamado etuos_idioma, quando você escolhe um idioma no menu. Ele serve só para abrir o site no idioma certo na próxima visita e não identifica você.",
         "Você pode bloquear ou apagar cookies nas configurações do seu navegador. O site continua funcionando normalmente, só a medição das campanhas fica menos precisa.",
       ],

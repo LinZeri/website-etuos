@@ -36,14 +36,14 @@ export const privacidadeEn = {
       titulo: "Who we share it with",
       paragrafos: [
         "Form data is stored in Google Workspace (Google Sheets and Google Apps Script), in an account controlled by Etuos.",
-        "The site is hosted on Vercel and uses the Google Ads tag to measure conversions. These providers handle data as processors, following our instructions and their own privacy policies.",
+        "The site is hosted on Vercel and uses Google Analytics and the Google Ads tag to measure visits and conversions. These providers handle data as processors, following our instructions and their own privacy policies.",
         "We may share data when required by law or by order of a competent authority.",
       ],
     },
     {
       titulo: "Cookies and measurement",
       paragrafos: [
-        "This site uses the Google Ads tag, which sets cookies to recognize when a click on an ad turned into a contact. This measurement is aggregated and isn't used on our side to identify you individually.",
+        "This site uses Google Analytics and the Google Ads tag, which set cookies to measure visits and to recognize when a click (on an ad or the WhatsApp button) turned into a contact. This measurement is aggregated and isn't used on our side to identify you individually.",
         "The site also sets its own cookie, called etuos_idioma, when you pick a language in the menu. Its only job is to open the site in the right language on your next visit, and it doesn't identify you.",
         "You can block or delete cookies in your browser settings. The site keeps working normally, only the campaign measurement gets less precise.",
       ],
