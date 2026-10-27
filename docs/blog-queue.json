@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T23:07:49.949932+00:00",
+  "updated": "2026-10-27T23:15:45.189028+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -1129,12 +1129,14 @@
       "image_context": "dono de uma pequena loja olhando a lista de termos de busca no notebook no balcão, com uma xícara de café ao lado, luz natural da vitrine",
       "publish_date": "2026-10-30",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-27T23:07:49.949918+00:00",
-      "last_score": null,
-      "iteration_id": "local-session-trocas"
+      "last_score": 86,
+      "iteration_id": "local-session-trocas",
+      "commit_sha": "b246b41",
+      "published_date": "2026-10-30"
     }
   ],
   "author_daily_counts": {

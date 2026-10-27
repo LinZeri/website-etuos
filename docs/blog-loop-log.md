@@ -63,3 +63,6 @@
 | 2026-10-14T08:21:06 | google-reviews-in-spanish-for-local-business | pillar4.multilingual-market | Lin Zeri | 88 | 0 | 2026-10-26 | f0e5ffe | 15 | local_session,lote_4,score_estimado,sem_workflow_tool,data_futura_ate_29_10 |
 | 2026-10-14T08:21:06 | negative-keywords-google-ads-local-business | pillar2.paid-ads | Lin Zeri | 90 | 0 | 2026-10-27 | 2bfbba1 | 15 | local_session,lote_4,score_estimado,sem_workflow_tool,data_futura_ate_29_10 |
 | 2026-10-14T08:21:06 | service-area-pages-for-local-business-website | pillar5.website | Lin Zeri | 87 | 0 | 2026-10-29 | 2c5b61b | 15 | local_session,lote_4,score_estimado,sem_workflow_tool,data_futura_ate_29_10 |
+| 2026-10-27T20:15:44 | google-search-console-for-local-business-owners | pillar1.local-search | Lin Zeri | 90 | 0 | 2026-10-22 | a47c195 | 15 | local_session,troca_de_pauta_27_10,score_estimado,sem_workflow_tool |
+| 2026-10-27T20:15:45 | palavras-chave-negativas-google-ads-como-usar | pilar2.trafego-pago | Lin Zeri | 86 | 0 | 2026-10-30 | b246b41 | 15 | local_session,troca_de_pauta_27_10,score_estimado,sem_workflow_tool |
+| 2026-10-27T20:15:45 | website-not-showing-up-on-google-checklist | pillar5.website | Lin Zeri | 89 | 0 | 2026-10-30 | f93fd3f | 15 | local_session,troca_de_pauta_27_10,score_estimado,sem_workflow_tool |

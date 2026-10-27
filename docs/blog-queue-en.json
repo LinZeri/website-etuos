@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T23:07:50.100128+00:00",
+  "updated": "2026-10-27T23:15:45.360383+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -1145,12 +1145,14 @@
       "image_context": "a plumber at a kitchen table reviewing his website performance on a laptop with a notepad and a coffee mug, evening light through the window",
       "publish_date": "2026-10-22",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-27T23:07:50.022393+00:00",
-      "last_score": null,
-      "iteration_id": "local-session-trocas"
+      "last_score": 90,
+      "iteration_id": "local-session-trocas",
+      "commit_sha": "a47c195",
+      "published_date": "2026-10-22"
     },
     {
       "id": "en-p5-notshowing",
@@ -1177,12 +1179,14 @@
       "image_context": "a home services owner at a desk typing his own business name into a search bar on a laptop, puzzled, with a service van parked outside the window",
       "publish_date": "2026-10-30",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-27T23:07:50.100112+00:00",
-      "last_score": null,
-      "iteration_id": "local-session-trocas"
+      "last_score": 89,
+      "iteration_id": "local-session-trocas",
+      "commit_sha": "f93fd3f",
+      "published_date": "2026-10-30"
     }
   ],
   "author_daily_counts": {
