@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/palavras-chave-negativas-google-ads-como-usar#article",
+      "headline": "Palavras-chave negativas no Google Ads: como parar de pagar por cliques que não interessam",
+      "description": "Entenda o que são palavras-chave negativas no Google Ads, as três correspondências, onde adicioná-las e como revisar a lista para não pagar por cliques errados.",
+      "datePublished": "2026-10-30",
+      "dateModified": "2026-10-30",
+      "inLanguage": "pt-BR",
+      "wordCount": 1981,
+      "keywords": "palavras-chave negativas google ads, o que são palavras-chave negativas, como adicionar palavras-chave negativas, correspondência ampla de frase e exata",
+      "articleSection": "Tráfego Pago",
+      "articleBody": "Quem anuncia no Google logo descobre que a campanha aparece para buscas que nunca foram a intenção. Um serviço de reforma aparece para quem quer aprender a reformar. Uma loja aparece para quem procura vaga de emprego. Cada clique desses custa dinheiro, e nenhum vira cliente. As palavras-chave negativas existem para fechar essa porta: elas dizem ao Google em quais buscas o seu anúncio não deve aparecer.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/palavras-chave-negativas-google-ads-como-usar#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/palavras-chave-negativas-google-ads-como-usar"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Palavras-chave negativas"
+        },
+        {
+          "@type": "Thing",
+          "name": "Termos de busca"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/palavras-chave-negativas-google-ads-como-usar",
+      "url": "https://etuos.com/pt/blog/palavras-chave-negativas-google-ads-como-usar",
+      "name": "Palavras-chave negativas no Google Ads: como parar de pagar por cliques que não interessam",
+      "description": "Entenda o que são palavras-chave negativas no Google Ads, as três correspondências, onde adicioná-las e como revisar a lista para não pagar por cliques errados.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/palavras-chave-negativas-google-ads-como-usar#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/palavras-chave-negativas-google-ads-como-usar#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/palavras-chave-negativas-google-ads-como-usar#primaryimage",
+      "url": "https://etuos.com/images/blog/palavras-chave-negativas-google-ads-como-usar.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de uma pequena loja olhando uma lista de termos de busca no notebook, no balcão, com uma xícara de café ao lado"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/palavras-chave-negativas-google-ads-como-usar#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Palavras-chave negativas no Google Ads: como parar de pagar por cliques que não interessam",
+          "item": "https://etuos.com/pt/blog/palavras-chave-negativas-google-ads-como-usar"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/palavras-chave-negativas-google-ads-como-usar#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que são palavras-chave negativas no Google Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "São termos que você adiciona para excluir buscas das suas campanhas. Em vez de dizer em quais buscas quer aparecer, você diz em quais não quer, para não pagar por cliques de quem não tem interesse no que você vende."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quais são as correspondências das palavras-chave negativas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ampla, de frase e exata. A ampla é a padrão. Na negativa ampla, o anúncio não aparece se a busca contiver todos os termos da negativa, mesmo em outra ordem. Na de frase, não aparece se a busca contiver os termos exatos na mesma ordem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onde adiciono as palavras-chave negativas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Google tem uma seção de ajuda sobre adicionar negativas a grupos de anúncios, campanhas e listas de palavras-chave negativas. O melhor nível depende do alcance do bloqueio que você quer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A negativa ampla bloqueia sinônimos e plurais?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não conte com isso. A página de ajuda do Google não afirma que a negativa ampla cobre sinônimos ou plurais, então adicione as variações que importam para o seu negócio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como saber quais palavras negativas usar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Olhe as buscas reais que acionaram o seu anúncio e pergunte, termo a termo, se aquela pessoa poderia virar cliente. As que mostram outra intenção, como aprender, procurar emprego ou buscar algo que você não oferece, são candidatas a negativa."
+          }
+        }
+      ]
+    }
+  ]
+}
