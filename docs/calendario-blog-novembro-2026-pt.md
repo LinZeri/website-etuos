@@ -1,0 +1,78 @@
+# Calendário do blog em português: novembro de 2026
+
+Planejado em 27/10/2026. Cadência: 4 artigos por semana, em segunda, terça, quinta e sexta (17 datas, de 02/11 a 30/11). Produção por sessão local, em lotes (`docs/blog-loop-sessao-local.md`). Fonte da fila: `docs/blog-queue.json` (os 17 itens pendentes já estão ordenados por `publish_date`). Estratégia: Fase 2 de `docs/blog-strategy.md` (pilares 5 a 8). Registro de fontes consultado: `docs/blog-fontes-verificadas.md` (S1 a S6, S9 a S11, S13 a S42, T1 a T19, N1 a N4, N6, N7, M1 a M3, W1 e W2).
+
+Legenda de prontidão: **A** = sustentado pelo registro atual. **B** = precisa de fonte nova verificada por WebFetch antes de escrever. **C** = depende de experiência, material ou autorização do dono, ou é setor regulado: nenhum item C neste mês.
+
+Resumo: **13 itens A e 4 itens B** (limite era 5). Os 4 B ficam de 19/11 a 30/11, o que dá 3 semanas para verificar e registrar. Os 17 itens são dos pilares 5, 6, 7 e 8 (ainda sem nenhum post publicado), então todos servem de pilar menos coberto. Os pilares 1, 2 e 3 já estão acima do teto de spokes e não recebem item novo.
+
+## Calendário
+
+| Data | Dia | Slug | Título | Pilar | Keyword | Pront. | Fontes (IDs) ou URLs a verificar | Observações |
+|---|---|---|---|---|---|---|---|---|
+| 02/11 | seg | `site-para-pequena-empresa-o-que-precisa-ter` | Site para pequena empresa: o que precisa ter e como saber se está funcionando | 5 (hub) | site para pequena empresa | A | S32, S27, S28, S35, S36, S38, S10, S14, T11, M2, S5, S9, S25 | Hub do pilar 5. Linka os 3 posts existentes do tema como irmãos. Preço só qualitativo. |
+| 03/11 | ter | `funil-de-vendas-para-negocio-local` | Funil de vendas para negócio local: do anúncio ao cliente fechado | 7 (hub) | funil de vendas | A | T5, T6, T8, T10, T11, W1, W2, S9, S5, S10 | Hub do pilar 7. Sem nenhum número de funil. Keyword de 18.100 buscas/mês no Brasil. |
+| 05/11 | qui | `landing-page-o-que-e-para-que-serve` | Landing page: o que é, para que serve e quando usar | 5 | landing page o que é | A | T11, T10, S32, S35, W2 | Só definição e quando usar. Passo a passo fica para 10/11. 6.600 buscas/mês. |
+| 06/11 | sex | `agencia-de-marketing-digital-como-escolher-e-quando-contratar` | Agência de marketing digital: o que faz, como escolher e quando contratar | 8 (hub) | agência de marketing digital | A | S15, S16, S11, S18, S13, S34, S35, T3, T10, T11, S37, T5, T6 | Hub do pilar 8. Ensina a avaliar qualquer agência, inclusive a Etuos. Sem preço, garantia ou cliente. |
+| 09/11 | seg | `como-fazer-follow-up-de-orcamento-sem-ser-chato` | Pediu orçamento e sumiu: como fazer follow-up sem ser chato | 7 | follow-up de vendas | A | W1, W2, S16, S17, T8 | Sem intervalo ou número de tentativas. Mensagens-modelo rotuladas como ilustrativas. |
+| 10/11 | ter | `como-criar-landing-page-que-converte` | Como criar uma landing page que converte, passo a passo | 5 | como criar landing page | A | T11, T10, S32, S35, T4, M2 | Sem taxa de conversão nem ferramenta com preço. |
+| 12/11 | qui | `agencia-freelancer-ou-fazer-sozinho-marketing` | Agência, freelancer ou fazer sozinho: como decidir o que serve ao seu negócio | 8 | agência ou freelancer | A | T10, T11, S37, T14, S36, S13 | Tabela só de critérios, sem valores. |
+| 13/11 | sex | `tempo-de-resposta-ao-cliente-quanto-custa-demorar` | Demorar para responder o cliente custa venda: como organizar o atendimento | 7 | tempo de resposta ao cliente | A | T8, T6, T12, W2, S9 (só sobre resposta a avaliações) | Sem nenhum número de tempo. Qualitativo, ancorado na regra do LSA. |
+| 16/11 | seg | `quanto-custa-um-site-o-que-muda-o-preco` | Quanto custa um site profissional: o que muda o preço (sem pegadinha) | 5 | quanto custa um site | A (ressalva) | M2, S25, S26, S27, S28, S32, S35, S36, T11 | Sem nenhuma faixa de preço. A SERP espera faixas: risco de não ranquear (ver riscos). |
+| 17/11 | ter | `perguntas-antes-de-contratar-agencia-de-marketing` | Perguntas para fazer antes de contratar uma agência de marketing | 8 | como escolher agência de marketing | A | S15, S16, S17, S11, S18, S19, S34, S37, T14, T6, T4, S23, S10, S27, S38 | Não linkar o post de 27/11 (data posterior). Entra na coleta de IA de novembro. |
+| 19/11 | qui | `o-que-e-remarketing-negocio-local` | O que é remarketing e quando vale a pena para negócio local | 7 | o que é remarketing | B | Verificar: https://support.google.com/google-ads/answer/2453998 | Já abriu em 27/10 ("About your data segments"; o Google trocou "remarketing" por "your data"). Meta Pixel fora. |
+| 20/11 | sex | `pagina-de-servico-que-vende-estrutura` | Página de serviço que vende: a estrutura que transforma visita em contato | 5 | página de serviço | A | S35, S34, S19, S18, S20, S25, S32, S9, S5, T11 | Foco na página permanente dentro do site, diferente da landing de campanha. |
+| 23/11 | seg | `agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar` | Agência de marketing para brasileiros nos EUA: o que avaliar antes de fechar | 8 | agência de marketing para brasileiros nos eua | A | T4, S25, M2, M3, N6, N3, N2, M1, S26, S34, S35, S9, S15, S11 | Sinal do GSC: query na posição 10 em `/pt/eua`. Etuos é parte interessada: voz neutra. |
+| 24/11 | ter | `crm-para-pequenas-empresas-o-que-voce-precisa` | CRM para pequenas empresas: planilha, WhatsApp ou sistema? O que você realmente precisa | 7 | crm para pequenas empresas | A (ressalva) | W1, W2 | Por critérios, sem citar produto nem preço. É o A mais fraco do mês. |
+| 26/11 | qui | `botao-de-whatsapp-no-site-como-colocar-e-medir` | Botão de WhatsApp no site: como colocar e medir quantos contatos ele gera | 5 | botão whatsapp no site | B | Verificar: https://support.google.com/analytics/answer/9216061 e https://support.google.com/analytics/answer/13566436 (e, se usada, https://support.google.com/analytics/answer/9267735); achar a página oficial do click to chat em whatsappbusiness.com | 26/11 é o Thanksgiving nos EUA (post sai normalmente). Sem a página do link, não afirmar o formato do link. |
+| 27/11 | sex | `quem-e-dono-da-conta-de-anuncios-agencia` | Quem é dono da sua conta de anúncios? O que olhar antes de assinar com uma agência | 8 | conta google ads agência | B | Verificar: https://support.google.com/google-ads/answer/9978556 e https://support.google.com/business/answer/3403100 (opcional: https://support.google.com/google-ads/answer/7459601) | Sem conselho jurídico. Linka o post de 17/11. |
+| 30/11 | seg | `marketing-para-restaurante-google-instagram-delivery` | Marketing para restaurante: Google, Instagram e delivery no mesmo plano | 6 | marketing para restaurante | B | Verificar: https://support.google.com/business/answer/9455840 e https://support.google.com/business/answer/10842217 (opcional: https://support.google.com/business/answer/14189260) | Único item de setor. Sem app de delivery com número, sem Instagram. Não citar o prazo de 24 a 48 h. |
+
+Alternância de pilares: 5, 7, 5, 8, 7, 5, 8, 7, 5, 8, 7, 5, 8, 7, 5, 8, 6. Nenhum pilar em dois dias seguidos. Totais: pilar 5 com 6, pilar 7 com 5, pilar 8 com 5, pilar 6 com 1.
+
+Ordem por dependência (um post só linka data igual ou anterior): hub 5 (02/11) antes de 05/11, 10/11, 16/11, 20/11 e 26/11; hub 7 (03/11) antes de 09/11, 13/11, 19/11 e 24/11; hub 8 (06/11) antes de 12/11, 17/11, 23/11 e 27/11; follow-up (09/11) antes do tempo de resposta (13/11) e do CRM (24/11). Os links de todos os 17 itens foram conferidos: nenhum aponta para data posterior nem para post inexistente.
+
+## Lista de fontes B a verificar (todas em `support.google.com`, domínio liberado)
+
+Para cada URL: WebFetch com duas chamadas de pergunta diferente, só registrar o que as duas devolverem igual, com ID sequencial no cluster certo, e só então liberar o item.
+
+1. **19/11, remarketing:** https://support.google.com/google-ads/answer/2453998 (já abriu no planejamento: título "About your data segments - Google Ads Help", definição "Use your data to re-engage people who have previously interacted with your brand or services on mobile or desktop" e nota de que "remarketing" virou "your data").
+2. **26/11, botão de WhatsApp:** https://support.google.com/analytics/answer/9216061 (medição ampliada), https://support.google.com/analytics/answer/13566436 (tutorial de cliques de saída), opcional https://support.google.com/analytics/answer/9267735 (abriu: eventos recomendados). Falta a página oficial do link de conversa direta do WhatsApp, que ainda não foi localizada.
+3. **27/11, dono da conta:** https://support.google.com/google-ads/answer/9978556 (níveis de acesso), https://support.google.com/business/answer/3403100 (abriu: Owner tem controle total, Manager não convida, não remove usuário nem apaga o perfil); opcional https://support.google.com/google-ads/answer/7459601 (abriu: conta de gerente).
+4. **30/11, restaurante:** https://support.google.com/business/answer/9455840 (editor de cardápio), https://support.google.com/business/answer/10842217 (opções de pedido online); opcional https://support.google.com/business/answer/14189260.
+
+As URLs 2 (os dois primeiros links do Analytics), 3 (9978556), e 4 vieram de busca e ainda não foram lidas na íntegra: podem falhar. Cada item B tem plano B na nota (versão qualitativa ou troca de data com reserva).
+
+## Os 17 itens novos e a canibalização
+
+Checagem de keyword feita contra os 34 posts pt publicados e a fila. Nenhuma keyword nova repete alvo existente. Os pares de risco e a solução (também gravados nas `notes` de cada item):
+
+| Item | Risco com | Solução |
+|---|---|---|
+| Hub do pilar 5 (02/11) | `preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google`, `site-em-portugues-ou-ingles-nos-eua`, `site-nao-aparece-no-google-requisitos-tecnicos` | O hub é o mapa e responde "o que o site precisa ter"; cada vizinho entra em um parágrafo com link. |
+| Landing page o que é (05/11) | hub do pilar 5, `preciso-de-site-...` | Só definição e quando usar; sem passo a passo. |
+| Como criar landing page (10/11) | landing page o que é (05/11), página de serviço (20/11) | Este é o passo a passo para campanha; os outros dois por link. |
+| Página de serviço (20/11) | como criar landing page (10/11) | Página permanente dentro do site, não página de campanha. |
+| Funil (03/11) | `como-medir-resultado-de-trafego-pago`, `whatsapp-business-para-negocio-local-como-usar` | Hub é o mapa clique, contato, resposta, fechamento; remete aos dois. |
+| Follow-up (09/11), tempo de resposta (13/11), CRM (24/11) | `whatsapp-business-para-negocio-local-como-usar` e entre si | Cada um tem uma pergunta: depois do orçamento, no primeiro contato, onde guardar os contatos. |
+| Botão de WhatsApp (26/11) | `whatsapp-business-...`, `como-medir-resultado-de-trafego-pago` | Foco no botão do site e na checagem de que o clique conta. |
+| Hub do pilar 8 (06/11) | `o-que-faz-um-gestor-de-trafego-pago`, `quanto-custa-trafego-pago-...` | Hub trata da decisão de contratar agência; gestor e orçamento por link. |
+| Agência, freelancer ou sozinho (12/11) | `o-que-faz-um-gestor-de-trafego-pago` | O ponto é a decisão entre três modelos. |
+| Perguntas (17/11) e dono da conta (27/11) | hub do pilar 8 e entre si | 17/11 é FAQ curto com uma pergunta de acesso; 27/11 aprofunda e linka o de 17/11. |
+| Agência para brasileiros nos EUA (23/11) | página comercial `/pt/eua` | Post informacional "o que avaliar", que leva ao `/pt/eua` sem repetir a copy. |
+| Restaurante (30/11) | `google-business-profile-para-brasileiros-nos-eua`, `marketing-para-limpeza-construcao-e-beleza-nos-eua` | Foco em cardápio, pedidos, avaliações e canal próprio; GBP geral só por link. |
+
+Ligação com o Search Console (18/10): as únicas queries em português na faixa de 8 a 30 são "anuncio em inglês" (posição 20,5, post `anunciar-em-ingles-ou-portugues`) e "local service" (posição 27, post de Local Services Ads); "agência de marketing digital e seo brasileira nos eua" (posição 10) está em `/pt/eua`. Como reforço, não item novo: a atualização do post `anunciar-em-ingles-ou-portugues` com "anúncio em inglês" no título e num H2 (primeira atualização de novembro, prevista na estratégia). Se a produção sobrar, é a reserva natural de um item B ou A que falhar.
+
+## Riscos e decisões que dependem do dono
+
+1. **Pilar 6 (marketing por setor) quase todo bloqueado.** Só entra restaurante. Ficam de fora, por regra: marketing médico, psicólogos e clínicas de estética (setor regulado, só com resolução do CFM e do CFP registrada e domínio do conselho liberado), imobiliária (regulado), energia solar (o caso das 300+ franquias depende de material e autorização do Lin; sem isso o post vira genérico e com claim de economia sem fonte), loja de roupas e eventos (sem fonte da Meta e sem dado do setor) e construtora (já coberto por `marketing-para-limpeza-construcao-e-beleza-nos-eua`). Decisão do dono: liberar material do Lin para solar, ou autorizar as fontes dos conselhos, se quiser avançar o pilar 6 em dezembro. O hub do pilar 6 não está em novembro: com um só spoke ele nasceria vazio.
+2. **Itens B (4).** Se uma fonte não passar na verificação, o item vira versão qualitativa curta ou troca de data com um A de reserva. Reservas possíveis: a atualização de `anunciar-em-ingles-ou-portugues` e, para o dono decidir, spokes do pilar 5 ainda não enfileirados (página de serviço já está; falta "site lento", que precisa de fonte da web.dev, e "domínio, hospedagem e e-mail", sem fonte).
+3. **Meta (Pixel, Ads, Instagram).** O runbook proíbe citar página da Meta; `developers.facebook.com` e `about.fb.com` estão na lista de domínios, mas o registro não tem nenhuma fonte de Meta Ads e o WebFetch dessas páginas não foi testado. Por isso o spoke "Pixel da Meta" (pilar 7) e qualquer conteúdo de remarketing no Instagram ficam fora de novembro. Decisão do dono: autorizar um teste de verificação em `developers.facebook.com/docs/meta-pixel` para dezembro.
+4. **Custo de site (16/11).** O post explica o que compõe o preço e não dá nenhuma faixa. A SERP de "quanto custa um site" espera valores e este post pode não ranquear. Decisão do dono: manter assim (honesto, sem fonte) ou buscar uma pesquisa de preço com metodologia (ainda inexistente no registro).
+5. **Posts do pilar 8 (agências) e Etuos como parte interessada.** Todos ensinam a avaliar qualquer agência, sem autoelogio, sem preço, sem garantia e sem nome de concorrente. O post de 23/11 mira a query de monitoramento "agência de marketing para brasileiros nos EUA" e tem risco de soar como propaganda: revisar o tom antes de publicar. O de 27/11 não pode virar conselho jurídico.
+6. **CRM (24/11) é o item A mais fraco.** Sem citar produto nem preço, pode não sustentar 1.500 palavras. Se não sustentar, encurtar para 1.200 ou trocar pela atualização de `anunciar-em-ingles-ou-portugues`.
+7. **Cluster de landing page.** Três posts (05/11, 10/11, 20/11) mais o hub do pilar 5 giram em torno de página. A separação por intenção está nas notes, mas conferir na escrita se não há repetição; se houver, fundir os de 10/11 e 20/11.
+8. **Thanksgiving e Black Friday.** 26/11 e 27/11 são feriado e Black Friday nos EUA. Os posts saem normalmente, mas a divulgação em comunidade nesses dias rende pouco.
+9. **Deploy diário.** Post com data futura só aparece em deploy feito na data ou depois (ver `docs/blog-loop-sessao-local.md`). Sem o workflow diário, é preciso um push em dia posterior a cada data para revelar os posts.
+10. **Dezembro.** A "Radiografia do empreendedor brasileiro nos EUA" (pilar 4, dados do Census) continua reservada para dezembro e é B, não entrou em novembro. A coleta de IA de início de novembro deve incluir "o que é remarketing para negócio local" e "como escolher agência de marketing digital".
