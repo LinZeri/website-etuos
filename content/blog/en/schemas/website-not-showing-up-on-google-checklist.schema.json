@@ -1,0 +1,187 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/website-not-showing-up-on-google-checklist#article",
+      "headline": "Why Your Website Is Not Showing Up on Google: A Plain-English Checklist",
+      "description": "Website not showing up on Google? Learn how to check if it is indexed, then rule out noindex, robots.txt, missing sitemap, duplicate pages and mobile issues.",
+      "datePublished": "2026-10-30",
+      "dateModified": "2026-10-30",
+      "inLanguage": "en-US",
+      "wordCount": 1744,
+      "keywords": [
+        "website not showing up on google",
+        "why is my website not on google",
+        "how to check if my website is indexed",
+        "noindex and robots.txt explained"
+      ],
+      "articleSection": [
+        "First, Check Whether Your Site Is Really Missing",
+        "A Live Website Is Not the Same as a Listed One",
+        "Cause 1: A noindex Tag Is Telling Google to Skip the Page",
+        "Cause 2: A robots.txt File Is Blocking Google",
+        "Cause 3: Google Does Not Know the Page Exists",
+        "Cause 4: Duplicate Versions Are Competing With Each Other",
+        "Cause 5: Your Mobile Site Is Missing Content",
+        "Other Things Worth Ruling Out",
+        "How to Read the Page Indexing Report Without Panic",
+        "The Order to Check Things In",
+        "Frequently Asked Questions",
+        "What Should You Do Next?",
+        "Sources"
+      ],
+      "articleBody": "You typed your own business name into Google and your website is not there. Or it shows for your name but never for the work you do. Those are different problems with different fixes. This checklist covers the first kind: your pages may not be in Google at all. It goes from simple checks to technical causes, in plain English, and promises no timeline, because Google offers none. Key Takeaways - A live website is not automatically on Google. Google says it does not guarantee that it will crawl,",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/website-not-showing-up-on-google-checklist#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/website-not-showing-up-on-google-checklist"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google indexing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Business websites"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local business marketing"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/website-not-showing-up-on-google-checklist",
+      "url": "https://etuos.com/en/blog/website-not-showing-up-on-google-checklist",
+      "name": "Why Your Website Is Not Showing Up on Google: A Plain-English Checklist",
+      "description": "Website not showing up on Google? Learn how to check if it is indexed, then rule out noindex, robots.txt, missing sitemap, duplicate pages and mobile issues.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/website-not-showing-up-on-google-checklist#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/website-not-showing-up-on-google-checklist#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/website-not-showing-up-on-google-checklist#primaryimage",
+      "url": "https://etuos.com/images/blog/website-not-showing-up-on-google-checklist.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Why Your Website Is Not Showing Up on Google: A Plain-English Checklist"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/website-not-showing-up-on-google-checklist#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Why Your Website Is Not Showing Up on Google: A Plain-English Checklist",
+          "item": "https://etuos.com/en/blog/website-not-showing-up-on-google-checklist"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/website-not-showing-up-on-google-checklist#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why is my website not showing up on Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google does not guarantee that it will crawl, index or serve every page. Common causes are a noindex tag, a robots.txt file that blocks Google, a page Google has not found, duplicate versions of the page, or content missing on the mobile version."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I check if my website is indexed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search your business name and city, then search site:yourwebsite.com. The site: list is not always exhaustive, so use the URL Inspection tool in Search Console to check an individual page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a sitemap make Google index my pages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A sitemap gives Google information about your pages, but Google says it does not guarantee that all the items in it will be crawled and indexed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can robots.txt remove a page from Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google says robots.txt is not a mechanism for keeping a web page out of Google. To keep a page out, block indexing with noindex or password-protect the page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If my page is indexed, will it show up in search results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. Google says that just because a page is indexed does not guarantee that it will show up in your search results. Indexing makes a page eligible, and other factors decide whether it appears."
+          }
+        }
+      ]
+    }
+  ]
+}

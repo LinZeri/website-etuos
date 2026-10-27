@@ -1,0 +1,156 @@
+---
+titulo: "Why Your Website Is Not Showing Up on Google: A Plain-English Checklist"
+metaTitulo: "Website Not Showing Up on Google? A Simple Checklist"
+descricao: "Website not showing up on Google? Learn how to check if it is indexed, then rule out noindex, robots.txt, missing sitemap, duplicate pages and mobile issues."
+data: "2026-10-30"
+autor: "Lin Zeri"
+imagem: "/images/blog/website-not-showing-up-on-google-checklist.webp"
+---
+
+You typed your own business name into Google and your website is not there. Or it shows for your name but never for the work you do. Those are different problems with different fixes.
+
+This checklist covers the first kind: your pages may not be in Google at all. It goes from simple checks to technical causes, in plain English, and promises no timeline, because Google offers none.
+
+> **Key Takeaways**
+> - A live website is not automatically on Google. Google says it does not guarantee that it will crawl, index or serve a page.
+> - First confirm the problem is real. Search your business name, then check the page with Google's URL Inspection tool, because a `site:` search can miss pages.
+> - The usual technical causes are a noindex tag, a robots.txt file that blocks Google, a page Google has not found, duplicate versions of the page, and content missing on mobile.
+> - Showing up for your name is a different problem from ranking for "plumber near me." Fix indexing first, then work on ranking.
+
+## First, Check Whether Your Site Is Really Missing
+
+![Illustration of a magnifying glass over a row of blank page cards, one outlined in green](/images/blog/website-not-showing-up-on-google-checklist-1-check.webp)
+
+Do not change anything yet. Find out what Google actually has, in this order:
+
+1. **Search your exact business name plus your city.** Do this in a private window so your own history does not change what you see. If your site appears, Google knows it. Your problem is probably ranking, not indexing.
+2. **Search `site:yourwebsite.com`** (swap in your real address, with no space after the colon). Google describes this operator as returning a list of indexed and serving URLs, and it also says the list is not always exhaustive ([Google Search Central, "site: search operator"](https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site), accessed Oct. 2026). So if a page does not appear in that list, you cannot conclude it is missing. You can only conclude it needs a better check.
+3. **Inspect the page itself.** Google's page for the `site:` operator points to the URL Inspection tool for exactly this. Paste one page address into the tool inside Search Console, Google's own report on how it sees your site. It shows the version of the page Google most recently indexed, not the live version on the web ([Google, "URL Inspection tool", Search Console Help](https://support.google.com/webmasters/answer/9012289), accessed Oct. 2026).
+
+Try your home page and one service page. If both are indexed, look at ranking instead. If not, keep going.
+
+## A Live Website Is Not the Same as a Listed One
+
+Publishing a site does not put it on Google. Google says it does not guarantee that it will crawl, index or serve your page, and that Googlebot does not crawl all the pages it discovered ([Google Search Central, "In-depth guide to how Google Search works"](https://developers.google.com/search/docs/fundamentals/how-search-works), accessed Oct. 2026).
+
+That is context, not bad news. A page can stall at any step, and the causes below are the usual suspects. None comes with a promised delay, so be wary of anyone who offers one.
+
+## Cause 1: A noindex Tag Is Telling Google to Skip the Page
+
+![Illustration of a turnstile gate with a green latch stopping a stack of blank pages from entering a building](/images/blog/website-not-showing-up-on-google-checklist-2-blocked.webp)
+
+A `noindex` instruction is a note on a page that says "do not put me in Google." Google documents it as the way to block indexing. It suits a thank-you page and ruins a home page.
+
+It can appear by accident: a setting meant to keep a site private during the build can stay on after launch.
+
+How to check without touching code: run the page through the URL Inspection tool described above and read what it reports about the page. If Google's report points to a noindex instruction, or you are unsure, ask your web person to check the page and remove the tag from every page you want found.
+
+## Cause 2: A robots.txt File Is Blocking Google
+
+Every site can have a small file called robots.txt. Google explains that it tells search engine crawlers which URLs they can access on your site ([Google Search Central, "Introduction to robots.txt"](https://developers.google.com/search/docs/crawling-indexing/robots/intro), accessed Oct. 2026). A badly written one can block pages you need Google to read, sometimes the entire site.
+
+Two details trip people up:
+
+- **robots.txt is not a way to hide a page.** Google says it is not a mechanism for keeping a web page out of Google, and that to do that you should block indexing with noindex or password-protect the page.
+- **robots.txt and noindex can cancel each other.** Google says that for the noindex rule to be effective, the page must not be blocked by a robots.txt file ([Google Search Central, "Block Search indexing with noindex"](https://developers.google.com/search/docs/crawling-indexing/block-indexing), accessed Oct. 2026). It also says that putting a noindex rule inside the robots.txt file is not supported by Google.
+
+For you, the practical step is small. Type your address followed by `/robots.txt` into your browser and look at the file. If you are unsure what you see, ask your web person whether it blocks Google from any page you want found.
+
+## Cause 3: Google Does Not Know the Page Exists
+
+![Illustration of a map with a dotted path linking blank page cards to a signpost with a green sign](/images/blog/website-not-showing-up-on-google-checklist-3-sitemap.webp)
+
+Google has to find a page before it can list it, and pages nothing links to are easy to miss.
+
+A **sitemap** helps with that. Google describes it as a file where you provide information about the pages, videos and other files on your site ([Google Search Central, "Learn about sitemaps"](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview), accessed Oct. 2026). The same page is clear about the limit: a sitemap does not guarantee that all the items in it will be crawled and indexed.
+
+What you can do: ask whether your site has a sitemap and whether it was submitted in Search Console, and link every important page from another page, such as the menu or home page, so no service page sits alone.
+
+If your site has separate pages for each area you serve, the same logic applies, and the content has to be worth listing. We cover that in [service area pages for a local business website](/en/blog/service-area-pages-for-local-business-website).
+
+## Cause 4: Duplicate Versions Are Competing With Each Other
+
+Sometimes Google finds your page, but finds it more than once: with and without "www," on both the secure and non-secure address, or the same service text copied onto several pages. Google then has to choose which version to show.
+
+You can send a hint with a `rel="canonical"` tag, which names the address you prefer. Google calls it a strong signal that the specified URL should become canonical ([Google Search Central, "How to specify a canonical URL"](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls), accessed Oct. 2026). Note the word "signal." It is a strong hint, not a command, so it does not guarantee which address wins.
+
+What you can do: pick one version of your address, make sure the others lead to it, and avoid near-identical pages.
+
+## Cause 5: Your Mobile Site Is Missing Content
+
+![Illustration of a desktop monitor with many blocks and a phone with fewer blocks, the missing blocks outlined in green](/images/blog/website-not-showing-up-on-google-checklist-4-mobile.webp)
+
+Most owners check their site on a desktop, but Google says it uses the mobile version of a site's content, crawled with the smartphone agent, for indexing and ranking, and that only the content shown on the mobile site is used for indexing ([Google Search Central, "Mobile site and mobile-first indexing best practices"](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing), accessed Oct. 2026).
+
+That has a practical meaning. If a service description, a list of areas or a block of text appears on desktop but is hidden or removed on a phone, Google does not use it. Open your site on your phone and compare it with your desktop version, page by page. Anything that disappears is a candidate for a fix.
+
+## Other Things Worth Ruling Out
+
+Some causes have no precise rule behind them, so treat these as questions for your web developer, not verdicts. Is the site very thin, with a few lines and no real explanation of the service? Do pages fail to load or feel slow and broken? Does everything redirect to one secure address? Does each page have its own clear title? We put no numbers on these, because no honest benchmark fits every business.
+
+## How to Read the Page Indexing Report Without Panic
+
+Once Search Console is set up, its Page indexing report shows how many URLs on your site have been crawled and indexed by Google ([Google, "Page indexing report", Search Console Help](https://support.google.com/webmasters/answer/7440203), accessed Oct. 2026). It also lists reasons some URLs were not indexed. For a plain-English walkthrough of setting it up and reading it, see [Google Search Console for Local Business Owners](/en/blog/google-search-console-for-local-business-owners).
+
+Two lines from Google's page help keep the report in perspective. First, "Not indexed is not necessarily bad." Second, most sites have at least a few unindexed pages, but all of your important pages should be indexed. So do not try to clear the whole list. Look only for the pages that matter to your business: the home page, each service page, each area page and the contact page.
+
+If a key page is not indexed, fix the cause first, then use the URL Inspection tool to ask Google to look at it again. Google is plain about this step: submitting a request does not guarantee that the page will appear in the Google Index. And there is one more catch. Just because a page is indexed does not guarantee that it will show up in your search results.
+
+That last point is the line between this guide and a ranking problem. Being indexed makes a page eligible. Showing up for "plumber near me" depends on other things. For service businesses, that is mostly a local search question, which we explain in [how local SEO works for service businesses](/en/blog/local-seo-for-service-businesses-complete-guide). If the missing piece is your map listing instead of your website, read [why your business may not show on Google Maps](/en/blog/why-my-business-not-showing-google-maps).
+
+## The Order to Check Things In
+
+Work through the list from top to bottom. Stop as soon as you find a cause.
+
+1. **Search your business name and city.** If you appear, you probably have a ranking problem, not an indexing one.
+2. **Inspect your home page and one service page** with the URL Inspection tool.
+3. **Look for noindex** on any page you want found.
+4. **Open your `/robots.txt` file** and ask whether it blocks anything important.
+5. **Confirm there is a sitemap** and that your key pages are linked from other pages.
+6. **Choose one address version** and check for duplicate pages.
+7. **Compare the phone version with the desktop version.**
+8. **Read the Page indexing report** and focus on important pages only.
+
+Change one thing at a time and write down what and when.
+
+Once people do find you, our guide on [why a website is not getting calls](/en/blog/website-not-getting-calls) covers what to check next.
+
+## Frequently Asked Questions
+
+### Why is my website not showing up on Google?
+
+Google does not guarantee that it will crawl, index or serve every page. Common causes are a noindex tag, a robots.txt file that blocks Google, a page Google has not found, duplicate versions of the page, or content missing on the mobile version.
+
+### How do I check if my website is indexed?
+
+Search your business name and city, then search site:yourwebsite.com. The site: list is not always exhaustive, so use the URL Inspection tool in Search Console to check an individual page.
+
+### Does a sitemap make Google index my pages?
+
+No. A sitemap gives Google information about your pages, but Google says it does not guarantee that all the items in it will be crawled and indexed.
+
+### Can robots.txt remove a page from Google?
+
+No. Google says robots.txt is not a mechanism for keeping a web page out of Google. To keep a page out, block indexing with noindex or password-protect the page.
+
+### If my page is indexed, will it show up in search results?
+
+Not necessarily. Google says that just because a page is indexed does not guarantee that it will show up in your search results. Indexing makes a page eligible, and other factors decide whether it appears.
+
+## What Should You Do Next?
+
+Pick one page today, your home page, and run it through the URL Inspection tool. Write down what it says. That one check tells you whether you have an indexing problem or a ranking problem, and it keeps you from paying to fix the wrong thing.
+
+Etuos brings more than 10 years of digital marketing experience to local businesses. If you want a second opinion on why your site is not showing up, see how we approach [website design](/en/services/website-design), or [send a message on WhatsApp](https://wa.me/5516991252073?text=Hi!%20I%20read%20your%20checklist%20on%20why%20a%20website%20is%20not%20showing%20up%20on%20Google.%20I%20want%20a%20diagnosis%20of%20my%20site.) and tell us what you see when you search for your business. We offer a free diagnosis with no deadline. You can also reach us on the [contact page](/en/contact).
+
+## Sources
+
+- Google Search Central, "In-depth guide to how Google Search works", retrieved Oct. 2026, https://developers.google.com/search/docs/fundamentals/how-search-works
+- Google Search Central, "Learn about sitemaps", retrieved Oct. 2026, https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
+- Google Search Central, "Introduction to robots.txt", retrieved Oct. 2026, https://developers.google.com/search/docs/crawling-indexing/robots/intro
+- Google Search Central, "Block Search indexing with noindex", retrieved Oct. 2026, https://developers.google.com/search/docs/crawling-indexing/block-indexing
+- Google Search Central, "How to specify a canonical URL", retrieved Oct. 2026, https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls
+- Google Search Central, "Mobile site and mobile-first indexing best practices", retrieved Oct. 2026, https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing
+- Google Search Central, "site: search operator", retrieved Oct. 2026, https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site
+- Google, "URL Inspection tool", Search Console Help, retrieved Oct. 2026, https://support.google.com/webmasters/answer/9012289
+- Google, "Page indexing report", Search Console Help, retrieved Oct. 2026, https://support.google.com/webmasters/answer/7440203
