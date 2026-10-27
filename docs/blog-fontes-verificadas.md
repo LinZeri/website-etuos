@@ -499,7 +499,8 @@ Fonte a citar: **Google, "Performance report (Search results): Overview and basi
 URL: https://support.google.com/webmasters/answer/7576553
 Markdown: `([Google, "Performance report (Search results)", Search Console Help](https://support.google.com/webmasters/answer/7576553), acesso em out. 2026)`
 Uso permitido: explicar cada métrica com as definições acima.
-Uso proibido: dizer que a posição média é a posição de uma página específica (a página diz que é a do resultado mais alto do site); prometer resultado.
+Ressalva (reaberta em out. 2026, duas chamadas): no gráfico, a posição média é a do resultado mais alto do site; na visão de tabela, a página diz que é "the average position in Search results for the specific URL or grouping dimension shown in the table row". Por isso o texto deve dizer em qual visão a definição vale.
+Uso proibido: dizer que a posição média é a posição de uma página específica sem dizer que isso vale só na visão de tabela; prometer resultado.
 
 **S38: A ferramenta de inspeção de URL mostra a versão indexada de uma página; pedir indexação não garante que a página apareça.** Verificado em out. 2026 por WebFetch (duas chamadas nas três últimas frases).
 Citação literal confirmada: "The results shown are from most recently indexed version of a page, not the live version on the web." / "Submitting a request does not guarantee that the page will appear in the Google Index." / "This is a live test: the tool fetches and examines the URL in real time."

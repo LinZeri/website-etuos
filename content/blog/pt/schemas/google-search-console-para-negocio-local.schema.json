@@ -136,7 +136,7 @@
           "name": "O que significam cliques, impressões, CTR e posição média?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Cliques são as vezes em que um usuário clicou no seu site a partir dos resultados do Google. Impressões são as vezes em que o site apareceu nos resultados. CTR é a contagem de cliques dividida pela de impressões. Posição média é a posição média do resultado mais alto do seu site."
+            "text": "Cliques são as vezes em que um usuário clicou no seu site a partir dos resultados do Google. Impressões são as vezes em que o site apareceu nos resultados. CTR é a contagem de cliques dividida pela de impressões. No gráfico, a posição média é a do resultado mais alto do seu site."
           }
         },
         {
