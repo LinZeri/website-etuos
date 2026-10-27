@@ -1,0 +1,180 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/google-search-console-for-local-business-owners#article",
+      "headline": "Google Search Console for Local Business Owners: What to Check First",
+      "description": "What Google Search Console is, how to verify your site, and the four reports a local business owner should check first, in plain English.",
+      "datePublished": "2026-10-22",
+      "dateModified": "2026-10-22",
+      "inLanguage": "en-US",
+      "wordCount": 2117,
+      "keywords": [
+        "google search console for small business",
+        "how to use google search console",
+        "verify website in google search console",
+        "search console performance report"
+      ],
+      "articleSection": [
+        "What Is Google Search Console, and Do You Need It?",
+        "How Do You Verify Your Site?",
+        "What Does the Performance Report Tell You?",
+        "Is Your Site Indexed? Check the Page Indexing Report",
+        "How Do You Inspect a Single Page?",
+        "What About Sitemaps?",
+        "What Should You Check First?",
+        "What Search Console Will Not Tell You",
+        "Frequently Asked Questions",
+        "Want Help Reading What Search Console Shows?"
+      ],
+      "articleBody": "Someone told you to \"check Search Console.\" You opened it, saw a wall of charts and menus, and closed the tab. That is a fair reaction. The tool was built with web developers in mind, and nobody explains which parts matter if you run a plumbing company or a salon. This guide covers what Google Search Console is, how to prove the site is yours, and the places worth opening first. If your main worry is that the phone is not ringing, our guide on why your website is not getting calls is a good companion to this one.",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/google-search-console-for-local-business-owners#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/google-search-console-for-local-business-owners"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Search Console"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local SEO"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/google-search-console-for-local-business-owners",
+      "url": "https://etuos.com/en/blog/google-search-console-for-local-business-owners",
+      "name": "Google Search Console for Local Business Owners: What to Check First",
+      "description": "What Google Search Console is, how to verify your site, and the four reports a local business owner should check first, in plain English.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/google-search-console-for-local-business-owners#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/google-search-console-for-local-business-owners#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/google-search-console-for-local-business-owners#primaryimage",
+      "url": "https://etuos.com/images/blog/google-search-console-for-local-business-owners.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Google Search Console for Local Business Owners: What to Check First"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/google-search-console-for-local-business-owners#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Google Search Console for Local Business Owners: What to Check First",
+          "item": "https://etuos.com/en/blog/google-search-console-for-local-business-owners"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/google-search-console-for-local-business-owners#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need Google Search Console for my website to show up on Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google says you do not have to sign up for Search Console to be included in Google Search results. The tool helps you understand how Google sees your site."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does average position mean in Search Console?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the chart, Google defines it as the average position of the topmost result from your site, so it is not the rank of one particular page. Use it to watch direction over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it bad if some pages are \"not indexed\"?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. Google says most sites have at least a few unindexed pages. What matters is that your important pages, such as your home page and service pages, are indexed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If I request indexing, will my page show up on Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not guaranteed. Google says that submitting a request does not guarantee the page will appear in the Google index."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a sitemap make Google index all my pages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A sitemap tells Google which pages you want it to know about, but Google says it does not guarantee that every item will be crawled and indexed."
+          }
+        }
+      ]
+    }
+  ]
+}
