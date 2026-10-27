@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T11:21:05.014444+00:00",
+  "updated": "2026-10-27T23:07:49.949932+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -1095,15 +1095,46 @@
         "/pt/sobre"
       ],
       "cluster": "pilar4.comunidade-dados-proprios",
-      "notes": "Item avulso do mês (cota de 1 por mês por idioma), pilar 4, autoridade pessoal do Lin Zeri em primeira pessoa. SÓ os números autorizados do site (fonte única dicionario.numeros): 10+ anos de marketing digital, mais de US$ 500 mil em anúncios gerenciados, 30 para 300+ franquias em 1 ano e 8 meses (rede de energia solar), +300% de faturamento, 13 setores atendidos. PROIBIDO: nome da rede ou de qualquer cliente, faixa de investimento, garantia, prazo de resultado, métrica nova que não esteja no dicionário. O valor do artigo é o aprendizado transferível para o dono de negócio pequeno: estrutura de campanha por unidade, verba por região, padronização de criativo, medição comparável entre unidades e o que quebra quando a rede cresce rápido. Nenhuma estatística externa é necessária; se alguma entrar, precisa estar registrada em docs/blog-fontes-verificadas.md antes. Sem travessão. PRONTIDAO C (calendario out/2026): exige conteudo e autorizacao do Lin. O texto e em primeira pessoa sobre o aprendizado da expansao e a sessao NAO pode inventar experiencia: falta o Lin fornecer (1) o material bruto dos aprendizados (estrutura de campanha por unidade, verba por regiao, padronizacao de criativo, medicao entre unidades, o que quebrou) em topicos ou audio, (2) confirmacao de que pode contar o caso sem nomear a rede e (3) aprovacao de que o texto sai na voz dele. Sem isso, trocar por um item A de reserva.",
+      "notes": "ESTACIONADO em 27/10/2026: aguarda o material do Lin (aprendizados, autorizacao para contar sem nomear a rede e aprovacao da voz). Trocado no slot de 30/10 por um item A. | Item avulso do mês (cota de 1 por mês por idioma), pilar 4, autoridade pessoal do Lin Zeri em primeira pessoa. SÓ os números autorizados do site (fonte única dicionario.numeros): 10+ anos de marketing digital, mais de US$ 500 mil em anúncios gerenciados, 30 para 300+ franquias em 1 ano e 8 meses (rede de energia solar), +300% de faturamento, 13 setores atendidos. PROIBIDO: nome da rede ou de qualquer cliente, faixa de investimento, garantia, prazo de resultado, métrica nova que não esteja no dicionário. O valor do artigo é o aprendizado transferível para o dono de negócio pequeno: estrutura de campanha por unidade, verba por região, padronização de criativo, medição comparável entre unidades e o que quebra quando a rede cresce rápido. Nenhuma estatística externa é necessária; se alguma entrar, precisa estar registrada em docs/blog-fontes-verificadas.md antes. Sem travessão. PRONTIDAO C (calendario out/2026): exige conteudo e autorizacao do Lin. O texto e em primeira pessoa sobre o aprendizado da expansao e a sessao NAO pode inventar experiencia: falta o Lin fornecer (1) o material bruto dos aprendizados (estrutura de campanha por unidade, verba por regiao, padronizacao de criativo, medicao entre unidades, o que quebrou) em topicos ou audio, (2) confirmacao de que pode contar o caso sem nomear a rede e (3) aprovacao de que o texto sai na voz dele. Sem isso, trocar por um item A de reserva.",
       "image_context": "equipe pequena reunida em volta de uma mesa com mapa de regiões impresso e notebooks abertos, escritório simples, luz natural",
-      "publish_date": "2026-10-30",
+      "publish_date": null,
       "author": null,
-      "status": "pending",
+      "status": "parked",
       "attempts": 0,
       "last_error": null,
       "started_at": null,
       "last_score": null
+    },
+    {
+      "id": "p2-s12",
+      "slug": "palavras-chave-negativas-google-ads-como-usar",
+      "title": "Palavras-chave negativas no Google Ads: como parar de pagar por cliques que não interessam",
+      "template": "how-to-guide",
+      "target_keyword": "palavras-chave negativas google ads",
+      "secondary_keywords": [
+        "o que são palavras-chave negativas",
+        "como adicionar palavras-chave negativas",
+        "correspondência ampla, de frase e exata"
+      ],
+      "word_count": 1600,
+      "internal_links": [
+        "/pt/blog/google-ads-como-funciona",
+        "/pt/blog/planejador-de-palavras-chave-google-ads-como-usar",
+        "/pt/blog/erros-que-fazem-pequenos-negocios-queimar-dinheiro-em-anuncios",
+        "/pt/blog/como-medir-resultado-de-trafego-pago",
+        "/pt/servicos/trafego-pago"
+      ],
+      "cluster": "pilar2.trafego-pago",
+      "notes": "Troca de 27/10/2026 (substitui o item de franquias, que depende do Lin). Spoke do pilar 2, para o brasileiro dono de negocio nos EUA e no Brasil; independente do post en negative-keywords-google-ads-local-business (nunca traducao). PRONTIDAO A: fonte T18 (definicao, tres correspondencias, onde adicionar; leia o Uso proibido: nada de sinonimos ou plurais, nada dos simbolos de cada correspondencia, a pagina 2472708 e o relatorio de termos de pesquisa), mais T9, T10, T11, T14 e T16. Sem exemplo com numero de cliques ou de dinheiro desperdicado, sem benchmark, sem prazo; exemplos de termos negativos so como ilustracao rotulada. Linke os posts irmaos em vez de repetir (google-ads-como-funciona, planejador, erros-que-fazem). Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "dono de uma pequena loja olhando a lista de termos de busca no notebook no balcão, com uma xícara de café ao lado, luz natural da vitrine",
+      "publish_date": "2026-10-30",
+      "author": null,
+      "status": "in_progress",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-10-27T23:07:49.949918+00:00",
+      "last_score": null,
+      "iteration_id": "local-session-trocas"
     }
   ],
   "author_daily_counts": {

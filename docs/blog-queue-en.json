@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T11:21:06.403882+00:00",
+  "updated": "2026-10-27T23:07:50.100128+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -939,11 +939,11 @@
         "/en/cities/boston"
       ],
       "cluster": "pillar3.industry-playbooks",
-      "notes": "Industry playbook for an industry Etuos actually serves: landscaping and snow removal appear in the Boston and Danbury city data (src/data/cidades/en.ts), which is the only material for local context. The differentiating angle is the calendar: reviews, profile and rankings are built in the slow months so the business arrives at peak season already ahead, and budget follows the season instead of running flat all year. Also cover service area setup, separate campaigns per service and per town, and what a seasonal business should do with its site. Registered sources: S10 (local ranking factors), S5 and S9 (review behavior and the star threshold), T5 and T6 (Local Services Ads valid leads, relevant for the trades), T9 and T10 (auction basics). Library gap: no verified CPC or conversion benchmark by industry, so all cost talk stays qualitative or cites only the registered Google documentation. PROHIBITED: client names, invented cases, prices, a promised result in a fixed timeframe. No em dash. Calendar readiness A, with an owner check: landscaping and snow removal appear in the Boston and Danbury city copy but NOT in the 13 industries listed on the About page, so confirm with Lin that the industry is fine as a playbook; the post stays neutral either way (no Etuos experience claim). Registered IDs: S10, S5, S9, T5, T6, T9, T10. NO source for seasonality data, CPC or conversion by industry, or Local Services Ads eligibility of landscapers (T7 does not list categories): do not say landscapers qualify for LSA. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "notes": "PARKED on 10/27/2026: waiting for the owner to confirm the sector (landscaping is not among the 13 sectors on the About page). Its 10/22 slot was replaced by an A item. | Industry playbook for an industry Etuos actually serves: landscaping and snow removal appear in the Boston and Danbury city data (src/data/cidades/en.ts), which is the only material for local context. The differentiating angle is the calendar: reviews, profile and rankings are built in the slow months so the business arrives at peak season already ahead, and budget follows the season instead of running flat all year. Also cover service area setup, separate campaigns per service and per town, and what a seasonal business should do with its site. Registered sources: S10 (local ranking factors), S5 and S9 (review behavior and the star threshold), T5 and T6 (Local Services Ads valid leads, relevant for the trades), T9 and T10 (auction basics). Library gap: no verified CPC or conversion benchmark by industry, so all cost talk stays qualitative or cites only the registered Google documentation. PROHIBITED: client names, invented cases, prices, a promised result in a fixed timeframe. No em dash. Calendar readiness A, with an owner check: landscaping and snow removal appear in the Boston and Danbury city copy but NOT in the 13 industries listed on the About page, so confirm with Lin that the industry is fine as a playbook; the post stays neutral either way (no Etuos experience claim). Registered IDs: S10, S5, S9, T5, T6, T9, T10. NO source for seasonality data, CPC or conversion by industry, or Local Services Ads eligibility of landscapers (T7 does not list categories): do not say landscapers qualify for LSA. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
       "image_context": "landscaping crew loading a mower onto a trailer outside a suburban home in early spring, clear morning light",
-      "publish_date": "2026-10-22",
+      "publish_date": null,
       "author": null,
-      "status": "pending",
+      "status": "parked",
       "attempts": 0,
       "last_error": null,
       "started_at": null,
@@ -1111,15 +1111,78 @@
         "/en/cities/miami"
       ],
       "cluster": "pillar3.industry-playbooks",
-      "notes": "Industry playbook for an industry in the city data (med spas and aesthetics in Miami and Atlanta, src/data/cidades/en.ts). High ticket with a long consideration cycle, so the metric is consultations booked, not clicks, and the post is about trust: profile and photos of the space, review handling, a consultation page that answers the fear instead of selling the discount. Policy matters here and must be respected in the copy: Google and Meta restrict health and personal care advertising and reject claims about outcomes, so NO before and after promises, no medical claims, no treatment result language, no price. Registered sources: S5 and S9 (review behavior and the 4.5 star threshold), S10 (local ranking), S18 and S21 (profile guidelines), T9, T10 and T11 (auction and Quality Score as a diagnostic). Library gap: no verified cost per lead or conversion benchmark for this industry, so keep cost talk qualitative. PROHIBITED: client names, invented cases, prices, guarantees, timeframes. No em dash. Calendar readiness C (regulated industry, owner decision first). The note above says Google and Meta restrict health and personal care advertising: that is a factual claim with NO registered source, so the post may not state it until the policy pages are registered (candidate: Google Advertising Policies Help, Healthcare and medicines, https://support.google.com/adspolicy/answer/176031, confirm the literal text; Meta's advertising standards on personal health live on transparency.meta.com, which is NOT in docs/blog-dominios-confiaveis.md, so add the domain there first or write no Meta policy claim). Absolute copy rules: no medical, safety or outcome claim, no before and after, no treatment names with benefits, no price, no comparison of procedures. Frame everything around trust, profile, review handling and consultation page clarity. Needs Lin: approve the approach (policy sources or none) and confirm that the post may mention med spa as one of the 13 industries only in the neutral voice. NO source for cost per lead, consultation conversion or treatment demand. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "notes": "PARKED on 10/27/2026: regulated sector with no registered source for health ad policies. Its 10/30 slot was replaced by an A item. Resume only with Google's health ad policy registered or with no policy claim at all. | Industry playbook for an industry in the city data (med spas and aesthetics in Miami and Atlanta, src/data/cidades/en.ts). High ticket with a long consideration cycle, so the metric is consultations booked, not clicks, and the post is about trust: profile and photos of the space, review handling, a consultation page that answers the fear instead of selling the discount. Policy matters here and must be respected in the copy: Google and Meta restrict health and personal care advertising and reject claims about outcomes, so NO before and after promises, no medical claims, no treatment result language, no price. Registered sources: S5 and S9 (review behavior and the 4.5 star threshold), S10 (local ranking), S18 and S21 (profile guidelines), T9, T10 and T11 (auction and Quality Score as a diagnostic). Library gap: no verified cost per lead or conversion benchmark for this industry, so keep cost talk qualitative. PROHIBITED: client names, invented cases, prices, guarantees, timeframes. No em dash. Calendar readiness C (regulated industry, owner decision first). The note above says Google and Meta restrict health and personal care advertising: that is a factual claim with NO registered source, so the post may not state it until the policy pages are registered (candidate: Google Advertising Policies Help, Healthcare and medicines, https://support.google.com/adspolicy/answer/176031, confirm the literal text; Meta's advertising standards on personal health live on transparency.meta.com, which is NOT in docs/blog-dominios-confiaveis.md, so add the domain there first or write no Meta policy claim). Absolute copy rules: no medical, safety or outcome claim, no before and after, no treatment names with benefits, no price, no comparison of procedures. Frame everything around trust, profile, review handling and consultation page clarity. Needs Lin: approve the approach (policy sources or none) and confirm that the post may mention med spa as one of the 13 industries only in the neutral voice. NO source for cost per lead, consultation conversion or treatment demand. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
       "image_context": "front desk of a small aesthetics clinic with a receptionist greeting a client, clean bright interior, no text on walls or signage",
-      "publish_date": "2026-10-30",
+      "publish_date": null,
       "author": null,
-      "status": "pending",
+      "status": "parked",
       "attempts": 0,
       "last_error": null,
       "started_at": null,
       "last_score": null
+    },
+    {
+      "id": "en-p1-gsc",
+      "slug": "google-search-console-for-local-business-owners",
+      "title": "Google Search Console for Local Business Owners: What to Check First",
+      "template": "how-to-guide",
+      "target_keyword": "google search console for small business",
+      "secondary_keywords": [
+        "how to use google search console",
+        "verify website in google search console",
+        "search console performance report"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/en/blog/local-seo-for-service-businesses-complete-guide",
+        "/en/blog/website-not-getting-calls",
+        "/en/blog/how-to-rank-higher-on-google-maps",
+        "/en/services/seo",
+        "/en/contact"
+      ],
+      "cluster": "pillar1.local-search",
+      "notes": "Swap of 10/27/2026 (replaces landscaping, 10/22 slot, retroactive date). Independent of the pt post google-search-console-para-negocio-local (never a translation): written for the US local business owner. READINESS A: sources S36 (what it is, not required to appear on Google), S37 (clicks, impressions, CTR, average position definitions), S38 (URL Inspection), S39 (Page indexing report), S40 (sitemap, first sentence only), S41 (ownership verification, DNS only for Domain property), plus S27 and S28. Read each Uso proibido: no daily inspection limit, no 'few hours out of date', no 'tries to crawl as soon as you submit', no days for data to appear, average position is the topmost result of the site not a page. A 10/22 post can only link posts dated 10/22 or earlier. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a plumber at a kitchen table reviewing his website performance on a laptop with a notepad and a coffee mug, evening light through the window",
+      "publish_date": "2026-10-22",
+      "author": null,
+      "status": "in_progress",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-10-27T23:07:50.022393+00:00",
+      "last_score": null,
+      "iteration_id": "local-session-trocas"
+    },
+    {
+      "id": "en-p5-notshowing",
+      "slug": "website-not-showing-up-on-google-checklist",
+      "title": "Why Your Website Is Not Showing Up on Google: A Plain-English Checklist",
+      "template": "how-to-guide",
+      "target_keyword": "website not showing up on google",
+      "secondary_keywords": [
+        "why is my website not on google",
+        "how to check if my website is indexed",
+        "noindex and robots.txt explained"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/en/blog/google-search-console-for-local-business-owners",
+        "/en/blog/website-not-getting-calls",
+        "/en/blog/service-area-pages-for-local-business-website",
+        "/en/blog/local-seo-for-service-businesses-complete-guide",
+        "/en/services/website-design",
+        "/en/contact"
+      ],
+      "cluster": "pillar5.website",
+      "notes": "Swap of 10/27/2026 (replaces med spa, which needs the owner). Independent of the pt post site-nao-aparece-no-google-requisitos-tecnicos (never a translation). READINESS A: sources S27 (no guarantee Google crawls, indexes or serves a page), S28 (sitemap), S29 (robots.txt is not a way to keep a page out), S30 (noindex only works if not blocked in robots.txt), S31 (canonical is a strong signal), S32 (mobile-first), S33 (site: operator is not exhaustive), S38 (URL Inspection), S39 (Page indexing report). Read each Uso proibido; use only the confirmed snippets. For a layperson: simple causes and how to check, no day counts, no promise of indexing. Speed, HTTPS and titles have no registered source: qualitative only. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a home services owner at a desk typing his own business name into a search bar on a laptop, puzzled, with a service van parked outside the window",
+      "publish_date": "2026-10-30",
+      "author": null,
+      "status": "in_progress",
+      "attempts": 1,
+      "last_error": null,
+      "started_at": "2026-10-27T23:07:50.100112+00:00",
+      "last_score": null,
+      "iteration_id": "local-session-trocas"
     }
   ],
   "author_daily_counts": {
