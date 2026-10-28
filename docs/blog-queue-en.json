@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T23:15:45.360383+00:00",
+  "updated": "2026-10-28T23:27:14.080385+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -1215,11 +1215,12 @@
       "image_context": "a service business owner at a kitchen table with a phone, a notebook and a laptop, organizing incoming job requests into three simple piles",
       "publish_date": "2026-11-02",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-28T23:27:13.634413+00:00",
+      "last_score": null,
+      "iteration_id": "nov-onda1"
     },
     {
       "id": "en-p2-google-guaranteed",
@@ -1246,11 +1247,12 @@
       "image_context": "a home services contractor holding a phone showing a verified business badge screen while a license and an insurance document sit on the desk",
       "publish_date": "2026-11-03",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-28T23:27:13.720731+00:00",
+      "last_score": null,
+      "iteration_id": "nov-onda1"
     },
     {
       "id": "en-p7-hub",
@@ -1280,11 +1282,12 @@
       "image_context": "a small business owner and a marketing professional reviewing a simple printed monthly report together at a shop counter",
       "publish_date": "2026-11-05",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-28T23:27:13.807361+00:00",
+      "last_score": null,
+      "iteration_id": "nov-onda1"
     },
     {
       "id": "en-p3-real-estate",
@@ -1312,11 +1315,12 @@
       "image_context": "a real estate agent standing in front of a neighborhood house with a for sale sign, checking a business profile on her phone",
       "publish_date": "2026-11-06",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-28T23:27:13.901712+00:00",
+      "last_score": null,
+      "iteration_id": "nov-onda1"
     },
     {
       "id": "en-p6-speed-to-lead",
@@ -1342,11 +1346,12 @@
       "image_context": "a plumber on a job site answering a customer's text message on his phone while holding a wrench in the other hand",
       "publish_date": "2026-11-09",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-28T23:27:13.988379+00:00",
+      "last_score": null,
+      "iteration_id": "nov-onda1"
     },
     {
       "id": "en-p7-choose-agency",
@@ -1375,11 +1380,12 @@
       "image_context": "a local business owner at a desk with a printed checklist and a pen, comparing two proposal folders side by side",
       "publish_date": "2026-11-10",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-28T23:27:14.080361+00:00",
+      "last_score": null,
+      "iteration_id": "nov-onda1"
     },
     {
       "id": "en-p4-bilingual-leads",
@@ -1539,29 +1545,28 @@
       "last_score": null
     },
     {
-      "id": "en-p2-nextdoor",
-      "slug": "nextdoor-advertising-for-local-businesses",
-      "title": "Nextdoor Advertising for Local Businesses: Who It Works For and Who Should Skip It",
-      "template": "comparison",
-      "target_keyword": "nextdoor advertising",
+      "id": "en-p2-geotarget",
+      "slug": "google-ads-location-targeting-local-business",
+      "title": "Google Ads Location Targeting for Local Businesses: Radius, Cities and Who You Actually Reach",
+      "template": "how-to-guide",
+      "target_keyword": "google ads location targeting",
       "secondary_keywords": [
-        "nextdoor ads",
-        "advertise on nextdoor",
-        "nextdoor for business"
+        "google ads radius targeting",
+        "google ads presence or interest",
+        "how to target a city in google ads"
       ],
-      "word_count": 1800,
+      "word_count": 1700,
       "internal_links": [
-        "/en/blog/facebook-ads-for-local-business",
+        "/en/blog/what-to-do-with-leads-from-google-ads",
+        "/en/blog/negative-keywords-google-ads-local-business",
+        "/en/blog/how-much-google-ads-cost-small-business",
         "/en/blog/local-services-ads-vs-google-ads",
-        "/en/blog/how-much-paid-ads-cost-local-business-guide",
-        "/en/blog/where-to-spend-first-marketing-dollars-local-business",
-        "/en/blog/google-guaranteed-badge-local-services-ads",
         "/en/services/paid-ads",
         "/en/contact"
       ],
       "cluster": "pillar2.paid-ads",
-      "notes": "Phase 2 pillar 2 extension; 2,900/month, a term we have not touched. READINESS B: the registry has no Nextdoor source and any claim about reach, targeting radius or billing needs one. Verify by WebFetch before the batch (two calls with different questions each): https://business.nextdoor.com/en-us/small-business (opened on 10/27: Business Posts are free and use a radius around the business; it says nothing about ad targeting or billing) and https://business.nextdoor.com/en-us/nam/getting-started (not yet tested). The help.nextdoor.com article pages (About-advertising-on-Nextdoor, Advertise-on-Nextdoor-with-Pay-as-You-Go-or-Subscription) returned only a CSS error on 10/27, so they are usable only if they open. DOMAIN: business.nextdoor.com is NOT in docs/blog-dominios-confiaveis.md (only help.nextdoor.com is); add it there first, with the owner's OK. A search summary mentioned 30 miles on one Nextdoor page and 50 miles on another: use neither number. If no page body opens, swap this slot for an A item instead of writing mechanics from memory. Never write ad costs, CPMs or results. Cannibalization: facebook-ads-for-local-business (social ads; no Meta data is registered) and local-services-ads-vs-google-ads. Solution: judge Nextdoor by who the customer is, qualitatively; link the Facebook post for the social comparison and the Google Guaranteed post (11/03) for the verified badge channel. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
-      "image_context": "a neighborhood street with a handyman's van parked at the curb and a homeowner reading a phone feed on a front porch",
+      "notes": "Swap of 10/28/2026 (replaces the Nextdoor item, 11/20 slot; the owner decided to swap it for an A topic because business.nextdoor.com is not an allowed domain and no page covered ads). Independent of the pt post como-anunciar-so-na-sua-regiao-google-ads-segmentacao-por-local (never a translation): written for the US local business owner. READINESS A: source T17 (radius targeting needs at least 1 km; 'Presence or Interest' is the broad geo targeting; read its Uso proibido: no 1000-location limit, no definition of 'Presence' beyond the page, no 'ads might show intermittently', no result promises), plus T9, T10, T14, T15 and T16. No CPC by area, no ideal radius by trade, no timeframe. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a local service owner at a desk with a printed street map of his neighborhood and a laptop, drawing a circle around the service area with a pen, afternoon light",
       "publish_date": "2026-11-20",
       "author": null,
       "status": "pending",
@@ -1726,6 +1731,38 @@
       "publish_date": "2026-11-30",
       "author": null,
       "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-p2-nextdoor",
+      "slug": "nextdoor-advertising-for-local-businesses",
+      "title": "Nextdoor Advertising for Local Businesses: Who It Works For and Who Should Skip It",
+      "template": "comparison",
+      "target_keyword": "nextdoor advertising",
+      "secondary_keywords": [
+        "nextdoor ads",
+        "advertise on nextdoor",
+        "nextdoor for business"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/en/blog/facebook-ads-for-local-business",
+        "/en/blog/local-services-ads-vs-google-ads",
+        "/en/blog/how-much-paid-ads-cost-local-business-guide",
+        "/en/blog/where-to-spend-first-marketing-dollars-local-business",
+        "/en/blog/google-guaranteed-badge-local-services-ads",
+        "/en/services/paid-ads",
+        "/en/contact"
+      ],
+      "cluster": "pillar2.paid-ads",
+      "notes": "PARKED on 10/28/2026: the owner swapped it for an A topic (no allowed domain or page covering Nextdoor ads). | Phase 2 pillar 2 extension; 2,900/month, a term we have not touched. READINESS B: the registry has no Nextdoor source and any claim about reach, targeting radius or billing needs one. Verify by WebFetch before the batch (two calls with different questions each): https://business.nextdoor.com/en-us/small-business (opened on 10/27: Business Posts are free and use a radius around the business; it says nothing about ad targeting or billing) and https://business.nextdoor.com/en-us/nam/getting-started (not yet tested). The help.nextdoor.com article pages (About-advertising-on-Nextdoor, Advertise-on-Nextdoor-with-Pay-as-You-Go-or-Subscription) returned only a CSS error on 10/27, so they are usable only if they open. DOMAIN: business.nextdoor.com is NOT in docs/blog-dominios-confiaveis.md (only help.nextdoor.com is); add it there first, with the owner's OK. A search summary mentioned 30 miles on one Nextdoor page and 50 miles on another: use neither number. If no page body opens, swap this slot for an A item instead of writing mechanics from memory. Never write ad costs, CPMs or results. Cannibalization: facebook-ads-for-local-business (social ads; no Meta data is registered) and local-services-ads-vs-google-ads. Solution: judge Nextdoor by who the customer is, qualitatively; link the Facebook post for the social comparison and the Google Guaranteed post (11/03) for the verified badge channel. Runbook rules: no timeframe, cost range or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no invented Etuos experience.",
+      "image_context": "a neighborhood street with a handyman's van parked at the curb and a homeowner reading a phone feed on a front porch",
+      "publish_date": null,
+      "author": null,
+      "status": "parked",
       "attempts": 0,
       "last_error": null,
       "started_at": null,

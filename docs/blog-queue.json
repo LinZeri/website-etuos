@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T23:15:45.189028+00:00",
+  "updated": "2026-10-28T23:27:13.539242+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -1167,11 +1167,12 @@
       "image_context": "dono de um pequeno negócio de serviços revisando o próprio site no celular e no notebook sobre a bancada, caderno de anotações ao lado, luz natural",
       "publish_date": "2026-11-02",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-28T23:27:13.116915+00:00",
+      "last_score": null,
+      "iteration_id": "nov-onda1"
     },
     {
       "id": "p7-hub",
@@ -1202,11 +1203,12 @@
       "image_context": "dono de um pequeno negócio anotando em um quadro branco as etapas do caminho de um cliente, do primeiro contato ao serviço fechado, escritório simples, luz natural",
       "publish_date": "2026-11-03",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-28T23:27:13.200978+00:00",
+      "last_score": null,
+      "iteration_id": "nov-onda1"
     },
     {
       "id": "p5-s1",
@@ -1234,11 +1236,12 @@
       "image_context": "profissional olhando no celular uma página simples de um serviço local com um botão de contato, em uma cafeteria, foco no rosto e na tela, luz natural",
       "publish_date": "2026-11-05",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-28T23:27:13.285369+00:00",
+      "last_score": null,
+      "iteration_id": "nov-onda1"
     },
     {
       "id": "p8-hub",
@@ -1264,15 +1267,16 @@
         "/pt/eua"
       ],
       "cluster": "pilar8.contratar-marketing",
-      "notes": "HUB do pilar 8 (fundo de funil): ensina a avaliar QUALQUER agencia, inclusive a Etuos, sem autoelogio (principio 'Honestidade antes do contrato' da pagina Sobre). Nunca preco, garantia, prazo ou nome de cliente; so os numeros autorizados do CLAUDE.md, se necessario, e de forma sobria. PRONTIDAO A: o que a agencia faz e como avaliar vem de regras oficiais que um bom parceiro respeita: S15 e S16 (avaliacao com incentivo ou seletiva e proibida), S11 e S18 (diretrizes do perfil: nome, endereco, categoria), S13 (perfil suspenso), S34 (paginas por cidade que so trocam o nome = doorway), S35, T3 (o ROI de US$ 8 do Google e metodologia propria, so com atribuicao, para ensinar a desconfiar de promessa), T10 e T11 (o que influencia custo e qualidade), S37 (definicao de metricas), T5 e T6 (LSA, lead valido). NAO ha fonte para: quanto custa uma agencia, comissao sobre verba, tempo ate resultado, taxa de cancelamento, ranking de agencias, quantas agencias existem. Qualquer 'sinal de alerta' deve ser qualitativo e ancorado em regra publicada. CANIBALIZACAO: o-que-faz-um-gestor-de-trafego-pago (gestor, uma funcao) e quanto-custa-trafego-pago (orcamento). Solucao: o hub trata da decisao de contratar agencia e remete a esses dois para o detalhe. A query de monitoramento 'melhor agencia de marketing para brasileiros nos EUA' e do spoke de 23/11; aqui so uma secao curta sem link (ainda nao existe). Link para /pt/eua e /pt/sobre. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "notes": "TOM DE AUTORIDADE (decisao do dono, 28/10/2026): voz firme e especifica de quem ensina o dono de negocio a avaliar, com criterio explicito e afirmacoes sustentadas pelo registro; frases curtas e diretas; sem superlativos, sem hedge excessivo ('talvez', 'pode ser que') e sem arrogancia; a Etuos declara que e parte interessada e convida o leitor a aplicar os mesmos criterios a ela. So os numeros autorizados (10+ anos, US$ 500 mil+ em anuncios). Sem conselho juridico, sem promessa e sem preco da Etuos. | HUB do pilar 8 (fundo de funil): ensina a avaliar QUALQUER agencia, inclusive a Etuos, sem autoelogio (principio 'Honestidade antes do contrato' da pagina Sobre). Nunca preco, garantia, prazo ou nome de cliente; so os numeros autorizados do CLAUDE.md, se necessario, e de forma sobria. PRONTIDAO A: o que a agencia faz e como avaliar vem de regras oficiais que um bom parceiro respeita: S15 e S16 (avaliacao com incentivo ou seletiva e proibida), S11 e S18 (diretrizes do perfil: nome, endereco, categoria), S13 (perfil suspenso), S34 (paginas por cidade que so trocam o nome = doorway), S35, T3 (o ROI de US$ 8 do Google e metodologia propria, so com atribuicao, para ensinar a desconfiar de promessa), T10 e T11 (o que influencia custo e qualidade), S37 (definicao de metricas), T5 e T6 (LSA, lead valido). NAO ha fonte para: quanto custa uma agencia, comissao sobre verba, tempo ate resultado, taxa de cancelamento, ranking de agencias, quantas agencias existem. Qualquer 'sinal de alerta' deve ser qualitativo e ancorado em regra publicada. CANIBALIZACAO: o-que-faz-um-gestor-de-trafego-pago (gestor, uma funcao) e quanto-custa-trafego-pago (orcamento). Solucao: o hub trata da decisao de contratar agencia e remete a esses dois para o detalhe. A query de monitoramento 'melhor agencia de marketing para brasileiros nos EUA' e do spoke de 23/11; aqui so uma secao curta sem link (ainda nao existe). Link para /pt/eua e /pt/sobre. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
       "image_context": "dois sócios de um pequeno negócio conversando com uma consultora de marketing numa mesa de reunião, caderno e notebook abertos, ambiente de escritório simples, luz natural",
       "publish_date": "2026-11-06",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-28T23:27:13.368231+00:00",
+      "last_score": null,
+      "iteration_id": "nov-onda1"
     },
     {
       "id": "p7-s6",
@@ -1298,11 +1302,12 @@
       "image_context": "pessoa conferindo uma conversa de orçamento no celular, ao lado de uma planilha simples no notebook, balcão de um pequeno negócio, luz natural",
       "publish_date": "2026-11-09",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-28T23:27:13.449674+00:00",
+      "last_score": null,
+      "iteration_id": "nov-onda1"
     },
     {
       "id": "p5-s2",
@@ -1330,11 +1335,12 @@
       "image_context": "designer e dono de negócio revisando juntos o esboço de uma página de captação em papel sobre uma mesa, canetas e notebook ao lado, luz natural",
       "publish_date": "2026-11-10",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-28T23:27:13.539222+00:00",
+      "last_score": null,
+      "iteration_id": "nov-onda1"
     },
     {
       "id": "p8-s1",
@@ -1358,7 +1364,7 @@
         "/pt/sobre"
       ],
       "cluster": "pilar8.contratar-marketing",
-      "notes": "Spoke 1 do pilar 8. PRONTIDAO A: comparacao qualitativa por criterio (tempo do dono, volume de tarefas, quem acompanha a conta, risco de depender de uma pessoa, acesso as contas), sem preco. Apoio: T10 e T11 (o que influencia custo e qualidade), S37 (metricas), T14 (CPC medio e definicao), S36 (Search Console e ferramenta gratuita que o dono pode usar), S13 (perfil suspenso: erro de quem faz sem ler as regras). NAO ha fonte para: custo de agencia, de freelancer ou de fazer sozinho, tempo semanal necessario, taxa de sucesso de cada modelo. Proibido tabela com valores. Tabela de criterios sim, sem numero. Sem autoelogio: a Etuos e uma das opcoes e o texto deve admitir quando fazer sozinho ou contratar freelancer serve (alinhado a 'Honestidade antes do contrato'). CANIBALIZACAO: o-que-faz-um-gestor-de-trafego-pago (como escolher gestor) e o hub P8 (06/11). Solucao: aqui o ponto e a DECISAO entre tres modelos; o post do gestor e linkado para o detalhe da funcao. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "notes": "TOM DE AUTORIDADE (decisao do dono, 28/10/2026): voz firme e especifica de quem ensina o dono de negocio a avaliar, com criterio explicito e afirmacoes sustentadas pelo registro; frases curtas e diretas; sem superlativos, sem hedge excessivo ('talvez', 'pode ser que') e sem arrogancia; a Etuos declara que e parte interessada e convida o leitor a aplicar os mesmos criterios a ela. So os numeros autorizados (10+ anos, US$ 500 mil+ em anuncios). Sem conselho juridico, sem promessa e sem preco da Etuos. | Spoke 1 do pilar 8. PRONTIDAO A: comparacao qualitativa por criterio (tempo do dono, volume de tarefas, quem acompanha a conta, risco de depender de uma pessoa, acesso as contas), sem preco. Apoio: T10 e T11 (o que influencia custo e qualidade), S37 (metricas), T14 (CPC medio e definicao), S36 (Search Console e ferramenta gratuita que o dono pode usar), S13 (perfil suspenso: erro de quem faz sem ler as regras). NAO ha fonte para: custo de agencia, de freelancer ou de fazer sozinho, tempo semanal necessario, taxa de sucesso de cada modelo. Proibido tabela com valores. Tabela de criterios sim, sem numero. Sem autoelogio: a Etuos e uma das opcoes e o texto deve admitir quando fazer sozinho ou contratar freelancer serve (alinhado a 'Honestidade antes do contrato'). CANIBALIZACAO: o-que-faz-um-gestor-de-trafego-pago (como escolher gestor) e o hub P8 (06/11). Solucao: aqui o ponto e a DECISAO entre tres modelos; o post do gestor e linkado para o detalhe da funcao. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
       "image_context": "dono de um pequeno negócio sentado em frente ao notebook com papéis e calculadora, decidindo entre contratar ajuda ou fazer sozinho, escritório simples, luz natural",
       "publish_date": "2026-11-12",
       "author": null,
@@ -1421,7 +1427,7 @@
         "/pt/servicos/criacao-de-sites"
       ],
       "cluster": "pilar5.site-que-traz-cliente",
-      "notes": "Spoke 3 do pilar 5 (volume BR 590 mais cauda). Regra de preco da Fase 2: explicar O QUE COMPOE o preco; nunca faixa de valor, nem da Etuos nem de mercado. PRONTIDAO A (qualitativa, sem tabela de valores): fatores de preco como escopo (paginas, funcoes), idioma ou dois idiomas (M2, S25, S26 com ressalvas dos registros), conteudo e fotos, dominio, hospedagem e manutencao (citados apenas como itens de custo recorrente, sem valor), integracoes (WhatsApp, formulario, Search Console S36), SEO tecnico basico (S27, S28, S32), quem cuida depois. Apoio: S35, T11. NAO ha fonte para: qualquer faixa de preco de site (Brasil ou EUA), media de mercado, prazo de entrega, custo de hospedagem ou dominio. Se o redator achar que o post fica fraco sem numero, NAO inventar: manter qualitativo e oferecer ao leitor um roteiro de perguntas para comparar orcamentos. Sinal do Search Console (18/10): consultas em ingles sobre custo de site (small business website cost, 2 a 5 impressoes cada, posicao 64 a 91) mostram demanda do tema; nao serve para decidir faixa. Risco: a SERP espera faixas e pode nao ranquear; aceitar. Se o dono quiser faixas, e preciso uma fonte nova (ver riscos no calendario). CANIBALIZACAO: o hub P5 (02/11, secao curta de preco) e quanto-custa-trafego-pago (anuncio, nao site). Solucao: o hub so cita fatores em um paragrafo; este post aprofunda. Nao linkar /lp/. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "notes": "DECISAO DO DONO (28/10/2026): escrever que o custo geralmente comeca em cerca de US$ 600 para um site estatico simples. Isso esta registrado em O1 (docs/blog-fontes-verificadas.md) como informacao do dono, sem fonte externa. Escreva como referencia geral de mercado ('em geral, um site estatico simples comeca em torno de US$ 600'), NAO como preco, orcamento ou promessa da Etuos, NAO derive teto de faixa nem valores de outros tipos de site (dinamico, loja virtual, sob medida), NAO atribua a pesquisa de terceiros. O resto do post explica o que muda o preco, qualitativamente. | Spoke 3 do pilar 5 (volume BR 590 mais cauda). Regra de preco da Fase 2: explicar O QUE COMPOE o preco; nunca faixa de valor, nem da Etuos nem de mercado. PRONTIDAO A (qualitativa, sem tabela de valores): fatores de preco como escopo (paginas, funcoes), idioma ou dois idiomas (M2, S25, S26 com ressalvas dos registros), conteudo e fotos, dominio, hospedagem e manutencao (citados apenas como itens de custo recorrente, sem valor), integracoes (WhatsApp, formulario, Search Console S36), SEO tecnico basico (S27, S28, S32), quem cuida depois. Apoio: S35, T11. NAO ha fonte para: qualquer faixa de preco de site (Brasil ou EUA), media de mercado, prazo de entrega, custo de hospedagem ou dominio. Se o redator achar que o post fica fraco sem numero, NAO inventar: manter qualitativo e oferecer ao leitor um roteiro de perguntas para comparar orcamentos. Sinal do Search Console (18/10): consultas em ingles sobre custo de site (small business website cost, 2 a 5 impressoes cada, posicao 64 a 91) mostram demanda do tema; nao serve para decidir faixa. Risco: a SERP espera faixas e pode nao ranquear; aceitar. Se o dono quiser faixas, e preciso uma fonte nova (ver riscos no calendario). CANIBALIZACAO: o hub P5 (02/11, secao curta de preco) e quanto-custa-trafego-pago (anuncio, nao site). Solucao: o hub so cita fatores em um paragrafo; este post aprofunda. Nao linkar /lp/. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
       "image_context": "dono de um pequeno negócio comparando dois orçamentos impressos de um site com uma calculadora e um notebook sobre a mesa, escritório simples, luz natural",
       "publish_date": "2026-11-16",
       "author": null,
@@ -1453,7 +1459,7 @@
         "/pt/sobre"
       ],
       "cluster": "pilar8.contratar-marketing",
-      "notes": "Spoke 2 do pilar 8 (a query de monitoramento 'como escolher agencia de marketing digital' entra na coleta de IA de novembro). PRONTIDAO A: checklist de perguntas ancoradas em regras publicadas: avaliacoes (S15, S16, S17: sem incentivo, sem pressao, sem selecao), perfil e endereco (S11, S18, S19), paginas por cidade (S34), medicao (S37, T14, T6), anuncio e idioma (T4), resposta a avaliacoes (S23), acesso a conta (apenas pergunta; o aprofundamento e o post de 27/11, que ainda nao existe: NAO linkar). Ensina a avaliar qualquer agencia, inclusive a Etuos. NAO ha fonte para: o que e 'normal' em contrato, prazo de fidelidade, percentual de comissao, ticket, taxa de sucesso. Proibido sugerir que boa agencia 'garante' posicao, resultado ou prazo; ao contrario, ensinar que promessa de garantia e sinal de alerta (ancorar em S10: 'there's no way to request or pay for a better local ranking on Google' e S27, S38: indexacao e posicao nao tem garantia). CANIBALIZACAO: o hub P8 (06/11) tem uma secao de avaliacao e o spoke de dono da conta (27/11). Solucao: aqui o formato e FAQ de perguntas curtas com resposta do que ouvir; o hub resume e aponta para este. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "notes": "TOM DE AUTORIDADE (decisao do dono, 28/10/2026): voz firme e especifica de quem ensina o dono de negocio a avaliar, com criterio explicito e afirmacoes sustentadas pelo registro; frases curtas e diretas; sem superlativos, sem hedge excessivo ('talvez', 'pode ser que') e sem arrogancia; a Etuos declara que e parte interessada e convida o leitor a aplicar os mesmos criterios a ela. So os numeros autorizados (10+ anos, US$ 500 mil+ em anuncios). Sem conselho juridico, sem promessa e sem preco da Etuos. | Spoke 2 do pilar 8 (a query de monitoramento 'como escolher agencia de marketing digital' entra na coleta de IA de novembro). PRONTIDAO A: checklist de perguntas ancoradas em regras publicadas: avaliacoes (S15, S16, S17: sem incentivo, sem pressao, sem selecao), perfil e endereco (S11, S18, S19), paginas por cidade (S34), medicao (S37, T14, T6), anuncio e idioma (T4), resposta a avaliacoes (S23), acesso a conta (apenas pergunta; o aprofundamento e o post de 27/11, que ainda nao existe: NAO linkar). Ensina a avaliar qualquer agencia, inclusive a Etuos. NAO ha fonte para: o que e 'normal' em contrato, prazo de fidelidade, percentual de comissao, ticket, taxa de sucesso. Proibido sugerir que boa agencia 'garante' posicao, resultado ou prazo; ao contrario, ensinar que promessa de garantia e sinal de alerta (ancorar em S10: 'there's no way to request or pay for a better local ranking on Google' e S27, S38: indexacao e posicao nao tem garantia). CANIBALIZACAO: o hub P8 (06/11) tem uma secao de avaliacao e o spoke de dono da conta (27/11). Solucao: aqui o formato e FAQ de perguntas curtas com resposta do que ouvir; o hub resume e aponta para este. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
       "image_context": "dono de um pequeno negócio lendo uma lista de perguntas num caderno durante uma reunião com um prestador de serviço, mesa de escritório, luz natural",
       "publish_date": "2026-11-17",
       "author": null,
@@ -1550,7 +1556,7 @@
         "/pt/servicos/trafego-pago"
       ],
       "cluster": "pilar8.contratar-marketing",
-      "notes": "Spoke 6 do pilar 8, o mais perto da conversao e da query de monitoramento 'melhor agencia de marketing para brasileiros nos EUA'. Sinal do Search Console (18/10): 'agencia de marketing digital e seo brasileira nos eua' na posicao 10 e 'marketing para brasileiros nos eua' na posicao 32, ambas na pagina /pt/eua (comercial). PRONTIDAO A: criterios para avaliar agencia no recorte brasileiro nos EUA, todos ancorados em registro: idioma do anuncio e da pagina (T4, S25), idioma e compra (M2, so 2020 e global), idioma falado em casa (M3), comunidade brasileira (N6, ano-base 2023, Itamaraty via Diario de Pernambuco; N3 so Massachusetts), mercado hispanico so como contexto (N2, M1 com seus usos proibidos), hreflang (S26) e paginas de cidade (S34, S35), avaliacoes e perfil (S9, S15, S11). NAO ha fonte para: numero de agencias, preco, quantos brasileiros empreendem nos EUA por estado alem de N3 e N6, resultado de qualquer agencia. Proibido 'a melhor agencia', ranking, comparacao nominal de concorrentes (Local Rank, RGB America etc.) e autoelogio; ensinar a avaliar. Etuos entra com o link /pt/eua e /pt/sobre no CTA e uma frase de apresentacao padrao, sem prova alem dos numeros autorizados. CANIBALIZACAO: a pagina /pt/eua (comercial) e o hub P8 (06/11). Solucao: o post e informacional (o que avaliar) e leva ao /pt/eua; nao repete a copy da pagina. Risco medio por ser tema onde a Etuos e parte interessada: manter voz neutra e criterios que valem para qualquer agencia. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "notes": "TOM DE AUTORIDADE (decisao do dono, 28/10/2026): voz firme e especifica de quem ensina o dono de negocio a avaliar, com criterio explicito e afirmacoes sustentadas pelo registro; frases curtas e diretas; sem superlativos, sem hedge excessivo ('talvez', 'pode ser que') e sem arrogancia; a Etuos declara que e parte interessada e convida o leitor a aplicar os mesmos criterios a ela. So os numeros autorizados (10+ anos, US$ 500 mil+ em anuncios). Sem conselho juridico, sem promessa e sem preco da Etuos. | Spoke 6 do pilar 8, o mais perto da conversao e da query de monitoramento 'melhor agencia de marketing para brasileiros nos EUA'. Sinal do Search Console (18/10): 'agencia de marketing digital e seo brasileira nos eua' na posicao 10 e 'marketing para brasileiros nos eua' na posicao 32, ambas na pagina /pt/eua (comercial). PRONTIDAO A: criterios para avaliar agencia no recorte brasileiro nos EUA, todos ancorados em registro: idioma do anuncio e da pagina (T4, S25), idioma e compra (M2, so 2020 e global), idioma falado em casa (M3), comunidade brasileira (N6, ano-base 2023, Itamaraty via Diario de Pernambuco; N3 so Massachusetts), mercado hispanico so como contexto (N2, M1 com seus usos proibidos), hreflang (S26) e paginas de cidade (S34, S35), avaliacoes e perfil (S9, S15, S11). NAO ha fonte para: numero de agencias, preco, quantos brasileiros empreendem nos EUA por estado alem de N3 e N6, resultado de qualquer agencia. Proibido 'a melhor agencia', ranking, comparacao nominal de concorrentes (Local Rank, RGB America etc.) e autoelogio; ensinar a avaliar. Etuos entra com o link /pt/eua e /pt/sobre no CTA e uma frase de apresentacao padrao, sem prova alem dos numeros autorizados. CANIBALIZACAO: a pagina /pt/eua (comercial) e o hub P8 (06/11). Solucao: o post e informacional (o que avaliar) e leva ao /pt/eua; nao repete a copy da pagina. Risco medio por ser tema onde a Etuos e parte interessada: manter voz neutra e criterios que valem para qualquer agencia. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
       "image_context": "empreendedor brasileiro dono de um pequeno negócio nos Estados Unidos conferindo uma proposta de marketing na mesa do escritório, bandeira discreta de bairro ao fundo, luz natural",
       "publish_date": "2026-11-23",
       "author": null,
@@ -1561,28 +1567,30 @@
       "last_score": null
     },
     {
-      "id": "p7-s3",
-      "slug": "crm-para-pequenas-empresas-o-que-voce-precisa",
-      "title": "CRM para pequenas empresas: planilha, WhatsApp ou sistema? O que você realmente precisa",
-      "template": "comparison",
-      "target_keyword": "crm para pequenas empresas",
+      "id": "p6-hub",
+      "slug": "marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um",
+      "title": "Marketing para negócio local por setor: o que muda em cada um",
+      "template": "pillar-page",
+      "target_keyword": "marketing por segmento",
       "secondary_keywords": [
-        "crm para pequeno negócio",
-        "planilha ou crm",
-        "como organizar contatos de clientes",
-        "controle de clientes e orçamentos"
+        "marketing para cada setor",
+        "marketing para negócio local",
+        "como divulgar cada tipo de negócio"
       ],
-      "word_count": 1500,
+      "word_count": 1800,
       "internal_links": [
-        "/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato",
-        "/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar",
-        "/pt/blog/whatsapp-business-para-negocio-local-como-usar",
-        "/pt/blog/funil-de-vendas-para-negocio-local",
-        "/pt/servicos/trafego-pago"
+        "/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua",
+        "/pt/blog/seo-local-por-cidade-miami-boston-orlando",
+        "/pt/blog/local-services-ads-google-como-funciona",
+        "/pt/blog/como-conseguir-avaliacoes-no-google",
+        "/pt/blog/google-business-profile-para-brasileiros-nos-eua",
+        "/pt/servicos/trafego-pago",
+        "/pt/servicos/seo",
+        "/pt/sobre"
       ],
-      "cluster": "pilar7.do-clique-ao-cliente",
-      "notes": "Spoke 3 do pilar 7 (volume BR 170). PRONTIDAO A com ressalva (e o item A mais fraco do mes). Abordagem por CRITERIOS, nunca por produto: o que o dono precisa registrar (contato, origem, etapa, proximo passo), quando uma planilha basta, quando o app WhatsApp Business (W1: um numero; W2: catalogo, perfil, saudacao e ausencia) e suficiente e quando vale um sistema. NAO ha fonte para: preco de qualquer CRM, comparacao de ferramentas nomeadas, quantas empresas usam CRM, ganho de produtividade, limites de dispositivos ou de usuarios do WhatsApp Business (W1 proibe inferir). Proibido recomendar ou ranquear marcas; se o redator quiser citar uma ferramenta, precisa de fonte nova (hubspot.com esta no dominio liberado mas sem verificacao: NAO usar nesta rodada). Sem 'o melhor CRM'. Privacidade de dados do cliente so em termos gerais, sem citar lei. CANIBALIZACAO: whatsapp-business (organizar atendimento), follow-up (09/11) e funil (03/11). Solucao: este post responde a pergunta 'onde guardo meus contatos e orcamentos' e linka os outros tres em vez de repetir. Se a escrita nao sustentar 1.500 palavras sem produto, reduzir para 1.200 ou trocar pelo reforco 'anunciar em ingles' (atualizacao do post existente). Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
-      "image_context": "dono de um pequeno negócio organizando contatos e orçamentos em uma planilha no notebook ao lado do celular, balcão de bairro, luz natural",
+      "cluster": "pilar6.marketing-por-setor",
+      "notes": "Hub do pilar 6 (decisao do dono em 28/10/2026: o pilar 6 nao pode depender do Lin; o hub entra no lugar do item de CRM de 24/11, que foi para dezembro). PRONTIDAO A, qualitativo e sem dado de setor: explica o que muda entre negocio de urgencia, de compra planejada, de recorrencia e de local fisico, num quadro conceitual rotulado como ilustrativo (nunca como dado). Fontes: S10 (ranking local), S5 e S9 (avaliacoes, cada edicao com seu link e rotulo), S18 e S20 (endereco e area de atendimento), T5, T7 e T8 (Local Services Ads: triagem varia por categoria e regiao, selo Google Verified, sem lista de categorias elegiveis), opcional N7 (so limpeza: numero de EMPREGOS, nunca de empresas). NAO escrever sobre medicina, psicologia, estetica ou imobiliaria alem de uma frase geral de que setores regulados tem regras proprias de publicidade e devem conferir antes de anunciar (sem citar norma); NAO usar energia solar nem franquias (dependem do Lin). Linke os spokes publicados (limpeza, construcao e beleza; SEO local por cidade) e deixe 'outros setores' como lista qualitativa. O spoke de restaurante (30/11) linka este hub. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "uma mesa com cartoes de visita e pequenos objetos de varios tipos de negocio (uma ferramenta, uma tesoura de salao, um avental de cozinha, uma chave) vistos de cima, luz natural",
       "publish_date": "2026-11-24",
       "author": null,
       "status": "pending",
@@ -1646,7 +1654,7 @@
         "/pt/sobre"
       ],
       "cluster": "pilar8.contratar-marketing",
-      "notes": "Spoke 5 do pilar 8, o item mais pratico e menos generico do pilar. PRONTIDAO B. Verificar por WebFetch (duas chamadas de pergunta diferente) e registrar antes de escrever: (1) https://support.google.com/google-ads/answer/9978556 ('About access levels in your Google Ads account', achada na busca de 27/10: confirmar os niveis Email-only, Billing, Read-only, Standard e Admin e que so o Admin concede acesso ou muda nivel de outros); (2) https://support.google.com/business/answer/3403100 ('Manage your Business Profile owners & managers', ja aberta em 27/10: owners tem controle total e podem convidar ou remover usuarios; managers nao podem convidar, remover nem apagar o perfil; confirmar as frases literais); opcional (3) https://support.google.com/google-ads/answer/7459601 (aberta em 27/10: 'A manager account enables you to link and manage multiple separate Google Ads accounts from one location' e, para receber convite, 'administrative access to the invited account'; so se o texto for usado, e nao descreve niveis). Apoio ja registrado: S13, S14 (verificacao), T10, T14. NAO ha fonte para: quem e dono juridico da conta ou dos dados, o que acontece quando o contrato acaba, clausulas de contrato 'normais', prazo de transferencia, historico de campanha que sai ou fica. Proibido dar conselho juridico: o post orienta o DONO a conferir quem aparece como Admin ou Owner e a perguntar por escrito, e a procurar profissional juridico para o contrato. Nao citar caso real. CANIBALIZACAO: perguntas-antes-de-contratar (17/11, uma pergunta sobre acesso) e hub P8. Solucao: o de 17/11 so pergunta; este aprofunda com os niveis de acesso e linka o outro. Se a fonte nao passar, o item vira checklist qualitativo curto ou troca de data com reserva. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "notes": "TOM DE AUTORIDADE (decisao do dono, 28/10/2026): voz firme e especifica de quem ensina o dono de negocio a avaliar, com criterio explicito e afirmacoes sustentadas pelo registro; frases curtas e diretas; sem superlativos, sem hedge excessivo ('talvez', 'pode ser que') e sem arrogancia; a Etuos declara que e parte interessada e convida o leitor a aplicar os mesmos criterios a ela. So os numeros autorizados (10+ anos, US$ 500 mil+ em anuncios). Sem conselho juridico, sem promessa e sem preco da Etuos. | Spoke 5 do pilar 8, o item mais pratico e menos generico do pilar. PRONTIDAO B. Verificar por WebFetch (duas chamadas de pergunta diferente) e registrar antes de escrever: (1) https://support.google.com/google-ads/answer/9978556 ('About access levels in your Google Ads account', achada na busca de 27/10: confirmar os niveis Email-only, Billing, Read-only, Standard e Admin e que so o Admin concede acesso ou muda nivel de outros); (2) https://support.google.com/business/answer/3403100 ('Manage your Business Profile owners & managers', ja aberta em 27/10: owners tem controle total e podem convidar ou remover usuarios; managers nao podem convidar, remover nem apagar o perfil; confirmar as frases literais); opcional (3) https://support.google.com/google-ads/answer/7459601 (aberta em 27/10: 'A manager account enables you to link and manage multiple separate Google Ads accounts from one location' e, para receber convite, 'administrative access to the invited account'; so se o texto for usado, e nao descreve niveis). Apoio ja registrado: S13, S14 (verificacao), T10, T14. NAO ha fonte para: quem e dono juridico da conta ou dos dados, o que acontece quando o contrato acaba, clausulas de contrato 'normais', prazo de transferencia, historico de campanha que sai ou fica. Proibido dar conselho juridico: o post orienta o DONO a conferir quem aparece como Admin ou Owner e a perguntar por escrito, e a procurar profissional juridico para o contrato. Nao citar caso real. CANIBALIZACAO: perguntas-antes-de-contratar (17/11, uma pergunta sobre acesso) e hub P8. Solucao: o de 17/11 so pergunta; este aprofunda com os niveis de acesso e linka o outro. Se a fonte nao passar, o item vira checklist qualitativo curto ou troca de data com reserva. Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
       "image_context": "dono de um pequeno negócio conferindo no notebook a lista de pessoas com acesso à conta de anúncios, caderno ao lado, escritório simples, luz natural",
       "publish_date": "2026-11-27",
       "author": null,
@@ -1670,6 +1678,7 @@
       ],
       "word_count": 1700,
       "internal_links": [
+        "/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um",
         "/pt/blog/google-business-profile-para-brasileiros-nos-eua",
         "/pt/blog/como-conseguir-avaliacoes-no-google",
         "/pt/blog/marketing-para-limpeza-construcao-e-beleza-nos-eua",
@@ -1687,6 +1696,37 @@
       "publish_date": "2026-11-30",
       "author": null,
       "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "p7-s3",
+      "slug": "crm-para-pequenas-empresas-o-que-voce-precisa",
+      "title": "CRM para pequenas empresas: planilha, WhatsApp ou sistema? O que você realmente precisa",
+      "template": "comparison",
+      "target_keyword": "crm para pequenas empresas",
+      "secondary_keywords": [
+        "crm para pequeno negócio",
+        "planilha ou crm",
+        "como organizar contatos de clientes",
+        "controle de clientes e orçamentos"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato",
+        "/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar",
+        "/pt/blog/whatsapp-business-para-negocio-local-como-usar",
+        "/pt/blog/funil-de-vendas-para-negocio-local",
+        "/pt/servicos/trafego-pago"
+      ],
+      "cluster": "pilar7.do-clique-ao-cliente",
+      "notes": "ESTACIONADO em 28/10/2026: cedeu o slot de 24/11 ao hub do pilar 6. Candidato a dezembro. | Spoke 3 do pilar 7 (volume BR 170). PRONTIDAO A com ressalva (e o item A mais fraco do mes). Abordagem por CRITERIOS, nunca por produto: o que o dono precisa registrar (contato, origem, etapa, proximo passo), quando uma planilha basta, quando o app WhatsApp Business (W1: um numero; W2: catalogo, perfil, saudacao e ausencia) e suficiente e quando vale um sistema. NAO ha fonte para: preco de qualquer CRM, comparacao de ferramentas nomeadas, quantas empresas usam CRM, ganho de produtividade, limites de dispositivos ou de usuarios do WhatsApp Business (W1 proibe inferir). Proibido recomendar ou ranquear marcas; se o redator quiser citar uma ferramenta, precisa de fonte nova (hubspot.com esta no dominio liberado mas sem verificacao: NAO usar nesta rodada). Sem 'o melhor CRM'. Privacidade de dados do cliente so em termos gerais, sem citar lei. CANIBALIZACAO: whatsapp-business (organizar atendimento), follow-up (09/11) e funil (03/11). Solucao: este post responde a pergunta 'onde guardo meus contatos e orcamentos' e linka os outros tres em vez de repetir. Se a escrita nao sustentar 1.500 palavras sem produto, reduzir para 1.200 ou trocar pelo reforco 'anunciar em ingles' (atualizacao do post existente). Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "image_context": "dono de um pequeno negócio organizando contatos e orçamentos em uma planilha no notebook ao lado do celular, balcão de bairro, luz natural",
+      "publish_date": null,
+      "author": null,
+      "status": "parked",
       "attempts": 0,
       "last_error": null,
       "started_at": null,

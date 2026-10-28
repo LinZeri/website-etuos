@@ -586,6 +586,16 @@ Markdown: `([WhatsApp, "Por que pequenas empresas devem usar o app WhatsApp Busi
 Uso permitido: descrever esses recursos de forma qualitativa (catálogo, perfil comercial, saudação e ausência automáticas).
 Uso proibido: prazos, preços e promessa de resultado; citar as frases de mensagens automatizadas e de catálogo como completas (o fim veio truncado); detalhar etiquetas, respostas rápidas e exigências do app (as páginas do `faq.whatsapp.com` não abriram o corpo no WebFetch: escrever de forma qualitativa e sem aspas).
 
+## Cluster O: Informação do dono (sem fonte externa)
+
+Entradas deste cluster não vêm de página verificável: são decisões e informações do dono da Etuos (Lin Zeri) sobre o mercado, registradas com data. Só valem para o uso descrito em cada uma.
+
+**O1: Referência de preço de site estático informada pelo dono: o custo geralmente começa em cerca de US$ 600 por um site estático.** Informação do dono em 28/10/2026, sem fonte externa. O dono decidiu que o post de custo de site (pt, 16/11/2026) a cite como ponto de partida de mercado.
+Citação literal (instrução do dono, 28/10/2026): "o custo geralmente começa em $600 por um site estático".
+Fonte a citar: nenhuma externa. No texto, escrever como referência geral ("em geral, um site estático simples começa em torno de US$ 600"), sem atribuir a pesquisa ou a terceiros.
+Uso permitido: só o ponto de partida "a partir de cerca de US$ 600" para site estático simples, no post `quanto-custa-um-site-o-que-muda-o-preco` e em posts que o linkem falando de custo de site.
+Uso proibido: apresentar como preço, orçamento ou promessa da Etuos; derivar teto de faixa, valor médio ou valores de outros tipos de site (dinâmico, loja virtual, sob medida); citar como dado de pesquisa; usar como base para qualquer outro número.
+
 ---
 
 ## Fontes descartadas nesta rodada
