@@ -1,0 +1,185 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/how-to-choose-an-seo-company-local-business#article",
+      "headline": "How to Choose an SEO Company Without Getting Burned",
+      "description": "How to choose an SEO company: why no one can guarantee rankings, what an honest proposal and report look like, and the questions to ask before you sign.",
+      "datePublished": "2026-11-24",
+      "dateModified": "2026-11-24",
+      "inLanguage": "en-US",
+      "wordCount": 2400,
+      "keywords": [
+        "how to choose an seo company",
+        "how to hire an seo company",
+        "seo company red flags",
+        "seo guarantees"
+      ],
+      "articleSection": [
+        "What an SEO Company Can and Cannot Control",
+        "Check 1: They Do Not Guarantee a Ranking",
+        "Check 2: The Proposal Lists Work You Can Verify",
+        "Check 3: The Report Measures Your Business, Not Their Activity",
+        "Check 4: You Own the Accounts",
+        "Red Flags in One List",
+        "Questions to Ask an SEO Company Before You Sign",
+        "Apply the Same Checks to Etuos",
+        "Frequently Asked Questions",
+        "What Should You Do Next?",
+        "Sources"
+      ],
+      "articleBody": "The safest way to choose an SEO company is to ignore the promise and inspect the proof: what exactly it will do, what it can honestly claim, how it reports, and who owns what when the work is done. Anyone who guarantees a ranking is telling you something Google itself says nobody can sell. One disclosure before we start: Etuos sells SEO, so we have an interest in this topic. This guide is written to help you judge any SEO provider, and that includes us. Apply every check below to us as well. For the broader checklist on hiring any agency, read how to choose a marketing agency. This post is",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/how-to-choose-an-seo-company-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/how-to-choose-an-seo-company-local-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Hiring an SEO company"
+        },
+        {
+          "@type": "Thing",
+          "name": "SEO guarantees"
+        },
+        {
+          "@type": "Thing",
+          "name": "SEO reporting"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/how-to-choose-an-seo-company-local-business",
+      "url": "https://etuos.com/en/blog/how-to-choose-an-seo-company-local-business",
+      "name": "How to Choose an SEO Company Without Getting Burned",
+      "description": "How to choose an SEO company: why no one can guarantee rankings, what an honest proposal and report look like, and the questions to ask before you sign.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/how-to-choose-an-seo-company-local-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/how-to-choose-an-seo-company-local-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/how-to-choose-an-seo-company-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/how-to-choose-an-seo-company-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "How to Choose an SEO Company Without Getting Burned"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/how-to-choose-an-seo-company-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Choose an SEO Company Without Getting Burned",
+          "item": "https://etuos.com/en/blog/how-to-choose-an-seo-company-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/how-to-choose-an-seo-company-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I choose an SEO company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ignore the guarantee and check the proof. Ask what exactly the company will do, what it will not promise, what its report includes and who will own your accounts. Compare two or three providers on the same questions, in writing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an SEO company guarantee a first-page ranking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google says there is no way to request or pay for a better local ranking on Google, and that it does not guarantee it will crawl, index or serve your page. Treat a guaranteed position as a red flag."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should an SEO report include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your business results first, such as calls and form submissions, then Search Console numbers with their definitions: clicks, impressions, click-through rate and average position. It should also list the work done and the work planned next."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are red flags when hiring an SEO company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Guaranteed rankings, secret methods, no list of tasks, near-identical city pages, reports without calls or inquiries, and a provider that wants to own your accounts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to own my Search Console and Business Profile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you should. Google says a verified owner has the highest degree of permissions in Search Console. Have the provider work inside accounts that are in your name."
+          }
+        }
+      ]
+    }
+  ]
+}
