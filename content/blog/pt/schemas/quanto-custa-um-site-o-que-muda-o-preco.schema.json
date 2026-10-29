@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-um-site-o-que-muda-o-preco#article",
+      "headline": "Quanto custa um site profissional: o que muda o preço (sem pegadinha)",
+      "description": "Quanto custa um site para pequena empresa? Veja o que muda o preço (páginas, idiomas, conteúdo, manutenção) e como comparar orçamentos sem cair em pegadinha.",
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "inLanguage": "pt-BR",
+      "wordCount": 2178,
+      "keywords": "quanto custa um site, quanto custa um site para pequena empresa, preço de site profissional, o que influencia o preço de um site, orçamento de site",
+      "articleSection": "Site que Traz Cliente",
+      "articleBody": "Não existe um preço único para \"um site\", porque a expressão cobre coisas muito diferentes. O preço depende do que entra no projeto, e há um ponto de partida de mercado para o caso mais simples (veja logo abaixo). O que faz o valor subir ou descer é: quantas páginas, quem escreve o conteúdo, quantos idiomas, que funções o site precisa ter e quem cuida dele depois de publicado.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/quanto-custa-um-site-o-que-muda-o-preco#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/quanto-custa-um-site-o-que-muda-o-preco"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Custo de site"
+        },
+        {
+          "@type": "Thing",
+          "name": "Orçamento de site"
+        },
+        {
+          "@type": "Thing",
+          "name": "Site para pequena empresa"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-um-site-o-que-muda-o-preco",
+      "url": "https://etuos.com/pt/blog/quanto-custa-um-site-o-que-muda-o-preco",
+      "name": "Quanto custa um site profissional: o que muda o preço (sem pegadinha)",
+      "description": "Quanto custa um site para pequena empresa? Veja o que muda o preço (páginas, idiomas, conteúdo, manutenção) e como comparar orçamentos sem cair em pegadinha.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/quanto-custa-um-site-o-que-muda-o-preco#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/quanto-custa-um-site-o-que-muda-o-preco#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-um-site-o-que-muda-o-preco#primaryimage",
+      "url": "https://etuos.com/images/blog/quanto-custa-um-site-o-que-muda-o-preco.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de um pequeno negócio comparando dois orçamentos impressos de um site com uma calculadora, em um escritório simples"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-um-site-o-que-muda-o-preco#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Quanto custa um site profissional: o que muda o preço (sem pegadinha)",
+          "item": "https://etuos.com/pt/blog/quanto-custa-um-site-o-que-muda-o-preco"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/quanto-custa-um-site-o-que-muda-o-preco#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto custa um site para pequena empresa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Em geral, o custo de um site estático simples começa em torno de US$ 600. É uma referência geral de mercado para o ponto de partida, e não um orçamento. O valor final muda com o número de páginas, o conteúdo, os idiomas, as funções e a manutenção, e só uma proposta com escopo escrito dá o número do seu caso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Por que dois orçamentos de site têm preços tão diferentes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque quase nunca descrevem o mesmo site. Podem mudar o número de páginas, quem escreve o conteúdo, os idiomas, as funções, a base técnica e o que acontece depois da entrega. Compare o que está incluído, e não só o valor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Um site mais caro traz mais clientes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não necessariamente. O preço mede o trabalho envolvido, e não o resultado. Um site traz clientes quando é claro, funciona no celular, mostra provas verdadeiras e é fácil de contatar. Ninguém honesto promete posição no Google ou volume de clientes por um valor fechado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso pagar para manter o site depois de pronto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O site precisa de domínio, hospedagem e cuidado contínuo, e esses itens costumam ser cobrados à parte ou embutidos numa mensalidade. Não existe regra única. Pergunte, antes de fechar, o que a manutenção inclui e como ela é cobrada, e peça por escrito."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Um site em dois idiomas custa mais?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Em geral, sim, porque cada idioma é um conjunto de páginas com texto escrito para aquele público, mais a parte técnica que liga as versões. Se vale a pena depende de quem compra de você. O artigo sobre site em português ou inglês nos EUA ajuda a decidir."
+          }
+        }
+      ]
+    }
+  ]
+}
