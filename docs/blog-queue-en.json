@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T23:27:14.080385+00:00",
+  "updated": "2026-10-29T11:35:58.344225+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -1215,12 +1215,14 @@
       "image_context": "a service business owner at a kitchen table with a phone, a notebook and a laptop, organizing incoming job requests into three simple piles",
       "publish_date": "2026-11-02",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-28T23:27:13.634413+00:00",
-      "last_score": null,
-      "iteration_id": "nov-onda1"
+      "last_score": 87,
+      "iteration_id": "nov-onda1",
+      "commit_sha": "2e1ee82",
+      "published_date": "2026-11-02"
     },
     {
       "id": "en-p2-google-guaranteed",
@@ -1247,12 +1249,14 @@
       "image_context": "a home services contractor holding a phone showing a verified business badge screen while a license and an insurance document sit on the desk",
       "publish_date": "2026-11-03",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-28T23:27:13.720731+00:00",
-      "last_score": null,
-      "iteration_id": "nov-onda1"
+      "last_score": 87,
+      "iteration_id": "nov-onda1",
+      "commit_sha": "610fd34",
+      "published_date": "2026-11-03"
     },
     {
       "id": "en-p7-hub",
@@ -1282,12 +1286,14 @@
       "image_context": "a small business owner and a marketing professional reviewing a simple printed monthly report together at a shop counter",
       "publish_date": "2026-11-05",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-28T23:27:13.807361+00:00",
-      "last_score": null,
-      "iteration_id": "nov-onda1"
+      "last_score": 87,
+      "iteration_id": "nov-onda1",
+      "commit_sha": "f7f3698",
+      "published_date": "2026-11-05"
     },
     {
       "id": "en-p3-real-estate",
@@ -1315,12 +1321,14 @@
       "image_context": "a real estate agent standing in front of a neighborhood house with a for sale sign, checking a business profile on her phone",
       "publish_date": "2026-11-06",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-28T23:27:13.901712+00:00",
-      "last_score": null,
-      "iteration_id": "nov-onda1"
+      "last_score": 87,
+      "iteration_id": "nov-onda1",
+      "commit_sha": "c238c83",
+      "published_date": "2026-11-06"
     },
     {
       "id": "en-p6-speed-to-lead",
@@ -1346,12 +1354,14 @@
       "image_context": "a plumber on a job site answering a customer's text message on his phone while holding a wrench in the other hand",
       "publish_date": "2026-11-09",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-28T23:27:13.988379+00:00",
-      "last_score": null,
-      "iteration_id": "nov-onda1"
+      "last_score": 87,
+      "iteration_id": "nov-onda1",
+      "commit_sha": "3a6c07f",
+      "published_date": "2026-11-09"
     },
     {
       "id": "en-p7-choose-agency",
@@ -1380,12 +1390,14 @@
       "image_context": "a local business owner at a desk with a printed checklist and a pen, comparing two proposal folders side by side",
       "publish_date": "2026-11-10",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-28T23:27:14.080361+00:00",
-      "last_score": null,
-      "iteration_id": "nov-onda1"
+      "last_score": 87,
+      "iteration_id": "nov-onda1",
+      "commit_sha": "4eba9d4",
+      "published_date": "2026-11-10"
     },
     {
       "id": "en-p4-bilingual-leads",
@@ -1412,11 +1424,14 @@
       "image_context": "a home services office worker answering a phone call while a WhatsApp conversation in Spanish is open on a second screen, friendly and relaxed",
       "publish_date": "2026-11-12",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T11:28:17.892184+00:00",
+      "last_score": 88,
+      "iteration_id": "nov-onda2",
+      "commit_sha": "413df82",
+      "published_date": "2026-11-12"
     },
     {
       "id": "en-p5-website-vs-gbp",
@@ -1444,11 +1459,14 @@
       "image_context": "a barber shop owner looking at his phone showing his map listing next to a laptop with a simple website open on the counter",
       "publish_date": "2026-11-13",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T11:28:18.006704+00:00",
+      "last_score": 90,
+      "iteration_id": "nov-onda2",
+      "commit_sha": "94461db",
+      "published_date": "2026-11-13"
     },
     {
       "id": "en-p6-crm",
@@ -1475,11 +1493,14 @@
       "image_context": "a house cleaning company owner updating a simple lead tracking sheet on a laptop with a printed weekly schedule beside it",
       "publish_date": "2026-11-16",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T11:28:18.109245+00:00",
+      "last_score": 87,
+      "iteration_id": "nov-onda2",
+      "commit_sha": "4bd2596",
+      "published_date": "2026-11-16"
     },
     {
       "id": "en-p7-account-ownership",
@@ -1506,11 +1527,14 @@
       "image_context": "a business owner at a desk viewing an account access list on a laptop while a contract folder and a notepad with a logins checklist lie nearby",
       "publish_date": "2026-11-17",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T11:28:18.208588+00:00",
+      "last_score": 88,
+      "iteration_id": "nov-onda2",
+      "commit_sha": "3aae2c0",
+      "published_date": "2026-11-17"
     },
     {
       "id": "en-p3-event-planner",

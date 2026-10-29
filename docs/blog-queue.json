@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T23:27:13.539242+00:00",
+  "updated": "2026-10-29T11:35:55.542004+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -1167,12 +1167,14 @@
       "image_context": "dono de um pequeno negócio de serviços revisando o próprio site no celular e no notebook sobre a bancada, caderno de anotações ao lado, luz natural",
       "publish_date": "2026-11-02",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-28T23:27:13.116915+00:00",
-      "last_score": null,
-      "iteration_id": "nov-onda1"
+      "last_score": 87,
+      "iteration_id": "nov-onda1",
+      "commit_sha": "ed790f2",
+      "published_date": "2026-11-02"
     },
     {
       "id": "p7-hub",
@@ -1203,12 +1205,14 @@
       "image_context": "dono de um pequeno negócio anotando em um quadro branco as etapas do caminho de um cliente, do primeiro contato ao serviço fechado, escritório simples, luz natural",
       "publish_date": "2026-11-03",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-28T23:27:13.200978+00:00",
-      "last_score": null,
-      "iteration_id": "nov-onda1"
+      "last_score": 87,
+      "iteration_id": "nov-onda1",
+      "commit_sha": "1d46952",
+      "published_date": "2026-11-03"
     },
     {
       "id": "p5-s1",
@@ -1236,12 +1240,14 @@
       "image_context": "profissional olhando no celular uma página simples de um serviço local com um botão de contato, em uma cafeteria, foco no rosto e na tela, luz natural",
       "publish_date": "2026-11-05",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-28T23:27:13.285369+00:00",
-      "last_score": null,
-      "iteration_id": "nov-onda1"
+      "last_score": 87,
+      "iteration_id": "nov-onda1",
+      "commit_sha": "6e2960b",
+      "published_date": "2026-11-05"
     },
     {
       "id": "p8-hub",
@@ -1271,12 +1277,14 @@
       "image_context": "dois sócios de um pequeno negócio conversando com uma consultora de marketing numa mesa de reunião, caderno e notebook abertos, ambiente de escritório simples, luz natural",
       "publish_date": "2026-11-06",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-28T23:27:13.368231+00:00",
-      "last_score": null,
-      "iteration_id": "nov-onda1"
+      "last_score": 87,
+      "iteration_id": "nov-onda1",
+      "commit_sha": "bda5a6f",
+      "published_date": "2026-11-06"
     },
     {
       "id": "p7-s6",
@@ -1302,12 +1310,14 @@
       "image_context": "pessoa conferindo uma conversa de orçamento no celular, ao lado de uma planilha simples no notebook, balcão de um pequeno negócio, luz natural",
       "publish_date": "2026-11-09",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-28T23:27:13.449674+00:00",
-      "last_score": null,
-      "iteration_id": "nov-onda1"
+      "last_score": 87,
+      "iteration_id": "nov-onda1",
+      "commit_sha": "114727a",
+      "published_date": "2026-11-09"
     },
     {
       "id": "p5-s2",
@@ -1335,12 +1345,14 @@
       "image_context": "designer e dono de negócio revisando juntos o esboço de uma página de captação em papel sobre uma mesa, canetas e notebook ao lado, luz natural",
       "publish_date": "2026-11-10",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-28T23:27:13.539222+00:00",
-      "last_score": null,
-      "iteration_id": "nov-onda1"
+      "last_score": 87,
+      "iteration_id": "nov-onda1",
+      "commit_sha": "260cccb",
+      "published_date": "2026-11-10"
     },
     {
       "id": "p8-s1",
@@ -1368,11 +1380,14 @@
       "image_context": "dono de um pequeno negócio sentado em frente ao notebook com papéis e calculadora, decidindo entre contratar ajuda ou fazer sozinho, escritório simples, luz natural",
       "publish_date": "2026-11-12",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T11:28:17.449912+00:00",
+      "last_score": 87,
+      "iteration_id": "nov-onda2",
+      "commit_sha": "bbb59c2",
+      "published_date": "2026-11-12"
     },
     {
       "id": "p7-s4",
@@ -1399,11 +1414,14 @@
       "image_context": "pequeno negócio com o celular tocando sobre o balcão enquanto o dono está ocupado atendendo outro cliente, loja de bairro, luz natural",
       "publish_date": "2026-11-13",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T11:28:17.561652+00:00",
+      "last_score": 87,
+      "iteration_id": "nov-onda2",
+      "commit_sha": "514954e",
+      "published_date": "2026-11-13"
     },
     {
       "id": "p5-s3",
@@ -1431,11 +1449,14 @@
       "image_context": "dono de um pequeno negócio comparando dois orçamentos impressos de um site com uma calculadora e um notebook sobre a mesa, escritório simples, luz natural",
       "publish_date": "2026-11-16",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T11:28:17.682228+00:00",
+      "last_score": 89,
+      "iteration_id": "nov-onda2",
+      "commit_sha": "fedf4b7",
+      "published_date": "2026-11-16"
     },
     {
       "id": "p8-s2",
@@ -1463,11 +1484,14 @@
       "image_context": "dono de um pequeno negócio lendo uma lista de perguntas num caderno durante uma reunião com um prestador de serviço, mesa de escritório, luz natural",
       "publish_date": "2026-11-17",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T11:28:17.795462+00:00",
+      "last_score": 87,
+      "iteration_id": "nov-onda2",
+      "commit_sha": "026c313",
+      "published_date": "2026-11-17"
     },
     {
       "id": "p7-s1",
