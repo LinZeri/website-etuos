@@ -1,0 +1,186 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/lead-management-for-small-business#article",
+      "headline": "From Lead to Paying Customer: The System a Local Service Business Needs",
+      "description": "Lead management for a small service business, step by step: one inbox, a fast first reply, source tracking, follow-up and the review ask. No software required.",
+      "datePublished": "2026-11-02",
+      "dateModified": "2026-11-02",
+      "inLanguage": "en-US",
+      "wordCount": 3737,
+      "keywords": [
+        "lead management for small business",
+        "lead follow up system for service business",
+        "how to turn leads into customers",
+        "lead tracking for small business"
+      ],
+      "articleSection": [
+        "What Is a Lead Management System for a Small Business?",
+        "Step 1: Give Every Lead One Place to Land",
+        "Step 2: Make the First Reply Count",
+        "Step 3: Record Where Each Lead Came From",
+        "Step 4: Follow Up Until the Customer Gives an Answer",
+        "Step 5: Ask Happy Customers for a Review",
+        "Where Does WhatsApp Fit?",
+        "A Weekly Review That Takes Minutes, Not Hours",
+        "Common Mistakes to Avoid",
+        "Frequently Asked Questions",
+        "What Should You Do This Week?",
+        "Sources"
+      ],
+      "articleBody": "Marketing gets a stranger to reach out. It does not turn that stranger into a paying customer. That part happens in your phone, your inbox, your notes app and your follow up habits, and for most small service businesses it is the weakest link. The ad works, the Google Business Profile ranks, the website brings in a form fill, and then the request sits in one of four places until someone remembers it. This guide is the full system, start to finish. It covers where leads should land, how to answer",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/lead-management-for-small-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/lead-management-for-small-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Lead management"
+        },
+        {
+          "@type": "Thing",
+          "name": "Customer follow-up"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local business marketing"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/lead-management-for-small-business",
+      "url": "https://etuos.com/en/blog/lead-management-for-small-business",
+      "name": "From Lead to Paying Customer: The System a Local Service Business Needs",
+      "description": "Lead management for a small service business, step by step: one inbox, a fast first reply, source tracking, follow-up and the review ask. No software required.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/lead-management-for-small-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/lead-management-for-small-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/lead-management-for-small-business#primaryimage",
+      "url": "https://etuos.com/images/blog/lead-management-for-small-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "From Lead to Paying Customer: The System a Local Service Business Needs"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/lead-management-for-small-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "From Lead to Paying Customer: The System a Local Service Business Needs",
+          "item": "https://etuos.com/en/blog/lead-management-for-small-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/lead-management-for-small-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is lead management for a small business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the routine that takes a customer from first contact to a finished job and a review: one place where every lead lands, a prompt reply, a note of the source, follow-up until there is an answer, and a review request after the work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a CRM to manage leads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not to begin. A spreadsheet or shared notes page with a date, contact details, service, source, status and next step covers the basics. Move to dedicated software only when the habits are in place and the list has outgrown the spreadsheet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know which marketing channel brings the best leads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Record the source of every lead and what happened to it. Once you have enough notes, compare each source by how many leads it sent, how many you reached and how many became jobs. Asking \"How did you hear about us?\" on every first contact is the simplest way to start."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I offer a discount in exchange for a Google review?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google says offering incentives such as discounts or free goods in exchange for reviews is \"fake & misleading content\" and \"strictly prohibited.\" You can ask customers to leave a review using a Google link or QR code, as long as you offer nothing in return."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use WhatsApp for customer leads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Treat WhatsApp as one more channel that feeds your single lead list. The WhatsApp Business app is intended for one phone number, so decide who holds the phone, and set up a greeting and an away message that match what you can actually deliver."
+          }
+        }
+      ]
+    }
+  ]
+}
