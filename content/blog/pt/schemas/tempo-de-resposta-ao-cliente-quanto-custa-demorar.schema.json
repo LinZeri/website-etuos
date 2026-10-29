@@ -1,0 +1,161 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar#article",
+      "headline": "Quanto custa demorar para responder o cliente (e como organizar o atendimento)",
+      "description": "Demorar para responder o cliente pode custar venda. Veja por que, onde a demora nasce e como organizar o primeiro atendimento no WhatsApp e nos anúncios.",
+      "datePublished": "2026-11-13",
+      "dateModified": "2026-11-13",
+      "inLanguage": "pt-BR",
+      "wordCount": 1869,
+      "keywords": "tempo de resposta ao cliente, demora para responder cliente, responder cliente rápido whatsapp, atendimento ao cliente em pequeno negócio, perder cliente por demora na resposta",
+      "articleSection": "Do Clique ao Cliente",
+      "articleBody": "O telefone toca enquanto você atende outra pessoa. Chega uma mensagem no WhatsApp no meio de um serviço. Você pensa \"respondo daqui a pouco\", e o \"daqui a pouco\" vira o fim do dia. Para quem mandou a mensagem, essa é a primeira impressão: ela ainda não conhece o seu trabalho e já descobriu como você atende.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Tempo de resposta ao cliente"
+        },
+        {
+          "@type": "Thing",
+          "name": "Atendimento ao cliente"
+        },
+        {
+          "@type": "Thing",
+          "name": "WhatsApp Business"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar",
+      "url": "https://etuos.com/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar",
+      "name": "Quanto custa demorar para responder o cliente (e como organizar o atendimento)",
+      "description": "Demorar para responder o cliente pode custar venda. Veja por que, onde a demora nasce e como organizar o primeiro atendimento no WhatsApp e nos anúncios.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar#primaryimage",
+      "url": "https://etuos.com/images/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Celular tocando sobre o balcão de uma loja de bairro enquanto o dono atende outro cliente"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Quanto custa demorar para responder o cliente (e como organizar o atendimento)",
+          "item": "https://etuos.com/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual é o tempo ideal para responder um cliente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um tempo ideal comprovado que sirva para todo negócio. Depende do tipo de serviço, do canal e do horário. O que vale para todos é não deixar o cliente sem saber que foi visto: responda assim que puder e, quando não puder, avise quando vai retornar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Demorar para responder faz o cliente desistir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pode fazer, porque quem pergunta costuma estar comparando opções e pode seguir com outro profissional. Mas não há número confiável de quantos desistem nem em quanto tempo, e isso muda de serviço para serviço. Trate a demora como risco, não como cálculo exato."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mensagem automática de ausência ajuda ou atrapalha?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ajuda quando é curta, honesta e diz quando o cliente terá retorno. Atrapalha quando promete o que você não cumpre ou quando é longa demais. Ela avisa que a mensagem chegou, mas não substitui a sua resposta de verdade."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A demora para responder atrapalha os anúncios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nos Local Services Ads, o Google avisa que, se você deixar de atender ligações ou responder mensagens com regularidade, o ranking do seu anúncio pode ser afetado. Em qualquer anúncio, o contato que chega e não é atendido é verba que não virou conversa."
+          }
+        }
+      ]
+    }
+  ]
+}
