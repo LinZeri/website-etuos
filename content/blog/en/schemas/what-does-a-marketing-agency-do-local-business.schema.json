@@ -1,0 +1,186 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/what-does-a-marketing-agency-do-local-business#article",
+      "headline": "What a Marketing Agency Actually Does for a Local Business",
+      "description": "What does a marketing agency do for a local business? The four jobs, what no agency can promise, what a report should show and how to judge the work.",
+      "datePublished": "2026-11-05",
+      "dateModified": "2026-11-05",
+      "inLanguage": "en-US",
+      "wordCount": 3430,
+      "keywords": [
+        "what does a marketing agency do",
+        "what do marketing agencies do",
+        "marketing agency services for small business",
+        "do i need a marketing agency"
+      ],
+      "articleSection": [
+        "What Is a Marketing Agency, in Practical Terms?",
+        "The Four Jobs an Agency Does for a Local Business",
+        "What No Agency Can Sell You",
+        "What Stays With You",
+        "What a Good Report Looks Like",
+        "Do You Need an Agency at All?",
+        "Red Flags You Can Spot Before You Sign",
+        "Checks You Can Run Yourself",
+        "How Etuos Fits Into This",
+        "Frequently Asked Questions",
+        "What Should You Do Next?",
+        "Sources"
+      ],
+      "articleBody": "A marketing agency does four jobs for a local business: it helps people find you in local search, it runs paid ads, it builds or fixes the pages those people land on, and it measures what happened. Everything else on an agency's menu is a variation or a label. That sounds simple, and the jobs are. What confuses owners is the gap between what an agency can control (the setup, the work, the reporting) and what it cannot (rankings, rules written by Google, whether your phone gets answered). This gu",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/what-does-a-marketing-agency-do-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/what-does-a-marketing-agency-do-local-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Marketing agencies"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local business marketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Hiring marketing help"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/what-does-a-marketing-agency-do-local-business",
+      "url": "https://etuos.com/en/blog/what-does-a-marketing-agency-do-local-business",
+      "name": "What a Marketing Agency Actually Does for a Local Business",
+      "description": "What does a marketing agency do for a local business? The four jobs, what no agency can promise, what a report should show and how to judge the work.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/what-does-a-marketing-agency-do-local-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/what-does-a-marketing-agency-do-local-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/what-does-a-marketing-agency-do-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/what-does-a-marketing-agency-do-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "What a Marketing Agency Actually Does for a Local Business"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/what-does-a-marketing-agency-do-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "What a Marketing Agency Actually Does for a Local Business",
+          "item": "https://etuos.com/en/blog/what-does-a-marketing-agency-do-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/what-does-a-marketing-agency-do-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a marketing agency do for a small business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An agency does four jobs: local search work such as your Google Business Profile and reviews, paid ads, building or fixing the website and landing pages, and measuring results. A good one reports on what it did and what changed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a marketing agency guarantee first place on Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google says there is no way to request or pay for a better local ranking, and it does not guarantee that it will crawl, index or serve a page. Treat any promise of a position as a warning sign."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a marketing agency for my local business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always. An agency helps when the work needs several skills at once and you can handle more customers. If your phone goes unanswered or your calendar is full, fix that first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should a marketing agency report show?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It should show what was done, what changed and what happens next. Calls, messages and form submissions matter more than impressions, and you should be able to see the same data in your own accounts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I own my Google accounts if an agency runs them?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Your Business Profile, Search Console property and ad account should be in your name, with the agency added as a user. A verified owner has the highest degree of permissions in Search Console."
+          }
+        }
+      ]
+    }
+  ]
+}
