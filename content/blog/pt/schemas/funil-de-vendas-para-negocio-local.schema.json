@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/funil-de-vendas-para-negocio-local#article",
+      "headline": "Funil de vendas para negócio local: do anúncio ao cliente fechado",
+      "description": "Funil de vendas para negócio local, sem jargão: as quatro etapas do caminho (encontrar, contatar, responder, fechar), onde o cliente se perde e como medir.",
+      "datePublished": "2026-11-03",
+      "dateModified": "2026-11-03",
+      "inLanguage": "pt-BR",
+      "wordCount": 3450,
+      "keywords": "funil de vendas, funil de vendas para pequena empresa, etapas do funil de vendas, como transformar contato em cliente, funil de vendas negócio local",
+      "articleSection": "Conseguir Clientes nos EUA",
+      "articleBody": "Quando você investe em anúncio, em Google ou em site, o objetivo parece simples: fazer o telefone tocar. Só que telefone tocando ainda não é cliente. Entre a pessoa que viu seu nome e a pessoa que paga pelo serviço existe um caminho com várias portas, e em cada uma delas alguém pode desistir. Esse caminho tem um nome conhecido: funil de vendas.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/funil-de-vendas-para-negocio-local#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/funil-de-vendas-para-negocio-local"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Funil de vendas"
+        },
+        {
+          "@type": "Thing",
+          "name": "Atendimento ao cliente"
+        },
+        {
+          "@type": "Thing",
+          "name": "Negócio local"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/funil-de-vendas-para-negocio-local",
+      "url": "https://etuos.com/pt/blog/funil-de-vendas-para-negocio-local",
+      "name": "Funil de vendas para negócio local: do anúncio ao cliente fechado",
+      "description": "Funil de vendas para negócio local, sem jargão: as quatro etapas do caminho (encontrar, contatar, responder, fechar), onde o cliente se perde e como medir.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/funil-de-vendas-para-negocio-local#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/funil-de-vendas-para-negocio-local#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/funil-de-vendas-para-negocio-local#primaryimage",
+      "url": "https://etuos.com/images/blog/funil-de-vendas-para-negocio-local.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de um pequeno negócio desenhando em um quadro branco as etapas do caminho do cliente"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/funil-de-vendas-para-negocio-local#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Funil de vendas para negócio local: do anúncio ao cliente fechado",
+          "item": "https://etuos.com/pt/blog/funil-de-vendas-para-negocio-local"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/funil-de-vendas-para-negocio-local#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é funil de vendas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Funil de vendas é o caminho que uma pessoa percorre desde o primeiro contato com o seu negócio até virar cliente. Em cada etapa, parte das pessoas fica pelo caminho. Para negócio local de serviço, o caminho costuma ter quatro etapas: encontrar, contatar, responder e fechar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quais são as etapas do funil de vendas de um negócio local?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Encontrar (a pessoa acha o seu negócio no Google, em anúncios, nas redes ou por indicação), contatar (liga, manda mensagem ou preenche um formulário), responder (você retorna com clareza) e fechar (orçamento, acompanhamento e decisão). Depois do serviço, o pedido de avaliação ajuda a próxima pessoa a encontrar e confiar em você."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual é uma boa taxa de conversão do funil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um número que sirva para todos. Cada serviço, cidade e canal se comporta de um jeito, e os números que circulam em blogs raramente trazem metodologia. Compare o seu negócio com ele mesmo, mês a mês e campanha a campanha."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de software para ter um funil de vendas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Para começar, uma lista simples com quem entrou em contato, o que foi enviado e quando voltar a falar já mostra onde o cliente se perde. Software ajuda quando o volume cresce, mas o hábito de acompanhar vem antes da ferramenta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como saber de onde veio cada cliente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O jeito mais simples é perguntar na primeira conversa: \"como você me encontrou?\". Registre a resposta junto do orçamento. Os painéis de anúncio e do perfil do Google mostram uma parte do caminho, mas não enxergam quem viu e chamou por outro canal."
+          }
+        }
+      ]
+    }
+  ]
+}
