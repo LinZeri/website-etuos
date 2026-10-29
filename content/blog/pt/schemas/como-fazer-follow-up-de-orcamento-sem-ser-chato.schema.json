@@ -1,0 +1,161 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato#article",
+      "headline": "Pediu orçamento e sumiu: como fazer follow-up sem ser chato",
+      "description": "Cliente pediu orçamento e sumiu? Veja como fazer follow-up de vendas no WhatsApp: tom, mensagens-modelo, como organizar os orçamentos e quando parar.",
+      "datePublished": "2026-11-09",
+      "dateModified": "2026-11-09",
+      "inLanguage": "pt-BR",
+      "wordCount": 1822,
+      "keywords": "follow-up de vendas, follow up de orçamento, cliente pediu orçamento e sumiu, como fazer follow up no whatsapp, mensagem de acompanhamento ao cliente",
+      "articleSection": "Do Clique ao Cliente",
+      "articleBody": "O cliente pediu orçamento, você respondeu com o valor e, depois disso, silêncio. Acontece com quase todo negócio de serviço, e na maioria das vezes não significa \"não\". Pode ser que a pessoa esteja comparando, tenha se distraído ou tenha esquecido de responder. O follow-up de vendas é a mensagem que retoma a conversa, e feito com educação ele ajuda o cliente em vez de incomodar.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Follow-up de vendas"
+        },
+        {
+          "@type": "Thing",
+          "name": "Orçamento"
+        },
+        {
+          "@type": "Thing",
+          "name": "Atendimento ao cliente"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato",
+      "url": "https://etuos.com/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato",
+      "name": "Pediu orçamento e sumiu: como fazer follow-up sem ser chato",
+      "description": "Cliente pediu orçamento e sumiu? Veja como fazer follow-up de vendas no WhatsApp: tom, mensagens-modelo, como organizar os orçamentos e quando parar.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato#primaryimage",
+      "url": "https://etuos.com/images/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Pessoa conferindo uma conversa de orçamento no celular, ao lado de uma planilha no notebook, no balcão de um pequeno negócio"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pediu orçamento e sumiu: como fazer follow-up sem ser chato",
+          "item": "https://etuos.com/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/como-fazer-follow-up-de-orcamento-sem-ser-chato#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quando devo fazer follow-up de um orçamento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um prazo comprovado que valha para todo negócio. Depende da urgência do serviço, do interesse que o cliente demonstrou e do que combinaram na conversa. O mais seguro é combinar o próximo passo na própria mensagem do orçamento e retomar quando fizer sentido para aquele cliente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantas vezes posso mandar mensagem para quem não respondeu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há um número certo. Defina um critério seu antes de começar: cada mensagem deve trazer algo novo e, se o cliente der um sinal claro de que não quer seguir, o assunto termina. Quando decidir parar, envie uma mensagem de encerramento educada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como fazer follow-up no WhatsApp sem parecer insistente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Escreva uma mensagem curta, com o nome do cliente e o serviço combinado, e traga um motivo: uma dúvida antecipada, uma informação útil ou uma pergunta fácil de responder. Evite cobrar, evite urgência inventada e deixe o cliente à vontade para dizer não."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso oferecer desconto para fechar o orçamento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Só se for uma condição real, que você pode cumprir. Inventar desconto ou prazo para pressionar queima a confiança. Para avaliações no Google, oferecer bens ou serviços gratuitos ou com desconto em troca é proibido pelo Google."
+          }
+        }
+      ]
+    }
+  ]
+}
