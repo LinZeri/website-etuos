@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T22:42:55.771018+00:00",
+  "updated": "2026-10-29T23:18:53.956839+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -1808,6 +1808,437 @@
       "publish_date": null,
       "author": null,
       "status": "parked",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-1",
+      "slug": "retargeting-for-a-local-business-when-it-pays-and-when-it-is-wasted-money",
+      "title": "Retargeting for a Local Business: When It Pays and When It Is Wasted",
+      "template": "faq-knowledge",
+      "target_keyword": "retargeting for local business",
+      "secondary_keywords": [
+        "remarketing for small business",
+        "retargeting ads local business"
+      ],
+      "word_count": 1600,
+      "internal_links": [
+        "/en/blog/where-to-spend-first-marketing-dollars-local-business",
+        "/en/blog/how-much-paid-ads-cost-local-business-guide",
+        "/en/blog/lead-management-for-small-business",
+        "/en/blog/speed-to-lead-local-service-business",
+        "/en/services/paid-ads"
+      ],
+      "cluster": "pillar2.paid-ads",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Phase 2 pillar 2 extension. T20 is registered (remarketing is showing ads to people who already interacted; Google Ads calls the lists data segments; ads shown on Google and partner sites). Read its Uso proibido: no list-size minimum, no window in days, no result, do not say Search is included. Qualitative decision test: when a business has enough visitors to follow, when the follow-up path (calls, messages) is ready, privacy in general terms with no law cited. No Meta. Cannibalization: the pt post o-que-e-remarketing is a separate editorial line, do not translate it. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "a local business owner reviewing a simple visitor flow sketch on a notepad, no readable text",
+      "publish_date": "2026-12-01",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-2",
+      "slug": "signs-your-marketing-agency-is-not-working",
+      "title": "Signs Your Marketing Agency Is Not Working",
+      "template": "listicle",
+      "target_keyword": "signs your marketing agency is not working",
+      "secondary_keywords": [
+        "marketing agency not delivering results",
+        "when to fire your marketing agency"
+      ],
+      "word_count": 1600,
+      "internal_links": [
+        "/en/blog/how-to-choose-a-marketing-agency-local-business",
+        "/en/blog/who-owns-your-google-ads-and-business-profile-agency",
+        "/en/blog/what-does-a-marketing-agency-do-local-business",
+        "/en/blog/google-ads-quality-score-local-business",
+        "/en/about"
+      ],
+      "cluster": "pillar7.hiring-help",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Phase 2 pillar 7 spoke 5. Authority tone as in the published agency posts. Signs anchored in the registry only: no access to the account (T27, T28), reports without clicks and contacts (S37, T14), promises about ranking (S10, S27), mass city pages (S34, S35), review pressure (S15). No timeframe for 'giving it time', no benchmark. Do not repeat the checklist of how-to-choose-a-marketing-agency or the ownership post: this is a diagnosis for someone already hired. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "a business owner comparing two printed reports on a desk looking unsure, no readable text",
+      "publish_date": "2026-12-03",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-3",
+      "slug": "call-tracking-for-a-small-business-what-it-shows",
+      "title": "Call Tracking for a Small Business: What It Shows and What It Does Not",
+      "template": "tutorial",
+      "target_keyword": "call tracking",
+      "secondary_keywords": [
+        "call tracking small business",
+        "track phone calls from ads",
+        "call tracking google ads"
+      ],
+      "word_count": 1600,
+      "internal_links": [
+        "/en/blog/track-calls-forms-whatsapp-clicks-ga4",
+        "/en/blog/missed-calls-after-hours-small-business",
+        "/en/blog/speed-to-lead-local-service-business",
+        "/en/blog/what-to-do-with-leads-from-google-ads",
+        "/en/services/paid-ads"
+      ],
+      "cluster": "pillar6.lead-to-customer",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO B. Phase 2 pillar 6 spoke 2 (1,600/month in the US). READINESS B: T26 is registered (phone number clicks are not calls) and T6 (valid LSA leads). Verify by WebFetch (two calls) one or two Google Ads Help pages on call reporting and call conversions (search support.google.com/google-ads for 'call reporting' and 'conversions from calls'); the 60-day call conversion window seen only in a search snippet is NOT usable without a literal fetch. Do NOT name any call tracking vendor, price or feature table. If the pages do not open, write only from T26, T6 and T8 or swap. Cannibalization with track-calls-forms-whatsapp-clicks-ga4 (11/30): that post is GA4 key events; this one is what call tracking is, what it can and cannot show. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "a service business owner at a counter checking a phone call log on a screen, no readable text",
+      "publish_date": "2026-12-04",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-4",
+      "slug": "seo-or-paid-ads-first-for-a-local-business",
+      "title": "SEO or Paid Ads First? How a Local Business Should Decide",
+      "template": "comparison",
+      "target_keyword": "seo or paid ads for small business",
+      "secondary_keywords": [
+        "seo vs ppc local business",
+        "should i do seo or google ads"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/en/blog/local-seo-for-service-businesses-complete-guide",
+        "/en/blog/how-much-paid-ads-cost-local-business-guide",
+        "/en/blog/where-to-spend-first-marketing-dollars-local-business",
+        "/en/blog/local-services-ads-vs-google-ads",
+        "/en/services/seo"
+      ],
+      "cluster": "pillar2.paid-ads",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Reserve and A item. Decision by criteria (speed to start, control, reliance on reputation, what the business can handle in calls). Sources: S10 (you cannot pay for a better local ranking), S27, T5, T10, T11. Etuos sells both: neutral, never prefer one. No time to results, no cost, no budget split. Cannibalization with where-to-spend-first-marketing-dollars: that one is the first dollar across channels; this is SEO versus ads only. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "two doors side by side in a bright hallway, one open, photographic, no text",
+      "publish_date": "2026-12-07",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-5",
+      "slug": "what-a-marketing-report-should-show-and-vanity-metrics",
+      "title": "What a Marketing Report Should Show (and Which Numbers Are Vanity)",
+      "template": "how-to-guide",
+      "target_keyword": "marketing report for small business",
+      "secondary_keywords": [
+        "marketing report what to include",
+        "vanity metrics",
+        "paid ads report local business"
+      ],
+      "word_count": 1600,
+      "internal_links": [
+        "/en/blog/google-search-console-for-local-business-owners",
+        "/en/blog/how-to-choose-a-marketing-agency-local-business",
+        "/en/blog/signs-your-marketing-agency-is-not-working",
+        "/en/blog/track-calls-forms-whatsapp-clicks-ga4",
+        "/en/services/paid-ads"
+      ],
+      "cluster": "pillar7.hiring-help",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Authority tone. S37 (clicks, impressions, CTR, average position, with the chart versus table caveat), T14 (average CPC), T9, T21 (key event). No benchmark, no 'good CTR'. Teaches the owner to read the report an agency sends and ask for what is missing (contacts, calls, source). Cannibalization with the Search Console guide: that one is how to use the tool; this one is how to judge a report. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "a business owner reading a simple report with plain bar shapes and no numbers, no readable text",
+      "publish_date": "2026-12-08",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-6",
+      "slug": "houston-small-business-marketing-spanish-and-portuguese-speaking-customers",
+      "title": "Marketing a Small Business in Houston: What Public Data Says About Your Customers",
+      "template": "data-research",
+      "target_keyword": "houston small business marketing",
+      "secondary_keywords": [
+        "houston local marketing",
+        "houston spanish speaking customers"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/en/blog/marketing-to-multilingual-customers-local-business",
+        "/en/blog/answer-spanish-speaking-customers-phone-whatsapp",
+        "/en/blog/bilingual-website-for-small-business",
+        "/en/blog/how-immigrant-communities-choose-a-local-business",
+        "/en/about"
+      ],
+      "cluster": "pillar4.multilingual-market",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO B. City read (pillar 4). B: needs public data verified by WebFetch BEFORE writing (census.gov: city or metro tables on languages spoken at home and on population; M3 is national and already registered, so this needs a Houston-specific page). If census.gov will not open for Houston, cancel the city framing: swap the slot for a reserve. Signal: /es/ciudades/houston has the most impressions of the site. Do not claim Spanish-speaking share without a literal Houston number; do not compare with other cities without sources. Do not reuse the pt Radiografia: separate editorial line. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "a storefront on a busy city street with signage that has no readable text, warm light",
+      "publish_date": "2026-12-10",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-7",
+      "slug": "mobile-speed-for-a-small-business-website",
+      "title": "Mobile Speed for a Small Business Website: How to Measure It and What to Fix First",
+      "template": "how-to-guide",
+      "target_keyword": "mobile site speed small business",
+      "secondary_keywords": [
+        "slow website small business",
+        "core web vitals small business",
+        "pagespeed insights small business"
+      ],
+      "word_count": 1600,
+      "internal_links": [
+        "/en/blog/website-not-getting-calls",
+        "/en/blog/website-not-showing-up-on-google-checklist",
+        "/en/blog/small-business-website-design-cost",
+        "/en/services/website-design"
+      ],
+      "cluster": "pillar5.website",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO B. Pillar 5 spoke. READINESS B: needs a new source on web.dev (accepted domain) verified by WebFetch, two calls: https://web.dev/articles/vitals (Core Web Vitals and the 'good' thresholds), https://web.dev/articles/lcp and https://web.dev/articles/inp; and the PageSpeed Insights documentation on developers.google.com/speed. A numeric threshold only if literal and registered. S32 (mobile version is indexed) already registered. If web.dev does not open, qualitative version or swap. No 'percent of visitors leave' without a source. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "a hand holding a phone showing a loading bar, no readable text",
+      "publish_date": "2026-12-11",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-8",
+      "slug": "what-makes-a-service-page-convert",
+      "title": "What Makes a Service Page Convert for a Local Business",
+      "template": "how-to-guide",
+      "target_keyword": "service page for local business",
+      "secondary_keywords": [
+        "service page structure",
+        "how to write a service page"
+      ],
+      "word_count": 1600,
+      "internal_links": [
+        "/en/blog/service-area-pages-for-local-business-website",
+        "/en/blog/landing-page-vs-website",
+        "/en/blog/website-not-getting-calls",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/services/website-design"
+      ],
+      "cluster": "pillar5.website",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Pillar 5 spoke planned since Phase 1. Qualitative structure (who serves where, what is included, how it works, trust through reviews, FAQ, contact by phone and WhatsApp). Sources: S35, S34, S19, S18, S20, S25, S32, S9. No conversion rate, no ideal length. Independent editorial line from the pt post pagina-de-servico-que-vende-estrutura (do not translate). Cannibalization: service-area-pages (location pages) and landing-page-vs-website. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "a business owner reviewing a printed page layout with plain blocks, no readable text",
+      "publish_date": "2026-12-14",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-9",
+      "slug": "what-to-expect-from-local-seo-work-deliverables-reports-red-flags",
+      "title": "What to Expect From Local SEO Work: Deliverables, Reports and Red Flags",
+      "template": "how-to-guide",
+      "target_keyword": "local seo cost",
+      "secondary_keywords": [
+        "what does local seo include",
+        "local seo deliverables",
+        "local seo pricing what to expect"
+      ],
+      "word_count": 1700,
+      "internal_links": [
+        "/en/blog/how-to-choose-an-seo-company-local-business",
+        "/en/blog/local-seo-for-service-businesses-complete-guide",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/blog/google-search-console-for-local-business-owners",
+        "/en/services/seo"
+      ],
+      "cluster": "pillar7.hiring-help",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Replaces 'How much local SEO costs' because the registry has NO cost source and cost ranges are forbidden without one. Qualitative: what a provider should deliver and report (profile, citations in general terms, reviews process, pages, reporting), what is outside anyone's control (S10, S27), red flags. The title keeps 'local seo cost' in the keyword only; the post says plainly that it will not quote a price and why. Etuos sells SEO: neutral voice. Cannibalization with how-to-choose-an-seo-company (11/24): that is the selection; this one is the work and the report. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "a plain work plan on a desk with checkboxes shape but no readable text, a laptop to the side",
+      "publish_date": "2026-12-15",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-10",
+      "slug": "questions-to-ask-a-marketing-agency-before-you-sign",
+      "title": "Questions to Ask a Marketing Agency Before You Sign",
+      "template": "faq-knowledge",
+      "target_keyword": "questions to ask a marketing agency",
+      "secondary_keywords": [
+        "questions to ask a marketing agency before hiring",
+        "marketing agency interview questions"
+      ],
+      "word_count": 1600,
+      "internal_links": [
+        "/en/blog/how-to-choose-a-marketing-agency-local-business",
+        "/en/blog/who-owns-your-google-ads-and-business-profile-agency",
+        "/en/blog/what-does-a-marketing-agency-do-local-business",
+        "/en/blog/signs-your-marketing-agency-is-not-working",
+        "/en/about"
+      ],
+      "cluster": "pillar7.hiring-help",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Phase 2 pillar 7 spoke 2. Authority tone. Questions anchored in the registry (access T27/T28, reviews S15/S16, location S11/S18, reporting S37/T14, language T4). One question per topic with what a good answer sounds like, no contract clauses with numbers, no legal advice. Do NOT repeat the 7 checks of how-to-choose-a-marketing-agency; this is the short list to bring to the meeting. The pt post perguntas-antes-de-contratar is a separate line. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "two people across a table in a meeting with a notepad, no readable text",
+      "publish_date": "2026-12-17",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-11",
+      "slug": "meta-pixel-for-a-local-business-what-it-is-and-what-it-measures",
+      "title": "Meta Pixel for a Local Business: What It Is and What It Measures",
+      "template": "tutorial",
+      "target_keyword": "meta pixel",
+      "secondary_keywords": [
+        "facebook pixel local business",
+        "what is the meta pixel",
+        "meta pixel small business"
+      ],
+      "word_count": 1600,
+      "internal_links": [
+        "/en/blog/facebook-ads-for-local-business",
+        "/en/blog/retargeting-for-a-local-business-when-it-pays-and-when-it-is-wasted-money",
+        "/en/blog/track-calls-forms-whatsapp-clicks-ga4",
+        "/en/services/paid-ads"
+      ],
+      "cluster": "pillar6.lead-to-customer",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO B. B (TEST DEPENDENT): the owner approved on 10/28/2026 a December test of WebFetch on developers.facebook.com. Verify by WebFetch (two calls): https://developers.facebook.com/docs/meta-pixel and the standard events page. If the body does not open or the two calls disagree, the item falls: swap for a reserve and record the domain as blocked in docs/blog-dominios-confiaveis.md. State only what both calls confirm; no cost, no results, no iOS or privacy claim without a source. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "a local business owner at a laptop with a generic ads dashboard of abstract shapes, no readable text",
+      "publish_date": "2026-12-18",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-12",
+      "slug": "agency-freelancer-or-doing-it-yourself-local-business",
+      "title": "Agency, Freelancer or Doing It Yourself? How a Local Business Should Decide",
+      "template": "comparison",
+      "target_keyword": "marketing agency vs freelancer",
+      "secondary_keywords": [
+        "agency vs freelancer marketing",
+        "hire a marketing freelancer or an agency",
+        "diy marketing small business"
+      ],
+      "word_count": 1600,
+      "internal_links": [
+        "/en/blog/how-to-choose-a-marketing-agency-local-business",
+        "/en/blog/what-does-a-marketing-agency-do-local-business",
+        "/en/blog/questions-to-ask-a-marketing-agency-before-you-sign",
+        "/en/blog/who-owns-your-google-ads-and-business-profile-agency",
+        "/en/about"
+      ],
+      "cluster": "pillar7.hiring-help",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Independent line from the pt post agencia-freelancer-ou-fazer-sozinho-marketing (do not translate). Criteria table only, no cost values, no benchmark: who owns the account (T27/T28), reporting (S37), what the owner can keep doing alone (reviews S15/S16, profile S14). Etuos is an agency: say so once and stay neutral; the right answer can be 'do it yourself'. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "a business owner at a desk with three plain folders in front of them, no readable text",
+      "publish_date": "2026-12-21",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-13",
+      "slug": "marketing-a-second-location-local-business",
+      "title": "Marketing a Second Location: Pages, Profiles and What Not to Duplicate",
+      "template": "how-to-guide",
+      "target_keyword": "multi location local seo",
+      "secondary_keywords": [
+        "second location marketing",
+        "multi location business google business profile",
+        "local seo for multiple locations"
+      ],
+      "word_count": 1600,
+      "internal_links": [
+        "/en/blog/service-area-pages-for-local-business-website",
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/blog/service-area-business-google-business-profile",
+        "/en/blog/local-seo-for-service-businesses-complete-guide",
+        "/en/services/seo"
+      ],
+      "cluster": "pillar1.local-search",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Authority item for multi-location brands without the franchise material (which depends on the owner). S11 and S18 (one page per location), S34 and S35 (doorway abuse, original content per page), S14, S15, S20. No case, no franchise story, no numbers beyond the authorized ones. Cannibalization with service-area-pages: that is service areas; this is physical locations. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "a second storefront on a corner next to a first one, no readable signage",
+      "publish_date": "2026-12-22",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-14",
+      "slug": "local-marketing-checklist-for-the-new-year",
+      "title": "A Local Marketing Checklist for the New Year",
+      "template": "listicle",
+      "target_keyword": "local marketing checklist",
+      "secondary_keywords": [
+        "marketing checklist small business",
+        "new year marketing plan local business"
+      ],
+      "word_count": 1300,
+      "internal_links": [
+        "/en/blog/google-business-profile-optimization-checklist",
+        "/en/blog/website-not-getting-calls",
+        "/en/blog/lead-management-for-small-business",
+        "/en/blog/track-calls-forms-whatsapp-clicks-ga4",
+        "/en/services/paid-ads"
+      ],
+      "cluster": "pillar6.lead-to-customer",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Minimum cadence week (2 posts). A qualitative checklist that ties the hubs together (profile, site, lead handling, measurement, hiring), each item linking to its post. No numeric goal, no deadline, no 'do this in X days'. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "a paper planner open on a desk with a pen and a cup, no readable text",
+      "publish_date": "2026-12-28",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "en-dez-15",
+      "slug": "reserve-from-search-console-12-14",
+      "title": "TO BE DECIDED ON 12/14 FROM SEARCH CONSOLE",
+      "template": "faq-knowledge",
+      "target_keyword": "(decide on 12/14)",
+      "secondary_keywords": [],
+      "word_count": 1500,
+      "internal_links": [],
+      "cluster": "pillar1.local-search",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. RESERVE SLOT. On 12/14 run `python scripts/gsc-export.py 90`, pick a query in positions 8 to 30 or a post with 6+ weeks and zero impressions, and replace this item (slug, title, keyword). If nothing qualifies, use a swap from a failed B item. Runbook rules: no timeframe, cost range, benchmark or statistic without a source registered in docs/blog-fontes-verificadas.md; neutral voice, no Etuos experience, case or client beyond the authorized numbers; no Meta/Facebook/Instagram source unless verified; link only posts dated on or before this one (published or in the batch).",
+      "image_context": "(decide with the item)",
+      "publish_date": "2026-12-29",
+      "author": null,
+      "status": "pending",
       "attempts": 0,
       "last_error": null,
       "started_at": null,

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T22:42:54.027775+00:00",
+  "updated": "2026-10-29T23:18:53.954286+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -1767,11 +1767,426 @@
         "/pt/servicos/trafego-pago"
       ],
       "cluster": "pilar7.do-clique-ao-cliente",
-      "notes": "ESTACIONADO em 28/10/2026: cedeu o slot de 24/11 ao hub do pilar 6. Candidato a dezembro. | Spoke 3 do pilar 7 (volume BR 170). PRONTIDAO A com ressalva (e o item A mais fraco do mes). Abordagem por CRITERIOS, nunca por produto: o que o dono precisa registrar (contato, origem, etapa, proximo passo), quando uma planilha basta, quando o app WhatsApp Business (W1: um numero; W2: catalogo, perfil, saudacao e ausencia) e suficiente e quando vale um sistema. NAO ha fonte para: preco de qualquer CRM, comparacao de ferramentas nomeadas, quantas empresas usam CRM, ganho de produtividade, limites de dispositivos ou de usuarios do WhatsApp Business (W1 proibe inferir). Proibido recomendar ou ranquear marcas; se o redator quiser citar uma ferramenta, precisa de fonte nova (hubspot.com esta no dominio liberado mas sem verificacao: NAO usar nesta rodada). Sem 'o melhor CRM'. Privacidade de dados do cliente so em termos gerais, sem citar lei. CANIBALIZACAO: whatsapp-business (organizar atendimento), follow-up (09/11) e funil (03/11). Solucao: este post responde a pergunta 'onde guardo meus contatos e orcamentos' e linka os outros tres em vez de repetir. Se a escrita nao sustentar 1.500 palavras sem produto, reduzir para 1.200 ou trocar pelo reforco 'anunciar em ingles' (atualizacao do post existente). Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
+      "notes": "REATIVADO EM 29/10/2026 PARA 01/12 (ver nota original, estacionado em 28/10). ESTACIONADO em 28/10/2026: cedeu o slot de 24/11 ao hub do pilar 6. Candidato a dezembro. | Spoke 3 do pilar 7 (volume BR 170). PRONTIDAO A com ressalva (e o item A mais fraco do mes). Abordagem por CRITERIOS, nunca por produto: o que o dono precisa registrar (contato, origem, etapa, proximo passo), quando uma planilha basta, quando o app WhatsApp Business (W1: um numero; W2: catalogo, perfil, saudacao e ausencia) e suficiente e quando vale um sistema. NAO ha fonte para: preco de qualquer CRM, comparacao de ferramentas nomeadas, quantas empresas usam CRM, ganho de produtividade, limites de dispositivos ou de usuarios do WhatsApp Business (W1 proibe inferir). Proibido recomendar ou ranquear marcas; se o redator quiser citar uma ferramenta, precisa de fonte nova (hubspot.com esta no dominio liberado mas sem verificacao: NAO usar nesta rodada). Sem 'o melhor CRM'. Privacidade de dados do cliente so em termos gerais, sem citar lei. CANIBALIZACAO: whatsapp-business (organizar atendimento), follow-up (09/11) e funil (03/11). Solucao: este post responde a pergunta 'onde guardo meus contatos e orcamentos' e linka os outros tres em vez de repetir. Se a escrita nao sustentar 1.500 palavras sem produto, reduzir para 1.200 ou trocar pelo reforco 'anunciar em ingles' (atualizacao do post existente). Regras do runbook: nenhum prazo, faixa de custo ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; escrever em voz neutra, sem experiencia inventada da Etuos.",
       "image_context": "dono de um pequeno negócio organizando contatos e orçamentos em uma planilha no notebook ao lado do celular, balcão de bairro, luz natural",
-      "publish_date": null,
+      "publish_date": "2026-12-01",
       "author": null,
-      "status": "parked",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-2",
+      "slug": "landing-page-ou-site-o-que-o-negocio-precisa-primeiro",
+      "title": "Landing page ou site: o que o seu negócio precisa primeiro",
+      "template": "comparison",
+      "target_keyword": "landing page ou site",
+      "secondary_keywords": [
+        "landing page ou site institucional",
+        "site ou landing page para pequena empresa"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/landing-page-o-que-e-para-que-serve",
+        "/pt/blog/como-criar-landing-page-que-converte",
+        "/pt/blog/site-para-pequena-empresa-o-que-precisa-ter",
+        "/pt/blog/pagina-de-servico-que-vende-estrutura",
+        "/pt/servicos/criacao-de-sites"
+      ],
+      "cluster": "pilar5.site-que-traz-cliente",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Spoke 4 do pilar 5. Decisao por criterios (quem chega de anuncio, quem chega de busca, o que precisa explicar), sem taxa de conversao nem preco. Canibalizacao: os 4 posts do cluster de pagina; este so decide e linka, nao repete passo a passo. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "dono de pequeno negocio comparando um rascunho de pagina unica e um site de varias paginas em duas telas",
+      "publish_date": "2026-12-03",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-3",
+      "slug": "sinais-de-que-sua-agencia-de-marketing-nao-esta-funcionando",
+      "title": "Sinais de que sua agência de marketing não está funcionando",
+      "template": "listicle",
+      "target_keyword": "agência de marketing não dá resultado",
+      "secondary_keywords": [
+        "agência de marketing não funciona",
+        "como saber se a agência está funcionando",
+        "quando trocar de agência"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar",
+        "/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing",
+        "/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia",
+        "/pt/blog/como-medir-resultado-de-trafego-pago",
+        "/pt/sobre"
+      ],
+      "cluster": "pilar8.contratar-marketing",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Spoke 3 do pilar 8, TOM DE AUTORIDADE (decisao do dono, 28/10). Sinais qualitativos ancorados em registro: sem acesso a conta (T27, T28), relatorio sem clique e contato (S37, T14), promessa de ranking (S10, S27), paginas por cidade em massa (S34, S35), avaliacoes pedidas com incentivo (S15). Sem prazo para 'dar resultado', sem taxa. Nao repetir as 10 perguntas de 17/11: aqui e diagnostico de quem ja contratou. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "dono de negocio revisando um relatorio impresso de marketing com ar de duvida, sem texto legivel",
+      "publish_date": "2026-12-04",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-4",
+      "slug": "como-saber-de-onde-vem-seus-clientes-rastrear-whatsapp-ligacao-formulario",
+      "title": "Como saber de onde vêm seus clientes: rastrear WhatsApp, ligação e formulário",
+      "template": "tutorial",
+      "target_keyword": "como saber de onde vêm os clientes",
+      "secondary_keywords": [
+        "rastrear conversões",
+        "rastrear whatsapp",
+        "origem do cliente"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/botao-de-whatsapp-no-site-como-colocar-e-medir",
+        "/pt/blog/como-medir-resultado-de-trafego-pago",
+        "/pt/blog/funil-de-vendas-para-negocio-local",
+        "/pt/blog/tempo-de-resposta-ao-cliente-quanto-custa-demorar",
+        "/pt/servicos/trafego-pago"
+      ],
+      "cluster": "pilar7.do-clique-ao-cliente",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Spoke 5 do pilar 7. T21 a T26 ja registradas (evento principal, cliques de saida, generate_lead, clique em botao no Google Ads, clique no numero nao e ligacao). Angulo diferente do post de 26/11: la e o botao e a medicao do clique; aqui e a ORIGEM do cliente (de onde veio) e o habito de perguntar 'como voce nos conheceu' e registrar. NAO citar o formato wa.me; nao afirmar que a medicao aprimorada capta WhatsApp. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "dono de negocio anotando em um caderno a origem de cada contato ao lado do celular",
+      "publish_date": "2026-12-07",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-5",
+      "slug": "o-que-um-relatorio-de-marketing-deve-mostrar",
+      "title": "O que um relatório de marketing deve mostrar (e o que é métrica de vaidade)",
+      "template": "how-to-guide",
+      "target_keyword": "relatório de marketing",
+      "secondary_keywords": [
+        "relatório de marketing digital",
+        "métricas de vaidade",
+        "relatório de tráfego pago"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/como-medir-resultado-de-trafego-pago",
+        "/pt/blog/google-search-console-para-negocio-local",
+        "/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing",
+        "/pt/blog/sinais-de-que-sua-agencia-de-marketing-nao-esta-funcionando",
+        "/pt/servicos/trafego-pago"
+      ],
+      "cluster": "pilar8.contratar-marketing",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Spoke 4 do pilar 8, TOM DE AUTORIDADE. S37 (cliques, impressoes, CTR e posicao media, com a ressalva grafico x tabela), T14 (CPC medio), T9, T21 (evento principal). Sem benchmark, sem 'bom CTR'. Canibalizacao: como-medir-resultado e Search Console: este ensina a LER o relatorio que a agencia entrega e a cobrar o que falta. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "dono de negocio lendo um relatorio com graficos simples sem numeros legiveis",
+      "publish_date": "2026-12-08",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-6",
+      "slug": "radiografia-do-empreendedor-brasileiro-nos-eua",
+      "title": "Radiografia do empreendedor brasileiro nos EUA: o que os dados públicos mostram",
+      "template": "data-research",
+      "target_keyword": "empreendedor brasileiro nos eua",
+      "secondary_keywords": [
+        "brasileiros nos eua empreendedores",
+        "negócios de brasileiros nos eua dados"
+      ],
+      "word_count": 1800,
+      "internal_links": [
+        "/pt/blog/como-conseguir-clientes-nos-eua",
+        "/pt/blog/seo-local-por-cidade-miami-boston-orlando",
+        "/pt/blog/primeiros-passos-de-marketing-nos-eua",
+        "/pt/eua",
+        "/pt/sobre"
+      ],
+      "cluster": "pilar4.comunidade-dados-proprios",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO B. Pilar 4 (autoridade). B: precisa de dados publicos novos verificados por WebFetch ANTES de escrever (census.gov, bls.gov, sba.gov; N2, N3, N4, N6 ja registrados). Tentar: tabelas do ACS sobre populacao nascida no Brasil e trabalho por conta propria; se census.gov nao abrir por WebFetch, usar so N2, N4, N6 e reduzir para 1.300 palavras, ou trocar o slot pela reserva 'seo-ou-trafego-pago'. N6 e estimativa consular (ano-base 2023); N3 so Massachusetts; N2 e hispanico (contexto, nao brasileiro). Nada de comparacao entre comunidades sem fonte. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "mapa abstrato dos Estados Unidos com marcadores sem texto em cidades, estilo ilustrado calmo",
+      "publish_date": "2026-12-10",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-7",
+      "slug": "marketing-para-loja-de-roupas-vender-no-bairro-e-no-instagram",
+      "title": "Marketing para loja de roupas: vender no bairro e no Instagram",
+      "template": "listicle",
+      "target_keyword": "marketing para loja de roupas",
+      "secondary_keywords": [
+        "marketing para loja de roupas",
+        "divulgar loja de roupas",
+        "marketing para boutique"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um",
+        "/pt/blog/como-conseguir-avaliacoes-no-google",
+        "/pt/blog/google-business-profile-para-brasileiros-nos-eua",
+        "/pt/blog/seo-local-o-que-e-e-como-funciona",
+        "/pt/servicos/seo"
+      ],
+      "cluster": "pilar6.marketing-por-setor",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Spoke do pilar 6 (moda e vestuario esta na lista de setores atendidos). Busca local (S10, S11, S14, S15, S9). A metade 'Instagram' NAO tem fonte Meta: no maximo um paragrafo qualitativo. Linkar o hub de 24/11. Sem dado de varejo, sem sazonalidade com numero. Ver o post en boutique-marketing-local-foot-traffic (27/11) como referencia de cobertura, nao traduzir. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "vitrine de loja de bairro com araras e uma pessoa olhando, sem texto legivel",
+      "publish_date": "2026-12-11",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-8",
+      "slug": "como-atrair-clientes-para-negocio-local-os-canais-comparados",
+      "title": "Como atrair clientes para negócio local: os canais comparados",
+      "template": "comparison",
+      "target_keyword": "como atrair clientes",
+      "secondary_keywords": [
+        "como atrair clientes para negócio",
+        "como conseguir clientes",
+        "canais de marketing para negócio local"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro",
+        "/pt/blog/como-conseguir-clientes-nos-eua",
+        "/pt/blog/seo-local-o-que-e-e-como-funciona",
+        "/pt/blog/whatsapp-business-para-negocio-local-como-usar",
+        "/pt/blog/funil-de-vendas-para-negocio-local"
+      ],
+      "cluster": "pilar7.do-clique-ao-cliente",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Spoke 7 do pilar 7 (590/mes). Comparacao qualitativa por CRITERIOS (rapidez para comecar, controle, dependencia de reputacao, o que exige de atendimento), sem ranking de canal por resultado e sem numero. Fontes: S10 (nao se paga por posicao local), T8, T6 (LSA), W1/W2. RISCO ALTO de canibalizacao com como-conseguir-clientes-nos-eua e google-ads-ou-meta-ads: este post e a DECISAO por perfil de negocio e linka os dois, nunca repete. Se a escrita virar repeticao, trocar pela reserva. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "dono de negocio diante de cinco cartoes simples sobre uma mesa representando canais, sem texto",
+      "publish_date": "2026-12-14",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-9",
+      "slug": "marketing-para-eventos-como-lotar-sem-depender-de-indicacao",
+      "title": "Marketing para eventos: como lotar sem depender de indicação",
+      "template": "how-to-guide",
+      "target_keyword": "marketing para eventos",
+      "secondary_keywords": [
+        "marketing para eventos",
+        "divulgar evento",
+        "assessoria de eventos marketing"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um",
+        "/pt/blog/como-conseguir-avaliacoes-no-google",
+        "/pt/blog/google-business-profile-para-brasileiros-nos-eua",
+        "/pt/blog/pagina-de-servico-que-vende-estrutura",
+        "/pt/servicos/criacao-de-sites"
+      ],
+      "cluster": "pilar6.marketing-por-setor",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Spoke do pilar 6 (eventos esta na lista de setores atendidos). Qualitativo, busca local e portfolio/avaliacoes (S10, S11, S18, S15, S9). Referencia de cobertura: o post en event-planner-marketing (19/11), nao traduzir. Sem Instagram/Pinterest, sem sazonalidade ou antecedencia de reserva com numero. Linkar o hub de 24/11. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "organizadora de eventos revisando um portfolio impresso de festas numa mesa, sem texto legivel",
+      "publish_date": "2026-12-15",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-10",
+      "slug": "marketing-para-imobiliaria-e-corretor-do-brasil-ao-realtor-brasileiro-nos-eua",
+      "title": "Marketing para imobiliária e corretor: do Brasil ao corretor brasileiro nos EUA",
+      "template": "how-to-guide",
+      "target_keyword": "marketing para imobiliária",
+      "secondary_keywords": [
+        "marketing para corretor de imóveis",
+        "marketing imobiliário",
+        "corretor brasileiro nos eua marketing"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um",
+        "/pt/blog/google-business-profile-para-brasileiros-nos-eua",
+        "/pt/blog/como-conseguir-avaliacoes-no-google",
+        "/pt/blog/seo-local-por-cidade-miami-boston-orlando",
+        "/pt/servicos/seo"
+      ],
+      "cluster": "pilar6.marketing-por-setor",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Spoke do pilar 6 (imobiliario e real estate esta na lista de setores atendidos; o dono manteve o equivalente en). Setor regulado: NAO afirmar regra de publicidade, licenca ou conselho (CRECI, estado, NAR) sem fonte; so busca local, perfil, avaliacoes e pagina de servico (S10, S11, S14, S15, S9, S18). Dizer que as regras de cada estado e do conselho se consultam na fonte oficial, sem detalhar. Referencia de cobertura: en real-estate-agent-marketing (06/11), nao traduzir. Linkar o hub de 24/11. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "corretor de imoveis diante de uma fachada de casa com placa sem texto legivel, luz natural",
+      "publish_date": "2026-12-17",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-11",
+      "slug": "site-lento-no-celular-como-medir-e-o-que-resolver-primeiro",
+      "title": "Site lento no celular: como medir e o que resolver primeiro",
+      "template": "how-to-guide",
+      "target_keyword": "site lento",
+      "secondary_keywords": [
+        "site lento no celular",
+        "como medir velocidade do site",
+        "core web vitals"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/site-para-pequena-empresa-o-que-precisa-ter",
+        "/pt/blog/site-nao-aparece-no-google-requisitos-tecnicos",
+        "/pt/blog/pagina-de-servico-que-vende-estrutura",
+        "/pt/servicos/criacao-de-sites"
+      ],
+      "cluster": "pilar5.site-que-traz-cliente",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO B. Spoke 7 do pilar 5. B: precisa de fonte nova em web.dev (dominio aceito) verificada por WebFetch, duas chamadas: https://web.dev/articles/vitals (Core Web Vitals e limiares 'bom'), https://web.dev/articles/lcp e https://web.dev/articles/inp; e a documentacao do PageSpeed Insights em developers.google.com/speed. Limiar numerico so se literal e registrado. S32 (versao mobile indexada) ja registrado. Se web.dev nao abrir, versao qualitativa com S32 e S27 ou trocar pela reserva. Sem 'quanto % de visitantes sai' sem fonte. O site da Etuos (Lighthouse 100) NAO e prova citavel sem dado registrado. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "celular em maos mostrando uma pagina carregando com barra de progresso sem texto legivel",
+      "publish_date": "2026-12-18",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-12",
+      "slug": "pixel-da-meta-o-que-e-como-instalar-e-o-que-ele-mede",
+      "title": "Pixel da Meta: o que é, como instalar e o que ele mede",
+      "template": "tutorial",
+      "target_keyword": "pixel do facebook",
+      "secondary_keywords": [
+        "pixel da meta",
+        "meta pixel o que é",
+        "instalar pixel do facebook"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/google-ads-ou-meta-ads-onde-investir-primeiro",
+        "/pt/blog/o-que-e-remarketing-negocio-local",
+        "/pt/blog/instagram-e-facebook-para-negocios-brasileiros-nos-eua",
+        "/pt/blog/como-saber-de-onde-vem-seus-clientes-rastrear-whatsapp-ligacao-formulario",
+        "/pt/servicos/trafego-pago"
+      ],
+      "cluster": "pilar7.do-clique-ao-cliente",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO B. Spoke 2 do pilar 7. B (DEPENDE DE TESTE): o dono autorizou em 28/10/2026 testar a verificacao em developers.facebook.com em dezembro. Verificar por WebFetch (duas chamadas): https://developers.facebook.com/docs/meta-pixel e as paginas de eventos padrao. Se o WebFetch nao abrir o corpo ou as duas chamadas divergirem, o item cai: trocar pela reserva 'seo-ou-trafego-pago-o-que-fazer-primeiro' (ja no 29/12; antecipar) e registrar o dominio como bloqueado em docs/blog-dominios-confiaveis.md. So afirmar o que as duas chamadas confirmarem; sem custo, sem resultado, sem 'iOS/privacidade' sem fonte. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "dono de negocio olhando um painel de anuncios generico com graficos abstratos sem texto",
+      "publish_date": "2026-12-21",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-13",
+      "slug": "dominio-hospedagem-e-email-profissional-o-basico-sem-complicacao",
+      "title": "Domínio, hospedagem e e-mail profissional: o básico sem complicação",
+      "template": "faq-knowledge",
+      "target_keyword": "domínio próprio",
+      "secondary_keywords": [
+        "domínio e hospedagem",
+        "e-mail profissional",
+        "registrar domínio"
+      ],
+      "word_count": 1400,
+      "internal_links": [
+        "/pt/blog/site-para-pequena-empresa-o-que-precisa-ter",
+        "/pt/blog/preciso-de-site-se-ja-tenho-instagram-e-perfil-no-google",
+        "/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia",
+        "/pt/servicos/criacao-de-sites"
+      ],
+      "cluster": "pilar5.site-que-traz-cliente",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO B. Spoke 8 do pilar 5. B: sem fonte hoje. Procurar em support.google.com (Search Console: S41 sobre propriedade de dominio e verificacao por DNS ja esta registrada; ajuda do Perfil da Empresa sobre URL do site). Angulo: o dominio e o e-mail ficam no NOME do dono (liga com o post de dono da conta de 27/11, mesma logica rotulada como argumento). Sem preco de dominio, sem nome de registrador, sem prazo de propagacao. Se nao houver fonte alem de S41, escrever curto (1.200) e qualitativo, ou trocar pela reserva. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "chaves e um cartao de visita com um cadeado sobre uma mesa de escritorio, sem texto",
+      "publish_date": "2026-12-22",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-14",
+      "slug": "checklist-de-marketing-para-comecar-o-ano-negocio-local",
+      "title": "Checklist de marketing para começar o ano: negócio local",
+      "template": "listicle",
+      "target_keyword": "checklist de marketing",
+      "secondary_keywords": [
+        "planejamento de marketing para negócio local",
+        "marketing para o início do ano"
+      ],
+      "word_count": 1300,
+      "internal_links": [
+        "/pt/blog/como-aparecer-no-google-guia-do-negocio-local",
+        "/pt/blog/google-business-profile-para-brasileiros-nos-eua",
+        "/pt/blog/como-medir-resultado-de-trafego-pago",
+        "/pt/blog/funil-de-vendas-para-negocio-local",
+        "/pt/servicos/trafego-pago"
+      ],
+      "cluster": "pilar7.do-clique-ao-cliente",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Semana de cadencia minima (2 posts). Checklist qualitativo que amarra os hubs (perfil, site, atendimento, medicao, contratacao), cada item com link para o post. Sem meta numerica, sem prazo, sem 'faca em X dias'. Usa so regras ja registradas. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "agenda de papel aberta sobre uma mesa com uma caneta e uma xicara, sem texto legivel",
+      "publish_date": "2026-12-28",
+      "author": null,
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "started_at": null,
+      "last_score": null
+    },
+    {
+      "id": "pt-dez-15",
+      "slug": "seo-ou-trafego-pago-o-que-fazer-primeiro",
+      "title": "SEO ou tráfego pago: o que fazer primeiro no seu negócio local",
+      "template": "comparison",
+      "target_keyword": "seo ou tráfego pago",
+      "secondary_keywords": [
+        "seo ou anúncios",
+        "seo ou google ads",
+        "o que fazer primeiro marketing"
+      ],
+      "word_count": 1500,
+      "internal_links": [
+        "/pt/blog/seo-local-o-que-e-e-como-funciona",
+        "/pt/blog/google-ads-como-funciona",
+        "/pt/blog/trafego-pago-como-funciona-quanto-custa-e-quando-vale-a-pena",
+        "/pt/blog/como-aparecer-no-google-guia-do-negocio-local",
+        "/pt/servicos/seo"
+      ],
+      "cluster": "pilar2.trafego-pago",
+      "notes": "PLANEJADO EM 29/10/2026 PARA DEZEMBRO. PRONTIDAO A. Reserva e item A. Comparacao por CRITERIOS (velocidade de comecar, controle, dependencia de reputacao). Fontes: S10 (nao se paga por posicao local), S27 (sem garantia de indexacao), T5, T10, T11. A Etuos vende os dois: voz neutra, sem preferir um. Sem prazo para SEO dar resultado, sem custo, sem proporcao de orcamento. Canibalizacao com google-ads-ou-meta-ads e trafego-pago-como-funciona: aqui e SEO x anuncio, nao canal x canal. Regras do runbook: nenhum prazo, faixa de custo, benchmark ou estatistica sem fonte registrada em docs/blog-fontes-verificadas.md; voz neutra, sem experiencia, caso ou cliente da Etuos alem dos numeros autorizados; sem Meta/Facebook/Instagram como fonte; link so para posts com data igual ou anterior (publicados ou do lote).",
+      "image_context": "duas portas lado a lado, uma aberta, em um corredor claro, estilo fotografico sem texto",
+      "publish_date": "2026-12-29",
+      "author": null,
+      "status": "pending",
       "attempts": 0,
       "last_error": null,
       "started_at": null,
