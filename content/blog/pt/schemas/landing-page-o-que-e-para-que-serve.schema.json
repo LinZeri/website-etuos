@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/landing-page-o-que-e-para-que-serve#article",
+      "headline": "Landing page: o que é, para que serve e quando usar",
+      "description": "Landing page é uma página com um único objetivo. Entenda o que é, como difere do site, por que importa para anúncios e quando vale usar no seu negócio.",
+      "datePublished": "2026-11-05",
+      "dateModified": "2026-11-05",
+      "inLanguage": "pt-BR",
+      "wordCount": 1850,
+      "keywords": "landing page o que é, para que serve uma landing page, landing page para pequeno negócio, landing page e anúncio",
+      "articleSection": "Site que traz cliente",
+      "articleBody": "Você paga por um anúncio, a pessoa clica e cai na página inicial do seu site, com menu, dez serviços, a história da empresa e três formas de contato. Ela olha, não acha o que procurava e volta para a busca. Esse caminho quebrado é o problema que a landing page existe para resolver. Este artigo explica o conceito: o que é uma landing page, para que serve e em quais situações ela faz sentido. Como montar uma é assunto de outro texto, e aqui ficamos só na definição e na decisão de usar ou não.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/landing-page-o-que-e-para-que-serve#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/landing-page-o-que-e-para-que-serve"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Landing page"
+        },
+        {
+          "@type": "Thing",
+          "name": "Página de destino de anúncios"
+        },
+        {
+          "@type": "Thing",
+          "name": "Site para pequena empresa"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/landing-page-o-que-e-para-que-serve",
+      "url": "https://etuos.com/pt/blog/landing-page-o-que-e-para-que-serve",
+      "name": "Landing page: o que é, para que serve e quando usar",
+      "description": "Landing page é uma página com um único objetivo. Entenda o que é, como difere do site, por que importa para anúncios e quando vale usar no seu negócio.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/landing-page-o-que-e-para-que-serve#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/landing-page-o-que-e-para-que-serve#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/landing-page-o-que-e-para-que-serve#primaryimage",
+      "url": "https://etuos.com/images/blog/landing-page-o-que-e-para-que-serve.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Profissional olhando no celular uma página simples de um serviço local em uma cafeteria"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/landing-page-o-que-e-para-que-serve#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Landing page: o que é, para que serve e quando usar",
+          "item": "https://etuos.com/pt/blog/landing-page-o-que-e-para-que-serve"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/landing-page-o-que-e-para-que-serve#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é uma landing page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "É uma página criada para um único objetivo, como pedir um orçamento ou chamar no WhatsApp, e pensada para quem chega de uma origem específica, normalmente um anúncio. Ela tem poucas saídas para manter o foco na ação."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Para que serve uma landing page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Serve para receber uma visita que já tem um motivo para estar ali e conduzi-la a um contato. Também ajuda a separar campanhas, porque cada uma pode ter a própria página."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a diferença entre landing page e site?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O site apresenta a empresa inteira, com vários caminhos. A landing page tem um caminho só, para uma ação só. Uma não substitui a outra."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Landing page ajuda nos anúncios do Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A qualidade da página de destino é um dos fatores do Ad Rank, e a experiência na página de destino é um dos três componentes do Quality Score, que o Google trata como ferramenta de diagnóstico e não como parte do leilão. Isso não garante preço de clique menor nem mais contatos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Todo negócio precisa de uma landing page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Quem ainda não anuncia nem divulga uma oferta específica pode começar por um site simples e claro. A landing page faz mais sentido quando há uma origem de visitas com intenção definida."
+          }
+        }
+      ]
+    }
+  ]
+}
