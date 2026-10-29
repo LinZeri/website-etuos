@@ -1,0 +1,185 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/who-owns-your-google-ads-and-business-profile-agency#article",
+      "headline": "Who Owns Your Google Ads Account and Business Profile? What to Check Before You Hire an Agency",
+      "description": "Who owns your Google Ads account, Business Profile and Search Console? Why it should be you, how to check today and what to ask an agency before you sign.",
+      "datePublished": "2026-11-17",
+      "dateModified": "2026-11-17",
+      "inLanguage": "en-US",
+      "wordCount": 2183,
+      "keywords": [
+        "who owns google ads account",
+        "google business profile owner agency",
+        "agency owns my google ads account",
+        "search console ownership"
+      ],
+      "articleSection": [
+        "Why Ownership Matters More Than Any Promise",
+        "Google Business Profile: You Should Be the Owner",
+        "Google Ads: The Account Should Be in Your Name",
+        "Search Console and Your Website",
+        "A Simple Access Audit You Can Run Today",
+        "What to Say to an Agency About Ownership",
+        "What If an Agency Already Owns Your Accounts?",
+        "Apply the Same Questions to Etuos",
+        "Frequently Asked Questions",
+        "What Should You Do Next?",
+        "Sources"
+      ],
+      "articleBody": "You should own your Google Ads account, your Google Business Profile and your Search Console property, and the agency you hire should work inside them as a user. If an agency owns them instead, you are renting your own marketing, and you may lose the history, the listing and the ad data the day you leave. One disclosure before we start: Etuos is a marketing agency, so we have an interest in this topic. Apply every check below to us as well. This guide is only about accounts, logins and ownership",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/who-owns-your-google-ads-and-business-profile-agency#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/who-owns-your-google-ads-and-business-profile-agency"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Ads account ownership"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile ownership"
+        },
+        {
+          "@type": "Thing",
+          "name": "Hiring a marketing agency"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/who-owns-your-google-ads-and-business-profile-agency",
+      "url": "https://etuos.com/en/blog/who-owns-your-google-ads-and-business-profile-agency",
+      "name": "Who Owns Your Google Ads Account and Business Profile? What to Check Before You Hire an Agency",
+      "description": "Who owns your Google Ads account, Business Profile and Search Console? Why it should be you, how to check today and what to ask an agency before you sign.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/who-owns-your-google-ads-and-business-profile-agency#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/who-owns-your-google-ads-and-business-profile-agency#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/who-owns-your-google-ads-and-business-profile-agency#primaryimage",
+      "url": "https://etuos.com/images/blog/who-owns-your-google-ads-and-business-profile-agency.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Who Owns Your Google Ads Account and Business Profile? What to Check Before You Hire an Agency"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/who-owns-your-google-ads-and-business-profile-agency#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Who Owns Your Google Ads Account and Business Profile? What to Check Before You Hire an Agency",
+          "item": "https://etuos.com/en/blog/who-owns-your-google-ads-and-business-profile-agency"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/who-owns-your-google-ads-and-business-profile-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who should own my Google Ads account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You should. The account should be in your business's name, with you holding administrator access and the agency added as a user. Ask who the owner is before any campaign is built."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who should own my Google Business Profile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You, or someone at your business, using an email address your business controls. Google says you need to verify your business to edit your business info and interact with customers, so whoever controls the verified profile controls the listing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my agency created my Google Business Profile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask to be added as an owner or administrator, and ask in writing. Check that only one profile exists for each location, because Google says not to create more than one page for each location."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does Search Console ownership matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google says a verified owner has the highest degree of permissions in Search Console. If the agency is the only verified owner, it holds the highest permissions over data about your own site."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I ask an agency about account ownership?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask who will own each account, whether you will have full administrator access from the start, who can see the billing, and what happens to the accounts, data and website files if you leave."
+          }
+        }
+      ]
+    }
+  ]
+}
