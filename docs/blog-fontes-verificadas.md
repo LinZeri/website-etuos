@@ -214,6 +214,102 @@ Markdown: `([Google, "Ads transparency", Advertising Policies Help](https://supp
 Uso permitido: dizer que existe um repositório pesquisável de anunciantes e anúncios, e que se busca pelo nome do anunciante ou do site.
 Uso proibido: apresentar a página como "versão dos EUA" ou global; citar os selos "verified" ou "unverified" (só em paráfrase); usar "serving region" no lugar de "targeted location"; afirmar quais campos o repositório mostra além do que a frase diz; a Biblioteca de Anúncios da Meta não tem fonte registrada.
 
+**T20: Remarketing no Google Ads é mostrar anúncios a quem já interagiu com o negócio; o Google Ads chama as listas de "segmentos de dados" (data segments).** Verificado em out. 2026 por WebFetch (duas chamadas; a frase "re-engage" coincidiu nas duas, o nome "data segments" veio numa).
+Citação literal confirmada: "Use your data to re-engage people who have previously interacted with your brand or services on mobile or desktop." / "Your ads are shown to people in this segment as they browse Google or partner websites." / "Show ads to your past visitors as they browse sites and apps on the Display Network."
+Fonte a citar: **Google Ads Help, "About your data segments"** (Tier 1).
+URL: https://support.google.com/google-ads/answer/2453998
+Markdown: `([Google Ads Help, About your data segments](https://support.google.com/google-ads/answer/2453998), acesso em out. 2026)`
+Uso permitido: definir remarketing em termos simples (reengajar quem já interagiu), dizer que os anúncios aparecem em sites e apps do Google e parceiros.
+Uso proibido: tamanho mínimo de lista, janela de dias, resultado ou prazo; dizer que a Busca entra; citar o nome "data segments" entre aspas sem reabrir a página.
+
+**T21: No GA4, "conversão" virou "evento principal" (key event); marca-se o evento com a estrela, o relatório pode levar até 24 horas e há limite de 30 eventos principais em propriedade padrão.** Verificado em out. 2026 por WebFetch (duas chamadas; cada frase confirmada em uma delas).
+Citação literal confirmada: "Mark the event as a key event by clicking the star icon next to it." / "allow for up to 24 hours for it to show up in standard reports" / "You can mark up to 30 events as key events for standard properties and 50 events as key events for Analytics 360 properties."
+Fonte a citar: **Google Analytics Help, "Mark events as key events"** (Tier 1).
+URL: https://support.google.com/analytics/answer/13128484
+Markdown: `([Google Analytics Help, Mark events as key events](https://support.google.com/analytics/answer/13128484), acesso em out. 2026)`
+Uso permitido: explicar a estrela, o atraso de até 24 horas e o limite de 30.
+Uso proibido: dizer que papel basta para marcar (a página cita papéis diferentes); afirmar efeito sobre dados históricos. Quem usar reabre a página por WebFetch antes de citar entre aspas.
+
+**T22: A medição aprimorada do GA4 registra cliques de saída como o evento `click` (parâmetro `outbound`) e também eventos de formulário (`form_start`, `form_submit`).** Verificado em out. 2026 por WebFetch (duas chamadas coincidiram).
+Citação literal confirmada: "each time a user clicks a link that leads away from the current domain and to another website" / "Enhanced measurement lets you measure interactions with your content." / parâmetros "link_classes, link_domain, link_id, link_url, outbound (boolean)".
+Fonte a citar: **Google Analytics Help, "Enhanced measurement events"** (Tier 1).
+URL: https://support.google.com/analytics/answer/9216061
+Markdown: `([Google Analytics Help, Enhanced measurement events](https://support.google.com/analytics/answer/9216061), acesso em out. 2026)`
+Uso permitido: dizer que cliques em links para outro domínio são medidos como `click` com `outbound`.
+Uso proibido: dizer que vem ligada por padrão; afirmar que capta clique em `wa.me` (é inferência, teste antes); a página não cita WhatsApp.
+
+**T23: Qualquer link ou botão que leve a outro site pode disparar o evento de clique de saída, sem mudar o código da página; domínios de medição entre domínios não disparam.** Verificado em out. 2026 por WebFetch (duas chamadas coincidiram).
+Citação literal confirmada: "Outbound click events can be triggered by any kind of link, including links in the body text or button clicks" (frase cortada pela ferramenta) / "You don't need to make any changes in your page code." / "Links to domains configured for cross-domain measurement in tag settings will not trigger outbound click events."
+Fonte a citar: **Google Analytics Help, "Measure outbound clicks for a website"** (Tier 1).
+URL: https://support.google.com/analytics/answer/13566436
+Markdown: `([Google Analytics Help, Measure outbound clicks](https://support.google.com/analytics/answer/13566436), acesso em out. 2026)`
+Uso permitido: dizer que botão ou link para outro site conta como clique de saída.
+Uso proibido: listar parâmetros a partir desta página; citar WhatsApp como exemplo do Google.
+
+**T24: `generate_lead` é o evento recomendado do GA4 para envio de formulário ou pedido de informação e alimenta o relatório de aquisição de leads; eventos recomendados não são enviados automaticamente.** Verificado em out. 2026 por WebFetch (duas chamadas coincidiram nas frases de gatilho; "not sent automatically" é paráfrase da ferramenta).
+Citação literal confirmada: "submits a form or a request for information" / "submits a form online or submits information offline" / "Sending these events populates the Lead acquisition report."
+Fonte a citar: **Google Analytics Help, "Recommended events"** (Tier 1).
+URL: https://support.google.com/analytics/answer/9267735
+Markdown: `([Google Analytics Help, Recommended events](https://support.google.com/analytics/answer/9267735), acesso em out. 2026)`
+Uso permitido: descrever `generate_lead` e o relatório que ele alimenta.
+Uso proibido: afirmar que o GA4 o dispara sozinho; citar `qualify_lead` ou `close_convert_lead`; aspas em "not sent automatically".
+
+**T25: O Google Ads mede cliques em botão ou link do site como conversão, escolhendo a opção "Click" em vez de "Page load"; funciona para link `tel:`.** Verificado em out. 2026 por WebFetch (duas chamadas coincidiram).
+Citação literal confirmada: "You can use conversion tracking to track when someone clicks a button or link on your website." / "When setting up the tag, choose the Click option instead of Page load."
+Fonte a citar: **Google Ads Help, "Track clicks on your website as conversions"** (Tier 1).
+URL: https://support.google.com/google-ads/answer/6331304
+Markdown: `([Google Ads Help, Track clicks on your website as conversions](https://support.google.com/google-ads/answer/6331304), acesso em out. 2026)`
+Uso permitido: dizer que clique em botão ou link pode ser conversão no Google Ads.
+Uso proibido: dizer que a página trata de WhatsApp ou Tag Manager; apresentar o método JavaScript antigo como o atual.
+
+**T26: O rastreio de cliques no número de telefone mede cliques no número, não ligações concluídas.** Verificado em out. 2026 por WebFetch (duas chamadas coincidiram).
+Citação literal confirmada: "this feature only tracks clicks on your phone number, not actual phone calls."
+Fonte a citar: **Google Ads Help, "Measure phone number clicks on a mobile website"** (Tier 1).
+URL: https://support.google.com/google-ads/answer/6095878
+Markdown: `([Google Ads Help, Measure phone number clicks](https://support.google.com/google-ads/answer/6095878), acesso em out. 2026)`
+Uso permitido: diferenciar clique no número de ligação concluída; o mesmo vale, por analogia rotulada, para clique no botão de WhatsApp (clique não é conversa).
+Uso proibido: prazo de conversão de ligação; exigências técnicas além de "Google tag e event tag".
+
+**T27: Só o nível Admin da conta do Google Ads pode dar acesso, mudar níveis e cancelar convites; Standard edita campanhas; Somente leitura vê campanhas.** Verificado em out. 2026 por WebFetch (duas chamadas coincidiram em todas as linhas da tabela).
+Citação literal confirmada: Admin "Can give account access, change access levels, and cancel invitations from other users"; Standard "Can edit campaigns"; Read-only "Can view campaigns and use planning tools"; Email-only "Can receive notification emails and reports"; também "Can unlink manager accounts".
+Fonte a citar: **Google Ads Help, "About access levels in your Google Ads account"** (Tier 1).
+URL: https://support.google.com/google-ads/answer/9978556
+Markdown: `([Google Ads Help, About access levels](https://support.google.com/google-ads/answer/9978556), acesso em out. 2026)`
+Uso permitido: explicar que o acesso Admin controla quem entra e quem sai da conta.
+Uso proibido: dizer que quem paga é dono; falar em "propriedade" jurídica; afirmar regras do perfil de pagamentos.
+
+**T28: Uma conta de gerente (MCC) permite a uma agência gerenciar várias contas do Google Ads; o admin da conta do cliente pode encerrar o vínculo a qualquer momento, e a propriedade só passa se ele conceder.** Verificado em out. 2026 por WebFetch (duas chamadas coincidiram).
+Citação literal confirmada: "A manager account is a Google Ads account that lets you view and manage multiple Google Ads accounts" / "Your manager account can also be given ownership of a client account," / "the admin of the child account needs to grant ownership to the MCC." / "users with administrative access to those accounts can terminate the relationship with the manager account at any time."
+Fonte a citar: **Google Ads Help, "About Google Ads manager accounts"** (Tier 1).
+URL: https://support.google.com/google-ads/answer/6139186
+Markdown: `([Google Ads Help, About manager accounts](https://support.google.com/google-ads/answer/6139186), acesso em out. 2026)`
+Uso permitido: explicar o vínculo agência e cliente e o poder do admin do cliente.
+Uso proibido: afirmar que a conta "pertence" a alguém como regra geral; estender a Meta ou a outras plataformas.
+
+**T29: O perfil de empresa de restaurante no Google pode ter menu com seções, pratos, descrições e preços, receber pedidos online e gerir reservas e lista de espera.** Verificado em out. 2026 por WebFetch (duas chamadas coincidiram; as frases são títulos de seção da página).
+Citação literal confirmada: "Use the menu editor to set a preferred menu or create a detailed menu with sections, dishes, descriptions, and prices." / "Accept online food orders through your Business Profile" / "Upload photos and videos of your interior, exterior, and the overall dining experience." / "Manage your Bookings and Waitlists directly on Google"
+Fonte a citar: **Google Business Profile Help, "Get started with a Business Profile for your restaurant"** (Tier 1).
+URL: https://support.google.com/business/answer/14189260
+Markdown: `([Google Business Profile Help, Restaurants](https://support.google.com/business/answer/14189260), acesso em out. 2026)`
+Uso permitido: descrever esses recursos de forma qualitativa, dizendo que a disponibilidade varia por país.
+Uso proibido: "pratos populares"; promessa de mais pedidos; afirmar disponibilidade no Brasil.
+
+**T30: O restaurante pode escolher o provedor preferido de pedidos para retirada e entrega, usar link próprio e pedir a remoção de links de terceiros (o provedor tem 5 dias úteis).** Verificado em out. 2026 por WebFetch (duas chamadas coincidiram).
+Citação literal confirmada: "You can manage how customers place food pickup and delivery orders through your Business Profile." / "For pickup and delivery, you can mark third-party order options and links as preferred." / "Custom links make it easy for customers to order from your business or restaurant." / "Once a business makes a request, providers must remove third-party links from a profile within 5 business days."
+Fonte a citar: **Google Business Profile Help, "Manage online ordering options"** (Tier 1).
+URL: https://support.google.com/business/answer/10842217
+Markdown: `([Google Business Profile Help, Manage online ordering options](https://support.google.com/business/answer/10842217), acesso em out. 2026)`
+Uso permitido: explicar link próprio e provedor preferido.
+Uso proibido: dizer que o link próprio elimina comissão; dizer que "Order with Google" existe em qualquer país; afirmar o que acontece com links de terceiros ao desligar pedidos sem reabrir a página.
+
+**T31: Yelp Ads cobra por clique (pay per click), o orçamento é uma média diária com teto mensal, o CPC varia com demanda e região, e o anúncio aparece em "Sponsored Results" e nas páginas de concorrentes.** Verificado em out. 2026 por WebFetch (duas chamadas coincidiram).
+Citação literal confirmada: "you only pay when your ad is clicked." / "your CPC may change over time based on demand in your category and your geographical area." / "remember that the budget you're setting is a daily average, not a daily cap (but you'll never go over your monthly max)." / "above relevant search results in the 'Sponsored Results' section and on your competitors' pages."
+Fonte a citar: **Yelp for Business, "Getting started with Yelp Ads"** (Tier 1, página oficial da plataforma).
+URL: https://business.yelp.com/resources/articles/getting-started-with-yelp-ads/
+Markdown: `([Yelp for Business, Getting started with Yelp Ads](https://business.yelp.com/resources/articles/getting-started-with-yelp-ads/), accessed Oct. 2026)`
+Uso permitido: explicar o modelo de cobrança, o orçamento médio e onde o anúncio aparece.
+Uso proibido: valor mínimo diário, crédito promocional, taxa de clique ou de lead, definição de "clique" além da página, qualquer promessa; `biz.yelp.com` não é domínio aceito.
+
 ## Cluster N: Negócios locais e empreendedorismo imigrante nos EUA
 
 **N1: 77,9% das empresas americanas abertas no ano encerrado em março de 2024 sobreviveram até março de 2025.** Do total de 988.310 estabelecimentos privados abertos no período, 769.449 continuavam ativos um ano depois, taxa de sobrevivência de 77,9%.
