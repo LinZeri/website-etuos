@@ -1,0 +1,126 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia#article",
+      "headline": "Quem é dono da sua conta de anúncios? O que olhar antes de assinar com uma agência",
+      "description": "Antes de assinar com uma agência, confira quem é Admin da conta de anúncios, do perfil no Google e do Search Console. Veja onde olhar e o que pedir por escrito.",
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
+      "inLanguage": "pt-BR",
+      "wordCount": 1880,
+      "keywords": "conta google ads agência, quem é dono da conta google ads, acesso à conta de anúncios agência, dono do perfil da empresa no google, contrato com agência de marketing",
+      "articleSection": "Contratar Marketing",
+      "articleBody": "De quem é a conta é uma pergunta que gera discussão e pouca informação. A pergunta que resolve é outra: quem tem acesso de administrador hoje? Isso você descobre olhando a lista de usuários de cada conta. Na conta do Google Ads, só o nível Admin dá acesso, muda níveis e cancela convites. Se a agência atua por uma conta de gerente, o administrador da sua conta pode encerrar o vínculo a qualquer momento, e a propriedade só passa se ele conceder.",
+      "author": { "@id": "https://etuos.com/pt/sobre#person" },
+      "publisher": { "@id": "https://etuos.com#organization" },
+      "image": { "@id": "https://etuos.com/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia#primaryimage" },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia"
+      },
+      "isPartOf": { "@id": "https://etuos.com/pt/blog#blog" },
+      "about": [
+        { "@type": "Thing", "name": "Conta do Google Ads" },
+        { "@type": "Thing", "name": "Agência de marketing digital" },
+        { "@type": "Thing", "name": "Contratar marketing" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": { "@id": "https://etuos.com#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": { "@type": "ImageObject", "url": "https://etuos.com/images/logo.webp" }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia",
+      "url": "https://etuos.com/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia",
+      "name": "Quem é dono da sua conta de anúncios? O que olhar antes de assinar com uma agência",
+      "description": "Antes de assinar com uma agência, confira quem é Admin da conta de anúncios, do perfil no Google e do Search Console. Veja onde olhar e o que pedir por escrito.",
+      "inLanguage": "pt-BR",
+      "isPartOf": { "@id": "https://etuos.com/pt/blog#blog" },
+      "breadcrumb": { "@id": "https://etuos.com/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia#breadcrumb" },
+      "primaryImageOfPage": { "@id": "https://etuos.com/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia#primaryimage" }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia#primaryimage",
+      "url": "https://etuos.com/images/blog/quem-e-dono-da-conta-de-anuncios-agencia.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de um pequeno negócio conferindo no notebook a lista de acessos de uma conta, com um caderno ao lado"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://etuos.com/pt" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://etuos.com/pt/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Quem é dono da sua conta de anúncios? O que olhar antes de assinar com uma agência", "item": "https://etuos.com/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/quem-e-dono-da-conta-de-anuncios-agencia#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quem é dono da conta de Google Ads quando uma agência cuida dela?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende de como a conta foi criada e de quem é Admin. A ajuda do Google mostra que o Admin dá acesso, muda níveis e cancela convites, e que o administrador da conta do cliente pode encerrar o vínculo com uma conta de gerente. Quem é dono no sentido jurídico é questão de contrato, para um profissional jurídico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que o nível Admin do Google Ads permite?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segundo o Google, o Admin pode dar acesso à conta, mudar níveis de acesso, cancelar convites de outros usuários e desvincular contas de gerente. O nível Standard edita campanhas, e o Somente leitura vê campanhas e usa as ferramentas de planejamento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A agência pode ficar com a propriedade da minha conta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pela ajuda do Google, uma conta de gerente só recebe a propriedade de uma conta de cliente se o administrador dessa conta conceder. Por isso, confira quem é Admin e não conceda propriedade sem entender o que está concedendo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como confirmar que o perfil da empresa no Google é meu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Peça para ver a lista de pessoas com acesso ao perfil e confirme que o seu e-mail consta como proprietário. O Google exige verificação do negócio para editar informações e interagir com clientes, então quem controla o perfil verificado controla o que ele mostra."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Por que o Search Console importa na hora de contratar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porque a verificação de propriedade dá ao dono verificado o nível mais alto de permissões. Peça que o seu e-mail conste como dono verificado, com a agência como usuária."
+          }
+        }
+      ]
+    }
+  ]
+}
