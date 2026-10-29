@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T11:35:55.542004+00:00",
+  "updated": "2026-10-29T22:29:28.613512+00:00",
   "description": "Fila de execucao do blog-loop da Etuos em portugues. Cada item e um artigo produzido de ponta a ponta. Pautas vem de docs/blog-strategy.md. A fila em ingles e independente (docs/blog-queue-en.json, docs/blog-strategy-en.md), sem hreflang entre as duas. Regras duras: pt-BR, sem travessao, autor Lin Zeri, CTA WhatsApp no fim, frontmatter titulo/descricao/data/autor/imagem (sem grupo), links internos sempre com o prefixo /pt. O campo opcional 'image_context' descreve a cena passada para scripts/gerar-imagem-blog.mjs (foto realista, sem texto); quando ausente, a rotina deriva a cena do titulo.",
   "authors": [
     "lin-zeri"
@@ -1550,11 +1550,12 @@
       "image_context": "profissional de serviços revisando no notebook a página de um serviço do próprio site, com anotações na mesa, escritório simples, luz natural",
       "publish_date": "2026-11-20",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T22:29:28.410614+00:00",
+      "last_score": null,
+      "iteration_id": "sessao-onda3-nov-19-30"
     },
     {
       "id": "p8-s6",
@@ -1584,11 +1585,12 @@
       "image_context": "empreendedor brasileiro dono de um pequeno negócio nos Estados Unidos conferindo uma proposta de marketing na mesa do escritório, bandeira discreta de bairro ao fundo, luz natural",
       "publish_date": "2026-11-23",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T22:29:28.510865+00:00",
+      "last_score": null,
+      "iteration_id": "sessao-onda3-nov-19-30"
     },
     {
       "id": "p6-hub",
@@ -1617,11 +1619,12 @@
       "image_context": "uma mesa com cartoes de visita e pequenos objetos de varios tipos de negocio (uma ferramenta, uma tesoura de salao, um avental de cozinha, uma chave) vistos de cima, luz natural",
       "publish_date": "2026-11-24",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T22:29:28.613494+00:00",
+      "last_score": null,
+      "iteration_id": "sessao-onda3-nov-19-30"
     },
     {
       "id": "p5-s6",
