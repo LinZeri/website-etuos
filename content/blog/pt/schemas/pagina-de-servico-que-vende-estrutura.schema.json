@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/pagina-de-servico-que-vende-estrutura#article",
+      "headline": "Página de serviço que vende: a estrutura que transforma visita em contato",
+      "description": "Veja a estrutura de uma página de serviço que transforma visita em contato: o que incluir, em que ordem e quais erros evitar, com checklist para revisar a sua.",
+      "datePublished": "2026-11-20",
+      "dateModified": "2026-11-20",
+      "inLanguage": "pt-BR",
+      "wordCount": 1975,
+      "keywords": "página de serviço, página de serviço para site, como fazer página de serviço, estrutura de página de serviço, página de serviço que converte",
+      "articleSection": "Site que Traz Cliente",
+      "articleBody": "Uma página de serviço que vende responde, nesta ordem, a seis perguntas do cliente: o que você faz, para quem e onde, o que está incluído, como funciona, por que confiar e como falar com você. Quando tudo isso está numa página só, escrita para um único serviço, a pessoa entende rápido e chama. É assim que a visita vira contato.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/pagina-de-servico-que-vende-estrutura#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/pagina-de-servico-que-vende-estrutura"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Página de serviço"
+        },
+        {
+          "@type": "Thing",
+          "name": "Site para negócio local"
+        },
+        {
+          "@type": "Thing",
+          "name": "Conversão"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/pagina-de-servico-que-vende-estrutura",
+      "url": "https://etuos.com/pt/blog/pagina-de-servico-que-vende-estrutura",
+      "name": "Página de serviço que vende: a estrutura que transforma visita em contato",
+      "description": "Veja a estrutura de uma página de serviço que transforma visita em contato: o que incluir, em que ordem e quais erros evitar, com checklist para revisar a sua.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/pagina-de-servico-que-vende-estrutura#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/pagina-de-servico-que-vende-estrutura#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/pagina-de-servico-que-vende-estrutura#primaryimage",
+      "url": "https://etuos.com/images/blog/pagina-de-servico-que-vende-estrutura.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Profissional de serviços revisando no notebook a página de um serviço do próprio site, com anotações na mesa"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/pagina-de-servico-que-vende-estrutura#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Página de serviço que vende: a estrutura que transforma visita em contato",
+          "item": "https://etuos.com/pt/blog/pagina-de-servico-que-vende-estrutura"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/pagina-de-servico-que-vende-estrutura#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é uma página de serviço?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "É a página permanente do site dedicada a um serviço que você vende. Ela explica o que está incluído, para quem serve, onde você atende, como funciona e como falar com você, de modo que a pessoa que procura aquele serviço entenda e entre em contato."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como fazer uma página de serviço que converte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use uma ordem simples: título com serviço e região, o que está incluído, como funciona, provas verdadeiras, perguntas frequentes e contato por WhatsApp e telefone repetido ao longo da página. Escreva com texto próprio e confira a leitura no celular. Nenhuma estrutura garante um número de contatos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de uma página para cada serviço?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para os serviços principais, é o mais indicado: cada página responde a quem procura aquele serviço. O texto precisa ter valor próprio, e não ser uma cópia com palavras trocadas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso criar uma página de serviço para cada cidade?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pode, desde que cada uma tenha conteúdo útil e próprio. O Google trata como spam páginas criadas para ranquear buscas parecidas, e cita como exemplo páginas voltadas a cidades que levam o usuário a uma única página. Se só o nome da cidade muda, não crie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a diferença entre página de serviço e landing page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A página de serviço é permanente e vive no menu do site. A landing page é de campanha, ligada a um anúncio, com uma única ação."
+          }
+        }
+      ]
+    }
+  ]
+}
