@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/como-criar-landing-page-que-converte#article",
+      "headline": "Como criar uma landing page que converte, passo a passo",
+      "description": "Uma oferta, um objetivo, título claro, prova e contato fácil. Veja o passo a passo para montar uma landing page de campanha e o que revisar antes de anunciar.",
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-10",
+      "inLanguage": "pt-BR",
+      "wordCount": 2000,
+      "keywords": "como criar landing page, como fazer uma landing page, landing page que converte, estrutura de landing page",
+      "articleSection": "Site que Traz Cliente",
+      "articleBody": "Uma landing page que converte começa antes do design: com uma oferta só, um objetivo só e uma mensagem que repete a promessa do anúncio. O resto (título, prova, formulário, celular, idioma) é montar essas peças na ordem certa. Este artigo é o passo a passo para quem vai anunciar e precisa de uma página de destino.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/como-criar-landing-page-que-converte#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/como-criar-landing-page-que-converte"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Landing page"
+        },
+        {
+          "@type": "Thing",
+          "name": "Página de destino de anúncios"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/como-criar-landing-page-que-converte",
+      "url": "https://etuos.com/pt/blog/como-criar-landing-page-que-converte",
+      "name": "Como criar uma landing page que converte, passo a passo",
+      "description": "Uma oferta, um objetivo, título claro, prova e contato fácil. Veja o passo a passo para montar uma landing page de campanha e o que revisar antes de anunciar.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/como-criar-landing-page-que-converte#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/como-criar-landing-page-que-converte#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/como-criar-landing-page-que-converte#primaryimage",
+      "url": "https://etuos.com/images/blog/como-criar-landing-page-que-converte.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Designer e dono de negócio revisando juntos o esboço de uma página de captação em papel"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/como-criar-landing-page-que-converte#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Como criar uma landing page que converte, passo a passo",
+          "item": "https://etuos.com/pt/blog/como-criar-landing-page-que-converte"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/como-criar-landing-page-que-converte#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que colocar em uma landing page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O essencial: título com o serviço e o lugar, uma frase de benefício, prova de confiança (avaliações e fotos reais), explicação curta do que está incluído e um contato fácil. Tudo o que não ajuda o visitante a decidir pode ficar de fora."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quantos campos o formulário deve ter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe número ideal que se aplique a todos. Peça só o que você precisa para dar o primeiro retorno, como nome, telefone e o serviço desejado. Quanto mais campos, mais esforço para o visitante."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso usar o WhatsApp no lugar do formulário?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pode. Para muitos negócios de serviço, o botão de WhatsApp com mensagem pronta é o caminho mais natural. O importante é escolher uma ação principal e responder as mensagens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A landing page influencia o custo dos anúncios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No Google Ads, a experiência na página de destino é um dos componentes do Quality Score, que é uma ferramenta de diagnóstico e não entra no leilão. A qualidade da página de destino também é um dos fatores do Ad Rank. O Google não dá um número de efeito sobre o custo, então não dá para prometer redução."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de uma landing page diferente para cada anúncio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não necessariamente. O que importa é que a página repita a promessa do anúncio que levou o visitante até ela. Se você anuncia serviços diferentes, cada um pede uma mensagem própria."
+          }
+        }
+      ]
+    }
+  ]
+}
