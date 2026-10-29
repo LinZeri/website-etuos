@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/marketing-para-restaurante-google-instagram-delivery#article",
+      "headline": "Marketing para restaurante: Google, Instagram e delivery no mesmo plano",
+      "description": "Cardápio, pedidos, reservas e avaliações no Google, mais Instagram e canal próprio de pedido. Um plano em ordem para o dono de restaurante no Brasil ou nos EUA.",
+      "datePublished": "2026-11-30",
+      "dateModified": "2026-11-30",
+      "inLanguage": "pt-BR",
+      "wordCount": 2171,
+      "keywords": "marketing para restaurante, como divulgar restaurante, marketing para restaurante no google, perfil do google para restaurante, divulgar restaurante brasileiro nos eua",
+      "articleSection": "Conseguir clientes nos EUA",
+      "articleBody": "Quem tem restaurante costuma ouvir três conselhos ao mesmo tempo: \"poste mais no Instagram\", \"entre nos apps de pedido\" e \"faça anúncio\". Cada um tem a sua lógica, mas ninguém explica em que ordem eles entram, e o dono acaba pulando de um para o outro sem terminar nenhum.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/marketing-para-restaurante-google-instagram-delivery#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/marketing-para-restaurante-google-instagram-delivery"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Marketing para restaurante"
+        },
+        {
+          "@type": "Thing",
+          "name": "Perfil de empresa no Google"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pedidos online e avaliações"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/marketing-para-restaurante-google-instagram-delivery",
+      "url": "https://etuos.com/pt/blog/marketing-para-restaurante-google-instagram-delivery",
+      "name": "Marketing para restaurante: Google, Instagram e delivery no mesmo plano",
+      "description": "Cardápio, pedidos, reservas e avaliações no Google, mais Instagram e canal próprio de pedido. Um plano em ordem para o dono de restaurante no Brasil ou nos EUA.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/marketing-para-restaurante-google-instagram-delivery#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/marketing-para-restaurante-google-instagram-delivery#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/marketing-para-restaurante-google-instagram-delivery#primaryimage",
+      "url": "https://etuos.com/images/blog/marketing-para-restaurante-google-instagram-delivery.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de restaurante atualizando o cardápio e as fotos do prato do dia no celular, com a cozinha aberta ao fundo"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/marketing-para-restaurante-google-instagram-delivery#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Marketing para restaurante: Google, Instagram e delivery no mesmo plano",
+          "item": "https://etuos.com/pt/blog/marketing-para-restaurante-google-instagram-delivery"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/marketing-para-restaurante-google-instagram-delivery#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Como divulgar um restaurante?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comece pelo perfil no Google, com cardápio, fotos, horário e opções de pedido em ordem. Depois peça avaliações com link ou QR code, mostre os pratos no Instagram e mantenha um canal próprio, como WhatsApp e site. Anúncio entra por último."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Google permite ter cardápio e receber pedidos pelo perfil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pela página de ajuda do Google para restaurantes, o perfil pode ter menu com seções, pratos, descrições e preços, receber pedidos online e gerir reservas. A disponibilidade varia por país, então confira no seu painel o que existe para o seu endereço."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso escolher qual link de pedido aparece no meu perfil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Google permite marcar opções de pedido de terceiros como preferidas para retirada e entrega e adicionar links personalizados. A mesma página diz que, depois do pedido de remoção, o provedor deve tirar os links de terceiros do perfil em até 5 dias úteis. As opções variam por local."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso dar desconto em troca de avaliação?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Pelas regras do Google, avaliação em troca de incentivo é proibida. Você pode pedir com um link ou QR code, para todo cliente, sem oferecer vantagem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Instagram basta para um restaurante?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O Instagram mostra o seu restaurante para quem já te segue ou foi indicado. Quem está procurando onde comer agora costuma abrir o Google e o mapa, então o perfil completo vem antes."
+          }
+        }
+      ]
+    }
+  ]
+}
