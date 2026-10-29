@@ -1,0 +1,183 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/do-you-need-a-website-if-you-have-a-google-business-profile#article",
+      "headline": "Do You Need a Website If You Have a Google Business Profile?",
+      "description": "A Google Business Profile does not replace a website. Here is what each one does for a local business, and why they work best as a pair.",
+      "datePublished": "2026-11-13",
+      "dateModified": "2026-11-13",
+      "inLanguage": "en-US",
+      "wordCount": 2190,
+      "keywords": [
+        "do i need a website if i have a google business profile",
+        "google business profile vs website",
+        "can google business profile replace a website",
+        "website for local business"
+      ],
+      "articleSection": [
+        "Can a Google Business Profile Replace a Website?",
+        "What Does a Google Business Profile Do Well?",
+        "What Can a Website Do That a Profile Cannot?",
+        "Do the Profile and the Website Help Each Other?",
+        "What If You Only Have a Profile Right Now?",
+        "How Should You Split the Job Between the Two?",
+        "Does Your Website Need to Be Big or Expensive?",
+        "Frequently Asked Questions",
+        "What Should You Do This Week?"
+      ],
+      "articleBody": "You set up your Google Business Profile. Your hours are right, your photos are up, and a few customers have left reviews. Then someone asks about your website, and you wonder if you even need one. The profile already shows your phone number and a map pin, after all. Short answer: yes, a business that wants to grow on its own terms should have a website. The profile is a good first step, and it does a job a website cannot do. But the two are different tools, and one does not stand in for the other. This post explains what each one is for, where the profile runs out of room and how to think about the pair. It does not walk through profile setup or website fixes. Those have their own guides, linked below. Key Takeaways - A Google Business Profile and a website do different jobs. The profile helps people find and contact your business on Google. The website is the place you fully control. - Google says local ranking is based mainly on relevance, distance and prominence, and that prominence also reflects how many websites link to your business and how many reviews you have. - The profile has rules and limits on what you can show. A website is where you can explain everything else. - You do not need a big site. A simple, clear one is a real asset.",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/do-you-need-a-website-if-you-have-a-google-business-profile#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/do-you-need-a-website-if-you-have-a-google-business-profile"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Business Profile"
+        },
+        {
+          "@type": "Thing",
+          "name": "Business website"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local business marketing"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/do-you-need-a-website-if-you-have-a-google-business-profile",
+      "url": "https://etuos.com/en/blog/do-you-need-a-website-if-you-have-a-google-business-profile",
+      "name": "Do You Need a Website If You Have a Google Business Profile?",
+      "description": "A Google Business Profile does not replace a website. Here is what each one does for a local business, and why they work best as a pair.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/do-you-need-a-website-if-you-have-a-google-business-profile#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/do-you-need-a-website-if-you-have-a-google-business-profile#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/do-you-need-a-website-if-you-have-a-google-business-profile#primaryimage",
+      "url": "https://etuos.com/images/blog/do-you-need-a-website-if-you-have-a-google-business-profile.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Do You Need a Website If You Have a Google Business Profile?"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/do-you-need-a-website-if-you-have-a-google-business-profile#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Do You Need a Website If You Have a Google Business Profile?",
+          "item": "https://etuos.com/en/blog/do-you-need-a-website-if-you-have-a-google-business-profile"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/do-you-need-a-website-if-you-have-a-google-business-profile#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need a website if I have a Google Business Profile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you want a place that you fully control and that can explain your business in detail. The profile helps people find and contact you on Google, but it is a listing with fixed fields. A website covers what the profile cannot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a Google Business Profile replace a website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. They do different jobs. The profile is built for discovery and quick contact, and the website is built for explanation and trust. Google's own guidelines even tell you to provide a website that represents your business location."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does having a website help my Google Business Profile rank?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google says local results are mainly based on relevance, distance and prominence, and that prominence also reflects how many websites link to your business and how many reviews you have. It does not say a website guarantees a better ranking, and there is no way to pay for one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a Google Business Profile enough for a new business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can be a reasonable place to start, since it is free and quick to set up. But treat it as a first step. Google owns the listing and its rules, so a website gives you a home that you control."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I put on my website that is not on my profile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Detailed descriptions of each service, the areas you serve, pages in each language your customers speak and answers to common questions. The profile description is limited to 750 characters and cannot include URLs, so the site is the place for the rest."
+          }
+        }
+      ]
+    }
+  ]
+}
