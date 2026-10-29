@@ -1,0 +1,176 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/google-ads-location-targeting-local-business#article",
+      "headline": "Google Ads Location Targeting for Local Businesses: Radius, Cities and Who You Actually Reach",
+      "description": "How to set Google Ads location targeting for a local business: radius or named area, what Presence or Interest means, and how to check before widening.",
+      "datePublished": "2026-11-20",
+      "dateModified": "2026-11-20",
+      "inLanguage": "en-US",
+      "wordCount": 2060,
+      "keywords": [
+        "google ads location targeting",
+        "google ads radius targeting",
+        "google ads presence or interest",
+        "how to target a city in google ads"
+      ],
+      "articleSection": [
+        "What Location Targeting Controls",
+        "\"Presence or Interest\": Check This Setting First",
+        "Radius or Named Area: Choosing the Shape",
+        "Setting It Up Step by Step",
+        "Before You Widen the Area, Estimate First",
+        "Common Location Targeting Mistakes"
+      ],
+      "articleBody": "Location targeting tells Google Ads where your ads can show. Choose the shape of your area (a radius of at least 1 km or named areas), check the broad Presence or Interest setting on purpose, and use Keyword Planner estimates before widening. Estimates are not guarantees.",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/google-ads-location-targeting-local-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/google-ads-location-targeting-local-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Location targeting"
+        },
+        {
+          "@type": "Thing",
+          "name": "Radius targeting"
+        },
+        {
+          "@type": "Thing",
+          "name": "Keyword Planner"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/google-ads-location-targeting-local-business",
+      "url": "https://etuos.com/en/blog/google-ads-location-targeting-local-business",
+      "name": "Google Ads Location Targeting for Local Businesses: Radius, Cities and Who You Actually Reach",
+      "description": "How to set Google Ads location targeting for a local business: radius or named area, what Presence or Interest means, and how to check before widening.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/google-ads-location-targeting-local-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/google-ads-location-targeting-local-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/google-ads-location-targeting-local-business#primaryimage",
+      "url": "https://etuos.com/images/blog/google-ads-location-targeting-local-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "A local service owner at a desk drawing a circle around his service area on a printed street map next to a laptop"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/google-ads-location-targeting-local-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Google Ads Location Targeting for Local Businesses: Radius, Cities and Who You Actually Reach",
+          "item": "https://etuos.com/en/blog/google-ads-location-targeting-local-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/google-ads-location-targeting-local-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the smallest radius I can use in Google Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google states that radius targeting requires a radius of at least 1 km around any given location, which is a little over half a mile. If your real territory is smaller than that, consider named areas instead of a radius."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does \"Presence or Interest\" mean in Google Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the name Google gives its broad geo targeting. Google's page says it can help you reach people who not only exist in your targeted locations. Check which setting your campaign uses so you know who your area includes, and compare your leads against what you expected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I target a radius or a city?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on how your territory works. Use a radius when your limit is distance from your shop, and named areas when your limit follows borders such as city lines. Many businesses with one core area and a few extra towns mix the two."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if I am reaching the wrong people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Look at where your calls and form leads come from and compare that to the places you serve. If many come from outside your area, revisit the shape of your area and the targeting choice, and cut irrelevant searches with negative keywords."
+          }
+        }
+      ]
+    }
+  ]
+}
