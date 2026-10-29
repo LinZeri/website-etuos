@@ -1,0 +1,161 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/o-que-e-remarketing-negocio-local#article",
+      "headline": "O que é remarketing e quando vale a pena para negócio local",
+      "description": "O que é remarketing, como funciona no Google Ads e quando faz sentido para negócio local. Veja o que precisa estar pronto antes de usar e como evitar erros.",
+      "datePublished": "2026-11-19",
+      "dateModified": "2026-11-19",
+      "inLanguage": "pt-BR",
+      "wordCount": 1727,
+      "keywords": "o que é remarketing, remarketing o que é, remarketing google ads, remarketing para pequeno negócio, segmentos de dados google ads",
+      "articleSection": "Do Clique ao Cliente",
+      "articleBody": "Alguém entra no seu site, olha seus serviços, pensa \"depois eu vejo\" e vai cuidar da vida. Para a maioria dos negócios locais, é isso que acontece com quase todo visitante: ele não pede orçamento na primeira visita. O remarketing é a ideia de voltar a falar com quem já mostrou interesse, em vez de tratar cada visita como se fosse a última.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/o-que-e-remarketing-negocio-local#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/o-que-e-remarketing-negocio-local"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Remarketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Marketing para negócio local"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/o-que-e-remarketing-negocio-local",
+      "url": "https://etuos.com/pt/blog/o-que-e-remarketing-negocio-local",
+      "name": "O que é remarketing e quando vale a pena para negócio local",
+      "description": "O que é remarketing, como funciona no Google Ads e quando faz sentido para negócio local. Veja o que precisa estar pronto antes de usar e como evitar erros.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/o-que-e-remarketing-negocio-local#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/o-que-e-remarketing-negocio-local#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/o-que-e-remarketing-negocio-local#primaryimage",
+      "url": "https://etuos.com/images/blog/o-que-e-remarketing-negocio-local.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de uma loja local olhando no notebook uma lista de visitantes do site, com um caderno de anotações ao lado"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/o-que-e-remarketing-negocio-local#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "O que é remarketing e quando vale a pena para negócio local",
+          "item": "https://etuos.com/pt/blog/o-que-e-remarketing-negocio-local"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/o-que-e-remarketing-negocio-local#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é remarketing em palavras simples?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "É mostrar anúncios para pessoas que já interagiram com o seu negócio, por exemplo visitando o seu site. No Google Ads, o recurso aparece como segmentos de dados, e a ideia é reengajar quem já conhece a sua marca ou os seus serviços."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Remarketing e retargeting são a mesma coisa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na prática, as pessoas usam os dois termos para a mesma ideia: voltar a falar com quem já interagiu. O Google Ads usa o nome \"segmentos de dados\" para o seu recurso, então vale conferir o nome exato na ferramenta que você usar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Todo negócio local precisa de remarketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Ele tende a fazer mais sentido quando o negócio já recebe visitas, tem um caminho claro até o contato e responde rápido. Para um negócio que ainda não tem presença no Google, o primeiro passo costuma ser aparecer para quem procura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo leva para o remarketing dar resultado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe prazo fixo e ninguém pode prometer um. O resultado depende do site, da oferta, do atendimento e do orçamento. O caminho mais seguro é testar com um orçamento pequeno e acompanhar o que acontece."
+          }
+        }
+      ]
+    }
+  ]
+}
