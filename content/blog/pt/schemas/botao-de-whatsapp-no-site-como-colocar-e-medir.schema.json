@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/botao-de-whatsapp-no-site-como-colocar-e-medir#article",
+      "headline": "Botão de WhatsApp no site: como colocar e medir quantos contatos ele gera",
+      "description": "Passo a passo para colocar um botão de WhatsApp no site e conferir no Google Analytics se os cliques estão sendo contados, sem promessa de resultado.",
+      "datePublished": "2026-11-26",
+      "dateModified": "2026-11-26",
+      "inLanguage": "pt-BR",
+      "wordCount": 2059,
+      "keywords": "botão whatsapp no site, botão de whatsapp no site, como colocar whatsapp no site, medir cliques no whatsapp, evento de clique no google analytics",
+      "articleSection": "Site que Traz Cliente",
+      "articleBody": "Colocar um botão de WhatsApp no site é a parte fácil. A parte que quase ninguém faz é a segunda: descobrir se alguém está clicando nele. Sem isso, você não sabe se o site traz contato, se o anúncio está mandando gente para o lugar certo ou se o botão está simplesmente quebrado.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/botao-de-whatsapp-no-site-como-colocar-e-medir#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/botao-de-whatsapp-no-site-como-colocar-e-medir"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Botão de WhatsApp no site"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google Analytics 4"
+        },
+        {
+          "@type": "Thing",
+          "name": "Medição de contatos"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/botao-de-whatsapp-no-site-como-colocar-e-medir",
+      "url": "https://etuos.com/pt/blog/botao-de-whatsapp-no-site-como-colocar-e-medir",
+      "name": "Botão de WhatsApp no site: como colocar e medir quantos contatos ele gera",
+      "description": "Passo a passo para colocar um botão de WhatsApp no site e conferir no Google Analytics se os cliques estão sendo contados, sem promessa de resultado.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/botao-de-whatsapp-no-site-como-colocar-e-medir#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/botao-de-whatsapp-no-site-como-colocar-e-medir#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/botao-de-whatsapp-no-site-como-colocar-e-medir#primaryimage",
+      "url": "https://etuos.com/images/blog/botao-de-whatsapp-no-site-como-colocar-e-medir.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dona de loja em um balcão de madeira segurando o celular ao lado do notebook"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/botao-de-whatsapp-no-site-como-colocar-e-medir#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Botão de WhatsApp no site: como colocar e medir quantos contatos ele gera",
+          "item": "https://etuos.com/pt/blog/botao-de-whatsapp-no-site-como-colocar-e-medir"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/botao-de-whatsapp-no-site-como-colocar-e-medir#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Como colocar um botão de WhatsApp no site?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use o módulo de botão do seu construtor ou um plugin, aponte para o número do seu negócio, dê um rótulo claro e teste em um celular. O botão é um link que abre uma conversa com o seu número."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O GA4 mede o clique no botão de WhatsApp automaticamente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não dá para garantir. A medição aprimorada registra cliques em links para outro site, mas a documentação do Google não cita WhatsApp. Clique no botão com o relatório em tempo real aberto e confira se um evento aparece. Se não aparecer, é preciso enviar um evento próprio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que é evento principal no GA4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "É o nome atual do que antes se chamava conversão. Você marca um evento como principal clicando na estrela ao lado dele. Os relatórios padrão podem levar até 24 horas para mostrar o dado, e uma propriedade padrão aceita até 30 eventos principais."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Um clique no botão é a mesma coisa que um contato?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O clique mede a intenção de falar, não uma conversa iniciada nem uma venda. O Google faz distinção parecida para o clique no número de telefone, que não mede ligação concluída. Compare os cliques com as conversas que chegam de fato."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para usar o clique no botão como conversão nos anúncios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, o Google Ads permite medir como conversão o clique em um botão ou link do site, usando a opção \"Click\" na configuração da tag. Como a página do Google não trata de WhatsApp, teste e confirme se a conversão aparece."
+          }
+        }
+      ]
+    }
+  ]
+}
