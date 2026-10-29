@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing#article",
+      "headline": "Perguntas para fazer antes de contratar uma agência de marketing",
+      "description": "Dez perguntas para fazer a qualquer agência de marketing, com o que ouvir de resposta e o que é sinal de alerta. A Etuos inclusive.",
+      "datePublished": "2026-11-17",
+      "dateModified": "2026-11-17",
+      "inLanguage": "pt-BR",
+      "wordCount": 2090,
+      "keywords": "como escolher agência de marketing, perguntas para uma agência de marketing, o que perguntar antes de contratar agência, checklist para contratar agência de marketing",
+      "articleSection": "Contratar Marketing",
+      "articleBody": "Quem contrata agência sem perguntar paga caro pela confiança. A conversa de vendas é feita para ser agradável, e a decisão pesa por meses no caixa. Perguntas boas, feitas por escrito, mudam esse jogo: a agência séria responde sem rodeio, e a que não é séria se denuncia sozinha. Esta lista tem dez perguntas, cada uma com o que ouvir de resposta e o que é sinal de alerta. Se você quer o panorama completo de como escolher, o guia de como escolher uma agência e quando contratar cobre o assunto. Aqui o formato é prático: leve as perguntas para a reunião. A Etuos é uma agência e tem interesse em ser contratada. Por isso, faça estas mesmas perguntas a nós.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Agência de marketing digital"
+        },
+        {
+          "@type": "Thing",
+          "name": "Contratar marketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Marketing para pequenas empresas"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing",
+      "url": "https://etuos.com/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing",
+      "name": "Perguntas para fazer antes de contratar uma agência de marketing",
+      "description": "Dez perguntas para fazer a qualquer agência de marketing, com o que ouvir de resposta e o que é sinal de alerta. A Etuos inclusive.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing#primaryimage",
+      "url": "https://etuos.com/images/blog/perguntas-antes-de-contratar-agencia-de-marketing.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de um pequeno negócio com um caderno aberto numa reunião com uma consultora, numa mesa de escritório"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Perguntas para fazer antes de contratar uma agência de marketing",
+          "item": "https://etuos.com/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/perguntas-antes-de-contratar-agencia-de-marketing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quais perguntas fazer antes de contratar uma agência de marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As mais importantes são: que contato conta como resultado, como a agência liga cada contato à origem, o que ela faz com avaliações e com o seu perfil no Google, de quem é a conta de anúncios, em que idioma escreve anúncio e página e o que o relatório mostra. Peça as respostas por escrito."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como saber se uma agência é boa antes de assinar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pela qualidade das respostas: específicas, conferíveis e sem promessa de resultado garantido. Uma boa agência explica o método, mostra um exemplo de relatório e aceita que a conta fique no seu nome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A agência pode garantir o primeiro lugar no Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O Google afirma que não existe como pedir nem pagar por uma posição melhor no ranking local, e que não garante rastrear, indexar ou exibir uma página. Promessa de posição é sinal de alerta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A conta de anúncios deve ficar no meu nome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. A conta, o perfil no Google e o domínio devem ser seus, com a agência como usuária autorizada. Confirme no contrato o que você leva se o trabalho terminar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso fazer estas perguntas à Etuos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pode e deve. A Etuos é uma agência e tem interesse em ser contratada, então o melhor é aplicar os mesmos critérios a nós e comparar com as outras candidatas."
+          }
+        }
+      ]
+    }
+  ]
+}
