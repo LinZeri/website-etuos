@@ -1,0 +1,126 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar#article",
+      "headline": "Agência de marketing para brasileiros nos EUA: o que avaliar antes de fechar",
+      "description": "Seis critérios para avaliar uma agência de marketing para brasileiros nos EUA: idioma, páginas por cidade, regras do Google, conta no seu nome e mais.",
+      "datePublished": "2026-11-23",
+      "dateModified": "2026-11-23",
+      "inLanguage": "pt-BR",
+      "wordCount": 2020,
+      "keywords": "agência de marketing para brasileiros nos eua, agência de marketing brasileira nos eua, marketing digital para brasileiros nos eua, como escolher agência brasileira nos eua",
+      "articleSection": "Contratar Marketing",
+      "articleBody": "Falar português com a agência é conforto. Não é critério. Quem empreende nos Estados Unidos e procura uma agência de marketing para brasileiros costuma começar pelo idioma da conversa, e isso é razoável. O erro é parar aí. A agência que fala a sua língua pode escrever anúncio ruim em inglês, configurar mal o seu perfil no Google e ficar com as suas contas. Este guia dá seis critérios para avaliar qualquer agência no recorte brasileiro nos EUA, com o que exigir de cada uma e o que desqualifica.",
+      "author": { "@id": "https://etuos.com/pt/sobre#person" },
+      "publisher": { "@id": "https://etuos.com#organization" },
+      "image": { "@id": "https://etuos.com/pt/blog/agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar#primaryimage" },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar"
+      },
+      "isPartOf": { "@id": "https://etuos.com/pt/blog#blog" },
+      "about": [
+        { "@type": "Thing", "name": "Agência de marketing digital" },
+        { "@type": "Thing", "name": "Marketing para brasileiros nos Estados Unidos" },
+        { "@type": "Thing", "name": "Contratar marketing" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": { "@id": "https://etuos.com#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": { "@type": "ImageObject", "url": "https://etuos.com/images/logo.webp" }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar",
+      "url": "https://etuos.com/pt/blog/agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar",
+      "name": "Agência de marketing para brasileiros nos EUA: o que avaliar antes de fechar",
+      "description": "Seis critérios para avaliar uma agência de marketing para brasileiros nos EUA: idioma, páginas por cidade, regras do Google, conta no seu nome e mais.",
+      "inLanguage": "pt-BR",
+      "isPartOf": { "@id": "https://etuos.com/pt/blog#blog" },
+      "breadcrumb": { "@id": "https://etuos.com/pt/blog/agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar#breadcrumb" },
+      "primaryImageOfPage": { "@id": "https://etuos.com/pt/blog/agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar#primaryimage" }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar#primaryimage",
+      "url": "https://etuos.com/images/blog/agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Empreendedor sorrindo ao conferir documentos numa mesa de escritório, com as bandeiras dos EUA e do Brasil ao lado"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://etuos.com/pt" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://etuos.com/pt/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Agência de marketing para brasileiros nos EUA: o que avaliar antes de fechar", "item": "https://etuos.com/pt/blog/agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Como escolher uma agência de marketing para brasileiros nos EUA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avalie seis critérios: texto escrito para cada público, páginas por cidade com texto próprio, respeito às regras do Google para perfil e avaliações, conta no seu nome, medição de contatos atendíveis e ausência de pressa. Falar português ajuda, mas não substitui nenhum deles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vale a pena contratar uma agência que fala português?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vale como ponto de partida, porque a comunicação fica mais clara. Mas o idioma da conversa não diz nada sobre a qualidade do anúncio em inglês, do perfil ou da medição. Confira os critérios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A agência pode garantir o primeiro lugar no Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O Google afirma que não há como pedir nem pagar por uma posição melhor no ranking local. Promessa de posição ou de resultado garantido é sinal de alerta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A conta de anúncios deve ficar no meu nome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. A conta, o perfil no Google e o domínio devem ser seus, com a agência como usuária autorizada. Confirme no contrato o que você leva se o trabalho terminar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso aplicar estes critérios à Etuos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pode e deve. A Etuos é uma agência e tem interesse em ser contratada, então o melhor é aplicar os mesmos critérios a nós e comparar com as outras candidatas."
+          }
+        }
+      ]
+    }
+  ]
+}

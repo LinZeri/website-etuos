@@ -1,0 +1,10 @@
+# Brief: Agência de marketing para brasileiros nos EUA: o que avaliar antes de fechar
+
+- Slug: agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar | Data: 2026-11-23 | Template: how-to-guide | Alvo: ~1700 palavras
+- Keyword: agência de marketing para brasileiros nos eua. Secundárias: agência de marketing brasileira nos eua, marketing digital para brasileiros nos eua, agência de marketing em português nos eua, como escolher agência brasileira nos eua.
+- Público: brasileiro dono de negócio nos EUA. Informacional (o que avaliar), leva ao /pt/eua; não repete a copy da página. Voz firme, critério explícito, sem ranking, sem comparação nominal, sem autoelogio, sem preço, sem prazo.
+- Fontes por ID: N6 (comunidade brasileira, Itamaraty via Diário de Pernambuco, ano-base 2023, estimativa consular), S25 (idioma pelo texto visível), T4 (idioma do anúncio e da página, SEJ), S34 (doorway abuse), S35 (conteúdo original), S11 (escritório virtual, área de atendimento), S15 (incentivo e avaliação seletiva), Google answer/7091 ("no way to request or pay for a better local ranking", mesma citação do post de perguntas).
+- Estrutura: por que o recorte existe; 6 critérios (idioma, páginas por cidade, perfil e avaliações, conta e acessos, medição, postura); tabela; teste na reunião; Etuos parte interessada; FAQ; CTA.
+- Não repetir: as 10 perguntas do post de 17/11; a lista de 7 critérios do guia geral. Este post foca no recorte brasileiro nos EUA e remete a ambos.
+- Links (todos com data igual ou anterior a 23/11): agencia-de-marketing-digital-como-escolher, perguntas-antes-de-contratar, agencia-freelancer-ou-fazer-sozinho, anunciar-em-ingles-ou-portugues, site-em-portugues-ou-ingles-nos-eua, google-business-profile, como-conseguir-avaliacoes, como-medir-resultado-de-trafego-pago, /pt/eua, /pt/sobre, /pt/servicos/trafego-pago. Posts de 19/11 e 20/11 do lote ainda sem arquivo: não linkados. Post de 27/11 não linkado.
+- Cortado por falta de fonte: número de agências, preço, quantos brasileiros empreendem por estado, resultado de agência, Census (não cita português).
