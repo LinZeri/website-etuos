@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar#article",
+      "headline": "Agência de marketing digital: o que faz, como escolher e quando contratar",
+      "description": "O que uma agência de marketing digital faz, quando contratar e sete critérios para avaliar qualquer uma, a Etuos inclusive, antes de assinar.",
+      "datePublished": "2026-11-06",
+      "dateModified": "2026-11-06",
+      "inLanguage": "pt-BR",
+      "wordCount": 3048,
+      "keywords": "agência de marketing digital, como escolher agência de marketing digital, quando contratar uma agência de marketing, o que faz uma agência de marketing digital",
+      "articleSection": "Contratar Marketing",
+      "articleBody": "Contratar uma agência é uma decisão de risco, e a maioria dos donos de negócio a toma sem critério. Escolhem pela conversa mais simpática, pela proposta mais barata ou pela promessa mais ousada. Depois descobrem que não sabiam o que estavam comprando. Este guia dá o critério que falta. Explica o que uma agência de marketing digital faz de verdade, em que momento contratar faz sentido, como avaliar qualquer proposta e quais sinais mostram que é melhor recusar. A Etuos é uma agência, então tem interesse direto no assunto. Por isso a seção final pede que você aplique esses mesmos critérios a nós.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Agência de marketing digital"
+        },
+        {
+          "@type": "Thing",
+          "name": "Contratar marketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Marketing para pequenas empresas"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar",
+      "url": "https://etuos.com/pt/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar",
+      "name": "Agência de marketing digital: o que faz, como escolher e quando contratar",
+      "description": "O que uma agência de marketing digital faz, quando contratar e sete critérios para avaliar qualquer uma, a Etuos inclusive, antes de assinar.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar#primaryimage",
+      "url": "https://etuos.com/images/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dois sócios conversando com uma consultora de marketing numa mesa de reunião, com caderno e notebook abertos"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Agência de marketing digital: o que faz, como escolher e quando contratar",
+          "item": "https://etuos.com/pt/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/agencia-de-marketing-digital-como-escolher-e-quando-contratar#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que faz uma agência de marketing digital?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Planeja, executa e mede ações que levam clientes ao seu negócio: estratégia, anúncios, site ou landing page, presença no Google e acompanhamento de resultado. Nem toda agência faz tudo, então a proposta precisa dizer o que está dentro e o que está fora."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quando vale contratar uma agência de marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quando você sabe quanto vale um cliente novo, tem uma oferta clara, consegue atender quem chega, tem um destino para o clique e não tem tempo ou conhecimento para fazer sozinho. Se faltam as primeiras condições, resolva-as antes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto custa uma agência de marketing digital?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe preço único: depende do que está no escopo, do tempo dedicado e da verba de anúncios. Peça que o orçamento separe o honorário da agência da verba de anúncios, e desconfie de quem fecha valor sem conhecer o seu negócio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "De quem deve ser a conta de anúncios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sua. A conta de anúncios, o perfil da empresa no Google e o domínio do site devem ficar em seu nome, com a agência como usuária autorizada. Confirme isso por escrito antes de assinar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como saber se a agência está trazendo resultado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pelo número de contatos que o seu negócio recebeu e pela origem de cada um, não por curtidas ou cliques. Peça um relatório que mostre contatos, origem e o que mudou desde o último, e compare com o que você viu no atendimento."
+          }
+        }
+      ]
+    }
+  ]
+}
