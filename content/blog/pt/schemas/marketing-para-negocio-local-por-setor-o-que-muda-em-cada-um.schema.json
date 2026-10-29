@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um#article",
+      "headline": "Marketing para negócio local por setor: o que muda em cada um",
+      "description": "Cada setor vende de um jeito. Veja quatro eixos (urgência, compra planejada, recorrência e local físico) para escolher o marketing certo para o seu negócio.",
+      "datePublished": "2026-11-24",
+      "dateModified": "2026-11-24",
+      "inLanguage": "pt-BR",
+      "wordCount": 2100,
+      "keywords": "marketing por segmento, marketing para cada setor, marketing para negócio local, como divulgar cada tipo de negócio",
+      "articleSection": "Conseguir clientes nos EUA",
+      "articleBody": "Um encanador, um construtor, uma cabeleireira e o dono de um café ouvem o mesmo conselho: \"faça anúncio, cuide do Instagram, peça avaliação\". O conselho não está errado. Está incompleto, porque ignora o que mais separa um negócio do outro: o jeito como o cliente decide comprar.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Marketing para negócio local"
+        },
+        {
+          "@type": "Thing",
+          "name": "Marketing por setor"
+        },
+        {
+          "@type": "Thing",
+          "name": "Marketing por tipo de cliente"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um",
+      "url": "https://etuos.com/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um",
+      "name": "Marketing para negócio local por setor: o que muda em cada um",
+      "description": "Cada setor vende de um jeito. Veja quatro eixos (urgência, compra planejada, recorrência e local físico) para escolher o marketing certo para o seu negócio.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um#primaryimage",
+      "url": "https://etuos.com/images/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Mesa com cartões de visita e objetos de vários tipos de negócio, como chave, tesoura, avental e ferramenta"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Marketing para negócio local por setor: o que muda em cada um",
+          "item": "https://etuos.com/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O marketing muda de um setor para outro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Muda, principalmente pelo jeito como o cliente decide comprar. Quem atende urgência precisa ser encontrado e responder rápido, quem vende projetos precisa de prova e clareza, quem vive de recorrência precisa dar motivo para voltar, e quem tem ponto físico precisa de perfil e endereço em ordem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual o melhor canal de marketing para negócio local?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não existe um canal único. Para a maioria, o ponto de partida é o perfil no Google com informações corretas e avaliações reais, porque o cliente confere o negócio antes de contratar. Anúncio entra depois, com a região e o atendimento já organizados."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Meu negócio mistura mais de um eixo. E agora?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "É o caso mais comum. Escolha os dois eixos que mais se parecem com o seu negócio e comece pelo primeiro foco de cada um. O quadro é um jeito de priorizar, não uma classificação rígida."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Local Services Ads valem a pena para o meu setor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende da elegibilidade do seu ofício e da sua cidade, que varia por categoria e região, e da triagem do Google, que pode incluir licença, seguro e verificação de antecedentes. Confira a elegibilidade antes de planejar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso mostrar meu endereço no Google se atendo na casa do cliente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Se você não atende clientes no seu endereço, o Google orienta a esconder o endereço do perfil e a definir a área de atendimento. Confira sempre a regra atual na página oficial de diretrizes do Google."
+          }
+        }
+      ]
+    }
+  ]
+}
