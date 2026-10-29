@@ -1,0 +1,143 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/crm-for-a-service-business#article",
+      "headline": "CRM for a Service Business: What You Actually Need (and What You Don't)",
+      "description": "Do you need a CRM for your service business? What to record on every lead, and how to choose between a spreadsheet, a messaging app and a full system.",
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "inLanguage": "en-US",
+      "wordCount": 2395,
+      "keywords": [
+        "crm for small business",
+        "do i need a crm",
+        "crm for service business",
+        "simple crm for contractors"
+      ],
+      "articleSection": [
+        "What Is a CRM, in Plain English?",
+        "What a Service Business Needs to Record on Every Lead",
+        "Spreadsheet, Messaging App or Dedicated System?",
+        "How to Know When to Upgrade",
+        "What You Can Safely Ignore",
+        "A Simple Setup You Can Build This Week",
+        "Common Mistakes to Avoid",
+        "Frequently Asked Questions",
+        "What Should You Do This Week?",
+        "Sources"
+      ],
+      "articleBody": "Search for \"CRM for small business\" and you will find pages written for software companies, sales teams and people who manage a pipeline of enterprise deals. If you run a cleaning company, a roofing crew or a landscaping business, almost none of it describes your day. You are not managing a pipeline. You are trying to make sure the person who texted you on Tuesday does not get forgotten by Friday. This guide skips the product tour. It explains what a service business needs to write down about",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/crm-for-a-service-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/crm-for-a-service-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "CRM"
+        },
+        {
+          "@type": "Thing",
+          "name": "Lead tracking"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local business marketing"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/crm-for-a-service-business",
+      "url": "https://etuos.com/en/blog/crm-for-a-service-business",
+      "name": "CRM for a Service Business: What You Actually Need (and What You Don't)",
+      "description": "Do you need a CRM for your service business? What to record on every lead, and how to choose between a spreadsheet, a messaging app and a full system.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/crm-for-a-service-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/crm-for-a-service-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/crm-for-a-service-business#primaryimage",
+      "url": "https://etuos.com/images/blog/crm-for-a-service-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "CRM for a Service Business: What You Actually Need (and What You Don't)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/crm-for-a-service-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "CRM for a Service Business: What You Actually Need (and What You Don't)",
+          "item": "https://etuos.com/en/blog/crm-for-a-service-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/crm-for-a-service-business#faq",
+      "mainEntity": []
+    }
+  ]
+}
