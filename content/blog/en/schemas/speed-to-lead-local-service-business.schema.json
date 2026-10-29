@@ -1,0 +1,179 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/speed-to-lead-local-service-business#article",
+      "headline": "Speed to Lead: Why the First Reply Matters for a Local Service Business",
+      "description": "Speed to lead is how quickly a real person answers a new inquiry. How a local service business can reply first, on every channel, even from a job site.",
+      "datePublished": "2026-11-09",
+      "dateModified": "2026-11-09",
+      "inLanguage": "en-US",
+      "wordCount": 2135,
+      "keywords": [
+        "speed to lead",
+        "lead response time",
+        "how fast should you respond to leads",
+        "respond to leads faster",
+        "local service business",
+        "first reply to customers"
+      ],
+      "articleSection": [
+        "What Is Speed to Lead?",
+        "Why Does the First Reply Matter?",
+        "Which Channels Count as a Reply?",
+        "How Can You Reply Fast When You Are on a Job?",
+        "Do Automatic Replies Count?",
+        "What Should a Good First Reply Say?",
+        "Are Reviews Part of Speed to Lead?",
+        "What Slows Most Businesses Down?",
+        "How Do You Know If You Are Replying Fast Enough?",
+        "Frequently Asked Questions",
+        "What Should You Do This Week?"
+      ],
+      "articleBody": "You are on a ladder, under a sink or behind the wheel when the phone buzzes. A stranger wants a quote. You tell yourself you will answer later, and later turns into tonight. By then that person may have written to other businesses. That gap between the inquiry and the first answer is what marketers call speed to lead. Most of what you will find about it online is written for software companies with sales teams. This guide is written for a local service business where the owner is often the whole team. It covers what counts as a first reply, which channels to watch, how to cover them while you work, and what a good first message says. You will not find a magic response-time number here. Plenty of articles quote one, but we could not verify any of them, so we left them out. What follows is a habit you can build without one. Key Takeaways - Speed to lead is how quickly a real person",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/speed-to-lead-local-service-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/speed-to-lead-local-service-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Speed to lead"
+        },
+        {
+          "@type": "Thing",
+          "name": "Lead response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local service business"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/speed-to-lead-local-service-business",
+      "url": "https://etuos.com/en/blog/speed-to-lead-local-service-business",
+      "name": "Speed to Lead: Why the First Reply Matters for a Local Service Business",
+      "description": "Speed to lead is how quickly a real person answers a new inquiry. How a local service business can reply first, on every channel, even from a job site.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/speed-to-lead-local-service-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/speed-to-lead-local-service-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/speed-to-lead-local-service-business#primaryimage",
+      "url": "https://etuos.com/images/blog/speed-to-lead-local-service-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Speed to Lead: Why the First Reply Matters for a Local Service Business"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/speed-to-lead-local-service-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Speed to Lead: Why the First Reply Matters for a Local Service Business",
+          "item": "https://etuos.com/en/blog/speed-to-lead-local-service-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/speed-to-lead-local-service-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is speed to lead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Speed to lead is how quickly a real person answers a new inquiry from a potential customer. For a local service business, the inquiry can be a call, a form, a text, a WhatsApp message or a message on a social or Google profile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast should I respond to a new lead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no verified number to give you. The practical standard is to reply as soon as a real person can, and to make sure the customer is never left with nothing. If you cannot answer right away, an acknowledgment that a person will follow up is better than silence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does an automatic reply count as responding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It helps, but it is not a replacement. An automatic message confirms that the inquiry arrived, and a person still needs to follow up with the details the customer asked for."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can not answering affect my Google Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Local Services Ads, it can. Google says that if you regularly fail to answer calls or respond to messages, your ad ranking may be affected."
+          }
+        }
+      ]
+    }
+  ]
+}
