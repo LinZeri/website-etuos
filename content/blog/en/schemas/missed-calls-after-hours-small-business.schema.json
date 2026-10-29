@@ -1,0 +1,178 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/missed-calls-after-hours-small-business#article",
+      "headline": "Missed Calls After Hours: How a Small Service Business Covers the Phone Without a Receptionist",
+      "description": "You cannot answer every call, and you do not need a receptionist. How a small service business sets up voicemail, away messages and a callback routine.",
+      "datePublished": "2026-11-23",
+      "dateModified": "2026-11-23",
+      "inLanguage": "en-US",
+      "wordCount": 1883,
+      "keywords": [
+        "missed calls small business",
+        "after hours calls small business",
+        "missed call text back",
+        "voicemail for small business",
+        "small service business",
+        "callback routine"
+      ],
+      "articleSection": [
+        "Why Do Calls Get Missed After Hours?",
+        "What Should Your Voicemail Greeting Say?",
+        "Can a Text or WhatsApp Message Cover the Gap?",
+        "Who Checks the Phone, and When?",
+        "What Does a Good Callback Look Like?",
+        "Does Missing Calls Affect Google Ads?",
+        "When Is It Time to Hire Help?",
+        "Frequently Asked Questions",
+        "What Should You Do This Week?"
+      ],
+      "articleBody": "It is the end of a long day. You are cleaning up a job site, driving home or finally sitting down to dinner, and the phone rings with a number you do not know. You let it go. Nothing bad happens, so you forget about it. For a small service business, that quiet moment repeats all week. Evenings, weekends, lunch breaks and every hour you spend with your hands busy are times the phone can ring with nobody there. This guide is not about how much that costs. We have no trustworthy number for it, so we left it out. It is about something you can control: what the caller meets when you cannot pick up, and how reliably you call back. Key Takeaways You will miss calls. The goal is not to answer every one, but to make sure no caller is left with silence and no follow up. Coverage has four parts: a voicemail greeting that sounds like a real business, an automatic message for texts and WhatsApp, a named person who checks, and a callback routine. For Local Services Ads, Google says that if you regularly fail to answer calls or respond to messages, your ad ranking may be affected. An answering service, a text back tool or a receptionist are options for later. The basic setup costs you an afternoon, not a payroll. Why Do Calls Get Missed After Hours? Most missed calls are not carelessness. They happen because nobody decided who covers the phone when the owner cannot. The phone rings on a ladder, in a crawl space, in a meeting with another customer, or after the workday officially ends. It",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/missed-calls-after-hours-small-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/missed-calls-after-hours-small-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Missed calls"
+        },
+        {
+          "@type": "Thing",
+          "name": "After-hours phone coverage"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local service business"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/missed-calls-after-hours-small-business",
+      "url": "https://etuos.com/en/blog/missed-calls-after-hours-small-business",
+      "name": "Missed Calls After Hours: How a Small Service Business Covers the Phone Without a Receptionist",
+      "description": "You cannot answer every call, and you do not need a receptionist. How a small service business sets up voicemail, away messages and a callback routine.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/missed-calls-after-hours-small-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/missed-calls-after-hours-small-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/missed-calls-after-hours-small-business#primaryimage",
+      "url": "https://etuos.com/images/blog/missed-calls-after-hours-small-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Missed Calls After Hours: How a Small Service Business Covers the Phone Without a Receptionist",
+      "name": "Missed Calls After Hours: How a Small Service Business Covers the Phone Without a Receptionist"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/missed-calls-after-hours-small-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Missed Calls After Hours: How a Small Service Business Covers the Phone Without a Receptionist",
+          "item": "https://etuos.com/en/blog/missed-calls-after-hours-small-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/missed-calls-after-hours-small-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I handle missed calls after hours without a receptionist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Set up a voicemail greeting that sounds like a real business, an automatic message for texts or WhatsApp, a named person who checks messages at fixed times, and a callback routine that records the outcome of each call. That covers the phone without a payroll."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I use an answering service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can help when the missed-call list keeps growing despite a good routine. Compare providers with the same questions, and confirm how they represent your business and pass information to you. Prices vary, so ask for current quotes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should my voicemail say?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Say who you are, that you are away from the phone, and what the caller should leave: name, number and what they need. Record it in your own voice, and do not promise a callback time you cannot keep."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can missed calls affect my Google Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Local Services Ads, it can. Google says that if you regularly fail to answer calls or respond to messages, your ad ranking may be affected."
+          }
+        }
+      ]
+    }
+  ]
+}
