@@ -1,0 +1,186 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/track-calls-forms-whatsapp-clicks-ga4#article",
+      "headline": "How to Track Calls, Forms and WhatsApp Clicks in GA4",
+      "description": "Mark the actions that matter as key events in GA4, see what it measures on its own, and test phone, form and WhatsApp clicks before you trust the numbers.",
+      "datePublished": "2026-11-30",
+      "dateModified": "2026-11-30",
+      "inLanguage": "en-US",
+      "wordCount": 2200,
+      "keywords": [
+        "track conversions ga4",
+        "ga4 key events for small business",
+        "how to track phone calls in ga4",
+        "track whatsapp clicks ga4",
+        "key events",
+        "enhanced measurement"
+      ],
+      "articleSection": [
+        "What Is a Key Event in GA4?",
+        "What Does GA4 Measure Without Extra Setup?",
+        "How Do You Track Form Submissions?",
+        "How Do You Track Phone and WhatsApp Clicks?",
+        "What Is a Click Not Telling You?",
+        "How Do You Test That It Works?",
+        "What Can You Hand to a Web Helper?",
+        "Frequently Asked Questions",
+        "What Should You Do This Week?"
+      ],
+      "articleBody": "You open Google Analytics and see visitors, pages and sources. What you do not see is the number you actually care about: how many people tried to reach you. A visitor who taps your phone number, fills in your form or opens WhatsApp is worth far more than one who reads a page and leaves. GA4 can show you those actions, but it does not hand them over in a tidy list. Some are measured with little effort, some need a tag setup, and one of them, a phone call, can only be measured as a click. This guide shows which is which, so you can set up the basics and stop guessing. Key Takeaways - In GA4, a conversion is now called a key event. You mark an event as a key event by clicking the star next to it in the Events list. - Enhanced measurement can record clicks to other websites and form interactions, and Google says you do not need to change your page code for outbound clicks. - For a form, the GA4 event built for the job is generate_lead, but recommended events are not sent automatically. - A tracked phone-number click is a click, not a completed call. The same logic applies to a WhatsApp button: a click is not a conversation. - After any change, test it and confirm it in the real-time reports before you trust it. What Is a Key Event in GA4? A key event is an event you tell GA4 is important to your business. It used to be called a conversion. If you have read older guides that say \"set up conversions in GA4,\" the idea is the same, but the label in the product is now \"key event.\" Fo",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/track-calls-forms-whatsapp-clicks-ga4#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/track-calls-forms-whatsapp-clicks-ga4"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Analytics 4"
+        },
+        {
+          "@type": "Thing",
+          "name": "Key events"
+        },
+        {
+          "@type": "Thing",
+          "name": "Conversion tracking for small business"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/track-calls-forms-whatsapp-clicks-ga4",
+      "url": "https://etuos.com/en/blog/track-calls-forms-whatsapp-clicks-ga4",
+      "name": "How to Track Calls, Forms and WhatsApp Clicks in GA4",
+      "description": "Mark the actions that matter as key events in GA4, see what it measures on its own, and test phone, form and WhatsApp clicks before you trust the numbers.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/track-calls-forms-whatsapp-clicks-ga4#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/track-calls-forms-whatsapp-clicks-ga4#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/track-calls-forms-whatsapp-clicks-ga4#primaryimage",
+      "url": "https://etuos.com/images/blog/track-calls-forms-whatsapp-clicks-ga4.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "How to Track Calls, Forms and WhatsApp Clicks in GA4",
+      "name": "How to Track Calls, Forms and WhatsApp Clicks in GA4"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/track-calls-forms-whatsapp-clicks-ga4#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Track Calls, Forms and WhatsApp Clicks in GA4",
+          "item": "https://etuos.com/en/blog/track-calls-forms-whatsapp-clicks-ga4"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/track-calls-forms-whatsapp-clicks-ga4#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a key event in GA4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A key event is an event you mark as important to your business. It replaced what GA4 used to call a conversion. You mark it with the star next to the event in the Events list under Admin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does GA4 track phone calls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not completed calls. A tracked phone-number click records that someone tapped the number, not that the call connected. Google's own help page says the feature tracks clicks on your number, not actual phone calls."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does GA4 track WhatsApp clicks automatically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We cannot say that it does. Google's pages on enhanced measurement and outbound clicks do not mention WhatsApp. Tap your own button, watch the real-time report, and if nothing clear appears, set up a tag that sends an event."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I track form submissions in GA4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check whether enhanced measurement records your form submission by submitting a test and watching the real-time report. If it does not, set up the recommended `generate_lead` event, which has to be implemented because recommended events are not sent automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long until a key event shows up in reports?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google says to allow up to 24 hours for it to show up in standard reports. Use the real-time report to confirm that the event fires."
+          }
+        }
+      ]
+    }
+  ]
+}

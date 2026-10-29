@@ -1,0 +1,154 @@
+---
+titulo: "How to Track Calls, Forms and WhatsApp Clicks in GA4"
+descricao: "Mark the actions that matter as key events in GA4, see what it measures on its own, and test phone, form and WhatsApp clicks before you trust the numbers."
+data: "2026-11-30"
+autor: "Lin Zeri"
+imagem: "/images/blog/track-calls-forms-whatsapp-clicks-ga4.webp"
+---
+
+You open Google Analytics and see visitors, pages and sources. What you do not see is the number you actually care about: how many people tried to reach you. A visitor who taps your phone number, fills in your form or opens WhatsApp is worth far more than one who reads a page and leaves.
+
+GA4 can show you those actions, but it does not hand them over in a tidy list. Some are measured with little effort, some need a tag setup, and one of them, a phone call, can only be measured as a click. This guide shows which is which, so you can set up the basics and stop guessing.
+
+> **Key Takeaways**
+> - In GA4, a conversion is now called a key event. You mark an event as a key event by clicking the star next to it in the Events list.
+> - Enhanced measurement can record clicks to other websites and form interactions, and Google says you do not need to change your page code for outbound clicks.
+> - For a form, the GA4 event built for the job is `generate_lead`, but recommended events are not sent automatically.
+> - A tracked phone-number click is a click, not a completed call. The same logic applies to a WhatsApp button: a click is not a conversation.
+> - After any change, test it and confirm it in the real-time reports before you trust it.
+
+## What Is a Key Event in GA4?
+
+A key event is an event you tell GA4 is important to your business. It used to be called a conversion. If you have read older guides that say "set up conversions in GA4," the idea is the same, but the label in the product is now "key event."
+
+For a local service business, the events worth marking usually map to three moments:
+
+- A visitor submits a quote or contact form.
+- A visitor taps your phone number.
+- A visitor taps your WhatsApp button.
+
+Marking an event is simple. In your property, open **Admin**, go to **Events** under *Data display*, find the event and click the star next to it. Google's help page describes it this way: "Mark the event as a key event by clicking the star icon next to it" ([Google Analytics Help, Mark events as key events](https://support.google.com/analytics/answer/13128484), accessed Oct. 2026).
+
+![Illustration of three plain cards in a row, the middle one marked with a large green star, and a pencil beside them](/images/blog/track-calls-forms-whatsapp-clicks-ga4-1-key-event.webp)
+
+Two details from the same page are worth knowing. A key event can take up to 24 hours to show up in standard reports, so do not panic if it is not there right away. And a standard property allows up to 30 key events, which is plenty for a small business. Mark only the actions that mean a person is ready to talk to you. If you mark everything, the number stops meaning anything.
+
+If you cannot find the star, ask whoever set up your property to check your access.
+
+## What Does GA4 Measure Without Extra Setup?
+
+GA4 has a feature called enhanced measurement. Google describes it like this: "Enhanced measurement lets you measure interactions with your content" ([Google Analytics Help, Enhanced measurement events](https://support.google.com/analytics/answer/9216061), accessed Oct. 2026).
+
+Two parts of it matter for you:
+
+- **Outbound clicks.** When someone clicks a link that leads away from your site to another website, GA4 records a `click` event with an `outbound` parameter.
+- **Form interactions.** Enhanced measurement also lists `form_start`, when a visitor first interacts with a form, and `form_submit`, when they submit it.
+
+![Illustration of a browser window with an arrow leading to a second window that holds a card with a green check mark](/images/blog/track-calls-forms-whatsapp-clicks-ga4-2-automatic.webp)
+
+On outbound clicks, a second Google page adds a useful point: the event can be triggered by "any kind of link, including links in the body text or button clicks," and you do not need to change your page code ([Google Analytics Help, Measure outbound clicks](https://support.google.com/analytics/answer/13566436), accessed Oct. 2026). The same page says that links to domains you have set up for cross-domain measurement do not trigger it.
+
+Before you rely on any of this, open your property's data stream settings and check that enhanced measurement is switched on. Do not assume it is.
+
+Now the important limit. Neither of these Google pages mentions WhatsApp or phone links. So we will not tell you that enhanced measurement captures your WhatsApp button or your phone number. It may record some of those taps, it may not, and the way your button is built can change the answer. The honest advice is to test it, and the testing steps are further down.
+
+## How Do You Track Form Submissions?
+
+Start with what you already have. If enhanced measurement records `form_submit` for your form, you can see it in your Events list and mark it with the star.
+
+Then check it. Submit your own form once, using a test message, and look for the event in the real-time report. If it shows up, mark it as a key event and you are done. If it does not, your form needs a tag setup that sends the event on its own.
+
+When you set up an event yourself, there is a name made for this exact situation. GA4's recommended events include `generate_lead`, which Google describes as sent when a user "submits a form or a request for information." Sending it populates the Lead acquisition report ([Google Analytics Help, Recommended events](https://support.google.com/analytics/answer/9267735), accessed Oct. 2026).
+
+Here is the catch. Recommended events are not sent automatically. They need someone to implement them, because they carry meaning that GA4 cannot guess. So `generate_lead` is a good name to use for a form submission, but choosing the name does not turn it on.
+
+A practical tip: if your form lives on a page that shows a thank-you message after sending, ask your web helper whether that is the moment to send the event. Do not mark an event as a key event until you have seen it fire once on a real test.
+
+## How Do You Track Phone and WhatsApp Clicks?
+
+This is where most small businesses get stuck, so let us be direct about what is possible.
+
+A tap on a phone number or a WhatsApp button is a click on a link or button. GA4 can only count it if something records that click as an event. Enhanced measurement is documented for outbound clicks to other websites, not for these two buttons. The safe plan has three steps:
+
+1. **Test what you already get.** Tap your phone number and your WhatsApp button on your own site, then watch the real-time report. If an event appears, look at its name and decide whether it clearly means "phone tap" or "WhatsApp tap." A generic click event that cannot tell the two apart is hard to use.
+2. **If nothing appears, you need a tag setup.** Someone has to configure the site to send an event each time those buttons are tapped. The steps depend on how your site is built, so we will not give a recipe here. A web helper or whoever manages your site can do it, and the next section gives you a list to hand over.
+3. **Name the events so you can read them later.** Choose names like a phone-tap event and a WhatsApp-tap event, and use the same names everywhere. Then mark them as key events with the star.
+
+![Illustration of a smartphone with a phone button and a green chat button, and a wrench beside it](/images/blog/track-calls-forms-whatsapp-clicks-ga4-3-click-setup.webp)
+
+If you run Google Ads, there is a second route worth knowing. Google's help page says you can use conversion tracking to record when someone clicks a button or link on your website, by choosing the Click option instead of Page load when you set up the tag ([Google Ads Help, Track clicks on your website as conversions](https://support.google.com/google-ads/answer/6331304), accessed Oct. 2026). That is a Google Ads setting, separate from your GA4 key events, so decide which tool you will treat as your source of truth and stay consistent.
+
+## What Is a Click Not Telling You?
+
+Even a perfect setup has a limit you should print on the wall. Google's own help page for phone number tracking says: "this feature only tracks clicks on your phone number, not actual phone calls" ([Google Ads Help, Measure phone number clicks](https://support.google.com/google-ads/answer/6095878), accessed Oct. 2026).
+
+Read that carefully. A person can tap your number and change their mind before the call connects. They can tap and reach voicemail. They can tap and have a long, useful conversation. GA4 sees the same thing in all three cases: a click.
+
+![Illustration of a finger tapping a green button on a phone, with a dotted gap before a separate pair of speech bubbles](/images/blog/track-calls-forms-whatsapp-clicks-ga4-4-click-vs-call.webp)
+
+The same logic is a reasonable way to think about WhatsApp. That is our reading, not a Google statement: a tap on your WhatsApp button shows interest, but it does not prove that a message was sent or that a conversation happened. Treat these numbers as a measure of how many people tried to reach you, and use your own records to see who actually did.
+
+That second part matters. Keep a simple list of real calls and messages, the way we describe in [lead management for a small business](/en/blog/lead-management-for-small-business), and compare it to your click counts now and then. If clicks are high and real conversations are low, the problem is probably not the tracking. It may be how fast you answer, which we cover in [speed to lead for a local service business](/en/blog/speed-to-lead-local-service-business), or the calls nobody picks up, covered in [missed calls after hours](/en/blog/missed-calls-after-hours-small-business). A [CRM for a service business](/en/blog/crm-for-a-service-business) keeps the whole record in one place when a notebook is no longer enough.
+
+## How Do You Test That It Works?
+
+Testing is the step that separates tracking you can trust from tracking that quietly lies. Do it every time you change something on the site.
+
+1. Open your website in a normal browser window.
+2. Open GA4 and go to the real-time report.
+3. Tap your phone number, tap your WhatsApp button and submit your form with a test message.
+4. Confirm that each action appears as its own event, with the name you expect.
+5. Only then mark it as a key event with the star.
+
+Remember that real-time reports and standard reports are different. Google says a key event can take up to 24 hours to show up in standard reports, so use real-time to confirm the event fires and give the standard report time before you judge it.
+
+Test from your phone as well as from your computer. A phone number button or a WhatsApp button may be built differently on mobile.
+
+## What Can You Hand to a Web Helper?
+
+If part of this needs a tag setup, a clear request saves time. Send your web helper or whoever manages your site this list:
+
+- "Send a GA4 event when someone taps the phone number."
+- "Send a GA4 event when someone taps the WhatsApp button."
+- "Send `generate_lead` when the contact form is submitted successfully."
+- "Use clear event names, and let me test each one in the real-time report."
+- "Tell me how you built each one, so I can check it again after a site change."
+
+If you are redesigning your site, put this in the brief from the start, so it is built in rather than added later. If your site is not getting contacts at all, start with [why your website is not getting calls](/en/blog/website-not-getting-calls) before you worry about measuring them.
+
+## Frequently Asked Questions
+
+### What is a key event in GA4?
+
+A key event is an event you mark as important to your business. It replaced what GA4 used to call a conversion. You mark it with the star next to the event in the Events list under Admin.
+
+### Does GA4 track phone calls?
+
+Not completed calls. A tracked phone-number click records that someone tapped the number, not that the call connected. Google's own help page says the feature tracks clicks on your number, not actual phone calls.
+
+### Does GA4 track WhatsApp clicks automatically?
+
+We cannot say that it does. Google's pages on enhanced measurement and outbound clicks do not mention WhatsApp. Tap your own button, watch the real-time report, and if nothing clear appears, set up a tag that sends an event.
+
+### How do I track form submissions in GA4?
+
+Check whether enhanced measurement records your form submission by submitting a test and watching the real-time report. If it does not, set up the recommended `generate_lead` event, which has to be implemented because recommended events are not sent automatically.
+
+### How long until a key event shows up in reports?
+
+Google says to allow up to 24 hours for it to show up in standard reports. Use the real-time report to confirm that the event fires.
+
+## What Should You Do This Week?
+
+Open GA4 and look at your Events list. Tap your phone number and your WhatsApp button and submit your form while the real-time report is open, and write down what appears. Mark only the events that clearly mean a person tried to reach you. For anything that did not show up, send the helper list above.
+
+Etuos brings more than 10 years of digital marketing experience and has managed over $500,000 in ads. If you want help working out what your website should be measuring, see how we build [websites for local businesses](/en/services/website-design), or [send a message on WhatsApp](https://wa.me/5516991252073?text=Hi!%20I%20read%20your%20guide%20on%20tracking%20in%20GA4.%20I%20want%20help%20measuring%20the%20calls%20and%20messages%20my%20website%20gets.) and tell us what you see in your reports today. We offer a free diagnosis with no deadline. You can also reach us on the [contact page](/en/contact).
+
+## Sources
+
+- Google Analytics Help, "Mark events as key events", retrieved Oct. 2026, https://support.google.com/analytics/answer/13128484
+- Google Analytics Help, "Enhanced measurement events", retrieved Oct. 2026, https://support.google.com/analytics/answer/9216061
+- Google Analytics Help, "Measure outbound clicks for a website", retrieved Oct. 2026, https://support.google.com/analytics/answer/13566436
+- Google Analytics Help, "Recommended events", retrieved Oct. 2026, https://support.google.com/analytics/answer/9267735
+- Google Ads Help, "Track clicks on your website as conversions", retrieved Oct. 2026, https://support.google.com/google-ads/answer/6331304
+- Google Ads Help, "Measure phone number clicks on a mobile website", retrieved Oct. 2026, https://support.google.com/google-ads/answer/6095878
