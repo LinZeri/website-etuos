@@ -1,0 +1,184 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/yelp-ads-worth-it-service-business#article",
+      "headline": "Are Yelp Ads Worth It for a Service Business?",
+      "description": "Are Yelp Ads worth it for a service business? How billing and placement work, plus a decision test and the questions to ask before you spend.",
+      "datePublished": "2026-11-26",
+      "dateModified": "2026-11-26",
+      "inLanguage": "en-US",
+      "wordCount": 1977,
+      "keywords": [
+        "yelp ads worth it",
+        "yelp ads cost",
+        "yelp advertising for small business",
+        "is yelp worth it for contractors"
+      ],
+      "articleSection": [
+        "How Yelp Ads Charge You",
+        "Where Your Ad Appears",
+        "Why Your Profile Matters More Than the Ad",
+        "A Decision Test: Is It Worth It for You?",
+        "Questions to Ask Before You Sign Up",
+        "Yelp Ads Compared With Other Channels",
+        "Common Mistakes to Avoid",
+        "Frequently Asked Questions",
+        "What Should You Do This Week?",
+        "Sources"
+      ],
+      "articleBody": "If you run a plumbing, cleaning or roofing company, you have probably had a call from someone selling Yelp Ads. The pitch is always some version of the same question: do you want to be at the top when customers look for your trade? It is a fair question, and the honest answer to \"are Yelp Ads worth it?\" is that it depends on your business, and no article can tell you yes or no without knowing it. What an article can do is explain how the ads are billed, where they show up, and what to check before you commit. That is what this guide covers, so you can answer the question for your own company. It does not quote a price, because the platform itself says the price per click changes.",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/yelp-ads-worth-it-service-business#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/yelp-ads-worth-it-service-business"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Yelp Ads"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local business advertising"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local business marketing"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/yelp-ads-worth-it-service-business",
+      "url": "https://etuos.com/en/blog/yelp-ads-worth-it-service-business",
+      "name": "Are Yelp Ads Worth It for a Service Business?",
+      "description": "Are Yelp Ads worth it for a service business? How billing and placement work, plus a decision test and the questions to ask before you spend.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/yelp-ads-worth-it-service-business#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/yelp-ads-worth-it-service-business#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/yelp-ads-worth-it-service-business#primaryimage",
+      "url": "https://etuos.com/images/blog/yelp-ads-worth-it-service-business.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Are Yelp Ads Worth It for a Service Business?"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/yelp-ads-worth-it-service-business#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Are Yelp Ads Worth It for a Service Business?",
+          "item": "https://etuos.com/en/blog/yelp-ads-worth-it-service-business"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/yelp-ads-worth-it-service-business#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are Yelp Ads worth it for a service business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on your trade, your reviews and your ability to track calls. No source in this article shows that Yelp Ads pay off or do not. Run a small test with a monthly maximum you can afford to lose, and judge it by the calls and jobs you can trace back to the ad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Yelp charge for ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "According to Yelp, ads are pay per click: you only pay when your ad is clicked. The budget you set is a daily average, not a daily cap, and you will never go over your monthly max. The cost per click may change over time based on demand in your category and your geographical area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do Yelp Ads appear?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Per Yelp, your business can appear above relevant search results in the \"Sponsored Results\" section and on your competitors' pages."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much do Yelp Ads cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single answer. Yelp says the cost per click changes with demand in your category and area, so a fixed price quoted elsewhere may not match what you pay. Decide on a monthly maximum first, then see what clicks it buys."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I check before advertising on Yelp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check whether your customers use Yelp, whether your reviews are strong and recent, whether your phone gets answered, and how you will track calls. Then set a monthly ceiling you are comfortable losing."
+          }
+        }
+      ]
+    }
+  ]
+}
