@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/pt/blog/agencia-freelancer-ou-fazer-sozinho-marketing#article",
+      "headline": "Agência, freelancer ou fazer sozinho: como decidir o que serve ao seu negócio",
+      "description": "Agência, freelancer ou fazer o marketing sozinho: cinco critérios para decidir pelo seu caso, sem tabela de preço e com a Etuos declarando o interesse.",
+      "datePublished": "2026-11-12",
+      "dateModified": "2026-11-12",
+      "inLanguage": "pt-BR",
+      "wordCount": 2087,
+      "keywords": "agência ou freelancer, agência ou freelancer de marketing, fazer marketing sozinho ou contratar, marketing interno ou terceirizado",
+      "articleSection": "Contratar Marketing",
+      "articleBody": "Quem decide como fazer o marketing do negócio costuma comparar o que não dá para comparar: o preço de um lado e a promessa do outro. O resultado é uma escolha por impulso, que muda quando o primeiro mês frustra. Este artigo propõe outra comparação. Em vez de perguntar qual opção é melhor, pergunte qual delas cabe na sua rotina, no seu volume de trabalho e no risco que você aceita correr. São três modelos: fazer sozinho, contratar um freelancer ou contratar uma agência. Os três funcionam em algum cenário, e os três falham em outro. A Etuos é uma agência e tem interesse nessa decisão, então vamos mostrar também quando a melhor resposta não é a nossa.",
+      "author": {
+        "@id": "https://etuos.com/pt/sobre#person"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/pt/blog/agencia-freelancer-ou-fazer-sozinho-marketing#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/pt/blog/agencia-freelancer-ou-fazer-sozinho-marketing"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Agência de marketing digital"
+        },
+        {
+          "@type": "Thing",
+          "name": "Freelancer de marketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Marketing para pequenas empresas"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/pt/sobre#person",
+      "name": "Lin Zeri",
+      "jobTitle": "Especialista em Marketing Digital",
+      "url": "https://etuos.com/pt/sobre",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/pt/blog#blog",
+      "name": "Blog da Etuos",
+      "url": "https://etuos.com/pt/blog"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/pt/blog/agencia-freelancer-ou-fazer-sozinho-marketing",
+      "url": "https://etuos.com/pt/blog/agencia-freelancer-ou-fazer-sozinho-marketing",
+      "name": "Agência, freelancer ou fazer sozinho: como decidir o que serve ao seu negócio",
+      "description": "Agência, freelancer ou fazer o marketing sozinho: cinco critérios para decidir pelo seu caso, sem tabela de preço e com a Etuos declarando o interesse.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://etuos.com/pt/blog#blog"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/pt/blog/agencia-freelancer-ou-fazer-sozinho-marketing#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/pt/blog/agencia-freelancer-ou-fazer-sozinho-marketing#primaryimage"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/pt/blog/agencia-freelancer-ou-fazer-sozinho-marketing#primaryimage",
+      "url": "https://etuos.com/images/blog/agencia-freelancer-ou-fazer-sozinho-marketing.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dono de um pequeno negócio diante do notebook, com caderno e papéis na mesa, pensando na decisão"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/pt/blog/agencia-freelancer-ou-fazer-sozinho-marketing#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Agência, freelancer ou fazer sozinho: como decidir o que serve ao seu negócio",
+          "item": "https://etuos.com/pt/blog/agencia-freelancer-ou-fazer-sozinho-marketing"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/pt/blog/agencia-freelancer-ou-fazer-sozinho-marketing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Agência ou freelancer: qual é melhor para marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nenhum é melhor por definição. Freelancer serve a uma tarefa delimitada e que você sabe avaliar. Agência serve a várias frentes que precisam funcionar juntas e a quem quer continuidade. Compare pelos cinco critérios: tempo, volume de tarefas, quem acompanha a conta, risco de depender de uma pessoa e posse das contas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vale fazer marketing sozinho?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vale quando você tem tempo, quer aprender e a oferta ainda está em teste. O risco está em regras de plataforma e em configurações que você não sabe que precisa conhecer. Estude as regras antes de mexer na conta de anúncios e no perfil da empresa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto custa cada opção?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não há dado confiável para comparar o custo dos três modelos, e por isso este artigo não traz valores. Peça a cada prestador uma proposta que separe honorário e verba de anúncios, e compare o que está incluído em cada uma."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "De quem deve ser a conta de anúncios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sua, em qualquer modelo. A conta de anúncios, o perfil no Google e o domínio ficam em seu nome, e quem presta o serviço entra como usuário autorizado. Confirme isso por escrito antes de começar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para combinar os modelos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dá. Muita gente faz o básico sozinha e contrata ajuda para a parte técnica, ou começa com um freelancer e migra para uma agência quando o volume cresce. O que sustenta a combinação é ter contas no seu nome e tarefas descritas por escrito."
+          }
+        }
+      ]
+    }
+  ]
+}
