@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T22:29:29.148137+00:00",
+  "updated": "2026-10-29T22:42:55.771018+00:00",
   "description": "English production queue for the Etuos blog-loop. Independent from the Portuguese queue: different audience, different keywords, no 'grupo' in the frontmatter and no hreflang between languages. Topics come from docs/blog-strategy-en.md. Hard rules: US English written for the US small business owner, no em dash, author Lin Zeri, WhatsApp CTA at the end, internal links always prefixed with /en, statistics only from docs/blog-dominios-confiaveis.md. 'image_context' is the scene passed to scripts/gerar-imagem-blog.mjs (photorealistic, no text).",
   "authors": [
     "lin-zeri"
@@ -1562,12 +1562,14 @@
       "image_context": "an event planner at a small studio table arranging table setting samples next to a tablet showing a client inquiry message",
       "publish_date": "2026-11-19",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-29T22:29:28.718426+00:00",
-      "last_score": null,
-      "iteration_id": "sessao-onda3-nov-19-30"
+      "last_score": 85,
+      "iteration_id": "sessao-onda3-nov-19-30",
+      "commit_sha": "ea07d99",
+      "published_date": "2026-11-19"
     },
     {
       "id": "en-p2-geotarget",
@@ -1594,12 +1596,14 @@
       "image_context": "a local service owner at a desk with a printed street map of his neighborhood and a laptop, drawing a circle around the service area with a pen, afternoon light",
       "publish_date": "2026-11-20",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-29T22:29:28.826342+00:00",
-      "last_score": null,
-      "iteration_id": "sessao-onda3-nov-19-30"
+      "last_score": 89,
+      "iteration_id": "sessao-onda3-nov-19-30",
+      "commit_sha": "75219bd",
+      "published_date": "2026-11-20"
     },
     {
       "id": "en-p6-after-hours",
@@ -1626,12 +1630,14 @@
       "image_context": "a roofing company owner at the end of the day putting a phone on a charger with a callback checklist on the wall, evening light",
       "publish_date": "2026-11-23",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-29T22:29:28.934084+00:00",
-      "last_score": null,
-      "iteration_id": "sessao-onda3-nov-19-30"
+      "last_score": 86,
+      "iteration_id": "sessao-onda3-nov-19-30",
+      "commit_sha": "b6be84c",
+      "published_date": "2026-11-23"
     },
     {
       "id": "en-p7-seo-company",
@@ -1660,12 +1666,14 @@
       "image_context": "a contractor reading a printed SEO proposal with a skeptical expression and a highlighter, laptop with search results behind him",
       "publish_date": "2026-11-24",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-29T22:29:29.041245+00:00",
-      "last_score": null,
-      "iteration_id": "sessao-onda3-nov-19-30"
+      "last_score": 90,
+      "iteration_id": "sessao-onda3-nov-19-30",
+      "commit_sha": "a1e0f96",
+      "published_date": "2026-11-24"
     },
     {
       "id": "en-p2-yelp",
@@ -1693,11 +1701,14 @@
       "image_context": "a home service business owner comparing review site listings on a tablet at a counter, one profile showing a star rating",
       "publish_date": "2026-11-26",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T22:33:47.028164+00:00",
+      "last_score": 85,
+      "iteration_id": "sessao-onda3-nov-19-30",
+      "commit_sha": "9f0c441",
+      "published_date": "2026-11-26"
     },
     {
       "id": "en-p3-boutique",
@@ -1725,12 +1736,14 @@
       "image_context": "a boutique owner arranging a window display in a storefront without any signage text, passers-by on a downtown sidewalk in soft daylight",
       "publish_date": "2026-11-27",
       "author": null,
-      "status": "in_progress",
+      "status": "published",
       "attempts": 1,
       "last_error": null,
       "started_at": "2026-10-29T22:29:29.148117+00:00",
-      "last_score": null,
-      "iteration_id": "sessao-onda3-nov-19-30"
+      "last_score": 88,
+      "iteration_id": "sessao-onda3-nov-19-30",
+      "commit_sha": "560f77e",
+      "published_date": "2026-11-27"
     },
     {
       "id": "en-p6-ga4",
@@ -1759,11 +1772,14 @@
       "image_context": "a small business owner at a laptop viewing a simple analytics screen with three highlighted actions, a phone with a messaging app open beside it",
       "publish_date": "2026-11-30",
       "author": null,
-      "status": "pending",
-      "attempts": 0,
+      "status": "published",
+      "attempts": 1,
       "last_error": null,
-      "started_at": null,
-      "last_score": null
+      "started_at": "2026-10-29T22:33:47.142662+00:00",
+      "last_score": 88,
+      "iteration_id": "sessao-onda3-nov-19-30",
+      "commit_sha": "2741a68",
+      "published_date": "2026-11-30"
     },
     {
       "id": "en-p2-nextdoor",

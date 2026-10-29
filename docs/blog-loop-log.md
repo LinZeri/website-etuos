@@ -86,3 +86,17 @@
 | 2026-10-29T12:00:00 | answer-spanish-speaking-customers-phone-whatsapp | bilingual | Lin Zeri | 88 | 0 | 2026-11-12 | 413df82 | 15 | local_session,lote_02_17_nov,score_estimado,sem_workflow_tool |
 | 2026-10-29T12:00:00 | crm-for-a-service-business | leads | Lin Zeri | 87 | 0 | 2026-11-16 | 4bd2596 | 15 | local_session,lote_02_17_nov,score_estimado,sem_workflow_tool |
 | 2026-10-29T12:00:00 | who-owns-your-google-ads-and-business-profile-agency | agency | Lin Zeri | 88 | 0 | 2026-11-17 | 3aae2c0 | 15 | local_session,lote_02_17_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | o-que-e-remarketing-negocio-local | remarketing | Lin Zeri | 86 | 0 | 2026-11-19 | 2effc8b | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | pagina-de-servico-que-vende-estrutura | site | Lin Zeri | 89 | 0 | 2026-11-20 | fc2208d | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | agencia-de-marketing-para-brasileiros-nos-eua-o-que-avaliar | agencia | Lin Zeri | 87 | 0 | 2026-11-23 | 04929aa | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | marketing-para-negocio-local-por-setor-o-que-muda-em-cada-um | setor | Lin Zeri | 88 | 0 | 2026-11-24 | 571ef35 | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | botao-de-whatsapp-no-site-como-colocar-e-medir | site | Lin Zeri | 87 | 0 | 2026-11-26 | a093d35 | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | quem-e-dono-da-conta-de-anuncios-agencia | agencia | Lin Zeri | 91 | 0 | 2026-11-27 | 138aede | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | marketing-para-restaurante-google-instagram-delivery | setor | Lin Zeri | 87 | 0 | 2026-11-30 | bd6b513 | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | event-planner-marketing | industry | Lin Zeri | 85 | 0 | 2026-11-19 | ea07d99 | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | google-ads-location-targeting-local-business | paid-ads | Lin Zeri | 89 | 0 | 2026-11-20 | 75219bd | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | missed-calls-after-hours-small-business | leads | Lin Zeri | 86 | 0 | 2026-11-23 | b6be84c | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | how-to-choose-an-seo-company-local-business | hiring | Lin Zeri | 90 | 0 | 2026-11-24 | a1e0f96 | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | yelp-ads-worth-it-service-business | paid-ads | Lin Zeri | 85 | 0 | 2026-11-26 | 9f0c441 | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | boutique-marketing-local-foot-traffic | industry | Lin Zeri | 88 | 0 | 2026-11-27 | 560f77e | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
+| 2026-10-29T23:30:00 | track-calls-forms-whatsapp-clicks-ga4 | leads | Lin Zeri | 88 | 0 | 2026-11-30 | 2741a68 | 15 | local_session,onda3_19_30_nov,score_estimado,sem_workflow_tool |
