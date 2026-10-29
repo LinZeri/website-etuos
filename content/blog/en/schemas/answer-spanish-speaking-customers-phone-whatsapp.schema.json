@@ -1,0 +1,186 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/answer-spanish-speaking-customers-phone-whatsapp#article",
+      "headline": "Spanish-Speaking Customers on the Phone and WhatsApp: How a Local Business Can Reply Well",
+      "description": "How a local business can answer Spanish-speaking customers by phone, text and WhatsApp: who picks up, what to say and which promises not to make.",
+      "datePublished": "2026-11-09",
+      "dateModified": "2026-11-09",
+      "inLanguage": "en-US",
+      "wordCount": 2126,
+      "keywords": [
+        "bilingual customer service small business",
+        "how to serve spanish speaking customers",
+        "whatsapp for small business customer service",
+        "bilingual lead handling",
+        "spanish speaking customers",
+        "local service business"
+      ],
+      "articleSection": [
+        "Why Does the Language of Your First Reply Matter?",
+        "What Happens When Nobody Can Answer in Spanish?",
+        "How Do You Cover the Phone?",
+        "How Should You Handle Text Messages?",
+        "How Should You Use WhatsApp for Customers?",
+        "What Should Happen When You Hand the Customer Off?",
+        "What Should You Not Promise?",
+        "Frequently Asked Questions",
+        "What Should You Do This Week?",
+        "Sources"
+      ],
+      "articleBody": "A customer finds your business, taps the call button and starts talking. Halfway through the first sentence, you realize they are speaking Spanish, and you are the only one in the shop. What happens next may decide whether that person books a job with you or hangs up and tries the next listing. Most advice about Spanish-speaking customers stops at the click: the ad, the keywords, the website. This guide starts after it, when a Spanish speaker calls, texts or writes on WhatsApp. It is written for the owner who is not fluent in Spanish and wants a practical setup, not a promise the business cannot keep. Key Takeaways - Nationally, most people who speak another language at home speak Spanish, and most Spanish speakers also speak English \"very well.\" Being able to use English is not the same as choosing it, so the language of your first reply still matters. - Decide who answers Spanish calls, texts and WhatsApp messages before you advertise in Spanish. - Answer in the language the customer used, and never advertise \"we speak Spanish\" unless a real person can handle the whole conversation. - Use automatic messages as a hold, not a replacement, and keep price, address and schedule details in the hands of someone who can confirm them in the customer's language. Why Does the Language of Your First Reply Matter? Because the customer's first contact is also their first test of whether you can help. National data gives you a sense of the audience, though not of your town. In the Census",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/answer-spanish-speaking-customers-phone-whatsapp#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/answer-spanish-speaking-customers-phone-whatsapp"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Bilingual customer service"
+        },
+        {
+          "@type": "Thing",
+          "name": "WhatsApp for business"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local service business"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/answer-spanish-speaking-customers-phone-whatsapp",
+      "url": "https://etuos.com/en/blog/answer-spanish-speaking-customers-phone-whatsapp",
+      "name": "Spanish-Speaking Customers on the Phone and WhatsApp: How a Local Business Can Reply Well",
+      "description": "How a local business can answer Spanish-speaking customers by phone, text and WhatsApp: who picks up, what to say and which promises not to make.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/answer-spanish-speaking-customers-phone-whatsapp#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/answer-spanish-speaking-customers-phone-whatsapp#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/answer-spanish-speaking-customers-phone-whatsapp#primaryimage",
+      "url": "https://etuos.com/images/blog/answer-spanish-speaking-customers-phone-whatsapp.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Spanish-Speaking Customers on the Phone and WhatsApp: How a Local Business Can Reply Well"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/answer-spanish-speaking-customers-phone-whatsapp#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Spanish-Speaking Customers on the Phone and WhatsApp: How a Local Business Can Reply Well",
+          "item": "https://etuos.com/en/blog/answer-spanish-speaking-customers-phone-whatsapp"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/answer-spanish-speaking-customers-phone-whatsapp#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need a bilingual employee to serve Spanish-speaking customers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily, but someone must be able to handle the conversation if you advertise in Spanish. That can be a teammate, a partner or a person you train. We have no verified cost data, so judge the options against your own call and message log."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I answer a Spanish text in Spanish?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, reply in the language the customer used. If you do not speak Spanish, use a translation tool for a draft and have a Spanish speaker check price, address and schedule details first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is WhatsApp the best channel for Spanish-speaking customers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We cannot say. There is no verified data on how many Spanish-speaking customers prefer WhatsApp. Offer it only if you can check it, and keep the phone and text options open."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does an automatic reply count as answering?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It helps, but it is not a replacement. An automatic message confirms that the message arrived, and a person still needs to follow up with the details the customer asked for, in the same language."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I say \"we speak Spanish\" on my website or profile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if a person can handle the full conversation, from the first call to the follow-up. Otherwise, say what you can actually offer and fix the staffing first."
+          }
+        }
+      ]
+    }
+  ]
+}
