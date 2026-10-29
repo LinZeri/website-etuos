@@ -1,0 +1,189 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://etuos.com/en/blog/google-guaranteed-badge-local-services-ads#article",
+      "headline": "Google Guaranteed (Now Google Verified): What the Badge Means and How You Qualify",
+      "description": "Google Guaranteed is now the Google Verified badge. See what it signals, how Google screens businesses, why it can be missing, and how to qualify.",
+      "datePublished": "2026-11-03",
+      "dateModified": "2026-11-03",
+      "inLanguage": "en-US",
+      "wordCount": 2117,
+      "keywords": [
+        "google guaranteed",
+        "google verified badge",
+        "google guaranteed vs local services ads",
+        "how to get google guaranteed",
+        "local services ads",
+        "local service business"
+      ],
+      "articleSection": [
+        "Is Google Guaranteed the Same as Google Verified?",
+        "What Does the Google Verified Badge Mean?",
+        "How Do You Qualify for the Badge?",
+        "Why Can't Some Businesses Get the Badge?",
+        "Does the Badge Cost Extra?",
+        "What Happens After You Have the Badge?",
+        "Is the Badge Worth Pursuing?",
+        "Frequently Asked Questions",
+        "What Should You Do Next?"
+      ],
+      "articleBody": "If you searched for \"Google Guaranteed,\" you probably saw a green check on a competitor's listing and wondered how to get one. Here is the first thing to know: the program still exists, but the name changed. Google's current help pages call the badge Google Verified. \"Google Guaranteed\" is the old name, and it is still how most people search for it, which is why so many articles online mix the two. This guide is only about the badge: what it signals to customers, how a business earns it, why some businesses cannot get it, and what you can do to prepare. It does not compare Local Services Ads with regular search ads. For that choice, read our guide to Local Services Ads vs Google Ads. Key Tak",
+      "author": {
+        "@id": "https://etuos.com/en/about#lin-zeri"
+      },
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      },
+      "image": {
+        "@id": "https://etuos.com/en/blog/google-guaranteed-badge-local-services-ads#primaryimage"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://etuos.com/en/blog/google-guaranteed-badge-local-services-ads"
+      },
+      "isPartOf": {
+        "@id": "https://etuos.com/en/blog#blog"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Google Verified badge"
+        },
+        {
+          "@type": "Thing",
+          "name": "Local Services Ads"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://etuos.com/en/about#lin-zeri",
+      "name": "Lin Zeri",
+      "jobTitle": "Digital Marketing Strategist",
+      "url": "https://etuos.com/en/about",
+      "worksFor": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://etuos.com#organization",
+      "name": "Etuos",
+      "url": "https://etuos.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://etuos.com/images/logo.webp"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://etuos.com/en/blog#blog",
+      "name": "Etuos Blog",
+      "url": "https://etuos.com/en/blog",
+      "publisher": {
+        "@id": "https://etuos.com#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://etuos.com/en/blog/google-guaranteed-badge-local-services-ads",
+      "url": "https://etuos.com/en/blog/google-guaranteed-badge-local-services-ads",
+      "name": "Google Guaranteed (Now Google Verified): What the Badge Means and How You Qualify",
+      "description": "Google Guaranteed is now the Google Verified badge. See what it signals, how Google screens businesses, why it can be missing, and how to qualify.",
+      "primaryImageOfPage": {
+        "@id": "https://etuos.com/en/blog/google-guaranteed-badge-local-services-ads#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://etuos.com/en/blog/google-guaranteed-badge-local-services-ads#breadcrumb"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://etuos.com/en/blog/google-guaranteed-badge-local-services-ads#primaryimage",
+      "url": "https://etuos.com/images/blog/google-guaranteed-badge-local-services-ads.webp",
+      "width": 1200,
+      "height": 630,
+      "caption": "Google Guaranteed (Now Google Verified): What the Badge Means and How You Qualify"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://etuos.com/en/blog/google-guaranteed-badge-local-services-ads#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://etuos.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://etuos.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Google Guaranteed (Now Google Verified): What the Badge Means and How You Qualify",
+          "item": "https://etuos.com/en/blog/google-guaranteed-badge-local-services-ads"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://etuos.com/en/blog/google-guaranteed-badge-local-services-ads#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Google Guaranteed still a thing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The name is old. Google's current help pages call the badge Google Verified and do not use \"Google Guaranteed.\" People still search for the old name, so you will see it in older articles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the Google Verified badge mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It signals that your business passed Google's screening process. Provider profiles display the badge along with the specific verification checks the business completed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Google check before giving the badge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google says the screening procedures vary by category and region and may include license, insurance and background checks. Whenever applicable, each business must be insured, and the insurance type and minimum amount depend on the category and location."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which businesses cannot get the badge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google says the badge is currently unavailable for the auto, beauty and dining categories. For other trades, availability depends on category and region, so check the sign-up flow for your trade and city."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get the badge without Local Services Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google's pages describe the badge as part of Local Services Ads. They do not describe a way to get it outside that program."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the badge guarantee a better ad ranking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google's pages do not say that. They say your ad ranking may be affected if you regularly fail to answer calls or respond to messages."
+          }
+        }
+      ]
+    }
+  ]
+}
