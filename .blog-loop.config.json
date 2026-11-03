@@ -72,6 +72,18 @@
       "urlPrefix": "/en",
       "ctaPattern": "link to the Etuos WhatsApp (https://wa.me/5516991252073) with a contextual message at the end of the article, offering the free diagnostic. Internal links always carry the /en prefix.",
       "audience": "US small business owner (local services). Native US English written for that reader, never a translation of the Portuguese post. Same voice: 'you', short sentences, active voice."
+    },
+    "es": {
+      "_cadencia": "2 posts por semana (quarta e sexta), desde 04/11/2026. Decisao do dono em 21/10/2026.",
+      "blogDir": "content/blog/es",
+      "schemaDir": "content/blog/es/schemas",
+      "briefDir": "docs/briefs/es",
+      "queueFile": "docs/blog-queue-es.json",
+      "strategyFile": "docs/blog-strategy-es.md",
+      "inLanguage": "es",
+      "urlPrefix": "/es",
+      "ctaPattern": "enlace al WhatsApp de Etuos (https://wa.me/5516991252073) con mensaje en espanol segun el tema al final del articulo, ofreciendo el diagnostico gratis. Enlaces internos siempre con el prefijo /es.",
+      "audience": "Dueno hispano de negocio de servicios en Estados Unidos (Houston y Miami primero). Espanol neutro de Estados Unidos, escrito para ese lector, nunca traduccion de un articulo pt o en. Voz: 'tu', frases cortas, voz activa."
     }
   },
 

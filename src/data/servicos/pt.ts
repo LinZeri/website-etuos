@@ -86,7 +86,7 @@ export const servicosPt: Record<IdServico, ConteudoServico> = {
         criterio: "Primeiro contato",
         sozinho: "Semanas de tentativa e erro",
         agencia: "Depende do pacote",
-        etuos: "Costuma chegar na primeira semana",
+        etuos: "Costuma chegar cedo, sem promessa de data",
       },
       {
         criterio: "Relatório",
@@ -110,7 +110,7 @@ export const servicosPt: Record<IdServico, ConteudoServico> = {
       {
         pergunta: "Em quanto tempo o anúncio começa a trazer cliente?",
         resposta:
-          "Campanha bem montada costuma gerar os primeiros contatos já na primeira semana. O ajuste fino leva de 30 a 60 dias, que é o tempo de descobrir quais anúncios, públicos e horários rendem mais no seu caso. Depois disso, é escalar o que funciona.",
+          "Campanha bem montada costuma gerar os primeiros contatos cedo, mas o ritmo depende do setor, da cidade e da verba. O ajuste fino leva um tempo, que é o de descobrir quais anúncios, públicos e horários rendem mais no seu caso. Depois disso, é escalar o que funciona.",
       },
       {
         pergunta: "A gestão é cobrada junto com a verba de anúncio?",
@@ -215,8 +215,8 @@ export const servicosPt: Record<IdServico, ConteudoServico> = {
       {
         criterio: "Prazo",
         sozinho: "Anos, sem saber se está no caminho",
-        agencia: "Primeira página em 30 dias (não existe)",
-        etuos: "Primeiros movimentos em 60 a 90 dias, com meta medida",
+        agencia: "Primeira página garantida (não existe)",
+        etuos: "Primeiros movimentos aparecem aos poucos, com meta medida",
       },
       {
         criterio: "Parte técnica",
@@ -229,7 +229,7 @@ export const servicosPt: Record<IdServico, ConteudoServico> = {
       {
         pergunta: "Em quanto tempo o SEO dá resultado?",
         resposta:
-          "Os primeiros movimentos costumam aparecer entre 60 e 90 dias, e o resultado forte vem depois do sexto mês. SEO é juro composto: cada mês de trabalho soma ao anterior. Quem promete primeira página em 30 dias está vendendo ilusão, e a gente prefere perder o contrato a mentir.",
+          "Os primeiros movimentos aparecem aos poucos, e o resultado forte vem com os meses de trabalho. SEO é juro composto: cada mês de trabalho soma ao anterior. Quem promete primeira página garantida está vendendo ilusão, e a gente prefere perder o contrato a mentir.",
       },
       {
         pergunta: "Quanto custa fazer SEO?",
@@ -353,7 +353,7 @@ export const servicosPt: Record<IdServico, ConteudoServico> = {
       {
         pergunta: "Quanto tempo leva para o site ficar pronto?",
         resposta:
-          "Um site institucional de poucas páginas costuma ficar pronto em duas a quatro semanas. O que mais atrasa não é o desenvolvimento: são as fotos, as informações do seu negócio e a sua aprovação. Com o material em mãos, anda rápido.",
+          "Um site institucional de poucas páginas costuma andar rápido quando o material chega. O que mais atrasa não é o desenvolvimento: são as fotos, as informações do seu negócio e a sua aprovação. No diagnóstico a gente combina o prazo do seu caso.",
       },
       {
         pergunta: "O site fica em português ou em inglês?",

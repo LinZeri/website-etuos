@@ -408,7 +408,7 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
       },
       {
         pergunta: "Estou chegando agora em Atlanta. Por onde começo?",
-        resposta: "Pelo perfil no Google e por uma página que explique o que você faz, para quem e onde. Com isso no ar, o tráfego pago traz os primeiros clientes em semanas, enquanto o SEO começa a construir o que vai te sustentar depois. Fazer na ordem inversa custa mais caro."
+        resposta: "Pelo perfil no Google e por uma página que explique o que você faz, para quem e onde. Com isso no ar, o tráfego pago pode trazer os primeiros clientes cedo, enquanto o SEO começa a construir o que vai te sustentar depois. Fazer na ordem inversa custa mais caro."
       },
       {
         pergunta: "Dá para atender clientes espalhados por Marietta, Alpharetta e Buford?",

@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "health_score": 88,
+    "business_type": "Agencia de marketing digital remota (sem endereco fisico) com paginas de cidade e blog, em pt/en/es",
+    "top_findings": [
+      "Prazos sem fonte (30 a 60 dias, 60 a 90 dias, duas a quatro semanas) na copy e no JSON-LD FAQPage nos 3 idiomas",
+      "lastmod do sitemap identico em 63 de 122 URLs (data de build)",
+      "/es/blog indexavel e no sitemap sem nenhum artigo",
+      "Sem sameAs em Organization e Person",
+      "Trafego organico ainda minimo: 754 impressoes e 2 cliques em 28 dias (GSC), 2 sessoes organicas (GA4)"
+    ],
+    "quick_wins": [
+      "og:locale es_ES para es_US",
+      "lastmod a partir da data real de edicao",
+      "Cache longo para /images/*",
+      "noindex temporario em /es/blog",
+      "Reescrever prazos de forma qualitativa"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": 88,
+      "what_works": ["122/122 URLs 200", "canonical correto em todas", "hreflang reciproco no HTML e no sitemap", "redirects 308/307 corretos", "HSTS e headers de seguranca", "SSG com cache HIT na edge"],
+      "findings": [
+        {"title": "lastmod do sitemap replicado", "severity": "Medium", "description": "63 das 122 URLs com 2026-10-14T08:20:48-03:00", "recommendation": "Usar a data real de edicao do conteudo"},
+        {"title": "Cache de /images/* curto", "severity": "Medium", "description": "Cache-Control public, max-age=0, must-revalidate", "recommendation": "headers() em next.config.ts com max-age longo"},
+        {"title": "HSTS sem includeSubDomains/preload", "severity": "Low", "description": "max-age=63072000 apenas", "recommendation": "Adicionar se todos os subdominios forem HTTPS"}
+      ]
+    },
+    {
+      "name": "Content Quality",
+      "score": 84,
+      "what_works": ["Blog com media de 2.513 palavras", "Paginas de cidade com texto unico por idioma", "Autor identificado", "FAQs"],
+      "findings": [
+        {"title": "Prazos sem fonte", "severity": "High", "description": "Prazos e janelas de resultado na FAQ da home, servicos e JSON-LD, nos 3 idiomas", "recommendation": "Reescrever de forma qualitativa ou registrar fonte"},
+        {"title": "/es/blog sem artigos", "severity": "Medium", "description": "187 palavras, indexavel, no sitemap", "recommendation": "noindex e fora do sitemap ate o primeiro lote"},
+        {"title": "Hubs curtos", "severity": "Low", "description": "/servicos e /cidades com 375 a 447 palavras", "recommendation": "Adicionar contexto e guia de escolha"}
+      ]
+    },
+    {
+      "name": "On-Page SEO",
+      "score": 90,
+      "what_works": ["Titulos unicos", "Descricoes unicas 70 a 165 caracteres", "1 H1 por pagina", "OG e Twitter Card completos", "Zero paginas orfas"],
+      "findings": [
+        {"title": "og:locale es_ES", "severity": "Low", "description": "Publico e a comunidade hispanica dos EUA", "recommendation": "Usar es_US"},
+        {"title": "Titulo curto em /en/privacy-policy", "severity": "Low", "description": "22 caracteres", "recommendation": "Incluir marca"}
+      ]
+    },
+    {
+      "name": "Schema / Structured Data",
+      "score": 82,
+      "what_works": ["JSON-LD em 100% das paginas", "Organization, WebSite, BreadcrumbList, BlogPosting, Person, Service, FAQPage"],
+      "findings": [
+        {"title": "Sem sameAs", "severity": "Medium", "description": "Organization e Person sem perfis externos", "recommendation": "Adicionar LinkedIn e redes ativas"},
+        {"title": "Telefone +55 em en/es", "severity": "Low", "description": "Pendencia conhecida do numero americano", "recommendation": "Trocar quando existir"}
+      ]
+    },
+    {
+      "name": "Performance (CWV)",
+      "score": 98,
+      "what_works": ["PageSpeed mobile 99 e desktop 100", "LCP 2,1 s, TBT 10 ms, CLS 0 na home en mobile", "SSG na edge Vercel", "Fontes woff2 com preload"],
+      "findings": [
+        {"title": "Sem dados de campo (CrUX)", "severity": "Info", "description": "Trafego do Chrome insuficiente para gerar historico", "recommendation": "Reavaliar quando o volume crescer"},
+        {"title": "Amostra pequena", "severity": "Low", "description": "Apenas 2 paginas medidas", "recommendation": "Medir um artigo longo e uma pagina de servico"},
+        {"title": "JavaScript nao usado", "severity": "Low", "description": "Ganho estimado de 150 ms", "recommendation": "Revisar chunks carregados na home"}
+      ]
+    },
+    {
+      "name": "AI Search Readiness",
+      "score": 85,
+      "what_works": ["llms.txt completo", "robots.txt aberto", "Conteudo em respostas diretas", "Blog com fontes verificadas"],
+      "findings": [
+        {"title": "Poucos sinais externos de entidade", "severity": "Medium", "description": "Sem sameAs e sem mencoes de terceiros verificaveis", "recommendation": "Perfis, diretorios e avaliacoes publicas"}
+      ]
+    },
+    {
+      "name": "Images",
+      "score": 90,
+      "what_works": ["100% com alt", "WebP", "OG 1200x630 com alt"],
+      "findings": [
+        {"title": "Cache curto", "severity": "Medium", "description": "Ver Technical SEO", "recommendation": "Cache longo em /images/*"}
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {"name": "Phase 1: Critical Fixes", "timeframe": "Week 1", "items": ["Reescrever prazos sem fonte (copy e JSON-LD)", "Reforcar os artigos planejador-de-palavras-chave-google-ads e small-business-website-design-cost"]},
+      {"name": "Phase 2: High-Impact Improvements", "timeframe": "Weeks 2-3", "items": ["lastmod real no sitemap", "noindex em /es/blog ate haver artigos", "Cache longo em /images/*", "sameAs em Organization e Person"]},
+      {"name": "Phase 3: Content & Authority", "timeframe": "Month 2", "items": ["Expandir hubs de servicos e cidades", "Construir mencoes externas e perfis", "og:locale es_US"]},
+      {"name": "Phase 4: Monitoring & Iteration", "timeframe": "Ongoing", "items": ["Reauditar em 30 dias", "Reenviar sitemap e acompanhar indexacao", "Manter cadencia do blog com fontes registradas"]}
+    ]
+  },
+  "artifacts": {"findings_dir": "findings/", "screenshots_dir": "screenshots/"}
+}

@@ -79,7 +79,7 @@ export const lpSeoPt = {
     {
       pergunta: "Em quanto tempo o SEO dá resultado?",
       resposta:
-        "Os primeiros movimentos costumam aparecer entre 60 e 90 dias. SEO é juro composto: cada mês de trabalho soma ao anterior. Quem promete primeira página em 30 dias está vendendo ilusão.",
+        "Os primeiros movimentos aparecem aos poucos. SEO é juro composto: cada mês de trabalho soma ao anterior. Quem promete primeira página garantida está vendendo ilusão.",
     },
     {
       pergunta: "Tem contrato de fidelidade?",

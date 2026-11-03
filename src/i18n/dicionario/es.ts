@@ -195,7 +195,7 @@ export const es = {
       {
         pergunta: "¿En cuánto tiempo veo resultados?",
         resposta:
-          "Los anuncios pagados suelen traer los primeros contactos en la primera semana y se estabilizan en 30 a 60 días. El SEO muestra los primeros movimientos entre 60 y 90 días y el resultado fuerte después del sexto mes. Un sitio web nuevo queda listo en dos a cuatro semanas. En el diagnóstico te decimos qué camino tiene sentido primero.",
+          "Los anuncios pagados suelen traer los primeros contactos pronto, pero todavía necesitan ajustes hasta estabilizarse. El SEO es trabajo de meses: los primeros movimientos aparecen poco a poco y el resultado fuerte llega después. Un sitio web nuevo avanza rápido cuando llega el material. En el diagnóstico te decimos qué camino tiene sentido primero y el plazo para tu caso.",
       },
       {
         pergunta: "¿Atienden mi ciudad?",
@@ -270,7 +270,7 @@ export const es = {
       {
         pergunta: "Mi negocio es pequeño. ¿Vale la pena anunciar?",
         resposta:
-          "Vale, siempre que apuntes bien: un servicio, un público, una oferta clara. Con una inversión modesta y la segmentación correcta, un negocio local suele ver los primeros contactos en la primera semana. En el diagnóstico calculamos el número para tu caso y te decimos si las cuentas cierran.",
+          "Vale, siempre que apuntes bien: un servicio, un público, una oferta clara. Con una inversión modesta y la segmentación correcta, un negocio local suele ver los primeros contactos pronto. En el diagnóstico calculamos el número para tu caso y te decimos si las cuentas cierran.",
       },
       {
         pergunta: "Mi cliente en Brasil habla portugués. ¿Quién escribe los anuncios?",

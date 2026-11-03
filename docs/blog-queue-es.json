@@ -1,0 +1,9 @@
+{
+ "updated": "2026-10-21T00:00:00+00:00",
+ "description": "Cola de produccion en espanol del blog-loop de Etuos. Independiente de las colas pt y en: otro publico, otras keywords, sin 'grupo' en el frontmatter y sin hreflang entre idiomas. Las pautas salen de docs/blog-strategy-es.md (2 por semana, miercoles y viernes, desde 04/11/2026). Reglas duras: espanol neutro de Estados Unidos para el dueno hispano, sin raya, autor Lin Zeri, CTA de WhatsApp al final, enlaces internos siempre con /es, estadisticas solo de docs/blog-dominios-confiaveis.md. 'image_context' es la escena para scripts/gerar-imagem-blog.mjs (fotorrealista, sin texto).",
+ "authors": [
+  "lin-zeri"
+ ],
+ "items": [],
+ "author_daily_counts": {}
+}

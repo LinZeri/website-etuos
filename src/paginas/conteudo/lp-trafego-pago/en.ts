@@ -81,7 +81,7 @@ export const lpTrafegoPagoEn = {
     {
       pergunta: "How long until ads start bringing in customers?",
       resposta:
-        "A well-built campaign usually generates the first leads in the first week. Fine-tuning takes 30 to 60 days, which is the time it takes to find out what performs best in your case.",
+        "A well-built campaign usually generates the first leads early, though the pace depends on your industry, your city and your budget. Fine-tuning takes a while, because that's how long it takes to find out what performs best in your case.",
     },
     {
       pergunta: "What's the minimum budget to make it worthwhile?",

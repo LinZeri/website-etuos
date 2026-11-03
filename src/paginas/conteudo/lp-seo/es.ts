@@ -81,7 +81,7 @@ export const lpSeoEs = {
     {
       pergunta: "¿En cuánto tiempo el SEO da resultado?",
       resposta:
-        "Los primeros movimientos suelen aparecer entre 60 y 90 días. El SEO es interés compuesto: cada mes de trabajo se suma al anterior. Quien promete primera página en 30 días está vendiendo una ilusión.",
+        "Los primeros movimientos aparecen poco a poco. El SEO es interés compuesto: cada mes de trabajo se suma al anterior. Quien promete primera página garantizada está vendiendo una ilusión.",
     },
     {
       pergunta: "¿Hay contrato de permanencia?",

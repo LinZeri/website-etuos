@@ -88,7 +88,7 @@ export const servicosEs: Record<IdServico, ConteudoServico> = {
         criterio: "Primer contacto",
         sozinho: "Semanas de prueba y error",
         agencia: "Depende del paquete",
-        etuos: "Suele llegar en la primera semana",
+        etuos: "Suele llegar pronto, sin prometer fecha",
       },
       {
         criterio: "Reporte",
@@ -112,7 +112,7 @@ export const servicosEs: Record<IdServico, ConteudoServico> = {
       {
         pergunta: "¿En cuánto tiempo el anuncio empieza a traer clientes?",
         resposta:
-          "Una campaña bien armada suele generar los primeros contactos en la primera semana. El ajuste fino toma de 30 a 60 días, que es el tiempo que lleva descubrir qué anuncios, públicos y horarios rinden más en tu caso. Después de eso, es escalar lo que funciona.",
+          "Una campaña bien armada suele generar los primeros contactos pronto, aunque el ritmo depende del sector, la ciudad y la inversión. El ajuste fino toma un tiempo, que es el que lleva descubrir qué anuncios, públicos y horarios rinden más en tu caso. Después de eso, es escalar lo que funciona.",
       },
       {
         pergunta: "¿La gestión se cobra junto con el presupuesto de anuncios?",
@@ -217,8 +217,8 @@ export const servicosEs: Record<IdServico, ConteudoServico> = {
       {
         criterio: "Plazo",
         sozinho: "Años, sin saber si vas por buen camino",
-        agencia: "Primera página en 30 días (no existe)",
-        etuos: "Primeros movimientos en 60 a 90 días, con meta medida",
+        agencia: "Primera página garantizada (no existe)",
+        etuos: "Los primeros movimientos aparecen poco a poco, con meta medida",
       },
       {
         criterio: "Parte técnica",
@@ -231,7 +231,7 @@ export const servicosEs: Record<IdServico, ConteudoServico> = {
       {
         pergunta: "¿En cuánto tiempo el SEO da resultados?",
         resposta:
-          "Los primeros movimientos suelen aparecer entre los 60 y 90 días, y el resultado fuerte llega después del sexto mes. El SEO es interés compuesto: cada mes de trabajo se suma al anterior. Quien promete primera página en 30 días está vendiendo una ilusión, y preferimos perder el contrato antes que mentir.",
+          "Los primeros movimientos aparecen poco a poco, y el resultado fuerte llega con los meses de trabajo. El SEO es interés compuesto: cada mes de trabajo se suma al anterior. Quien promete primera página garantizada está vendiendo una ilusión, y preferimos perder el contrato antes que mentir.",
       },
       {
         pergunta: "¿Cuánto cuesta hacer SEO?",
@@ -355,7 +355,7 @@ export const servicosEs: Record<IdServico, ConteudoServico> = {
       {
         pergunta: "¿Cuánto tiempo toma tener el sitio listo?",
         resposta:
-          "Un sitio institucional de pocas páginas suele estar listo en dos a cuatro semanas. Lo que más atrasa no es el desarrollo: son las fotos, la información de tu negocio y tu aprobación. Con el material en mano, avanza rápido.",
+          "Un sitio institucional de pocas páginas suele avanzar rápido cuando llega el material. Lo que más atrasa no es el desarrollo: son las fotos, la información de tu negocio y tu aprobación. En el diagnóstico acordamos el plazo para tu caso.",
       },
       {
         pergunta: "¿El sitio queda en español o en inglés?",

@@ -3,6 +3,118 @@
 Date: 22/09/2026. Inputs: Google Ads search volumes for the United States pulled from DataForSEO on 22/09/2026, the English site copy (`src/data/servicos/en.ts`, `src/paginas/conteudo/sobre/en.ts`), `docs/seo.md` and `docs/escopo.md`.
 
 > This document drives the **English** production queue (`docs/blog-queue-en.json`). It is independent from the Portuguese strategy (`docs/blog-strategy.md`): different reader, different keywords, no hreflang between the two. An English post is never a translation of a Portuguese one.
+>
+> **Update 10/20/2026: Phase 2 (right below) drives production from 11/02/2026 to 01/29/2027.** Pillars 1 and 2 are closed and pillars 3 to 5 had one or two topics left. Refill the queue from Phase 2. Audience, editorial rules and the CTA framework further down still apply.
+
+## Phase 2: November 2026 to January 2027
+
+Inputs: Search Console 07/20 to 10/18/2026 (`docs/gsc/gsc-2026-10-18.json`), DataForSEO Google Ads volumes for the United States pulled 10/20/2026, the SEO audit of 10/20/2026 (`etuos-audit/`, score 86/100) and the industries list on the About page (`src/paginas/conteudo/sobre/en.ts`).
+
+### Where we are
+
+- 34 English posts published or scheduled through 10/30.
+- Search Console, 90 days: 340 impressions and 2 clicks site wide. The English blog is already the largest share of blog impressions: `small-business-website-design-cost` (38 impressions, average position 75, a dozen "small business website cost" variants), the GBP checklist (7, position 55), negative reviews (7, position 8.7) and the local SEO hub (7, position 45).
+- Queries in the 8 to 30 band on the English blog: "local seo for service businesses" (26), "adwords quality score checker" (21). Thin, as expected for posts under six weeks old.
+- AI citations: zero at the 10/09 baseline; next check early November.
+
+### Phase 2 thesis
+
+Phase 1 covered getting found (local search) and paying for clicks (paid ads). Phase 2 covers what decides whether those clicks become revenue, and the moment an owner decides to hire help:
+
+1. **Industry playbooks, only for industries Etuos has actually served.** The About page lists them: real estate, construction and remodeling, solar energy, battery and energy backup, aesthetics and beauty, medical practices, psychology, restaurants, cleaning, financial services, events, fashion and apparel, journalism. Plumbers (480/month), auto repair (720), pest control (320) and dental (1,300) have volume but stay out until they are real experience.
+2. **Lead to customer.** "crm for small business" (4,400), "call tracking" (1,600), "speed to lead" (880): owner-level problems with SaaS-dominated SERPs that never speak to a service business.
+3. **Beyond Google.** "google guaranteed" (4,400) and "nextdoor advertising" (2,900) are the two biggest local ad terms we have not touched.
+4. **Hiring marketing help.** "what does a marketing agency do" (390, competition 9), "how to choose a marketing agency" (110, rising to 260 in 2026), "local seo cost" (140, competition 1). Bottom of funnel, closest to the WhatsApp conversion.
+
+**Price rule:** cost posts explain what drives the price and quote ranges only from a registered external source. Never an Etuos price.
+
+### Pillar 3 (reopened): Industry playbooks
+
+| # | Working title | Template | Target keyword | US volume |
+|---|---|---|---|---|
+| 1 | Solar lead generation: what scaled a solar network from 30 to 300+ franchises | case-study | solar lead generation | 590 |
+| 2 | Real estate agent marketing that brings listings, not just likes | how-to-guide | real estate agent marketing | 720 |
+| 3 | Medical practice marketing within HIPAA and advertising rules | how-to-guide | medical practice marketing | 320 |
+| 4 | Therapist marketing: filling a private practice without ethics problems | how-to-guide | therapist marketing | 390 + 110 |
+| 5 | Financial advisor marketing under the SEC marketing rule | how-to-guide | financial advisor marketing | 320 |
+| 6 | Home battery backup marketing: selling resilience after the outage | thought-leadership | solar battery marketing | (no data) |
+| 7 | Boutique marketing: local foot traffic plus Instagram | listicle | boutique marketing | 90 |
+| 8 | Event planner marketing: booking the calendar past word of mouth | how-to-guide | event planner marketing | 70 |
+
+YMYL note: posts 3, 4 and 5 ship only with the governing rule (HHS for HIPAA, the SEC marketing rule, the relevant licensing board guidance) registered in `docs/blog-fontes-verificadas.md` first. Post 1 is the strongest E-E-A-T piece on the English blog: first-hand, uses only the authorized franchise numbers, and never names the client.
+
+### Pillar 6 (new): Lead to customer
+
+- **Hub**: the lead to customer system for a local service business: answer fast, track the source, follow up, ask for the review.
+- The published `what-to-do-with-leads-from-google-ads` becomes a spoke and links the new hub.
+
+| # | Working title | Template | Target keyword | US volume |
+|---|---|---|---|---|
+| P | From lead to paying customer: the system a local service business needs | pillar-page | lead management for small business | (long tail) |
+| 1 | Speed to lead: why the first business to answer usually wins the job | data-research | speed to lead | 880 |
+| 2 | Call tracking for a small business: what it shows and what it costs | tutorial | call tracking | 1,600 |
+| 3 | CRM for a service business: what you actually need (and what you don't) | comparison | crm for small business | 4,400 |
+| 4 | The cost of a missed call, and how to stop missing them | how-to-guide | missed calls small business | (long tail) |
+| 5 | Tracking WhatsApp, calls and forms in GA4 without a developer | tutorial | track conversions ga4 | (long tail) |
+
+Spoke 1 and spoke 4 depend on sourced response time data; without a registered source they ship qualitative, with no number.
+
+### Pillar 2 (extended): Beyond Google
+
+| # | Working title | Template | Target keyword | US volume |
+|---|---|---|---|---|
+| 1 | Google Guaranteed: what the badge means, what it costs and how to get it | faq-knowledge | google guaranteed | 4,400 |
+| 2 | Nextdoor advertising for local businesses: who it works for | comparison | nextdoor advertising | 2,900 |
+| 3 | Are Yelp ads worth it for a service business? | comparison | yelp ads worth it | 50 |
+| 4 | Retargeting for a local business: when it pays and when it is wasted money | faq-knowledge | retargeting for local business | (long tail) |
+
+Spoke 1 must stay distinct from the published LSA versus Google Ads post: the intent here is the badge and the verification process, not the channel choice. Link both ways.
+
+### Pillar 7 (new): Hiring marketing help
+
+| # | Working title | Template | Target keyword | US volume |
+|---|---|---|---|---|
+| P | What a marketing agency actually does for a local business | pillar-page | what does a marketing agency do | 390 |
+| 1 | How to choose a marketing agency: a checklist from the inside | how-to-guide | how to choose a marketing agency | 110 |
+| 2 | Questions to ask a marketing agency before you sign | faq-knowledge | questions to ask a marketing agency | 30 |
+| 3 | How to choose an SEO company without getting burned | how-to-guide | how to choose an seo company | 90 |
+| 4 | How much local SEO costs, and what you should get for it | data-research | local seo cost | 140 |
+| 5 | Signs your marketing agency is not working | listicle | (long tail) | (no data) |
+| 6 | Who owns your Google Ads account? What to check in an agency contract | faq-knowledge | (long tail) | (no data) |
+
+Internal links: `/en/about`, `/en/services`. No self-praise: the posts teach how to evaluate any agency, Etuos included.
+
+### Standalone authority item
+
+- **Franchise marketing** (1,000/month, very seasonal: 3,600 in 10/2025, 260 in 09/2026): local marketing for a multi-location brand, written from the solar network experience. The standalone item for November.
+
+### Pillar 5 and pillar 4 (continue)
+
+- **Refresh first, write second.** `small-business-website-design-cost` is the English page with the most impressions but sits at position 75. November refresh: match the SERP intent (price ranges with registered sources, a cost table, an answer capsule in the first 60 words) and add "how much should a small business website cost" as an H2.
+- Pillar 5 spokes: what makes a service page convert (planned in Phase 1); mobile speed for a small business site; click to call and WhatsApp buttons that get measured.
+- Pillar 4 city reads (December): Houston first, given the Spanish language search signal on `/es/ciudades/houston`, then Miami, Newark and Framingham. Census sources registered before writing.
+
+### Production order
+
+Alternate pillars every week. Hubs ship in the first week of their pillar.
+
+| Week of | Items |
+|---|---|
+| 11/02 | Pillar 6 hub, Google Guaranteed, solar lead generation, website cost refresh |
+| 11/09 | Pillar 7 hub, Nextdoor advertising, CRM for a service business, real estate agent marketing |
+| 11/16 | Speed to lead, how to choose a marketing agency, therapist marketing, franchise marketing |
+| 11/23 | Thanksgiving week: 2 posts (call tracking, local SEO cost) |
+| 11/30 to 12/21 | Remaining pillar 2, 3, 6 and 7 spokes, pillar 5 spokes, Houston city read |
+| January | Remaining city reads, Search Console reinforcement spokes, two refreshes per month |
+
+That is 33 new topics plus 1 refresh for about 9 weeks of production. Week of 12/28: minimum cadence (2 posts).
+
+### Phase 2 targets (by 01/29/2027)
+
+- 15+ English blog pages with impressions in Search Console; 5+ queries in positions 1 to 20.
+- `small-business-website-design-cost` inside the top 30 for its main query after the refresh.
+- First Etuos mention in ChatGPT or Google AI Overviews for any monitored query. Add "how to choose a marketing agency for a local business" and "google guaranteed vs local services ads" to `docs/ai-citation-log.md`.
+- Entity signal: the company LinkedIn is in the Organization `sameAs` since 10/21 (`site.perfis` in `src/data/site.ts`). Still missing: Lin's personal LinkedIn (Person `sameAs`) and an agency directory profile (Clutch). Without third party mentions, more posts alone will not move AI citations.
 
 ## Executive summary
 

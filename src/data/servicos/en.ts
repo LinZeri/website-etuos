@@ -87,7 +87,7 @@ export const servicosEn: Record<IdServico, ConteudoServico> = {
         criterio: "First lead",
         sozinho: "Weeks of trial and error",
         agencia: "Depends on the package",
-        etuos: "Usually arrives in the first week",
+        etuos: "Usually arrives early, with no date promised",
       },
       {
         criterio: "Reporting",
@@ -111,7 +111,7 @@ export const servicosEn: Record<IdServico, ConteudoServico> = {
       {
         pergunta: "How long until the ads start bringing in customers?",
         resposta:
-          "A well-built campaign usually generates the first leads within the first week. Fine-tuning takes 30 to 60 days, which is how long it takes to learn which ads, audiences and times of day perform best for your business. After that, it's a matter of scaling what works.",
+          "A well-built campaign usually generates the first leads early, though the pace depends on your industry, your city and your budget. Fine-tuning takes a while, because that's how long it takes to learn which ads, audiences and times of day perform best for your business. After that, it's a matter of scaling what works.",
       },
       {
         pergunta: "Is the management fee charged together with the ad budget?",
@@ -216,8 +216,8 @@ export const servicosEn: Record<IdServico, ConteudoServico> = {
       {
         criterio: "Timeline",
         sozinho: "Years, never sure you're on track",
-        agencia: "Page one in 30 days (doesn't exist)",
-        etuos: "First movement in 60 to 90 days, against a measured goal",
+        agencia: "Guaranteed page one (doesn't exist)",
+        etuos: "First movement builds gradually, against a measured goal",
       },
       {
         criterio: "Technical side",
@@ -230,7 +230,7 @@ export const servicosEn: Record<IdServico, ConteudoServico> = {
       {
         pergunta: "How long does SEO take to show results?",
         resposta:
-          "The first movement usually shows up between 60 and 90 days, and the strong results come after month six. SEO is compound interest: every month of work adds to the last. Whoever promises page one in 30 days is selling an illusion, and we'd rather lose the contract than lie.",
+          "The first movement builds gradually, and the strong results come with months of work. SEO is compound interest: every month of work adds to the last. Whoever promises a guaranteed page one is selling an illusion, and we'd rather lose the contract than lie.",
       },
       {
         pergunta: "How much does SEO cost?",
@@ -354,7 +354,7 @@ export const servicosEn: Record<IdServico, ConteudoServico> = {
       {
         pergunta: "How long does it take to get the site ready?",
         resposta:
-          "A business site with a few pages is usually ready in two to four weeks. What slows things down isn't the development: it's the photos, the information about your business and your approval. With the material in hand, it moves fast.",
+          "A business site with a few pages usually moves fast once the material arrives. What slows things down isn't the development: it's the photos, the information about your business and your approval. In the diagnosis we agree on a timeline for your case.",
       },
       {
         pergunta: "Can the site be in English and in Spanish (or another language)?",

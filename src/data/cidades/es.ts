@@ -145,7 +145,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
       },
       {
         pergunta: "¿Cuánto tarda en dar resultado el marketing en Fort Lauderdale?",
-        resposta: "Los anuncios en Google traen las primeras llamadas en los primeros días, porque el cliente que busca \"reparación de aire acondicionado\" necesita ayuda hoy. El SEO local es más lento: el Perfil de Negocio de Google mejora en semanas, y las páginas por ciudad suelen tomar unos meses para posicionarse. Por eso combinamos las dos cosas: los anuncios pagan la cuenta mientras el SEO construye un flujo de clientes que no depende de tu presupuesto."
+        resposta: "Los anuncios en Google traen las primeras llamadas pronto, porque el cliente que busca \"reparación de aire acondicionado\" necesita ayuda hoy. El SEO local es más lento: el Perfil de Negocio de Google mejora poco a poco, y las páginas por ciudad toman más tiempo para posicionarse. Por eso combinamos las dos cosas: los anuncios pagan la cuenta mientras el SEO construye un flujo de clientes que no depende de tu presupuesto."
       }
     ]
   },
@@ -330,7 +330,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
     descricaoCurta: "Un mercado mediano de Connecticut donde el SEO local paga rápido y pocos negocios hispanos lo aprovechan.",
     introducao: [
       "Etuos ayuda a negocios hispanos de Danbury y pueblos vecinos como Bethel, Brookfield y New Milford a ocupar el mapa de Google, con anuncios pagados, SEO local y sitios web sencillos. La comunidad ecuatoriana, dominicana, mexicana y colombiana del centro mueve restaurantes, paisajismo, construcción y talleres que hoy crecen casi solo por recomendación.",
-      "Lo interesante de Danbury es lo que todavía no pasa: muy pocos de esos negocios trabajan Google en serio. Eso deja las primeras posiciones del mapa casi libres en muchos rubros. En un mercado así, el SEO local no tarda un año en rendir: un Perfil de Negocio de Google bien hecho y un sitio claro pueden ponerte adelante en semanas. Es el momento de entrar, antes de que la competencia se despierte."
+      "Lo interesante de Danbury es lo que todavía no pasa: muy pocos de esos negocios trabajan Google en serio. Eso deja las primeras posiciones del mapa casi libres en muchos rubros. En un mercado así, el SEO local puede rendir antes que en una ciudad grande: un Perfil de Negocio de Google bien hecho y un sitio claro pueden ponerte adelante. Es el momento de entrar, antes de que la competencia se despierte."
     ],
     nichos: [
       "Paisajismo y jardinería",
@@ -357,7 +357,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
     faq: [
       {
         pergunta: "¿Por qué dicen que el SEO local funciona rápido en Danbury?",
-        resposta: "Porque hay menos competencia por cada búsqueda que en una ciudad grande. En Miami o Boston, docenas de negocios pelean por \"paisajismo cerca de mí\"; en Danbury son unos pocos, y varios tienen el perfil de Google incompleto. Cuando dejamos el tuyo bien hecho, con reseñas y fotos, Google tiene motivos para mostrarte primero. No prometemos fechas, pero en mercados así los primeros resultados suelen llegar en semanas, no en un año."
+        resposta: "Porque hay menos competencia por cada búsqueda que en una ciudad grande. En Miami o Boston, docenas de negocios pelean por \"paisajismo cerca de mí\"; en Danbury son unos pocos, y varios tienen el perfil de Google incompleto. Cuando dejamos el tuyo bien hecho, con reseñas y fotos, Google tiene motivos para mostrarte primero. No prometemos fechas, pero en mercados así los primeros resultados suelen llegar antes que en una ciudad grande."
       },
       {
         pergunta: "¿Debo cubrir también los pueblos de alrededor?",
@@ -405,7 +405,7 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
       },
       {
         pergunta: "¿Tiene sentido empezar con SEO o con anuncios en Atlanta?",
-        resposta: "Con los dos a la vez, si el presupuesto lo permite, porque cumplen funciones distintas. Los anuncios en Google traen clientes desde la primera semana y te dicen qué palabras y qué suburbios rinden mejor. El SEO local usa esa información para construir presencia en el mapa que no depende de pagar cada clic. En Atlanta, donde todavía hay huecos en las búsquedas en español, el SEO tiene un retorno especialmente bueno."
+        resposta: "Con los dos a la vez, si el presupuesto lo permite, porque cumplen funciones distintas. Los anuncios en Google traen clientes pronto y te dicen qué palabras y qué suburbios rinden mejor. El SEO local usa esa información para construir presencia en el mapa que no depende de pagar cada clic. En Atlanta, donde todavía hay huecos en las búsquedas en español, el SEO tiene un retorno especialmente bueno."
       },
       {
         pergunta: "¿Cómo compito con las empresas grandes de Atlanta?",

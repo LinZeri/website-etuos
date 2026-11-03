@@ -81,7 +81,7 @@ export const lpTrafegoPagoEs = {
     {
       pergunta: "¿En cuánto tiempo los anuncios empiezan a traer clientes?",
       resposta:
-        "Una campaña bien armada suele generar los primeros contactos en la primera semana. El ajuste fino toma de 30 a 60 días, que es el tiempo para descubrir qué rinde más en tu caso.",
+        "Una campaña bien armada suele generar los primeros contactos pronto, aunque el ritmo depende del sector, la ciudad y la inversión. El ajuste fino toma un tiempo, que es el que lleva descubrir qué rinde más en tu caso.",
     },
     {
       pergunta: "¿Cuál es el presupuesto mínimo para que valga la pena?",

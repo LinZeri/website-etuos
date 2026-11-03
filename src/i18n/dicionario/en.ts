@@ -205,7 +205,7 @@ export const en = {
       {
         pergunta: "How soon will I see results?",
         resposta:
-          "Paid ads usually bring the first leads within the first week and settle in over 30 to 60 days. SEO shows early movement between 60 and 90 days, with the strong results after month six. A new website is ready in two to four weeks. In the diagnosis we tell you which path makes sense first.",
+          "Paid ads usually bring the first leads early, but they still need tuning before they settle. SEO is a months-long job: early movement builds gradually and the strong results come later. A new website moves fast once the material arrives. In the diagnosis we tell you which path makes sense first, and the timeline for your case.",
       },
       {
         pergunta: "Do you serve my city?",
@@ -280,7 +280,7 @@ export const en = {
       {
         pergunta: "My business is small. Is advertising worth it?",
         resposta:
-          "It is, as long as the aim is narrow: one service, one audience, one clear offer. With a modest budget and the right targeting, a local business usually sees the first leads within the first week. In the diagnosis we run the numbers for your case and tell you whether they add up.",
+          "It is, as long as the aim is narrow: one service, one audience, one clear offer. With a modest budget and the right targeting, a local business can often see the first leads early. In the diagnosis we run the numbers for your case and tell you whether they add up.",
       },
       {
         pergunta: "I already have someone handling my social media. Do I still need Etuos?",

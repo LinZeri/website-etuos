@@ -5,7 +5,7 @@ O blog deixou de ser produzido por rotinas em nuvem. As rotinas `etuos-blog-prod
 Planejamento: `docs/calendario-blog-outubro-2026-pt.md` e `docs/calendario-blog-outubro-2026-en.md` (um calendário por mês e idioma), e as filas `docs/blog-queue.json` (pt) e `docs/blog-queue-en.json` (en), com `publish_date` em cada item.
 
 ## Cadência e datas
-- 4 artigos por semana por idioma, em segunda, terça, quinta e sexta (pt e en são pautas independentes).
+- 4 artigos por semana em pt e em en, em segunda, terça, quinta e sexta; 2 por semana em es, em quarta e sexta, desde 04/11/2026 (`docs/blog-queue-es.json`, `docs/blog-strategy-es.md`). Os três idiomas são pautas independentes.
 - **Data passada ou de hoje**: o post aparece no próximo deploy. Usada para fechar lacunas.
 - **Data futura**: o post só aparece na data. O código (`src/lib/blog.ts`, `todosOsPostsParaRotas`) já não gera a rota de post futuro (a URL devolve 404 até a data). Mas o site é estático: o post só entra no ar num deploy feito **na data ou depois**. Para isso ser automático é preciso um deploy diário (workflow agendado do GitHub Actions chamando um Deploy Hook da Vercel, com o segredo `VERCEL_DEPLOY_HOOK`). Enquanto esse deploy diário não existir, um push em dia posterior à data é o que revela o post.
 - Fuso do filtro de data: America/Sao_Paulo.

@@ -1,6 +1,151 @@
 # Estratégia de blog: Etuos (português)
 
-> Atualização de 22/09/2026: este documento passa a governar **só o português**. O inglês tem estratégia e fila próprias em `docs/blog-strategy-en.md` e `docs/blog-queue-en.json`, com público, keywords e pautas independentes (sem `grupo` no frontmatter, logo sem hreflang entre os idiomas). Cadência: 1 artigo por dia em cada idioma, produzido pelas rotinas em nuvem do blog-loop. O restante do documento continua válido.
+> Atualização de 22/09/2026: este documento passa a governar **só o português**. O inglês tem estratégia e fila próprias em `docs/blog-strategy-en.md` e `docs/blog-queue-en.json`, com público, keywords e pautas independentes (sem `grupo` no frontmatter, logo sem hreflang entre os idiomas). Cadência atual: 4 artigos por semana por idioma, produzidos por sessão local (`docs/blog-loop-sessao-local.md`).
+>
+> **Atualização de 20/10/2026: a Fase 2 (logo abaixo) governa a produção de 02/11/2026 a 29/01/2027.** Os pilares 1 a 3 da Fase 1 estão fechados; a fila deve ser reposta com os pilares 5 a 8 da Fase 2. O restante do documento (audiências, regras on-site, padrões de qualidade, CTA) continua válido.
+
+## Fase 2: novembro de 2026 a janeiro de 2027
+
+Insumos: Search Console de 20/07 a 18/10/2026 (`docs/gsc/gsc-2026-10-18.json`), volumes DataForSEO consultados em 20/10/2026 (Google Ads, Brasil em português, salvo indicação), auditoria SEO de 20/10/2026 (`etuos-audit/`, score 86/100) e a lista de setores atendidos da página Sobre (`src/paginas/conteudo/sobre/pt.ts`).
+
+### Onde estamos
+
+- 34 artigos em português publicados ou agendados até 30/10; os pilares 1, 2 e 3 estão no teto de spokes.
+- Search Console, 90 dias: 340 impressões e 2 cliques no site inteiro. Páginas do blog pt com impressão: o pilar "como divulgar seu negócio nos Estados Unidos" (11 impressões, posição média 8,3), Local Services Ads (10, posição 35), SEO local (10, posição 88) e anunciar em inglês ou português (6, posição 11). É cedo: a maioria dos posts tem menos de 6 semanas.
+- Única query pt na faixa de 8 a 30: "anuncio em inglês" (posição 20,5) no post de anunciar em inglês ou português.
+- Citação por IA: baseline zerado (09/10); segunda coleta prevista para o início de novembro.
+
+### Tese da Fase 2
+
+A Fase 1 respondeu "como conseguir cliente" e "como anunciar". A Fase 2 cobre o que acontece **antes e depois do anúncio**: o site que recebe o clique, o atendimento que transforma contato em venda, o marketing específico de cada setor que a Etuos já atendeu e a decisão de contratar ajuda. Os quatro pilares novos ligam o blog às três páginas de serviço (site, tráfego, SEO) e trazem, pela primeira vez, termos com volume real no Brasil ("landing page o que é", 6.600/mês; "funil de vendas", 18.100/mês; "agência de marketing digital", 6.600/mês; "marketing médico", 1.300/mês).
+
+**Regra de setor:** só entra playbook de setor que está na lista de setores atendidos da página Sobre (real estate e imobiliário, construção e reformas, energia solar, baterias e energy backup, estética e beleza, medicina e clínicas, psicologia, restaurantes e alimentação, limpeza e serviços domésticos, mercado financeiro, eventos, moda e vestuário, jornalismo). Advogados (590/mês) e dentistas (170/mês) têm volume, mas ficam de fora enquanto não forem setor atendido.
+
+**Regra de preço:** posts de custo (site, agência) explicam o que compõe o preço e citam faixas só de fonte externa registrada. Nunca uma faixa de preço da Etuos.
+
+### Pilar 5: Site que traz cliente
+
+- **Propósito**: sustentar `/pt/servicos/criacao-de-sites`, que não tinha cluster próprio. Três posts existentes passam a ser spokes deste pilar e recebem link para o hub novo: "preciso de site se já tenho Instagram", "site em português ou inglês" e "site não aparece no Google".
+- **Ângulo único**: o próprio site da Etuos (estático, Lighthouse 100, evento de clique no WhatsApp medido no GA4) é o exemplo prático.
+- **Potencial de citação por IA**: médio (tema concorrido no Brasil), alto nas variantes EUA.
+
+| # | Título de trabalho | Template | Keyword-alvo | Volume BR |
+|---|---|---|---|---|
+| P | Site para pequena empresa: o que precisa ter, quanto custa e como saber se funciona | pillar-page | site para pequena empresa | (cauda) |
+| 1 | Landing page: o que é, para que serve e quando usar | faq-knowledge | landing page o que é | 6.600 |
+| 2 | Como criar uma landing page que converte, passo a passo | how-to-guide | como criar landing page | 720 |
+| 3 | Quanto custa um site profissional: o que muda o preço (Brasil e EUA) | data-research | quanto custa um site | 590 + 590 |
+| 4 | Landing page ou site: o que o seu negócio precisa primeiro | comparison | landing page ou site | (cauda) |
+| 5 | Página de serviço que vende: a estrutura que transforma visita em contato | how-to-guide | página de serviço | (cauda) |
+| 6 | Botão de WhatsApp no site: como colocar e medir quantos contatos ele gera | tutorial | botão whatsapp no site | (cauda) |
+| 7 | Site lento no celular: como medir e o que resolver primeiro | how-to-guide | site lento | (cauda) |
+| 8 | Domínio, hospedagem e e-mail profissional: o básico sem complicação | faq-knowledge | domínio próprio | (cauda) |
+
+Links de saída: `/pt/servicos/criacao-de-sites`, e o spoke 6 também para `/pt/servicos/trafego-pago`.
+
+### Pilar 6: Marketing por setor
+
+- **Propósito**: um playbook por setor atendido, falando com os dois mercados (Brasil e brasileiros nos EUA) em blocos separados. O post existente "marketing para limpeza, construção e beleza nos EUA" vira spoke e linka o hub.
+- **Ângulo único**: experiência real em cada setor. Energia solar tem o case das franquias (30 para 300+ em 1 ano e 8 meses), o mais forte que a Etuos tem.
+- **Atenção YMYL**: medicina e psicologia têm regras de publicidade dos conselhos (CFM e CFP). Esses posts só saem com a resolução vigente registrada em `docs/blog-fontes-verificadas.md` e o domínio do conselho liberado em `docs/blog-dominios-confiaveis.md`.
+
+| # | Título de trabalho | Template | Keyword-alvo | Volume BR |
+|---|---|---|---|---|
+| P | Marketing para negócio local por setor: o que muda em cada um | pillar-page | marketing por segmento | (cauda) |
+| 1 | Como vender energia solar: marketing para integradoras que querem escalar | how-to-guide | como vender energia solar | 480 |
+| 2 | Marketing médico: como divulgar a clínica dentro das regras do CFM | how-to-guide | marketing médico | 1.300 |
+| 3 | Marketing para clínicas de estética: o que atrai paciente e o que é proibido | listicle | marketing para clínicas | 140 + 70 |
+| 4 | Marketing para psicólogos: como divulgar seguindo o código de ética | how-to-guide | marketing para psicólogos | 70 |
+| 5 | Marketing para restaurante: delivery, Google e Instagram no mesmo plano | listicle | marketing para restaurante | 260 |
+| 6 | Marketing para imobiliária e corretor: do Brasil ao realtor brasileiro nos EUA | how-to-guide | marketing para imobiliária | 110 + 50 |
+| 7 | Marketing para construtora e empresa de reforma | how-to-guide | marketing para construtora | 110 |
+| 8 | Marketing para loja de roupas: vender no bairro e no Instagram | listicle | marketing para loja de roupas | 110 |
+| 9 | Marketing para eventos: como lotar sem depender de indicação | how-to-guide | marketing para eventos | 70 |
+
+Links de saída: a página de serviço mais próxima do canal principal de cada setor e, quando houver exemplo nos EUA, a página da cidade.
+
+### Pilar 7: Do clique ao cliente (conversão e atendimento)
+
+- **Propósito**: o pedaço que os concorrentes ignoram. O anúncio funciona e a venda não sai porque o atendimento demora, ninguém faz follow-up e ninguém sabe de onde veio o cliente. Liga tráfego pago a resultado e reforça o post existente de WhatsApp Business (que vira spoke).
+- **Potencial de citação por IA**: alto em "remarketing" e "funil de vendas para negócio local", termos com volume e SERP genérica.
+
+| # | Título de trabalho | Template | Keyword-alvo | Volume BR |
+|---|---|---|---|---|
+| P | Funil de vendas para negócio local: do anúncio ao cliente fechado | pillar-page | funil de vendas | 18.100 |
+| 1 | O que é remarketing e quando vale a pena para negócio local | faq-knowledge | o que é remarketing | 1.000 (3.600 a cabeça) |
+| 2 | Pixel da Meta: o que é, como instalar e o que ele mede | tutorial | pixel do facebook | 210 |
+| 3 | CRM para pequenas empresas: o que você realmente precisa | comparison | crm para pequenas empresas | 170 |
+| 4 | Quanto tempo você demora para responder um contato (e quanto isso custa) | data-research | tempo de resposta ao cliente | (cauda) |
+| 5 | Como saber de onde vêm seus clientes: rastrear WhatsApp, ligação e formulário | tutorial | rastrear conversões | (cauda) |
+| 6 | Pediu orçamento e sumiu: como fazer follow-up sem ser chato | how-to-guide | follow-up de vendas | (cauda) |
+| 7 | Como atrair clientes para negócio local: os canais comparados | comparison | como atrair clientes | 590 |
+
+Regra: o spoke 4 depende de dado de tempo de resposta com fonte registrada; sem fonte, sai qualitativo e sem número.
+
+### Pilar 8: Contratar marketing sem erro (fundo de funil)
+
+- **Propósito**: responder as perguntas de quem já decidiu contratar ajuda e está comparando. É o pilar mais perto da conversão no WhatsApp e o que alimenta a query de monitoramento "melhor agência de marketing para brasileiros nos EUA".
+- **Ângulo único**: honestidade de quem está do lado de dentro (princípio "Honestidade antes do contrato" da página Sobre). Nada de autoelogio: o post ensina a avaliar qualquer agência, inclusive a Etuos.
+- **Volume**: as caudas não têm volume mensurável; a cabeça "agência de marketing digital" tem 6.600/mês no Brasil. Aposta de citação por IA e de conversão, não de tráfego.
+
+| # | Título de trabalho | Template | Keyword-alvo | Volume BR |
+|---|---|---|---|---|
+| P | Agência de marketing digital: o que faz, como escolher e quando contratar | pillar-page | agência de marketing digital | 6.600 |
+| 1 | Agência, freelancer ou fazer sozinho: como decidir | comparison | agência ou freelancer | (cauda) |
+| 2 | Perguntas para fazer antes de contratar uma agência de marketing | faq-knowledge | como escolher agência de marketing | (cauda) |
+| 3 | Sinais de que sua agência de marketing não está funcionando | listicle | agência de marketing não dá resultado | (cauda) |
+| 4 | O que um relatório de marketing deve mostrar (e o que é métrica de vaidade) | how-to-guide | relatório de marketing | (cauda) |
+| 5 | Quem é dono da sua conta de anúncios? O que olhar no contrato antes de assinar | faq-knowledge | conta google ads agência | (cauda) |
+| 6 | Agência de marketing para brasileiros nos EUA: o que avaliar antes de fechar | how-to-guide | agência de marketing para brasileiros nos eua | (nicho) |
+
+Links de saída: `/pt/sobre`, `/pt/servicos` e `/pt/eua`. Nunca preço, garantia ou nome de cliente.
+
+### Pilar 4 (continua): dados próprios
+
+- 30/10: artigo de autoridade das franquias (já na fila).
+- Dezembro: "Radiografia do empreendedor brasileiro nos EUA", com dados públicos (Census/ACS) registrados antes da escrita.
+- Cases: só com autorização e dados do cliente, entregues pelo Lin. A sessão de produção nunca cria pauta de case sozinha.
+
+### Reforço e frescor (a partir do GSC)
+
+1. **Anunciar em inglês ou português** (posição 11, query "anuncio em inglês" na 20,5): incluir "anúncio em inglês" no título e num H2. Primeira atualização de novembro.
+2. **SEO local: o que é** (10 impressões, posição 88): conferir intenção da SERP (definição curta) e reforçar a cápsula de resposta do primeiro H2.
+3. Releitura do GSC a cada 2 semanas (`python scripts/gsc-export.py 90`). Post com 6+ semanas e zero impressão entra na lista de revisão; query pt na faixa de 8 a 30 vira reforço ou spoke.
+
+### Ordem de produção (fila)
+
+Alternar pilares para o blog não parecer de um tema só. Prioridade por semana: pilar 5 e pilar 7 primeiro (maior volume e ligação direta com serviço), depois 6 e 8. Hubs saem na primeira semana de cada pilar, para os spokes já nascerem linkando.
+
+| Semana | Itens |
+|---|---|
+| 02/11 | Hub P5, Hub P7, P5.1 landing page o que é, P7.1 remarketing |
+| 09/11 | Hub P6, P6.1 energia solar, P5.2 criar landing page, P7.2 pixel da Meta |
+| 16/11 | Hub P8, P8.2 perguntas para a agência, P5.3 quanto custa um site, P7.3 CRM |
+| 23/11 | P6.2 marketing médico (se a fonte do CFM estiver registrada), P5.4, P7.5, P8.1 |
+| 30/11 a 21/12 | Restante dos pilares 5 a 8, mais a Radiografia (pilar 4) |
+| Janeiro | Spokes restantes, reforços do GSC e as 2 atualizações de frescor por mês |
+
+São 35 pautas novas (34 dos pilares 5 a 8 mais a Radiografia) para cerca de 9 semanas de produção. Na semana de 28/12, cadência mínima (2 posts).
+
+### Superfície de IA e off-site (Fase 2)
+
+- Regras on-site da Fase 1 continuam (cápsula de resposta por H2, entidade "Etuos" consistente, autor Lin Zeri, schema BlogPosting + Person + BreadcrumbList).
+- **Sinal de entidade**: o LinkedIn da empresa (https://www.linkedin.com/company/etuos/) entrou no `sameAs` do Organization em 21/10 (`site.perfis` em `src/data/site.ts`). Faltam o LinkedIn pessoal do Lin (para o `sameAs` do Person) e um perfil em diretório de agências (Clutch), item 5 da auditoria de 20/10. Sem perfis externos, a citação por IA tende a continuar em zero, independentemente do volume de posts.
+- Coleta de citação por IA no início de novembro e no início de dezembro, acrescentando 2 queries da Fase 2: "o que é remarketing para negócio local" e "como escolher agência de marketing digital".
+
+### Espanhol (decidido em 21/10/2026)
+
+**Decisão do dono: abrir o espanhol com 2 posts por semana (quarta e sexta) a partir de 04/11/2026**, com estratégia e fila próprias em `docs/blog-strategy-es.md` e `docs/blog-queue-es.json`. Contexto que levou à decisão:
+
+O dado mais forte do Search Console não está no blog: `/es/ciudades/houston` é a página com mais impressões do site (90 em 90 dias), com queries em espanhol entre as posições 10 e 25 ("agencia de marketing en houston", 9,7; "agencia de publicidad en houston", 13,1). "Agencia de marketing digital" tem 1.600 buscas/mês nos EUA em espanhol, e "google mi negocio", 1.000. Ao mesmo tempo, `/es/blog` está vazio e indexável (item 4 da auditoria), o que o primeiro post em espanhol resolve.
+
+### Metas da Fase 2 (até 29/01/2027)
+
+- Blog pt com 60+ artigos e 8 pilares, cada um com hub e 6+ spokes.
+- Impressões do site no GSC (90 dias) acima de 1.500, com pelo menos 10 páginas do blog pt com impressão. Ponto de partida: 340 no site inteiro.
+- 5+ queries pt do blog na faixa de 1 a 20.
+- Primeira menção da Etuos em qualquer plataforma de IA monitorada.
+- Primeira conversa de WhatsApp atribuída ao blog (evento `whatsapp_click` no GA4, com página de origem em `/pt/blog/`).
 
 Data: 06/08/2026. Insumos: auditoria SEO completa de 06/08/2026 (etuos.com-audit/), análise competitiva de SERP (findings/sxo.md), volumes de busca via DataForSEO (Google Ads, consultados em 06/08/2026), docs/seo.md e docs/escopo.md.
 
@@ -71,7 +216,7 @@ Links de saída do cluster: /pt/eua, /pt/servicos/trafego-pago, /pt/servicos/cri
 
 - **Propósito**: sustentar a página de serviço mais vendida com autoridade de meio de funil, nos dois mercados.
 - **Potencial de citação por IA: Médio.** Tema concorrido no Brasil; o diferencial é responder com números e casos, não com teoria.
-- **Ângulo único**: dados reais de campanhas (o case de 30 para 300+ franquias, os R$ 100 mil/mês geridos) e a visão dupla Brasil/EUA que nenhum concorrente tem.
+- **Ângulo único**: dados reais de campanhas (o case de 30 para 300+ franquias, os US$ 500 mil+ em anúncios gerenciados) e a visão dupla Brasil/EUA que nenhum concorrente tem.
 
 | # | Título de trabalho | Template | Keyword-alvo | Palavras |
 |---|---|---|---|---|

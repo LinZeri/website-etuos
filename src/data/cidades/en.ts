@@ -84,7 +84,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
     faq: [
       {
         pergunta: "My business slows down in the off season. Should I pause my ads?",
-        resposta: "Pausing completely usually costs more than it saves. Campaigns lose data and take weeks to regain momentum. We cut spend in slow months to a minimum that still brings profitable leads, and use that time to build reviews and SEO. Then the budget ramps up before the next peak, so you're already visible when demand returns."
+        resposta: "Pausing completely usually costs more than it saves. Campaigns lose data and take time to regain momentum. We cut spend in slow months to a minimum that still brings profitable leads, and use that time to build reviews and SEO. Then the budget ramps up before the next peak, so you're already visible when demand returns."
       },
       {
         pergunta: "Can I reach tourists before they arrive in Orlando?",
@@ -368,7 +368,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
       },
       {
         pergunta: "How much should a Danbury business spend on ads to see results?",
-        resposta: "Less than in a big metro. For most local services, a modest monthly ad budget is enough to test the market and see a cost per lead within the first weeks; the diagnosis calculates the number for your case. We start there, keep what works, cut what doesn't, and scale only once the numbers justify it. Message us on WhatsApp and we'll start with that diagnosis."
+        resposta: "Less than in a big metro. For most local services, a modest monthly ad budget is enough to test the market and see a cost per lead early on; the diagnosis calculates the number for your case. We start there, keep what works, cut what doesn't, and scale only once the numbers justify it. Message us on WhatsApp and we'll start with that diagnosis."
       }
     ]
   },
@@ -408,7 +408,7 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
       },
       {
         pergunta: "I'm just opening my business in Atlanta. Where do I start?",
-        resposta: "Start with a Google Business Profile and a page that explains what you do, for whom and where. With those live, paid ads bring the first customers within weeks while SEO starts building what sustains you later. Doing it the other way around, ads before a solid profile and site, wastes money on clicks that don't convert."
+        resposta: "Start with a Google Business Profile and a page that explains what you do, for whom and where. With those live, paid ads can bring the first customers early while SEO starts building what sustains you later. Doing it the other way around, ads before a solid profile and site, wastes money on clicks that don't convert."
       },
       {
         pergunta: "Can I serve customers spread across Marietta, Alpharetta and Buford?",

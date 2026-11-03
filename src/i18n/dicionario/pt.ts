@@ -212,7 +212,7 @@ export const pt = {
       {
         pergunta: "Em quanto tempo vejo resultado?",
         resposta:
-          "Tráfego pago costuma trazer os primeiros contatos na primeira semana e estabiliza em 30 a 60 dias. SEO mostra os primeiros movimentos entre 60 e 90 dias e o resultado forte depois do sexto mês. Um site novo fica pronto em duas a quatro semanas. No diagnóstico a gente diz qual caminho faz sentido primeiro.",
+          "Tráfego pago costuma trazer os primeiros contatos cedo, mas ainda precisa de ajuste até estabilizar. SEO é trabalho de meses: os primeiros movimentos aparecem aos poucos e o resultado forte vem depois. Um site novo anda rápido quando o material chega. No diagnóstico a gente diz qual caminho faz sentido primeiro e o prazo do seu caso.",
       },
       {
         pergunta: "Vocês atendem a minha cidade?",
@@ -287,7 +287,7 @@ export const pt = {
       {
         pergunta: "Meu negócio é pequeno. Vale a pena anunciar?",
         resposta:
-          "Vale, desde que a mira seja estreita: um serviço, um público, uma oferta clara. Com verba modesta e segmentação certa, negócio local costuma ver os primeiros contatos na primeira semana. No diagnóstico a gente calcula o número do seu caso e fala se a conta fecha.",
+          "Vale, desde que a mira seja estreita: um serviço, um público, uma oferta clara. Com verba modesta e segmentação certa, negócio local costuma ver os primeiros contatos cedo. No diagnóstico a gente calcula o número do seu caso e fala se a conta fecha.",
       },
       {
         pergunta: "Já tenho alguém cuidando das minhas redes. Preciso da Etuos?",

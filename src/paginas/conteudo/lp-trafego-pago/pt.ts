@@ -82,7 +82,7 @@ export const lpTrafegoPagoPt = {
     {
       pergunta: "Em quanto tempo o anúncio começa a trazer cliente?",
       resposta:
-        "Campanha bem montada costuma gerar os primeiros contatos na primeira semana. O ajuste fino leva de 30 a 60 dias, que é o tempo de descobrir o que rende mais no seu caso.",
+        "Campanha bem montada costuma gerar os primeiros contatos cedo, mas o ritmo depende do setor, da cidade e da verba. O ajuste fino leva um tempo, que é o de descobrir o que rende mais no seu caso.",
     },
     {
       pergunta: "Qual a verba mínima para valer a pena?",

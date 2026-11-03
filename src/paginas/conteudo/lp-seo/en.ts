@@ -81,7 +81,7 @@ export const lpSeoEn = {
     {
       pergunta: "How long does SEO take to show results?",
       resposta:
-        "The first movements usually show up between 60 and 90 days. SEO is compound interest: every month of work adds to the last. Anyone promising the first page in 30 days is selling an illusion.",
+        "The first movements build gradually. SEO is compound interest: every month of work adds to the last. Anyone promising a guaranteed first page is selling an illusion.",
     },
     {
       pergunta: "Is there a lock-in contract?",
