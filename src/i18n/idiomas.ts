@@ -29,10 +29,11 @@ export const HREFLANG = {
 
 export type CodigoHreflang = (typeof HREFLANG)[Idioma] | "x-default";
 
+// O espanhol fala com a comunidade hispânica dos EUA, não com a Espanha.
 export const OG_LOCALE: Record<Idioma, string> = {
   pt: "pt_BR",
   en: "en_US",
-  es: "es_ES",
+  es: "es_US",
 };
 
 export const NOME_IDIOMA: Record<Idioma, { curto: string; longo: string }> = {

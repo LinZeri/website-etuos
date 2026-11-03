@@ -65,7 +65,7 @@ Segmentos ficam em `src/i18n/rotas.ts` (`SEGMENTOS`) e slugs de entidade em `src
 - **hreflang:** `metadataDaPagina` recebe `alternativas` (URLs da mesma página nos idiomas em que ela existe) e emite `<link rel="alternate" hreflang>` autorreferente e recíproco, com `x-default` apontando para a versão em inglês. Com um idioma só (post sem tradução), nada é emitido. Códigos: `pt-BR`, `en`, `es`.
 - **Canonical:** sempre a própria URL, no próprio idioma.
 - **`<html lang>`:** `pt-BR`, `en` ou `es`, definido no layout raiz (`src/app/[idioma]/layout.tsx`).
-- **Open Graph:** `og:locale` (`pt_BR`, `en_US`, `es_ES`) mais `og:locale:alternate` dos outros idiomas; imagem OG gerada por idioma em `/<idioma>/opengraph-image`.
+- **Open Graph:** `og:locale` (`pt_BR`, `en_US`, `es_US`) mais `og:locale:alternate` dos outros idiomas; imagem OG gerada por idioma em `/<idioma>/opengraph-image`.
 - **JSON-LD:** `Organization` é uma entidade só (`@id` fixo) nos três idiomas; `WebSite`, `Service`, `BlogPosting` e `BreadcrumbList` têm `url` e `inLanguage` por idioma.
 - **Sitemap:** uma entrada por página e por idioma, com `xhtml:link` das alternativas. Raiz e landings ficam fora.
 - **Landings `/lp/*`:** `noindex, nofollow`, sem hreflang, fora do sitemap.
