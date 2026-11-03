@@ -22,6 +22,14 @@ export const site = {
       es: "¡Hola! Llegué por el sitio de Etuos y quiero un diagnóstico gratuito para atraer más clientes.",
     } satisfies Record<Idioma, string>,
   },
+  // Perfis oficiais fora do site. Entram no sameAs da Organization (sinal de
+  // entidade para o Google e para as IAs); só perfil ativo e da própria Etuos.
+  perfis: [
+    "https://www.linkedin.com/company/etuos/",
+    "https://www.instagram.com/etuosdigital",
+  ],
+  // Perfis pessoais do Lin, no sameAs do Person (página Sobre e autor dos posts).
+  perfisLin: ["https://www.linkedin.com/in/lin-zeri/"],
 } as const;
 
 // Número legível para exibir na página: +55 16 99125-2073 ou +1 (305) 555-0100.

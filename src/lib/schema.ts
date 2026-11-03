@@ -34,6 +34,10 @@ export function organizacaoJsonLd(idioma: Idioma) {
     url: site.dominio,
     logo: `${site.dominio}/images/logo-etuos.svg`,
     description: site.descricao[idioma],
+    sameAs: site.perfis,
+    // Ano de fundação contado na página Sobre ("Fundei a Etuos em 2023").
+    foundingDate: "2023",
+    founder: { "@id": ID_LIN },
     areaServed: [
       { "@type": "Country", name: t.schema.eua },
       { "@type": "Country", name: t.schema.brasil },
@@ -78,6 +82,7 @@ export function pessoaJsonLd(idioma: Idioma) {
     url: url(caminho(idioma, { tipo: "sobre" })),
     worksFor: { "@id": ID_ORGANIZACAO },
     image: `${site.dominio}/images/lin-zeri.webp`,
+    sameAs: site.perfisLin,
     knowsLanguage: ["pt-BR", "en", "es"],
   };
 }
@@ -149,6 +154,7 @@ export function postJsonLd(
             "@id": ID_LIN,
             name: "Lin Zeri",
             url: url(caminho(idioma, { tipo: "sobre" })),
+            sameAs: site.perfisLin,
           }
         : { "@id": ID_ORGANIZACAO },
     publisher: { "@id": ID_ORGANIZACAO },
