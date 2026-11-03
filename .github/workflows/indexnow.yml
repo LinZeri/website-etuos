@@ -1,0 +1,29 @@
+name: IndexNow (avisa o Bing das URLs novas)
+
+# Roda uma hora depois do deploy diario (deploy-diario.yml, 03:10 UTC), quando
+# o sitemap de producao ja traz os posts do dia. Envia ao IndexNow as URLs com
+# lastmod nos ultimos 2 dias. Sem segredo: a chave do IndexNow e publica por
+# definicao (fica em public/<chave>.txt).
+
+on:
+  schedule:
+    - cron: "10 4 * * *"
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "Argumentos do script (ex.: --todas, --dias 7, --simular)"
+        required: false
+        default: ""
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Enviar URLs ao IndexNow
+        env:
+          MODO: ${{ github.event.inputs.modo }}
+        run: node scripts/indexnow.mjs $MODO
