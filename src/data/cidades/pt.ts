@@ -70,7 +70,10 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
       "Hunters Creek",
       "Lake Nona",
       "Davenport",
-      "Clermont"
+      "Clermont",
+      "MetroWest",
+      "Windermere",
+      "Dr. Phillips"
     ],
     servicosLocais: {
       "trafego-pago": "Orlando tem dois públicos e cada um pede uma campanha: o turista que planeja a viagem semanas antes, ainda no Brasil, e o morador que precisa do serviço nesta semana. A gente separa as duas e move a verba conforme a temporada de férias esquenta ou esfria.",
@@ -90,6 +93,18 @@ export const cidadesPt: Record<IdCidade, ConteudoCidade> = {
       {
         pergunta: "Preciso aparecer no Google Maps se meu cliente é turista?",
         resposta: "Precisa. Boa parte dos turistas busca já na cidade, no celular, com o mapa aberto. E o perfil também trabalha a favor da confiança: fotos, horário e avaliações recentes são o que fazem alguém de fora escolher você sem conhecer ninguém que já usou o seu serviço."
+      },
+      {
+        pergunta: "A Etuos tem escritório em Orlando?",
+        resposta: "Não, e a gente prefere deixar isso claro. O atendimento é remoto: o Lin, fundador da Etuos, mora no Brasil e acompanha o seu negócio pelo WhatsApp e por videochamada, com uma ou duas horas de diferença para a Flórida, conforme o horário de verão. Para tráfego pago, SEO e site, o que pesa é entender o público de Orlando e medir o resultado todo mês, não ter uma sala na cidade."
+      },
+      {
+        pergunta: "Atendo na casa do cliente e não tenho loja. Consigo aparecer no Google Maps?",
+        resposta: "Consegue. O Google aceita perfil de negócio que atende no endereço do cliente, como limpeza, handyman e transfer. Você esconde o endereço de casa e informa as regiões que atende, como MetroWest, Windermere ou Kissimmee. O que não pode é usar endereço onde você não trabalha de verdade, porque o Google suspende o perfil."
+      },
+      {
+        pergunta: "Meus clientes são brasileiros e americanos. Faço anúncio nos dois idiomas?",
+        resposta: "Na maioria dos casos, sim, mas em campanhas separadas. O brasileiro recém-chegado busca em português e quer fechar pelo WhatsApp; o americano busca em inglês, liga e compara avaliações. Misturar os dois na mesma campanha confunde o anúncio e esconde qual público dá retorno. Separando, a gente sabe onde colocar cada dólar."
       }
     ]
   },

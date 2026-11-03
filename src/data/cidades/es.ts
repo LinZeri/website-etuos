@@ -68,7 +68,9 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
       "Poinciana",
       "Hunters Creek",
       "Lake Nona",
-      "Davenport"
+      "Davenport",
+      "Azalea Park",
+      "Meadow Woods"
     ],
     servicosLocais: {
       "trafego-pago": "En Orlando la distancia manda. Un cliente de Poinciana no va a manejar hasta Lake Nona por un corte de pelo, pero sí llama al techista que atiende su zona. Por eso armamos las campañas de Google Ads con radios reales de atención. En Meta Ads (Instagram y Facebook) usamos anuncios en español para las familias de Kissimmee y en inglés para el resto del condado, con el presupuesto siempre bajo control.",
@@ -88,6 +90,18 @@ export const cidadesEs: Record<IdCidade, ConteudoCidade> = {
       {
         pergunta: "¿Atienden negocios de Kissimmee y de los suburbios?",
         resposta: "Sí. Para nosotros Orlando es toda el área metropolitana: Kissimmee, Buenaventura Lakes, Poinciana, Davenport, Hunters Creek y Lake Nona. De hecho, muchos de los mejores resultados salen de los suburbios, donde hay menos competencia por cada búsqueda y el cliente vive más cerca de ti. Lo único que cambia es la configuración geográfica de la campaña y las páginas de zona que creamos en tu sitio."
+      },
+      {
+        pergunta: "¿Etuos tiene oficina en Orlando?",
+        resposta: "No, y preferimos decirlo claro desde el principio. Trabajamos de forma remota. Lin Zeri, el fundador, vive en Brasil, con una o dos horas de diferencia con la Florida según el horario de verano, y atiende tu cuenta en persona por WhatsApp y videollamada. Para anuncios, SEO y sitio web, lo que cuenta es conocer a tus clientes de Orlando y medir los resultados cada mes, no tener una oficina en la ciudad."
+      },
+      {
+        pergunta: "Trabajo en casa de mis clientes y no tengo local. ¿Puedo aparecer en Google Maps?",
+        resposta: "Sí. Google permite perfiles de negocio que atienden en el domicilio del cliente: limpieza, techos, jardinería, plomería. Ocultas la dirección de tu casa y marcas las zonas donde trabajas, como Azalea Park, Meadow Woods o Poinciana. Lo que no se puede es poner una dirección donde no trabajas de verdad, como una oficina virtual: Google suspende el perfil y recuperarlo toma tiempo."
+      },
+      {
+        pergunta: "Mis clientes son hispanos y americanos. ¿Anuncio en los dos idiomas?",
+        resposta: "Casi siempre conviene, pero en campañas separadas. La familia hispana busca en español, mira las reseñas y escribe por WhatsApp; el cliente americano busca en inglés y llama. Si mezclas los dos en una sola campaña, el anuncio no le habla bien a ninguno y no sabes cuál te trae clientes. Separadas, cada dólar tiene su propia medición."
       }
     ]
   },

@@ -70,7 +70,10 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
       "Hunters Creek",
       "Lake Nona",
       "Davenport",
-      "Clermont"
+      "Clermont",
+      "Winter Park",
+      "Oviedo",
+      "Sanford"
     ],
     servicosLocais: {
       "trafego-pago": "Ads in Orlando need a seasonal budget, not a flat one. We raise spend ahead of school breaks and holiday weeks for businesses that serve visitors, and keep resident-focused campaigns steady in Kissimmee, Lake Nona and the west side suburbs. Location targeting matters here: a tourist searching from a resort in Davenport is a different customer than a homeowner in Clermont.",
@@ -90,6 +93,18 @@ export const cidadesEn: Record<IdCidade, ConteudoCidade> = {
       {
         pergunta: "New suburbs keep popping up around Orlando. How do I reach those new residents?",
         resposta: "Target them where they search: a Google Business Profile that lists Lake Nona, Winter Garden or Clermont as service areas, service pages that mention those places specifically, and ads geofenced to the growing ZIP codes. New residents don't have a go-to plumber, cleaner or dentist yet. Whoever shows up first with a solid profile earns the loyalty. Message us on WhatsApp and we'll map the growing areas you should be covering."
+      },
+      {
+        pergunta: "Is Etuos based in Orlando?",
+        resposta: "No, and we'd rather tell you upfront. We work remotely. Lin Zeri, the founder, is based in Brazil, one to two hours ahead of Florida depending on daylight saving time, and handles your account himself over WhatsApp and video calls. For ads, SEO and websites, what moves the needle is understanding Orlando's customers and measuring results every month, not having a desk downtown."
+      },
+      {
+        pergunta: "I work at my customers' homes and have no storefront. Can I still show up on Google Maps?",
+        resposta: "Yes. Google supports service-area businesses: cleaners, handymen, pool techs, mobile detailers. You hide your home address and list the areas you cover, like Winter Park, Oviedo or Sanford. What you can't do is list an address where you don't actually work. Virtual offices and mailboxes get profiles suspended, and rebuilding one costs more than doing it right the first time."
+      },
+      {
+        pergunta: "Do you work with businesses that aren't Brazilian-owned?",
+        resposta: "Yes. The strategy follows your customers, not your background. Our roots are in the Brazilian community, which is why we're used to marketing in more than one language, but in Orlando most of the campaigns we'd build for you run in English, aimed at local homeowners and visitors. If part of your customer base speaks Spanish or Portuguese, we add a separate campaign for them."
       }
     ]
   },
